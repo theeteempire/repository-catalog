@@ -1,0 +1,42 @@
+
+name: Update PS5 repository catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "convert.py"
+      - ".github/workflows/update-catalog.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Convert upstream database
+        run: python convert.py
+
+      - name: Commit updated catalog files
+        run: |
+          if git diff --quiet -- repositories.json payloads_v2.json; then
+            echo "Catalog files are unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add repositories.json payloads_v2.json
+          git commit -m "Update generated PS5 repository catalog"
+          git push
