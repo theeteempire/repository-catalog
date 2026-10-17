@@ -18,8 +18,8 @@ Every six hours, GitHub Actions:
 2. Retains the maintained itsPLK payload catalog's curated metadata, direct links, versions, checksums, and icon keys.
 3. Checks repositories without a curated payload entry against the GitHub Releases API.
 4. Adds extra release assets only when they are direct HTTPS `.elf` downloads. Repository pages and release landing pages are never presented as installable payloads.
-5. Builds a standalone `icons.json`, preserving the original itsPLK icon data and adding hashed GitHub avatar images as a fallback for newly discovered release entries when available.
-6. Validates the generated JSON and verifies every PLDMGR `url` points to an HTTPS `.elf` asset before committing the results.
+5. Builds a standalone `icons.json`, preserving valid original itsPLK icons and adding normalized GitHub owner avatars as fallbacks for repository records without a usable curated icon.
+6. Verifies that every unique repository in the source database is retained, every repository and payload icon key resolves, and every PLDMGR `url` points to a direct HTTPS `.elf` asset before committing the results.
 
 ## Payload metadata
 
@@ -40,7 +40,7 @@ The generator does **not** invent release tags, hashes, or binary URLs. An upstr
 - `repositories.json`: the complete recognized repository index, enriched with payload metadata where a reliable match exists.
 - `icons.json`: icon map keyed by SHA-256 hashes. Existing itsPLK icons are retained; repository avatars are only a fallback for entries without an existing icon.
 
-The payload feed includes `icons_url: "icons.json"`. GitHub Pages serves these files from the same directory.
+Both JSON indexes now use the absolute GitHub Pages URL for `icons_url`, avoiding clients that fail to resolve a relative icon path. Every recognized repository receives an icon key: the curated itsPLK icon is preferred when valid, otherwise the repository owner avatar is normalized to a small PNG/JPEG data URI. The build fails rather than publishing repository records with missing or invalid icon mappings.
 
 ## Automatic updates
 
