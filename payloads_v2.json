@@ -1,7 +1,7 @@
 {
   "name": "PS5 Payloads",
   "schema_version": 2,
-  "generated_at": "2026-10-17T22:52:17+00:00",
+  "generated_at": "2026-10-17T22:59:18+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "icons.json",
   "payloads": [
