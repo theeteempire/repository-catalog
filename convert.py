@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import base64
 import hashlib
+import io
 import json
 import mimetypes
 import os
@@ -176,6 +177,44 @@ def get_latest_release(full_name: str) -> dict[str, Any] | None:
         return None
 
 
+def normalize_icon_data(value: Any) -> str:
+    """Normalize icon data to PLDMGR's size/format limits."""
+    if not isinstance(value, str) or not value.startswith("data:image/") or "," not in value:
+        return ""
+    header, encoded = value.split(",", 1)
+    try:
+        raw = base64.b64decode(encoded, validate=True)
+    except Exception:
+        return ""
+    if len(value) <= 12_288 and header.startswith(("data:image/png;base64", "data:image/jpeg;base64", "data:image/svg+xml;base64")):
+        # Even valid data URIs may contain oversized image dimensions; re-encode raster formats below.
+        if header.startswith("data:image/svg+xml;base64"):
+            return value
+    try:
+        from PIL import Image
+        image = Image.open(io.BytesIO(raw))
+        image.thumbnail((128, 128), Image.Resampling.LANCZOS)
+        if image.mode not in ("RGB", "RGBA"):
+            image = image.convert("RGBA" if "transparency" in image.info else "RGB")
+        output = io.BytesIO()
+        image.save(output, format="PNG", optimize=True)
+        png = output.getvalue()
+        png_uri = "data:image/png;base64," + base64.b64encode(png).decode("ascii")
+        if len(png_uri) <= 12_288:
+            return png_uri
+        # JPEG fallback for photographic icons; transparency is flattened on white.
+        rgb = image.convert("RGB")
+        for quality in (85, 70, 55, 40, 30):
+            output = io.BytesIO()
+            rgb.save(output, format="JPEG", quality=quality, optimize=True, progressive=True)
+            jpg_uri = "data:image/jpeg;base64," + base64.b64encode(output.getvalue()).decode("ascii")
+            if len(jpg_uri) <= 12_288:
+                return jpg_uri
+    except Exception:
+        pass
+    return ""
+
+
 def add_avatar_icon(owner_avatar_url: str, icons: dict[str, str]) -> str:
     if not owner_avatar_url.startswith("https://"):
         return ""
@@ -185,7 +224,10 @@ def add_avatar_icon(owner_avatar_url: str, icons: dict[str, str]) -> str:
             return ""
         key = hashlib.sha256(raw).hexdigest()
         mime = mimetypes.guess_type(owner_avatar_url.split("?")[0])[0] or "image/png"
-        icons.setdefault(key, f"data:{mime};base64,{base64.b64encode(raw).decode('ascii')}")
+        normalized = normalize_icon_data(f"data:{mime};base64,{base64.b64encode(raw).decode('ascii')}")
+        if not normalized:
+            return ""
+        icons.setdefault(key, normalized)
         return key
     except Exception as exc:
         print(f"NOTICE: could not fetch repository avatar: {exc}", file=sys.stderr)
@@ -204,6 +246,9 @@ def main() -> int:
     icons = icons_data.get("icons", {}) if isinstance(icons_data, dict) else {}
     if not isinstance(icons, dict):
         icons = {}
+    # PLDMGR rejects icon catalogs with oversized entries/catalogs. Normalize all upstream images.
+    icons = {key: normalized for key, value in icons.items()
+             if isinstance(key, str) and (normalized := normalize_icon_data(value))}
 
     repositories: list[dict[str, Any]] = []
     seen_repos: set[str] = set()
@@ -356,16 +401,18 @@ def main() -> int:
     (OUT_DIR / "payloads_v2.json").write_text(
         json.dumps(pldmgr_doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    (OUT_DIR / "icons.json").write_text(
-        json.dumps({"icons": icons}, ensure_ascii=False, separators=(",", ":")) + "\n",
-        encoding="utf-8"
-    )
+    icon_json = json.dumps({"icons": icons}, ensure_ascii=False, separators=(",", ":")) + "\n"
+    if len(icon_json.encode("utf-8")) >= 4 * 1024 * 1024:
+        print("ERROR: optimized icon catalog still exceeds PLDMGR's 4 MiB limit.", file=sys.stderr)
+        return 5
+    (OUT_DIR / "icons.json").write_text(icon_json, encoding="utf-8")
 
     print(f"Repositories indexed: {len(repositories)}")
     print(f"Direct ELF payload entries retained from curated mirror: {len(payloads) - discovered}")
     print(f"Additional direct ELF release assets discovered: {discovered}")
     print(f"Repositories checked through GitHub Releases API: {checked}")
     print(f"Icon records available: {len(icons)}")
+    print(f"Optimized icon catalog size: {len(icon_json.encode('utf-8'))} bytes")
     print("Every payload URL points to a direct .elf asset, not a repository page.")
     return 0
 
