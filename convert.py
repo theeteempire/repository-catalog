@@ -279,6 +279,21 @@ def main() -> int:
         print("ERROR: source parser found no repositories; refusing to overwrite outputs.", file=sys.stderr)
         return 2
 
+    # Guard against silently dropping any valid repository from the source's primary list.
+    source_repos = source_data.get("repos") if isinstance(source_data, dict) else None
+    if isinstance(source_repos, list):
+        expected_repo_urls = set()
+        for source_obj in source_repos:
+            if isinstance(source_obj, dict):
+                source_record = repository_record(source_obj)
+                if source_record:
+                    expected_repo_urls.add(source_record["repository_url"].lower())
+        missing_source_urls = expected_repo_urls - seen_repos
+        if missing_source_urls:
+            print(f"ERROR: parser omitted {len(missing_source_urls)} source repositories: {sorted(missing_source_urls)[:10]}", file=sys.stderr)
+            return 7
+        print(f"Source records: {len(source_repos)}; unique valid repositories retained: {len(expected_repo_urls)}")
+
     mirror_payloads = mirror_data.get("payloads") if isinstance(mirror_data, dict) else None
     if not isinstance(mirror_payloads, list):
         print("ERROR: itsPLK mirror schema changed; expected payloads array.", file=sys.stderr)
