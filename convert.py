@@ -143,7 +143,7 @@ def repository_record(obj: dict[str, Any]) -> dict[str, Any] | None:
 
 
 
-def request_bytes(url: str, *, accept: str = "application/json", timeout: int = 45) -> bytes:
+def request_bytes(url: str, *, accept: str = "application/json", timeout: int = 12) -> bytes:
     headers = {"User-Agent": USER_AGENT, "Accept": accept}
     if GITHUB_TOKEN and url.startswith(API_ROOT):
         headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
@@ -261,7 +261,7 @@ def add_avatar_icon(owner_avatar_url: str, icons: dict[str, str]) -> str:
     if not owner_avatar_url.startswith("https://"):
         return ""
     try:
-        raw = request_bytes(owner_avatar_url, accept="image/*", timeout=20)
+        raw = request_bytes(owner_avatar_url, accept="image/*", timeout=4)
         if not raw:
             return ""
         key = hashlib.sha256(raw).hexdigest()
