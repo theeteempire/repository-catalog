@@ -532,13 +532,30 @@ def main() -> int:
             discovered += 1
         time.sleep(0.05)
 
-    # Ensure every entry has a useful category; preserve curated categories when present.
+    # Ensure every entry has a useful category and a valid icon mapping.
+    repository_by_name = {
+        canonical_repo(record.get("repository_url")).lower(): record
+        for record in repositories if canonical_repo(record.get("repository_url"))
+    }
     for payload in payloads:
         current_category = str(payload.get("category") or "").strip()
         if not current_category or current_category.lower() in {"repositories", "uncategorized"}:
             payload["category"] = infer_category(
                 payload.get("name"), payload.get("description"), payload.get("filename")
             )
+        icon_key = payload.get("icon_key")
+        if not isinstance(icon_key, str) or icon_key not in icons:
+            full_name = canonical_repo(payload.get("source")) or canonical_repo(payload.get("source_direct"))
+            related = repository_by_name.get(full_name.lower()) if full_name else None
+            icon_key = related.get("icon_key") if related else None
+            if not icon_key and full_name:
+                owner = full_name.split("/")[0]
+                icon_key = add_avatar_icon(f"https://github.com/{owner}.png?size=128", icons)
+            if icon_key and icon_key in icons:
+                payload["icon_key"] = icon_key
+            else:
+                print(f"ERROR: payload has no valid icon mapping: {payload.get('name')} ({payload.get('source')})", file=sys.stderr)
+                return 8
 
     if not payloads:
         print("ERROR: no direct ELF assets found; refusing to publish empty PLDMGR feed.", file=sys.stderr)
