@@ -17,6 +17,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -294,6 +295,71 @@ def add_avatar_icon(owner_avatar_url: str, icons: dict[str, str]) -> str:
         return ""
 
 
+
+def discover_github_repositories(existing_urls: set[str]) -> list[dict[str, Any]]:
+    """Discover additional PS5-related repositories through GitHub repository search."""
+    queries = [
+        'ps5 payload in:name,description,readme',
+        'ps5 homebrew in:name,description,readme',
+        'ps5 jailbreak in:name,description,readme',
+        'ps5 exploit in:name,description,readme',
+        'ps5 elf in:name,description,readme',
+        'ps5 in:name,description',
+    ]
+    discovered: list[dict[str, Any]] = []
+    seen = {u.lower().rstrip("/") for u in existing_urls}
+    capability_terms = (
+        "payload", "homebrew", "jailbreak", "exploit", "etahen", "kstuff",
+        "elf", "prospero", "ps5sdk", "ps5 sdk", "ps5-linux", "ps5 linux",
+        "ps5 tool", "playstation 5"
+    )
+    for query in queries:
+        endpoint = API_ROOT + "/search/repositories?" + urllib.parse.urlencode({
+            "q": query, "sort": "updated", "order": "desc", "per_page": 100, "page": 1
+        })
+        try:
+            response = download_json(endpoint)
+            items = response.get("items", []) if isinstance(response, dict) else []
+            if not isinstance(items, list):
+                continue
+        except Exception as exc:
+            print(f"NOTICE: GitHub repository discovery query failed ({query}): {exc}", file=sys.stderr)
+            continue
+        for item in items:
+            if not isinstance(item, dict) or item.get("archived") is True:
+                continue
+            full_name = item.get("full_name")
+            html_url = clean_github_url(item.get("html_url"))
+            if not isinstance(full_name, str) or not html_url:
+                continue
+            key = html_url.lower().rstrip("/")
+            if key in seen:
+                continue
+            owner = item.get("owner") if isinstance(item.get("owner"), dict) else {}
+            topics = item.get("topics") if isinstance(item.get("topics"), list) else []
+            searchable = " ".join([
+                full_name, str(item.get("description") or ""),
+                " ".join(str(t) for t in topics)
+            ]).lower()
+            has_ps5_context = any(term in searchable for term in ("ps5", "playstation 5", "playstation5", "prospero"))
+            has_payload_context = any(term in searchable for term in capability_terms)
+            if not (has_ps5_context and has_payload_context):
+                continue
+            seen.add(key)
+            discovered.append({
+                "name": str(item.get("name") or full_name.split("/")[-1]),
+                "description": str(item.get("description") or "Automatically discovered PS5-related GitHub repository."),
+                "repository_url": html_url,
+                "category": "PS5 Auto-discovered",
+                "author": str(owner.get("login") or full_name.split("/")[0]),
+                "_owner_avatar_url": str(owner.get("avatar_url") or ""),
+                "discovery_source": "GitHub repository search",
+                "discovered_at": datetime.now(timezone.utc).date().isoformat(),
+            })
+    print(f"Additional PS5-related repositories discovered via GitHub Search: {len(discovered)}")
+    return discovered
+
+
 def main() -> int:
     try:
         source_data = download_json(SOURCE_URL)
@@ -340,6 +406,16 @@ def main() -> int:
             print(f"ERROR: parser omitted {len(missing_source_urls)} source repositories: {sorted(missing_source_urls)[:10]}", file=sys.stderr)
             return 7
         print(f"Source records: {len(source_repos)}; unique valid repositories retained: {len(expected_repo_urls)}")
+
+    # Expand beyond the two curated sources: search GitHub for newly created PS5 projects.
+    # Search failures are non-fatal; the curated feeds still update as usual.
+    known_urls = {str(record.get("repository_url") or "").lower().rstrip("/") for record in repositories}
+    auto_discovered = discover_github_repositories(known_urls)
+    for record in auto_discovered:
+        url_key = str(record.get("repository_url") or "").lower().rstrip("/")
+        if url_key and url_key not in known_urls:
+            repositories.append(record)
+            known_urls.add(url_key)
 
     mirror_payloads = mirror_data.get("payloads") if isinstance(mirror_data, dict) else None
     if not isinstance(mirror_payloads, list):
