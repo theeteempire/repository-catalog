@@ -56,19 +56,36 @@ jobs:
 
           assert isinstance(repos.get("repositories"), list) and repos["repositories"], "Empty repository index"
           assert isinstance(feed.get("payloads"), list) and feed["payloads"], "Empty payload feed"
-          assert isinstance(icons.get("icons"), dict), "Invalid icons map"
+          icon_map = icons.get("icons")
+          assert isinstance(icon_map, dict), "Invalid icons map"
+          assert feed.get("icons_url") == "icons.json", "PLDMGR feed must reference icons.json"
 
-          bad = []
+          bad_urls = []
+          missing_icons = []
+          invalid_icons = []
           for item in feed["payloads"]:
               url = item.get("url", "")
               if not isinstance(url, str) or not url.startswith("https://") or not url.split("?")[0].lower().endswith(".elf"):
-                  bad.append((item.get("name"), url))
-          if bad:
-              raise SystemExit(f"Non-direct/non-ELF payload URLs found: {bad[:10]}")
+                  bad_urls.append((item.get("name"), url))
+
+              icon_key = item.get("icon_key")
+              if icon_key:
+                  if icon_key not in icon_map:
+                      missing_icons.append((item.get("name"), icon_key))
+                  elif not isinstance(icon_map[icon_key], str) or not icon_map[icon_key].startswith("data:image/"):
+                      invalid_icons.append((item.get("name"), icon_key))
+
+          if bad_urls:
+              raise SystemExit(f"Non-direct/non-ELF payload URLs found: {bad_urls[:10]}")
+          if missing_icons:
+              raise SystemExit(f"Payload icon_key values missing from icons.json: {missing_icons[:10]}")
+          if invalid_icons:
+              raise SystemExit(f"Invalid icon data URIs: {invalid_icons[:10]}")
 
           print(f"Validated {len(repos['repositories'])} repositories, "
                 f"{len(feed['payloads'])} direct ELF payloads, "
-                f"{len(icons['icons'])} icon entries.")
+                f"{sum(bool(p.get('icon_key')) for p in feed['payloads'])} linked payload icons, "
+                f"{len(icon_map)} icon entries.")
           PY
 
       - name: Commit and push updated catalog files
