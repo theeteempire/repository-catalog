@@ -1,120 +1,235 @@
 {
-  "name": "PS5 Repository List — all repositories",
+  "name": "PS5 Repository Catalog",
+  "schema_version": 2,
+  "generated_at": "2026-10-17T22:50:39+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "generated_at": "2026-10-17T22:27:38+00:00",
   "count": 272,
+  "payload_count": 67,
+  "icons_url": "icons.json",
   "repositories": [
     {
       "name": "CheatRunner",
       "description": "Web-Based Cheat Trainer for PS5!",
       "repository_url": "https://github.com/notmaj0r/CheatRunner",
       "category": "Repositories",
-      "author": "notmaj0r"
+      "author": "notmaj0r",
+      "payload_available": true,
+      "version": "v0.18",
+      "last_update": "2026-10-10",
+      "icon_key": "773bbf20ce184cad7fe08134e83220b8bc43079821c8f131df5c5d931a293219",
+      "payload_filename": "CheatRunner_v0.18.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/CheatRunner_v0.18.elf",
+      "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140"
     },
     {
       "name": "kylin-core-release",
       "description": "kylin-core-release",
       "repository_url": "https://github.com/aydencharles/kylin-core-release",
       "category": "Repositories",
-      "author": "aydencharles"
+      "author": "aydencharles",
+      "payload_available": true,
+      "payload_filename": "kylin-core.elf",
+      "payload_url": "https://github.com/aydencharles/kylin-core-release/releases/download/v2.0.0-community-lite/kylin-core.elf",
+      "version": "v2.0.0-community-lite",
+      "last_update": "2026-10-01",
+      "checksum": "7f5245f2db67b131c6f9e991b731117c2c730923a9dd65a2d82b36f2e2b91545",
+      "icon_key": "6b725bb2151f8237f4fac83e71f9e37da8dd5aace137382946da89bf9b7d08aa"
     },
     {
       "name": "Common-FPS-for-PS5",
       "description": "Common FPS for PS5 v1.0.0  First public stable release.  Universal real-time FPS overlay for PS4 and PS5 games on PS5.  This release includes both a standalone ELF and an etaHEN plugin.",
       "repository_url": "https://github.com/porhe911/Common-FPS-for-PS5",
       "category": "Repositories",
-      "author": "porhe911"
+      "author": "porhe911",
+      "payload_available": true,
+      "payload_filename": "Common_FPS_PS5_v1.2.3.elf",
+      "payload_url": "https://github.com/porhe911/Common-FPS-for-PS5/releases/download/v1.2.3/Common_FPS_PS5_v1.2.3.elf",
+      "version": "v1.2.3",
+      "last_update": "2026-10-16",
+      "checksum": "bb74aa448952e9af4fb001f256f48b3b15fdedff88c2dec472ee9d16b20dbed5",
+      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
     },
     {
       "name": "ps5-new-overlay",
       "description": "Standalone in-game telemetry overlay for PlayStation 5 (Jailbreak) with real-time hardware monitoring, built-in Web configuration panel, and 12 live metrics",
       "repository_url": "https://github.com/smoxa/ps5-new-overlay",
       "category": "Repositories",
-      "author": "smoxa"
+      "author": "smoxa",
+      "payload_available": true,
+      "payload_filename": "ps5-overlay-kus_v1.0.18.elf",
+      "payload_url": "https://github.com/smoxa/ps5-new-overlay/releases/download/v0.0.18/ps5-overlay-kus_v1.0.18.elf",
+      "version": "v0.0.18",
+      "last_update": "2026-10-17",
+      "checksum": "96562d1fc8deb641c67e19dc618cf2334f14512bc02e15732f53361f31005e29",
+      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
     },
     {
       "name": "ActRemoteLink-13.x",
       "description": "Updated for FW 13.x - ActRemoteLink is a utility suite for PS5 workflows. It enables offline local account activation and Chiaki/Remote Play. Key features include changing account IDs offline, generating Remote Play PINs via system notifications, and monitoring successful pairing using a Python sender script to orchestrate the ELF payloads.",
       "repository_url": "https://github.com/StonedModder/ActRemoteLink-13.x",
       "category": "Repositories",
-      "author": "StonedModder"
+      "author": "StonedModder",
+      "payload_available": true,
+      "payload_filename": "actremotelink_pin_notify.elf",
+      "payload_url": "https://github.com/StonedModder/ActRemoteLink-13.x/releases/download/v2.0/actremotelink_pin_notify.elf",
+      "version": "v2.0",
+      "last_update": "2026-10-01",
+      "checksum": "707ea60d186b2b0b53ca379a740fef4b4a7c18558730e9f8c86868a1ab77b70c",
+      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816"
     },
     {
       "name": "ps5-webkit-autoloader",
       "description": "An automated payload loader for exploited PS5 consoles",
       "repository_url": "https://github.com/itsPLK/ps5-webkit-autoloader",
       "category": "Repositories",
-      "author": "itsPLK"
+      "author": "itsPLK",
+      "payload_available": true,
+      "version": "v0.6.1",
+      "last_update": "2026-10-08",
+      "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
+      "payload_filename": "WebKit-Autoloader-Installer_v0.6.1.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.1.elf",
+      "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f"
     },
     {
       "name": "instalador-host-psm-poop2jb",
       "description": "",
       "repository_url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb",
       "category": "Repositories",
-      "author": "ps4macedo"
+      "author": "ps4macedo",
+      "payload_available": true,
+      "payload_filename": "Host-PSM-pooP2JB-v1.2.0-instala-pldmgr.elf",
+      "payload_url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr.elf",
+      "version": "v1.2.0",
+      "last_update": "2026-08-30",
+      "checksum": "b81609da1db061165e44541653b95f524c917a3d5a1fca308965b0d821be3178",
+      "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41"
     },
     {
       "name": "FGG-PlayPods-GUI",
       "description": "AudioBridge — GUI: PS5 Bluetooth A2DP Web GUI, based on FGG-PlayPods by FathiGhanem.",
       "repository_url": "https://github.com/menfis911/FGG-PlayPods-GUI",
       "category": "Repositories",
-      "author": "menfis911"
+      "author": "menfis911",
+      "payload_available": true,
+      "payload_filename": "fgg-playpods-gui.elf",
+      "payload_url": "https://github.com/menfis911/FGG-PlayPods-GUI/releases/download/v0.1.5/fgg-playpods-gui.elf",
+      "version": "v0.1.5",
+      "last_update": "2026-10-05",
+      "checksum": "af438dbd138d34ea452db94057d6594b61eafb0692a1bc95d029adfbdc9a61fa",
+      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
     },
     {
       "name": "FGG-PlayPods",
       "description": "Hear your PS5 on any Bluetooth headset — game audio and system sounds streamed over the console's own Bluetooth, no dongle, DualSense stays wireless. Payload for jailbroken PS5.",
       "repository_url": "https://github.com/FGGstore/FGG-PlayPods",
       "category": "Repositories",
-      "author": "FGGstore"
+      "author": "FGGstore",
+      "payload_available": true,
+      "payload_filename": "fgg-playpods.elf",
+      "payload_url": "https://github.com/FGGstore/FGG-PlayPods/releases/download/1.0/fgg-playpods.elf",
+      "version": "1.0",
+      "last_update": "2026-09-26",
+      "checksum": "9ee1958ec24e4a927992fea9ee202f5a173756091bd3abc02ebf4d2d686211a4",
+      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
     },
     {
       "name": "nanoDNS",
       "description": "Playstation 4/5 DNS proxy server",
       "repository_url": "https://github.com/drakmor/nanoDNS",
       "category": "Repositories",
-      "author": "drakmor"
+      "author": "drakmor",
+      "payload_available": true,
+      "version": "0.4",
+      "last_update": "2026-08-04",
+      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a",
+      "payload_filename": "nanoDNS_0.4.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/nanoDNS_0.4.elf",
+      "checksum": "dcb845f3570771275b22b37534bf924a7f8ae219fb91ef00c6bccab85d1c2420"
     },
     {
       "name": "chukei-dns",
       "description": "Lightweight DNS relay server with DNS-over-HTTPS (DoH) and man-in-the-middle (MitM) functionality",
       "repository_url": "https://github.com/Al-Azif/chukei-dns",
       "category": "Repositories",
-      "author": "Al-Azif"
+      "author": "Al-Azif",
+      "payload_available": true,
+      "payload_filename": "chukei-ps5.elf",
+      "payload_url": "https://github.com/Al-Azif/chukei-dns/releases/download/0.9.0/chukei-ps5.elf",
+      "version": "0.9.0",
+      "last_update": "2026-04-11",
+      "checksum": "0cf13e1ed87b57ffa4fdcfca5d9afe1572be29b4f632677cedf17657a972d750",
+      "icon_key": "73ec20a889469943b8c7b362e85c362c569d8c89fbc88451f0991c35c827823f"
     },
     {
       "name": "snes9xPS5",
       "description": "Port of Snes9x 1.63 for PS5",
       "repository_url": "https://github.com/MisterTemaki/snes9xPS5",
       "category": "Repositories",
-      "author": "MisterTemaki"
+      "author": "MisterTemaki",
+      "payload_available": true,
+      "payload_filename": "Snes9xPS5-v2.6.elf",
+      "payload_url": "https://github.com/MisterTemaki/snes9xPS5/releases/download/v2.6/Snes9xPS5-v2.6.elf",
+      "version": "v2.6",
+      "last_update": "2026-10-15",
+      "checksum": "296c6b363c8dc26267e968ed5869059d9e059920ced9206c1768321017eb62c2",
+      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc"
     },
     {
       "name": "genplusgxPS5",
       "description": "Port of Genesis-Plus-GX for PS5",
       "repository_url": "https://github.com/MisterTemaki/genplusgxPS5",
       "category": "Repositories",
-      "author": "MisterTemaki"
+      "author": "MisterTemaki",
+      "payload_available": true,
+      "payload_filename": "GenesisPlusGXPS5-v1.7.elf",
+      "payload_url": "https://github.com/MisterTemaki/genplusgxPS5/releases/download/v1.7/GenesisPlusGXPS5-v1.7.elf",
+      "version": "v1.7",
+      "last_update": "2026-10-15",
+      "checksum": "f764824466d317bed73715ce8d5235b8a6505f676ab6338b7134d7264b0a84af",
+      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc"
     },
     {
       "name": "RommPS",
       "description": "A RomM server client for jailbroken PS5s. Download games from your server, full bi-directional save sync support, and extensible emulator profiles to quickly support new emulators as they release on the console.",
       "repository_url": "https://github.com/s0liton/ps5-romm",
       "category": "Repositories",
-      "author": "s0liton"
+      "author": "s0liton",
+      "payload_available": true,
+      "payload_filename": "romm-sync.elf",
+      "payload_url": "https://github.com/s0liton/RommPS/releases/download/v1.2.1/romm-sync.elf",
+      "version": "v1.2.1",
+      "last_update": "2026-10-15",
+      "checksum": "8d7e44c512b311f4bbb522f6761a6319533bcd9d988a72bd313197d8161dd696",
+      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
     },
     {
       "name": "fbneo-ps5",
       "description": "Port of Final Burn Neo for PS5",
       "repository_url": "https://github.com/MisterTemaki/fbneo-ps5",
       "category": "Repositories",
-      "author": "MisterTemaki"
+      "author": "MisterTemaki",
+      "payload_available": true,
+      "payload_filename": "FBNeoPS5-v1.9.elf",
+      "payload_url": "https://github.com/MisterTemaki/fbneo-ps5/releases/download/v1.9/FBNeoPS5-v1.9.elf",
+      "version": "v1.9",
+      "last_update": "2026-10-16",
+      "checksum": "caed9d16060616637ad80cb54bdfd0239b4b734775e45cc17811f876c4897817",
+      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc"
     },
     {
       "name": "fceummPS5",
       "description": "Port of FCEUmm for PS5",
       "repository_url": "https://github.com/MisterTemaki/fceummPS5",
       "category": "Repositories",
-      "author": "MisterTemaki"
+      "author": "MisterTemaki",
+      "payload_available": true,
+      "payload_filename": "NESFCEUmmPS5-v1.0.elf",
+      "payload_url": "https://github.com/MisterTemaki/fceummPS5/releases/download/v1.0/NESFCEUmmPS5-v1.0.elf",
+      "version": "v1.0",
+      "last_update": "2026-10-10",
+      "checksum": "407a066f8b793133983c64effc0534036f135a83f72d1da6ef6c394ef9969237",
+      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc"
     },
     {
       "name": "flycast-ps5-libretro-core",
@@ -128,7 +243,14 @@
       "description": "Experimental Xbox 360 emulator for PlayStation 5, built on Xenia Canary with native audio, DualSense input and RADV Vulkan graphics.",
       "repository_url": "https://github.com/BrinooTk/PS5X360",
       "category": "Repositories",
-      "author": "BrinooTk"
+      "author": "BrinooTk",
+      "payload_available": true,
+      "payload_filename": "PS5X360-AutoLog-v1.0.9-preview.elf",
+      "payload_url": "https://github.com/BrinooTk/PS5X360/releases/download/v0.6.0/PS5X360-AutoLog-v1.0.9-preview.elf",
+      "version": "v0.6.0",
+      "last_update": "2026-10-11",
+      "checksum": "5da64c23263e6868696aa0f8b1bfd0eb97581bae73124d08066b507652adfbfb",
+      "icon_key": "f4ff22a76686140cf50fdd1c317b264391c082f91cab40ce284482607b2f7683"
     },
     {
       "name": "castation",
@@ -205,7 +327,14 @@
       "description": "A port of PCSX2 for PS5",
       "repository_url": "https://github.com/Swordpdf/PS5SX2",
       "category": "Repositories",
-      "author": "Swordpdf"
+      "author": "Swordpdf",
+      "payload_available": true,
+      "payload_filename": "PS5SXHelper.elf",
+      "payload_url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SXHelper.elf",
+      "version": "vk-285-171",
+      "last_update": "2026-10-14",
+      "checksum": "9fa809eb10e1fe5149b2d031f55497d7b050e950ec5aec38bac7ebe1ef6da153",
+      "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0"
     },
     {
       "name": "PS5_RetroArch",
@@ -219,21 +348,42 @@
       "description": "SwanStationPS5 (PSXS5 Fork to work with the SwanStation core): a PlayStation 1 emulator running natively on jailbroken PS5, based on SwanStation.  https://discord.gg/MseFnnfYzt",
       "repository_url": "https://github.com/darkxex/SwanStationPS5",
       "category": "Repositories",
-      "author": "darkxex"
+      "author": "darkxex",
+      "payload_available": true,
+      "payload_filename": "SwanStationPS5-DiscDaemon.elf",
+      "payload_url": "https://github.com/darkxex/SwanStationPS5/releases/download/1.4.1/SwanStationPS5-DiscDaemon.elf",
+      "version": "1.4.1",
+      "last_update": "2026-10-17",
+      "checksum": "d996f06cbd98c96af7eed24606f38f09dd900cc55ce2cf0859d17ef71bd55abd",
+      "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354"
     },
     {
       "name": "XPSemu",
       "description": "Original Xbox emulator (Xemu) port for the PS5",
       "repository_url": "https://github.com/ZiZc3/XPSemu",
       "category": "Repositories",
-      "author": "ZiZc3"
+      "author": "ZiZc3",
+      "payload_available": true,
+      "payload_filename": "helper.elf",
+      "payload_url": "https://github.com/ZiZc3/XPSemu/releases/download/Alpha-2.1/helper.elf",
+      "version": "Alpha-2.1",
+      "last_update": "2026-10-10",
+      "checksum": "31c8a3479937e310f758d36d87c937c91ae942921fa4645473b3d228a7d88959",
+      "icon_key": "9b25fabfd137c4e1fac0c280a01c64516f0f21574b76dd6f9f040b5f7d2d0c7b"
     },
     {
       "name": "VITA5",
       "description": "Play a PS Vita on the PS5 over one USB cable.",
       "repository_url": "https://github.com/StonedModder/VITA5",
       "category": "Repositories",
-      "author": "StonedModder"
+      "author": "StonedModder",
+      "payload_available": true,
+      "payload_filename": "VITA5-payload.elf",
+      "payload_url": "https://github.com/StonedModder/VITA5/releases/download/v1.0.0/VITA5-payload.elf",
+      "version": "v1.0.0",
+      "last_update": "2026-10-08",
+      "checksum": "0f2b246193b4799fb0ded8740952f8139de9fc4fa2b3d557b5e02892c4ba5dda",
+      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816"
     },
     {
       "name": "Steam-Link-PS5",
@@ -268,7 +418,14 @@
       "description": "Small PS5 daemon keeps applying fan temperature threshold.",
       "repository_url": "https://github.com/owendswang/ps5-fan-control",
       "category": "Repositories",
-      "author": "owendswang"
+      "author": "owendswang",
+      "payload_available": true,
+      "payload_filename": "ps5-fan-control-v0.3.elf",
+      "payload_url": "https://github.com/owendswang/ps5-fan-control/releases/download/v0.3/ps5-fan-control-v0.3.elf",
+      "version": "v0.3",
+      "last_update": "2026-08-08",
+      "checksum": "b10b6b9b9c00efed8bf9202a83b6cb762345d1f84130a419eff7139250026b36",
+      "icon_key": "fcd951a75083f6312687140e82308c0a5886058712aa8148ddd62c3fbf833fb8"
     },
     {
       "name": "fan_target",
@@ -282,21 +439,42 @@
       "description": "Lightweight PS5 file manager | browser based",
       "repository_url": "https://github.com/ItsBlurf/BFpilot",
       "category": "Repositories",
-      "author": "ItsBlurf"
+      "author": "ItsBlurf",
+      "payload_available": true,
+      "version": "v0.4.4",
+      "last_update": "2026-08-11",
+      "icon_key": "a70cf8ec24e00969dc832395bd378be25ae43e54e3537450e3b599da68ad74a4",
+      "payload_filename": "BFpilot_v0.4.4.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.4.4.elf",
+      "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1"
     },
     {
       "name": "ps5-web-file-manager",
       "description": "A file manager for PS5 with a web UI.",
       "repository_url": "https://github.com/owendswang/ps5-web-file-manager",
       "category": "Repositories",
-      "author": "owendswang"
+      "author": "owendswang",
+      "payload_available": true,
+      "version": "v1.10",
+      "last_update": "2026-10-05",
+      "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97",
+      "payload_filename": "ps5-web-file-manager_v1.10.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.10.elf",
+      "checksum": "409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3"
     },
     {
       "name": "PS5-File-Explorer",
       "description": "Browser-based PS5 file explorer payload",
       "repository_url": "https://github.com/juma-sayeh/PS5-File-Explorer",
       "category": "Repositories",
-      "author": "juma-sayeh"
+      "author": "juma-sayeh",
+      "payload_available": true,
+      "payload_filename": "file-explorer.elf",
+      "payload_url": "https://github.com/juma-sayeh/PS5-File-Explorer/releases/download/file-explorer-v0.2.1/file-explorer.elf",
+      "version": "file-explorer-v0.2.1",
+      "last_update": "2026-06-19",
+      "checksum": "1013c23b12980e1bc97decc150c8cd5abc8447dc03cf86dbd106266dd000a6e1",
+      "icon_key": "723aed59d1daabf28c33cac99842187bf42e69c3a4dc743df4513a2670bef273"
     },
     {
       "name": "PS5-Lapy-JB-Daemon",
@@ -310,14 +488,28 @@
       "description": "",
       "repository_url": "https://github.com/mastersword64/PS5-FM",
       "category": "Repositories",
-      "author": "mastersword64"
+      "author": "mastersword64",
+      "payload_available": true,
+      "payload_filename": "ps5fm-launch.elf",
+      "payload_url": "https://github.com/mastersword64/PS5-FM/releases/download/v0.26/ps5fm-launch.elf",
+      "version": "v0.26",
+      "last_update": "2026-10-10",
+      "checksum": "a85e4c7587bef72254df50243f1a575b8019fe37fb8b7d8a2538b9c798756d68",
+      "icon_key": "404ba82f3646fe4a81ab8a3e8f4b4b9a3e6d0e807a76fb08afcaf7107aa5db9a"
     },
     {
       "name": "pegasus-dl",
       "description": "Direct package downloading from your PS5",
       "repository_url": "https://github.com/pegasus-ps5/pegasus-dl",
       "category": "Repositories",
-      "author": "pegasus-ps5"
+      "author": "pegasus-ps5",
+      "payload_available": true,
+      "payload_filename": "pegasus_dl.elf",
+      "payload_url": "https://github.com/pegasus-ps5/pegasus-dl/releases/download/v1.11.0/pegasus_dl.elf",
+      "version": "v1.11.0",
+      "last_update": "2026-10-09",
+      "checksum": "32b69c2089bb545abfabd04d5827444698f9c4f1bc4915d72247cb781e8c23d9",
+      "icon_key": "f247abf9a55b7f4a936bbaeddf9d17e1fbc4675d746201ee645db16387193b81"
     },
     {
       "name": "Spectrum-Library",
@@ -331,49 +523,98 @@
       "description": "ps5shopappkg",
       "repository_url": "https://github.com/ps5xploit/ps5shopappkg",
       "category": "Repositories",
-      "author": "ps5xploit"
+      "author": "ps5xploit",
+      "payload_available": true,
+      "payload_filename": "DPIv2.elf",
+      "payload_url": "https://github.com/ps5xploit/ps5shopappkg/releases/download/DPIv2/DPIv2.elf",
+      "version": "DPIv2",
+      "last_update": "2026-10-11",
+      "checksum": "556ae30754a97a6380eba97dc876820f2cb9115c612587befacf1e2ef6ba18ee",
+      "icon_key": "3d0b3ddd87d45ddaf40148c3a8e0a30d63ac30cfddc38b858254451e4c468275"
     },
     {
       "name": "PS5Library",
       "description": "Native PS5Library console storefront. Frontend source and automated ELF builds.",
       "repository_url": "https://github.com/rdiol12/PS5Library",
       "category": "Repositories",
-      "author": "rdiol12"
+      "author": "rdiol12",
+      "payload_available": true,
+      "payload_filename": "ps5library-agent.elf",
+      "payload_url": "https://github.com/rdiol12/PS5Library/releases/download/v0.2.91/ps5library-agent.elf",
+      "version": "v0.2.91",
+      "last_update": "2026-10-14",
+      "checksum": "ac78389a628401edba3c081f00156238ad5652b1b7ad241f5ccc7713179f0c82",
+      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
     },
     {
       "name": "PS5-PHStore",
       "description": "Free Gaming Store app , Bedava Oyun Mağazası",
       "repository_url": "https://github.com/PratikHackTR/PS5-PHStore",
       "category": "Repositories",
-      "author": "PratikHackTR"
+      "author": "PratikHackTR",
+      "payload_available": true,
+      "payload_filename": "PHStore2-PH.elf",
+      "payload_url": "https://github.com/PratikHackTR/PS5-PHStore/releases/download/PHStore/PHStore2-PH.elf",
+      "version": "PHStore",
+      "last_update": "2026-10-04",
+      "checksum": "64d5c4605a063a63f01213c31d627466218e787956873b2eef39b369b60112ee",
+      "icon_key": "16adcf160d8e99a55129106bb1cc5b3f83823ed82dfee150dfef59f04b25eec8"
     },
     {
       "name": "orbit-store-ps5",
       "description": "A modern PS5 download manager with a native TV app, phone controls and Orbit Zero for Mac, Windows and Linux.",
       "repository_url": "https://github.com/saawant12/orbit-store-ps5",
       "category": "Repositories",
-      "author": "saawant12"
+      "author": "saawant12",
+      "payload_available": true,
+      "payload_filename": "orbit_store.elf",
+      "payload_url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.3.5/orbit_store.elf",
+      "version": "v1.3.5",
+      "last_update": "2026-10-14",
+      "checksum": "561a8e8015d9564d44e32b58a84e1294ea7043e96146110801a9f62ad99ac93b",
+      "icon_key": "44d63d7af0c21e5f503cf7e151276d785f3a2ffb64ecf8a0f66a1b884438c2f7"
     },
     {
       "name": "blackbox",
       "description": "BB",
       "repository_url": "https://github.com/D3ATHLY/blackbox",
       "category": "Repositories",
-      "author": "D3ATHLY"
+      "author": "D3ATHLY",
+      "payload_available": true,
+      "payload_filename": "blackbox.elf",
+      "payload_url": "https://github.com/D3ATHLY/blackbox/releases/download/1.11.0/blackbox.elf",
+      "version": "1.11.0",
+      "last_update": "2026-10-15",
+      "checksum": "b90b03325b673a65de21657d456d8da1fdb5d4f82f73c4dda033bf3547b34c60",
+      "icon_key": "164fe304de7937ba61afaf32c7ac801d5bc247e5c2026ad170d3ea9247efa12b"
     },
     {
       "name": "PS5-Game-Compressor",
       "description": "Standalone PS5 payload for compressing, unpacking, validating, and repairing ShadowMountPlus-mounted games",
       "repository_url": "https://github.com/juma-sayeh/PS5-Game-Compressor",
       "category": "Repositories",
-      "author": "juma-sayeh"
+      "author": "juma-sayeh",
+      "payload_available": true,
+      "payload_filename": "game-compressor.elf",
+      "payload_url": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases/download/v1.0.4/game-compressor.elf",
+      "version": "v1.0.4",
+      "last_update": "2026-08-21",
+      "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b",
+      "icon_key": "723aed59d1daabf28c33cac99842187bf42e69c3a4dc743df4513a2670bef273"
     },
     {
       "name": "ps5-app-dumper",
       "description": "",
       "repository_url": "https://github.com/EchoStretch/ps5-app-dumper",
       "category": "Repositories",
-      "author": "EchoStretch"
+      "author": "EchoStretch",
+      "payload_available": true,
+      "version": "v2.10",
+      "last_update": "2026-10-03",
+      "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b",
+      "payload_filename": "ps5-app-dumper_v2.10.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-app-dumper_v2.10.elf",
+      "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b"
     },
     {
       "name": "dump_installer",
@@ -394,14 +635,28 @@
       "description": "Automated background auto-mounter payload for jailbroken PS5 consoles. Detects, mounts, and installs game backups from internal or external storage, with support for UFS, exFAT, PFS, and nested compressed PFS containers.",
       "repository_url": "https://github.com/drakmor/ShadowMountPlus",
       "category": "Repositories",
-      "author": "drakmor"
+      "author": "drakmor",
+      "payload_available": true,
+      "version": "1.7-beta5fix1",
+      "last_update": "2026-10-10",
+      "icon_key": "2d83b692b57d424d0165cad9be37d9e0abe47a17dca0d7c6b9c05c30c4a0ab90",
+      "payload_filename": "ShadowMountPlus_1.7-beta5fix1.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7-beta5fix1.elf",
+      "checksum": "e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5"
     },
     {
       "name": "BackPork",
       "description": "Lets you sideload system libraries into PS5 games",
       "repository_url": "https://github.com/BestPig/BackPork",
       "category": "Repositories",
-      "author": "BestPig"
+      "author": "BestPig",
+      "payload_available": true,
+      "version": "0.1",
+      "last_update": "2026-04-30",
+      "icon_key": "b4431c1161e6efaed2a3be0eb99564fa43ea894905737f7571b5585e0dc75bcf",
+      "payload_filename": "BackPork_0.1.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/BackPork_0.1.elf",
+      "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52"
     },
     {
       "name": "dlc_emu",
@@ -415,14 +670,28 @@
       "description": "PS5 payload that keeps APR Emu up to date on installed titles, from a web interface on the console.",
       "repository_url": "https://github.com/tsuramatsu1/apr-emu-updater",
       "category": "Repositories",
-      "author": "tsuramatsu1"
+      "author": "tsuramatsu1",
+      "payload_available": true,
+      "payload_filename": "apr_emu_updater_v2.0.6.elf",
+      "payload_url": "https://github.com/tsuramatsu1/apr-emu-updater/releases/download/v2.0.6/apr_emu_updater_v2.0.6.elf",
+      "version": "v2.0.6",
+      "last_update": "2026-08-29",
+      "checksum": "4f04464283a6a551883e40e36b59134ecad0e38ecbb7ea89cbec3f91a3bd9122",
+      "icon_key": "43bab10e205ee9e2a73a45407885c14ad74f44eff4054f27ce947a761aa9163c"
     },
     {
       "name": "PS5-Game-Compressor",
       "description": "Standalone PS5 payload for compressing, unpacking, validating, and repairing ShadowMountPlus-mounted games",
       "repository_url": "https://github.com/gcoding97/PS5-Game-Compressor",
       "category": "Repositories",
-      "author": "gcoding97"
+      "author": "gcoding97",
+      "payload_available": true,
+      "payload_filename": "game-compressor.elf",
+      "payload_url": "https://github.com/gcoding97/PS5-Game-Compressor/releases/download/v1.1.1/game-compressor.elf",
+      "version": "v1.1.1",
+      "last_update": "2026-10-02",
+      "checksum": "5fec05b8a3cb89bafbc97970d5d68d9f31e6fcde873b5523243890e50836592b",
+      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
     },
     {
       "name": "PS5-LZ4-Game-Compressor",
@@ -457,7 +726,14 @@
       "description": "Allows for PKG games on USB external devices to mount on jailbroken PS5s without installing on internal storage or PS5 formatted USB storage",
       "repository_url": "https://github.com/gasb07/ps4mount",
       "category": "Repositories",
-      "author": "gasb07"
+      "author": "gasb07",
+      "payload_available": true,
+      "payload_filename": "ps4mount.elf",
+      "payload_url": "https://github.com/gasb07/ps4mount/releases/download/v0.6.0/ps4mount.elf",
+      "version": "v0.6.0",
+      "last_update": "2026-10-16",
+      "checksum": "72467a3d8697961d611603956c4e63d96904197e57b175ff73e41d80badcaf25",
+      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
     },
     {
       "name": "PS5_DevilutionX",
@@ -492,7 +768,14 @@
       "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
       "repository_url": "https://github.com/itsPLK/ps5-payload-manager",
       "category": "Repositories",
-      "author": "itsPLK"
+      "author": "itsPLK",
+      "payload_available": true,
+      "version": "v0.6.1",
+      "last_update": "2026-10-14",
+      "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346",
+      "payload_filename": "pldmgr_v0.6.1.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.1.elf",
+      "checksum": "5165cbe4c13360828bd0f5d558cdbb9e2d55b0660b1dc7f7a58d3f4ee9e23285"
     },
     {
       "name": "kura",
@@ -513,7 +796,14 @@
       "description": "Yet another HEN enabler for jailbroken PS5",
       "repository_url": "https://github.com/aydencharles/onionHEN",
       "category": "Repositories",
-      "author": "aydencharles"
+      "author": "aydencharles",
+      "payload_available": true,
+      "version": "v0.9.0",
+      "last_update": "2026-10-15",
+      "icon_key": "9c0353458e7f31df4fe6c588f15dbac7df982893b87cf9f84b472487e61a4576",
+      "payload_filename": "onionHEN_v0.9.0.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.9.0.elf",
+      "checksum": "1f1f7c883d5d998be1d95d7d80b718f85180f8156f257661b0f445a7c6b7c212"
     },
     {
       "name": "ProsperoMgr",
@@ -534,7 +824,14 @@
       "description": "",
       "repository_url": "https://github.com/EchoStretch/kstuff-lite",
       "category": "Repositories",
-      "author": "EchoStretch"
+      "author": "EchoStretch",
+      "payload_available": true,
+      "version": "v1.11",
+      "last_update": "2026-09-20",
+      "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b",
+      "payload_filename": "kstuff-lite_v1.11.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-lite_v1.11.elf",
+      "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779"
     },
     {
       "name": "kstuff-toggle",
@@ -562,7 +859,14 @@
       "description": "Linux payload implementing HV exploits to run a custom bootloader",
       "repository_url": "https://github.com/ps5-linux/ps5-linux-loader",
       "category": "Repositories",
-      "author": "ps5-linux"
+      "author": "ps5-linux",
+      "payload_available": true,
+      "version": "v2.5",
+      "last_update": "2026-09-05",
+      "icon_key": "b3d73d513d62b4d6c880873e46cbea07b977c9bc03295c7e3a31e091fda7a8f7",
+      "payload_filename": "ps5-linux-loader_v2.5.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-linux-loader_v2.5.elf",
+      "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49"
     },
     {
       "name": "ps5-linux-patches",
@@ -632,7 +936,14 @@
       "description": "A clean and intuitive package manager for PS5",
       "repository_url": "https://github.com/itsPLK/ps5-pkg-manager",
       "category": "Repositories",
-      "author": "itsPLK"
+      "author": "itsPLK",
+      "payload_available": true,
+      "version": "v1.5.1",
+      "last_update": "2026-10-10",
+      "icon_key": "cf00f6f4c5d15c190c59cce408f0eae1da80b0f8bd5a3a1cdc28be9a7aacd2db",
+      "payload_filename": "PKG-Manager_v1.5.1.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/PKG-Manager_v1.5.1.elf",
+      "checksum": "82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca"
     },
     {
       "name": "pkg-sender",
@@ -730,28 +1041,56 @@
       "description": "Zero-copy FTP/HTTP Daemon compatible with all POSIX systems",
       "repository_url": "https://github.com/seregonwar/zftpd",
       "category": "Repositories",
-      "author": "seregonwar"
+      "author": "seregonwar",
+      "payload_available": true,
+      "version": "v1.6.0",
+      "last_update": "2026-09-30",
+      "icon_key": "bd943d614d5d000c34a8bd4e1c00df0bbb9881907accaabe58aab384711abb6c",
+      "payload_filename": "zftpd_v1.6.0.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/zftpd_v1.6.0.elf",
+      "checksum": "fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497"
     },
     {
       "name": "elfldr",
       "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021",
       "repository_url": "https://github.com/ps5-payload-dev/elfldr",
       "category": "Repositories",
-      "author": "ps5-payload-dev"
+      "author": "ps5-payload-dev",
+      "payload_available": true,
+      "version": "v0.26",
+      "last_update": "2026-08-29",
+      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4",
+      "payload_filename": "elfldr_v0.26.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/elfldr_v0.26.elf",
+      "checksum": "ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1"
     },
     {
       "name": "ftpsrv",
       "description": "An FTP server for jailbroken PS4s and PS5s",
       "repository_url": "https://github.com/ps5-payload-dev/ftpsrv",
       "category": "Repositories",
-      "author": "ps5-payload-dev"
+      "author": "ps5-payload-dev",
+      "payload_available": true,
+      "version": "v0.21.1",
+      "last_update": "2026-08-20",
+      "icon_key": "4720d3f0f446dc4e8848351d922d3fa4c0ef2fe9267f6afd6f3865f9b14605e7",
+      "payload_filename": "ftpsrv_v0.21.1.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_v0.21.1.elf",
+      "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938"
     },
     {
       "name": "websrv",
       "description": "A web server for jailbroken PS5s that accepts connections on port 8080",
       "repository_url": "https://github.com/ps5-payload-dev/websrv",
       "category": "Repositories",
-      "author": "ps5-payload-dev"
+      "author": "ps5-payload-dev",
+      "payload_available": true,
+      "version": "v0.34",
+      "last_update": "2026-08-02",
+      "icon_key": "071962d27a706dfa602cd64c2f5cffa9aed238574f55d35be4989e8e65ab8618",
+      "payload_filename": "websrv_v0.34.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/websrv_v0.34.elf",
+      "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263"
     },
     {
       "name": "gdbsrv",
@@ -765,14 +1104,28 @@
       "description": "A socket server for jailbroken PS4s and PS5s that redirects /dev/klog to sockets connected on port 3232",
       "repository_url": "https://github.com/ps5-payload-dev/klogsrv",
       "category": "Repositories",
-      "author": "ps5-payload-dev"
+      "author": "ps5-payload-dev",
+      "payload_available": true,
+      "version": "v0.9",
+      "last_update": "2026-08-02",
+      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4",
+      "payload_filename": "klogsrv_v0.9.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/klogsrv_v0.9.elf",
+      "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb"
     },
     {
       "name": "ftpsrv",
       "description": "A simple FTP server for jailbroken PS4s and PS5s",
       "repository_url": "https://github.com/drakmor/ftpsrv",
       "category": "Repositories",
-      "author": "drakmor"
+      "author": "drakmor",
+      "payload_available": true,
+      "version": "1.16-ng-stable",
+      "last_update": "2026-09-20",
+      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a",
+      "payload_filename": "ftpsrv-drakmor_1.16-ng-stable.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv-drakmor_1.16-ng-stable.elf",
+      "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32"
     },
     {
       "name": "ps5-ezremote-client",
@@ -793,7 +1146,14 @@
       "description": "Send games, apps and homebrew to a jailbroken PS5, and manage the console from your computer, phone or browser.",
       "repository_url": "https://github.com/phantomptr/ps5upload",
       "category": "Repositories",
-      "author": "phantomptr"
+      "author": "phantomptr",
+      "payload_available": true,
+      "version": "v7.0.31",
+      "last_update": "2026-10-16",
+      "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0",
+      "payload_filename": "ps5upload_v7.0.31.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.0.31.elf",
+      "checksum": "4ef3b781ae178bbe402a87a64b6f366d3386d6557306db0f51b46b458ffa7e24"
     },
     {
       "name": "airpsx",
