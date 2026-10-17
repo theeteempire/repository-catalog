@@ -433,7 +433,7 @@ def main() -> int:
         "source": SOURCE_URL,
         "count": len(repositories),
         "payload_count": len(payloads),
-        "icons_url": "icons.json",
+        "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
         "repositories": repositories,
     }
     pldmgr_doc = {
@@ -441,7 +441,7 @@ def main() -> int:
         "schema_version": 2,
         "generated_at": generated_at,
         "source": MIRROR_URL,
-        "icons_url": "icons.json",
+        "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
         "payloads": payloads,
     }
     (OUT_DIR / "repositories.json").write_text(
