@@ -1,59 +1,63 @@
-# PS5 Repository List → PLDMGR catalog
+# PS5 Repository Catalog
 
-This project downloads the upstream database and regenerates two JSON files every 6 hours.
+Automatically generated catalog for PS5 projects and PLDMGR-compatible payload downloads.
 
-Upstream source:
-`https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json`
+## Live JSON feeds
 
-## Important limitation
+- **PLDMGR payload feed:** `https://theeteempire.github.io/ps5-repository-catalog/payloads_v2.json`
+- **Full repository index:** `https://theeteempire.github.io/ps5-repository-catalog/repositories.json`
+- **Icon database:** `https://theeteempire.github.io/ps5-repository-catalog/icons.json`
 
-PLDMGR custom repositories are designed for **downloadable payload binaries**. Its schema requires each payload item to have `name`, `filename`, and a direct HTTP(S) `url`. The upstream file is a database of GitHub repositories, not a catalog of binary payload files.
+Use the `payloads_v2.json` URL in PLDMGR. The other files provide the full project index and icon data.
 
-This project therefore produces:
+## What the generator does
 
-- `repositories.json`: the accurate index of all recognized GitHub repositories, including name, description, category, and repository URL.
-- `payloads_v2.json`: a PLDMGR-shaped catalog intended to make all repository records visible. For repositories where no direct binary is known, `url` points to the GitHub repository page and `filename` is only a display identifier. Such entries are **not downloadable payloads**; clicking download/install may fail.
+Every six hours, GitHub Actions:
 
-No checksums or direct download URLs are fabricated. The converter only uses repository URLs explicitly found in the source database. If the upstream database changes its schema, the workflow will fail rather than publish an empty catalog.
+1. Downloads the upstream PS5 repository database.
+2. Retains the maintained itsPLK payload catalog's curated metadata, direct links, versions, checksums, and icon keys.
+3. Checks repositories without a curated payload entry against the GitHub Releases API.
+4. Adds extra release assets only when they are direct HTTPS `.elf` downloads. Repository pages and release landing pages are never presented as installable payloads.
+5. Builds a standalone `icons.json`, preserving the original itsPLK icon data and adding hashed GitHub avatar images as a fallback for newly discovered release entries when available.
+6. Validates the generated JSON and verifies every PLDMGR `url` points to an HTTPS `.elf` asset before committing the results.
 
-## Create the GitHub repository (beginner steps)
+## Payload metadata
 
-1. Go to https://github.com/new
-2. Repository name: `ps5-repository-catalog`
-3. Choose **Public**.
-4. Check **Add a README file**, then click **Create repository**.
-5. On the new repository page, click **Add file → Upload files**.
-6. Upload all files from this project, including the hidden `.github/workflows/update-catalog.yml` file. If the browser upload makes hidden folders difficult, use the GitHub web editor to create `.github/workflows/update-catalog.yml` with the contents supplied in this project.
-7. Click **Commit changes**.
-8. Open **Actions**. If prompted, enable GitHub Actions.
-9. Open **Update PS5 repository catalog** and click **Run workflow** once.
-10. Wait for the workflow to finish. It commits `repositories.json` and `payloads_v2.json` to the `main` branch.
+Entries preserve the fields used by the itsPLK feed where the upstream data provides them, including:
 
-## Enable GitHub Pages
+- `name`, `filename`, `url`
+- `source`, `source_direct`
+- `description`, `category`
+- `version`, `last_update`
+- `checksum` only when a trusted upstream digest is supplied
+- `icon_key` only when an icon exists in the icon database
 
-1. Open **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Choose branch `main` and folder `/ (root)`.
-4. Click **Save**.
+The generator does **not** invent release tags, hashes, or binary URLs. An upstream GitHub release may package a payload inside a ZIP rather than as an individual ELF asset; such archives are not automatically treated as directly installable ELF payloads. They remain discoverable in the repository index.
 
-After Pages has deployed, your URLs will be:
+## JSON files
 
-- `https://YOUR-USERNAME.github.io/ps5-repository-catalog/payloads_v2.json`
-- `https://YOUR-USERNAME.github.io/ps5-repository-catalog/repositories.json`
+- `payloads_v2.json`: only payload records with a direct HTTPS URL ending in `.elf`.
+- `repositories.json`: the complete recognized repository index, enriched with payload metadata where a reliable match exists.
+- `icons.json`: icon map keyed by SHA-256 hashes. Existing itsPLK icons are retained; repository avatars are only a fallback for entries without an existing icon.
 
-Replace `YOUR-USERNAME` with your GitHub username. Use the direct JSON URL (not the GitHub `blob` page) in PLDMGR.
+The payload feed includes `icons_url: "icons.json"`. GitHub Pages serves these files from the same directory.
 
 ## Automatic updates
 
-The workflow runs every 6 hours and can also be started manually from **Actions → Update PS5 repository catalog → Run workflow**.
+The workflow runs every six hours and can also be started manually:
 
-## Verify before using
+**GitHub → Actions → Update PS5 repository catalog → Run workflow**
 
-Open the JSON URLs in a browser and check that they show raw JSON beginning with `{`. Check the workflow run logs if no generated files appear. The converter deliberately refuses to publish when it cannot identify repository URLs.
+It uses the workflow's built-in `GITHUB_TOKEN` for release API requests and needs no personal access token. The workflow validates output before committing it.
 
-## Accuracy and safety
+## Sources
 
-- Repository links and descriptions are taken from the source database.
-- No checksums are generated.
-- No payload binaries are downloaded or re-hosted.
-- A GitHub repository page is not a payload binary. Do not treat display-only entries as installable files.
+- Repository database: [nexgen999/PS5-Repository-List](https://github.com/nexgen999/PS5-Repository-List)
+- Curated payload feed and original icon metadata: [itsPLK/ps5-payloads-mirror](https://github.com/itsPLK/ps5-payloads-mirror)
+
+## Accuracy notes
+
+- A direct download URL is not a guarantee that a payload supports every PS5 firmware version or configuration. Check the project's release notes and requirements.
+- Checksums are included only when supplied by a trusted source. Missing checksums are left absent.
+- Icons are preserved from the upstream icon map where available; GitHub avatars are used as a fallback, not misrepresented as official project logos.
+- This project indexes public release assets; it does not modify payload binaries.
