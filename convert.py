@@ -65,12 +65,17 @@ def get_first(obj: dict[str, Any], keys: tuple[str, ...]) -> Any:
 
 
 def clean_github_url(value: Any) -> str | None:
+    """Extract the canonical repository URL from GitHub repo, tree, or release links."""
     if not isinstance(value, str):
         return None
     value = value.strip()
-    if not re.match(r"^https://github\.com/[^/\s]+/[^/\s?#]+/?$", value, re.I):
+    match = re.match(r"^https://github\.com/([^/\s?#]+)/([^/\s?#]+)(?:\.git)?(?:/(?:tree|blob|releases|issues|actions|pulls|commits|wiki|projects|settings)(?:/.*)?)?/?(?:[?#].*)?$", value, re.I)
+    if not match:
         return None
-    return value.rstrip("/")
+    owner, repo = match.group(1), re.sub(r"\.git$", "", match.group(2), flags=re.I)
+    if repo.lower() in {"topics", "collections", "marketplace", "orgs", "users", "sponsors", "login", "signup", "explore"}:
+        return None
+    return f"https://github.com/{owner}/{repo}"
 
 
 def walk_objects(value: Any):
@@ -118,14 +123,22 @@ def repository_record(obj: dict[str, Any]) -> dict[str, Any] | None:
     description = get_first(obj, DESCRIPTION_KEYS) or ""
     category = get_first(obj, CATEGORY_KEYS) or "Repositories"
     author = get_first(obj, OWNER_KEYS)
+    avatar_url = obj.get("ownerAvatar") or obj.get("avatar_url") or obj.get("avatarUrl")
+    if not isinstance(avatar_url, str):
+        owner_obj = obj.get("owner")
+        if isinstance(owner_obj, dict):
+            avatar_url = owner_obj.get("avatar_url") or owner_obj.get("avatarUrl")
+    if not isinstance(avatar_url, str) or not avatar_url.startswith("https://"):
+        avatar_url = ""
 
-    # Normalize display-only metadata; never invent a checksum or binary URL.
+    # Temporary avatar source is removed before writing public JSON.
     return {
         "name": name,
         "description": description,
         "repository_url": url,
         "category": category,
         "author": author or "",
+        "_owner_avatar_url": avatar_url,
     }
 
 
@@ -193,7 +206,7 @@ def normalize_icon_data(value: Any) -> str:
     try:
         from PIL import Image
         image = Image.open(io.BytesIO(raw))
-        image.thumbnail((128, 128), Image.Resampling.LANCZOS)
+        image.thumbnail((64, 64), Image.Resampling.LANCZOS)
         if image.mode not in ("RGB", "RGBA"):
             image = image.convert("RGBA" if "transparency" in image.info else "RGB")
         output = io.BytesIO()
@@ -301,6 +314,14 @@ def main() -> int:
         match = payload_by_repo.get(repo_key)
         if match:
             record["payload_available"] = True
+            candidate_icon = match.get("icon_key")
+            if isinstance(candidate_icon, str) and candidate_icon in icons:
+                record["icon_key"] = candidate_icon
+            if not record.get("icon_key"):
+                avatar_url = record.pop("_owner_avatar_url", "")
+                if not avatar_url and full_name:
+                    avatar_url = f"https://github.com/{full_name.split('/')[0]}.png?size=128"
+                record["icon_key"] = add_avatar_icon(avatar_url, icons) if avatar_url else ""
             for src, dst in (
                 ("version", "version"), ("last_update", "last_update"),
                 ("icon_key", "icon_key"), ("filename", "payload_filename"),
@@ -308,6 +329,13 @@ def main() -> int:
             ):
                 if isinstance(match.get(src), str) and match[src].strip():
                     record[dst] = match[src]
+            if record.get("icon_key") and not match.get("icon_key"):
+                match["icon_key"] = record["icon_key"]
+        else:
+            avatar_url = record.pop("_owner_avatar_url", "")
+            if not avatar_url and full_name:
+                avatar_url = f"https://github.com/{full_name.split('/')[0]}.png?size=128"
+            record["icon_key"] = add_avatar_icon(avatar_url, icons) if avatar_url else ""
 
         # Poll release metadata for existing curated entries too, so the mirror feed
         # is not the sole source of truth for new versions.
@@ -376,7 +404,9 @@ def main() -> int:
         category = str(record.get("category") or "Utilities & Tools")
         owner = release.get("author") if isinstance(release.get("author"), dict) else {}
         avatar = owner.get("avatar_url", "") if isinstance(owner, dict) else ""
-        icon_key = add_avatar_icon(avatar, icons) if avatar else ""
+        icon_key = record.get("icon_key") or (add_avatar_icon(avatar, icons) if avatar else "")
+        if icon_key:
+            record["icon_key"] = icon_key
 
         for asset in assets:
             if not isinstance(asset, dict):
@@ -424,6 +454,13 @@ def main() -> int:
     if not payloads:
         print("ERROR: no direct ELF assets found; refusing to publish empty PLDMGR feed.", file=sys.stderr)
         return 4
+
+    missing_repository_icons = [r.get("repository_url") for r in repositories if not r.get("icon_key") or r["icon_key"] not in icons]
+    if missing_repository_icons:
+        print(f"ERROR: {len(missing_repository_icons)} repositories have no valid icon; refusing to publish partial icon coverage. Examples: {missing_repository_icons[:10]}", file=sys.stderr)
+        return 6
+    for record in repositories:
+        record.pop("_owner_avatar_url", None)
 
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     index_doc = {
