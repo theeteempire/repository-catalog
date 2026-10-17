@@ -1,4 +1,3 @@
-
 name: Update PS5 repository catalog
 
 on:
@@ -17,9 +16,12 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,13 +32,17 @@ jobs:
         run: python convert.py
 
       - name: Commit updated catalog files
+        shell: bash
         run: |
-          if git diff --quiet -- repositories.json payloads_v2.json; then
+          git add repositories.json payloads_v2.json
+
+          if git diff --cached --quiet; then
             echo "Catalog files are unchanged."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add repositories.json payloads_v2.json
+
           git commit -m "Update generated PS5 repository catalog"
-          git push
+          git push origin HEAD:main
