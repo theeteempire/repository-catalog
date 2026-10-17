@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-ps5-repository-catalog
+  group: update-ps5-repository-catalog-v2
   cancel-in-progress: false
 
 jobs:
