@@ -202,6 +202,24 @@ def get_latest_release(full_name: str) -> dict[str, Any] | None:
         return None
 
 
+def payload_identity(payload: dict[str, Any]) -> tuple[str, str]:
+    """Stable logical identity: upstream repository plus normalized ELF filename."""
+    repo = canonical_repo(payload.get("source")) or canonical_repo(payload.get("source_direct")) or ""
+    filename = str(payload.get("filename") or "").strip().lower().rsplit("/", 1)[-1]
+    filename = re.sub(r"\.elf$", "", filename, flags=re.I)
+    # Strip release versions so mirrored and upstream copies of the same ELF match.
+    filename = re.sub(r"[_-]v?\d+(?:[._-]\d+)*(?:[-_][a-z][a-z0-9._-]*)?$", "", filename)
+    filename = re.sub(r"(?i)(?:^|[-_])ps5(?=$|[-_])", "", filename)
+    filename = re.sub(r"[-_.]+", "-", filename).strip("-")
+    return repo.lower(), filename
+
+
+def payload_slug(value: Any) -> str:
+    value = str(value or "").lower()
+    value = re.sub(r"[^a-z0-9._-]+", "-", value)
+    return re.sub(r"[-_.]{2,}", "-", value).strip("-._") or "payload"
+
+
 def infer_category(*values: Any) -> str:
     """Assign consistent PLDMGR categories to payloads using their metadata."""
     text = " ".join(str(value or "") for value in values).lower()
@@ -532,6 +550,51 @@ def main() -> int:
             discovered += 1
         time.sleep(0.05)
 
+    # Remove mirrored/upstream duplicates and PS4-only binaries before publishing.
+    # Keep the curated mirror entry first when it represents the same logical ELF.
+    deduplicated_payloads: list[dict[str, Any]] = []
+    seen_payload_identities: set[tuple[str, str]] = set()
+    for payload in payloads:
+        filename = str(payload.get("filename") or "")
+        if re.search(r"(?i)(?:^|[-_.])ps4(?:[-_.]|$)", filename):
+            continue
+        identity = payload_identity(payload)
+        if identity[1] and identity in seen_payload_identities:
+            continue
+        if identity[1]:
+            seen_payload_identities.add(identity)
+        deduplicated_payloads.append(payload)
+    removed_duplicates = len(payloads) - len(deduplicated_payloads)
+    payloads = deduplicated_payloads
+
+    # PLDMGR needs stable unique item IDs; names alone collide when a project
+    # publishes multiple ELF assets, which can collapse entries in the UI.
+    used_ids: set[str] = set()
+    for payload in payloads:
+        repo_name = canonical_repo(payload.get("source")) or canonical_repo(payload.get("source_direct")) or ""
+        file_slug = payload_slug(str(payload.get("filename") or "").rsplit("/", 1)[-1].removesuffix(".elf"))
+        digest = hashlib.sha256((repo_name.lower() + "|" + str(payload.get("filename") or "") + "|" + str(payload.get("url") or "")).encode("utf-8")).hexdigest()[:8]
+        item_id = (payload_slug(payload.get("name")) + "-" + file_slug + "-" + digest)[:120]
+        if item_id in used_ids:
+            item_id = item_id[:110] + "-" + digest
+        used_ids.add(item_id)
+        payload["id"] = item_id
+
+    # Make same-project multi-asset entries distinguishable in the UI.
+    name_groups: dict[str, list[dict[str, Any]]] = {}
+    for payload in payloads:
+        name_groups.setdefault(str(payload.get("name") or "").casefold(), []).append(payload)
+    for group in name_groups.values():
+        if len(group) < 2:
+            continue
+        for payload in group:
+            source_repo = canonical_repo(payload.get("source")) or ""
+            owner = source_repo.split("/")[0] if source_repo else ""
+            stem = str(payload.get("filename") or "").rsplit("/", 1)[-1].removesuffix(".elf")
+            stem = re.sub(r"(?i)[_-]v?\d+(?:[._-]\d+)*.*$", "", stem).strip("-_ .")
+            suffix = stem or owner
+            payload["name"] = str(payload.get("name") or "Payload") + " — " + (suffix or owner)
+
     # Ensure every entry has a useful category and a valid icon mapping.
     repository_by_name = {
         canonical_repo(record.get("repository_url")).lower(): record
@@ -602,6 +665,7 @@ def main() -> int:
     print(f"Repositories indexed: {len(repositories)}")
     print(f"Direct ELF payload entries retained from curated mirror: {len(payloads) - discovered}")
     print(f"Additional direct ELF release assets discovered: {discovered}")
+    print(f"Duplicate/PS4-only entries removed: {removed_duplicates}")
     print(f"Existing curated payloads refreshed from newer releases: {refreshed}")
     print(f"Repositories checked through GitHub Releases API: {checked}")
     print(f"Icon records available: {len(icons)}")
