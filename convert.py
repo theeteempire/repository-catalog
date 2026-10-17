@@ -291,14 +291,15 @@ def main() -> int:
                 payload_by_repo.setdefault(key.lower(), item)
 
     discovered = 0
+    refreshed = 0
     checked = 0
     for record in repositories:
         full_name = canonical_repo(record["repository_url"])
         if not full_name:
             continue
         repo_key = full_name.lower()
-        if repo_key in payload_by_repo:
-            match = payload_by_repo[repo_key]
+        match = payload_by_repo.get(repo_key)
+        if match:
             record["payload_available"] = True
             for src, dst in (
                 ("version", "version"), ("last_update", "last_update"),
@@ -307,10 +308,12 @@ def main() -> int:
             ):
                 if isinstance(match.get(src), str) and match[src].strip():
                     record[dst] = match[src]
-            continue
 
+        # Poll release metadata for existing curated entries too, so the mirror feed
+        # is not the sole source of truth for new versions.
         checked += 1
         release = get_latest_release(full_name)
+        time.sleep(0.05)
         if not release:
             continue
         assets = release.get("assets")
@@ -323,6 +326,52 @@ def main() -> int:
                 updated = datetime.fromisoformat(updated.replace("Z", "+00:00")).date().isoformat()
             except ValueError:
                 updated = updated[:10]
+        # If a curated payload already exists, refresh it only when the upstream
+        # release is newer and a direct ELF asset can be selected unambiguously.
+        if match:
+            old_date = str(match.get("last_update") or "")
+            if updated and updated > old_date:
+                elf_assets = [
+                    asset for asset in assets
+                    if isinstance(asset, dict)
+                    and isinstance(asset.get("name"), str)
+                    and is_direct_asset_url(asset.get("browser_download_url"))
+                ]
+                chosen = None
+                if len(elf_assets) == 1:
+                    chosen = elf_assets[0]
+                elif elf_assets:
+                    old_direct_name = str(match.get("source_direct") or "").split("?")[0].rsplit("/", 1)[-1]
+                    chosen = next((a for a in elf_assets if a.get("name") == old_direct_name), None)
+                if chosen:
+                    old_url = match.get("url")
+                    new_url = chosen["browser_download_url"]
+                    if old_url in seen_payload_urls:
+                        seen_payload_urls.remove(old_url)
+                    match["url"] = new_url
+                    match["filename"] = chosen["name"]
+                    match["source_direct"] = new_url
+                    if version:
+                        match["version"] = version
+                    if updated:
+                        match["last_update"] = updated
+                    digest = chosen.get("digest")
+                    if isinstance(digest, str) and digest.startswith("sha256:"):
+                        match["checksum"] = digest.removeprefix("sha256:")
+                    else:
+                        match.pop("checksum", None)
+                    seen_payload_urls.add(new_url)
+                    record["payload_filename"] = match["filename"]
+                    record["payload_url"] = new_url
+                    if version:
+                        record["version"] = version
+                    if updated:
+                        record["last_update"] = updated
+                    if match.get("checksum"):
+                        record["checksum"] = match["checksum"]
+                    refreshed += 1
+            continue
+
         description = str(record.get("description") or release.get("body") or "").strip()
         category = str(record.get("category") or "Utilities & Tools")
         owner = release.get("author") if isinstance(release.get("author"), dict) else {}
@@ -410,6 +459,7 @@ def main() -> int:
     print(f"Repositories indexed: {len(repositories)}")
     print(f"Direct ELF payload entries retained from curated mirror: {len(payloads) - discovered}")
     print(f"Additional direct ELF release assets discovered: {discovered}")
+    print(f"Existing curated payloads refreshed from newer releases: {refreshed}")
     print(f"Repositories checked through GitHub Releases API: {checked}")
     print(f"Icon records available: {len(icons)}")
     print(f"Optimized icon catalog size: {len(icon_json.encode('utf-8'))} bytes")
