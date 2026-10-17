@@ -337,6 +337,8 @@ def main() -> int:
                 if not avatar_url and full_name:
                     avatar_url = f"https://github.com/{full_name.split('/')[0]}.png?size=128"
                 record["icon_key"] = add_avatar_icon(avatar_url, icons) if avatar_url else ""
+                if not record["icon_key"] and full_name:
+                    record["icon_key"] = add_avatar_icon(f"https://github.com/{full_name.split('/')[0]}.png?size=128", icons)
             for src, dst in (
                 ("version", "version"), ("last_update", "last_update"),
                 ("filename", "payload_filename"),
@@ -351,6 +353,8 @@ def main() -> int:
             if not avatar_url and full_name:
                 avatar_url = f"https://github.com/{full_name.split('/')[0]}.png?size=128"
             record["icon_key"] = add_avatar_icon(avatar_url, icons) if avatar_url else ""
+            if not record["icon_key"] and full_name:
+                record["icon_key"] = add_avatar_icon(f"https://github.com/{full_name.split('/')[0]}.png?size=128", icons)
 
         # Poll release metadata for existing curated entries too, so the mirror feed
         # is not the sole source of truth for new versions.
