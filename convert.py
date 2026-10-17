@@ -360,7 +360,55 @@ def discover_github_repositories(existing_urls: set[str]) -> list[dict[str, Any]
     return discovered
 
 
+def load_previous_payloads() -> list[dict[str, Any]]:
+    """Load the last published feed so newly added entries can keep a short-lived NEW label."""
+    try:
+        previous = json.loads((OUT_DIR / "payloads_v2.json").read_text(encoding="utf-8"))
+        items = previous.get("payloads", []) if isinstance(previous, dict) else []
+        return [item for item in items if isinstance(item, dict)] if isinstance(items, list) else []
+    except (OSError, json.JSONDecodeError):
+        return []
+
+
+def mark_recently_added_payloads(payloads: list[dict[str, Any]], previous_payloads: list[dict[str, Any]]) -> None:
+    """Mark catalog additions for seven days; don't label ordinary version updates as new payloads."""
+    previous_by_identity: dict[tuple[str, str], dict[str, Any]] = {}
+    for item in previous_payloads:
+        identity = payload_identity(item)
+        if identity[0] and identity[1]:
+            previous_by_identity.setdefault(identity, item)
+
+    now = datetime.now(timezone.utc)
+    for payload in payloads:
+        identity = payload_identity(payload)
+        previous = previous_by_identity.get(identity)
+        first_seen = previous.get("first_seen") if previous else None
+
+        if not previous:
+            first_seen = now.date().isoformat()
+            payload["first_seen"] = first_seen
+        elif isinstance(first_seen, str) and first_seen:
+            payload["first_seen"] = first_seen
+        else:
+            # Existing catalog entries predate this feature; don't falsely mark them as new.
+            payload.pop("first_seen", None)
+            continue
+
+        try:
+            first_seen_date = datetime.fromisoformat(first_seen[:10]).date()
+            age_days = (now.date() - first_seen_date).days
+        except (TypeError, ValueError):
+            age_days = 9999
+
+        base_name = re.sub(r"\\s*[·•]\\s*NEW\\s*$", "", str(payload.get("name") or "Payload"), flags=re.I).rstrip()
+        if 0 <= age_days < 7:
+            payload["name"] = base_name + " · NEW"
+        else:
+            payload["name"] = base_name
+
+
 def main() -> int:
+    previous_payloads = load_previous_payloads()
     try:
         source_data = download_json(SOURCE_URL)
         mirror_data = download_json(MIRROR_URL)
@@ -670,6 +718,10 @@ def main() -> int:
             stem = re.sub(r"(?i)[_-]v?\d+(?:[._-]\d+)*.*$", "", stem).strip("-_ .")
             suffix = stem or owner
             payload["name"] = str(payload.get("name") or "Payload") + " — " + (suffix or owner)
+
+    # Mark genuinely new catalog entries for seven days. PLDMGR displays payload.name,
+    # so this stays compatible with its current UI without requiring a client-side schema change.
+    mark_recently_added_payloads(payloads, previous_payloads)
 
     # Ensure every entry has a useful category and a valid icon mapping.
     repository_by_name = {
