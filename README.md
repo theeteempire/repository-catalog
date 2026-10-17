@@ -63,6 +63,11 @@ Where the source data provides it, payload records can include:
 
 The build checks for duplicate payload identities, unique payload IDs, valid icon references, and valid direct payload URLs. PS4-only binaries are filtered out where they can be identified from the available metadata. If required data or icon mappings fail validation, the workflow should not publish an invalid catalog.
 
+
+## New payload labels
+
+New entries added to the catalog are marked with **`· NEW`** in the payload name for seven days. This uses the existing `name` field that PLDMGR already displays, so it does not require a new PLDMGR UI feature or an unsupported custom JSON property to render the label. The generator remembers each new entry's `first_seen` date across scheduled runs. Ordinary version updates to an already-known payload are not marked as new; PLDMGR's existing update status remains responsible for installed-payload updates.
+
 ## Categories and icons
 
 Payloads are assigned categories to make the feed easier to browse. Existing curated icons are preferred when available. If a repository has no suitable curated icon, the catalog can use a normalized avatar from its GitHub owner as a fallback. A fallback avatar is not represented as the project's official logo.
