@@ -1,7 +1,7 @@
 {
   "name": "PS5 Payloads",
   "schema_version": 2,
-  "generated_at": "2026-10-17T23:45:14+00:00",
+  "generated_at": "2026-10-17T23:51:32+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
   "payloads": [
@@ -204,7 +204,7 @@
       "id": "ftpsrv-drakmor-ftpsrv-drakmor_1.16-ng-stable-c54377f5"
     },
     {
-      "name": "garlic-savemgr — garlic-savemgr",
+      "name": "garlic-savemgr — garlic-savemgr · NEW",
       "filename": "garlic-savemgr_v1.13.1.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.13.1.elf",
       "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
@@ -215,7 +215,8 @@
       "category": "Utilities & Tools",
       "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5",
       "icon_key": "2cc3ca2be798749bb50ba4dc2afcb00a321542352e95087aa89b0e53c9b3e2ed",
-      "id": "garlic-savemgr-garlic-savemgr_v1.13.1-3de37e7d"
+      "id": "garlic-savemgr-garlic-savemgr_v1.13.1-3de37e7d",
+      "first_seen": "2026-10-17"
     },
     {
       "name": "ps5-linux-loader",
@@ -2441,6 +2442,21 @@
       "checksum": "095e4ed478aacadaf5d55751d91007a0fc3d0b2cfe5ea5c1d3c62f06366e753c",
       "icon_key": "a4700ffd4ff4b567875974a6bb15c3d9bd81f6a51dec15f60834e93459b96cd1",
       "id": "breeze-breeze-4fd802c4"
+    },
+    {
+      "name": "RecompStore · NEW",
+      "filename": "RecompStore-Installer.elf",
+      "url": "https://github.com/elripalda/RecompStore/releases/download/v1.1.0/RecompStore-Installer.elf",
+      "source": "https://github.com/elripalda/RecompStore/releases",
+      "source_direct": "https://github.com/elripalda/RecompStore/releases/download/v1.1.0/RecompStore-Installer.elf",
+      "description": "A homebrew app store for jailbroken PS5: installs and updates native ports of recompiled games. Bring your own disc.",
+      "last_update": "2026-10-17",
+      "version": "v1.1.0",
+      "category": "Utilities & Tools",
+      "checksum": "9ebd957b5ffa7c05a9640fa6a278a7662292169a7ec3575dadb2e8e8be23e0c1",
+      "icon_key": "ccc3dff8e8dea38d24afee501b8528e6b69f04c577f359b368bbb850d5b2c8b5",
+      "id": "recompstore-recompstore-installer-a6a2097f",
+      "first_seen": "2026-10-17"
     },
     {
       "name": "ps5-account-activator",

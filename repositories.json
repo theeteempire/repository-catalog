@@ -1,10 +1,10 @@
 {
   "name": "PS5 Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-17T23:45:14+00:00",
+  "generated_at": "2026-10-17T23:51:32+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 323,
-  "payload_count": 185,
+  "payload_count": 186,
   "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
   "repositories": [
     {
@@ -3015,6 +3015,22 @@
       "checksum": "095e4ed478aacadaf5d55751d91007a0fc3d0b2cfe5ea5c1d3c62f06366e753c"
     },
     {
+      "name": "RecompStore",
+      "description": "A homebrew app store for jailbroken PS5: installs and updates native ports of recompiled games. Bring your own disc.",
+      "repository_url": "https://github.com/elripalda/RecompStore",
+      "category": "PS5 Auto-discovered",
+      "author": "elripalda",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-17",
+      "icon_key": "ccc3dff8e8dea38d24afee501b8528e6b69f04c577f359b368bbb850d5b2c8b5",
+      "payload_available": true,
+      "payload_filename": "RecompStore-Installer.elf",
+      "payload_url": "https://github.com/elripalda/RecompStore/releases/download/v1.1.0/RecompStore-Installer.elf",
+      "version": "v1.1.0",
+      "last_update": "2026-10-17",
+      "checksum": "9ebd957b5ffa7c05a9640fa6a278a7662292169a7ec3575dadb2e8e8be23e0c1"
+    },
+    {
       "name": "MacheteSVG-PS5-Save-Manager",
       "description": "Native PS5 & PS4 Savegame Manager and Web Save Station (:8383 + QR Code) with PFS Save Mounting, Cross-Console PS5 Save Dummy Injection, Apollo-Style PS4 Auto-Resigning, Keystone & SAMU Crypto Vault preservation.",
       "repository_url": "https://github.com/VenezuelanBiggie24/MacheteSVG-PS5-Save-Manager",
@@ -3535,16 +3551,6 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-17",
       "icon_key": "08d0896751563d0bc50d92dd386ad5776968221d73dacf63c2f6f3746f641765"
-    },
-    {
-      "name": "ps5-payloads",
-      "description": "PS5 payload repository for PS5 Payload Manager - serves ps5-localsend and syncps5 from latest releases",
-      "repository_url": "https://github.com/heydemoura/ps5-payloads",
-      "category": "PS5 Auto-discovered",
-      "author": "heydemoura",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
-      "icon_key": "f5abba1c8028d2df0f778d2c5374ddb63851a4419f01356d4bf615fc2b65673b"
     }
   ]
 }
