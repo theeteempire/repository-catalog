@@ -1,9 +1,9 @@
 {
   "name": "PS5 Payloads",
   "schema_version": 2,
-  "generated_at": "2026-10-17T23:08:30+00:00",
+  "generated_at": "2026-10-17T23:12:19+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
-  "icons_url": "icons.json",
+  "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
   "payloads": [
     {
       "name": "ps5upload",
@@ -355,7 +355,7 @@
       "version": "v1.2.3",
       "category": "Utilities & Tools",
       "checksum": "bb74aa448952e9af4fb001f256f48b3b15fdedff88c2dec472ee9d16b20dbed5",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "c2ae2a262b1af91438b346408664f95ea391fbd03627c1d105f19e5dcead4a10"
     },
     {
       "name": "ps5-new-overlay",
@@ -368,7 +368,7 @@
       "version": "v0.0.18",
       "category": "Utilities & Tools",
       "checksum": "b144a1594e328279966797dc9e79cf8675156d447fc232d07f94a01d16a44013",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "5633e3ca90491b8936d77432c80a2831c30f14634a4e8252df63292b17e90017"
     },
     {
       "name": "ps5-new-overlay",
@@ -381,7 +381,7 @@
       "version": "v0.0.18",
       "category": "Utilities & Tools",
       "checksum": "96562d1fc8deb641c67e19dc618cf2334f14512bc02e15732f53361f31005e29",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "5633e3ca90491b8936d77432c80a2831c30f14634a4e8252df63292b17e90017"
     },
     {
       "name": "ActRemoteLink-13.x",
@@ -472,7 +472,7 @@
       "version": "v0.1.5",
       "category": "Utilities & Tools",
       "checksum": "af438dbd138d34ea452db94057d6594b61eafb0692a1bc95d029adfbdc9a61fa",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "4029c41fcd09fa8a6f26105edb79195cf9db2d3578389e8c040c9c9d9b89bc35"
     },
     {
       "name": "FGG-PlayPods",
@@ -485,7 +485,7 @@
       "version": "1.0",
       "category": "Utilities & Tools",
       "checksum": "9ee1958ec24e4a927992fea9ee202f5a173756091bd3abc02ebf4d2d686211a4",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "021776a97722fb224016826128823585d021ead5210a0ee45715a928f76badfc"
     },
     {
       "name": "chukei-dns",
@@ -550,7 +550,7 @@
       "version": "v1.2.1",
       "category": "Utilities & Tools",
       "checksum": "c6ddf186755e9081c26119526488afb50ab2d4710ecab2ab572e241799e9e696",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "06d852ffb12906bca798bbe1666f6574cf4e5ad66741318ea52f2821a103037c"
     },
     {
       "name": "RommPS",
@@ -563,7 +563,7 @@
       "version": "v1.2.1",
       "category": "Utilities & Tools",
       "checksum": "8d7e44c512b311f4bbb522f6761a6319533bcd9d988a72bd313197d8161dd696",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "06d852ffb12906bca798bbe1666f6574cf4e5ad66741318ea52f2821a103037c"
     },
     {
       "name": "fbneo-ps5",
@@ -784,7 +784,7 @@
       "version": "v0.2.91",
       "category": "Utilities & Tools",
       "checksum": "ac78389a628401edba3c081f00156238ad5652b1b7ad241f5ccc7713179f0c82",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "700f5e11992a8d795705ba9895382a2d0f6991ae40b70f4edc5b3f46dc797b79"
     },
     {
       "name": "PS5-PHStore",
@@ -862,7 +862,7 @@
       "version": "v1.1.1",
       "category": "Utilities & Tools",
       "checksum": "5fec05b8a3cb89bafbc97970d5d68d9f31e6fcde873b5523243890e50836592b",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "d4c41585e95dd401f46b7d338867d654210efe0aa74693cf1dbaaef74a46119e"
     },
     {
       "name": "ps4mount",
@@ -875,7 +875,7 @@
       "version": "v0.6.0",
       "category": "Utilities & Tools",
       "checksum": "72467a3d8697961d611603956c4e63d96904197e57b175ff73e41d80badcaf25",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "7dda25fe6d15ecab1f72dbecc680cac5b76c338f116ff7b944dd9755cda30d70"
     },
     {
       "name": "ps5-unified-autoloader",
@@ -888,7 +888,7 @@
       "version": "v0.1.5-915a65e",
       "category": "Utilities & Tools",
       "checksum": "c8e36ea06cfd37c5fad356ff9fcd09d3e62065d88170b5119ce8f1eeb3efacac",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e"
     },
     {
       "name": "kura",
@@ -1057,7 +1057,7 @@
       "version": "1.1",
       "category": "Utilities & Tools",
       "checksum": "55195ccb02fbdbfa002e9188b0eff72d7d2e6de6c7a1c91666f88c6c9ff0d6c0",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "021776a97722fb224016826128823585d021ead5210a0ee45715a928f76badfc"
     },
     {
       "name": "pad2c",
@@ -1277,7 +1277,7 @@
       "version": "nightly-20260930-g6e493c9",
       "category": "Utilities & Tools",
       "checksum": "d4ce3398d639a3164f63c8e5acecccccebb18e2086fec21adef762e57a724b13",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe"
     },
     {
       "name": "MemDBG",
@@ -1290,7 +1290,7 @@
       "version": "nightly-20260930-g6e493c9",
       "category": "Utilities & Tools",
       "checksum": "2fbdc9f0b21043619b1c32b512df47b3ddf79a99f096243c0d48f5ffc14e1906",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe"
     },
     {
       "name": "ps5-hwinfo",
@@ -1329,7 +1329,7 @@
       "version": "v0.9",
       "category": "Utilities & Tools",
       "checksum": "fc91ea233cdbb47acd8087b93d557d9f8a663d0f47cb75908a05a024d07e7efb",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041"
     },
     {
       "name": "gdbsrv",
@@ -1342,7 +1342,7 @@
       "version": "v0.9",
       "category": "Utilities & Tools",
       "checksum": "80952d75f423768b95385f0944e5a5c2f417dcc10c22c1bb6516a923ad8894e5",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041"
     },
     {
       "name": "ps5-ezremote-server",
@@ -1446,7 +1446,7 @@
       "version": "1.0",
       "category": "Utilities & Tools",
       "checksum": "a06cf9ace6e13f3c0241a709c6a8d23969d74e6559ec2a2290298f480f62da79",
-      "icon_key": "1257c08c58f71909ae077c915718f09b1df4ca64b884cec4b5d21cdecd297a28"
+      "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6"
     },
     {
       "name": "PS5-Power-Payloads-Project",
@@ -1459,7 +1459,7 @@
       "version": "1.0",
       "category": "Utilities & Tools",
       "checksum": "42ed7983619a31f74a6ac74cc943b80899366ceaf07fed77a46384b9b0f51c48",
-      "icon_key": "1257c08c58f71909ae077c915718f09b1df4ca64b884cec4b5d21cdecd297a28"
+      "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6"
     },
     {
       "name": "PS5-Power-Payloads-Project",
@@ -1472,7 +1472,7 @@
       "version": "1.0",
       "category": "Utilities & Tools",
       "checksum": "3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe",
-      "icon_key": "1257c08c58f71909ae077c915718f09b1df4ca64b884cec4b5d21cdecd297a28"
+      "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6"
     },
     {
       "name": "PS5-Power-Payloads-Project",
@@ -1485,7 +1485,7 @@
       "version": "1.0",
       "category": "Utilities & Tools",
       "checksum": "1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1",
-      "icon_key": "1257c08c58f71909ae077c915718f09b1df4ca64b884cec4b5d21cdecd297a28"
+      "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6"
     },
     {
       "name": "FGG-Unpack",
@@ -1498,7 +1498,7 @@
       "version": "v0.1",
       "category": "Utilities & Tools",
       "checksum": "e8c8e57bbda31b5d16d131797aac6f83b555cae8d439b1f475c952f3d9554eff",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "021776a97722fb224016826128823585d021ead5210a0ee45715a928f76badfc"
     },
     {
       "name": "ProsperoPlayer",
@@ -1524,7 +1524,7 @@
       "version": "v0.3",
       "category": "Utilities & Tools",
       "checksum": "31f2caac7d53b8754bb37cb0364e615bfc38fc5f02c886d286a4f9e603b56832",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041"
     },
     {
       "name": "PS-Play",
@@ -1563,7 +1563,7 @@
       "version": "01.000.000",
       "category": "Utilities & Tools",
       "checksum": "99f14fd628d0be27e981cc45781ef067c6ae8e640706e4c2cc273edf87de01fb",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "51ded9acea016d53b68f9dd7a7ecd335960bab299fba4740d2ef23c1ece8a328"
     },
     {
       "name": "elf-launcher",
@@ -1641,7 +1641,7 @@
       "version": "v0.2.1",
       "category": "Utilities & Tools",
       "checksum": "629c2bc4486ac5b7fb2de5c021a78edc41f246a78d8f455fb983d01441a00924",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "bed36637bc9d470b4223a8ca7f1494e5b7ca9539d5d69f3bf02ee7eb015d36a0"
     },
     {
       "name": "PS5-Network-Mounting",
@@ -1654,7 +1654,7 @@
       "version": "v1.1.1",
       "category": "Utilities & Tools",
       "checksum": "91816553248a65f062ee5a2b52dcff0f3f4d508633f59a79e251ccb055f63153",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "7055f31fe10d470a8ebd4dd722561b8188d2640cf3a2af42ab67b227f87390f0"
     },
     {
       "name": "ps5-dump-forge",
@@ -1667,7 +1667,7 @@
       "version": "v0.2.0",
       "category": "Utilities & Tools",
       "checksum": "2a4294745f1fc81f8e18c4e5258ed32ae61e5362c944cc63bda6413b3fd3b90e",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "ad79ebaa2a4893da24720d0ed0ba5a1fbb3d4c1afab90c04193a37ee7eae06ec"
     },
     {
       "name": "LibrePadPS5",
@@ -1693,7 +1693,7 @@
       "version": "v0.2",
       "category": "Utilities & Tools",
       "checksum": "5f53da68491229b52e18f84017975be3753487fee6e0f22c55d8e7a11fafed02",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041"
     },
     {
       "name": "TacHen",
@@ -1758,7 +1758,7 @@
       "version": "v1.0.0",
       "category": "Utilities & Tools",
       "checksum": "9b635ff7aacd785ff79c09d17c3734fd0427d0a7c644abb7f8bea4093420c534",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "9a2320d119e5664b70ad89359c7ddcfc92f0451c0ab3c786b191d893d1440eae"
     },
     {
       "name": "ps5-stream8",
@@ -1784,7 +1784,7 @@
       "version": "v1.104",
       "category": "Utilities & Tools",
       "checksum": "ffc0956937077c29d7afdf60c9a01b62fa23034d2b50013608139b57f8b90d16",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "006f1ada3fcca66864bd46a546d5fdfd3e1ae75fc2e1691374f425202a98ab5c"
     },
     {
       "name": "ps5-60FPS",
@@ -1797,7 +1797,7 @@
       "version": "v1.0.0",
       "category": "Utilities & Tools",
       "checksum": "5331ebf1b69cd272a0491f899b14ca5d59240adee2e69078631473070ddeca9b",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "9a2320d119e5664b70ad89359c7ddcfc92f0451c0ab3c786b191d893d1440eae"
     },
     {
       "name": "HLDRIVE",
@@ -1823,7 +1823,7 @@
       "version": "v0.2.1",
       "category": "Utilities & Tools",
       "checksum": "5458739714d93ad807f3720ff3a2107687bf18be6e238c3f531a93f55d3467b7",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b"
     },
     {
       "name": "HearBridge-PS5",
@@ -1888,7 +1888,7 @@
       "version": "v0.6.1.181",
       "category": "Utilities & Tools",
       "checksum": "8d7190afbcf2e1789acdf312f57a1e7d435e02016de06367546c60fdc368ad94",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "668c3fb6a0d67edd2db4d4adcc7189c5fa9f2c189c21f0181f527215b621bad5"
     },
     {
       "name": "NayePlmTools",
@@ -1901,7 +1901,7 @@
       "version": "v0.6.1.181",
       "category": "Utilities & Tools",
       "checksum": "f04d9731de9d71a4f14db258ad6b5ebaa14ecdc29c26bcc0cc6c0af13d5958a3",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "668c3fb6a0d67edd2db4d4adcc7189c5fa9f2c189c21f0181f527215b621bad5"
     },
     {
       "name": "HYPERHEN",
@@ -2057,7 +2057,7 @@
       "version": "v0.2.0-rc.1",
       "category": "Utilities & Tools",
       "checksum": "26419aa77b22c177b42032fb0af2c139823c4918ae046395e5a7eb50ee4ac0c6",
-      "icon_key": "a523b3f8ea140ad0ce55371c9c92b25983587d6045424a8b9d4a0bb16576ccc6"
+      "icon_key": "46d2ffc86d12108ce4d7e9e8f79b7e2c7d64b02189736fb4b2897364c247654d"
     },
     {
       "name": "ps5-cooling-system-center-pro",
