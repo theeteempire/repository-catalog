@@ -174,10 +174,22 @@ def is_direct_asset_url(value: Any) -> bool:
 
 
 def get_latest_release(full_name: str) -> dict[str, Any] | None:
-    url = f"{API_ROOT}/repos/{full_name}/releases/latest"
+    """Find the newest public release with a direct ELF asset, including prereleases."""
+    url = f"{API_ROOT}/repos/{full_name}/releases?per_page=10"
     try:
         data = download_json(url)
-        return data if isinstance(data, dict) else None
+        if not isinstance(data, list):
+            return None
+        for release in data:
+            if not isinstance(release, dict):
+                continue
+            assets = release.get("assets")
+            if isinstance(assets, list) and any(
+                isinstance(asset, dict) and is_direct_asset_url(asset.get("browser_download_url"))
+                for asset in assets
+            ):
+                return release
+        return None
     except urllib.error.HTTPError as exc:
         if exc.code in (403, 404):
             if exc.code == 403:
@@ -189,6 +201,23 @@ def get_latest_release(full_name: str) -> dict[str, Any] | None:
         print(f"NOTICE: release lookup failed for {full_name}: {exc}", file=sys.stderr)
         return None
 
+
+def infer_category(*values: Any) -> str:
+    """Assign consistent PLDMGR categories to payloads using their metadata."""
+    text = " ".join(str(value or "") for value in values).lower()
+    rules = [
+        (("hen", "jailbreak", "exploit", "kernel", "payload loader", "homebrew enabler"), "System & Jailbreak"),
+        (("ftp", "http", "network", "dns", "smb", "remote play", "web server", "websrv", "ps5upload"), "Networking & Servers"),
+        (("loader", "autoload", "autoloader", "elfldr", "webkit"), "Loaders"),
+        (("emulator", "linux", "retroarch", "vm "), "Emulators & Linux"),
+        (("cheat", "trainer", "fps", "overlay", "mod menu", "patch"), "Game Tools & Mods"),
+        (("save", "dumper", "dump", "backup", "file manager", "filesystem", "pkg-manager", "pkg manager"), "File & Package Management"),
+        (("plugin", "daemon", "service", "mount", "shadowmount"), "Plugins & System Tools"),
+    ]
+    for keywords, category in rules:
+        if any(word in text for word in keywords):
+            return category
+    return "Utilities & Tools"
 
 def normalize_icon_data(value: Any) -> str:
     """Normalize icon data to PLDMGR's size/format limits."""
@@ -447,7 +476,7 @@ def main() -> int:
                 "description": description or f"PS5 payload from {full_name}",
                 "last_update": updated,
                 "version": version,
-                "category": category if category != "Repositories" else "Utilities & Tools",
+                "category": infer_category(record["name"], description, asset_name, category),
             }
             if checksum:
                 item["checksum"] = checksum
@@ -469,6 +498,14 @@ def main() -> int:
                 record["icon_key"] = icon_key
             discovered += 1
         time.sleep(0.05)
+
+    # Ensure every entry has a useful category; preserve curated categories when present.
+    for payload in payloads:
+        current_category = str(payload.get("category") or "").strip()
+        if not current_category or current_category.lower() in {"repositories", "uncategorized"}:
+            payload["category"] = infer_category(
+                payload.get("name"), payload.get("description"), payload.get("filename")
+            )
 
     if not payloads:
         print("ERROR: no direct ELF assets found; refusing to publish empty PLDMGR feed.", file=sys.stderr)
