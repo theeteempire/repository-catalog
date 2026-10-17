@@ -1,10 +1,10 @@
 {
   "name": "PS5 Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-17T23:26:37+00:00",
+  "generated_at": "2026-10-17T23:34:04+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 274,
-  "payload_count": 208,
+  "payload_count": 174,
   "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
   "repositories": [
     {

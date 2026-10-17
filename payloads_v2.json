@@ -1,7 +1,7 @@
 {
   "name": "PS5 Payloads",
   "schema_version": 2,
-  "generated_at": "2026-10-17T23:26:37+00:00",
+  "generated_at": "2026-10-17T23:34:04+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
   "payloads": [
@@ -16,7 +16,8 @@
       "version": "v7.0.31",
       "category": "Networking & Servers",
       "checksum": "4ef3b781ae178bbe402a87a64b6f366d3386d6557306db0f51b46b458ffa7e24",
-      "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0"
+      "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0",
+      "id": "ps5upload-ps5upload_v7.0.31-8e2ce04a"
     },
     {
       "name": "onionHEN",
@@ -29,7 +30,8 @@
       "version": "v0.9.0",
       "category": "System & Jailbreak",
       "checksum": "1f1f7c883d5d998be1d95d7d80b718f85180f8156f257661b0f445a7c6b7c212",
-      "icon_key": "9c0353458e7f31df4fe6c588f15dbac7df982893b87cf9f84b472487e61a4576"
+      "icon_key": "9c0353458e7f31df4fe6c588f15dbac7df982893b87cf9f84b472487e61a4576",
+      "id": "onionhen-onionhen_v0.9.0-c0396873"
     },
     {
       "name": "pldmgr",
@@ -42,7 +44,8 @@
       "version": "v0.6.1",
       "category": "Utilities & Tools",
       "checksum": "5165cbe4c13360828bd0f5d558cdbb9e2d55b0660b1dc7f7a58d3f4ee9e23285",
-      "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346"
+      "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346",
+      "id": "pldmgr-pldmgr_v0.6.1-b32516ba"
     },
     {
       "name": "ps-patch-system",
@@ -55,7 +58,8 @@
       "version": "38108724867",
       "category": "Utilities & Tools",
       "checksum": "10d8636e1b0f07f3f046aadb5c050a24ed9b0fae3585ec29a1ecabec07035589",
-      "icon_key": "ab52d7d50f08caf2a18b0e8f001aa243ca4b81930a7576183fcb40491d9dac62"
+      "icon_key": "ab52d7d50f08caf2a18b0e8f001aa243ca4b81930a7576183fcb40491d9dac62",
+      "id": "ps-patch-system-ps-patch-system_38108724867-c2acbaff"
     },
     {
       "name": "PKG-Manager",
@@ -68,7 +72,8 @@
       "version": "v1.5.1",
       "category": "Utilities & Tools",
       "checksum": "82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca",
-      "icon_key": "cf00f6f4c5d15c190c59cce408f0eae1da80b0f8bd5a3a1cdc28be9a7aacd2db"
+      "icon_key": "cf00f6f4c5d15c190c59cce408f0eae1da80b0f8bd5a3a1cdc28be9a7aacd2db",
+      "id": "pkg-manager-pkg-manager_v1.5.1-c3e0b2be"
     },
     {
       "name": "CheatRunner",
@@ -81,7 +86,8 @@
       "version": "v0.18",
       "category": "Utilities & Tools",
       "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140",
-      "icon_key": "773bbf20ce184cad7fe08134e83220b8bc43079821c8f131df5c5d931a293219"
+      "icon_key": "773bbf20ce184cad7fe08134e83220b8bc43079821c8f131df5c5d931a293219",
+      "id": "cheatrunner-cheatrunner_v0.18-b26525a2"
     },
     {
       "name": "ShadowMountPlus",
@@ -95,7 +101,8 @@
       "version": "1.7-beta5fix1",
       "category": "Utilities & Tools",
       "checksum": "e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5",
-      "icon_key": "2d83b692b57d424d0165cad9be37d9e0abe47a17dca0d7c6b9c05c30c4a0ab90"
+      "icon_key": "2d83b692b57d424d0165cad9be37d9e0abe47a17dca0d7c6b9c05c30c4a0ab90",
+      "id": "shadowmountplus-shadowmountplus_1.7-beta5fix1-a94949f4"
     },
     {
       "name": "WebKit-Autoloader-Installer",
@@ -108,10 +115,11 @@
       "version": "v0.6.1",
       "category": "Loaders",
       "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
-      "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7"
+      "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
+      "id": "webkit-autoloader-installer-webkit-autoloader-installer_v0.6.1-cf17e060"
     },
     {
-      "name": "ps5-web-file-manager",
+      "name": "ps5-web-file-manager — ps5-web-file-manager",
       "filename": "ps5-web-file-manager_v1.10.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.10.elf",
       "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
@@ -121,7 +129,8 @@
       "version": "v1.10",
       "category": "Utilities & Tools",
       "checksum": "409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3",
-      "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97"
+      "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97",
+      "id": "ps5-web-file-manager-ps5-web-file-manager_v1.10-961b0ef1"
     },
     {
       "name": "ps5-app-dumper",
@@ -134,10 +143,11 @@
       "version": "v2.10",
       "category": "Utilities & Tools",
       "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b",
-      "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b"
+      "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b",
+      "id": "ps5-app-dumper-ps5-app-dumper_v2.10-29765990"
     },
     {
-      "name": "zftpd",
+      "name": "zftpd — zftpd",
       "filename": "zftpd_v1.6.0.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/zftpd_v1.6.0.elf",
       "source": "https://github.com/seregonwar/zftpd/releases",
@@ -148,10 +158,11 @@
       "version": "v1.6.0",
       "category": "Networking & Servers",
       "checksum": "fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497",
-      "icon_key": "bd943d614d5d000c34a8bd4e1c00df0bbb9881907accaabe58aab384711abb6c"
+      "icon_key": "bd943d614d5d000c34a8bd4e1c00df0bbb9881907accaabe58aab384711abb6c",
+      "id": "zftpd-zftpd_v1.6.0-b2aeb7b0"
     },
     {
-      "name": "ps5debug-NG",
+      "name": "ps5debug-NG — ps5debug-NG",
       "filename": "ps5debug-NG_1.3.2.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5debug-NG_1.3.2.elf",
       "source": "https://github.com/Pharaoh2k/ps5debug-NG/releases",
@@ -161,10 +172,11 @@
       "version": "1.3.2",
       "category": "Utilities & Tools",
       "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
-      "icon_key": "3b36ccc3ede9cf0aed3baea3cddc67d1df892ce9ef5a14104e275ef920270dd1"
+      "icon_key": "3b36ccc3ede9cf0aed3baea3cddc67d1df892ce9ef5a14104e275ef920270dd1",
+      "id": "ps5debug-ng-ps5debug-ng_1.3.2-ffafd129"
     },
     {
-      "name": "kstuff-lite",
+      "name": "kstuff-lite — kstuff-lite",
       "filename": "kstuff-lite_v1.11.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-lite_v1.11.elf",
       "source": "https://github.com/EchoStretch/kstuff-lite/releases",
@@ -174,7 +186,8 @@
       "version": "v1.11",
       "category": "System & Jailbreak",
       "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779",
-      "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b"
+      "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b",
+      "id": "kstuff-lite-kstuff-lite_v1.11-b3f78db1"
     },
     {
       "name": "ftpsrv-drakmor",
@@ -187,10 +200,11 @@
       "version": "1.16-ng-stable",
       "category": "Networking & Servers",
       "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
-      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a"
+      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a",
+      "id": "ftpsrv-drakmor-ftpsrv-drakmor_1.16-ng-stable-c54377f5"
     },
     {
-      "name": "garlic-savemgr",
+      "name": "garlic-savemgr — garlic-savemgr",
       "filename": "garlic-savemgr_v1.13.1.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.13.1.elf",
       "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
@@ -200,7 +214,8 @@
       "version": "v1.13.1",
       "category": "Utilities & Tools",
       "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5",
-      "icon_key": "2cc3ca2be798749bb50ba4dc2afcb00a321542352e95087aa89b0e53c9b3e2ed"
+      "icon_key": "2cc3ca2be798749bb50ba4dc2afcb00a321542352e95087aa89b0e53c9b3e2ed",
+      "id": "garlic-savemgr-garlic-savemgr_v1.13.1-3de37e7d"
     },
     {
       "name": "ps5-linux-loader",
@@ -213,7 +228,8 @@
       "version": "v2.5",
       "category": "Loaders",
       "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49",
-      "icon_key": "b3d73d513d62b4d6c880873e46cbea07b977c9bc03295c7e3a31e091fda7a8f7"
+      "icon_key": "b3d73d513d62b4d6c880873e46cbea07b977c9bc03295c7e3a31e091fda7a8f7",
+      "id": "ps5-linux-loader-ps5-linux-loader_v2.5-5743ea55"
     },
     {
       "name": "elfldr",
@@ -226,10 +242,11 @@
       "version": "v0.26",
       "category": "Loaders",
       "checksum": "ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1",
-      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
+      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4",
+      "id": "elfldr-elfldr_v0.26-963098e8"
     },
     {
-      "name": "ftpsrv",
+      "name": "ftpsrv — ftpsrv",
       "filename": "ftpsrv_v0.21.1.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_v0.21.1.elf",
       "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
@@ -239,7 +256,8 @@
       "version": "v0.21.1",
       "category": "Networking & Servers",
       "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938",
-      "icon_key": "4720d3f0f446dc4e8848351d922d3fa4c0ef2fe9267f6afd6f3865f9b14605e7"
+      "icon_key": "4720d3f0f446dc4e8848351d922d3fa4c0ef2fe9267f6afd6f3865f9b14605e7",
+      "id": "ftpsrv-ftpsrv_v0.21.1-be07bc2c"
     },
     {
       "name": "BFpilot",
@@ -252,7 +270,8 @@
       "version": "v0.4.4",
       "category": "Utilities & Tools",
       "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1",
-      "icon_key": "a70cf8ec24e00969dc832395bd378be25ae43e54e3537450e3b599da68ad74a4"
+      "icon_key": "a70cf8ec24e00969dc832395bd378be25ae43e54e3537450e3b599da68ad74a4",
+      "id": "bfpilot-bfpilot_v0.4.4-7cb93071"
     },
     {
       "name": "nanoDNS",
@@ -265,7 +284,8 @@
       "version": "0.4",
       "category": "Networking & Servers",
       "checksum": "dcb845f3570771275b22b37534bf924a7f8ae219fb91ef00c6bccab85d1c2420",
-      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a"
+      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a",
+      "id": "nanodns-nanodns_0.4-2bb05cc6"
     },
     {
       "name": "websrv",
@@ -278,7 +298,8 @@
       "version": "v0.34",
       "category": "Networking & Servers",
       "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263",
-      "icon_key": "071962d27a706dfa602cd64c2f5cffa9aed238574f55d35be4989e8e65ab8618"
+      "icon_key": "071962d27a706dfa602cd64c2f5cffa9aed238574f55d35be4989e8e65ab8618",
+      "id": "websrv-websrv_v0.34-4a5d121c"
     },
     {
       "name": "shsrv",
@@ -291,7 +312,8 @@
       "version": "v0.20",
       "category": "Networking & Servers",
       "checksum": "fa4ccb2587bb61be317df0d001f668b17ebf9b4aafad87acf691b1fb8da0bd2d",
-      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
+      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4",
+      "id": "shsrv-shsrv_v0.20-1baa7a3d"
     },
     {
       "name": "klogsrv",
@@ -304,7 +326,8 @@
       "version": "v0.9",
       "category": "Networking & Servers",
       "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb",
-      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
+      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4",
+      "id": "klogsrv-klogsrv_v0.9-49e2e94a"
     },
     {
       "name": "Lapy-JB-Daemon",
@@ -317,6 +340,7 @@
       "version": "v1.2",
       "category": "System & Jailbreak",
       "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e",
+      "id": "lapy-jb-daemon-lapy-jb-daemon_v1.2-a4400fbc",
       "icon_key": "44863ac89e9d4610329af2ddf38682343888a91b7649ade8f1ff528ee2241236"
     },
     {
@@ -330,20 +354,8 @@
       "version": "0.1",
       "category": "Utilities & Tools",
       "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
-      "icon_key": "b4431c1161e6efaed2a3be0eb99564fa43ea894905737f7571b5585e0dc75bcf"
-    },
-    {
-      "name": "CheatRunner",
-      "filename": "CheatRunner.elf",
-      "url": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18/CheatRunner.elf",
-      "source": "https://github.com/notmaj0r/CheatRunner/releases",
-      "source_direct": "https://github.com/notmaj0r/CheatRunner/releases/download/v0.18/CheatRunner.elf",
-      "description": "Web-Based Cheat Trainer for PS5!",
-      "last_update": "2026-10-10",
-      "version": "v0.18",
-      "category": "Game Tools & Mods",
-      "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140",
-      "icon_key": "773bbf20ce184cad7fe08134e83220b8bc43079821c8f131df5c5d931a293219"
+      "icon_key": "b4431c1161e6efaed2a3be0eb99564fa43ea894905737f7571b5585e0dc75bcf",
+      "id": "backpork-backpork_0.1-59d8fbe5"
     },
     {
       "name": "kylin-core-release",
@@ -356,7 +368,8 @@
       "version": "v2.0.0-community-lite",
       "category": "Utilities & Tools",
       "checksum": "7f5245f2db67b131c6f9e991b731117c2c730923a9dd65a2d82b36f2e2b91545",
-      "icon_key": "6b725bb2151f8237f4fac83e71f9e37da8dd5aace137382946da89bf9b7d08aa"
+      "icon_key": "6b725bb2151f8237f4fac83e71f9e37da8dd5aace137382946da89bf9b7d08aa",
+      "id": "kylin-core-release-kylin-core-fb82d858"
     },
     {
       "name": "Common-FPS-for-PS5",
@@ -369,10 +382,11 @@
       "version": "v1.2.3",
       "category": "System & Jailbreak",
       "checksum": "bb74aa448952e9af4fb001f256f48b3b15fdedff88c2dec472ee9d16b20dbed5",
-      "icon_key": "c2ae2a262b1af91438b346408664f95ea391fbd03627c1d105f19e5dcead4a10"
+      "icon_key": "c2ae2a262b1af91438b346408664f95ea391fbd03627c1d105f19e5dcead4a10",
+      "id": "common-fps-for-ps5-common_fps_ps5_v1.2.3-476c5532"
     },
     {
-      "name": "ps5-new-overlay",
+      "name": "ps5-new-overlay — overlay_payload",
       "filename": "overlay_payload.elf",
       "url": "https://github.com/smoxa/ps5-new-overlay/releases/download/v0.0.18/overlay_payload.elf",
       "source": "https://github.com/smoxa/ps5-new-overlay/releases",
@@ -382,10 +396,11 @@
       "version": "v0.0.18",
       "category": "System & Jailbreak",
       "checksum": "b144a1594e328279966797dc9e79cf8675156d447fc232d07f94a01d16a44013",
-      "icon_key": "5633e3ca90491b8936d77432c80a2831c30f14634a4e8252df63292b17e90017"
+      "icon_key": "5633e3ca90491b8936d77432c80a2831c30f14634a4e8252df63292b17e90017",
+      "id": "ps5-new-overlay-overlay_payload-afeda71f"
     },
     {
-      "name": "ps5-new-overlay",
+      "name": "ps5-new-overlay — ps5-overlay-kus",
       "filename": "ps5-overlay-kus_v1.0.18.elf",
       "url": "https://github.com/smoxa/ps5-new-overlay/releases/download/v0.0.18/ps5-overlay-kus_v1.0.18.elf",
       "source": "https://github.com/smoxa/ps5-new-overlay/releases",
@@ -395,10 +410,11 @@
       "version": "v0.0.18",
       "category": "System & Jailbreak",
       "checksum": "96562d1fc8deb641c67e19dc618cf2334f14512bc02e15732f53361f31005e29",
-      "icon_key": "5633e3ca90491b8936d77432c80a2831c30f14634a4e8252df63292b17e90017"
+      "icon_key": "5633e3ca90491b8936d77432c80a2831c30f14634a4e8252df63292b17e90017",
+      "id": "ps5-new-overlay-ps5-overlay-kus_v1.0.18-9e8ecaa5"
     },
     {
-      "name": "ActRemoteLink-13.x",
+      "name": "ActRemoteLink-13.x — actremotelink_agent",
       "filename": "actremotelink_agent.elf",
       "url": "https://github.com/StonedModder/ActRemoteLink-13.x/releases/download/v2.0/actremotelink_agent.elf",
       "source": "https://github.com/StonedModder/ActRemoteLink-13.x/releases",
@@ -408,10 +424,11 @@
       "version": "v2.0",
       "category": "Networking & Servers",
       "checksum": "c3a4195b86eaeb77ba64903e9280a0bb6d55e55fb1399a2f2c26310f09ca166a",
-      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816"
+      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
+      "id": "actremotelink-13.x-actremotelink_agent-dcd85810"
     },
     {
-      "name": "ActRemoteLink-13.x",
+      "name": "ActRemoteLink-13.x — actremotelink_pin_notify",
       "filename": "actremotelink_pin_notify.elf",
       "url": "https://github.com/StonedModder/ActRemoteLink-13.x/releases/download/v2.0/actremotelink_pin_notify.elf",
       "source": "https://github.com/StonedModder/ActRemoteLink-13.x/releases",
@@ -421,20 +438,8 @@
       "version": "v2.0",
       "category": "Networking & Servers",
       "checksum": "707ea60d186b2b0b53ca379a740fef4b4a7c18558730e9f8c86868a1ab77b70c",
-      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816"
-    },
-    {
-      "name": "ps5-webkit-autoloader",
-      "filename": "webkit-autoloader-installer_v0.6.1.elf",
-      "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.1/webkit-autoloader-installer_v0.6.1.elf",
-      "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases",
-      "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.1/webkit-autoloader-installer_v0.6.1.elf",
-      "description": "An automated payload loader for exploited PS5 consoles",
-      "last_update": "2026-10-08",
-      "version": "v0.6.1",
-      "category": "System & Jailbreak",
-      "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
-      "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7"
+      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
+      "id": "actremotelink-13.x-actremotelink_pin_notify-74f82d05"
     },
     {
       "name": "instalador-host-psm-poop2jb",
@@ -447,46 +452,8 @@
       "version": "v1.2.0",
       "category": "System & Jailbreak",
       "checksum": "90f1ec197e66bbf4fa1a3bce040d6a5d04d571c4f8290f608401e8f7c2e9e0a4",
-      "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41"
-    },
-    {
-      "name": "instalador-host-psm-poop2jb",
-      "filename": "Host-PSM-pooP2JB-v1.2.0-instala-onionhen.elf",
-      "url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen.elf",
-      "source": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases",
-      "source_direct": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen.elf",
-      "description": "Host-PSM pooP2JB v1.2.0 - EXE, ELF e APK Android - seletor final OnionHEN/PLDMGR e idioma PT/EN",
-      "last_update": "2026-08-30",
-      "version": "v1.2.0",
-      "category": "System & Jailbreak",
-      "checksum": "894432bb3161559a272bbdd07cc66dd80ac487f6ddbcc9ae5718090dc0f6e716",
-      "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41"
-    },
-    {
-      "name": "instalador-host-psm-poop2jb",
-      "filename": "Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en.elf",
-      "url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en.elf",
-      "source": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases",
-      "source_direct": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en.elf",
-      "description": "Host-PSM pooP2JB v1.2.0 - EXE, ELF e APK Android - seletor final OnionHEN/PLDMGR e idioma PT/EN",
-      "last_update": "2026-08-30",
-      "version": "v1.2.0",
-      "category": "System & Jailbreak",
-      "checksum": "3ccc45938dcc1bb6ee766195106c928049fd632993828bcf73b5368fdebfc496",
-      "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41"
-    },
-    {
-      "name": "instalador-host-psm-poop2jb",
-      "filename": "Host-PSM-pooP2JB-v1.2.0-instala-pldmgr.elf",
-      "url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr.elf",
-      "source": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases",
-      "source_direct": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr.elf",
-      "description": "Host-PSM pooP2JB v1.2.0 - EXE, ELF e APK Android - seletor final OnionHEN/PLDMGR e idioma PT/EN",
-      "last_update": "2026-08-30",
-      "version": "v1.2.0",
-      "category": "System & Jailbreak",
-      "checksum": "b81609da1db061165e44541653b95f524c917a3d5a1fca308965b0d821be3178",
-      "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41"
+      "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41",
+      "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-onionhen-en-5272e025"
     },
     {
       "name": "FGG-PlayPods-GUI",
@@ -499,7 +466,8 @@
       "version": "v0.1.5",
       "category": "Utilities & Tools",
       "checksum": "af438dbd138d34ea452db94057d6594b61eafb0692a1bc95d029adfbdc9a61fa",
-      "icon_key": "4029c41fcd09fa8a6f26105edb79195cf9db2d3578389e8c040c9c9d9b89bc35"
+      "icon_key": "4029c41fcd09fa8a6f26105edb79195cf9db2d3578389e8c040c9c9d9b89bc35",
+      "id": "fgg-playpods-gui-fgg-playpods-gui-15c586cf"
     },
     {
       "name": "FGG-PlayPods",
@@ -512,46 +480,8 @@
       "version": "1.0",
       "category": "Utilities & Tools",
       "checksum": "9ee1958ec24e4a927992fea9ee202f5a173756091bd3abc02ebf4d2d686211a4",
-      "icon_key": "021776a97722fb224016826128823585d021ead5210a0ee45715a928f76badfc"
-    },
-    {
-      "name": "nanoDNS",
-      "filename": "nanodns-ps4.elf",
-      "url": "https://github.com/drakmor/nanoDNS/releases/download/0.4/nanodns-ps4.elf",
-      "source": "https://github.com/drakmor/nanoDNS/releases",
-      "source_direct": "https://github.com/drakmor/nanoDNS/releases/download/0.4/nanodns-ps4.elf",
-      "description": "Playstation 4/5 DNS proxy server",
-      "last_update": "2026-08-04",
-      "version": "0.4",
-      "category": "Networking & Servers",
-      "checksum": "aa7e9d94e32ef866e40844146330028329f8a8a529244e2ecc319ff9d8b0f5f9",
-      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a"
-    },
-    {
-      "name": "nanoDNS",
-      "filename": "nanodns.elf",
-      "url": "https://github.com/drakmor/nanoDNS/releases/download/0.4/nanodns.elf",
-      "source": "https://github.com/drakmor/nanoDNS/releases",
-      "source_direct": "https://github.com/drakmor/nanoDNS/releases/download/0.4/nanodns.elf",
-      "description": "Playstation 4/5 DNS proxy server",
-      "last_update": "2026-08-04",
-      "version": "0.4",
-      "category": "Networking & Servers",
-      "checksum": "fcfb7d47c3b295560ea1603dc015f7c4950353ef0faca16428bd425680ef1fc5",
-      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a"
-    },
-    {
-      "name": "chukei-dns",
-      "filename": "chukei-ps4.elf",
-      "url": "https://github.com/Al-Azif/chukei-dns/releases/download/0.9.0/chukei-ps4.elf",
-      "source": "https://github.com/Al-Azif/chukei-dns/releases",
-      "source_direct": "https://github.com/Al-Azif/chukei-dns/releases/download/0.9.0/chukei-ps4.elf",
-      "description": "Lightweight DNS relay server with DNS-over-HTTPS (DoH) and man-in-the-middle (MitM) functionality",
-      "last_update": "2026-04-11",
-      "version": "0.9.0",
-      "category": "Networking & Servers",
-      "checksum": "d69081b4a68adcab517c699d8535b17830af41de635d891de4c516b43015610f",
-      "icon_key": "73ec20a889469943b8c7b362e85c362c569d8c89fbc88451f0991c35c827823f"
+      "icon_key": "021776a97722fb224016826128823585d021ead5210a0ee45715a928f76badfc",
+      "id": "fgg-playpods-fgg-playpods-72693c6d"
     },
     {
       "name": "chukei-dns",
@@ -564,7 +494,8 @@
       "version": "0.9.0",
       "category": "Networking & Servers",
       "checksum": "0cf13e1ed87b57ffa4fdcfca5d9afe1572be29b4f632677cedf17657a972d750",
-      "icon_key": "73ec20a889469943b8c7b362e85c362c569d8c89fbc88451f0991c35c827823f"
+      "icon_key": "73ec20a889469943b8c7b362e85c362c569d8c89fbc88451f0991c35c827823f",
+      "id": "chukei-dns-chukei-ps5-7ecdde8c"
     },
     {
       "name": "snes9xPS5",
@@ -577,7 +508,8 @@
       "version": "v2.6",
       "category": "Utilities & Tools",
       "checksum": "296c6b363c8dc26267e968ed5869059d9e059920ced9206c1768321017eb62c2",
-      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc"
+      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc",
+      "id": "snes9xps5-snes9xps5-v2.6-6a6d660c"
     },
     {
       "name": "genplusgxPS5",
@@ -590,20 +522,8 @@
       "version": "v1.7",
       "category": "Utilities & Tools",
       "checksum": "f764824466d317bed73715ce8d5235b8a6505f676ab6338b7134d7264b0a84af",
-      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc"
-    },
-    {
-      "name": "RommPS",
-      "filename": "romm-sync-ps4.elf",
-      "url": "https://github.com/s0liton/RommPS/releases/download/v1.2.1/romm-sync-ps4.elf",
-      "source": "https://github.com/s0liton/ps5-romm/releases",
-      "source_direct": "https://github.com/s0liton/RommPS/releases/download/v1.2.1/romm-sync-ps4.elf",
-      "description": "A RomM server client for jailbroken PS5s. Download games from your server, full bi-directional save sync support, and extensible emulator profiles to quickly support new emulators as they release on the console.",
-      "last_update": "2026-10-15",
-      "version": "v1.2.1",
-      "category": "Emulators & Linux",
-      "checksum": "c6ddf186755e9081c26119526488afb50ab2d4710ecab2ab572e241799e9e696",
-      "icon_key": "06d852ffb12906bca798bbe1666f6574cf4e5ad66741318ea52f2821a103037c"
+      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc",
+      "id": "genplusgxps5-genesisplusgxps5-v1.7-a41db468"
     },
     {
       "name": "RommPS",
@@ -616,7 +536,8 @@
       "version": "v1.2.1",
       "category": "Emulators & Linux",
       "checksum": "8d7e44c512b311f4bbb522f6761a6319533bcd9d988a72bd313197d8161dd696",
-      "icon_key": "06d852ffb12906bca798bbe1666f6574cf4e5ad66741318ea52f2821a103037c"
+      "icon_key": "06d852ffb12906bca798bbe1666f6574cf4e5ad66741318ea52f2821a103037c",
+      "id": "rommps-romm-sync-0b374668"
     },
     {
       "name": "fbneo-ps5",
@@ -629,7 +550,8 @@
       "version": "v1.9",
       "category": "Utilities & Tools",
       "checksum": "caed9d16060616637ad80cb54bdfd0239b4b734775e45cc17811f876c4897817",
-      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc"
+      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc",
+      "id": "fbneo-ps5-fbneops5-v1.9-588c48ff"
     },
     {
       "name": "fceummPS5",
@@ -642,7 +564,8 @@
       "version": "v1.0",
       "category": "Utilities & Tools",
       "checksum": "407a066f8b793133983c64effc0534036f135a83f72d1da6ef6c394ef9969237",
-      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc"
+      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc",
+      "id": "fceummps5-nesfceummps5-v1.0-cad88bee"
     },
     {
       "name": "PS5X360",
@@ -655,10 +578,11 @@
       "version": "v0.6.0",
       "category": "Emulators & Linux",
       "checksum": "5da64c23263e6868696aa0f8b1bfd0eb97581bae73124d08066b507652adfbfb",
-      "icon_key": "f4ff22a76686140cf50fdd1c317b264391c082f91cab40ce284482607b2f7683"
+      "icon_key": "f4ff22a76686140cf50fdd1c317b264391c082f91cab40ce284482607b2f7683",
+      "id": "ps5x360-ps5x360-autolog-v1.0.9-preview-b80ef49f"
     },
     {
-      "name": "PS5SX2",
+      "name": "PS5SX2 — PS5SX2Installer",
       "filename": "PS5SX2Installer.elf",
       "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SX2Installer.elf",
       "source": "https://github.com/Swordpdf/PS5SX2/releases",
@@ -668,10 +592,11 @@
       "version": "vk-285-171",
       "category": "Utilities & Tools",
       "checksum": "6b1be3ea24ec8144b27b2a1f3e279cd17574f3093e9431abf8579dcc6c0bfae9",
-      "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0"
+      "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
+      "id": "ps5sx2-ps5sx2installer-f6b82baa"
     },
     {
-      "name": "PS5SX2",
+      "name": "PS5SX2 — PS5SXHelper-no-data-mount",
       "filename": "PS5SXHelper-no-data-mount.elf",
       "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SXHelper-no-data-mount.elf",
       "source": "https://github.com/Swordpdf/PS5SX2/releases",
@@ -681,10 +606,11 @@
       "version": "vk-285-171",
       "category": "Plugins & System Tools",
       "checksum": "3fd3707a2eee7cd68a3a019d3fec19e923db444dd0811d90102ddbf26398484f",
-      "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0"
+      "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
+      "id": "ps5sx2-ps5sxhelper-no-data-mount-70b4831f"
     },
     {
-      "name": "PS5SX2",
+      "name": "PS5SX2 — PS5SXHelper",
       "filename": "PS5SXHelper.elf",
       "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SXHelper.elf",
       "source": "https://github.com/Swordpdf/PS5SX2/releases",
@@ -694,7 +620,8 @@
       "version": "vk-285-171",
       "category": "Utilities & Tools",
       "checksum": "9fa809eb10e1fe5149b2d031f55497d7b050e950ec5aec38bac7ebe1ef6da153",
-      "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0"
+      "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
+      "id": "ps5sx2-ps5sxhelper-4d33b099"
     },
     {
       "name": "SwanStationPS5",
@@ -707,7 +634,8 @@
       "version": "1.4.1",
       "category": "Networking & Servers",
       "checksum": "d996f06cbd98c96af7eed24606f38f09dd900cc55ce2cf0859d17ef71bd55abd",
-      "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354"
+      "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
+      "id": "swanstationps5-swanstationps5-discdaemon-0faafe16"
     },
     {
       "name": "XPSemu",
@@ -720,7 +648,8 @@
       "version": "Alpha-2.1",
       "category": "Emulators & Linux",
       "checksum": "31c8a3479937e310f758d36d87c937c91ae942921fa4645473b3d228a7d88959",
-      "icon_key": "9b25fabfd137c4e1fac0c280a01c64516f0f21574b76dd6f9f040b5f7d2d0c7b"
+      "icon_key": "9b25fabfd137c4e1fac0c280a01c64516f0f21574b76dd6f9f040b5f7d2d0c7b",
+      "id": "xpsemu-helper-e589df69"
     },
     {
       "name": "VITA5",
@@ -733,7 +662,8 @@
       "version": "v1.0.0",
       "category": "Utilities & Tools",
       "checksum": "0f2b246193b4799fb0ded8740952f8139de9fc4fa2b3d557b5e02892c4ba5dda",
-      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816"
+      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
+      "id": "vita5-vita5-payload-b2f7c75b"
     },
     {
       "name": "ps5-fan-control",
@@ -746,23 +676,11 @@
       "version": "v0.3",
       "category": "Plugins & System Tools",
       "checksum": "b10b6b9b9c00efed8bf9202a83b6cb762345d1f84130a419eff7139250026b36",
-      "icon_key": "fcd951a75083f6312687140e82308c0a5886058712aa8148ddd62c3fbf833fb8"
+      "icon_key": "fcd951a75083f6312687140e82308c0a5886058712aa8148ddd62c3fbf833fb8",
+      "id": "ps5-fan-control-ps5-fan-control-v0.3-d42e8277"
     },
     {
-      "name": "BFpilot",
-      "filename": "bfpilot.elf",
-      "url": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.4.4/bfpilot.elf",
-      "source": "https://github.com/ItsBlurf/BFpilot/releases",
-      "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.4.4/bfpilot.elf",
-      "description": "Lightweight PS5 file manager | browser based",
-      "last_update": "2026-08-11",
-      "version": "v0.4.4",
-      "category": "File & Package Management",
-      "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1",
-      "icon_key": "a70cf8ec24e00969dc832395bd378be25ae43e54e3537450e3b599da68ad74a4"
-    },
-    {
-      "name": "ps5-web-file-manager",
+      "name": "ps5-web-file-manager — web-file-mgr",
       "filename": "web-file-mgr-v1.11.elf",
       "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.11/web-file-mgr-v1.11.elf",
       "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
@@ -772,10 +690,11 @@
       "version": "v1.11",
       "category": "File & Package Management",
       "checksum": "cbcdacf69c331025e1643fc99f5b5fc117125e7c39931b6dd914323412558911",
-      "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97"
+      "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97",
+      "id": "ps5-web-file-manager-web-file-mgr-v1.11-7c83369a"
     },
     {
-      "name": "ps5-web-file-manager",
+      "name": "ps5-web-file-manager — wfm",
       "filename": "wfm-7zip-helper.elf",
       "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.11/wfm-7zip-helper.elf",
       "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
@@ -785,10 +704,11 @@
       "version": "v1.11",
       "category": "File & Package Management",
       "checksum": "dd8bbae4cd44ed20c4cbafc74fdc3271f52b9d7888a0d4f4038a8ae05feb92a4",
-      "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97"
+      "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97",
+      "id": "ps5-web-file-manager-wfm-7zip-helper-3d32e479"
     },
     {
-      "name": "PS5-File-Explorer",
+      "name": "PS5-File-Explorer — file-explorer-core",
       "filename": "file-explorer-core.elf",
       "url": "https://github.com/juma-sayeh/PS5-File-Explorer/releases/download/file-explorer-v0.2.1/file-explorer-core.elf",
       "source": "https://github.com/juma-sayeh/PS5-File-Explorer/releases",
@@ -798,10 +718,11 @@
       "version": "file-explorer-v0.2.1",
       "category": "Utilities & Tools",
       "checksum": "6d4b905b42727dddeaedddb2a657ed0d4e7110ddd068a6daab0aafb2ba32604b",
-      "icon_key": "723aed59d1daabf28c33cac99842187bf42e69c3a4dc743df4513a2670bef273"
+      "icon_key": "723aed59d1daabf28c33cac99842187bf42e69c3a4dc743df4513a2670bef273",
+      "id": "ps5-file-explorer-file-explorer-core-7e34ca09"
     },
     {
-      "name": "PS5-File-Explorer",
+      "name": "PS5-File-Explorer — file-explorer",
       "filename": "file-explorer.elf",
       "url": "https://github.com/juma-sayeh/PS5-File-Explorer/releases/download/file-explorer-v0.2.1/file-explorer.elf",
       "source": "https://github.com/juma-sayeh/PS5-File-Explorer/releases",
@@ -811,10 +732,11 @@
       "version": "file-explorer-v0.2.1",
       "category": "Utilities & Tools",
       "checksum": "1013c23b12980e1bc97decc150c8cd5abc8447dc03cf86dbd106266dd000a6e1",
-      "icon_key": "723aed59d1daabf28c33cac99842187bf42e69c3a4dc743df4513a2670bef273"
+      "icon_key": "723aed59d1daabf28c33cac99842187bf42e69c3a4dc743df4513a2670bef273",
+      "id": "ps5-file-explorer-file-explorer-b15a9e29"
     },
     {
-      "name": "PS5-FM",
+      "name": "PS5-FM — ps5fm-install",
       "filename": "ps5fm-install.elf",
       "url": "https://github.com/mastersword64/PS5-FM/releases/download/v0.26/ps5fm-install.elf",
       "source": "https://github.com/mastersword64/PS5-FM/releases",
@@ -824,10 +746,11 @@
       "version": "v0.26",
       "category": "Loaders",
       "checksum": "f845c08372a72ba4ac6fd3dce44683f54aec7cf16cffbbb7506ee5879ea9ce65",
-      "icon_key": "404ba82f3646fe4a81ab8a3e8f4b4b9a3e6d0e807a76fb08afcaf7107aa5db9a"
+      "icon_key": "404ba82f3646fe4a81ab8a3e8f4b4b9a3e6d0e807a76fb08afcaf7107aa5db9a",
+      "id": "ps5-fm-ps5fm-install-b77de424"
     },
     {
-      "name": "PS5-FM",
+      "name": "PS5-FM — ps5fm-launch",
       "filename": "ps5fm-launch.elf",
       "url": "https://github.com/mastersword64/PS5-FM/releases/download/v0.26/ps5fm-launch.elf",
       "source": "https://github.com/mastersword64/PS5-FM/releases",
@@ -837,7 +760,8 @@
       "version": "v0.26",
       "category": "Loaders",
       "checksum": "a85e4c7587bef72254df50243f1a575b8019fe37fb8b7d8a2538b9c798756d68",
-      "icon_key": "404ba82f3646fe4a81ab8a3e8f4b4b9a3e6d0e807a76fb08afcaf7107aa5db9a"
+      "icon_key": "404ba82f3646fe4a81ab8a3e8f4b4b9a3e6d0e807a76fb08afcaf7107aa5db9a",
+      "id": "ps5-fm-ps5fm-launch-3ac32658"
     },
     {
       "name": "pegasus-dl",
@@ -850,7 +774,8 @@
       "version": "v1.11.0",
       "category": "Utilities & Tools",
       "checksum": "32b69c2089bb545abfabd04d5827444698f9c4f1bc4915d72247cb781e8c23d9",
-      "icon_key": "f247abf9a55b7f4a936bbaeddf9d17e1fbc4675d746201ee645db16387193b81"
+      "icon_key": "f247abf9a55b7f4a936bbaeddf9d17e1fbc4675d746201ee645db16387193b81",
+      "id": "pegasus-dl-pegasus_dl-2ec44249"
     },
     {
       "name": "Spectrum-Library",
@@ -863,7 +788,8 @@
       "version": "1.4.8",
       "category": "System & Jailbreak",
       "checksum": "5d1372d48f76167e3f9e24b335cf571ea6e4b3960e6b7202d2802b0f78c3a519",
-      "icon_key": "4e243f062f0d7c31d0114e2f7219fa410fbefed894f496d8bde7f1bfc96a88e2"
+      "icon_key": "4e243f062f0d7c31d0114e2f7219fa410fbefed894f496d8bde7f1bfc96a88e2",
+      "id": "spectrum-library-spectrumlibrary_1.4.8-dac2b5f7"
     },
     {
       "name": "ps5shopappkg",
@@ -876,7 +802,8 @@
       "version": "DPIv2",
       "category": "Utilities & Tools",
       "checksum": "556ae30754a97a6380eba97dc876820f2cb9115c612587befacf1e2ef6ba18ee",
-      "icon_key": "3d0b3ddd87d45ddaf40148c3a8e0a30d63ac30cfddc38b858254451e4c468275"
+      "icon_key": "3d0b3ddd87d45ddaf40148c3a8e0a30d63ac30cfddc38b858254451e4c468275",
+      "id": "ps5shopappkg-dpiv2-06646138"
     },
     {
       "name": "PS5Library",
@@ -889,7 +816,8 @@
       "version": "v0.2.91",
       "category": "Utilities & Tools",
       "checksum": "ac78389a628401edba3c081f00156238ad5652b1b7ad241f5ccc7713179f0c82",
-      "icon_key": "700f5e11992a8d795705ba9895382a2d0f6991ae40b70f4edc5b3f46dc797b79"
+      "icon_key": "700f5e11992a8d795705ba9895382a2d0f6991ae40b70f4edc5b3f46dc797b79",
+      "id": "ps5library-ps5library-agent-df2d7b23"
     },
     {
       "name": "PS5-PHStore",
@@ -902,7 +830,8 @@
       "version": "PHStore",
       "category": "Utilities & Tools",
       "checksum": "64d5c4605a063a63f01213c31d627466218e787956873b2eef39b369b60112ee",
-      "icon_key": "16adcf160d8e99a55129106bb1cc5b3f83823ed82dfee150dfef59f04b25eec8"
+      "icon_key": "16adcf160d8e99a55129106bb1cc5b3f83823ed82dfee150dfef59f04b25eec8",
+      "id": "ps5-phstore-phstore2-ph-d61a680b"
     },
     {
       "name": "orbit-store-ps5",
@@ -915,7 +844,8 @@
       "version": "v1.3.5",
       "category": "Emulators & Linux",
       "checksum": "561a8e8015d9564d44e32b58a84e1294ea7043e96146110801a9f62ad99ac93b",
-      "icon_key": "44d63d7af0c21e5f503cf7e151276d785f3a2ffb64ecf8a0f66a1b884438c2f7"
+      "icon_key": "44d63d7af0c21e5f503cf7e151276d785f3a2ffb64ecf8a0f66a1b884438c2f7",
+      "id": "orbit-store-ps5-orbit_store-5aa86d2b"
     },
     {
       "name": "blackbox",
@@ -928,10 +858,11 @@
       "version": "1.11.0",
       "category": "Utilities & Tools",
       "checksum": "b90b03325b673a65de21657d456d8da1fdb5d4f82f73c4dda033bf3547b34c60",
-      "icon_key": "164fe304de7937ba61afaf32c7ac801d5bc247e5c2026ad170d3ea9247efa12b"
+      "icon_key": "164fe304de7937ba61afaf32c7ac801d5bc247e5c2026ad170d3ea9247efa12b",
+      "id": "blackbox-blackbox-5e373b47"
     },
     {
-      "name": "PS5-Game-Compressor",
+      "name": "PS5-Game-Compressor — game-compressor",
       "filename": "game-compressor.elf",
       "url": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases/download/v1.0.4/game-compressor.elf",
       "source": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases",
@@ -941,46 +872,8 @@
       "version": "v1.0.4",
       "category": "Plugins & System Tools",
       "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b",
-      "icon_key": "723aed59d1daabf28c33cac99842187bf42e69c3a4dc743df4513a2670bef273"
-    },
-    {
-      "name": "ps5-app-dumper",
-      "filename": "ps5-app-dumper_v2.10.elf",
-      "url": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v2.10/ps5-app-dumper_v2.10.elf",
-      "source": "https://github.com/EchoStretch/ps5-app-dumper/releases",
-      "source_direct": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v2.10/ps5-app-dumper_v2.10.elf",
-      "description": "## Highlights\r\n\r\n**DLC**\r\n- Each title shows how many DLC are installed for it, with names and sizes\r\n- Dump DLC on the running game dumps its DLC alone, next to a dump you made before, without copying the game again\r\n- With several DLC you pick which ones; a picked DLC that is there already is replaced\r\n- DLC dumps now carry their metadata (param.json, icon) from the installed package (#29)\r\n- DLC that only unlock content in the game are never mounted by the console and have nothing to dump; the page says so instead of hiding the button\r\n\r\n**Titles and dumps**\r\n- A DUMPED badge on every title that is dumped somewhere, UNFINISHED for one that was cut short\r\n- New dump folders carry the app title: `PPSA01325-app0_ASTRO's_PLAYROOM` (setting `folder_titles`, on by default)\r\n- Rename on the Dumps page switches every dump to names with or without the title\r\n- Tap a dump's path to copy it, and the Dumps list fits a phone\r\n\r\n**Queue**\r\n- Up to 64 titles instead of 16\r\n\r\n**Fixes**\r\n- Titles stuck at 99 %  were held as installing for good and could not be dumped\r\n- The UNFINISHED badge was drawn far too big\r\n\r\n## Notes\r\n- Dumps made with 2.00 or earlier keep their names and are still recognised. Use Rename on the Dumps page if you want the titles on them too.\r\n- A dump ShadowMount runs a game from is not renamed, because the link points at its folder.\r\n\r\n## Thanks\r\nThanks to @MangoScango for #29, which completes the DLC dumps with their metadata.\r\n\r\n## For developers\r\nBuilt on [webhb](https://github.com/slopmaster33/webhb) 0.4.1. If its download does not work, `webhb-0.4.1.tar.gz` is attached; build with `WEBHB_TARBALL=webhb-0.4.1.tar.gz make`.",
-      "last_update": "2026-10-03",
-      "version": "v2.10",
-      "category": "Networking & Servers",
-      "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b",
-      "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b"
-    },
-    {
-      "name": "ShadowMountPlus",
-      "filename": "shadowmountplus.elf",
-      "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta5/shadowmountplus.elf",
-      "source": "https://github.com/drakmor/ShadowMountPlus/releases",
-      "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta5/shadowmountplus.elf",
-      "description": "Automated background auto-mounter payload for jailbroken PS5 consoles. Detects, mounts, and installs game backups from internal or external storage, with support for UFS, exFAT, PFS, and nested compressed PFS containers.",
-      "last_update": "2026-10-10",
-      "version": "1.7beta5",
-      "category": "File & Package Management",
-      "checksum": "0d54a8467ec3544e1c7b365c9f100b2bf42bf4633cb768bde7c8f16b6cfb5375",
-      "icon_key": "2d83b692b57d424d0165cad9be37d9e0abe47a17dca0d7c6b9c05c30c4a0ab90"
-    },
-    {
-      "name": "BackPork",
-      "filename": "ps5-backpork.elf",
-      "url": "https://github.com/BestPig/BackPork/releases/download/0.1/ps5-backpork.elf",
-      "source": "https://github.com/BestPig/BackPork/releases",
-      "source_direct": "https://github.com/BestPig/BackPork/releases/download/0.1/ps5-backpork.elf",
-      "description": "Lets you sideload system libraries into PS5 games",
-      "last_update": "2026-04-30",
-      "version": "0.1",
-      "category": "Utilities & Tools",
-      "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
-      "icon_key": "b4431c1161e6efaed2a3be0eb99564fa43ea894905737f7571b5585e0dc75bcf"
+      "icon_key": "723aed59d1daabf28c33cac99842187bf42e69c3a4dc743df4513a2670bef273",
+      "id": "ps5-game-compressor-game-compressor-26cb8758"
     },
     {
       "name": "apr-emu-updater",
@@ -993,10 +886,11 @@
       "version": "v2.0.6",
       "category": "Utilities & Tools",
       "checksum": "4f04464283a6a551883e40e36b59134ecad0e38ecbb7ea89cbec3f91a3bd9122",
-      "icon_key": "43bab10e205ee9e2a73a45407885c14ad74f44eff4054f27ce947a761aa9163c"
+      "icon_key": "43bab10e205ee9e2a73a45407885c14ad74f44eff4054f27ce947a761aa9163c",
+      "id": "apr-emu-updater-apr_emu_updater_v2.0.6-c1bbfd41"
     },
     {
-      "name": "PS5-Game-Compressor",
+      "name": "PS5-Game-Compressor — game-compressor",
       "filename": "game-compressor.elf",
       "url": "https://github.com/gcoding97/PS5-Game-Compressor/releases/download/v1.1.1/game-compressor.elf",
       "source": "https://github.com/gcoding97/PS5-Game-Compressor/releases",
@@ -1006,7 +900,8 @@
       "version": "v1.1.1",
       "category": "Plugins & System Tools",
       "checksum": "5fec05b8a3cb89bafbc97970d5d68d9f31e6fcde873b5523243890e50836592b",
-      "icon_key": "d4c41585e95dd401f46b7d338867d654210efe0aa74693cf1dbaaef74a46119e"
+      "icon_key": "d4c41585e95dd401f46b7d338867d654210efe0aa74693cf1dbaaef74a46119e",
+      "id": "ps5-game-compressor-game-compressor-c58f2429"
     },
     {
       "name": "PS5-LZ4-Game-Compressor",
@@ -1019,7 +914,8 @@
       "version": "beta.7",
       "category": "Utilities & Tools",
       "checksum": "e29d2c8c3c1f8718af8706db09b845d3732cef22058931a8b5d590f530382cde",
-      "icon_key": "1d375f1c6a5a267c0d34e63c2fcfb34f5e1f7d5774def722d685164d2352269b"
+      "icon_key": "1d375f1c6a5a267c0d34e63c2fcfb34f5e1f7d5774def722d685164d2352269b",
+      "id": "ps5-lz4-game-compressor-lz4-game-compressor-2831b578"
     },
     {
       "name": "ps4mount",
@@ -1032,7 +928,8 @@
       "version": "v0.6.0",
       "category": "Plugins & System Tools",
       "checksum": "72467a3d8697961d611603956c4e63d96904197e57b175ff73e41d80badcaf25",
-      "icon_key": "7dda25fe6d15ecab1f72dbecc680cac5b76c338f116ff7b944dd9755cda30d70"
+      "icon_key": "7dda25fe6d15ecab1f72dbecc680cac5b76c338f116ff7b944dd9755cda30d70",
+      "id": "ps4mount-ps4mount-46b6598d"
     },
     {
       "name": "ps5-unified-autoloader",
@@ -1045,7 +942,8 @@
       "version": "v0.1.5-915a65e",
       "category": "Loaders",
       "checksum": "c8e36ea06cfd37c5fad356ff9fcd09d3e62065d88170b5119ce8f1eeb3efacac",
-      "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e"
+      "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e",
+      "id": "ps5-unified-autoloader-ps5-unified-autoloader-v0.1.5-915a65e-97f2b2d4"
     },
     {
       "name": "ps5-payload-manager",
@@ -1058,20 +956,8 @@
       "version": "v0.6.1",
       "category": "Utilities & Tools",
       "checksum": "5165cbe4c13360828bd0f5d558cdbb9e2d55b0660b1dc7f7a58d3f4ee9e23285",
-      "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346"
-    },
-    {
-      "name": "kura",
-      "filename": "kura-loader-ps4.elf",
-      "url": "https://github.com/NookieAI/kura/releases/download/v1.6.50/kura-loader-ps4.elf",
-      "source": "https://github.com/NookieAI/kura/releases",
-      "source_direct": "https://github.com/NookieAI/kura/releases/download/v1.6.50/kura-loader-ps4.elf",
-      "description": "Scan, identify, organize, and transfer your PS1-PS5 & Vita game library (Windows, macOS, Linux), with a bundled PS5 payload for installs, cheats, saves, and fan control",
-      "last_update": "2026-09-02",
-      "version": "v1.6.50",
-      "category": "Loaders",
-      "checksum": "95ca9ab732ad81e249f7c6a25c370e512525ce0b8f4ef239504f808c9a18ac4f",
-      "icon_key": "a29d4aa95b75046bac92b452ad2fc5fcfac405ca3843b73906ee9db2e4198a14"
+      "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346",
+      "id": "ps5-payload-manager-pldmgr_v0.6.1-5d00f7cc"
     },
     {
       "name": "kura",
@@ -1084,20 +970,8 @@
       "version": "v1.6.50",
       "category": "Loaders",
       "checksum": "8bac520b2b99dcda8109838884380605736d8b1c23793754250bcef00536b6ab",
-      "icon_key": "a29d4aa95b75046bac92b452ad2fc5fcfac405ca3843b73906ee9db2e4198a14"
-    },
-    {
-      "name": "kura",
-      "filename": "kura-loader.elf",
-      "url": "https://github.com/NookieAI/kura/releases/download/v1.6.50/kura-loader.elf",
-      "source": "https://github.com/NookieAI/kura/releases",
-      "source_direct": "https://github.com/NookieAI/kura/releases/download/v1.6.50/kura-loader.elf",
-      "description": "Scan, identify, organize, and transfer your PS1-PS5 & Vita game library (Windows, macOS, Linux), with a bundled PS5 payload for installs, cheats, saves, and fan control",
-      "last_update": "2026-09-02",
-      "version": "v1.6.50",
-      "category": "Loaders",
-      "checksum": "8bac520b2b99dcda8109838884380605736d8b1c23793754250bcef00536b6ab",
-      "icon_key": "a29d4aa95b75046bac92b452ad2fc5fcfac405ca3843b73906ee9db2e4198a14"
+      "icon_key": "a29d4aa95b75046bac92b452ad2fc5fcfac405ca3843b73906ee9db2e4198a14",
+      "id": "kura-kura-loader-ps5-c7f50e67"
     },
     {
       "name": "PIZZA-HEN",
@@ -1110,20 +984,8 @@
       "version": "v2.00",
       "category": "System & Jailbreak",
       "checksum": "8535d399612d61c50a528b2ae416f2fc3ccfb7480296df99c17302583fb3e345",
-      "icon_key": "aaa4fd74d3929c5583008763a7ba52f51833566bb47705684f97a69fb1cea3a3"
-    },
-    {
-      "name": "onionHEN",
-      "filename": "OnionHEN.elf",
-      "url": "https://github.com/aydencharles/onionHEN/releases/download/v0.9.0/OnionHEN.elf",
-      "source": "https://github.com/aydencharles/onionHEN/releases",
-      "source_direct": "https://github.com/aydencharles/onionHEN/releases/download/v0.9.0/OnionHEN.elf",
-      "description": "Yet another HEN enabler for jailbroken PS5",
-      "last_update": "2026-10-15",
-      "version": "v0.9.0",
-      "category": "System & Jailbreak",
-      "checksum": "1f1f7c883d5d998be1d95d7d80b718f85180f8156f257661b0f445a7c6b7c212",
-      "icon_key": "9c0353458e7f31df4fe6c588f15dbac7df982893b87cf9f84b472487e61a4576"
+      "icon_key": "aaa4fd74d3929c5583008763a7ba52f51833566bb47705684f97a69fb1cea3a3",
+      "id": "pizza-hen-pizza-hen-v2.00-aafdd7ed"
     },
     {
       "name": "ProsperoMgr",
@@ -1136,7 +998,8 @@
       "version": "v1.1",
       "category": "Utilities & Tools",
       "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c",
-      "icon_key": "b460daeea358f30a8b54f50efae741fbddc66edd759f339c95feafb528062d7c"
+      "icon_key": "b460daeea358f30a8b54f50efae741fbddc66edd759f339c95feafb528062d7c",
+      "id": "prosperomgr-prosperomgr-bae8aec5"
     },
     {
       "name": "kstuff",
@@ -1149,10 +1012,11 @@
       "version": "v1.6.7",
       "category": "Networking & Servers",
       "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569",
-      "icon_key": "f2ec005352d2a6d8f05e197551e222eebf3e420fa8d9b3939af821849a69a346"
+      "icon_key": "f2ec005352d2a6d8f05e197551e222eebf3e420fa8d9b3939af821849a69a346",
+      "id": "kstuff-kstuff-b5bb301f"
     },
     {
-      "name": "kstuff-lite",
+      "name": "kstuff-lite — kstuff",
       "filename": "kstuff.elf",
       "url": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.11/kstuff.elf",
       "source": "https://github.com/EchoStretch/kstuff-lite/releases",
@@ -1162,10 +1026,11 @@
       "version": "v1.11",
       "category": "Networking & Servers",
       "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779",
-      "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b"
+      "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b",
+      "id": "kstuff-lite-kstuff-30a43f95"
     },
     {
-      "name": "kstuff-lite",
+      "name": "kstuff-lite — kstuff",
       "filename": "kstuff.elf",
       "url": "https://github.com/drakmor/kstuff-lite/releases/download/1.2-dr-test2/kstuff.elf",
       "source": "https://github.com/drakmor/kstuff-lite/releases",
@@ -1175,7 +1040,8 @@
       "version": "1.2-dr-test2",
       "category": "Networking & Servers",
       "checksum": "2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75",
-      "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8"
+      "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8",
+      "id": "kstuff-lite-kstuff-1e0d5e90"
     },
     {
       "name": "kstuff-a53",
@@ -1188,23 +1054,11 @@
       "version": "1.4.2BETA",
       "category": "Utilities & Tools",
       "checksum": "a7e5c9e300f88f2730437d2e77e0adfda9c6f8bfd259a3c7643b140ebe2204bd",
-      "icon_key": "9abd064b016bcfee9363e1d831b5f565c38da9a13d48c1a9c5da39307288c53c"
+      "icon_key": "9abd064b016bcfee9363e1d831b5f565c38da9a13d48c1a9c5da39307288c53c",
+      "id": "kstuff-a53-kstuff-1.4.2beta-e170f2af"
     },
     {
-      "name": "ps5-linux-loader",
-      "filename": "ps5-linux-loader.elf",
-      "url": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.5/ps5-linux-loader.elf",
-      "source": "https://github.com/ps5-linux/ps5-linux-loader/releases",
-      "source_direct": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.5/ps5-linux-loader.elf",
-      "description": "Linux payload implementing HV exploits to run a custom bootloader",
-      "last_update": "2026-09-05",
-      "version": "v2.5",
-      "category": "System & Jailbreak",
-      "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49",
-      "icon_key": "b3d73d513d62b4d6c880873e46cbea07b977c9bc03295c7e3a31e091fda7a8f7"
-    },
-    {
-      "name": "PoorDS4",
+      "name": "PoorDS4 — PoorDS4-status",
       "filename": "PoorDS4-status.elf",
       "url": "https://github.com/ItsBlurf/PoorDS4/releases/download/v0.1.0-rc51/PoorDS4-status.elf",
       "source": "https://github.com/ItsBlurf/PoorDS4/releases",
@@ -1214,10 +1068,11 @@
       "version": "v0.1.0-rc51",
       "category": "Utilities & Tools",
       "checksum": "d47bb84a6ae05117f095c05b75dfee15d9fbf07864a3e52d0e2e626eab613440",
-      "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f"
+      "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f",
+      "id": "poords4-poords4-status-e339a48b"
     },
     {
-      "name": "PoorDS4",
+      "name": "PoorDS4 — PoorDS4-stop",
       "filename": "PoorDS4-stop.elf",
       "url": "https://github.com/ItsBlurf/PoorDS4/releases/download/v0.1.0-rc51/PoorDS4-stop.elf",
       "source": "https://github.com/ItsBlurf/PoorDS4/releases",
@@ -1227,10 +1082,11 @@
       "version": "v0.1.0-rc51",
       "category": "Utilities & Tools",
       "checksum": "ffdce4964f0d34a2b9be7cb65e6ad345d5beb582dcdf94d0214cde6bc79acd0d",
-      "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f"
+      "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f",
+      "id": "poords4-poords4-stop-6e0a7270"
     },
     {
-      "name": "PoorDS4",
+      "name": "PoorDS4 — PoorDS4rc51",
       "filename": "PoorDS4rc51.elf",
       "url": "https://github.com/ItsBlurf/PoorDS4/releases/download/v0.1.0-rc51/PoorDS4rc51.elf",
       "source": "https://github.com/ItsBlurf/PoorDS4/releases",
@@ -1240,7 +1096,8 @@
       "version": "v0.1.0-rc51",
       "category": "Utilities & Tools",
       "checksum": "e1b9f257f51678a977edaeafd4ca1f8a03e9df0afda7d5dd84435841fa20795d",
-      "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f"
+      "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f",
+      "id": "poords4-poords4rc51-39c496d7"
     },
     {
       "name": "OmniPad-PS5",
@@ -1253,7 +1110,8 @@
       "version": "v1.0.4-hotfix1",
       "category": "Utilities & Tools",
       "checksum": "00677d6cfac752f1da395d2aeddfee1b5f8f3a3175c524bb0ca90afd9ea0d624",
-      "icon_key": "4b4c58dc7a4336f00e878693f3ea1139a63515bea0a962b6285bcb1d314a8f6d"
+      "icon_key": "4b4c58dc7a4336f00e878693f3ea1139a63515bea0a962b6285bcb1d314a8f6d",
+      "id": "omnipad-ps5-omnipad-ps5-1.0.4-0036a4ea"
     },
     {
       "name": "FGG-XSense",
@@ -1266,10 +1124,11 @@
       "version": "1.1",
       "category": "Utilities & Tools",
       "checksum": "55195ccb02fbdbfa002e9188b0eff72d7d2e6de6c7a1c91666f88c6c9ff0d6c0",
-      "icon_key": "021776a97722fb224016826128823585d021ead5210a0ee45715a928f76badfc"
+      "icon_key": "021776a97722fb224016826128823585d021ead5210a0ee45715a928f76badfc",
+      "id": "fgg-xsense-fgg-xsense-aacc5e46"
     },
     {
-      "name": "pad2c",
+      "name": "pad2c — pad2c",
       "filename": "pad2c-0.2.1.elf",
       "url": "https://github.com/sub0x00001/pad2c/releases/download/v0.2.1/pad2c-0.2.1.elf",
       "source": "https://github.com/sub0x00001/pad2c/releases",
@@ -1279,10 +1138,11 @@
       "version": "v0.2.1",
       "category": "Utilities & Tools",
       "checksum": "da2dae7c005de362c423d11b445725c4927f2ce6e188c1c1951990f1b69494a9",
-      "icon_key": "ea0fa7062cc23d92b30059ce57f284dfa595e4e8a44ed04f41bb67e0c33ed07e"
+      "icon_key": "ea0fa7062cc23d92b30059ce57f284dfa595e4e8a44ed04f41bb67e0c33ed07e",
+      "id": "pad2c-pad2c-0.2.1-aea6d871"
     },
     {
-      "name": "pad2c",
+      "name": "pad2c — pad2c-probe",
       "filename": "pad2c-probe.elf",
       "url": "https://github.com/sub0x00001/pad2c/releases/download/v0.2.1/pad2c-probe.elf",
       "source": "https://github.com/sub0x00001/pad2c/releases",
@@ -1292,7 +1152,8 @@
       "version": "v0.2.1",
       "category": "Utilities & Tools",
       "checksum": "45357888ad9fdd3de68ae80a9d224894c114acf0e6945db13d88b039d9758458",
-      "icon_key": "ea0fa7062cc23d92b30059ce57f284dfa595e4e8a44ed04f41bb67e0c33ed07e"
+      "icon_key": "ea0fa7062cc23d92b30059ce57f284dfa595e4e8a44ed04f41bb67e0c33ed07e",
+      "id": "pad2c-pad2c-probe-4f81aad6"
     },
     {
       "name": "any-pad",
@@ -1305,20 +1166,8 @@
       "version": "v0.9.1-beta",
       "category": "Utilities & Tools",
       "checksum": "358a3b75c1c74b813a5eae3ceef9000c9913321a0f88261d969dd89f5373a1c1",
-      "icon_key": "e128515d38bcc33c5b0d5be41b2b047e55e641199d881d35947ff24aeddd2c4b"
-    },
-    {
-      "name": "ps5-pkg-manager",
-      "filename": "pkg-manager_v1.5.1.elf",
-      "url": "https://github.com/itsPLK/ps5-pkg-manager/releases/download/v1.5.1/pkg-manager_v1.5.1.elf",
-      "source": "https://github.com/itsPLK/ps5-pkg-manager/releases",
-      "source_direct": "https://github.com/itsPLK/ps5-pkg-manager/releases/download/v1.5.1/pkg-manager_v1.5.1.elf",
-      "description": "A clean and intuitive package manager for PS5",
-      "last_update": "2026-10-10",
-      "version": "v1.5.1",
-      "category": "File & Package Management",
-      "checksum": "82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca",
-      "icon_key": "cf00f6f4c5d15c190c59cce408f0eae1da80b0f8bd5a3a1cdc28be9a7aacd2db"
+      "icon_key": "e128515d38bcc33c5b0d5be41b2b047e55e641199d881d35947ff24aeddd2c4b",
+      "id": "any-pad-anypad-ps5-0.9.1-beta-d98808ea"
     },
     {
       "name": "pkg-sender",
@@ -1331,7 +1180,8 @@
       "version": "v1.2.9",
       "category": "Utilities & Tools",
       "checksum": "6946d52c6c04a3f43d3141a505394ba8e0c6923f17fe471054e11567c9a526c7",
-      "icon_key": "c476ffb69ffc62d51a2c6f8e0efb33308d7218583eba9ed2e5f7a44aa7a0972f"
+      "icon_key": "c476ffb69ffc62d51a2c6f8e0efb33308d7218583eba9ed2e5f7a44aa7a0972f",
+      "id": "pkg-sender-pkg-receiver-ff5cf6e8"
     },
     {
       "name": "savemnt-offset-dumper",
@@ -1344,10 +1194,11 @@
       "version": "1.0.0",
       "category": "File & Package Management",
       "checksum": "946328551f74e3b6a34a7c0169f9b40792e392775768b84874b55ecdff71222e",
-      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816"
+      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
+      "id": "savemnt-offset-dumper-savemnt-offset-dumper-f7d0b9e5"
     },
     {
-      "name": "garlic-savemgr",
+      "name": "garlic-savemgr — garlic-savemgr",
       "filename": "garlic-savemgr.elf",
       "url": "https://github.com/earthonion/garlic-savemgr/releases/download/v1.7/garlic-savemgr.elf",
       "source": "https://github.com/earthonion/garlic-savemgr/releases",
@@ -1357,20 +1208,8 @@
       "version": "v1.7",
       "category": "File & Package Management",
       "checksum": "124051ab3a762474720ae53187d2920bc96d6be1d69aa298e715667efc385a2f",
-      "icon_key": "5b2fb5f9beff5576a4c2e47c3f4f57e02c143d4bd5b713666947c58457ffa0a2"
-    },
-    {
-      "name": "garlic-worker",
-      "filename": "garlic-worker-ps4.elf",
-      "url": "https://github.com/earthonion/garlic-worker/releases/download/latest/garlic-worker-ps4.elf",
-      "source": "https://github.com/earthonion/garlic-worker/releases",
-      "source_direct": "https://github.com/earthonion/garlic-worker/releases/download/latest/garlic-worker-ps4.elf",
-      "description": "Help decrypt, encrypt, and resign PS4/PS5 saves",
-      "last_update": "2026-04-09",
-      "version": "latest",
-      "category": "File & Package Management",
-      "checksum": "b5f316bea7c88eb37377af9b7d103b30b1a413ab332bedbb057304aa5fe46828",
-      "icon_key": "5b2fb5f9beff5576a4c2e47c3f4f57e02c143d4bd5b713666947c58457ffa0a2"
+      "icon_key": "5b2fb5f9beff5576a4c2e47c3f4f57e02c143d4bd5b713666947c58457ffa0a2",
+      "id": "garlic-savemgr-garlic-savemgr-0ddbdc19"
     },
     {
       "name": "garlic-worker",
@@ -1383,10 +1222,11 @@
       "version": "latest",
       "category": "File & Package Management",
       "checksum": "c61f29cdb8294c79386c7358096dfd9880f1425b4b10b162bece37af0a67678e",
-      "icon_key": "5b2fb5f9beff5576a4c2e47c3f4f57e02c143d4bd5b713666947c58457ffa0a2"
+      "icon_key": "5b2fb5f9beff5576a4c2e47c3f4f57e02c143d4bd5b713666947c58457ffa0a2",
+      "id": "garlic-worker-garlic-worker-ps5-f69b900a"
     },
     {
-      "name": "ps5debug-NG",
+      "name": "ps5debug-NG — ps5debug-NG",
       "filename": "ps5debug-NG_v1.3.2.elf",
       "url": "https://github.com/Pharaoh2k/ps5debug-NG/releases/download/1.3.2/ps5debug-NG_v1.3.2.elf",
       "source": "https://github.com/OpenSourcereR-dev/ps5debug-NG/releases",
@@ -1396,7 +1236,8 @@
       "version": "1.3.2",
       "category": "Utilities & Tools",
       "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
-      "icon_key": "d499e0744e7846bc548fa877ae897335444a978f955da2ac66e88ab91a4476d8"
+      "icon_key": "d499e0744e7846bc548fa877ae897335444a978f955da2ac66e88ab91a4476d8",
+      "id": "ps5debug-ng-ps5debug-ng_v1.3.2-0fc22a07"
     },
     {
       "name": "ps5-fw-spoof",
@@ -1409,10 +1250,11 @@
       "version": "26616621599",
       "category": "System & Jailbreak",
       "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0",
-      "icon_key": "e199250473fc45d3dee6a576f0debc6df29cf9ae3950fd3ba5bf4f70d0d54b17"
+      "icon_key": "e199250473fc45d3dee6a576f0debc6df29cf9ae3950fd3ba5bf4f70d0d54b17",
+      "id": "ps5-fw-spoof-ps5-fw-spoof-9913567e"
     },
     {
-      "name": "ps5-self-pager",
+      "name": "ps5-self-pager — ps5-self-pager-full-system",
       "filename": "ps5-self-pager-full-system.elf",
       "url": "https://github.com/idlesauce/ps5-self-pager/releases/download/v1.2/ps5-self-pager-full-system.elf",
       "source": "https://github.com/idlesauce/ps5-self-pager/releases",
@@ -1422,10 +1264,11 @@
       "version": "v1.2",
       "category": "Utilities & Tools",
       "checksum": "fb498d4112611619150281e0c44afbd09f144c09eaca3ab3f5b306b39450d13a",
-      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a"
+      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
+      "id": "ps5-self-pager-ps5-self-pager-full-system-e7dc80f1"
     },
     {
-      "name": "ps5-self-pager",
+      "name": "ps5-self-pager — ps5-self-pager-game",
       "filename": "ps5-self-pager-game.elf",
       "url": "https://github.com/idlesauce/ps5-self-pager/releases/download/v1.2/ps5-self-pager-game.elf",
       "source": "https://github.com/idlesauce/ps5-self-pager/releases",
@@ -1435,10 +1278,11 @@
       "version": "v1.2",
       "category": "Utilities & Tools",
       "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac",
-      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a"
+      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
+      "id": "ps5-self-pager-ps5-self-pager-game-10a84617"
     },
     {
-      "name": "ps5-self-pager",
+      "name": "ps5-self-pager — ps5-self-pager-shellcore",
       "filename": "ps5-self-pager-shellcore.elf",
       "url": "https://github.com/idlesauce/ps5-self-pager/releases/download/v1.2/ps5-self-pager-shellcore.elf",
       "source": "https://github.com/idlesauce/ps5-self-pager/releases",
@@ -1448,10 +1292,11 @@
       "version": "v1.2",
       "category": "Utilities & Tools",
       "checksum": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b",
-      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a"
+      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
+      "id": "ps5-self-pager-ps5-self-pager-shellcore-9d41a9fc"
     },
     {
-      "name": "ps5-self-pager",
+      "name": "ps5-self-pager — ps5-self-pager-system-common-lib",
       "filename": "ps5-self-pager-system-common-lib.elf",
       "url": "https://github.com/idlesauce/ps5-self-pager/releases/download/v1.2/ps5-self-pager-system-common-lib.elf",
       "source": "https://github.com/idlesauce/ps5-self-pager/releases",
@@ -1461,10 +1306,11 @@
       "version": "v1.2",
       "category": "Utilities & Tools",
       "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701",
-      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a"
+      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
+      "id": "ps5-self-pager-ps5-self-pager-system-common-lib-2212c921"
     },
     {
-      "name": "PS5-SELF-Decrypter",
+      "name": "PS5-SELF-Decrypter — ps5-self-decrypter-full-system",
       "filename": "ps5-self-decrypter-full-system.elf",
       "url": "https://github.com/idlesauce/PS5-SELF-Decrypter/releases/download/v0.5.2/ps5-self-decrypter-full-system.elf",
       "source": "https://github.com/idlesauce/PS5-SELF-Decrypter/releases",
@@ -1474,10 +1320,11 @@
       "version": "v0.5.2",
       "category": "File & Package Management",
       "checksum": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a",
-      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a"
+      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
+      "id": "ps5-self-decrypter-ps5-self-decrypter-full-system-73fc07f1"
     },
     {
-      "name": "PS5-SELF-Decrypter",
+      "name": "PS5-SELF-Decrypter — ps5-self-decrypter-game",
       "filename": "ps5-self-decrypter-game.elf",
       "url": "https://github.com/idlesauce/PS5-SELF-Decrypter/releases/download/v0.5.2/ps5-self-decrypter-game.elf",
       "source": "https://github.com/idlesauce/PS5-SELF-Decrypter/releases",
@@ -1487,10 +1334,11 @@
       "version": "v0.5.2",
       "category": "File & Package Management",
       "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57",
-      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a"
+      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
+      "id": "ps5-self-decrypter-ps5-self-decrypter-game-df4e4ef6"
     },
     {
-      "name": "PS5-SELF-Decrypter",
+      "name": "PS5-SELF-Decrypter — ps5-self-decrypter-shellcore",
       "filename": "ps5-self-decrypter-shellcore.elf",
       "url": "https://github.com/idlesauce/PS5-SELF-Decrypter/releases/download/v0.5.2/ps5-self-decrypter-shellcore.elf",
       "source": "https://github.com/idlesauce/PS5-SELF-Decrypter/releases",
@@ -1500,10 +1348,11 @@
       "version": "v0.5.2",
       "category": "File & Package Management",
       "checksum": "15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066",
-      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a"
+      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
+      "id": "ps5-self-decrypter-ps5-self-decrypter-shellcore-39346895"
     },
     {
-      "name": "PS5-SELF-Decrypter",
+      "name": "PS5-SELF-Decrypter — ps5-self-decrypter-system-common-lib",
       "filename": "ps5-self-decrypter-system-common-lib.elf",
       "url": "https://github.com/idlesauce/PS5-SELF-Decrypter/releases/download/v0.5.2/ps5-self-decrypter-system-common-lib.elf",
       "source": "https://github.com/idlesauce/PS5-SELF-Decrypter/releases",
@@ -1513,7 +1362,8 @@
       "version": "v0.5.2",
       "category": "File & Package Management",
       "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97",
-      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a"
+      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
+      "id": "ps5-self-decrypter-ps5-self-decrypter-system-common-lib-29860fe3"
     },
     {
       "name": "ps5-remoteplay-get-pin",
@@ -1525,20 +1375,8 @@
       "last_update": "2025-03-09",
       "version": "v0.1.1",
       "category": "Networking & Servers",
-      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a"
-    },
-    {
-      "name": "MemDBG",
-      "filename": "MemDBG-ps4.elf",
-      "url": "https://github.com/seregonwar/MemDBG/releases/download/nightly-20260930-g6e493c9/MemDBG-ps4.elf",
-      "source": "https://github.com/seregonwar/MemDBG/releases",
-      "source_direct": "https://github.com/seregonwar/MemDBG/releases/download/nightly-20260930-g6e493c9/MemDBG-ps4.elf",
-      "description": "MemDBG is a high-performance memory debugging and inspection suite designed for PlayStation 4 and PlayStation 5 homebrew research environments.",
-      "last_update": "2026-09-30",
-      "version": "nightly-20260930-g6e493c9",
-      "category": "Utilities & Tools",
-      "checksum": "d4ce3398d639a3164f63c8e5acecccccebb18e2086fec21adef762e57a724b13",
-      "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe"
+      "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
+      "id": "ps5-remoteplay-get-pin-rp-get-pin-ff6586b9"
     },
     {
       "name": "MemDBG",
@@ -1551,10 +1389,11 @@
       "version": "nightly-20260930-g6e493c9",
       "category": "Utilities & Tools",
       "checksum": "2fbdc9f0b21043619b1c32b512df47b3ddf79a99f096243c0d48f5ffc14e1906",
-      "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe"
+      "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe",
+      "id": "memdbg-memdbg-ps5-a95c88ab"
     },
     {
-      "name": "ps5-hwinfo",
+      "name": "ps5-hwinfo — hwinfo_bench",
       "filename": "hwinfo_bench.elf",
       "url": "https://github.com/drakmor/ps5-hwinfo/releases/download/0.1/hwinfo_bench.elf",
       "source": "https://github.com/drakmor/ps5-hwinfo/releases",
@@ -1564,10 +1403,11 @@
       "version": "0.1",
       "category": "Utilities & Tools",
       "checksum": "4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0",
-      "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8"
+      "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8",
+      "id": "ps5-hwinfo-hwinfo_bench-678782f8"
     },
     {
-      "name": "ps5-hwinfo",
+      "name": "ps5-hwinfo — hwinfo_sysinfo",
       "filename": "hwinfo_sysinfo.elf",
       "url": "https://github.com/drakmor/ps5-hwinfo/releases/download/0.1/hwinfo_sysinfo.elf",
       "source": "https://github.com/drakmor/ps5-hwinfo/releases",
@@ -1577,7 +1417,8 @@
       "version": "0.1",
       "category": "Utilities & Tools",
       "checksum": "ad5014112dec619779619d0ea01a984b3c8267fed682eca5687f34c9eade51cb",
-      "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8"
+      "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8",
+      "id": "ps5-hwinfo-hwinfo_sysinfo-61f6d153"
     },
     {
       "name": "ps5-debugger",
@@ -1590,49 +1431,11 @@
       "version": "1.0.0-BETA",
       "category": "Utilities & Tools",
       "checksum": "8f75fb90b45d7cc4d59147e3323577d7264cf572c78a27f76722202f492ad16a",
-      "icon_key": "73428d091133defae83be6f334833dc8a23b661dfccb66374c18ba9f90d3e8b7"
+      "icon_key": "73428d091133defae83be6f334833dc8a23b661dfccb66374c18ba9f90d3e8b7",
+      "id": "ps5-debugger-ps5debug-ng-33ae8c29"
     },
     {
-      "name": "zftpd",
-      "filename": "zftpd-ps4-v1.6.0.elf",
-      "url": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps4-v1.6.0.elf",
-      "source": "https://github.com/seregonwar/zftpd/releases",
-      "source_direct": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps4-v1.6.0.elf",
-      "description": "Zero-copy FTP/HTTP Daemon compatible with all POSIX systems",
-      "last_update": "2026-09-30",
-      "version": "v1.6.0",
-      "category": "Networking & Servers",
-      "checksum": "9e27630987522cca0fa6bfda8d69dfccdc5fc0f89fc2ef9ed30bb79a36966947",
-      "icon_key": "bd943d614d5d000c34a8bd4e1c00df0bbb9881907accaabe58aab384711abb6c"
-    },
-    {
-      "name": "zftpd",
-      "filename": "zftpd-ps4-zhttp-v1.6.0.elf",
-      "url": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps4-zhttp-v1.6.0.elf",
-      "source": "https://github.com/seregonwar/zftpd/releases",
-      "source_direct": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps4-zhttp-v1.6.0.elf",
-      "description": "Zero-copy FTP/HTTP Daemon compatible with all POSIX systems",
-      "last_update": "2026-09-30",
-      "version": "v1.6.0",
-      "category": "Networking & Servers",
-      "checksum": "f772a101c0aafd3a6c5a86a4df183fab3220a6c801c316d81dae86e5f3a3ce14",
-      "icon_key": "bd943d614d5d000c34a8bd4e1c00df0bbb9881907accaabe58aab384711abb6c"
-    },
-    {
-      "name": "zftpd",
-      "filename": "zftpd-ps5-v1.6.0.elf",
-      "url": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps5-v1.6.0.elf",
-      "source": "https://github.com/seregonwar/zftpd/releases",
-      "source_direct": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps5-v1.6.0.elf",
-      "description": "Zero-copy FTP/HTTP Daemon compatible with all POSIX systems",
-      "last_update": "2026-09-30",
-      "version": "v1.6.0",
-      "category": "Networking & Servers",
-      "checksum": "39ed57bef579282418f822da2e58ea5d56acfa5aa4cd38816744b1f610bfa14d",
-      "icon_key": "bd943d614d5d000c34a8bd4e1c00df0bbb9881907accaabe58aab384711abb6c"
-    },
-    {
-      "name": "zftpd",
+      "name": "zftpd — zftpd-ps5-zhttp",
       "filename": "zftpd-ps5-zhttp-v1.6.0.elf",
       "url": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps5-zhttp-v1.6.0.elf",
       "source": "https://github.com/seregonwar/zftpd/releases",
@@ -1642,36 +1445,11 @@
       "version": "v1.6.0",
       "category": "Networking & Servers",
       "checksum": "fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497",
-      "icon_key": "bd943d614d5d000c34a8bd4e1c00df0bbb9881907accaabe58aab384711abb6c"
+      "icon_key": "bd943d614d5d000c34a8bd4e1c00df0bbb9881907accaabe58aab384711abb6c",
+      "id": "zftpd-zftpd-ps5-zhttp-v1.6.0-c73c2256"
     },
     {
-      "name": "elfldr",
-      "filename": "elfldr-ps5.elf",
-      "url": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.26/elfldr-ps5.elf",
-      "source": "https://github.com/ps5-payload-dev/elfldr/releases",
-      "source_direct": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.26/elfldr-ps5.elf",
-      "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021",
-      "last_update": "2026-08-29",
-      "version": "v0.26",
-      "category": "Loaders",
-      "checksum": "ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1",
-      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
-    },
-    {
-      "name": "ftpsrv",
-      "filename": "ftpsrv-ps4.elf",
-      "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps4.elf",
-      "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
-      "source_direct": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps4.elf",
-      "description": "An FTP server for jailbroken PS4s and PS5s",
-      "last_update": "2026-08-20",
-      "version": "v0.21.1",
-      "category": "Networking & Servers",
-      "checksum": "5f00e2df7fa8ab7daa084343f38394e6672cd389e03fc8598a54d7d9e1d58d16",
-      "icon_key": "4720d3f0f446dc4e8848351d922d3fa4c0ef2fe9267f6afd6f3865f9b14605e7"
-    },
-    {
-      "name": "ftpsrv",
+      "name": "ftpsrv — ftpsrv-ps5-install",
       "filename": "ftpsrv-ps5-install.elf",
       "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps5-install.elf",
       "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
@@ -1681,33 +1459,8 @@
       "version": "v0.21.1",
       "category": "Networking & Servers",
       "checksum": "0ccfe0097081be0514aabef34390a0f6776226e8b3eefbb047964584e0cfe3a9",
-      "icon_key": "4720d3f0f446dc4e8848351d922d3fa4c0ef2fe9267f6afd6f3865f9b14605e7"
-    },
-    {
-      "name": "ftpsrv",
-      "filename": "ftpsrv-ps5.elf",
-      "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps5.elf",
-      "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
-      "source_direct": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps5.elf",
-      "description": "An FTP server for jailbroken PS4s and PS5s",
-      "last_update": "2026-08-20",
-      "version": "v0.21.1",
-      "category": "Networking & Servers",
-      "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938",
-      "icon_key": "4720d3f0f446dc4e8848351d922d3fa4c0ef2fe9267f6afd6f3865f9b14605e7"
-    },
-    {
-      "name": "gdbsrv",
-      "filename": "gdbsrv-ps4.elf",
-      "url": "https://github.com/ps5-payload-dev/gdbsrv/releases/download/v0.9/gdbsrv-ps4.elf",
-      "source": "https://github.com/ps5-payload-dev/gdbsrv/releases",
-      "source_direct": "https://github.com/ps5-payload-dev/gdbsrv/releases/download/v0.9/gdbsrv-ps4.elf",
-      "description": "A simple GDB server for jailbroken PS4s and PS5s",
-      "last_update": "2026-08-02",
-      "version": "v0.9",
-      "category": "Utilities & Tools",
-      "checksum": "fc91ea233cdbb47acd8087b93d557d9f8a663d0f47cb75908a05a024d07e7efb",
-      "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041"
+      "icon_key": "4720d3f0f446dc4e8848351d922d3fa4c0ef2fe9267f6afd6f3865f9b14605e7",
+      "id": "ftpsrv-ftpsrv-ps5-install-737081c5"
     },
     {
       "name": "gdbsrv",
@@ -1720,49 +1473,11 @@
       "version": "v0.9",
       "category": "Utilities & Tools",
       "checksum": "80952d75f423768b95385f0944e5a5c2f417dcc10c22c1bb6516a923ad8894e5",
-      "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041"
+      "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041",
+      "id": "gdbsrv-gdbsrv-ps5-7fce7bd1"
     },
     {
-      "name": "klogsrv",
-      "filename": "klogsrv-ps4.elf",
-      "url": "https://github.com/ps5-payload-dev/klogsrv/releases/download/v0.9/klogsrv-ps4.elf",
-      "source": "https://github.com/ps5-payload-dev/klogsrv/releases",
-      "source_direct": "https://github.com/ps5-payload-dev/klogsrv/releases/download/v0.9/klogsrv-ps4.elf",
-      "description": "A socket server for jailbroken PS4s and PS5s that redirects /dev/klog to sockets connected on port 3232",
-      "last_update": "2026-08-02",
-      "version": "v0.9",
-      "category": "Utilities & Tools",
-      "checksum": "7e89c33eb90d44ea4644b80c56c29084d93faf415a9d64f1397a58ac7ca752d8",
-      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
-    },
-    {
-      "name": "klogsrv",
-      "filename": "klogsrv-ps5.elf",
-      "url": "https://github.com/ps5-payload-dev/klogsrv/releases/download/v0.9/klogsrv-ps5.elf",
-      "source": "https://github.com/ps5-payload-dev/klogsrv/releases",
-      "source_direct": "https://github.com/ps5-payload-dev/klogsrv/releases/download/v0.9/klogsrv-ps5.elf",
-      "description": "A socket server for jailbroken PS4s and PS5s that redirects /dev/klog to sockets connected on port 3232",
-      "last_update": "2026-08-02",
-      "version": "v0.9",
-      "category": "Utilities & Tools",
-      "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb",
-      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
-    },
-    {
-      "name": "ftpsrv",
-      "filename": "ftpsrv-ps4.elf",
-      "url": "https://github.com/drakmor/ftpsrv/releases/download/1.16-ng-stable/ftpsrv-ps4.elf",
-      "source": "https://github.com/drakmor/ftpsrv/releases",
-      "source_direct": "https://github.com/drakmor/ftpsrv/releases/download/1.16-ng-stable/ftpsrv-ps4.elf",
-      "description": "A simple FTP server for jailbroken PS4s and PS5s",
-      "last_update": "2026-09-20",
-      "version": "1.16-ng-stable",
-      "category": "Networking & Servers",
-      "checksum": "fba508465a8c892882e88e2834ac2b6c445583b81629257764725528f3f5fd6a",
-      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a"
-    },
-    {
-      "name": "ftpsrv",
+      "name": "ftpsrv — ftpsrv-ps5",
       "filename": "ftpsrv-ps5.elf",
       "url": "https://github.com/drakmor/ftpsrv/releases/download/1.16-ng-stable/ftpsrv-ps5.elf",
       "source": "https://github.com/drakmor/ftpsrv/releases",
@@ -1772,7 +1487,8 @@
       "version": "1.16-ng-stable",
       "category": "Networking & Servers",
       "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
-      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a"
+      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a",
+      "id": "ftpsrv-ftpsrv-ps5-e98d1bf8"
     },
     {
       "name": "ps5-ezremote-server",
@@ -1785,7 +1501,8 @@
       "version": "1.11",
       "category": "System & Jailbreak",
       "checksum": "0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03",
-      "icon_key": "955dfb2dbe2f04d676fea2cd4af6872d7f34a3924cd14436744d5a3c9200fdf2"
+      "icon_key": "955dfb2dbe2f04d676fea2cd4af6872d7f34a3924cd14436744d5a3c9200fdf2",
+      "id": "ps5-ezremote-server-ezremote-server-5a1ec637"
     },
     {
       "name": "airpsx",
@@ -1798,7 +1515,8 @@
       "version": "0.19",
       "category": "Utilities & Tools",
       "checksum": "ae025ca7727b3a8abf6a705903ca9116a6fa6e7f7ead606916109cf9044c5d63",
-      "icon_key": "f1742a15d6c1d0c7ab34d514c412c2f028a130c26fdcf14999e3802103f54979"
+      "icon_key": "f1742a15d6c1d0c7ab34d514c412c2f028a130c26fdcf14999e3802103f54979",
+      "id": "airpsx-airpsx-1f8590c4"
     },
     {
       "name": "PS5-Custom-Tool-Manager-",
@@ -1811,7 +1529,8 @@
       "version": "Custom",
       "category": "Utilities & Tools",
       "checksum": "297824ceaf6ea53fde57550adf9b5c2fc44c63ef60e8196ab92d351d1615d9cb",
-      "icon_key": "d3ed8cdaf112ec1e0bcf2bc538c808e56a447862846d03b9aef80782b87fecc7"
+      "icon_key": "d3ed8cdaf112ec1e0bcf2bc538c808e56a447862846d03b9aef80782b87fecc7",
+      "id": "ps5-custom-tool-manager-ps5.custom.tool.manager.v1-8f9822fd"
     },
     {
       "name": "ChronicLoader-PS5-Payload",
@@ -1824,7 +1543,8 @@
       "version": "0.1",
       "category": "Loaders",
       "checksum": "3561120f85e0ec32de5de15cdd61a1fe8d5146eb4c6aa99ee88209914a2774b1",
-      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816"
+      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
+      "id": "chronicloader-ps5-payload-chronicloader-fe2c78e7"
     },
     {
       "name": "ps-game-state-lib",
@@ -1837,7 +1557,8 @@
       "version": "v0.1",
       "category": "Utilities & Tools",
       "checksum": "a550e1494b0f8be3b244f8820ee8d899442d33a936f9ded6203a0318c7afdba8",
-      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816"
+      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
+      "id": "ps-game-state-lib-ps-game-state-lib-v0.1-25064391"
     },
     {
       "name": "PS-DiscordPresence",
@@ -1850,7 +1571,8 @@
       "version": "v0.01",
       "category": "Utilities & Tools",
       "checksum": "375cf619ea6f6c594ea2b79ecbb98704723522d07e51c877687876d5fe589afb",
-      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816"
+      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
+      "id": "ps-discordpresence-ps-discordpresence-4e3517ef"
     },
     {
       "name": "unrar-ps5",
@@ -1863,10 +1585,11 @@
       "version": "v1.4.0",
       "category": "Utilities & Tools",
       "checksum": "2ef04b0bc8fc1932b29da1a53336c40ed0a3f6a945a0746bef2e5dde52149701",
-      "icon_key": "0819ef7e0551cbed779ed2947a2ed28613565f020700766027a8cfa092d16f6b"
+      "icon_key": "0819ef7e0551cbed779ed2947a2ed28613565f020700766027a8cfa092d16f6b",
+      "id": "unrar-ps5-unrar_ps5-e72d90c4"
     },
     {
-      "name": "PS5-Power-Payloads-Project",
+      "name": "PS5-Power-Payloads-Project — notify_test",
       "filename": "notify_test.elf",
       "url": "https://github.com/MasterPS0/PS5-Power-Payloads-Project/releases/download/1.0/notify_test.elf",
       "source": "https://github.com/MasterPS0/PS5-Power-Payloads-Project/releases",
@@ -1876,10 +1599,11 @@
       "version": "1.0",
       "category": "Utilities & Tools",
       "checksum": "a06cf9ace6e13f3c0241a709c6a8d23969d74e6559ec2a2290298f480f62da79",
-      "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6"
+      "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6",
+      "id": "ps5-power-payloads-project-notify_test-f995d619"
     },
     {
-      "name": "PS5-Power-Payloads-Project",
+      "name": "PS5-Power-Payloads-Project — poweroff",
       "filename": "poweroff.elf",
       "url": "https://github.com/MasterPS0/PS5-Power-Payloads-Project/releases/download/1.0/poweroff.elf",
       "source": "https://github.com/MasterPS0/PS5-Power-Payloads-Project/releases",
@@ -1889,10 +1613,11 @@
       "version": "1.0",
       "category": "Utilities & Tools",
       "checksum": "42ed7983619a31f74a6ac74cc943b80899366ceaf07fed77a46384b9b0f51c48",
-      "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6"
+      "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6",
+      "id": "ps5-power-payloads-project-poweroff-c718b48d"
     },
     {
-      "name": "PS5-Power-Payloads-Project",
+      "name": "PS5-Power-Payloads-Project — reboot",
       "filename": "reboot.elf",
       "url": "https://github.com/MasterPS0/PS5-Power-Payloads-Project/releases/download/1.0/reboot.elf",
       "source": "https://github.com/MasterPS0/PS5-Power-Payloads-Project/releases",
@@ -1902,10 +1627,11 @@
       "version": "1.0",
       "category": "Utilities & Tools",
       "checksum": "3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe",
-      "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6"
+      "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6",
+      "id": "ps5-power-payloads-project-reboot-83dfb785"
     },
     {
-      "name": "PS5-Power-Payloads-Project",
+      "name": "PS5-Power-Payloads-Project — suspend",
       "filename": "suspend.elf",
       "url": "https://github.com/MasterPS0/PS5-Power-Payloads-Project/releases/download/1.0/suspend.elf",
       "source": "https://github.com/MasterPS0/PS5-Power-Payloads-Project/releases",
@@ -1915,7 +1641,8 @@
       "version": "1.0",
       "category": "Utilities & Tools",
       "checksum": "1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1",
-      "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6"
+      "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6",
+      "id": "ps5-power-payloads-project-suspend-d40fffb1"
     },
     {
       "name": "FGG-Unpack",
@@ -1928,7 +1655,8 @@
       "version": "v0.1",
       "category": "Utilities & Tools",
       "checksum": "e8c8e57bbda31b5d16d131797aac6f83b555cae8d439b1f475c952f3d9554eff",
-      "icon_key": "021776a97722fb224016826128823585d021ead5210a0ee45715a928f76badfc"
+      "icon_key": "021776a97722fb224016826128823585d021ead5210a0ee45715a928f76badfc",
+      "id": "fgg-unpack-fgg-unpack-76c34bf9"
     },
     {
       "name": "BFplayer",
@@ -1941,7 +1669,8 @@
       "version": "v0.1.0-alpha.44",
       "category": "Utilities & Tools",
       "checksum": "0d028deb145d6fc9a5b55d43a45e072919178fbb261c66cd914ebcfb0b3b05c0",
-      "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f"
+      "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f",
+      "id": "bfplayer-bfplayer-standalone-f4ed6671"
     },
     {
       "name": "ProsperoPlayer",
@@ -1954,7 +1683,8 @@
       "version": "v1.0",
       "category": "Utilities & Tools",
       "checksum": "40b9955273982cd563e1b16bd428ea6a9c399e7d4bc55b220fe223948572cdad",
-      "icon_key": "b16da1b1e8652db7ffe223225c813bbc4072f5e5832317b6c4008874c3ffc927"
+      "icon_key": "b16da1b1e8652db7ffe223225c813bbc4072f5e5832317b6c4008874c3ffc927",
+      "id": "prosperoplayer-prosperoplayer_medialauncher-afb9332e"
     },
     {
       "name": "svtplay",
@@ -1967,7 +1697,8 @@
       "version": "v0.4",
       "category": "Utilities & Tools",
       "checksum": "b6fdfe6d714298dc49a936ac731493ffc80dabd467da5e0ce595db7ea75f39a1",
-      "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041"
+      "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041",
+      "id": "svtplay-svtplay-install-5f3441bd"
     },
     {
       "name": "PS-Play",
@@ -1980,7 +1711,8 @@
       "version": "2.1",
       "category": "System & Jailbreak",
       "checksum": "e3392379d5bc6ca4e44cb0d2a1d8921083b2c3ea480725f68378831874542d8d",
-      "icon_key": "23bd7d4e0947f9e032428acc4cca6bb2e7e9e07c411720c81583289508b6334d"
+      "icon_key": "23bd7d4e0947f9e032428acc4cca6bb2e7e9e07c411720c81583289508b6334d",
+      "id": "ps-play-psplay-2.1-e2600598"
     },
     {
       "name": "EVO-PLAYER-PS5",
@@ -1993,33 +1725,8 @@
       "version": "v0.7.0",
       "category": "System & Jailbreak",
       "checksum": "829ace433cade99379d5ef79ed4aaefa14d6c04689a32a4edb89bccf6241aa65",
-      "icon_key": "fa027ca7258331e1c9d4bd21d51fa7816b81bbb46d8b52000c589036c61b7c12"
-    },
-    {
-      "name": "EVO-PLAYER-PS5",
-      "filename": "EVOPlayer-v0.7.0-player-only.elf",
-      "url": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases/download/v0.7.0/EVOPlayer-v0.7.0-player-only.elf",
-      "source": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases",
-      "source_direct": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases/download/v0.7.0/EVOPlayer-v0.7.0-player-only.elf",
-      "description": "![](https://img.shields.io/badge/Release-v0.7.0-blueviolet?style=for-the-badge) ![](https://img.shields.io/badge/PS5%20Hardware-Verified-0070d1?style=for-the-badge&logo=playstation&logoColor=white) ![](https://img.shields.io/badge/Firmware-12.70-blue?style=for-the-badge)\n\n**Emby password authentication, native HTTPS/TLS streaming, master-detail hierarchical changelog viewer, direct memory buffer streaming, and native PS5 IME keyboard.**\n\nDownload **`EVOPlayer-0.7.0-InstallTile.elf`** to register the Media tile on the home screen, or **`EVOPlayer-0.7.0-player-only.elf`** for homebrew app slot launch.\n\n---\n\n### ![](https://img.shields.io/badge/ADDON-007acc?style=flat-square) Emby Password Authentication & Setup\n\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Account Password Support:** Dedicated interactive password configuration row in Emby Setup screen with virtual keyboard input and secure asterisk masking (`********`).\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Robust cJSON Authentication:** Server authentication payloads formatted with `cJSON` for compliant user session tokens against password-protected Emby and Jellyfin servers.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Config Persistence:** Safe loading and saving of passwords in `/data/evoplayer/emby.conf` and USB configurations with key-value and legacy positional compatibility.\n\n### ![](https://img.shields.io/badge/UI%2FUX-007acc?style=flat-square) Hierarchical Changelog Viewer\n\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Master-Detail Version Architecture:** Replaced legacy flat cards with a clean dual-pane layout: a version selector on the left and a dedicated release notes inspector card on the right.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Categorized Visual Badges:** Clear `[NEW]`, `[FIXED]`, `[IMPROVED]`, and `[REMOVED]` indicator pills with accent color coding.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Instant Version Switching:** Fluid D-pad navigation across all releases with automatic detail panel updates.\n\n### ![](https://img.shields.io/badge/CORE-ff8c00?style=flat-square) Core Subsystems & Network Engine\n\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) ![](https://img.shields.io/badge/SECURITY-e91e63?style=flat-square) **Native HTTPS & TLS Support:** Integrated OpenSSL (`libssl.a`/`libcrypto.a`) with TLS 1.2/1.3 handshakes, SNI extension, and secure communication for remote HTTPS media servers.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Direct Memory Region Manager:** High-throughput streaming buffer allocations leveraging native PS5 direct memory (`dmem`).\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Native PS5 IME Keyboard Support:** Seamless integration with `libSceImeDialog.sprx` supporting multilingual input and USB keyboards, with automatic fallback to custom virtual keyboard.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Media Directory Search:** Interactive search modal in file browser for fast folder and item filtering.\n- ![](https://img.shields.io/badge/FIXED-2ea44f?style=flat-square) **Streaming Stability:** Fixed custom AVIO lifecycle conflict and stabilized network streaming playback.\n- ![](https://img.shields.io/badge/IMPROVED-ff8c00?style=flat-square) **CPU SIMD Vectorized YUV Pipeline:** 8-wide AVX2 SIMD workgroups for high-throughput video presentation (7.4ms per 4K frame).\n\n---\n\n## Install — start here\n\n**Download `EVOPlayer-0.7.0-InstallTile.elf`.** That is the one to run.\n\n1. Jailbreak the console (12.70) and start `ps5-payload-elfldr`.\n2. Copy `EVOPlayer-0.7.0-InstallTile.elf` to a USB stick.\n3. Start it from your **payload manager** — the on-console one, typically at `http://<ps5>:8084`. Anything that sends an ELF to elfldr works.\n4. It says **\"EVO Player ready in Media\"**. Open EVO Player from the console's **Media** row.\n\n### Which file is which\n\n| File | Use it for |\n|---|---|\n| `EVOPlayer-0.7.0-InstallTile.elf` | **Normal install.** Payload manager → tile in Media |\n| `EVOPlayer-0.7.0-UninstallTile.elf` | Removes the tile completely |\n| `EVOPlayer-0.7.0-homebrew.zip` | The websrv route: extract to a USB stick as `/homebrew/EVOPlayer/`, launch from `http://<ps5>:8080` |\n| `EVOPlayer-0.7.0-player-only.elf` | The bare player. Runs via `hbldr` in PS Now app slot |",
-      "last_update": "2026-08-14",
-      "version": "v0.7.0",
-      "category": "System & Jailbreak",
-      "checksum": "5d79849af3ac9c6834e4028fdae0f7896ef0b4e5071bcc33bc46842bcfe482ed",
-      "icon_key": "fa027ca7258331e1c9d4bd21d51fa7816b81bbb46d8b52000c589036c61b7c12"
-    },
-    {
-      "name": "EVO-PLAYER-PS5",
-      "filename": "EVOPlayer-v0.7.0-UninstallTile.elf",
-      "url": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases/download/v0.7.0/EVOPlayer-v0.7.0-UninstallTile.elf",
-      "source": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases",
-      "source_direct": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases/download/v0.7.0/EVOPlayer-v0.7.0-UninstallTile.elf",
-      "description": "![](https://img.shields.io/badge/Release-v0.7.0-blueviolet?style=for-the-badge) ![](https://img.shields.io/badge/PS5%20Hardware-Verified-0070d1?style=for-the-badge&logo=playstation&logoColor=white) ![](https://img.shields.io/badge/Firmware-12.70-blue?style=for-the-badge)\n\n**Emby password authentication, native HTTPS/TLS streaming, master-detail hierarchical changelog viewer, direct memory buffer streaming, and native PS5 IME keyboard.**\n\nDownload **`EVOPlayer-0.7.0-InstallTile.elf`** to register the Media tile on the home screen, or **`EVOPlayer-0.7.0-player-only.elf`** for homebrew app slot launch.\n\n---\n\n### ![](https://img.shields.io/badge/ADDON-007acc?style=flat-square) Emby Password Authentication & Setup\n\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Account Password Support:** Dedicated interactive password configuration row in Emby Setup screen with virtual keyboard input and secure asterisk masking (`********`).\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Robust cJSON Authentication:** Server authentication payloads formatted with `cJSON` for compliant user session tokens against password-protected Emby and Jellyfin servers.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Config Persistence:** Safe loading and saving of passwords in `/data/evoplayer/emby.conf` and USB configurations with key-value and legacy positional compatibility.\n\n### ![](https://img.shields.io/badge/UI%2FUX-007acc?style=flat-square) Hierarchical Changelog Viewer\n\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Master-Detail Version Architecture:** Replaced legacy flat cards with a clean dual-pane layout: a version selector on the left and a dedicated release notes inspector card on the right.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Categorized Visual Badges:** Clear `[NEW]`, `[FIXED]`, `[IMPROVED]`, and `[REMOVED]` indicator pills with accent color coding.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Instant Version Switching:** Fluid D-pad navigation across all releases with automatic detail panel updates.\n\n### ![](https://img.shields.io/badge/CORE-ff8c00?style=flat-square) Core Subsystems & Network Engine\n\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) ![](https://img.shields.io/badge/SECURITY-e91e63?style=flat-square) **Native HTTPS & TLS Support:** Integrated OpenSSL (`libssl.a`/`libcrypto.a`) with TLS 1.2/1.3 handshakes, SNI extension, and secure communication for remote HTTPS media servers.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Direct Memory Region Manager:** High-throughput streaming buffer allocations leveraging native PS5 direct memory (`dmem`).\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Native PS5 IME Keyboard Support:** Seamless integration with `libSceImeDialog.sprx` supporting multilingual input and USB keyboards, with automatic fallback to custom virtual keyboard.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Media Directory Search:** Interactive search modal in file browser for fast folder and item filtering.\n- ![](https://img.shields.io/badge/FIXED-2ea44f?style=flat-square) **Streaming Stability:** Fixed custom AVIO lifecycle conflict and stabilized network streaming playback.\n- ![](https://img.shields.io/badge/IMPROVED-ff8c00?style=flat-square) **CPU SIMD Vectorized YUV Pipeline:** 8-wide AVX2 SIMD workgroups for high-throughput video presentation (7.4ms per 4K frame).\n\n---\n\n## Install — start here\n\n**Download `EVOPlayer-0.7.0-InstallTile.elf`.** That is the one to run.\n\n1. Jailbreak the console (12.70) and start `ps5-payload-elfldr`.\n2. Copy `EVOPlayer-0.7.0-InstallTile.elf` to a USB stick.\n3. Start it from your **payload manager** — the on-console one, typically at `http://<ps5>:8084`. Anything that sends an ELF to elfldr works.\n4. It says **\"EVO Player ready in Media\"**. Open EVO Player from the console's **Media** row.\n\n### Which file is which\n\n| File | Use it for |\n|---|---|\n| `EVOPlayer-0.7.0-InstallTile.elf` | **Normal install.** Payload manager → tile in Media |\n| `EVOPlayer-0.7.0-UninstallTile.elf` | Removes the tile completely |\n| `EVOPlayer-0.7.0-homebrew.zip` | The websrv route: extract to a USB stick as `/homebrew/EVOPlayer/`, launch from `http://<ps5>:8080` |\n| `EVOPlayer-0.7.0-player-only.elf` | The bare player. Runs via `hbldr` in PS Now app slot |",
-      "last_update": "2026-08-14",
-      "version": "v0.7.0",
-      "category": "System & Jailbreak",
-      "checksum": "fa8e5e79f0547ff0e019fab8a9396736a295272f9f17ce834906b2cd58da4b18",
-      "icon_key": "fa027ca7258331e1c9d4bd21d51fa7816b81bbb46d8b52000c589036c61b7c12"
+      "icon_key": "fa027ca7258331e1c9d4bd21d51fa7816b81bbb46d8b52000c589036c61b7c12",
+      "id": "evo-player-ps5-evoplayer-v0.7.0-installtile-96d27c34"
     },
     {
       "name": "nuvio-ps5-homebrew",
@@ -2032,7 +1739,8 @@
       "version": "v0.1.0-alpha.2",
       "category": "Utilities & Tools",
       "checksum": "2d6593e379f959b9b9896727088caf2977d125368fbd41e155d474ee580a3148",
-      "icon_key": "6eb9a96297dca44d26638e7186b44074b0d479997e41dd14f1da72fa879069be"
+      "icon_key": "6eb9a96297dca44d26638e7186b44074b0d479997e41dd14f1da72fa879069be",
+      "id": "nuvio-ps5-homebrew-nuvio-c93064bc"
     },
     {
       "name": "Ruffle-Flash-PS5",
@@ -2045,7 +1753,8 @@
       "version": "1.2.0",
       "category": "Emulators & Linux",
       "checksum": "29c271432859a394d433329c7a58c7df27912ad7fa5551cd2ac0374f834bf716",
-      "icon_key": "9b25fabfd137c4e1fac0c280a01c64516f0f21574b76dd6f9f040b5f7d2d0c7b"
+      "icon_key": "9b25fabfd137c4e1fac0c280a01c64516f0f21574b76dd6f9f040b5f7d2d0c7b",
+      "id": "ruffle-flash-ps5-helper-865629f1"
     },
     {
       "name": "driftcheck5",
@@ -2058,7 +1767,8 @@
       "version": "01.000.000",
       "category": "Utilities & Tools",
       "checksum": "99f14fd628d0be27e981cc45781ef067c6ae8e640706e4c2cc273edf87de01fb",
-      "icon_key": "51ded9acea016d53b68f9dd7a7ecd335960bab299fba4740d2ef23c1ece8a328"
+      "icon_key": "51ded9acea016d53b68f9dd7a7ecd335960bab299fba4740d2ef23c1ece8a328",
+      "id": "driftcheck5-driftcheck-ae434b2c"
     },
     {
       "name": "elf-launcher",
@@ -2071,7 +1781,8 @@
       "version": "v2.0.5",
       "category": "Utilities & Tools",
       "checksum": "1b4494e669ef07525c77036777d36a20f1eb81a708fe8262b26ffffa9452f547",
-      "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f"
+      "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
+      "id": "elf-launcher-elf-launcher-bb13bcf1"
     },
     {
       "name": "wk-autoloader",
@@ -2084,7 +1795,8 @@
       "version": "v1.1.2",
       "category": "System & Jailbreak",
       "checksum": "c5489f708e0e19769fd8d84c667942916778af39924d23c13e42f9a8f93c544c",
-      "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f"
+      "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
+      "id": "wk-autoloader-wk-autoloader-79cdcb86"
     },
     {
       "name": "HearBridge-Browser",
@@ -2097,10 +1809,11 @@
       "version": "v1.0.1-beta",
       "category": "Networking & Servers",
       "checksum": "bf03efc7048cc8c7b7121fca4c185e0bbf4f3e8c760cfe701116368d63062473",
-      "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f"
+      "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
+      "id": "hearbridge-browser-hearbridge-browser-1.0.1-5c6d888c"
     },
     {
-      "name": "ps5-theme",
+      "name": "ps5-theme — ps5-theme-stop",
       "filename": "ps5-theme-stop.elf",
       "url": "https://github.com/Blaze414/ps5-theme/releases/download/v1.60/ps5-theme-stop.elf",
       "source": "https://github.com/Blaze414/ps5-theme/releases",
@@ -2110,10 +1823,11 @@
       "version": "v1.60",
       "category": "System & Jailbreak",
       "checksum": "0e15bc9a3721d507b4cfbdf57637b4278d6062cf384780f10d5dd6c0ea2a4960",
-      "icon_key": "4d1d293e08b77d1a4018d74bf540f11a760c44806c5390eb7ddc59e73f8915b3"
+      "icon_key": "4d1d293e08b77d1a4018d74bf540f11a760c44806c5390eb7ddc59e73f8915b3",
+      "id": "ps5-theme-ps5-theme-stop-971f601c"
     },
     {
-      "name": "ps5-theme",
+      "name": "ps5-theme — ps5-theme",
       "filename": "ps5-theme.elf",
       "url": "https://github.com/Blaze414/ps5-theme/releases/download/v1.60/ps5-theme.elf",
       "source": "https://github.com/Blaze414/ps5-theme/releases",
@@ -2123,7 +1837,8 @@
       "version": "v1.60",
       "category": "System & Jailbreak",
       "checksum": "732fbc113770bdac4dc0dfea1b8c6a9ecdc4bacdacb7ab0f6ed3e11987409a61",
-      "icon_key": "4d1d293e08b77d1a4018d74bf540f11a760c44806c5390eb7ddc59e73f8915b3"
+      "icon_key": "4d1d293e08b77d1a4018d74bf540f11a760c44806c5390eb7ddc59e73f8915b3",
+      "id": "ps5-theme-ps5-theme-2d75ddd5"
     },
     {
       "name": "visor-ps5",
@@ -2136,7 +1851,8 @@
       "version": "v0.2.1",
       "category": "Utilities & Tools",
       "checksum": "629c2bc4486ac5b7fb2de5c021a78edc41f246a78d8f455fb983d01441a00924",
-      "icon_key": "bed36637bc9d470b4223a8ca7f1494e5b7ca9539d5d69f3bf02ee7eb015d36a0"
+      "icon_key": "bed36637bc9d470b4223a8ca7f1494e5b7ca9539d5d69f3bf02ee7eb015d36a0",
+      "id": "visor-ps5-visor-20ce41ad"
     },
     {
       "name": "PS5-Network-Mounting",
@@ -2149,7 +1865,8 @@
       "version": "v1.1.1",
       "category": "System & Jailbreak",
       "checksum": "91816553248a65f062ee5a2b52dcff0f3f4d508633f59a79e251ccb055f63153",
-      "icon_key": "7055f31fe10d470a8ebd4dd722561b8188d2640cf3a2af42ab67b227f87390f0"
+      "icon_key": "7055f31fe10d470a8ebd4dd722561b8188d2640cf3a2af42ab67b227f87390f0",
+      "id": "ps5-network-mounting-ps5networkmounting-ee1c7369"
     },
     {
       "name": "ps5-dump-forge",
@@ -2162,7 +1879,8 @@
       "version": "v0.2.0",
       "category": "File & Package Management",
       "checksum": "2a4294745f1fc81f8e18c4e5258ed32ae61e5362c944cc63bda6413b3fd3b90e",
-      "icon_key": "ad79ebaa2a4893da24720d0ed0ba5a1fbb3d4c1afab90c04193a37ee7eae06ec"
+      "icon_key": "ad79ebaa2a4893da24720d0ed0ba5a1fbb3d4c1afab90c04193a37ee7eae06ec",
+      "id": "ps5-dump-forge-ps5-dump-forge-0.2.0-ps5-dca65fbf"
     },
     {
       "name": "LibrePadPS5",
@@ -2175,7 +1893,8 @@
       "version": "v1.1.3",
       "category": "Utilities & Tools",
       "checksum": "736ea4b0a17aafce4ade2b696a6d5d2a8b856b83c6960a3d0ec117e23ba2c2c0",
-      "icon_key": "0ede2f71476d42e7879c1e9ed872749c491f8e482e90238ed1f494a62f09a393"
+      "icon_key": "0ede2f71476d42e7879c1e9ed872749c491f8e482e90238ed1f494a62f09a393",
+      "id": "librepadps5-librepadps5-f1e1d955"
     },
     {
       "name": "launchpad",
@@ -2188,10 +1907,11 @@
       "version": "v0.2",
       "category": "Utilities & Tools",
       "checksum": "5f53da68491229b52e18f84017975be3753487fee6e0f22c55d8e7a11fafed02",
-      "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041"
+      "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041",
+      "id": "launchpad-launchpad-install-036af43a"
     },
     {
-      "name": "TacHen",
+      "name": "TacHen — TacHen-compatibilityUntested",
       "filename": "TacHen-compatibilityUntested.elf",
       "url": "https://github.com/GronedWaffel/TacHen/releases/download/v0.1.0-beta.3/TacHen-compatibilityUntested.elf",
       "source": "https://github.com/GronedWaffel/TacHen/releases",
@@ -2201,10 +1921,11 @@
       "version": "v0.1.0-beta.3",
       "category": "System & Jailbreak",
       "checksum": "54f0e98c3903086dc11c52609be7da1cf7024527aeaaf2162de49ec77049232f",
-      "icon_key": "79e44545dfde60542338c95d883587f38b6f167fbb64b97c93e2084992f537b2"
+      "icon_key": "79e44545dfde60542338c95d883587f38b6f167fbb64b97c93e2084992f537b2",
+      "id": "tachen-tachen-compatibilityuntested-51b3b865"
     },
     {
-      "name": "TacHen",
+      "name": "TacHen — TacHen11.00",
       "filename": "TacHen11.00-13.60.elf",
       "url": "https://github.com/GronedWaffel/TacHen/releases/download/v0.1.0-beta.3/TacHen11.00-13.60.elf",
       "source": "https://github.com/GronedWaffel/TacHen/releases",
@@ -2214,7 +1935,8 @@
       "version": "v0.1.0-beta.3",
       "category": "System & Jailbreak",
       "checksum": "78e0455221d556388bef402cc4f8c34288187ee0a186251eacd07ff709f1872f",
-      "icon_key": "79e44545dfde60542338c95d883587f38b6f167fbb64b97c93e2084992f537b2"
+      "icon_key": "79e44545dfde60542338c95d883587f38b6f167fbb64b97c93e2084992f537b2",
+      "id": "tachen-tachen11.00-13.60-a29a89f4"
     },
     {
       "name": "PS5-Log-Collector",
@@ -2227,7 +1949,8 @@
       "version": "v0.4.2",
       "category": "Utilities & Tools",
       "checksum": "fcd3bb93f402ff03a86451dec94d0d2fbb6345f883b072a9055a0a6ba317780f",
-      "icon_key": "d84bafc28c12c55a32ad70b295ecb37f02f5fb2cb9c50f51901dc673681270fe"
+      "icon_key": "d84bafc28c12c55a32ad70b295ecb37f02f5fb2cb9c50f51901dc673681270fe",
+      "id": "ps5-log-collector-deci5-probe-7a6d5333"
     },
     {
       "name": "Padrino-Save-Vault",
@@ -2240,7 +1963,8 @@
       "version": "v0.0.1-BETA",
       "category": "File & Package Management",
       "checksum": "8aeded86d79f8d7fd718f23ae84b1e5c89c8e9c08c55a5c3ae775df6d56bae56",
-      "icon_key": "2c4b83a299c5d73703af8856e2d6a117273d71e90e6e4337377dec64e2145039"
+      "icon_key": "2c4b83a299c5d73703af8856e2d6a117273d71e90e6e4337377dec64e2145039",
+      "id": "padrino-save-vault-padrinosavevault-0ba1441f"
     },
     {
       "name": "onionHEN-kernel-log-plugin",
@@ -2253,7 +1977,8 @@
       "version": "1.00",
       "category": "System & Jailbreak",
       "checksum": "84e7c8c4999e2baf7a84684bae2da6f507abb89960403b1ba4f24c0fd562b733",
-      "icon_key": "e7172fb08af972dc988e83ae4d6161e6bd6e15e35a943c20ccecee3c1b9c866b"
+      "icon_key": "e7172fb08af972dc988e83ae4d6161e6bd6e15e35a943c20ccecee3c1b9c866b",
+      "id": "onionhen-kernel-log-plugin-klog00001-af3b4d78"
     },
     {
       "name": "ps5-aria2",
@@ -2266,20 +1991,8 @@
       "version": "v1.37.0-3",
       "category": "Utilities & Tools",
       "checksum": "802d53a201545ea84a86c1a3bc2f9b84446a1d245ea11108b912116ffbc1a8a6",
-      "icon_key": "fcd951a75083f6312687140e82308c0a5886058712aa8148ddd62c3fbf833fb8"
-    },
-    {
-      "name": "PSXTERM",
-      "filename": "psxtermd-ps4.elf",
-      "url": "https://github.com/seregonwar/PSXTERM/releases/download/nightly-20261005-gc7279a7-r37241418154/psxtermd-ps4.elf",
-      "source": "https://github.com/seregonwar/PSXTERM/releases",
-      "source_direct": "https://github.com/seregonwar/PSXTERM/releases/download/nightly-20261005-gc7279a7-r37241418154/psxtermd-ps4.elf",
-      "description": "Remote interactive terminal environment for exploited PlayStation 4 and PlayStation 5 systems.",
-      "last_update": "2026-10-04",
-      "version": "nightly-20261005-gc7279a7-r37241418154",
-      "category": "System & Jailbreak",
-      "checksum": "4eefe9980649deb3085a8413a8d8b15eccd86c2504ad389467ab83edb9aedf08",
-      "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe"
+      "icon_key": "fcd951a75083f6312687140e82308c0a5886058712aa8148ddd62c3fbf833fb8",
+      "id": "ps5-aria2-aria2-v1.37.0-3-739e2603"
     },
     {
       "name": "PSXTERM",
@@ -2292,7 +2005,8 @@
       "version": "nightly-20261005-gc7279a7-r37241418154",
       "category": "System & Jailbreak",
       "checksum": "6c56d19e9ddd4f962c0871c3ebf4e31990ee986a4e090e7de0a58f5827c67521",
-      "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe"
+      "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe",
+      "id": "psxterm-psxtermd-ps5-638088ed"
     },
     {
       "name": "ps5-notify-app",
@@ -2305,7 +2019,8 @@
       "version": "beta",
       "category": "Utilities & Tools",
       "checksum": "df5cdecd64d458e9b507afd2307b8652b8543197f60a861fb7ed684488c1b8e8",
-      "icon_key": "561e540f77947935a1b0e7b525c4ece33ab61ba58e8764c28112d05b5090eac0"
+      "icon_key": "561e540f77947935a1b0e7b525c4ece33ab61ba58e8764c28112d05b5090eac0",
+      "id": "ps5-notify-app-notify-bridge-05a5c397"
     },
     {
       "name": "PS5-NetDis",
@@ -2318,7 +2033,8 @@
       "version": "v1.0.0",
       "category": "System & Jailbreak",
       "checksum": "9b635ff7aacd785ff79c09d17c3734fd0427d0a7c644abb7f8bea4093420c534",
-      "icon_key": "9a2320d119e5664b70ad89359c7ddcfc92f0451c0ab3c786b191d893d1440eae"
+      "icon_key": "9a2320d119e5664b70ad89359c7ddcfc92f0451c0ab3c786b191d893d1440eae",
+      "id": "ps5-netdis-netdis-dd998645"
     },
     {
       "name": "ps5-stream8",
@@ -2331,7 +2047,8 @@
       "version": "v0.4.2",
       "category": "Utilities & Tools",
       "checksum": "3b059dda9333b7f615d7ac9138d74a2563ea617e1f2872a19a6a984aebc458ed",
-      "icon_key": "40ce1eb1b8270d5c5ccdf0d103b125fa35ef3ccda1a5cf8f9a6db5edf8819e13"
+      "icon_key": "40ce1eb1b8270d5c5ccdf0d103b125fa35ef3ccda1a5cf8f9a6db5edf8819e13",
+      "id": "ps5-stream8-stream8-v0.3.0-audio-1080p60-30mbps-fw1360-e6fa609f"
     },
     {
       "name": "exfat2ampr",
@@ -2344,7 +2061,8 @@
       "version": "v1.104",
       "category": "File & Package Management",
       "checksum": "ffc0956937077c29d7afdf60c9a01b62fa23034d2b50013608139b57f8b90d16",
-      "icon_key": "006f1ada3fcca66864bd46a546d5fdfd3e1ae75fc2e1691374f425202a98ab5c"
+      "icon_key": "006f1ada3fcca66864bd46a546d5fdfd3e1ae75fc2e1691374f425202a98ab5c",
+      "id": "exfat2ampr-exfat2ampr-8d4f7fd7"
     },
     {
       "name": "ps5-60FPS",
@@ -2357,7 +2075,8 @@
       "version": "v1.0.0",
       "category": "System & Jailbreak",
       "checksum": "5331ebf1b69cd272a0491f899b14ca5d59240adee2e69078631473070ddeca9b",
-      "icon_key": "9a2320d119e5664b70ad89359c7ddcfc92f0451c0ab3c786b191d893d1440eae"
+      "icon_key": "9a2320d119e5664b70ad89359c7ddcfc92f0451c0ab3c786b191d893d1440eae",
+      "id": "ps5-60fps-fps60-0bfaaabe"
     },
     {
       "name": "HLDRIVE",
@@ -2370,7 +2089,8 @@
       "version": "v1.1.0",
       "category": "Utilities & Tools",
       "checksum": "cc7cc3c41e809837eb478bdc37546d0e8fdf7c3bfef92b2a175fdfd4785177e4",
-      "icon_key": "a8238533a7e86ce443902aa97bd636101a12e5f141ccbe103f827a26a6149180"
+      "icon_key": "a8238533a7e86ce443902aa97bd636101a12e5f141ccbe103f827a26a6149180",
+      "id": "hldrive-hldrive.1.1.0-89090d04"
     },
     {
       "name": "ps5-patchdl",
@@ -2383,7 +2103,8 @@
       "version": "v0.2.1",
       "category": "Game Tools & Mods",
       "checksum": "5458739714d93ad807f3720ff3a2107687bf18be6e238c3f531a93f55d3467b7",
-      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b"
+      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b",
+      "id": "ps5-patchdl-patchdl_0.2.1-5730d58b"
     },
     {
       "name": "HearBridge-PS5",
@@ -2396,7 +2117,8 @@
       "version": "v1.3.5",
       "category": "Utilities & Tools",
       "checksum": "34e790936eee274137a20e879fa9bb746c302d017acc2164be6958a8470ac4fe",
-      "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f"
+      "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
+      "id": "hearbridge-ps5-hearbridge-1.3.5-bb9ebe6f"
     },
     {
       "name": "PS5-PlayKaraoke-Player",
@@ -2409,10 +2131,11 @@
       "version": "v0.1.0-beta",
       "category": "Utilities & Tools",
       "checksum": "d63c9aa03ca59e2d27b5a194d88ab4665f30379eaef14408bf6cee23aedf5edf",
-      "icon_key": "c79e9d93ff99c3f79cc0ba547c01d1cf7a083df7beb77eeb96e9acf0b8bbed4c"
+      "icon_key": "c79e9d93ff99c3f79cc0ba547c01d1cf7a083df7beb77eeb96e9acf0b8bbed4c",
+      "id": "ps5-playkaraoke-player-playkaraoke-6b6257b2"
     },
     {
-      "name": "ps5-solobridge",
+      "name": "ps5-solobridge — installer",
       "filename": "installer.elf",
       "url": "https://github.com/hebiii994/ps5-solobridge/releases/download/v0.1.1/installer.elf",
       "source": "https://github.com/hebiii994/ps5-solobridge/releases",
@@ -2422,10 +2145,11 @@
       "version": "v0.1.1",
       "category": "Utilities & Tools",
       "checksum": "da194b450178f0d7c8651d9e31f18819085730c5b943e89a0e075c77d1228663",
-      "icon_key": "9f086861fc1a12ff99afc9baa8ae1c5f19cc7dd3212fcd7c42bb592ea2aba33b"
+      "icon_key": "9f086861fc1a12ff99afc9baa8ae1c5f19cc7dd3212fcd7c42bb592ea2aba33b",
+      "id": "ps5-solobridge-installer-99b6fddc"
     },
     {
-      "name": "ps5-solobridge",
+      "name": "ps5-solobridge — solobridge",
       "filename": "solobridge.elf",
       "url": "https://github.com/hebiii994/ps5-solobridge/releases/download/v0.1.1/solobridge.elf",
       "source": "https://github.com/hebiii994/ps5-solobridge/releases",
@@ -2435,7 +2159,8 @@
       "version": "v0.1.1",
       "category": "Utilities & Tools",
       "checksum": "9ddf826b4b332809678d024bb7c008ba6c2a44981367730f341e4571a0e28d67",
-      "icon_key": "9f086861fc1a12ff99afc9baa8ae1c5f19cc7dd3212fcd7c42bb592ea2aba33b"
+      "icon_key": "9f086861fc1a12ff99afc9baa8ae1c5f19cc7dd3212fcd7c42bb592ea2aba33b",
+      "id": "ps5-solobridge-solobridge-4f5d039b"
     },
     {
       "name": "beetlepcePS5",
@@ -2448,7 +2173,8 @@
       "version": "v1.0",
       "category": "Emulators & Linux",
       "checksum": "7b3d9ff72f29a85a38585749ac82d9e55e673cc0e028f418513e45dfd7f1ac0e",
-      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc"
+      "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc",
+      "id": "beetlepceps5-beetlepceps5-v1.0-697a9072"
     },
     {
       "name": "NayePlmTools",
@@ -2461,20 +2187,8 @@
       "version": "v0.6.1.181",
       "category": "Utilities & Tools",
       "checksum": "8d7190afbcf2e1789acdf312f57a1e7d435e02016de06367546c60fdc368ad94",
-      "icon_key": "668c3fb6a0d67edd2db4d4adcc7189c5fa9f2c189c21f0181f527215b621bad5"
-    },
-    {
-      "name": "NayePlmTools",
-      "filename": "NayePlmTools_0.6.1.181-me.elf",
-      "url": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.181/NayePlmTools_0.6.1.181-me.elf",
-      "source": "https://github.com/naye1120/NayePlmTools/releases",
-      "source_direct": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.181/NayePlmTools_0.6.1.181-me.elf",
-      "description": "NayePlmTools — PS5 Payload Manager 中文分支（CN-FORK）：游戏改名/存档管理/背景音乐/主屏排序等增强",
-      "last_update": "2026-10-17",
-      "version": "v0.6.1.181",
-      "category": "Utilities & Tools",
-      "checksum": "f04d9731de9d71a4f14db258ad6b5ebaa14ecdc29c26bcc0cc6c0af13d5958a3",
-      "icon_key": "668c3fb6a0d67edd2db4d4adcc7189c5fa9f2c189c21f0181f527215b621bad5"
+      "icon_key": "668c3fb6a0d67edd2db4d4adcc7189c5fa9f2c189c21f0181f527215b621bad5",
+      "id": "nayeplmtools-nayeplmtools_0.6.1.181-ga-e80d8c1a"
     },
     {
       "name": "HYPERHEN",
@@ -2487,7 +2201,8 @@
       "version": "HYPERHEN_V0_9_2",
       "category": "System & Jailbreak",
       "checksum": "c35b8f6dbe4355be7e55891e6b326d82f3d6aae8483f6cf0e27d372b0aea97ae",
-      "icon_key": "aaa4fd74d3929c5583008763a7ba52f51833566bb47705684f97a69fb1cea3a3"
+      "icon_key": "aaa4fd74d3929c5583008763a7ba52f51833566bb47705684f97a69fb1cea3a3",
+      "id": "hyperhen-hyperhen-v0.9.2-70823e66"
     },
     {
       "name": "omega-dashboard",
@@ -2500,10 +2215,11 @@
       "version": "v2026.10.16.1",
       "category": "Utilities & Tools",
       "checksum": "34562f26cd6dc778ac34aff2b1d056ef69bc24720eea9cd35d503373942b1f2c",
-      "icon_key": "79463078a3cc715e0dd5211f0bfb067e15539a9424b86de1154448e2711a90bf"
+      "icon_key": "79463078a3cc715e0dd5211f0bfb067e15539a9424b86de1154448e2711a90bf",
+      "id": "omega-dashboard-omega-installer-ebc4dad4"
     },
     {
-      "name": "pLinux5-NG",
+      "name": "pLinux5-NG — pLinux5-NG-offsets",
       "filename": "pLinux5-NG-offsets.elf",
       "url": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG-offsets.elf",
       "source": "https://github.com/pLabs5/pLinux5-NG/releases",
@@ -2513,10 +2229,11 @@
       "version": "v0.1.0",
       "category": "Emulators & Linux",
       "checksum": "585e403b2238c488031d506834770cea6acd283eb7804a84b14d15b1a9df416d",
-      "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461"
+      "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461",
+      "id": "plinux5-ng-plinux5-ng-offsets-43df9e97"
     },
     {
-      "name": "pLinux5-NG",
+      "name": "pLinux5-NG — pLinux5-NG",
       "filename": "pLinux5-NG.elf",
       "url": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG.elf",
       "source": "https://github.com/pLabs5/pLinux5-NG/releases",
@@ -2526,7 +2243,8 @@
       "version": "v0.1.0",
       "category": "Emulators & Linux",
       "checksum": "f7f4872dd37d8f497c76a959d2e61a443a3948ca82a608325ed7dd0aa20f7853",
-      "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461"
+      "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461",
+      "id": "plinux5-ng-plinux5-ng-f30fd471"
     },
     {
       "name": "ps5-date-time-sync",
@@ -2539,7 +2257,8 @@
       "version": "v1.0.0",
       "category": "Utilities & Tools",
       "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849",
-      "icon_key": "db94366ce572ae792159346bf806db5fbb0881e7a0b95754d627b1d18da18b4c"
+      "icon_key": "db94366ce572ae792159346bf806db5fbb0881e7a0b95754d627b1d18da18b4c",
+      "id": "ps5-date-time-sync-ps5-date-time-sync-e10ccdb1"
     },
     {
       "name": "PS5-TabShifter",
@@ -2552,10 +2271,11 @@
       "version": "v.1.2.1",
       "category": "Utilities & Tools",
       "checksum": "147945cffb28405557a49cd4929c7d0534c55f6a757aba0063f9ce475c1c7255",
-      "icon_key": "23bdb7ce1917bf7c724ca8262d2eed7fd290583f8adc16a2d12a4c6881b12e8a"
+      "icon_key": "23bdb7ce1917bf7c724ca8262d2eed7fd290583f8adc16a2d12a4c6881b12e8a",
+      "id": "ps5-tabshifter-tabshifter-02daa2f2"
     },
     {
-      "name": "ps5-bar-tool",
+      "name": "ps5-bar-tool — ps5-bar-tool_dump_all",
       "filename": "ps5-bar-tool_dump_all.elf",
       "url": "https://github.com/c0w-ar/ps5-bar-tool/releases/download/v0.4/ps5-bar-tool_dump_all.elf",
       "source": "https://github.com/c0w-ar/ps5-bar-tool/releases",
@@ -2565,10 +2285,11 @@
       "version": "v0.4",
       "category": "File & Package Management",
       "checksum": "c85a14c7305ab696fccc4e09ce8e8aca92d3f213bc8bebf9eadee16a70f37319",
-      "icon_key": "fe3877be4298ff6b5b656bc91a6aa2de4972b7a2f57d7998d189017e77ecb277"
+      "icon_key": "fe3877be4298ff6b5b656bc91a6aa2de4972b7a2f57d7998d189017e77ecb277",
+      "id": "ps5-bar-tool-ps5-bar-tool_dump_all-0f00b8c2"
     },
     {
-      "name": "ps5-bar-tool",
+      "name": "ps5-bar-tool — ps5-bar-tool_dump_main_segments",
       "filename": "ps5-bar-tool_dump_main_segments.elf",
       "url": "https://github.com/c0w-ar/ps5-bar-tool/releases/download/v0.4/ps5-bar-tool_dump_main_segments.elf",
       "source": "https://github.com/c0w-ar/ps5-bar-tool/releases",
@@ -2578,10 +2299,11 @@
       "version": "v0.4",
       "category": "File & Package Management",
       "checksum": "9edce448b42906d6943650f6d223a714f1af3220e20a1b0aac28e2832b82db90",
-      "icon_key": "fe3877be4298ff6b5b656bc91a6aa2de4972b7a2f57d7998d189017e77ecb277"
+      "icon_key": "fe3877be4298ff6b5b656bc91a6aa2de4972b7a2f57d7998d189017e77ecb277",
+      "id": "ps5-bar-tool-ps5-bar-tool_dump_main_segments-b2bae219"
     },
     {
-      "name": "ps5-bar-tool",
+      "name": "ps5-bar-tool — ps5-bar-tool_info",
       "filename": "ps5-bar-tool_info.elf",
       "url": "https://github.com/c0w-ar/ps5-bar-tool/releases/download/v0.4/ps5-bar-tool_info.elf",
       "source": "https://github.com/c0w-ar/ps5-bar-tool/releases",
@@ -2591,10 +2313,11 @@
       "version": "v0.4",
       "category": "File & Package Management",
       "checksum": "3980798f45e03332cbf4db01964c183b459f7c836b65757b7a30eec1b642c1ea",
-      "icon_key": "fe3877be4298ff6b5b656bc91a6aa2de4972b7a2f57d7998d189017e77ecb277"
+      "icon_key": "fe3877be4298ff6b5b656bc91a6aa2de4972b7a2f57d7998d189017e77ecb277",
+      "id": "ps5-bar-tool-ps5-bar-tool_info-88869934"
     },
     {
-      "name": "ps5-bar-tool",
+      "name": "ps5-bar-tool — ps5-bar-tool_savedata",
       "filename": "ps5-bar-tool_savedata.elf",
       "url": "https://github.com/c0w-ar/ps5-bar-tool/releases/download/v0.4/ps5-bar-tool_savedata.elf",
       "source": "https://github.com/c0w-ar/ps5-bar-tool/releases",
@@ -2604,7 +2327,8 @@
       "version": "v0.4",
       "category": "File & Package Management",
       "checksum": "92047accc186e47af0c9d685d86ec3ec080c37a2cfccddf5e43c20ebd8c1e0bf",
-      "icon_key": "fe3877be4298ff6b5b656bc91a6aa2de4972b7a2f57d7998d189017e77ecb277"
+      "icon_key": "fe3877be4298ff6b5b656bc91a6aa2de4972b7a2f57d7998d189017e77ecb277",
+      "id": "ps5-bar-tool-ps5-bar-tool_savedata-216ef604"
     },
     {
       "name": "PS5_DevTools",
@@ -2617,7 +2341,8 @@
       "version": "v0.1.0",
       "category": "Networking & Servers",
       "checksum": "f5289ed268a0549d593ffcdca41ce86312ccaf76995ceea3dd48b076a6c8fc0b",
-      "icon_key": "e5f09f2f881b532f5efa49e39e4597ed82bccf8af1ab4e69effaac67510937a6"
+      "icon_key": "e5f09f2f881b532f5efa49e39e4597ed82bccf8af1ab4e69effaac67510937a6",
+      "id": "ps5_devtools-ps5devtools-672f34d5"
     },
     {
       "name": "TitaniaPy",
@@ -2630,7 +2355,8 @@
       "version": "Alpha_V1",
       "category": "Utilities & Tools",
       "checksum": "5b8c58b48646839e81238874274bd2e0c3017494caddcb5482b9c83fa8bdc910",
-      "icon_key": "8198333d504b0d10e8488157e8c33a6bb7b79face310f8ac5bd0d05b376b237c"
+      "icon_key": "8198333d504b0d10e8488157e8c33a6bb7b79face310f8ac5bd0d05b376b237c",
+      "id": "titaniapy-ps5_key_extractv4-9eab44d6"
     },
     {
       "name": "ps5-wallpaper-modd",
@@ -2643,7 +2369,8 @@
       "version": "v1.0",
       "category": "File & Package Management",
       "checksum": "b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139",
-      "icon_key": "5743a242c7d387b344f393b228942fecbb3d96d851330318725640007fe0ddf6"
+      "icon_key": "5743a242c7d387b344f393b228942fecbb3d96d851330318725640007fe0ddf6",
+      "id": "ps5-wallpaper-modd-ps5-wallpaper-modd-c36d743a"
     },
     {
       "name": "LiveShell",
@@ -2656,7 +2383,8 @@
       "version": "v1.3",
       "category": "Utilities & Tools",
       "checksum": "9a45ec8db61046a5c9f945ccc1e3ef9a6d25c8077b8efa1ea232443c9c850b0c",
-      "icon_key": "9b25fabfd137c4e1fac0c280a01c64516f0f21574b76dd6f9f040b5f7d2d0c7b"
+      "icon_key": "9b25fabfd137c4e1fac0c280a01c64516f0f21574b76dd6f9f040b5f7d2d0c7b",
+      "id": "liveshell-liveshell-4bb2c833"
     },
     {
       "name": "kabuki-ps5",
@@ -2669,10 +2397,11 @@
       "version": "v0.2.0-rc.1",
       "category": "Game Tools & Mods",
       "checksum": "26419aa77b22c177b42032fb0af2c139823c4918ae046395e5a7eb50ee4ac0c6",
-      "icon_key": "46d2ffc86d12108ce4d7e9e8f79b7e2c7d64b02189736fb4b2897364c247654d"
+      "icon_key": "46d2ffc86d12108ce4d7e9e8f79b7e2c7d64b02189736fb4b2897364c247654d",
+      "id": "kabuki-ps5-kabuki-ps5-20ec6947"
     },
     {
-      "name": "ps5-cooling-system-center-pro",
+      "name": "ps5-cooling-system-center-pro — cooling-center-launcher-installer",
       "filename": "cooling-center-launcher-installer_v1.69.0.elf",
       "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.69.0/cooling-center-launcher-installer_v1.69.0.elf",
       "source": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases",
@@ -2682,10 +2411,11 @@
       "version": "v1.69.0",
       "category": "Utilities & Tools",
       "checksum": "fe8269ddac9420ec9b8d836c500e83ca2ee019efabfb227e30e0620710cf2960",
-      "icon_key": "71ab581a74b2021b37fc9e240a25cd9e47593b3ddf2361455c769163f0ee35ec"
+      "icon_key": "71ab581a74b2021b37fc9e240a25cd9e47593b3ddf2361455c769163f0ee35ec",
+      "id": "ps5-cooling-system-center-pro-cooling-center-launcher-installer_v1.69.0-ec7b69ee"
     },
     {
-      "name": "ps5-cooling-system-center-pro",
+      "name": "ps5-cooling-system-center-pro — PS5_Cooling_System_Center",
       "filename": "PS5_Cooling_System_Center_v1.69.0.elf",
       "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.69.0/PS5_Cooling_System_Center_v1.69.0.elf",
       "source": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases",
@@ -2695,7 +2425,8 @@
       "version": "v1.69.0",
       "category": "Utilities & Tools",
       "checksum": "baa140b9c0fa238d0321e18a8c78b288074565216220b1220b34444b1b6fae1d",
-      "icon_key": "71ab581a74b2021b37fc9e240a25cd9e47593b3ddf2361455c769163f0ee35ec"
+      "icon_key": "71ab581a74b2021b37fc9e240a25cd9e47593b3ddf2361455c769163f0ee35ec",
+      "id": "ps5-cooling-system-center-pro-ps5_cooling_system_center_v1.69.0-77c90c5c"
     },
     {
       "name": "Breeze",
@@ -2708,7 +2439,8 @@
       "version": "v1.3",
       "category": "Loaders",
       "checksum": "095e4ed478aacadaf5d55751d91007a0fc3d0b2cfe5ea5c1d3c62f06366e753c",
-      "icon_key": "a4700ffd4ff4b567875974a6bb15c3d9bd81f6a51dec15f60834e93459b96cd1"
+      "icon_key": "a4700ffd4ff4b567875974a6bb15c3d9bd81f6a51dec15f60834e93459b96cd1",
+      "id": "breeze-breeze-4fd802c4"
     }
   ]
 }
