@@ -1,7 +1,7 @@
 {
   "name": "PS5 Payloads",
   "schema_version": 2,
-  "generated_at": "2026-10-17T23:23:58+00:00",
+  "generated_at": "2026-10-17T23:26:37+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
   "payloads": [
@@ -316,7 +316,8 @@
       "last_update": "2026-06-01",
       "version": "v1.2",
       "category": "System & Jailbreak",
-      "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e"
+      "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e",
+      "icon_key": "44863ac89e9d4610329af2ddf38682343888a91b7649ade8f1ff528ee2241236"
     },
     {
       "name": "BackPork",
