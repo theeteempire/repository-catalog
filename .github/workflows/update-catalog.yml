@@ -36,6 +36,9 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Install icon optimizer
+        run: python -m pip install --disable-pip-version-check Pillow
+
       - name: Validate converter syntax
         run: python -m py_compile convert.py
 
@@ -58,6 +61,8 @@ jobs:
           assert isinstance(feed.get("payloads"), list) and feed["payloads"], "Empty payload feed"
           icon_map = icons.get("icons")
           assert isinstance(icon_map, dict), "Invalid icons map"
+          assert Path("icons.json").stat().st_size < 4 * 1024 * 1024, "Icon catalog exceeds PLDMGR's 4 MiB limit"
+          assert all(isinstance(v, str) and v.startswith(("data:image/png;base64,", "data:image/jpeg;base64,", "data:image/svg+xml;base64,")) and len(v) <= 12288 for v in icon_map.values()), "Icon entries must be supported data URIs no larger than 12,288 characters"
           assert feed.get("icons_url") == "icons.json", "PLDMGR feed must reference icons.json"
 
           bad_urls = []
@@ -85,7 +90,7 @@ jobs:
           print(f"Validated {len(repos['repositories'])} repositories, "
                 f"{len(feed['payloads'])} direct ELF payloads, "
                 f"{sum(bool(p.get('icon_key')) for p in feed['payloads'])} linked payload icons, "
-                f"{len(icon_map)} icon entries.")
+                f"{len(icon_map)} icon entries ({Path('icons.json').stat().st_size} bytes).")
           PY
 
       - name: Commit and push updated catalog files
