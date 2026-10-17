@@ -9,6 +9,7 @@ on:
     paths:
       - "convert.py"
       - ".github/workflows/update-catalog.yml"
+      - "README.md"
 
 permissions:
   contents: write
@@ -20,6 +21,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Check out repository
@@ -34,27 +36,56 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Convert upstream database
+      - name: Validate converter syntax
+        run: python -m py_compile convert.py
+
+      - name: Generate catalog, direct payload URLs, and icons
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python convert.py
+
+      - name: Validate generated JSON and direct payload links
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          repos = json.loads(Path("repositories.json").read_text(encoding="utf-8"))
+          feed = json.loads(Path("payloads_v2.json").read_text(encoding="utf-8"))
+          icons = json.loads(Path("icons.json").read_text(encoding="utf-8"))
+
+          assert isinstance(repos.get("repositories"), list) and repos["repositories"], "Empty repository index"
+          assert isinstance(feed.get("payloads"), list) and feed["payloads"], "Empty payload feed"
+          assert isinstance(icons.get("icons"), dict), "Invalid icons map"
+
+          bad = []
+          for item in feed["payloads"]:
+              url = item.get("url", "")
+              if not isinstance(url, str) or not url.startswith("https://") or not url.split("?")[0].lower().endswith(".elf"):
+                  bad.append((item.get("name"), url))
+          if bad:
+              raise SystemExit(f"Non-direct/non-ELF payload URLs found: {bad[:10]}")
+
+          print(f"Validated {len(repos['repositories'])} repositories, "
+                f"{len(feed['payloads'])} direct ELF payloads, "
+                f"{len(icons['icons'])} icon entries.")
+          PY
 
       - name: Commit and push updated catalog files
         shell: bash
         run: |
           set -e
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add repositories.json payloads_v2.json
+          git add repositories.json payloads_v2.json icons.json
 
           if git diff --cached --quiet; then
             echo "Catalog files are unchanged."
             exit 0
           fi
 
-          git commit -m "Update generated PS5 repository catalog"
-
+          git commit -m "Update PS5 payload catalog and metadata"
           git fetch origin main
           git rebase origin/main
-
           git push origin HEAD:main
