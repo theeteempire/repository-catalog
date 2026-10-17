@@ -1,10 +1,10 @@
 {
   "name": "PS5 Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-17T23:12:19+00:00",
+  "generated_at": "2026-10-17T23:22:02+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 274,
-  "payload_count": 161,
+  "payload_count": 208,
   "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
   "repositories": [
     {
@@ -543,7 +543,13 @@
       "repository_url": "https://github.com/Phoenixx1202/Spectrum-Library",
       "category": "Repositories",
       "author": "Phoenixx1202",
-      "icon_key": "4e243f062f0d7c31d0114e2f7219fa410fbefed894f496d8bde7f1bfc96a88e2"
+      "icon_key": "4e243f062f0d7c31d0114e2f7219fa410fbefed894f496d8bde7f1bfc96a88e2",
+      "payload_available": true,
+      "payload_filename": "SpectrumLibrary_1.4.8.elf",
+      "payload_url": "https://github.com/Phoenixx1202/Spectrum-Library/releases/download/1.4.8/SpectrumLibrary_1.4.8.elf",
+      "version": "1.4.8",
+      "last_update": "2026-10-01",
+      "checksum": "5d1372d48f76167e3f9e24b335cf571ea6e4b3960e6b7202d2802b0f78c3a519"
     },
     {
       "name": "ps5shopappkg",
@@ -729,7 +735,13 @@
       "repository_url": "https://github.com/gameboy829/PS5-LZ4-Game-Compressor",
       "category": "Repositories",
       "author": "gameboy829",
-      "icon_key": "1d375f1c6a5a267c0d34e63c2fcfb34f5e1f7d5774def722d685164d2352269b"
+      "icon_key": "1d375f1c6a5a267c0d34e63c2fcfb34f5e1f7d5774def722d685164d2352269b",
+      "payload_available": true,
+      "payload_filename": "LZ4-Game-Compressor.elf",
+      "payload_url": "https://github.com/gameboy829/PS5-LZ4-Game-Compressor/releases/download/beta.7/LZ4-Game-Compressor.elf",
+      "version": "beta.7",
+      "last_update": "2026-10-11",
+      "checksum": "e29d2c8c3c1f8718af8706db09b845d3732cef22058931a8b5d590f530382cde"
     },
     {
       "name": "PS5-FFPFSC-PRO",
@@ -922,10 +934,10 @@
       "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8",
       "payload_available": true,
       "payload_filename": "kstuff.elf",
-      "payload_url": "https://github.com/drakmor/kstuff-lite/releases/download/1.2-dr-test1/kstuff.elf",
-      "version": "1.2-dr-test1",
-      "last_update": "2026-05-31",
-      "checksum": "9c1b242eaed3704ef18be45d001a2c4ebf2d9222cfe3cbb0f0c3db33309abac9"
+      "payload_url": "https://github.com/drakmor/kstuff-lite/releases/download/1.2-dr-test2/kstuff.elf",
+      "version": "1.2-dr-test2",
+      "last_update": "2026-06-11",
+      "checksum": "2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75"
     },
     {
       "name": "kstuff-a53",
@@ -935,11 +947,11 @@
       "author": "Soonniicc",
       "icon_key": "9abd064b016bcfee9363e1d831b5f565c38da9a13d48c1a9c5da39307288c53c",
       "payload_available": true,
-      "payload_filename": "kstuff+backport1.4.elf",
-      "payload_url": "https://github.com/Soonniicc/kstuff-a53/releases/download/1.4/kstuff%2Bbackport1.4.elf",
-      "version": "1.4",
-      "last_update": "2026-09-27",
-      "checksum": "675bef691b1bd1ee14956409aa3947ef9fd52dc36034dbd18d7c55d469e08d23"
+      "payload_filename": "kstuff-1.4.2beta.elf",
+      "payload_url": "https://github.com/Soonniicc/kstuff-a53/releases/download/1.4.2BETA/kstuff-1.4.2beta.elf",
+      "version": "1.4.2BETA",
+      "last_update": "2026-09-29",
+      "checksum": "a7e5c9e300f88f2730437d2e77e0adfda9c6f8bfd259a3c7643b140ebe2204bd"
     },
     {
       "name": "ps5-linux-loader",
@@ -1127,7 +1139,13 @@
       "repository_url": "https://github.com/earthonion/garlic-worker",
       "category": "Repositories",
       "author": "earthonion",
-      "icon_key": "5b2fb5f9beff5576a4c2e47c3f4f57e02c143d4bd5b713666947c58457ffa0a2"
+      "icon_key": "5b2fb5f9beff5576a4c2e47c3f4f57e02c143d4bd5b713666947c58457ffa0a2",
+      "payload_available": true,
+      "payload_filename": "garlic-worker-ps5.elf",
+      "payload_url": "https://github.com/earthonion/garlic-worker/releases/download/latest/garlic-worker-ps5.elf",
+      "version": "latest",
+      "last_update": "2026-04-09",
+      "checksum": "c61f29cdb8294c79386c7358096dfd9880f1425b4b10b162bece37af0a67678e"
     },
     {
       "name": "ps5debug-NG",
@@ -1163,7 +1181,13 @@
       "repository_url": "https://github.com/illusionyy/ps5-fw-spoof",
       "category": "Repositories",
       "author": "illusionyy",
-      "icon_key": "e199250473fc45d3dee6a576f0debc6df29cf9ae3950fd3ba5bf4f70d0d54b17"
+      "icon_key": "e199250473fc45d3dee6a576f0debc6df29cf9ae3950fd3ba5bf4f70d0d54b17",
+      "payload_available": true,
+      "payload_filename": "ps5-fw-spoof.elf",
+      "payload_url": "https://github.com/illusionyy/ps5-fw-spoof/releases/download/26616621599/ps5-fw-spoof.elf",
+      "version": "26616621599",
+      "last_update": "2026-05-29",
+      "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0"
     },
     {
       "name": "ps5-self-pager",
@@ -1240,7 +1264,13 @@
       "repository_url": "https://github.com/boazvdwansem/ps5-debugger",
       "category": "Repositories",
       "author": "boazvdwansem",
-      "icon_key": "73428d091133defae83be6f334833dc8a23b661dfccb66374c18ba9f90d3e8b7"
+      "icon_key": "73428d091133defae83be6f334833dc8a23b661dfccb66374c18ba9f90d3e8b7",
+      "payload_available": true,
+      "payload_filename": "ps5debug-NG.elf",
+      "payload_url": "https://github.com/boazvdwansem/ps5-debugger/releases/download/1.0.0-BETA/ps5debug-NG.elf",
+      "version": "1.0.0-BETA",
+      "last_update": "2026-07-03",
+      "checksum": "8f75fb90b45d7cc4d59147e3323577d7264cf572c78a27f76722202f492ad16a"
     },
     {
       "name": "zftpd",
@@ -1292,11 +1322,11 @@
       "author": "ps5-payload-dev",
       "payload_available": true,
       "icon_key": "071962d27a706dfa602cd64c2f5cffa9aed238574f55d35be4989e8e65ab8618",
-      "version": "v0.34",
-      "last_update": "2026-08-02",
-      "payload_filename": "websrv_v0.34.elf",
-      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/websrv_v0.34.elf",
-      "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263"
+      "version": "v0.35",
+      "last_update": "2026-10-10",
+      "payload_filename": "websrv-ps5.elf",
+      "payload_url": "https://github.com/ps5-payload-dev/websrv/releases/download/v0.35/websrv-ps5.elf",
+      "checksum": "25501b41887a42789792d1367edd2fc892454bfe6b0b1519bc36456a581f264c"
     },
     {
       "name": "gdbsrv",
@@ -1494,7 +1524,13 @@
       "repository_url": "https://github.com/ItsBlurf/BFplayer",
       "category": "Repositories",
       "author": "ItsBlurf",
-      "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f"
+      "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f",
+      "payload_available": true,
+      "payload_filename": "bfplayer-standalone.elf",
+      "payload_url": "https://github.com/ItsBlurf/BFplayer/releases/download/v0.1.0-alpha.44/bfplayer-standalone.elf",
+      "version": "v0.1.0-alpha.44",
+      "last_update": "2026-07-31",
+      "checksum": "0d028deb145d6fc9a5b55d43a45e072919178fbb261c66cd914ebcfb0b3b05c0"
     },
     {
       "name": "ProsperoPlayer",
@@ -1519,10 +1555,10 @@
       "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041",
       "payload_available": true,
       "payload_filename": "svtplay-install.elf",
-      "payload_url": "https://github.com/ps5-payload-dev/svtplay/releases/download/v0.3/svtplay-install.elf",
-      "version": "v0.3",
-      "last_update": "2026-08-31",
-      "checksum": "31f2caac7d53b8754bb37cb0364e615bfc38fc5f02c886d286a4f9e603b56832"
+      "payload_url": "https://github.com/ps5-payload-dev/svtplay/releases/download/v0.4/svtplay-install.elf",
+      "version": "v0.4",
+      "last_update": "2026-09-01",
+      "checksum": "b6fdfe6d714298dc49a936ac731493ffc80dabd467da5e0ce595db7ea75f39a1"
     },
     {
       "name": "PS-Play",
@@ -1552,7 +1588,13 @@
       "repository_url": "https://github.com/sainsaji/EVO-PLAYER-PS5",
       "category": "Repositories",
       "author": "sainsaji",
-      "icon_key": "fa027ca7258331e1c9d4bd21d51fa7816b81bbb46d8b52000c589036c61b7c12"
+      "icon_key": "fa027ca7258331e1c9d4bd21d51fa7816b81bbb46d8b52000c589036c61b7c12",
+      "payload_available": true,
+      "payload_filename": "EVOPlayer-v0.7.0-UninstallTile.elf",
+      "payload_url": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases/download/v0.7.0/EVOPlayer-v0.7.0-UninstallTile.elf",
+      "version": "v0.7.0",
+      "last_update": "2026-08-14",
+      "checksum": "fa8e5e79f0547ff0e019fab8a9396736a295272f9f17ce834906b2cd58da4b18"
     },
     {
       "name": "Jelly5",
@@ -1576,7 +1618,13 @@
       "repository_url": "https://github.com/bilawalriaz/nuvio-ps5-homebrew",
       "category": "Repositories",
       "author": "bilawalriaz",
-      "icon_key": "6eb9a96297dca44d26638e7186b44074b0d479997e41dd14f1da72fa879069be"
+      "icon_key": "6eb9a96297dca44d26638e7186b44074b0d479997e41dd14f1da72fa879069be",
+      "payload_available": true,
+      "payload_filename": "nuvio.elf",
+      "payload_url": "https://github.com/bilawalriaz/nuvio-ps5-homebrew/releases/download/v0.1.0-alpha.2/nuvio.elf",
+      "version": "v0.1.0-alpha.2",
+      "last_update": "2026-10-03",
+      "checksum": "2d6593e379f959b9b9896727088caf2977d125368fbd41e155d474ee580a3148"
     },
     {
       "name": "OliSePlayer",
@@ -1786,11 +1834,11 @@
       "author": "X-F1REBALL-X",
       "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
       "payload_available": true,
-      "payload_filename": "hearbridge-browser-1.0.0.elf",
-      "payload_url": "https://github.com/X-F1REBALL-X/HearBridge-Browser/releases/download/v1.0.0/hearbridge-browser-1.0.0.elf",
-      "version": "v1.0.0",
-      "last_update": "2026-10-11",
-      "checksum": "4cd1c146c5d85a3273fe7175e00f17d9603dc6b89d4c0717d545e677b435ed6f"
+      "payload_filename": "hearbridge-browser-1.0.1.elf",
+      "payload_url": "https://github.com/X-F1REBALL-X/HearBridge-Browser/releases/download/v1.0.1-beta/hearbridge-browser-1.0.1.elf",
+      "version": "v1.0.1-beta",
+      "last_update": "2026-10-13",
+      "checksum": "bf03efc7048cc8c7b7121fca4c185e0bbf4f3e8c760cfe701116368d63062473"
     },
     {
       "name": "ps5-theme",
@@ -1944,7 +1992,13 @@
       "repository_url": "https://github.com/BRGZ3/PS5-Log-Collector",
       "category": "Repositories",
       "author": "BRGZ3",
-      "icon_key": "d84bafc28c12c55a32ad70b295ecb37f02f5fb2cb9c50f51901dc673681270fe"
+      "icon_key": "d84bafc28c12c55a32ad70b295ecb37f02f5fb2cb9c50f51901dc673681270fe",
+      "payload_available": true,
+      "payload_filename": "deci5-probe.elf",
+      "payload_url": "https://github.com/BRGZ3/PS5-Log-Collector/releases/download/v0.4.2/deci5-probe.elf",
+      "version": "v0.4.2",
+      "last_update": "2026-10-10",
+      "checksum": "fcd3bb93f402ff03a86451dec94d0d2fbb6345f883b072a9055a0a6ba317780f"
     },
     {
       "name": "prospack",
@@ -1960,7 +2014,13 @@
       "repository_url": "https://github.com/B4ckd0orl/Padrino-Save-Vault",
       "category": "Repositories",
       "author": "B4ckd0orl",
-      "icon_key": "2c4b83a299c5d73703af8856e2d6a117273d71e90e6e4337377dec64e2145039"
+      "icon_key": "2c4b83a299c5d73703af8856e2d6a117273d71e90e6e4337377dec64e2145039",
+      "payload_available": true,
+      "payload_filename": "PadrinoSaveVault.elf",
+      "payload_url": "https://github.com/B4ckd0orl/Padrino-Save-Vault/releases/download/v0.0.1-BETA/PadrinoSaveVault.elf",
+      "version": "v0.0.1-BETA",
+      "last_update": "2026-10-10",
+      "checksum": "8aeded86d79f8d7fd718f23ae84b1e5c89c8e9c08c55a5c3ae775df6d56bae56"
     },
     {
       "name": "onionHEN-kernel-log-plugin",
@@ -2060,7 +2120,13 @@
       "repository_url": "https://github.com/seregonwar/PSXTERM",
       "category": "Repositories",
       "author": "seregonwar",
-      "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe"
+      "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe",
+      "payload_available": true,
+      "payload_filename": "psxtermd-ps5.elf",
+      "payload_url": "https://github.com/seregonwar/PSXTERM/releases/download/nightly-20261005-gc7279a7-r37241418154/psxtermd-ps5.elf",
+      "version": "nightly-20261005-gc7279a7-r37241418154",
+      "last_update": "2026-10-04",
+      "checksum": "6c56d19e9ddd4f962c0871c3ebf4e31990ee986a4e090e7de0a58f5827c67521"
     },
     {
       "name": "PS5CLEAN",
@@ -2092,7 +2158,13 @@
       "repository_url": "https://github.com/pedro9261/ps5-notify-app",
       "category": "Repositories",
       "author": "pedro9261",
-      "icon_key": "561e540f77947935a1b0e7b525c4ece33ab61ba58e8764c28112d05b5090eac0"
+      "icon_key": "561e540f77947935a1b0e7b525c4ece33ab61ba58e8764c28112d05b5090eac0",
+      "payload_available": true,
+      "payload_filename": "notify-bridge.elf",
+      "payload_url": "https://github.com/pedro9261/ps5-notify-app/releases/download/beta/notify-bridge.elf",
+      "version": "beta",
+      "last_update": "2026-10-12",
+      "checksum": "df5cdecd64d458e9b507afd2307b8652b8543197f60a861fb7ed684488c1b8e8"
     },
     {
       "name": "wings-app",
@@ -2350,11 +2422,11 @@
       "author": "louro2023",
       "icon_key": "a8238533a7e86ce443902aa97bd636101a12e5f141ccbe103f827a26a6149180",
       "payload_available": true,
-      "payload_filename": "HLDRIVE.elf",
-      "payload_url": "https://github.com/louro2023/HLDRIVE/releases/download/v1.0.2/HLDRIVE.elf",
-      "version": "v1.0.2",
-      "last_update": "2026-10-15",
-      "checksum": "9cb2fec2567f80207e2225fa140aa742a9f0039f1b7f4bcf66fe3a421de9809f"
+      "payload_filename": "HLDRIVE.1.1.0.elf",
+      "payload_url": "https://github.com/louro2023/HLDRIVE/releases/download/v1.1.0/HLDRIVE.1.1.0.elf",
+      "version": "v1.1.0",
+      "last_update": "2026-10-16",
+      "checksum": "cc7cc3c41e809837eb478bdc37546d0e8fdf7c3bfef92b2a175fdfd4785177e4"
     },
     {
       "name": "ps5-patchdl",
@@ -2414,7 +2486,13 @@
       "repository_url": "https://github.com/PlayKaraoke/PS5-PlayKaraoke-Player",
       "category": "Repositories",
       "author": "PlayKaraoke",
-      "icon_key": "c79e9d93ff99c3f79cc0ba547c01d1cf7a083df7beb77eeb96e9acf0b8bbed4c"
+      "icon_key": "c79e9d93ff99c3f79cc0ba547c01d1cf7a083df7beb77eeb96e9acf0b8bbed4c",
+      "payload_available": true,
+      "payload_filename": "playkaraoke.elf",
+      "payload_url": "https://github.com/PlayKaraoke/PS5-PlayKaraoke-Player/releases/download/v0.1.0-beta/playkaraoke.elf",
+      "version": "v0.1.0-beta",
+      "last_update": "2026-10-13",
+      "checksum": "d63c9aa03ca59e2d27b5a194d88ab4665f30379eaef14408bf6cee23aedf5edf"
     },
     {
       "name": "afterglow",
@@ -2676,7 +2754,13 @@
       "repository_url": "https://github.com/pLabs5/pLinux5-NG",
       "category": "Repositories",
       "author": "pLabs5",
-      "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461"
+      "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461",
+      "payload_available": true,
+      "payload_filename": "pLinux5-NG.elf",
+      "payload_url": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG.elf",
+      "version": "v0.1.0",
+      "last_update": "2026-10-14",
+      "checksum": "f7f4872dd37d8f497c76a959d2e61a443a3948ca82a608325ed7dd0aa20f7853"
     },
     {
       "name": "ps5-linux-porting",
@@ -2828,7 +2912,13 @@
       "repository_url": "https://github.com/deepkicks/TitaniaPy",
       "category": "Repositories",
       "author": "deepkicks",
-      "icon_key": "8198333d504b0d10e8488157e8c33a6bb7b79face310f8ac5bd0d05b376b237c"
+      "icon_key": "8198333d504b0d10e8488157e8c33a6bb7b79face310f8ac5bd0d05b376b237c",
+      "payload_available": true,
+      "payload_filename": "ps5_key_extractV4.elf",
+      "payload_url": "https://github.com/deepkicks/TitaniaPy/releases/download/Alpha_V1/ps5_key_extractV4.elf",
+      "version": "Alpha_V1",
+      "last_update": "2026-10-15",
+      "checksum": "5b8c58b48646839e81238874274bd2e0c3017494caddcb5482b9c83fa8bdc910"
     },
     {
       "name": "Folder-updater-for-itsplk-PS5-Payloads-Mirror",
