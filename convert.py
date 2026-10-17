@@ -446,6 +446,39 @@ def main() -> int:
                     if match.get("checksum"):
                         record["checksum"] = match["checksum"]
                     refreshed += 1
+
+            # Curated repositories may publish several ELF payloads in one release.
+            # Keep the curated entry and add any additional direct ELF assets not already listed.
+            description = str(record.get("description") or release.get("body") or "").strip()
+            for asset in assets:
+                if not isinstance(asset, dict):
+                    continue
+                asset_name = asset.get("name")
+                download_url = asset.get("browser_download_url")
+                if not isinstance(asset_name, str) or not is_direct_asset_url(download_url):
+                    continue
+                if download_url in seen_payload_urls:
+                    continue
+                digest = asset.get("digest")
+                checksum = digest.removeprefix("sha256:") if isinstance(digest, str) and digest.startswith("sha256:") else ""
+                extra = {
+                    "name": record["name"],
+                    "filename": asset_name,
+                    "url": download_url,
+                    "source": record["repository_url"].rstrip("/") + "/releases",
+                    "source_direct": download_url,
+                    "description": description or f"PS5 payload from {full_name}",
+                    "last_update": updated,
+                    "version": version,
+                    "category": infer_category(record["name"], description, asset_name, record.get("category")),
+                }
+                if checksum:
+                    extra["checksum"] = checksum
+                if record.get("icon_key"):
+                    extra["icon_key"] = record["icon_key"]
+                payloads.append(extra)
+                seen_payload_urls.add(download_url)
+                discovered += 1
             continue
 
         description = str(record.get("description") or release.get("body") or "").strip()
