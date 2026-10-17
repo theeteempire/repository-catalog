@@ -324,12 +324,12 @@ def main() -> int:
                 record["icon_key"] = add_avatar_icon(avatar_url, icons) if avatar_url else ""
             for src, dst in (
                 ("version", "version"), ("last_update", "last_update"),
-                ("icon_key", "icon_key"), ("filename", "payload_filename"),
+                ("filename", "payload_filename"),
                 ("url", "payload_url"), ("checksum", "checksum"),
             ):
                 if isinstance(match.get(src), str) and match[src].strip():
                     record[dst] = match[src]
-            if record.get("icon_key") and not match.get("icon_key"):
+            if record.get("icon_key") and match.get("icon_key") not in icons:
                 match["icon_key"] = record["icon_key"]
         else:
             avatar_url = record.pop("_owner_avatar_url", "")
