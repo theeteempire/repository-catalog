@@ -14,12 +14,12 @@ Use the `payloads_v2.json` URL in PLDMGR. The other files provide the full proje
 
 Every six hours, GitHub Actions:
 
-1. Downloads the upstream PS5 repository database.
-2. Retains the maintained itsPLK payload catalog's curated metadata, direct links, versions, checksums, and icon keys.
-3. Checks repositories without a curated payload entry against the GitHub Releases API.
-4. Adds extra release assets only when they are direct HTTPS `.elf` downloads. Repository pages and release landing pages are never presented as installable payloads.
-5. Builds a standalone `icons.json`, preserving valid original itsPLK icons and adding normalized GitHub owner avatars as fallbacks for repository records without a usable curated icon.
-6. Verifies that every unique repository in the source database is retained, every repository and payload icon key resolves, and every PLDMGR `url` points to a direct HTTPS `.elf` asset before committing the results.
+1. Downloads the upstream PS5 repository database and the curated itsPLK payload feed.
+2. Searches GitHub repositories across several PS5-related queries (payloads, homebrew, jailbreaks, exploits, ELF files, and general PS5 projects) to discover additional public projects beyond the two curated sources.
+3. Deduplicates newly discovered repositories against the existing index and enriches them with available descriptions, owner details, and fallback icons.
+4. Checks indexed and newly discovered repositories against the GitHub Releases API, including recent releases and prereleases.
+5. Adds new direct HTTPS `.elf` release assets, refreshes supported metadata for existing entries, and does not present repository pages, release pages, or archives as directly installable payloads.
+6. Assigns unique payload IDs, categories, and valid icon references, removes duplicate logical assets and PS4-only files, then validates the JSON and icon mappings before publishing.
 
 ## Payload metadata
 
@@ -54,6 +54,7 @@ It uses the workflow's built-in `GITHUB_TOKEN` for release API requests and need
 
 - Repository database: [nexgen999/PS5-Repository-List](https://github.com/nexgen999/PS5-Repository-List)
 - Curated payload feed and original icon metadata: [itsPLK/ps5-payloads-mirror](https://github.com/itsPLK/ps5-payloads-mirror)
+- Additional project discovery: GitHub Repository Search API (queried automatically every six hours)
 
 ## Accuracy notes
 
