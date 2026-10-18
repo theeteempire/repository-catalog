@@ -1,0 +1,41 @@
+{
+  "name": "Curated Repository Additions",
+  "schema_version": 1,
+  "repositories": [
+    {
+      "name": "Orbit Store",
+      "description": "A modern PS5 download manager with resumable downloads, a native TV app, and phone controls.",
+      "repository_url": "https://github.com/saawant12/orbit-store-ps5",
+      "category": "Utilities & Tools",
+      "author": "saawant12"
+    },
+    {
+      "name": "PSCloud Dashboard",
+      "description": "A browser-based dashboard for backing up, sharing, and syncing game saves.",
+      "repository_url": "https://github.com/bc160201983/ps5-cloud-save",
+      "category": "Utilities & Tools",
+      "author": "bc160201983"
+    },
+    {
+      "name": "Enable-Disable-UPD-PS5",
+      "description": "Payload to enable or disable system software updates.",
+      "repository_url": "https://github.com/logic-68/Enable-Disable-UPD-PS5",
+      "category": "Utilities & Tools",
+      "author": "logic-68"
+    },
+    {
+      "name": "PS5 Library Browser",
+      "description": "A browser for the console game library; releases currently provide a ZIP rather than a direct ELF asset.",
+      "repository_url": "https://github.com/sweenyxsky-oss/ps5-library-browser",
+      "category": "Utilities & Tools",
+      "author": "sweenyxsky-oss"
+    },
+    {
+      "name": "Byepervisor Reborn",
+      "description": "Developer-oriented hypervisor research payload project; no published ELF release asset was found.",
+      "repository_url": "https://github.com/PS5Dev/Byepervisor-Reborn",
+      "category": "System & Jailbreak",
+      "author": "PS5Dev"
+    }
+  ]
+}
