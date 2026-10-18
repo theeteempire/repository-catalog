@@ -49,6 +49,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python convert.py
 
+      - name: Enrich payload descriptions and generate changelog
+        run: python enrich_catalog.py
+
       - name: Validate generated JSON and direct payload links
         run: |
           python - <<'PY'
