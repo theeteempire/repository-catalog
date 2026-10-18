@@ -83,6 +83,38 @@
       "package_filename": "game-glance.zip",
       "package_url": "https://github.com/michpalm/game-glance/releases/download/v3.4.0/game-glance.zip",
       "checksum": "bea454654b24b4d675584c63ed29cff2f297c23ba3336944874943ee999de915"
+    },
+    {
+      "name": "PS5SX2",
+      "description": "A PS2 emulator for jailbroken PS5 based on PCSX2. Release 2.10 adds PS2 disc tiles on the PS5 home screen, disc launch and reload support, and an installer/helper pair.",
+      "repository_url": "https://github.com/Swordpdf/PS5SX2",
+      "category": "Repositories",
+      "author": "Swordpdf",
+      "payload_available": true,
+      "payload_filename": "PS5SXHelper.elf",
+      "payload_url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SXHelper.elf",
+      "version": "vk-285-171",
+      "last_update": "2026-10-14",
+      "checksum": "9fa809eb10e1fe5149b2d031f55497d7b050e950ec5aec38bac7ebe1ef6da153",
+      "package_filename": "PS5SX2-vk-285-171.zip",
+      "package_url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SX2-vk-285-171.zip",
+      "package_checksum": "226ac24866f0b94566c0680c3b99c0d5abfe8030723f5b28dae20af039c76963"
+    },
+    {
+      "name": "SwanStationPS5",
+      "description": "A PlayStation 1 emulator for jailbroken PS5 based on SwanStation, with a disc daemon payload. Latest release 1.4.2 includes the console package and DiscDaemon ELF.",
+      "repository_url": "https://github.com/darkxex/SwanStationPS5",
+      "category": "Repositories",
+      "author": "darkxex",
+      "payload_available": true,
+      "payload_filename": "SwanStationPS5-DiscDaemon.elf",
+      "payload_url": "https://github.com/darkxex/SwanStationPS5/releases/download/1.4.2/SwanStationPS5-DiscDaemon.elf",
+      "version": "1.4.2",
+      "last_update": "2026-10-18",
+      "checksum": "d996f06cbd98c96af7eed24606f38f09dd900cc55ce2cf0859d17ef71bd55abd",
+      "package_filename": "PPSA98510.zip",
+      "package_url": "https://github.com/darkxex/SwanStationPS5/releases/download/1.4.2/PPSA98510.zip",
+      "package_checksum": "19e024135f7303d5928d93b3742707e14552abf1c5051b3f6dfa212be4bf4cf8"
     }
   ]
 }
