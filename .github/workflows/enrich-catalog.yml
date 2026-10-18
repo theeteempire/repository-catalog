@@ -1,0 +1,65 @@
+name: Enrich catalog metadata
+
+on:
+  workflow_run:
+    workflows: ["Update repository catalog"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enrich-repository-catalog
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Add plain-text metadata summaries and changelog
+        run: python enrich_catalog.py
+
+      - name: Validate generated JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          feed = json.loads(Path("payloads_v2.json").read_text(encoding="utf-8"))
+          log = json.loads(Path("changelog.json").read_text(encoding="utf-8"))
+          assert isinstance(feed.get("payloads"), list) and feed["payloads"]
+          assert isinstance(log.get("changes"), dict)
+          for item in feed["payloads"]:
+              assert isinstance(item.get("description"), str)
+              assert " | GitHub Stars: " in item["description"]
+              assert " | Downloads: " in item["description"]
+              assert " | Firmware: " in item["description"]
+          print(f"Validated summaries for {len(feed['payloads'])} payloads.")
+          PY
+
+      - name: Commit enriched catalog
+        shell: bash
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add payloads_v2.json changelog.json
+          if git diff --cached --quiet; then
+            echo "No enriched catalog changes."
+            exit 0
+          fi
+          git commit -m "Enrich payload summaries and catalog changelog"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
