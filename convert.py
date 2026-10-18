@@ -66,15 +66,10 @@ def get_first(obj: dict[str, Any], keys: tuple[str, ...]) -> Any:
 
 
 def clean_github_url(value: Any) -> str | None:
-    """Extract the canonical repository URL from GitHub repo, tree, or release links."""
+    """Accept GitHub-hosted repository links only; reject every other forge/domain."""
     if not isinstance(value, str):
         return None
     value = value.strip()
-    # Preserve the known self-hosted Git repository linked by the PS5 project list.
-    hosted = re.match(r"^https://git\.etawen\.dev/([^/\s?#]+)/([^/\s?#]+)(?:\.git)?/?(?:[?#].*)?$", value, re.I)
-    if hosted:
-        owner, repo = hosted.group(1), re.sub(r"\.git$", "", hosted.group(2), flags=re.I)
-        return f"https://git.etawen.dev/{owner}/{repo}"
     match = re.match(r"^https://github\.com/([^/\s?#]+)/([^/\s?#]+)(?:\.git)?(?:/(?:tree|blob|releases|issues|actions|pulls|commits|wiki|projects|settings)(?:/.*)?)?/?(?:[?#].*)?$", value, re.I)
     if not match:
         return None
