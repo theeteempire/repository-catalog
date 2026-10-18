@@ -29,6 +29,17 @@ def prior_feed() -> dict[str, Any]:
         return {}
 
 
+def compact_count(value: Any) -> str:
+    """Format large counts compactly for the PLDMGR description line."""
+    if not isinstance(value, int) or isinstance(value, bool) or value < 0:
+        return UNKNOWN
+    if value >= 1_000_000:
+        return f"{value / 1_000_000:.1f}M".replace(".0M", "M")
+    if value >= 10_000:
+        return f"{value / 1_000:.1f}k".replace(".0k", "k")
+    return f"{value:,}"
+
+
 def summary(payload: dict[str, Any]) -> str:
     original = payload.get("original_description")
     if not isinstance(original, str) or not original.strip():
@@ -42,18 +53,17 @@ def summary(payload: dict[str, Any]) -> str:
     firmware = payload.get("firmware_compatibility") or payload.get("firmware")
     firmware_status = str(payload.get("firmware_status") or "").lower()
 
-    parts = [original]
-    parts.append(f"GitHub Stars: {stars if isinstance(stars, int) and stars >= 0 else UNKNOWN}")
-    parts.append(f"Downloads: {downloads if isinstance(downloads, int) and downloads >= 0 else UNKNOWN}")
+    stars_label = str(stars) if isinstance(stars, int) and not isinstance(stars, bool) and stars >= 0 else UNKNOWN
+    metadata = [f"⭐ {stars_label}", f"📥 {compact_count(downloads)}"]
     if isinstance(firmware, (str, int, float)) and str(firmware).strip():
         label = str(firmware).strip()
-        if firmware_status in {"verified", "tested", "confirmed"}:
-            parts.append(f"Firmware: {label}")
-        else:
-            parts.append(f"Firmware: {label} (unverified)")
+        firmware_label = label if firmware_status in {"verified", "tested", "confirmed"} else f"{label} (unverified)"
     else:
-        parts.append(f"Firmware: {UNKNOWN}")
-    return " | ".join(parts)
+        firmware_label = UNKNOWN
+    metadata.append(f"🎮 FW {firmware_label}")
+
+    # Put the compact gaming metadata first so it is visible at a glance in PLDMGR.
+    return " · ".join(metadata) + " | " + original
 
 
 def main() -> None:
