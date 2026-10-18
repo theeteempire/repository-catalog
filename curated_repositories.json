@@ -118,10 +118,15 @@
     },
     {
       "name": "PS5 Y2JB Autoloader",
-      "description": "An automated payload loader for exploited PS5 consoles.",
+      "description": "Automated payload loader for exploited PS5 consoles. Latest release provides download0.dat and y2jb_update.zip, not a standalone .elf asset, so it is listed as a repository/tool rather than a PLDMGR-installable ELF payload.",
       "repository_url": "https://github.com/itsPLK/ps5-y2jb-autoloader",
       "category": "System & Jailbreak",
-      "author": "itsPLK"
+      "author": "itsPLK",
+      "payload_available": false,
+      "version": "v1.0.2-254c85f",
+      "last_update": "2026-10-14",
+      "package_filename": "y2jb_update.zip",
+      "package_url": "https://github.com/itsPLK/ps5-y2jb-autoloader/releases/download/v1.0.2-254c85f/y2jb_update.zip"
     },
     {
       "name": "Recomp Store",
@@ -340,6 +345,30 @@
       "payload_filename": "pLinux5-NG-offsets.elf",
       "payload_url": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG-offsets.elf",
       "checksum": "585e403b2238c488031d506834770cea6acd283eb7804a84b14d15b1a9df416d"
+    },
+    {
+      "name": "PS5 Payload Manager (PLDMGR)",
+      "description": "A modern web-based dashboard to manage, import, and automatically load payloads on PS5. The latest release publishes the installable pldmgr_v0.6.1.elf asset.",
+      "repository_url": "https://github.com/itsPLK/ps5-payload-manager",
+      "category": "Utilities & Tools",
+      "author": "itsPLK",
+      "payload_available": true,
+      "version": "v0.6.1",
+      "last_update": "2026-10-14",
+      "payload_filename": "pldmgr_v0.6.1.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.1/pldmgr_v0.6.1.elf"
+    },
+    {
+      "name": "PS5 WebKit Autoloader",
+      "description": "Automated WebKit payload loader for exploited PS5 consoles. The latest release includes a PS5 installer ELF and separate Windows/Python host tools.",
+      "repository_url": "https://github.com/itsPLK/ps5-webkit-autoloader",
+      "category": "System & Jailbreak",
+      "author": "itsPLK",
+      "payload_available": true,
+      "version": "v0.6.1",
+      "last_update": "2026-10-08",
+      "payload_filename": "webkit-autoloader-installer_v0.6.1.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.1/webkit-autoloader-installer_v0.6.1.elf"
     }
   ]
 }
