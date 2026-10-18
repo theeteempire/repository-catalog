@@ -1,7 +1,7 @@
 {
   "name": "Payload Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T08:59:00+00:00",
+  "generated_at": "2026-10-18T09:02:56+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
@@ -17,7 +17,14 @@
       "category": "Networking & Servers",
       "checksum": "f16a99904f194f96a592cc29206843f3641a46ad7df96fabd4cc9851cd8c1d37",
       "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0",
-      "id": "ps5upload-ps5upload_v7.1.0-d49134b7"
+      "id": "ps5upload-ps5upload_v7.1.0-d49134b7",
+      "github_stars": 762,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-18T05:53:31Z",
+      "download_count": 1222,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "ps5-web-file-manager",
@@ -31,7 +38,14 @@
       "category": "Utilities & Tools",
       "checksum": "cbcdacf69c331025e1643fc99f5b5fc117125e7c39931b6dd914323412558911",
       "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97",
-      "id": "ps5-web-file-manager-ps5-web-file-manager_v1.11-b26c4909"
+      "id": "ps5-web-file-manager-ps5-web-file-manager_v1.11-b26c4909",
+      "github_stars": 205,
+      "open_issues_count": 8,
+      "repository_updated_at": "2026-10-17T18:19:46Z",
+      "download_count": 1750,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "onionHEN",
@@ -45,7 +59,14 @@
       "category": "System & Jailbreak",
       "checksum": "1f1f7c883d5d998be1d95d7d80b718f85180f8156f257661b0f445a7c6b7c212",
       "icon_key": "9c0353458e7f31df4fe6c588f15dbac7df982893b87cf9f84b472487e61a4576",
-      "id": "onionhen-onionhen_v0.9.0-c0396873"
+      "id": "onionhen-onionhen_v0.9.0-c0396873",
+      "github_stars": 433,
+      "open_issues_count": 16,
+      "repository_updated_at": "2026-10-15T07:42:24Z",
+      "download_count": 10610,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 3,
+      "last_update_months": 0.1
     },
     {
       "name": "pldmgr",
@@ -59,7 +80,14 @@
       "category": "Utilities & Tools",
       "checksum": "5165cbe4c13360828bd0f5d558cdbb9e2d55b0660b1dc7f7a58d3f4ee9e23285",
       "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346",
-      "id": "pldmgr-pldmgr_v0.6.1-b32516ba"
+      "id": "pldmgr-pldmgr_v0.6.1-b32516ba",
+      "github_stars": 584,
+      "open_issues_count": 13,
+      "repository_updated_at": "2026-10-14T19:30:12Z",
+      "download_count": 12594,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "ps-patch-system",
@@ -73,7 +101,14 @@
       "category": "Utilities & Tools",
       "checksum": "10d8636e1b0f07f3f046aadb5c050a24ed9b0fae3585ec29a1ecabec07035589",
       "icon_key": "ab52d7d50f08caf2a18b0e8f001aa243ca4b81930a7576183fcb40491d9dac62",
-      "id": "ps-patch-system-ps-patch-system_38108724867-c2acbaff"
+      "id": "ps-patch-system-ps-patch-system_38108724867-c2acbaff",
+      "github_stars": 171,
+      "open_issues_count": 5,
+      "repository_updated_at": "2026-10-11T03:33:58Z",
+      "download_count": 7323,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 7,
+      "last_update_months": 0.2
     },
     {
       "name": "PKG-Manager",
@@ -87,7 +122,14 @@
       "category": "Utilities & Tools",
       "checksum": "82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca",
       "icon_key": "cf00f6f4c5d15c190c59cce408f0eae1da80b0f8bd5a3a1cdc28be9a7aacd2db",
-      "id": "pkg-manager-pkg-manager_v1.5.1-c3e0b2be"
+      "id": "pkg-manager-pkg-manager_v1.5.1-c3e0b2be",
+      "github_stars": 207,
+      "open_issues_count": 12,
+      "repository_updated_at": "2026-10-10T15:38:09Z",
+      "download_count": 30151,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 8,
+      "last_update_months": 0.3
     },
     {
       "name": "CheatRunner",
@@ -101,7 +143,14 @@
       "category": "Utilities & Tools",
       "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140",
       "icon_key": "773bbf20ce184cad7fe08134e83220b8bc43079821c8f131df5c5d931a293219",
-      "id": "cheatrunner-cheatrunner_v0.18-b26525a2"
+      "id": "cheatrunner-cheatrunner_v0.18-b26525a2",
+      "github_stars": 236,
+      "open_issues_count": 6,
+      "repository_updated_at": "2026-10-10T18:01:49Z",
+      "download_count": 20931,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 8,
+      "last_update_months": 0.3
     },
     {
       "name": "ShadowMountPlus",
@@ -116,7 +165,14 @@
       "category": "Utilities & Tools",
       "checksum": "e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5",
       "icon_key": "2d83b692b57d424d0165cad9be37d9e0abe47a17dca0d7c6b9c05c30c4a0ab90",
-      "id": "shadowmountplus-shadowmountplus_1.7-beta5fix1-a94949f4"
+      "id": "shadowmountplus-shadowmountplus_1.7-beta5fix1-a94949f4",
+      "github_stars": 994,
+      "open_issues_count": 20,
+      "repository_updated_at": "2026-10-10T18:36:33Z",
+      "download_count": 59188,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 8,
+      "last_update_months": 0.3
     },
     {
       "name": "WebKit-Autoloader-Installer",
@@ -130,7 +186,14 @@
       "category": "Loaders",
       "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
       "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
-      "id": "webkit-autoloader-installer-webkit-autoloader-installer_v0.6.1-cf17e060"
+      "id": "webkit-autoloader-installer-webkit-autoloader-installer_v0.6.1-cf17e060",
+      "github_stars": 1108,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-08T19:48:49Z",
+      "download_count": 56934,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 10,
+      "last_update_months": 0.3
     },
     {
       "name": "ps5-app-dumper",
@@ -144,7 +207,14 @@
       "category": "Utilities & Tools",
       "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b",
       "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b",
-      "id": "ps5-app-dumper-ps5-app-dumper_v2.10-29765990"
+      "id": "ps5-app-dumper-ps5-app-dumper_v2.10-29765990",
+      "github_stars": 171,
+      "open_issues_count": 7,
+      "repository_updated_at": "2026-10-03T01:11:21Z",
+      "download_count": 15783,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 15,
+      "last_update_months": 0.5
     },
     {
       "name": "zftpd",
@@ -159,7 +229,14 @@
       "category": "Networking & Servers",
       "checksum": "fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497",
       "icon_key": "bd943d614d5d000c34a8bd4e1c00df0bbb9881907accaabe58aab384711abb6c",
-      "id": "zftpd-zftpd_v1.6.0-b2aeb7b0"
+      "id": "zftpd-zftpd_v1.6.0-b2aeb7b0",
+      "github_stars": 118,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-10-17T17:07:19Z",
+      "download_count": 9592,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 18,
+      "last_update_months": 0.6
     },
     {
       "name": "ps5debug-NG — Pharaoh2k",
@@ -173,7 +250,14 @@
       "category": "Utilities & Tools",
       "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
       "icon_key": "3b36ccc3ede9cf0aed3baea3cddc67d1df892ce9ef5a14104e275ef920270dd1",
-      "id": "ps5debug-ng-ps5debug-ng_1.3.2-ffafd129"
+      "id": "ps5debug-ng-ps5debug-ng_1.3.2-ffafd129",
+      "github_stars": 111,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-09-23T11:46:11Z",
+      "download_count": 12160,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 25,
+      "last_update_months": 0.8
     },
     {
       "name": "kstuff-lite",
@@ -187,7 +271,14 @@
       "category": "System & Jailbreak",
       "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779",
       "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b",
-      "id": "kstuff-lite-kstuff-lite_v1.11-b3f78db1"
+      "id": "kstuff-lite-kstuff-lite_v1.11-b3f78db1",
+      "github_stars": 753,
+      "open_issues_count": 11,
+      "repository_updated_at": "2026-09-23T23:23:44Z",
+      "download_count": 121643,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 28,
+      "last_update_months": 0.9
     },
     {
       "name": "ftpsrv-drakmor",
@@ -201,7 +292,14 @@
       "category": "Networking & Servers",
       "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
       "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a",
-      "id": "ftpsrv-drakmor-ftpsrv-drakmor_1.16-ng-stable-c54377f5"
+      "id": "ftpsrv-drakmor-ftpsrv-drakmor_1.16-ng-stable-c54377f5",
+      "github_stars": 144,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-09-23T21:15:12Z",
+      "download_count": 17545,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 28,
+      "last_update_months": 0.9
     },
     {
       "name": "garlic-savemgr — garlic-savemgr · NEW",
@@ -216,7 +314,11 @@
       "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5",
       "icon_key": "2cc3ca2be798749bb50ba4dc2afcb00a321542352e95087aa89b0e53c9b3e2ed",
       "id": "garlic-savemgr-garlic-savemgr_v1.13.1-3de37e7d",
-      "first_seen": "2026-10-18"
+      "first_seen": "2026-10-18",
+      "download_count": 24835,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 29,
+      "last_update_months": 1.0
     },
     {
       "name": "ps5-linux-loader — ps5-linux-loader",
@@ -230,7 +332,14 @@
       "category": "Loaders",
       "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49",
       "icon_key": "b3d73d513d62b4d6c880873e46cbea07b977c9bc03295c7e3a31e091fda7a8f7",
-      "id": "ps5-linux-loader-ps5-linux-loader_v2.5-5743ea55"
+      "id": "ps5-linux-loader-ps5-linux-loader_v2.5-5743ea55",
+      "github_stars": 297,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-10-18T01:06:23Z",
+      "download_count": 14426,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 43,
+      "last_update_months": 1.4
     },
     {
       "name": "elfldr",
@@ -244,7 +353,14 @@
       "category": "Loaders",
       "checksum": "ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1",
       "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4",
-      "id": "elfldr-elfldr_v0.26-963098e8"
+      "id": "elfldr-elfldr_v0.26-963098e8",
+      "github_stars": 126,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-09-13T17:02:41Z",
+      "download_count": 56917,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 50,
+      "last_update_months": 1.6
     },
     {
       "name": "ftpsrv",
@@ -258,7 +374,14 @@
       "category": "Networking & Servers",
       "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938",
       "icon_key": "4720d3f0f446dc4e8848351d922d3fa4c0ef2fe9267f6afd6f3865f9b14605e7",
-      "id": "ftpsrv-ftpsrv_v0.21.1-be07bc2c"
+      "id": "ftpsrv-ftpsrv_v0.21.1-be07bc2c",
+      "github_stars": 185,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-09-30T15:59:13Z",
+      "download_count": 71657,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 59,
+      "last_update_months": 1.9
     },
     {
       "name": "BFpilot",
@@ -272,7 +395,14 @@
       "category": "Utilities & Tools",
       "checksum": "5a8237630260026ad054d71fbbe661e433ac9ffa2cb4eea2785769c1eb7ee1c1",
       "icon_key": "a70cf8ec24e00969dc832395bd378be25ae43e54e3537450e3b599da68ad74a4",
-      "id": "bfpilot-bfpilot_v0.4.4-7cb93071"
+      "id": "bfpilot-bfpilot_v0.4.4-7cb93071",
+      "github_stars": 59,
+      "open_issues_count": 5,
+      "repository_updated_at": "2026-08-11T18:08:05Z",
+      "download_count": 28587,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 68,
+      "last_update_months": 2.2
     },
     {
       "name": "nanoDNS",
@@ -286,7 +416,14 @@
       "category": "Networking & Servers",
       "checksum": "dcb845f3570771275b22b37534bf924a7f8ae219fb91ef00c6bccab85d1c2420",
       "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a",
-      "id": "nanodns-nanodns_0.4-2bb05cc6"
+      "id": "nanodns-nanodns_0.4-2bb05cc6",
+      "github_stars": 421,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-10-12T14:55:40Z",
+      "download_count": 85919,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 75,
+      "last_update_months": 2.5
     },
     {
       "name": "websrv",
@@ -300,7 +437,14 @@
       "category": "Networking & Servers",
       "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263",
       "icon_key": "071962d27a706dfa602cd64c2f5cffa9aed238574f55d35be4989e8e65ab8618",
-      "id": "websrv-websrv_v0.34-4a5d121c"
+      "id": "websrv-websrv_v0.34-4a5d121c",
+      "github_stars": 208,
+      "open_issues_count": 10,
+      "repository_updated_at": "2026-10-10T22:31:18Z",
+      "download_count": 23979,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 77,
+      "last_update_months": 2.5
     },
     {
       "name": "shsrv",
@@ -314,7 +458,14 @@
       "category": "Networking & Servers",
       "checksum": "fa4ccb2587bb61be317df0d001f668b17ebf9b4aafad87acf691b1fb8da0bd2d",
       "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4",
-      "id": "shsrv-shsrv_v0.20-1baa7a3d"
+      "id": "shsrv-shsrv_v0.20-1baa7a3d",
+      "github_stars": 26,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-08-02T16:40:14Z",
+      "download_count": 7697,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 77,
+      "last_update_months": 2.5
     },
     {
       "name": "klogsrv",
@@ -328,7 +479,14 @@
       "category": "Networking & Servers",
       "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb",
       "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4",
-      "id": "klogsrv-klogsrv_v0.9-49e2e94a"
+      "id": "klogsrv-klogsrv_v0.9-49e2e94a",
+      "github_stars": 23,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-08-02T16:37:09Z",
+      "download_count": 8420,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 77,
+      "last_update_months": 2.5
     },
     {
       "name": "Lapy-JB-Daemon",
@@ -342,7 +500,14 @@
       "category": "System & Jailbreak",
       "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e",
       "id": "lapy-jb-daemon-lapy-jb-daemon_v1.2-a4400fbc",
-      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
+      "github_stars": 23,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-06-01T18:26:02Z",
+      "download_count": 54078,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 139,
+      "last_update_months": 4.6
     },
     {
       "name": "BackPork",
@@ -356,7 +521,14 @@
       "category": "Utilities & Tools",
       "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
       "icon_key": "b4431c1161e6efaed2a3be0eb99564fa43ea894905737f7571b5585e0dc75bcf",
-      "id": "backpork-backpork_0.1-59d8fbe5"
+      "id": "backpork-backpork_0.1-59d8fbe5",
+      "github_stars": 265,
+      "open_issues_count": 6,
+      "repository_updated_at": "2026-01-22T00:19:24Z",
+      "download_count": 72509,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 171,
+      "last_update_months": 5.6
     },
     {
       "name": "PatchDL",
@@ -370,7 +542,14 @@
       "category": "Utilities & Tools",
       "checksum": "60f9b91efe87fb65a8daaafd73b72417f0164d69ef8f6152fbb4647baf594d66",
       "id": "patchdl-patchdl_0.3.0-70877f6d",
-      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b"
+      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b",
+      "github_stars": 156,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-18T08:21:32Z",
+      "download_count": 31,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "Orbit Store",
@@ -384,7 +563,14 @@
       "category": "Utilities & Tools",
       "checksum": "561a8e8015d9564d44e32b58a84e1294ea7043e96146110801a9f62ad99ac93b",
       "icon_key": "44d63d7af0c21e5f503cf7e151276d785f3a2ffb64ecf8a0f66a1b884438c2f7",
-      "id": "orbit-store-orbit_store-5aa86d2b"
+      "id": "orbit-store-orbit_store-5aa86d2b",
+      "github_stars": 991,
+      "open_issues_count": 54,
+      "repository_updated_at": "2026-10-14T21:34:08Z",
+      "download_count": 24190,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "PS5 Game Compressor",
@@ -398,7 +584,14 @@
       "category": "Utilities & Tools",
       "checksum": "5fec05b8a3cb89bafbc97970d5d68d9f31e6fcde873b5523243890e50836592b",
       "id": "ps5-game-compressor-game-compressor-c58f2429",
-      "icon_key": "d4c41585e95dd401f46b7d338867d654210efe0aa74693cf1dbaaef74a46119e"
+      "icon_key": "d4c41585e95dd401f46b7d338867d654210efe0aa74693cf1dbaaef74a46119e",
+      "github_stars": 101,
+      "open_issues_count": 6,
+      "repository_updated_at": "2026-10-02T13:06:33Z",
+      "download_count": 5683,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "PS5 Game Compressor (Arabic RTL)",
@@ -412,7 +605,14 @@
       "category": "Utilities & Tools",
       "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b",
       "id": "ps5-game-compressor-arabic-rtl-game-compressor-26cb8758",
-      "icon_key": "723aed59d1daabf28c33cac99842187bf42e69c3a4dc743df4513a2670bef273"
+      "icon_key": "723aed59d1daabf28c33cac99842187bf42e69c3a4dc743df4513a2670bef273",
+      "github_stars": 271,
+      "open_issues_count": 37,
+      "repository_updated_at": "2026-08-21T20:43:14Z",
+      "download_count": 21303,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "PS5SX2 Installer",
@@ -425,7 +625,14 @@
       "last_update": "2026-10-14",
       "category": "Emulators",
       "id": "ps5sx2-installer-ps5sx2installer-f6b82baa",
-      "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0"
+      "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
+      "github_stars": 1371,
+      "open_issues_count": 59,
+      "repository_updated_at": "2026-10-14T02:12:23Z",
+      "download_count": 6105,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "PS5SX2 Helper",
@@ -439,7 +646,14 @@
       "category": "Emulators",
       "checksum": "9fa809eb10e1fe5149b2d031f55497d7b050e950ec5aec38bac7ebe1ef6da153",
       "id": "ps5sx2-helper-ps5sxhelper-4d33b099",
-      "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0"
+      "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
+      "github_stars": 1371,
+      "open_issues_count": 59,
+      "repository_updated_at": "2026-10-14T02:12:23Z",
+      "download_count": 5557,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "SwanStationPS5 Disc Daemon",
@@ -453,7 +667,14 @@
       "category": "Emulators",
       "checksum": "d996f06cbd98c96af7eed24606f38f09dd900cc55ce2cf0859d17ef71bd55abd",
       "id": "swanstationps5-disc-daemon-swanstationps5-discdaemon-14aae9aa",
-      "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354"
+      "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
+      "github_stars": 61,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-18T00:15:56Z",
+      "download_count": 53,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "BlackBox",
@@ -466,7 +687,14 @@
       "last_update": "2026-10-18",
       "category": "Utilities & Tools",
       "id": "blackbox-blackbox-5e373b47",
-      "icon_key": "164fe304de7937ba61afaf32c7ac801d5bc247e5c2026ad170d3ea9247efa12b"
+      "icon_key": "164fe304de7937ba61afaf32c7ac801d5bc247e5c2026ad170d3ea9247efa12b",
+      "github_stars": 545,
+      "open_issues_count": 11,
+      "repository_updated_at": "2026-10-18T00:10:22Z",
+      "download_count": 19862,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "Enable-Disable-UPD-PS5",
@@ -479,7 +707,14 @@
       "last_update": "2026-10-18",
       "category": "Utilities & Tools",
       "id": "enable-disable-upd-ps5-enable-disable-upd-ps5v1.0.3-6eaf6e19",
-      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
+      "github_stars": 17,
+      "open_issues_count": 0,
+      "repository_updated_at": "2023-02-28T12:09:24Z",
+      "download_count": 545,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "RecompStore Installer · NEW",
@@ -493,7 +728,14 @@
       "category": "Utilities & Tools",
       "id": "recompstore-installer-recompstore-installer-3cb17712",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "github_stars": 54,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-18T06:25:36Z",
+      "download_count": 46,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "AnyPad PS5 English · NEW",
@@ -507,7 +749,14 @@
       "category": "Utilities & Tools",
       "id": "anypad-ps5-english-anypad-ps5-0.5.5-beta-f5cfe946",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "first_seen": "2026-10-18"
+      "first_seen": "2026-10-18",
+      "github_stars": 22,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-04T16:54:03Z",
+      "download_count": 655,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "PS5 Account Tools · NEW",
@@ -521,7 +770,14 @@
       "category": "Account & Remote Play",
       "id": "ps5-account-tools-ps5-account-tools-v1.2-7fb0bd44",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "first_seen": "2026-10-18"
+      "first_seen": "2026-10-18",
+      "github_stars": 96,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-09-19T15:29:14Z",
+      "download_count": 5304,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "PS5 Linux Loader — ps5-linux-loader",
@@ -534,7 +790,14 @@
       "last_update": "2026-10-18",
       "category": "Linux & Development",
       "id": "ps5-linux-loader-ps5-linux-loader-5d33691f",
-      "icon_key": "b3d73d513d62b4d6c880873e46cbea07b977c9bc03295c7e3a31e091fda7a8f7"
+      "icon_key": "b3d73d513d62b4d6c880873e46cbea07b977c9bc03295c7e3a31e091fda7a8f7",
+      "github_stars": 297,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-10-18T01:06:23Z",
+      "download_count": 3425,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "Pegasus DL",
@@ -547,7 +810,14 @@
       "last_update": "2026-10-18",
       "category": "Utilities & Tools",
       "id": "pegasus-dl-pegasus_dl-2ec44249",
-      "icon_key": "f247abf9a55b7f4a936bbaeddf9d17e1fbc4675d746201ee645db16387193b81"
+      "icon_key": "f247abf9a55b7f4a936bbaeddf9d17e1fbc4675d746201ee645db16387193b81",
+      "github_stars": 369,
+      "open_issues_count": 32,
+      "repository_updated_at": "2026-10-17T21:20:35Z",
+      "download_count": 7032,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "Full Y2JB Block · NEW",
@@ -562,7 +832,14 @@
       "checksum": "bc9c073b24e6b3e93482b25a2557a60c641886eccda9e3d31d819cd4d3e0c0ca",
       "id": "full-y2jb-block-full_y2jb_block0-b31adf22",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "first_seen": "2026-10-18"
+      "first_seen": "2026-10-18",
+      "github_stars": 18,
+      "open_issues_count": 0,
+      "repository_updated_at": "2025-12-10T14:29:09Z",
+      "download_count": 2183,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 273,
+      "last_update_months": 9.0
     },
     {
       "name": "pLinux5-NG Offsets",
@@ -576,7 +853,14 @@
       "category": "Linux & Development",
       "checksum": "585e403b2238c488031d506834770cea6acd283eb7804a84b14d15b1a9df416d",
       "id": "plinux5-ng-offsets-plinux5-ng-offsets-43df9e97",
-      "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461"
+      "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461",
+      "github_stars": 201,
+      "open_issues_count": 4,
+      "repository_updated_at": "2026-10-17T01:10:55Z",
+      "download_count": 361,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "kylin-core-release",
@@ -590,7 +874,14 @@
       "category": "Utilities & Tools",
       "checksum": "7f5245f2db67b131c6f9e991b731117c2c730923a9dd65a2d82b36f2e2b91545",
       "icon_key": "6b725bb2151f8237f4fac83e71f9e37da8dd5aace137382946da89bf9b7d08aa",
-      "id": "kylin-core-release-kylin-core-fb82d858"
+      "id": "kylin-core-release-kylin-core-fb82d858",
+      "github_stars": 81,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-10-01T13:32:10Z",
+      "download_count": 2532,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "Common-FPS-for-PS5",
@@ -604,7 +895,14 @@
       "category": "System & Jailbreak",
       "checksum": "bb74aa448952e9af4fb001f256f48b3b15fdedff88c2dec472ee9d16b20dbed5",
       "icon_key": "c2ae2a262b1af91438b346408664f95ea391fbd03627c1d105f19e5dcead4a10",
-      "id": "common-fps-for-ps5-common_fps_ps5_v1.2.3-476c5532"
+      "id": "common-fps-for-ps5-common_fps_ps5_v1.2.3-476c5532",
+      "github_stars": 32,
+      "open_issues_count": 10,
+      "repository_updated_at": "2026-10-16T20:40:19Z",
+      "download_count": 109,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "ps5-new-overlay — overlay_payload",
@@ -618,7 +916,14 @@
       "category": "System & Jailbreak",
       "checksum": "b144a1594e328279966797dc9e79cf8675156d447fc232d07f94a01d16a44013",
       "icon_key": "5633e3ca90491b8936d77432c80a2831c30f14634a4e8252df63292b17e90017",
-      "id": "ps5-new-overlay-overlay_payload-afeda71f"
+      "id": "ps5-new-overlay-overlay_payload-afeda71f",
+      "github_stars": 15,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-17T01:40:47Z",
+      "download_count": 50,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "ps5-new-overlay — ps5-overlay-kus",
@@ -632,7 +937,14 @@
       "category": "System & Jailbreak",
       "checksum": "96562d1fc8deb641c67e19dc618cf2334f14512bc02e15732f53361f31005e29",
       "icon_key": "5633e3ca90491b8936d77432c80a2831c30f14634a4e8252df63292b17e90017",
-      "id": "ps5-new-overlay-ps5-overlay-kus_v1.0.18-9e8ecaa5"
+      "id": "ps5-new-overlay-ps5-overlay-kus_v1.0.18-9e8ecaa5",
+      "github_stars": 15,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-17T01:40:47Z",
+      "download_count": 69,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "ActRemoteLink-13.x — actremotelink_agent",
@@ -646,7 +958,14 @@
       "category": "Networking & Servers",
       "checksum": "c3a4195b86eaeb77ba64903e9280a0bb6d55e55fb1399a2f2c26310f09ca166a",
       "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
-      "id": "actremotelink-13.x-actremotelink_agent-dcd85810"
+      "id": "actremotelink-13.x-actremotelink_agent-dcd85810",
+      "github_stars": 6,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-01T22:33:17Z",
+      "download_count": 200,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "ActRemoteLink-13.x — actremotelink_pin_notify",
@@ -660,7 +979,14 @@
       "category": "Networking & Servers",
       "checksum": "707ea60d186b2b0b53ca379a740fef4b4a7c18558730e9f8c86868a1ab77b70c",
       "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
-      "id": "actremotelink-13.x-actremotelink_pin_notify-74f82d05"
+      "id": "actremotelink-13.x-actremotelink_pin_notify-74f82d05",
+      "github_stars": 6,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-01T22:33:17Z",
+      "download_count": 192,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "instalador-host-psm-poop2jb — Host-PSM-pooP2JB",
@@ -674,7 +1000,14 @@
       "category": "System & Jailbreak",
       "checksum": "90f1ec197e66bbf4fa1a3bce040d6a5d04d571c4f8290f608401e8f7c2e9e0a4",
       "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41",
-      "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-onionhen-en-5272e025"
+      "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-onionhen-en-5272e025",
+      "github_stars": 5,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-08-30T23:29:51Z",
+      "download_count": 1075,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 49,
+      "last_update_months": 1.6
     },
     {
       "name": "instalador-host-psm-poop2jb — Host-PSM-pooP2JB [835f39e1]",
@@ -688,7 +1021,14 @@
       "category": "System & Jailbreak",
       "checksum": "894432bb3161559a272bbdd07cc66dd80ac487f6ddbcc9ae5718090dc0f6e716",
       "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41",
-      "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-onionhen-c5a6fe0b"
+      "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-onionhen-c5a6fe0b",
+      "github_stars": 5,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-08-30T23:29:51Z",
+      "download_count": 628,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 49,
+      "last_update_months": 1.6
     },
     {
       "name": "instalador-host-psm-poop2jb — Host-PSM-pooP2JB [2f403544]",
@@ -702,7 +1042,14 @@
       "category": "System & Jailbreak",
       "checksum": "3ccc45938dcc1bb6ee766195106c928049fd632993828bcf73b5368fdebfc496",
       "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41",
-      "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-pldmgr-en-6374376d"
+      "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-pldmgr-en-6374376d",
+      "github_stars": 5,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-08-30T23:29:51Z",
+      "download_count": 624,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 49,
+      "last_update_months": 1.6
     },
     {
       "name": "instalador-host-psm-poop2jb — Host-PSM-pooP2JB [aef58266]",
@@ -716,7 +1063,14 @@
       "category": "System & Jailbreak",
       "checksum": "b81609da1db061165e44541653b95f524c917a3d5a1fca308965b0d821be3178",
       "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41",
-      "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-pldmgr-a25518dc"
+      "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-pldmgr-a25518dc",
+      "github_stars": 5,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-08-30T23:29:51Z",
+      "download_count": 630,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 49,
+      "last_update_months": 1.6
     },
     {
       "name": "FGG-PlayPods-GUI",
@@ -730,7 +1084,14 @@
       "category": "Utilities & Tools",
       "checksum": "af438dbd138d34ea452db94057d6594b61eafb0692a1bc95d029adfbdc9a61fa",
       "icon_key": "4029c41fcd09fa8a6f26105edb79195cf9db2d3578389e8c040c9c9d9b89bc35",
-      "id": "fgg-playpods-gui-fgg-playpods-gui-15c586cf"
+      "id": "fgg-playpods-gui-fgg-playpods-gui-15c586cf",
+      "github_stars": 3,
+      "open_issues_count": 4,
+      "repository_updated_at": "2026-10-07T09:45:27Z",
+      "download_count": 111,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 13,
+      "last_update_months": 0.4
     },
     {
       "name": "FGG-PlayPods",
@@ -744,7 +1105,14 @@
       "category": "Utilities & Tools",
       "checksum": "9ee1958ec24e4a927992fea9ee202f5a173756091bd3abc02ebf4d2d686211a4",
       "icon_key": "021776a97722fb224016826128823585d021ead5210a0ee45715a928f76badfc",
-      "id": "fgg-playpods-fgg-playpods-72693c6d"
+      "id": "fgg-playpods-fgg-playpods-72693c6d",
+      "github_stars": 13,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-13T19:50:34Z",
+      "download_count": 655,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 22,
+      "last_update_months": 0.7
     },
     {
       "name": "chukei-dns",
@@ -758,7 +1126,14 @@
       "category": "Networking & Servers",
       "checksum": "0cf13e1ed87b57ffa4fdcfca5d9afe1572be29b4f632677cedf17657a972d750",
       "icon_key": "73ec20a889469943b8c7b362e85c362c569d8c89fbc88451f0991c35c827823f",
-      "id": "chukei-dns-chukei-ps5-7ecdde8c"
+      "id": "chukei-dns-chukei-ps5-7ecdde8c",
+      "github_stars": 43,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-06-03T23:47:45Z",
+      "download_count": 2036,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 190,
+      "last_update_months": 6.2
     },
     {
       "name": "snes9xPS5",
@@ -772,7 +1147,14 @@
       "category": "Utilities & Tools",
       "checksum": "296c6b363c8dc26267e968ed5869059d9e059920ced9206c1768321017eb62c2",
       "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc",
-      "id": "snes9xps5-snes9xps5-v2.6-6a6d660c"
+      "id": "snes9xps5-snes9xps5-v2.6-6a6d660c",
+      "github_stars": 55,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-15T22:50:23Z",
+      "download_count": 303,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 3,
+      "last_update_months": 0.1
     },
     {
       "name": "genplusgxPS5",
@@ -786,7 +1168,14 @@
       "category": "Utilities & Tools",
       "checksum": "f764824466d317bed73715ce8d5235b8a6505f676ab6338b7134d7264b0a84af",
       "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc",
-      "id": "genplusgxps5-genesisplusgxps5-v1.7-a41db468"
+      "id": "genplusgxps5-genesisplusgxps5-v1.7-a41db468",
+      "github_stars": 13,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-15T23:22:52Z",
+      "download_count": 67,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 3,
+      "last_update_months": 0.1
     },
     {
       "name": "RommPS",
@@ -800,7 +1189,14 @@
       "category": "Emulators & Linux",
       "checksum": "8d7e44c512b311f4bbb522f6761a6319533bcd9d988a72bd313197d8161dd696",
       "icon_key": "06d852ffb12906bca798bbe1666f6574cf4e5ad66741318ea52f2821a103037c",
-      "id": "rommps-romm-sync-0b374668"
+      "id": "rommps-romm-sync-0b374668",
+      "github_stars": 81,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-18T02:53:55Z",
+      "download_count": 67,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 3,
+      "last_update_months": 0.1
     },
     {
       "name": "fbneo-ps5",
@@ -814,7 +1210,14 @@
       "category": "Utilities & Tools",
       "checksum": "caed9d16060616637ad80cb54bdfd0239b4b734775e45cc17811f876c4897817",
       "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc",
-      "id": "fbneo-ps5-fbneops5-v1.9-588c48ff"
+      "id": "fbneo-ps5-fbneops5-v1.9-588c48ff",
+      "github_stars": 11,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-16T01:32:38Z",
+      "download_count": 64,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "fceummPS5",
@@ -828,7 +1231,14 @@
       "category": "Utilities & Tools",
       "checksum": "407a066f8b793133983c64effc0534036f135a83f72d1da6ef6c394ef9969237",
       "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc",
-      "id": "fceummps5-nesfceummps5-v1.0-cad88bee"
+      "id": "fceummps5-nesfceummps5-v1.0-cad88bee",
+      "github_stars": 4,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-10T01:13:42Z",
+      "download_count": 80,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 8,
+      "last_update_months": 0.3
     },
     {
       "name": "PS5X360",
@@ -842,7 +1252,14 @@
       "category": "Emulators & Linux",
       "checksum": "5da64c23263e6868696aa0f8b1bfd0eb97581bae73124d08066b507652adfbfb",
       "icon_key": "f4ff22a76686140cf50fdd1c317b264391c082f91cab40ce284482607b2f7683",
-      "id": "ps5x360-ps5x360-autolog-v1.0.9-preview-b80ef49f"
+      "id": "ps5x360-ps5x360-autolog-v1.0.9-preview-b80ef49f",
+      "github_stars": 307,
+      "open_issues_count": 88,
+      "repository_updated_at": "2026-10-11T04:54:40Z",
+      "download_count": 2515,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 7,
+      "last_update_months": 0.2
     },
     {
       "name": "PS5SX2",
@@ -856,7 +1273,14 @@
       "category": "Emulators & Linux",
       "checksum": "3fd3707a2eee7cd68a3a019d3fec19e923db444dd0811d90102ddbf26398484f",
       "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
-      "id": "ps5sx2-ps5sxhelper-no-data-mount-70b4831f"
+      "id": "ps5sx2-ps5sxhelper-no-data-mount-70b4831f",
+      "github_stars": 1371,
+      "open_issues_count": 59,
+      "repository_updated_at": "2026-10-14T02:12:23Z",
+      "download_count": 2384,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "XPSemu",
@@ -870,7 +1294,14 @@
       "category": "Emulators & Linux",
       "checksum": "31c8a3479937e310f758d36d87c937c91ae942921fa4645473b3d228a7d88959",
       "icon_key": "9b25fabfd137c4e1fac0c280a01c64516f0f21574b76dd6f9f040b5f7d2d0c7b",
-      "id": "xpsemu-helper-e589df69"
+      "id": "xpsemu-helper-e589df69",
+      "github_stars": 186,
+      "open_issues_count": 10,
+      "repository_updated_at": "2026-10-15T10:55:27Z",
+      "download_count": 2781,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 8,
+      "last_update_months": 0.3
     },
     {
       "name": "VITA5",
@@ -884,7 +1315,14 @@
       "category": "Utilities & Tools",
       "checksum": "0f2b246193b4799fb0ded8740952f8139de9fc4fa2b3d557b5e02892c4ba5dda",
       "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
-      "id": "vita5-vita5-payload-b2f7c75b"
+      "id": "vita5-vita5-payload-b2f7c75b",
+      "github_stars": 9,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-08T08:48:06Z",
+      "download_count": 98,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 10,
+      "last_update_months": 0.3
     },
     {
       "name": "ps5-fan-control",
@@ -898,7 +1336,14 @@
       "category": "Plugins & System Tools",
       "checksum": "b10b6b9b9c00efed8bf9202a83b6cb762345d1f84130a419eff7139250026b36",
       "icon_key": "fcd951a75083f6312687140e82308c0a5886058712aa8148ddd62c3fbf833fb8",
-      "id": "ps5-fan-control-ps5-fan-control-v0.3-d42e8277"
+      "id": "ps5-fan-control-ps5-fan-control-v0.3-d42e8277",
+      "github_stars": 18,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-08-08T16:39:00Z",
+      "download_count": 1093,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 71,
+      "last_update_months": 2.3
     },
     {
       "name": "PS5-File-Explorer — file-explorer-core",
@@ -912,7 +1357,14 @@
       "category": "Utilities & Tools",
       "checksum": "6d4b905b42727dddeaedddb2a657ed0d4e7110ddd068a6daab0aafb2ba32604b",
       "icon_key": "723aed59d1daabf28c33cac99842187bf42e69c3a4dc743df4513a2670bef273",
-      "id": "ps5-file-explorer-file-explorer-core-7e34ca09"
+      "id": "ps5-file-explorer-file-explorer-core-7e34ca09",
+      "github_stars": 20,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-06-19T12:33:52Z",
+      "download_count": 5204,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 121,
+      "last_update_months": 4.0
     },
     {
       "name": "PS5-File-Explorer — file-explorer",
@@ -926,7 +1378,14 @@
       "category": "Utilities & Tools",
       "checksum": "1013c23b12980e1bc97decc150c8cd5abc8447dc03cf86dbd106266dd000a6e1",
       "icon_key": "723aed59d1daabf28c33cac99842187bf42e69c3a4dc743df4513a2670bef273",
-      "id": "ps5-file-explorer-file-explorer-b15a9e29"
+      "id": "ps5-file-explorer-file-explorer-b15a9e29",
+      "github_stars": 20,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-06-19T12:33:52Z",
+      "download_count": 3829,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 121,
+      "last_update_months": 4.0
     },
     {
       "name": "PS5-FM — ps5fm-install",
@@ -940,7 +1399,14 @@
       "category": "Loaders",
       "checksum": "f845c08372a72ba4ac6fd3dce44683f54aec7cf16cffbbb7506ee5879ea9ce65",
       "icon_key": "404ba82f3646fe4a81ab8a3e8f4b4b9a3e6d0e807a76fb08afcaf7107aa5db9a",
-      "id": "ps5-fm-ps5fm-install-b77de424"
+      "id": "ps5-fm-ps5fm-install-b77de424",
+      "github_stars": 8,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-10T19:56:46Z",
+      "download_count": 105,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 8,
+      "last_update_months": 0.3
     },
     {
       "name": "PS5-FM — ps5fm-launch",
@@ -954,7 +1420,14 @@
       "category": "Loaders",
       "checksum": "a85e4c7587bef72254df50243f1a575b8019fe37fb8b7d8a2538b9c798756d68",
       "icon_key": "404ba82f3646fe4a81ab8a3e8f4b4b9a3e6d0e807a76fb08afcaf7107aa5db9a",
-      "id": "ps5-fm-ps5fm-launch-3ac32658"
+      "id": "ps5-fm-ps5fm-launch-3ac32658",
+      "github_stars": 8,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-10T19:56:46Z",
+      "download_count": 75,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 8,
+      "last_update_months": 0.3
     },
     {
       "name": "Spectrum Library",
@@ -968,7 +1441,14 @@
       "category": "Utilities & Tools",
       "checksum": "5d1372d48f76167e3f9e24b335cf571ea6e4b3960e6b7202d2802b0f78c3a519",
       "icon_key": "4e243f062f0d7c31d0114e2f7219fa410fbefed894f496d8bde7f1bfc96a88e2",
-      "id": "spectrum-library-spectrumlibrary_1.4.8-dac2b5f7"
+      "id": "spectrum-library-spectrumlibrary_1.4.8-dac2b5f7",
+      "github_stars": 566,
+      "open_issues_count": 27,
+      "repository_updated_at": "2026-10-04T18:48:25Z",
+      "download_count": 24416,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "ps5shopappkg",
@@ -982,7 +1462,14 @@
       "category": "Utilities & Tools",
       "checksum": "556ae30754a97a6380eba97dc876820f2cb9115c612587befacf1e2ef6ba18ee",
       "icon_key": "3d0b3ddd87d45ddaf40148c3a8e0a30d63ac30cfddc38b858254451e4c468275",
-      "id": "ps5shopappkg-dpiv2-06646138"
+      "id": "ps5shopappkg-dpiv2-06646138",
+      "github_stars": 24,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-11T23:47:15Z",
+      "download_count": 2726,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 7,
+      "last_update_months": 0.2
     },
     {
       "name": "PS5Library",
@@ -996,7 +1483,14 @@
       "category": "Utilities & Tools",
       "checksum": "ac78389a628401edba3c081f00156238ad5652b1b7ad241f5ccc7713179f0c82",
       "icon_key": "700f5e11992a8d795705ba9895382a2d0f6991ae40b70f4edc5b3f46dc797b79",
-      "id": "ps5library-ps5library-agent-df2d7b23"
+      "id": "ps5library-ps5library-agent-df2d7b23",
+      "github_stars": 49,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-16T08:23:50Z",
+      "download_count": 172,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "PS5-PHStore",
@@ -1010,7 +1504,14 @@
       "category": "Utilities & Tools",
       "checksum": "64d5c4605a063a63f01213c31d627466218e787956873b2eef39b369b60112ee",
       "icon_key": "16adcf160d8e99a55129106bb1cc5b3f83823ed82dfee150dfef59f04b25eec8",
-      "id": "ps5-phstore-phstore2-ph-d61a680b"
+      "id": "ps5-phstore-phstore2-ph-d61a680b",
+      "github_stars": 15,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-04T16:38:10Z",
+      "download_count": 1205,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "apr-emu-updater",
@@ -1024,7 +1525,14 @@
       "category": "Utilities & Tools",
       "checksum": "4f04464283a6a551883e40e36b59134ecad0e38ecbb7ea89cbec3f91a3bd9122",
       "icon_key": "43bab10e205ee9e2a73a45407885c14ad74f44eff4054f27ce947a761aa9163c",
-      "id": "apr-emu-updater-apr_emu_updater_v2.0.6-c1bbfd41"
+      "id": "apr-emu-updater-apr_emu_updater_v2.0.6-c1bbfd41",
+      "github_stars": 103,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-09-06T17:42:27Z",
+      "download_count": 8170,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 50,
+      "last_update_months": 1.6
     },
     {
       "name": "PS5 LZ4 Game Compressor",
@@ -1038,7 +1546,14 @@
       "category": "Utilities & Tools",
       "checksum": "e29d2c8c3c1f8718af8706db09b845d3732cef22058931a8b5d590f530382cde",
       "icon_key": "1d375f1c6a5a267c0d34e63c2fcfb34f5e1f7d5774def722d685164d2352269b",
-      "id": "ps5-lz4-game-compressor-lz4-game-compressor-2831b578"
+      "id": "ps5-lz4-game-compressor-lz4-game-compressor-2831b578",
+      "github_stars": 80,
+      "open_issues_count": 6,
+      "repository_updated_at": "2026-10-13T00:21:09Z",
+      "download_count": 834,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 7,
+      "last_update_months": 0.2
     },
     {
       "name": "ps4mount",
@@ -1052,7 +1567,14 @@
       "category": "Plugins & System Tools",
       "checksum": "72467a3d8697961d611603956c4e63d96904197e57b175ff73e41d80badcaf25",
       "icon_key": "7dda25fe6d15ecab1f72dbecc680cac5b76c338f116ff7b944dd9755cda30d70",
-      "id": "ps4mount-ps4mount-46b6598d"
+      "id": "ps4mount-ps4mount-46b6598d",
+      "github_stars": 133,
+      "open_issues_count": 8,
+      "repository_updated_at": "2026-10-16T21:30:57Z",
+      "download_count": 758,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "ps5-unified-autoloader",
@@ -1066,7 +1588,14 @@
       "category": "Loaders",
       "checksum": "c8e36ea06cfd37c5fad356ff9fcd09d3e62065d88170b5119ce8f1eeb3efacac",
       "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e",
-      "id": "ps5-unified-autoloader-ps5-unified-autoloader-v0.1.5-915a65e-97f2b2d4"
+      "id": "ps5-unified-autoloader-ps5-unified-autoloader-v0.1.5-915a65e-97f2b2d4",
+      "github_stars": 36,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-09-29T14:03:59Z",
+      "download_count": 1206,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 19,
+      "last_update_months": 0.6
     },
     {
       "name": "kura — kura-loader-ps5",
@@ -1080,7 +1609,14 @@
       "category": "Loaders",
       "checksum": "8bac520b2b99dcda8109838884380605736d8b1c23793754250bcef00536b6ab",
       "icon_key": "a29d4aa95b75046bac92b452ad2fc5fcfac405ca3843b73906ee9db2e4198a14",
-      "id": "kura-kura-loader-ps5-c7f50e67"
+      "id": "kura-kura-loader-ps5-c7f50e67",
+      "github_stars": 84,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-09-02T12:22:42Z",
+      "download_count": 950,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 46,
+      "last_update_months": 1.5
     },
     {
       "name": "kura — kura-loader",
@@ -1094,7 +1630,14 @@
       "category": "Loaders",
       "checksum": "8bac520b2b99dcda8109838884380605736d8b1c23793754250bcef00536b6ab",
       "icon_key": "a29d4aa95b75046bac92b452ad2fc5fcfac405ca3843b73906ee9db2e4198a14",
-      "id": "kura-kura-loader-84ced1a4"
+      "id": "kura-kura-loader-84ced1a4",
+      "github_stars": 84,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-09-02T12:22:42Z",
+      "download_count": 879,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 46,
+      "last_update_months": 1.5
     },
     {
       "name": "PIZZA-HEN",
@@ -1108,7 +1651,14 @@
       "category": "System & Jailbreak",
       "checksum": "8535d399612d61c50a528b2ae416f2fc3ccfb7480296df99c17302583fb3e345",
       "icon_key": "aaa4fd74d3929c5583008763a7ba52f51833566bb47705684f97a69fb1cea3a3",
-      "id": "pizza-hen-pizza-hen-v2.00-aafdd7ed"
+      "id": "pizza-hen-pizza-hen-v2.00-aafdd7ed",
+      "github_stars": 68,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-08-24T23:53:04Z",
+      "download_count": 4726,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 55,
+      "last_update_months": 1.8
     },
     {
       "name": "ProsperoMgr",
@@ -1122,7 +1672,14 @@
       "category": "Utilities & Tools",
       "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c",
       "icon_key": "b460daeea358f30a8b54f50efae741fbddc66edd759f339c95feafb528062d7c",
-      "id": "prosperomgr-prosperomgr-bae8aec5"
+      "id": "prosperomgr-prosperomgr-bae8aec5",
+      "github_stars": 206,
+      "open_issues_count": 11,
+      "repository_updated_at": "2026-09-28T19:32:33Z",
+      "download_count": 29384,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 20,
+      "last_update_months": 0.7
     },
     {
       "name": "kstuff",
@@ -1136,7 +1693,14 @@
       "category": "Networking & Servers",
       "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569",
       "icon_key": "f2ec005352d2a6d8f05e197551e222eebf3e420fa8d9b3939af821849a69a346",
-      "id": "kstuff-kstuff-b5bb301f"
+      "id": "kstuff-kstuff-b5bb301f",
+      "github_stars": 348,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-01-25T17:49:52Z",
+      "download_count": 66420,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 287,
+      "last_update_months": 9.4
     },
     {
       "name": "kstuff-lite — drakmor",
@@ -1150,7 +1714,14 @@
       "category": "Networking & Servers",
       "checksum": "2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75",
       "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8",
-      "id": "kstuff-lite-drakmor-kstuff-1e0d5e90"
+      "id": "kstuff-lite-drakmor-kstuff-1e0d5e90",
+      "github_stars": 172,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-09-21T15:58:53Z",
+      "download_count": 8182,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 129,
+      "last_update_months": 4.2
     },
     {
       "name": "kstuff-a53",
@@ -1164,7 +1735,14 @@
       "category": "Utilities & Tools",
       "checksum": "a7e5c9e300f88f2730437d2e77e0adfda9c6f8bfd259a3c7643b140ebe2204bd",
       "icon_key": "9abd064b016bcfee9363e1d831b5f565c38da9a13d48c1a9c5da39307288c53c",
-      "id": "kstuff-a53-kstuff-1.4.2beta-e170f2af"
+      "id": "kstuff-a53-kstuff-1.4.2beta-e170f2af",
+      "github_stars": 8,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-09-29T02:29:36Z",
+      "download_count": 66,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 19,
+      "last_update_months": 0.6
     },
     {
       "name": "PoorDS4 — PoorDS4-status",
@@ -1178,7 +1756,14 @@
       "category": "Utilities & Tools",
       "checksum": "d47bb84a6ae05117f095c05b75dfee15d9fbf07864a3e52d0e2e626eab613440",
       "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f",
-      "id": "poords4-poords4-status-e339a48b"
+      "id": "poords4-poords4-status-e339a48b",
+      "github_stars": 111,
+      "open_issues_count": 33,
+      "repository_updated_at": "2026-09-30T01:01:15Z",
+      "download_count": 2069,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 18,
+      "last_update_months": 0.6
     },
     {
       "name": "PoorDS4 — PoorDS4-stop",
@@ -1192,7 +1777,14 @@
       "category": "Utilities & Tools",
       "checksum": "ffdce4964f0d34a2b9be7cb65e6ad345d5beb582dcdf94d0214cde6bc79acd0d",
       "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f",
-      "id": "poords4-poords4-stop-6e0a7270"
+      "id": "poords4-poords4-stop-6e0a7270",
+      "github_stars": 111,
+      "open_issues_count": 33,
+      "repository_updated_at": "2026-09-30T01:01:15Z",
+      "download_count": 1948,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 18,
+      "last_update_months": 0.6
     },
     {
       "name": "PoorDS4 — PoorDS4rc51",
@@ -1206,7 +1798,14 @@
       "category": "Utilities & Tools",
       "checksum": "e1b9f257f51678a977edaeafd4ca1f8a03e9df0afda7d5dd84435841fa20795d",
       "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f",
-      "id": "poords4-poords4rc51-39c496d7"
+      "id": "poords4-poords4rc51-39c496d7",
+      "github_stars": 111,
+      "open_issues_count": 33,
+      "repository_updated_at": "2026-09-30T01:01:15Z",
+      "download_count": 3571,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 18,
+      "last_update_months": 0.6
     },
     {
       "name": "OmniPad-PS5",
@@ -1220,7 +1819,14 @@
       "category": "Utilities & Tools",
       "checksum": "00677d6cfac752f1da395d2aeddfee1b5f8f3a3175c524bb0ca90afd9ea0d624",
       "icon_key": "4b4c58dc7a4336f00e878693f3ea1139a63515bea0a962b6285bcb1d314a8f6d",
-      "id": "omnipad-ps5-omnipad-ps5-1.0.4-0036a4ea"
+      "id": "omnipad-ps5-omnipad-ps5-1.0.4-0036a4ea",
+      "github_stars": 45,
+      "open_issues_count": 16,
+      "repository_updated_at": "2026-10-05T23:02:52Z",
+      "download_count": 1536,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 13,
+      "last_update_months": 0.4
     },
     {
       "name": "FGG-XSense",
@@ -1234,7 +1840,14 @@
       "category": "Utilities & Tools",
       "checksum": "55195ccb02fbdbfa002e9188b0eff72d7d2e6de6c7a1c91666f88c6c9ff0d6c0",
       "icon_key": "021776a97722fb224016826128823585d021ead5210a0ee45715a928f76badfc",
-      "id": "fgg-xsense-fgg-xsense-aacc5e46"
+      "id": "fgg-xsense-fgg-xsense-aacc5e46",
+      "github_stars": 9,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-09-19T17:57:51Z",
+      "download_count": 557,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 30,
+      "last_update_months": 1.0
     },
     {
       "name": "pad2c — pad2c",
@@ -1248,7 +1861,14 @@
       "category": "Utilities & Tools",
       "checksum": "da2dae7c005de362c423d11b445725c4927f2ce6e188c1c1951990f1b69494a9",
       "icon_key": "ea0fa7062cc23d92b30059ce57f284dfa595e4e8a44ed04f41bb67e0c33ed07e",
-      "id": "pad2c-pad2c-0.2.1-aea6d871"
+      "id": "pad2c-pad2c-0.2.1-aea6d871",
+      "github_stars": 8,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-10-06T12:55:09Z",
+      "download_count": 158,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 12,
+      "last_update_months": 0.4
     },
     {
       "name": "pad2c — pad2c-probe",
@@ -1262,7 +1882,14 @@
       "category": "Utilities & Tools",
       "checksum": "45357888ad9fdd3de68ae80a9d224894c114acf0e6945db13d88b039d9758458",
       "icon_key": "ea0fa7062cc23d92b30059ce57f284dfa595e4e8a44ed04f41bb67e0c33ed07e",
-      "id": "pad2c-pad2c-probe-4f81aad6"
+      "id": "pad2c-pad2c-probe-4f81aad6",
+      "github_stars": 8,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-10-06T12:55:09Z",
+      "download_count": 122,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 12,
+      "last_update_months": 0.4
     },
     {
       "name": "any-pad",
@@ -1276,7 +1903,14 @@
       "category": "Utilities & Tools",
       "checksum": "358a3b75c1c74b813a5eae3ceef9000c9913321a0f88261d969dd89f5373a1c1",
       "icon_key": "e128515d38bcc33c5b0d5be41b2b047e55e641199d881d35947ff24aeddd2c4b",
-      "id": "any-pad-anypad-ps5-0.9.1-beta-d98808ea"
+      "id": "any-pad-anypad-ps5-0.9.1-beta-d98808ea",
+      "github_stars": 12,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-14T19:06:02Z",
+      "download_count": 253,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 6,
+      "last_update_months": 0.2
     },
     {
       "name": "pkg-sender",
@@ -1290,7 +1924,14 @@
       "category": "Utilities & Tools",
       "checksum": "6946d52c6c04a3f43d3141a505394ba8e0c6923f17fe471054e11567c9a526c7",
       "icon_key": "c476ffb69ffc62d51a2c6f8e0efb33308d7218583eba9ed2e5f7a44aa7a0972f",
-      "id": "pkg-sender-pkg-receiver-ff5cf6e8"
+      "id": "pkg-sender-pkg-receiver-ff5cf6e8",
+      "github_stars": 165,
+      "open_issues_count": 10,
+      "repository_updated_at": "2026-10-05T20:26:33Z",
+      "download_count": 1566,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "savemnt-offset-dumper",
@@ -1304,7 +1945,14 @@
       "category": "File & Package Management",
       "checksum": "946328551f74e3b6a34a7c0169f9b40792e392775768b84874b55ecdff71222e",
       "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
-      "id": "savemnt-offset-dumper-savemnt-offset-dumper-f7d0b9e5"
+      "id": "savemnt-offset-dumper-savemnt-offset-dumper-f7d0b9e5",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-06-11T01:44:27Z",
+      "download_count": 1360,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 129,
+      "last_update_months": 4.2
     },
     {
       "name": "garlic-savemgr — earthonion",
@@ -1318,7 +1966,14 @@
       "category": "File & Package Management",
       "checksum": "124051ab3a762474720ae53187d2920bc96d6be1d69aa298e715667efc385a2f",
       "icon_key": "5b2fb5f9beff5576a4c2e47c3f4f57e02c143d4bd5b713666947c58457ffa0a2",
-      "id": "garlic-savemgr-garlic-savemgr-0ddbdc19"
+      "id": "garlic-savemgr-garlic-savemgr-0ddbdc19",
+      "github_stars": 153,
+      "open_issues_count": 15,
+      "repository_updated_at": "2026-04-09T02:36:55Z",
+      "download_count": 10088,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 216,
+      "last_update_months": 7.1
     },
     {
       "name": "garlic-worker",
@@ -1332,7 +1987,14 @@
       "category": "File & Package Management",
       "checksum": "c61f29cdb8294c79386c7358096dfd9880f1425b4b10b162bece37af0a67678e",
       "icon_key": "5b2fb5f9beff5576a4c2e47c3f4f57e02c143d4bd5b713666947c58457ffa0a2",
-      "id": "garlic-worker-garlic-worker-ps5-f69b900a"
+      "id": "garlic-worker-garlic-worker-ps5-f69b900a",
+      "github_stars": 10,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-04-09T13:48:25Z",
+      "download_count": 76,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 192,
+      "last_update_months": 6.3
     },
     {
       "name": "ps5debug-NG — OpenSourcereR-dev · NEW",
@@ -1347,7 +2009,14 @@
       "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
       "icon_key": "d499e0744e7846bc548fa877ae897335444a978f955da2ac66e88ab91a4476d8",
       "id": "ps5debug-ng-ps5debug-ng_v1.3.2-0fc22a07",
-      "first_seen": "2026-10-18"
+      "first_seen": "2026-10-18",
+      "github_stars": 111,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-09-23T11:46:11Z",
+      "download_count": 3264,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 25,
+      "last_update_months": 0.8
     },
     {
       "name": "ps5-fw-spoof",
@@ -1361,7 +2030,14 @@
       "category": "System & Jailbreak",
       "checksum": "f1754521caa92a6a1ac313a1b6c969ec49d67750e290ba99870958290a0961f0",
       "icon_key": "e199250473fc45d3dee6a576f0debc6df29cf9ae3950fd3ba5bf4f70d0d54b17",
-      "id": "ps5-fw-spoof-ps5-fw-spoof-9913567e"
+      "id": "ps5-fw-spoof-ps5-fw-spoof-9913567e",
+      "github_stars": 44,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-05-29T03:44:14Z",
+      "download_count": 1580,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 142,
+      "last_update_months": 4.7
     },
     {
       "name": "ps5-self-pager — ps5-self-pager-full-system",
@@ -1375,7 +2051,14 @@
       "category": "Utilities & Tools",
       "checksum": "fb498d4112611619150281e0c44afbd09f144c09eaca3ab3f5b306b39450d13a",
       "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
-      "id": "ps5-self-pager-ps5-self-pager-full-system-e7dc80f1"
+      "id": "ps5-self-pager-ps5-self-pager-full-system-e7dc80f1",
+      "github_stars": 47,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-06-09T20:12:50Z",
+      "download_count": 1888,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 131,
+      "last_update_months": 4.3
     },
     {
       "name": "ps5-self-pager — ps5-self-pager-game",
@@ -1389,7 +2072,14 @@
       "category": "Utilities & Tools",
       "checksum": "73d94fea5de9086cac26385c117a0b3098890c447d67536877fb7b51c9145aac",
       "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
-      "id": "ps5-self-pager-ps5-self-pager-game-10a84617"
+      "id": "ps5-self-pager-ps5-self-pager-game-10a84617",
+      "github_stars": 47,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-06-09T20:12:50Z",
+      "download_count": 1496,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 131,
+      "last_update_months": 4.3
     },
     {
       "name": "ps5-self-pager — ps5-self-pager-shellcore",
@@ -1403,7 +2093,14 @@
       "category": "Utilities & Tools",
       "checksum": "2b500bc356b5bcfca5c3e5187bcec0a37c80ed05e39348b8f06bd2e5a6f3342b",
       "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
-      "id": "ps5-self-pager-ps5-self-pager-shellcore-9d41a9fc"
+      "id": "ps5-self-pager-ps5-self-pager-shellcore-9d41a9fc",
+      "github_stars": 47,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-06-09T20:12:50Z",
+      "download_count": 1556,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 131,
+      "last_update_months": 4.3
     },
     {
       "name": "ps5-self-pager — ps5-self-pager-system-common-lib",
@@ -1417,7 +2114,14 @@
       "category": "Utilities & Tools",
       "checksum": "a86c3e69ed38656310b41af4f9221bdb2264ff4daf93fb4c2515fd54a216b701",
       "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
-      "id": "ps5-self-pager-ps5-self-pager-system-common-lib-2212c921"
+      "id": "ps5-self-pager-ps5-self-pager-system-common-lib-2212c921",
+      "github_stars": 47,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-06-09T20:12:50Z",
+      "download_count": 1497,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 131,
+      "last_update_months": 4.3
     },
     {
       "name": "PS5-SELF-Decrypter — ps5-self-decrypter-full-system",
@@ -1431,7 +2135,14 @@
       "category": "File & Package Management",
       "checksum": "46340d3048a977f5603b3def0a0ba1c85b5c182891388442e51b39e281257b6a",
       "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
-      "id": "ps5-self-decrypter-ps5-self-decrypter-full-system-73fc07f1"
+      "id": "ps5-self-decrypter-ps5-self-decrypter-full-system-73fc07f1",
+      "github_stars": 53,
+      "open_issues_count": 0,
+      "repository_updated_at": "2025-11-20T16:02:35Z",
+      "download_count": 2232,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 332,
+      "last_update_months": 10.9
     },
     {
       "name": "PS5-SELF-Decrypter — ps5-self-decrypter-game",
@@ -1445,7 +2156,14 @@
       "category": "File & Package Management",
       "checksum": "190b350759b4f9d50949325e84d131e0953f37a9df271c329ba43c80c0ac7a57",
       "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
-      "id": "ps5-self-decrypter-ps5-self-decrypter-game-df4e4ef6"
+      "id": "ps5-self-decrypter-ps5-self-decrypter-game-df4e4ef6",
+      "github_stars": 53,
+      "open_issues_count": 0,
+      "repository_updated_at": "2025-11-20T16:02:35Z",
+      "download_count": 1877,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 332,
+      "last_update_months": 10.9
     },
     {
       "name": "PS5-SELF-Decrypter — ps5-self-decrypter-shellcore",
@@ -1459,7 +2177,14 @@
       "category": "File & Package Management",
       "checksum": "15050c691c21c790ae970a1ee99ad3918dd1065fe5512c762fccee6d521c8066",
       "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
-      "id": "ps5-self-decrypter-ps5-self-decrypter-shellcore-39346895"
+      "id": "ps5-self-decrypter-ps5-self-decrypter-shellcore-39346895",
+      "github_stars": 53,
+      "open_issues_count": 0,
+      "repository_updated_at": "2025-11-20T16:02:35Z",
+      "download_count": 1669,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 332,
+      "last_update_months": 10.9
     },
     {
       "name": "PS5-SELF-Decrypter — ps5-self-decrypter-system-common-lib",
@@ -1473,7 +2198,14 @@
       "category": "File & Package Management",
       "checksum": "6a16c6457c604db4846632510da0975f49faba08e6cab9cfd7f84d78b4557d97",
       "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
-      "id": "ps5-self-decrypter-ps5-self-decrypter-system-common-lib-29860fe3"
+      "id": "ps5-self-decrypter-ps5-self-decrypter-system-common-lib-29860fe3",
+      "github_stars": 53,
+      "open_issues_count": 0,
+      "repository_updated_at": "2025-11-20T16:02:35Z",
+      "download_count": 1793,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 332,
+      "last_update_months": 10.9
     },
     {
       "name": "ps5-remoteplay-get-pin",
@@ -1486,7 +2218,14 @@
       "version": "v0.1.1",
       "category": "Networking & Servers",
       "icon_key": "d0245607b07ce625ac4ed594357fefe4e37d36d505b4c44c285fcf7f80619d0a",
-      "id": "ps5-remoteplay-get-pin-rp-get-pin-ff6586b9"
+      "id": "ps5-remoteplay-get-pin-rp-get-pin-ff6586b9",
+      "github_stars": 52,
+      "open_issues_count": 1,
+      "repository_updated_at": "2025-03-09T14:25:13Z",
+      "download_count": 3761,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 588,
+      "last_update_months": 19.3
     },
     {
       "name": "MemDBG",
@@ -1500,7 +2239,14 @@
       "category": "Utilities & Tools",
       "checksum": "2fbdc9f0b21043619b1c32b512df47b3ddf79a99f096243c0d48f5ffc14e1906",
       "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe",
-      "id": "memdbg-memdbg-ps5-a95c88ab"
+      "id": "memdbg-memdbg-ps5-a95c88ab",
+      "github_stars": 40,
+      "open_issues_count": 5,
+      "repository_updated_at": "2026-09-30T07:46:32Z",
+      "download_count": 769,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 18,
+      "last_update_months": 0.6
     },
     {
       "name": "ps5-hwinfo — hwinfo_bench",
@@ -1514,7 +2260,14 @@
       "category": "Utilities & Tools",
       "checksum": "4514bdbc0c556df1a66544615942d5087d1cbee5c2026b3b66e688ba01e5a5b0",
       "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8",
-      "id": "ps5-hwinfo-hwinfo_bench-678782f8"
+      "id": "ps5-hwinfo-hwinfo_bench-678782f8",
+      "github_stars": 12,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-06-01T21:02:56Z",
+      "download_count": 1100,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 139,
+      "last_update_months": 4.6
     },
     {
       "name": "ps5-hwinfo — hwinfo_sysinfo",
@@ -1528,7 +2281,14 @@
       "category": "Utilities & Tools",
       "checksum": "ad5014112dec619779619d0ea01a984b3c8267fed682eca5687f34c9eade51cb",
       "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8",
-      "id": "ps5-hwinfo-hwinfo_sysinfo-61f6d153"
+      "id": "ps5-hwinfo-hwinfo_sysinfo-61f6d153",
+      "github_stars": 12,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-06-01T21:02:56Z",
+      "download_count": 1168,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 139,
+      "last_update_months": 4.6
     },
     {
       "name": "ps5-debugger",
@@ -1542,7 +2302,14 @@
       "category": "Utilities & Tools",
       "checksum": "8f75fb90b45d7cc4d59147e3323577d7264cf572c78a27f76722202f492ad16a",
       "icon_key": "73428d091133defae83be6f334833dc8a23b661dfccb66374c18ba9f90d3e8b7",
-      "id": "ps5-debugger-ps5debug-ng-33ae8c29"
+      "id": "ps5-debugger-ps5debug-ng-33ae8c29",
+      "github_stars": 19,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-09-27T17:03:54Z",
+      "download_count": 99,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 107,
+      "last_update_months": 3.5
     },
     {
       "name": "gdbsrv",
@@ -1556,7 +2323,14 @@
       "category": "Utilities & Tools",
       "checksum": "80952d75f423768b95385f0944e5a5c2f417dcc10c22c1bb6516a923ad8894e5",
       "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041",
-      "id": "gdbsrv-gdbsrv-ps5-7fce7bd1"
+      "id": "gdbsrv-gdbsrv-ps5-7fce7bd1",
+      "github_stars": 15,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-08-02T16:39:27Z",
+      "download_count": 1305,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 77,
+      "last_update_months": 2.5
     },
     {
       "name": "ps5-ezremote-server",
@@ -1570,7 +2344,14 @@
       "category": "System & Jailbreak",
       "checksum": "0f36b7ea3c3380303e2c74ec8d31a2c53d822cc4f4fd05cb5931d6b4f8b33c03",
       "icon_key": "955dfb2dbe2f04d676fea2cd4af6872d7f34a3924cd14436744d5a3c9200fdf2",
-      "id": "ps5-ezremote-server-ezremote-server-5a1ec637"
+      "id": "ps5-ezremote-server-ezremote-server-5a1ec637",
+      "github_stars": 8,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-12T04:56:30Z",
+      "download_count": 412,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 25,
+      "last_update_months": 0.8
     },
     {
       "name": "airpsx",
@@ -1584,7 +2365,14 @@
       "category": "Utilities & Tools",
       "checksum": "ae025ca7727b3a8abf6a705903ca9116a6fa6e7f7ead606916109cf9044c5d63",
       "icon_key": "f1742a15d6c1d0c7ab34d514c412c2f028a130c26fdcf14999e3802103f54979",
-      "id": "airpsx-airpsx-1f8590c4"
+      "id": "airpsx-airpsx-1f8590c4",
+      "github_stars": 37,
+      "open_issues_count": 9,
+      "repository_updated_at": "2026-01-14T23:29:02Z",
+      "download_count": 2357,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 505,
+      "last_update_months": 16.6
     },
     {
       "name": "PS5-Custom-Tool-Manager-",
@@ -1598,7 +2386,14 @@
       "category": "Utilities & Tools",
       "checksum": "297824ceaf6ea53fde57550adf9b5c2fc44c63ef60e8196ab92d351d1615d9cb",
       "icon_key": "d3ed8cdaf112ec1e0bcf2bc538c808e56a447862846d03b9aef80782b87fecc7",
-      "id": "ps5-custom-tool-manager-ps5.custom.tool.manager.v1-8f9822fd"
+      "id": "ps5-custom-tool-manager-ps5.custom.tool.manager.v1-8f9822fd",
+      "github_stars": 3,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-06-05T18:36:35Z",
+      "download_count": 1511,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 136,
+      "last_update_months": 4.5
     },
     {
       "name": "ChronicLoader-PS5-Payload",
@@ -1612,7 +2407,14 @@
       "category": "Loaders",
       "checksum": "3561120f85e0ec32de5de15cdd61a1fe8d5146eb4c6aa99ee88209914a2774b1",
       "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
-      "id": "chronicloader-ps5-payload-chronicloader-fe2c78e7"
+      "id": "chronicloader-ps5-payload-chronicloader-fe2c78e7",
+      "github_stars": 21,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-04-08T02:59:16Z",
+      "download_count": 3726,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 194,
+      "last_update_months": 6.4
     },
     {
       "name": "ps-game-state-lib",
@@ -1626,7 +2428,14 @@
       "category": "Utilities & Tools",
       "checksum": "a550e1494b0f8be3b244f8820ee8d899442d33a936f9ded6203a0318c7afdba8",
       "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
-      "id": "ps-game-state-lib-ps-game-state-lib-v0.1-25064391"
+      "id": "ps-game-state-lib-ps-game-state-lib-v0.1-25064391",
+      "github_stars": 7,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-07-12T22:13:28Z",
+      "download_count": 861,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 98,
+      "last_update_months": 3.2
     },
     {
       "name": "PS-DiscordPresence",
@@ -1640,7 +2449,14 @@
       "category": "Utilities & Tools",
       "checksum": "375cf619ea6f6c594ea2b79ecbb98704723522d07e51c877687876d5fe589afb",
       "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
-      "id": "ps-discordpresence-ps-discordpresence-4e3517ef"
+      "id": "ps-discordpresence-ps-discordpresence-4e3517ef",
+      "github_stars": 10,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-07-17T12:52:53Z",
+      "download_count": 812,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 93,
+      "last_update_months": 3.1
     },
     {
       "name": "unrar-ps5",
@@ -1654,7 +2470,14 @@
       "category": "Utilities & Tools",
       "checksum": "2ef04b0bc8fc1932b29da1a53336c40ed0a3f6a945a0746bef2e5dde52149701",
       "icon_key": "0819ef7e0551cbed779ed2947a2ed28613565f020700766027a8cfa092d16f6b",
-      "id": "unrar-ps5-unrar_ps5-e72d90c4"
+      "id": "unrar-ps5-unrar_ps5-e72d90c4",
+      "github_stars": 23,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-06-18T14:27:20Z",
+      "download_count": 2584,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 122,
+      "last_update_months": 4.0
     },
     {
       "name": "PS5-Power-Payloads-Project — notify_test",
@@ -1668,7 +2491,14 @@
       "category": "Utilities & Tools",
       "checksum": "a06cf9ace6e13f3c0241a709c6a8d23969d74e6559ec2a2290298f480f62da79",
       "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6",
-      "id": "ps5-power-payloads-project-notify_test-f995d619"
+      "id": "ps5-power-payloads-project-notify_test-f995d619",
+      "github_stars": 10,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-07-06T15:16:57Z",
+      "download_count": 686,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 104,
+      "last_update_months": 3.4
     },
     {
       "name": "PS5-Power-Payloads-Project — poweroff",
@@ -1682,7 +2512,14 @@
       "category": "Utilities & Tools",
       "checksum": "42ed7983619a31f74a6ac74cc943b80899366ceaf07fed77a46384b9b0f51c48",
       "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6",
-      "id": "ps5-power-payloads-project-poweroff-c718b48d"
+      "id": "ps5-power-payloads-project-poweroff-c718b48d",
+      "github_stars": 10,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-07-06T15:16:57Z",
+      "download_count": 720,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 104,
+      "last_update_months": 3.4
     },
     {
       "name": "PS5-Power-Payloads-Project — reboot",
@@ -1696,7 +2533,14 @@
       "category": "Utilities & Tools",
       "checksum": "3614f68981adc13a231d3655bf3892725bc25aa372d67a0037698253753b7cbe",
       "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6",
-      "id": "ps5-power-payloads-project-reboot-83dfb785"
+      "id": "ps5-power-payloads-project-reboot-83dfb785",
+      "github_stars": 10,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-07-06T15:16:57Z",
+      "download_count": 713,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 104,
+      "last_update_months": 3.4
     },
     {
       "name": "PS5-Power-Payloads-Project — suspend",
@@ -1710,7 +2554,14 @@
       "category": "Utilities & Tools",
       "checksum": "1a36a01c92cd73fc89645ce73e3f33c71979b5b677c92b6f4c26d269e3f9a2c1",
       "icon_key": "d0acd94342c69ed07fea774170745a58ed7f8de9e6dea836c04348cfae527aa6",
-      "id": "ps5-power-payloads-project-suspend-d40fffb1"
+      "id": "ps5-power-payloads-project-suspend-d40fffb1",
+      "github_stars": 10,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-07-06T15:16:57Z",
+      "download_count": 698,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 104,
+      "last_update_months": 3.4
     },
     {
       "name": "FGG-Unpack",
@@ -1724,7 +2575,14 @@
       "category": "Utilities & Tools",
       "checksum": "e8c8e57bbda31b5d16d131797aac6f83b555cae8d439b1f475c952f3d9554eff",
       "icon_key": "021776a97722fb224016826128823585d021ead5210a0ee45715a928f76badfc",
-      "id": "fgg-unpack-fgg-unpack-76c34bf9"
+      "id": "fgg-unpack-fgg-unpack-76c34bf9",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-09-05T19:51:42Z",
+      "download_count": 350,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 43,
+      "last_update_months": 1.4
     },
     {
       "name": "BFplayer",
@@ -1738,7 +2596,14 @@
       "category": "Utilities & Tools",
       "checksum": "0d028deb145d6fc9a5b55d43a45e072919178fbb261c66cd914ebcfb0b3b05c0",
       "icon_key": "eaa169d3744ba60118a0adb1e97d2024a5dcf0d36463375fb14d3e2c543f962f",
-      "id": "bfplayer-bfplayer-standalone-f4ed6671"
+      "id": "bfplayer-bfplayer-standalone-f4ed6671",
+      "github_stars": 37,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-07-31T00:54:17Z",
+      "download_count": 1155,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 79,
+      "last_update_months": 2.6
     },
     {
       "name": "ProsperoPlayer",
@@ -1752,7 +2617,14 @@
       "category": "Utilities & Tools",
       "checksum": "40b9955273982cd563e1b16bd428ea6a9c399e7d4bc55b220fe223948572cdad",
       "icon_key": "b16da1b1e8652db7ffe223225c813bbc4072f5e5832317b6c4008874c3ffc927",
-      "id": "prosperoplayer-prosperoplayer_medialauncher-afb9332e"
+      "id": "prosperoplayer-prosperoplayer_medialauncher-afb9332e",
+      "github_stars": 21,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-08-08T18:42:54Z",
+      "download_count": 2056,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 71,
+      "last_update_months": 2.3
     },
     {
       "name": "svtplay",
@@ -1766,7 +2638,14 @@
       "category": "Utilities & Tools",
       "checksum": "b6fdfe6d714298dc49a936ac731493ffc80dabd467da5e0ce595db7ea75f39a1",
       "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041",
-      "id": "svtplay-svtplay-install-5f3441bd"
+      "id": "svtplay-svtplay-install-5f3441bd",
+      "github_stars": 6,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-09-01T20:31:44Z",
+      "download_count": 464,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 47,
+      "last_update_months": 1.5
     },
     {
       "name": "PS-Play",
@@ -1780,7 +2659,14 @@
       "category": "System & Jailbreak",
       "checksum": "e3392379d5bc6ca4e44cb0d2a1d8921083b2c3ea480725f68378831874542d8d",
       "icon_key": "23bd7d4e0947f9e032428acc4cca6bb2e7e9e07c411720c81583289508b6334d",
-      "id": "ps-play-psplay-2.1-e2600598"
+      "id": "ps-play-psplay-2.1-e2600598",
+      "github_stars": 50,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-08-15T00:45:56Z",
+      "download_count": 3542,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 65,
+      "last_update_months": 2.1
     },
     {
       "name": "EVO-PLAYER-PS5 — EVOPlayer",
@@ -1794,7 +2680,14 @@
       "category": "System & Jailbreak",
       "checksum": "829ace433cade99379d5ef79ed4aaefa14d6c04689a32a4edb89bccf6241aa65",
       "icon_key": "fa027ca7258331e1c9d4bd21d51fa7816b81bbb46d8b52000c589036c61b7c12",
-      "id": "evo-player-ps5-evoplayer-v0.7.0-installtile-96d27c34"
+      "id": "evo-player-ps5-evoplayer-v0.7.0-installtile-96d27c34",
+      "github_stars": 40,
+      "open_issues_count": 29,
+      "repository_updated_at": "2026-10-18T05:48:21Z",
+      "download_count": 1062,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 65,
+      "last_update_months": 2.1
     },
     {
       "name": "EVO-PLAYER-PS5 — EVOPlayer [fd20ffbc]",
@@ -1808,7 +2701,14 @@
       "category": "System & Jailbreak",
       "checksum": "5d79849af3ac9c6834e4028fdae0f7896ef0b4e5071bcc33bc46842bcfe482ed",
       "icon_key": "fa027ca7258331e1c9d4bd21d51fa7816b81bbb46d8b52000c589036c61b7c12",
-      "id": "evo-player-ps5-evoplayer-v0.7.0-player-only-e7d57749"
+      "id": "evo-player-ps5-evoplayer-v0.7.0-player-only-e7d57749",
+      "github_stars": 40,
+      "open_issues_count": 29,
+      "repository_updated_at": "2026-10-18T05:48:21Z",
+      "download_count": 1032,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 65,
+      "last_update_months": 2.1
     },
     {
       "name": "EVO-PLAYER-PS5 — EVOPlayer [c869e6ba]",
@@ -1822,7 +2722,14 @@
       "category": "System & Jailbreak",
       "checksum": "fa8e5e79f0547ff0e019fab8a9396736a295272f9f17ce834906b2cd58da4b18",
       "icon_key": "fa027ca7258331e1c9d4bd21d51fa7816b81bbb46d8b52000c589036c61b7c12",
-      "id": "evo-player-ps5-evoplayer-v0.7.0-uninstalltile-42650303"
+      "id": "evo-player-ps5-evoplayer-v0.7.0-uninstalltile-42650303",
+      "github_stars": 40,
+      "open_issues_count": 29,
+      "repository_updated_at": "2026-10-18T05:48:21Z",
+      "download_count": 1015,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 65,
+      "last_update_months": 2.1
     },
     {
       "name": "nuvio-ps5-homebrew",
@@ -1836,7 +2743,14 @@
       "category": "Utilities & Tools",
       "checksum": "2d6593e379f959b9b9896727088caf2977d125368fbd41e155d474ee580a3148",
       "icon_key": "6eb9a96297dca44d26638e7186b44074b0d479997e41dd14f1da72fa879069be",
-      "id": "nuvio-ps5-homebrew-nuvio-c93064bc"
+      "id": "nuvio-ps5-homebrew-nuvio-c93064bc",
+      "github_stars": 7,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-10-10T10:26:15Z",
+      "download_count": 91,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 15,
+      "last_update_months": 0.5
     },
     {
       "name": "Ruffle-Flash-PS5",
@@ -1850,7 +2764,14 @@
       "category": "Emulators & Linux",
       "checksum": "29c271432859a394d433329c7a58c7df27912ad7fa5551cd2ac0374f834bf716",
       "icon_key": "9b25fabfd137c4e1fac0c280a01c64516f0f21574b76dd6f9f040b5f7d2d0c7b",
-      "id": "ruffle-flash-ps5-helper-865629f1"
+      "id": "ruffle-flash-ps5-helper-865629f1",
+      "github_stars": 20,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-04T18:23:33Z",
+      "download_count": 76,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "driftcheck5",
@@ -1864,7 +2785,14 @@
       "category": "Utilities & Tools",
       "checksum": "99f14fd628d0be27e981cc45781ef067c6ae8e640706e4c2cc273edf87de01fb",
       "icon_key": "51ded9acea016d53b68f9dd7a7ecd335960bab299fba4740d2ef23c1ece8a328",
-      "id": "driftcheck5-driftcheck-ae434b2c"
+      "id": "driftcheck5-driftcheck-ae434b2c",
+      "github_stars": 4,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-10T19:14:40Z",
+      "download_count": 25,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 8,
+      "last_update_months": 0.3
     },
     {
       "name": "elf-launcher",
@@ -1878,7 +2806,14 @@
       "category": "Utilities & Tools",
       "checksum": "1b4494e669ef07525c77036777d36a20f1eb81a708fe8262b26ffffa9452f547",
       "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
-      "id": "elf-launcher-elf-launcher-bb13bcf1"
+      "id": "elf-launcher-elf-launcher-bb13bcf1",
+      "github_stars": 13,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T08:01:29Z",
+      "download_count": 79,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 5,
+      "last_update_months": 0.2
     },
     {
       "name": "wk-autoloader",
@@ -1892,7 +2827,14 @@
       "category": "System & Jailbreak",
       "checksum": "c5489f708e0e19769fd8d84c667942916778af39924d23c13e42f9a8f93c544c",
       "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
-      "id": "wk-autoloader-wk-autoloader-79cdcb86"
+      "id": "wk-autoloader-wk-autoloader-79cdcb86",
+      "github_stars": 7,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-13T08:40:15Z",
+      "download_count": 93,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 5,
+      "last_update_months": 0.2
     },
     {
       "name": "HearBridge-Browser",
@@ -1906,7 +2848,14 @@
       "category": "Networking & Servers",
       "checksum": "bf03efc7048cc8c7b7121fca4c185e0bbf4f3e8c760cfe701116368d63062473",
       "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
-      "id": "hearbridge-browser-hearbridge-browser-1.0.1-5c6d888c"
+      "id": "hearbridge-browser-hearbridge-browser-1.0.1-5c6d888c",
+      "github_stars": 2,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-13T10:03:55Z",
+      "download_count": 7,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 5,
+      "last_update_months": 0.2
     },
     {
       "name": "ps5-theme — ps5-theme-stop",
@@ -1920,7 +2869,14 @@
       "category": "System & Jailbreak",
       "checksum": "0e15bc9a3721d507b4cfbdf57637b4278d6062cf384780f10d5dd6c0ea2a4960",
       "icon_key": "4d1d293e08b77d1a4018d74bf540f11a760c44806c5390eb7ddc59e73f8915b3",
-      "id": "ps5-theme-ps5-theme-stop-971f601c"
+      "id": "ps5-theme-ps5-theme-stop-971f601c",
+      "github_stars": 40,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-15T01:39:39Z",
+      "download_count": 104,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "ps5-theme — ps5-theme",
@@ -1934,7 +2890,14 @@
       "category": "System & Jailbreak",
       "checksum": "732fbc113770bdac4dc0dfea1b8c6a9ecdc4bacdacb7ab0f6ed3e11987409a61",
       "icon_key": "4d1d293e08b77d1a4018d74bf540f11a760c44806c5390eb7ddc59e73f8915b3",
-      "id": "ps5-theme-ps5-theme-2d75ddd5"
+      "id": "ps5-theme-ps5-theme-2d75ddd5",
+      "github_stars": 40,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-15T01:39:39Z",
+      "download_count": 197,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "visor-ps5",
@@ -1948,7 +2911,14 @@
       "category": "Utilities & Tools",
       "checksum": "629c2bc4486ac5b7fb2de5c021a78edc41f246a78d8f455fb983d01441a00924",
       "icon_key": "bed36637bc9d470b4223a8ca7f1494e5b7ca9539d5d69f3bf02ee7eb015d36a0",
-      "id": "visor-ps5-visor-20ce41ad"
+      "id": "visor-ps5-visor-20ce41ad",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-11T21:37:09Z",
+      "download_count": 13,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 7,
+      "last_update_months": 0.2
     },
     {
       "name": "PS5-Network-Mounting",
@@ -1962,7 +2932,14 @@
       "category": "System & Jailbreak",
       "checksum": "91816553248a65f062ee5a2b52dcff0f3f4d508633f59a79e251ccb055f63153",
       "icon_key": "7055f31fe10d470a8ebd4dd722561b8188d2640cf3a2af42ab67b227f87390f0",
-      "id": "ps5-network-mounting-ps5networkmounting-ee1c7369"
+      "id": "ps5-network-mounting-ps5networkmounting-ee1c7369",
+      "github_stars": 15,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-11T20:11:50Z",
+      "download_count": 59,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 7,
+      "last_update_months": 0.2
     },
     {
       "name": "ps5-dump-forge",
@@ -1976,7 +2953,14 @@
       "category": "File & Package Management",
       "checksum": "2a4294745f1fc81f8e18c4e5258ed32ae61e5362c944cc63bda6413b3fd3b90e",
       "icon_key": "ad79ebaa2a4893da24720d0ed0ba5a1fbb3d4c1afab90c04193a37ee7eae06ec",
-      "id": "ps5-dump-forge-ps5-dump-forge-0.2.0-ps5-dca65fbf"
+      "id": "ps5-dump-forge-ps5-dump-forge-0.2.0-ps5-dca65fbf",
+      "github_stars": 42,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-17T14:23:28Z",
+      "download_count": 501,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "LibrePadPS5",
@@ -1990,7 +2974,14 @@
       "category": "Utilities & Tools",
       "checksum": "736ea4b0a17aafce4ade2b696a6d5d2a8b856b83c6960a3d0ec117e23ba2c2c0",
       "icon_key": "0ede2f71476d42e7879c1e9ed872749c491f8e482e90238ed1f494a62f09a393",
-      "id": "librepadps5-librepadps5-f1e1d955"
+      "id": "librepadps5-librepadps5-f1e1d955",
+      "github_stars": 5,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-14T12:21:05Z",
+      "download_count": 80,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 6,
+      "last_update_months": 0.2
     },
     {
       "name": "launchpad",
@@ -2004,7 +2995,14 @@
       "category": "Utilities & Tools",
       "checksum": "5f53da68491229b52e18f84017975be3753487fee6e0f22c55d8e7a11fafed02",
       "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041",
-      "id": "launchpad-launchpad-install-036af43a"
+      "id": "launchpad-launchpad-install-036af43a",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-09-01T18:21:42Z",
+      "download_count": 62,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 48,
+      "last_update_months": 1.6
     },
     {
       "name": "TacHen — TacHen-compatibilityUntested",
@@ -2018,7 +3016,14 @@
       "category": "System & Jailbreak",
       "checksum": "54f0e98c3903086dc11c52609be7da1cf7024527aeaaf2162de49ec77049232f",
       "icon_key": "79e44545dfde60542338c95d883587f38b6f167fbb64b97c93e2084992f537b2",
-      "id": "tachen-tachen-compatibilityuntested-51b3b865"
+      "id": "tachen-tachen-compatibilityuntested-51b3b865",
+      "github_stars": 21,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-11T02:19:05Z",
+      "download_count": 162,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 7,
+      "last_update_months": 0.2
     },
     {
       "name": "TacHen — TacHen11.00",
@@ -2032,7 +3037,14 @@
       "category": "System & Jailbreak",
       "checksum": "78e0455221d556388bef402cc4f8c34288187ee0a186251eacd07ff709f1872f",
       "icon_key": "79e44545dfde60542338c95d883587f38b6f167fbb64b97c93e2084992f537b2",
-      "id": "tachen-tachen11.00-13.60-a29a89f4"
+      "id": "tachen-tachen11.00-13.60-a29a89f4",
+      "github_stars": 21,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-11T02:19:05Z",
+      "download_count": 192,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 7,
+      "last_update_months": 0.2
     },
     {
       "name": "PS5-Log-Collector",
@@ -2046,7 +3058,14 @@
       "category": "Utilities & Tools",
       "checksum": "fcd3bb93f402ff03a86451dec94d0d2fbb6345f883b072a9055a0a6ba317780f",
       "icon_key": "d84bafc28c12c55a32ad70b295ecb37f02f5fb2cb9c50f51901dc673681270fe",
-      "id": "ps5-log-collector-deci5-probe-7a6d5333"
+      "id": "ps5-log-collector-deci5-probe-7a6d5333",
+      "github_stars": 10,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-12T23:07:03Z",
+      "download_count": 7,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 8,
+      "last_update_months": 0.3
     },
     {
       "name": "onionHEN-kernel-log-plugin",
@@ -2060,7 +3079,14 @@
       "category": "System & Jailbreak",
       "checksum": "84e7c8c4999e2baf7a84684bae2da6f507abb89960403b1ba4f24c0fd562b733",
       "icon_key": "e7172fb08af972dc988e83ae4d6161e6bd6e15e35a943c20ccecee3c1b9c866b",
-      "id": "onionhen-kernel-log-plugin-klog00001-af3b4d78"
+      "id": "onionhen-kernel-log-plugin-klog00001-af3b4d78",
+      "github_stars": 5,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-14T01:42:13Z",
+      "download_count": 48,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 8,
+      "last_update_months": 0.3
     },
     {
       "name": "ps5-aria2",
@@ -2074,7 +3100,14 @@
       "category": "Utilities & Tools",
       "checksum": "802d53a201545ea84a86c1a3bc2f9b84446a1d245ea11108b912116ffbc1a8a6",
       "icon_key": "fcd951a75083f6312687140e82308c0a5886058712aa8148ddd62c3fbf833fb8",
-      "id": "ps5-aria2-aria2-v1.37.0-3-739e2603"
+      "id": "ps5-aria2-aria2-v1.37.0-3-739e2603",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-05T14:00:23Z",
+      "download_count": 68,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 13,
+      "last_update_months": 0.4
     },
     {
       "name": "PSXTERM",
@@ -2088,7 +3121,14 @@
       "category": "System & Jailbreak",
       "checksum": "6c56d19e9ddd4f962c0871c3ebf4e31990ee986a4e090e7de0a58f5827c67521",
       "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe",
-      "id": "psxterm-psxtermd-ps5-638088ed"
+      "id": "psxterm-psxtermd-ps5-638088ed",
+      "github_stars": 15,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-05T05:37:18Z",
+      "download_count": 8,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "ps5-notify-app",
@@ -2102,7 +3142,14 @@
       "category": "Utilities & Tools",
       "checksum": "df5cdecd64d458e9b507afd2307b8652b8543197f60a861fb7ed684488c1b8e8",
       "icon_key": "561e540f77947935a1b0e7b525c4ece33ab61ba58e8764c28112d05b5090eac0",
-      "id": "ps5-notify-app-notify-bridge-05a5c397"
+      "id": "ps5-notify-app-notify-bridge-05a5c397",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-12T18:34:30Z",
+      "download_count": 28,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 6,
+      "last_update_months": 0.2
     },
     {
       "name": "PS5-NetDis",
@@ -2116,7 +3163,14 @@
       "category": "System & Jailbreak",
       "checksum": "9b635ff7aacd785ff79c09d17c3734fd0427d0a7c644abb7f8bea4093420c534",
       "icon_key": "9a2320d119e5664b70ad89359c7ddcfc92f0451c0ab3c786b191d893d1440eae",
-      "id": "ps5-netdis-netdis-dd998645"
+      "id": "ps5-netdis-netdis-dd998645",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-16T05:38:04Z",
+      "download_count": 11,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "ps5-stream8",
@@ -2130,7 +3184,14 @@
       "category": "Utilities & Tools",
       "checksum": "3b059dda9333b7f615d7ac9138d74a2563ea617e1f2872a19a6a984aebc458ed",
       "icon_key": "40ce1eb1b8270d5c5ccdf0d103b125fa35ef3ccda1a5cf8f9a6db5edf8819e13",
-      "id": "ps5-stream8-stream8-v0.3.0-audio-1080p60-30mbps-fw1360-e6fa609f"
+      "id": "ps5-stream8-stream8-v0.3.0-audio-1080p60-30mbps-fw1360-e6fa609f",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-17T14:13:47Z",
+      "download_count": 5,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "exfat2ampr",
@@ -2144,7 +3205,14 @@
       "category": "File & Package Management",
       "checksum": "ffc0956937077c29d7afdf60c9a01b62fa23034d2b50013608139b57f8b90d16",
       "icon_key": "006f1ada3fcca66864bd46a546d5fdfd3e1ae75fc2e1691374f425202a98ab5c",
-      "id": "exfat2ampr-exfat2ampr-8d4f7fd7"
+      "id": "exfat2ampr-exfat2ampr-8d4f7fd7",
+      "github_stars": 26,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-14T14:03:29Z",
+      "download_count": 89,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "PS5 60FPS",
@@ -2158,7 +3226,14 @@
       "category": "Game Tools & Mods",
       "checksum": "5331ebf1b69cd272a0491f899b14ca5d59240adee2e69078631473070ddeca9b",
       "icon_key": "9a2320d119e5664b70ad89359c7ddcfc92f0451c0ab3c786b191d893d1440eae",
-      "id": "ps5-60fps-fps60-0bfaaabe"
+      "id": "ps5-60fps-fps60-0bfaaabe",
+      "github_stars": 94,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-10-16T05:37:57Z",
+      "download_count": 1313,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "HLDRIVE",
@@ -2172,7 +3247,14 @@
       "category": "Utilities & Tools",
       "checksum": "cc7cc3c41e809837eb478bdc37546d0e8fdf7c3bfef92b2a175fdfd4785177e4",
       "icon_key": "a8238533a7e86ce443902aa97bd636101a12e5f141ccbe103f827a26a6149180",
-      "id": "hldrive-hldrive.1.1.0-89090d04"
+      "id": "hldrive-hldrive.1.1.0-89090d04",
+      "github_stars": 5,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-16T20:10:45Z",
+      "download_count": 6,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "HearBridge-PS5",
@@ -2186,7 +3268,14 @@
       "category": "Utilities & Tools",
       "checksum": "7b1a1b4a9a44db0723692a83718ebca63ecef38875a53a41328950f2cfa6877c",
       "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
-      "id": "hearbridge-ps5-hearbridge-1.3.6-4573c275"
+      "id": "hearbridge-ps5-hearbridge-1.3.6-4573c275",
+      "github_stars": 144,
+      "open_issues_count": 6,
+      "repository_updated_at": "2026-10-18T05:44:09Z",
+      "download_count": 44,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "PS5-PlayKaraoke-Player",
@@ -2200,7 +3289,14 @@
       "category": "Utilities & Tools",
       "checksum": "d63c9aa03ca59e2d27b5a194d88ab4665f30379eaef14408bf6cee23aedf5edf",
       "icon_key": "c79e9d93ff99c3f79cc0ba547c01d1cf7a083df7beb77eeb96e9acf0b8bbed4c",
-      "id": "ps5-playkaraoke-player-playkaraoke-6b6257b2"
+      "id": "ps5-playkaraoke-player-playkaraoke-6b6257b2",
+      "github_stars": 6,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-13T08:13:35Z",
+      "download_count": 22,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 5,
+      "last_update_months": 0.2
     },
     {
       "name": "ps5-solobridge — installer",
@@ -2214,7 +3310,14 @@
       "category": "Utilities & Tools",
       "checksum": "da194b450178f0d7c8651d9e31f18819085730c5b943e89a0e075c77d1228663",
       "icon_key": "9f086861fc1a12ff99afc9baa8ae1c5f19cc7dd3212fcd7c42bb592ea2aba33b",
-      "id": "ps5-solobridge-installer-99b6fddc"
+      "id": "ps5-solobridge-installer-99b6fddc",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-17T10:15:42Z",
+      "download_count": 6,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "ps5-solobridge — solobridge",
@@ -2228,7 +3331,14 @@
       "category": "Utilities & Tools",
       "checksum": "9ddf826b4b332809678d024bb7c008ba6c2a44981367730f341e4571a0e28d67",
       "icon_key": "9f086861fc1a12ff99afc9baa8ae1c5f19cc7dd3212fcd7c42bb592ea2aba33b",
-      "id": "ps5-solobridge-solobridge-4f5d039b"
+      "id": "ps5-solobridge-solobridge-4f5d039b",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-17T10:15:42Z",
+      "download_count": 5,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "beetlepcePS5",
@@ -2242,7 +3352,14 @@
       "category": "Emulators & Linux",
       "checksum": "7b3d9ff72f29a85a38585749ac82d9e55e673cc0e028f418513e45dfd7f1ac0e",
       "icon_key": "894c21fdb08939ae4d87049de6e26de352a899055f9234bf03b9167d5b5a94cc",
-      "id": "beetlepceps5-beetlepceps5-v1.0-697a9072"
+      "id": "beetlepceps5-beetlepceps5-v1.0-697a9072",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-16T14:27:10Z",
+      "download_count": 16,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "NayePlmTools — NayePlmTools",
@@ -2256,7 +3373,14 @@
       "category": "Utilities & Tools",
       "checksum": "a13edf8f700f2b3f939f3dd839b22bf92578d05ec6f825ce922c33357ce39e71",
       "icon_key": "668c3fb6a0d67edd2db4d4adcc7189c5fa9f2c189c21f0181f527215b621bad5",
-      "id": "nayeplmtools-nayeplmtools_0.6.1.188-ga-1f94b9e6"
+      "id": "nayeplmtools-nayeplmtools_0.6.1.188-ga-1f94b9e6",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T08:53:25Z",
+      "download_count": 0,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "NayePlmTools — NayePlmTools [917d3bca]",
@@ -2270,7 +3394,14 @@
       "category": "Utilities & Tools",
       "checksum": "0920cec67b4d36f087849a854a57be1bee92cff0315a25d16e4e913f4fce8104",
       "icon_key": "668c3fb6a0d67edd2db4d4adcc7189c5fa9f2c189c21f0181f527215b621bad5",
-      "id": "nayeplmtools-nayeplmtools_0.6.1.188-me-636c3587"
+      "id": "nayeplmtools-nayeplmtools_0.6.1.188-me-636c3587",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T08:53:25Z",
+      "download_count": 0,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "HYPERHEN",
@@ -2284,7 +3415,14 @@
       "category": "System & Jailbreak",
       "checksum": "c35b8f6dbe4355be7e55891e6b326d82f3d6aae8483f6cf0e27d372b0aea97ae",
       "icon_key": "aaa4fd74d3929c5583008763a7ba52f51833566bb47705684f97a69fb1cea3a3",
-      "id": "hyperhen-hyperhen-v0.9.2-70823e66"
+      "id": "hyperhen-hyperhen-v0.9.2-70823e66",
+      "github_stars": 209,
+      "open_issues_count": 7,
+      "repository_updated_at": "2026-10-14T17:52:35Z",
+      "download_count": 5323,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "omega-dashboard",
@@ -2298,7 +3436,14 @@
       "category": "Utilities & Tools",
       "checksum": "34562f26cd6dc778ac34aff2b1d056ef69bc24720eea9cd35d503373942b1f2c",
       "icon_key": "79463078a3cc715e0dd5211f0bfb067e15539a9424b86de1154448e2711a90bf",
-      "id": "omega-dashboard-omega-installer-ebc4dad4"
+      "id": "omega-dashboard-omega-installer-ebc4dad4",
+      "github_stars": 47,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-10-16T07:02:08Z",
+      "download_count": 63,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "pLinux5-NG",
@@ -2312,7 +3457,14 @@
       "category": "Loaders",
       "checksum": "f7f4872dd37d8f497c76a959d2e61a443a3948ca82a608325ed7dd0aa20f7853",
       "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461",
-      "id": "plinux5-ng-plinux5-ng-f30fd471"
+      "id": "plinux5-ng-plinux5-ng-f30fd471",
+      "github_stars": 201,
+      "open_issues_count": 4,
+      "repository_updated_at": "2026-10-17T01:10:55Z",
+      "download_count": 464,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "ps5-date-time-sync",
@@ -2326,7 +3478,14 @@
       "category": "Utilities & Tools",
       "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849",
       "icon_key": "db94366ce572ae792159346bf806db5fbb0881e7a0b95754d627b1d18da18b4c",
-      "id": "ps5-date-time-sync-ps5-date-time-sync-e10ccdb1"
+      "id": "ps5-date-time-sync-ps5-date-time-sync-e10ccdb1",
+      "github_stars": 29,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-10T07:37:08Z",
+      "download_count": 1259,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 55,
+      "last_update_months": 1.8
     },
     {
       "name": "PS5-TabShifter",
@@ -2340,7 +3499,14 @@
       "category": "Utilities & Tools",
       "checksum": "147945cffb28405557a49cd4929c7d0534c55f6a757aba0063f9ce475c1c7255",
       "icon_key": "23bdb7ce1917bf7c724ca8262d2eed7fd290583f8adc16a2d12a4c6881b12e8a",
-      "id": "ps5-tabshifter-tabshifter-02daa2f2"
+      "id": "ps5-tabshifter-tabshifter-02daa2f2",
+      "github_stars": 55,
+      "open_issues_count": 7,
+      "repository_updated_at": "2026-10-16T20:56:27Z",
+      "download_count": 211,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "ps5-bar-tool — ps5-bar-tool_dump_all",
@@ -2354,7 +3520,14 @@
       "category": "File & Package Management",
       "checksum": "c85a14c7305ab696fccc4e09ce8e8aca92d3f213bc8bebf9eadee16a70f37319",
       "icon_key": "fe3877be4298ff6b5b656bc91a6aa2de4972b7a2f57d7998d189017e77ecb277",
-      "id": "ps5-bar-tool-ps5-bar-tool_dump_all-0f00b8c2"
+      "id": "ps5-bar-tool-ps5-bar-tool_dump_all-0f00b8c2",
+      "github_stars": 36,
+      "open_issues_count": 7,
+      "repository_updated_at": "2026-10-15T15:35:41Z",
+      "download_count": 111,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "ps5-bar-tool — ps5-bar-tool_dump_main_segments",
@@ -2368,7 +3541,14 @@
       "category": "File & Package Management",
       "checksum": "9edce448b42906d6943650f6d223a714f1af3220e20a1b0aac28e2832b82db90",
       "icon_key": "fe3877be4298ff6b5b656bc91a6aa2de4972b7a2f57d7998d189017e77ecb277",
-      "id": "ps5-bar-tool-ps5-bar-tool_dump_main_segments-b2bae219"
+      "id": "ps5-bar-tool-ps5-bar-tool_dump_main_segments-b2bae219",
+      "github_stars": 36,
+      "open_issues_count": 7,
+      "repository_updated_at": "2026-10-15T15:35:41Z",
+      "download_count": 77,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "ps5-bar-tool — ps5-bar-tool_info",
@@ -2382,7 +3562,14 @@
       "category": "File & Package Management",
       "checksum": "3980798f45e03332cbf4db01964c183b459f7c836b65757b7a30eec1b642c1ea",
       "icon_key": "fe3877be4298ff6b5b656bc91a6aa2de4972b7a2f57d7998d189017e77ecb277",
-      "id": "ps5-bar-tool-ps5-bar-tool_info-88869934"
+      "id": "ps5-bar-tool-ps5-bar-tool_info-88869934",
+      "github_stars": 36,
+      "open_issues_count": 7,
+      "repository_updated_at": "2026-10-15T15:35:41Z",
+      "download_count": 93,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "ps5-bar-tool — ps5-bar-tool_savedata",
@@ -2396,7 +3583,14 @@
       "category": "File & Package Management",
       "checksum": "92047accc186e47af0c9d685d86ec3ec080c37a2cfccddf5e43c20ebd8c1e0bf",
       "icon_key": "fe3877be4298ff6b5b656bc91a6aa2de4972b7a2f57d7998d189017e77ecb277",
-      "id": "ps5-bar-tool-ps5-bar-tool_savedata-216ef604"
+      "id": "ps5-bar-tool-ps5-bar-tool_savedata-216ef604",
+      "github_stars": 36,
+      "open_issues_count": 7,
+      "repository_updated_at": "2026-10-15T15:35:41Z",
+      "download_count": 136,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "PS5_DevTools",
@@ -2410,7 +3604,14 @@
       "category": "Networking & Servers",
       "checksum": "f5289ed268a0549d593ffcdca41ce86312ccaf76995ceea3dd48b076a6c8fc0b",
       "icon_key": "e5f09f2f881b532f5efa49e39e4597ed82bccf8af1ab4e69effaac67510937a6",
-      "id": "ps5_devtools-ps5devtools-672f34d5"
+      "id": "ps5_devtools-ps5devtools-672f34d5",
+      "github_stars": 4,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-14T14:51:13Z",
+      "download_count": 11,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "TitaniaPy",
@@ -2424,7 +3625,14 @@
       "category": "Utilities & Tools",
       "checksum": "5b8c58b48646839e81238874274bd2e0c3017494caddcb5482b9c83fa8bdc910",
       "icon_key": "8198333d504b0d10e8488157e8c33a6bb7b79face310f8ac5bd0d05b376b237c",
-      "id": "titaniapy-ps5_key_extractv4-9eab44d6"
+      "id": "titaniapy-ps5_key_extractv4-9eab44d6",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-16T12:13:55Z",
+      "download_count": 2,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 3,
+      "last_update_months": 0.1
     },
     {
       "name": "ps5-wallpaper-modd",
@@ -2438,7 +3646,14 @@
       "category": "File & Package Management",
       "checksum": "b18a866bac9deff45b921b7d3ea6143d541117b56c666d817ecdc81961829139",
       "icon_key": "5743a242c7d387b344f393b228942fecbb3d96d851330318725640007fe0ddf6",
-      "id": "ps5-wallpaper-modd-ps5-wallpaper-modd-c36d743a"
+      "id": "ps5-wallpaper-modd-ps5-wallpaper-modd-c36d743a",
+      "github_stars": 8,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-06-05T00:46:51Z",
+      "download_count": 1598,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 135,
+      "last_update_months": 4.4
     },
     {
       "name": "LiveShell",
@@ -2452,7 +3667,14 @@
       "category": "Utilities & Tools",
       "checksum": "9a45ec8db61046a5c9f945ccc1e3ef9a6d25c8077b8efa1ea232443c9c850b0c",
       "icon_key": "9b25fabfd137c4e1fac0c280a01c64516f0f21574b76dd6f9f040b5f7d2d0c7b",
-      "id": "liveshell-liveshell-4bb2c833"
+      "id": "liveshell-liveshell-4bb2c833",
+      "github_stars": 133,
+      "open_issues_count": 5,
+      "repository_updated_at": "2026-10-18T06:08:30Z",
+      "download_count": 767,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "kabuki-ps5",
@@ -2466,7 +3688,14 @@
       "category": "Game Tools & Mods",
       "checksum": "26419aa77b22c177b42032fb0af2c139823c4918ae046395e5a7eb50ee4ac0c6",
       "icon_key": "46d2ffc86d12108ce4d7e9e8f79b7e2c7d64b02189736fb4b2897364c247654d",
-      "id": "kabuki-ps5-kabuki-ps5-20ec6947"
+      "id": "kabuki-ps5-kabuki-ps5-20ec6947",
+      "github_stars": 18,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-17T09:15:12Z",
+      "download_count": 115,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "ps5-cooling-system-center-pro — cooling-center-launcher-installer",
@@ -2480,7 +3709,14 @@
       "category": "Utilities & Tools",
       "checksum": "fe8269ddac9420ec9b8d836c500e83ca2ee019efabfb227e30e0620710cf2960",
       "icon_key": "71ab581a74b2021b37fc9e240a25cd9e47593b3ddf2361455c769163f0ee35ec",
-      "id": "ps5-cooling-system-center-pro-cooling-center-launcher-installer_v1.69.1-0427e073"
+      "id": "ps5-cooling-system-center-pro-cooling-center-launcher-installer_v1.69.1-0427e073",
+      "github_stars": 6,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T02:32:15Z",
+      "download_count": 4,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "ps5-cooling-system-center-pro — PS5_Cooling_System_Center",
@@ -2494,7 +3730,14 @@
       "category": "Utilities & Tools",
       "checksum": "ab0b2c000586bbfe77a5477ae26f11b09609b9481dc69fa5d32835f6a0c6cb6a",
       "icon_key": "71ab581a74b2021b37fc9e240a25cd9e47593b3ddf2361455c769163f0ee35ec",
-      "id": "ps5-cooling-system-center-pro-ps5_cooling_system_center_v1.69.1-4c233fbd"
+      "id": "ps5-cooling-system-center-pro-ps5_cooling_system_center_v1.69.1-4c233fbd",
+      "github_stars": 6,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T02:32:15Z",
+      "download_count": 5,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "Breeze",
@@ -2508,7 +3751,14 @@
       "category": "Loaders",
       "checksum": "c6d60f7e780b51967857dde15675e8c6c640d0ae52ae696babc463caa720837e",
       "icon_key": "a4700ffd4ff4b567875974a6bb15c3d9bd81f6a51dec15f60834e93459b96cd1",
-      "id": "breeze-breeze-e3c0f10d"
+      "id": "breeze-breeze-e3c0f10d",
+      "github_stars": 3,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T08:56:49Z",
+      "download_count": 0,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "PSCloud Dashboard",
@@ -2522,7 +3772,14 @@
       "category": "File & Package Management",
       "checksum": "4298b70ed5262bc2acdf03a88e835ea01f0c7e081fbde2a0566841f4508dd271",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "id": "pscloud-dashboard-pscloud-dashboard-25b0090b"
+      "id": "pscloud-dashboard-pscloud-dashboard-25b0090b",
+      "github_stars": 40,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-10-15T19:14:26Z",
+      "download_count": 167,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 3,
+      "last_update_months": 0.1
     },
     {
       "name": "Recomp Store · NEW",
@@ -2537,7 +3794,14 @@
       "checksum": "c88cb81859e05770fbd686ff5aacc4b30c057c4dbe219890d82c81d0f2440fe2",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "id": "recomp-store-recompstore-installer-1aa1fc08",
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-17",
+      "github_stars": 54,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-18T06:25:36Z",
+      "download_count": 67,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "ps5-payload-source — fetchpkg · NEW",
@@ -2552,7 +3816,14 @@
       "checksum": "ca47bef64ab66380d56573ee30a3655fc7c3bb02e1ddd8cde2ffcbe4e0afac67",
       "icon_key": "8a7b346783af28864cbcf2290dad66aa986f980542daa56c79811370441ccfb7",
       "id": "ps5-payload-source-fetchpkg-c71f1743",
-      "first_seen": "2026-10-18"
+      "first_seen": "2026-10-18",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T04:41:20Z",
+      "download_count": 3,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 70,
+      "last_update_months": 2.3
     },
     {
       "name": "ps5-payload-source — ghost-control-x10-ds4 · NEW",
@@ -2567,7 +3838,14 @@
       "checksum": "9ef5718ff0b6fa1b0b90a5d7108335d7852458919dd1deae30968b43fb39a5bb",
       "icon_key": "8a7b346783af28864cbcf2290dad66aa986f980542daa56c79811370441ccfb7",
       "id": "ps5-payload-source-ghost-control-x10-ds4-a4ce07da",
-      "first_seen": "2026-10-18"
+      "first_seen": "2026-10-18",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T04:41:20Z",
+      "download_count": 291,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 70,
+      "last_update_months": 2.3
     },
     {
       "name": "ps5-payload-source — pkg_install · NEW",
@@ -2582,7 +3860,14 @@
       "checksum": "a372966792449ded73db6f159efe8cdd2ecbc3af75b480216e11899d7b1aaa11",
       "icon_key": "8a7b346783af28864cbcf2290dad66aa986f980542daa56c79811370441ccfb7",
       "id": "ps5-payload-source-pkg_install-e100f9a3",
-      "first_seen": "2026-10-18"
+      "first_seen": "2026-10-18",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T04:41:20Z",
+      "download_count": 3,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 70,
+      "last_update_months": 2.3
     },
     {
       "name": "bayo.sh · NEW",
@@ -2597,7 +3882,14 @@
       "checksum": "75d063b61915c9971050eda9a27c50d75a0e9e3b4220af4d3479972b33e85b5c",
       "icon_key": "60e453d76eca03c843f327c843bda31faaad3c7bc452bcad4cea1719ceeb819b",
       "id": "bayo.sh-bayosh-f73b73a0",
-      "first_seen": "2026-10-18"
+      "first_seen": "2026-10-18",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T03:18:35Z",
+      "download_count": 5,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "Prospero-Menu",
@@ -2611,7 +3903,14 @@
       "category": "Game Tools & Mods",
       "checksum": "1164262193931eb99cb61cd8e6414db9ff2d2cee93c74f523c5ebafae933c43e",
       "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
-      "id": "prospero-menu-prosperomenu-38dfae9a"
+      "id": "prospero-menu-prosperomenu-38dfae9a",
+      "github_stars": 22,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-17T20:13:58Z",
+      "download_count": 99,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "ps5-account-activator",
@@ -2625,7 +3924,14 @@
       "category": "Networking & Servers",
       "checksum": "92ef418c503aea340b058485b42f917f2ceedcc4b64acd6867d20cc30c9e93ff",
       "icon_key": "345557e65ea3699fbc83230077c8edbde91f41ed65b41ecdf31829d4880a3a1c",
-      "id": "ps5-account-activator-aio-activator_v2.1.0-c7f37168"
+      "id": "ps5-account-activator-aio-activator_v2.1.0-c7f37168",
+      "github_stars": 13,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-17T23:02:36Z",
+      "download_count": 135,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "ps5-discord-rpc",
@@ -2639,7 +3945,14 @@
       "category": "Utilities & Tools",
       "checksum": "eb31f2321dfdfc0991dfba8ebddd715adb4960d18ab8425ea445aa8a56e617fd",
       "icon_key": "c1914e919237544d607e5e98aa81d6627358fe8b4b02c02e76fbe943f506bf66",
-      "id": "ps5-discord-rpc-ps5-discord-rpc-64598b41"
+      "id": "ps5-discord-rpc-ps5-discord-rpc-64598b41",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-17T21:38:24Z",
+      "download_count": 4,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 6,
+      "last_update_months": 0.2
     }
   ]
 }
