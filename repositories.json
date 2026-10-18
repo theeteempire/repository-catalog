@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T08:14:48+00:00",
+  "generated_at": "2026-10-18T08:18:12+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 331,
   "payload_count": 178,
@@ -920,7 +920,7 @@
       "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
     },
     {
-      "name": "kstuff-lite",
+      "name": "kstuff-lite — EchoStretch",
       "description": "",
       "repository_url": "https://github.com/EchoStretch/kstuff-lite",
       "category": "Repositories",
@@ -942,7 +942,7 @@
       "icon_key": "f2ec005352d2a6d8f05e197551e222eebf3e420fa8d9b3939af821849a69a346"
     },
     {
-      "name": "kstuff-lite",
+      "name": "kstuff-lite — drakmor",
       "description": "",
       "repository_url": "https://github.com/drakmor/kstuff-lite",
       "category": "Repositories",
@@ -1317,7 +1317,7 @@
       "checksum": "ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1"
     },
     {
-      "name": "ftpsrv",
+      "name": "ftpsrv — ps5-payload-dev",
       "description": "An FTP server for jailbroken PS4s and PS5s",
       "repository_url": "https://github.com/ps5-payload-dev/ftpsrv",
       "category": "Repositories",
@@ -1373,7 +1373,7 @@
       "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb"
     },
     {
-      "name": "ftpsrv",
+      "name": "ftpsrv — drakmor",
       "description": "A simple FTP server for jailbroken PS4s and PS5s",
       "repository_url": "https://github.com/drakmor/ftpsrv",
       "category": "Repositories",
@@ -2490,7 +2490,7 @@
       "checksum": "d63c9aa03ca59e2d27b5a194d88ab4665f30379eaef14408bf6cee23aedf5edf"
     },
     {
-      "name": "afterglow",
+      "name": "afterglow — DevvNirvana",
       "description": "Radio and visuals for PS5: 222 free internet radio stations, your own USB music, and 56 beat-synced scenes. Native homebrew app.",
       "repository_url": "https://github.com/DevvNirvana/afterglow",
       "category": "Repositories",
@@ -2498,7 +2498,7 @@
       "icon_key": "d83ffafa364b57a5e1983f86f36cfa2c46337b68573e436bc566fd2187e35eb2"
     },
     {
-      "name": "afterglow-ps5",
+      "name": "afterglow-ps5 — HaydenGriffin",
       "description": "Unofficial Music Assistant player and MilkDrop visualiser for jailbroken PS5",
       "repository_url": "https://github.com/HaydenGriffin/afterglow-ps5",
       "category": "Repositories",
@@ -2590,7 +2590,7 @@
       "icon_key": "a29d01e806c8a4b0d2d1fe23dabe5e7c9d7716ae97973449c73db132a9a447ee"
     },
     {
-      "name": "rpcs3-PS5",
+      "name": "rpcs3-PS5 — lavavex",
       "description": "EXPERIMENTAL: RPCS3 as a native PS5 title (RADV Vulkan, Big Picture Mode). Source only, personal use.",
       "repository_url": "https://github.com/lavavex/rpcs3-PS5",
       "category": "Repositories",
@@ -2598,7 +2598,7 @@
       "icon_key": "fa7d2dc6740829939e0028a0a5c5c1d43e9bd944c83eeaad85ecc122471e4a3a"
     },
     {
-      "name": "PS5_RPCS3",
+      "name": "PS5_RPCS3 — dmzebro",
       "description": "Re-upload of PS5_RPCS3",
       "repository_url": "https://github.com/dmzebro/PS5_RPCS3",
       "category": "Repositories",
@@ -3290,7 +3290,7 @@
       "checksum": "a372966792449ded73db6f159efe8cdd2ecbc3af75b480216e11899d7b1aaa11"
     },
     {
-      "name": "ps5-payloads",
+      "name": "ps5-payloads — avoidik",
       "description": "Automatically discovered PS5-related GitHub repository.",
       "repository_url": "https://github.com/avoidik/ps5-payloads",
       "category": "PS5 Auto-discovered",
@@ -3330,7 +3330,7 @@
       "icon_key": "735563a64a97ac26acaede8591ebfe49aec2329c854da71ffc788d664927ee84"
     },
     {
-      "name": "ps5-mypayloads",
+      "name": "ps5-mypayloads — jonathanccox",
       "description": "Collection of payloads",
       "repository_url": "https://github.com/jonathanccox/ps5-mypayloads",
       "category": "PS5 Auto-discovered",
@@ -3376,7 +3376,7 @@
       "icon_key": "79c99ba1a2b9a454f68b3ba7cace987519d6a89154613bfc306e09a408da5c78"
     },
     {
-      "name": "ps5-payloads",
+      "name": "ps5-payloads — xkzink",
       "description": "Automatically discovered PS5-related GitHub repository.",
       "repository_url": "https://github.com/xkzink/ps5-payloads",
       "category": "PS5 Auto-discovered",
@@ -3416,7 +3416,7 @@
       "icon_key": "62c4d246c8deb88013e5e6e502912008ddcbdc5ea9847ca98e050dc187d286f7"
     },
     {
-      "name": "my-ps5-payloads",
+      "name": "my-ps5-payloads — tanushshukla",
       "description": "Automatically discovered PS5-related GitHub repository.",
       "repository_url": "https://github.com/tanushshukla/my-ps5-payloads",
       "category": "PS5 Auto-discovered",

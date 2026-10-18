@@ -1,7 +1,7 @@
 {
   "name": "Payload Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T08:14:48+00:00",
+  "generated_at": "2026-10-18T08:18:12+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
@@ -176,7 +176,7 @@
       "id": "ps5debug-ng-ps5debug-ng_1.3.2-ffafd129"
     },
     {
-      "name": "kstuff-lite — EchoStretch",
+      "name": "kstuff-lite",
       "filename": "kstuff-lite_v1.11.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-lite_v1.11.elf",
       "source": "https://github.com/EchoStretch/kstuff-lite/releases",
@@ -1052,7 +1052,7 @@
       "category": "Networking & Servers",
       "checksum": "2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75",
       "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8",
-      "id": "kstuff-lite-kstuff-1e0d5e90"
+      "id": "kstuff-lite-drakmor-kstuff-1e0d5e90"
     },
     {
       "name": "kstuff-a53",
