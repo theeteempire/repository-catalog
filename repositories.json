@@ -1,10 +1,10 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T01:28:13+00:00",
+  "generated_at": "2026-10-18T01:30:35+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 336,
-  "payload_count": 191,
+  "count": 335,
+  "payload_count": 188,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
@@ -209,7 +209,7 @@
       "repository_url": "https://github.com/s0liton/RommPS",
       "category": "Repositories",
       "author": "",
-      "icon_key": "afa6e2e74f6797dc44d015e9e55689eae020a53d5d1bfcacf54f2988499d61ea"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "fbneo-ps5",
@@ -3035,7 +3035,7 @@
       "repository_url": "https://github.com/PS5Dev/Byepervisor-Reborn",
       "category": "System & Jailbreak",
       "author": "PS5Dev",
-      "icon_key": "a030b8a7fd89968141d91cef3df16c5a5a89d13cf2ac6da75f6ce4973d0fa180"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "Enable-Disable-UPD-PS5",
@@ -3044,7 +3044,7 @@
       "category": "Utilities & Tools",
       "author": "logic-68",
       "payload_available": true,
-      "icon_key": "caf7258a0aa736743430d5c79ca13dcc75b0e49d3f954136c4c62a7962a2b9fc",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "version": "V1.0.3",
       "last_update": "2026-10-18",
       "payload_filename": "Enable-Disable-UPD-PS5v1.0.3.elf",
@@ -3056,7 +3056,7 @@
       "repository_url": "https://github.com/bc160201983/ps5-cloud-save",
       "category": "Utilities & Tools",
       "author": "bc160201983",
-      "icon_key": "e064b96d9a9df2ab220a4ffe94bd6505b7c39ee11b71435a57c6c4b14fee7440",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "payload_available": true,
       "payload_filename": "pscloud-dashboard.elf",
       "payload_url": "https://github.com/bc160201983/ps5-cloud-save/releases/download/v0.34.28/pscloud-dashboard.elf",
@@ -3076,7 +3076,7 @@
       "package_filename": "game-glance.zip",
       "package_url": "https://github.com/michpalm/game-glance/releases/download/v3.4.0/game-glance.zip",
       "checksum": "bea454654b24b4d675584c63ed29cff2f297c23ba3336944874943ee999de915",
-      "icon_key": "9a90f8b6bdcfb4b218002a64fcc4c759afdd1acbb30e9cf5ef2c8aec0770639c"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "PS5 Y2JB Autoloader",
@@ -3084,7 +3084,7 @@
       "repository_url": "https://github.com/itsPLK/ps5-y2jb-autoloader",
       "category": "System & Jailbreak",
       "author": "itsPLK",
-      "icon_key": "44863ac89e9d4610329af2ddf38682343888a91b7649ade8f1ff528ee2241236"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "Recomp Store",
@@ -3094,7 +3094,7 @@
       "author": "elripalda",
       "version": "v1.0.3",
       "payload_available": true,
-      "icon_key": "54514201b7899064916785559eb70271c54612784af72f8953e631413143ccf0",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "last_update": "2026-10-18",
       "payload_filename": "RecompStore-Installer.elf",
       "payload_url": "https://github.com/elripalda/RecompStore/releases/download/v1.0.3/RecompStore-Installer.elf"
@@ -3122,7 +3122,7 @@
       "repository_url": "https://github.com/overdriveps5/overdrive-releases",
       "category": "Utilities & Tools",
       "author": "overdriveps5",
-      "icon_key": "cbd0f0088dc3482687e5422248098d7b9d7a35850d9c5aaa3becc58f81bbfba5"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "Overdrive",
@@ -3131,7 +3131,7 @@
       "category": "Utilities & Tools",
       "author": "MyLuxy",
       "version": "v1.0.2",
-      "icon_key": "c3070672647c9c3101794edd2eea73d12f26074d91531bc4d12895508505ba84"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "PS5 LZ4 Compression",
@@ -3147,7 +3147,7 @@
       "repository_url": "https://github.com/nexgen999/evoX-CoreOS_Start-Page",
       "category": "Gaming & UI",
       "author": "nexgen999",
-      "icon_key": "7d61b1d9a769ce9ed6be11887253c0a63713e9e87ff116144d6432698195bc52"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "PS5 Firmware PIN",
@@ -3155,7 +3155,7 @@
       "repository_url": "https://github.com/lvndry/ps5-firmware-pin",
       "category": "System & Jailbreak",
       "author": "lvndry",
-      "icon_key": "3fc995157d9c2d9a5df3c5b83ceb6bc8feec9322fde47c63bcc2333c0d158f95"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "AnyPad PS5 English",
@@ -3165,7 +3165,7 @@
       "author": "S-Mohammad-A",
       "version": "0.5.5-beta",
       "payload_available": true,
-      "icon_key": "21b844953e9b77a50e35b79ac3340e07b5bd63e996ed35a5a7a671792caaa542",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "last_update": "2026-10-18",
       "payload_filename": "AnyPad-PS5-0.5.5-beta.elf",
       "payload_url": "https://github.com/S-Mohammad-A/AnyPad-PS5-English/releases/download/AnyPad/AnyPad-PS5-0.5.5-beta.elf"
@@ -3177,7 +3177,7 @@
       "category": "Account & Remote Play",
       "author": "MangoScango",
       "payload_available": true,
-      "icon_key": "c2546bf481617bb2c5b1f2ab4893e5b63027e2ff456ea0543a7a47b5ebf4f68b",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "version": "v1.2",
       "last_update": "2026-10-18",
       "payload_filename": "ps5-account-tools-v1.2.elf",
@@ -3189,7 +3189,7 @@
       "repository_url": "https://github.com/nexgen999/PS5-Repository-List",
       "category": "Utilities & Tools",
       "author": "nexgen999",
-      "icon_key": "7d61b1d9a769ce9ed6be11887253c0a63713e9e87ff116144d6432698195bc52"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "PLDMGR_JSON",
@@ -3642,22 +3642,6 @@
       "version": "v0.1.0",
       "last_update": "2026-10-11",
       "checksum": "37d571ac23ddb58648a44665f90a5939d06cdda0b71cc77e9d6a5358bb6e1957"
-    },
-    {
-      "name": "obSCEne",
-      "description": "A conformance probe for the Prospero-generation platform, in freestanding C.",
-      "repository_url": "https://github.com/project-oops/obSCEne",
-      "category": "PS5 Auto-discovered",
-      "author": "project-oops",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "9f407062d6d757ab409057d1f62838c2448d08e1959c225491b0ad6c4132a466",
-      "payload_available": true,
-      "payload_filename": "obscene-probe-prospero.elf",
-      "payload_url": "https://github.com/project-oops/obSCEne/releases/download/latest-main/obscene-probe-prospero.elf",
-      "version": "latest-main",
-      "last_update": "2026-09-11",
-      "checksum": "f81950daab5613176849814cfbd93a9f7c584e64e31da9425560507f2ee60273"
     },
     {
       "name": "AnyPS5",

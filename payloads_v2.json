@@ -1,7 +1,7 @@
 {
   "name": "Payload Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T01:28:13+00:00",
+  "generated_at": "2026-10-18T01:30:35+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
@@ -342,7 +342,7 @@
       "category": "System & Jailbreak",
       "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e",
       "id": "lapy-jb-daemon-lapy-jb-daemon_v1.2-a4400fbc",
-      "icon_key": "44863ac89e9d4610329af2ddf38682343888a91b7649ade8f1ff528ee2241236"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "BackPork",
@@ -479,7 +479,7 @@
       "last_update": "2026-10-18",
       "category": "Utilities & Tools",
       "id": "enable-disable-upd-ps5-enable-disable-upd-ps5v1.0.3-6eaf6e19",
-      "icon_key": "caf7258a0aa736743430d5c79ca13dcc75b0e49d3f954136c4c62a7962a2b9fc"
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "RecompStore Installer · NEW",
@@ -492,7 +492,7 @@
       "last_update": "2026-10-18",
       "category": "Utilities & Tools",
       "id": "recompstore-installer-recompstore-installer-3cb17712",
-      "icon_key": "54514201b7899064916785559eb70271c54612784af72f8953e631413143ccf0",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "first_seen": "2026-10-17"
     },
     {
@@ -506,7 +506,7 @@
       "last_update": "2026-10-18",
       "category": "Utilities & Tools",
       "id": "anypad-ps5-english-anypad-ps5-0.5.5-beta-f5cfe946",
-      "icon_key": "21b844953e9b77a50e35b79ac3340e07b5bd63e996ed35a5a7a671792caaa542",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "first_seen": "2026-10-18"
     },
     {
@@ -520,7 +520,7 @@
       "last_update": "2026-10-18",
       "category": "Account & Remote Play",
       "id": "ps5-account-tools-ps5-account-tools-v1.2-7fb0bd44",
-      "icon_key": "c2546bf481617bb2c5b1f2ab4893e5b63027e2ff456ea0543a7a47b5ebf4f68b",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "first_seen": "2026-10-18"
     },
     {
@@ -2506,7 +2506,7 @@
       "version": "v0.34.28",
       "category": "File & Package Management",
       "checksum": "4298b70ed5262bc2acdf03a88e835ea01f0c7e081fbde2a0566841f4508dd271",
-      "icon_key": "e064b96d9a9df2ab220a4ffe94bd6505b7c39ee11b71435a57c6c4b14fee7440",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "id": "pscloud-dashboard-pscloud-dashboard-25b0090b"
     },
     {
@@ -2635,48 +2635,6 @@
       "checksum": "37d571ac23ddb58648a44665f90a5939d06cdda0b71cc77e9d6a5358bb6e1957",
       "icon_key": "46d2ffc86d12108ce4d7e9e8f79b7e2c7d64b02189736fb4b2897364c247654d",
       "id": "librespot-ps5-librespot-ps5-c6523ee1"
-    },
-    {
-      "name": "obSCEne — obscene-injector",
-      "filename": "obscene-injector.elf",
-      "url": "https://github.com/project-oops/obSCEne/releases/download/latest-main/obscene-injector.elf",
-      "source": "https://github.com/project-oops/obSCEne/releases",
-      "source_direct": "https://github.com/project-oops/obSCEne/releases/download/latest-main/obscene-injector.elf",
-      "description": "A conformance probe for the Prospero-generation platform, in freestanding C.",
-      "last_update": "2026-09-11",
-      "version": "latest-main",
-      "category": "Utilities & Tools",
-      "checksum": "549a997aea326cc41d863811d0d24797a90314421f416d5e4c422c32ba761049",
-      "icon_key": "9f407062d6d757ab409057d1f62838c2448d08e1959c225491b0ad6c4132a466",
-      "id": "obscene-obscene-injector-1a3886a4"
-    },
-    {
-      "name": "obSCEne — obscene-module",
-      "filename": "obscene-module.elf",
-      "url": "https://github.com/project-oops/obSCEne/releases/download/latest-main/obscene-module.elf",
-      "source": "https://github.com/project-oops/obSCEne/releases",
-      "source_direct": "https://github.com/project-oops/obSCEne/releases/download/latest-main/obscene-module.elf",
-      "description": "A conformance probe for the Prospero-generation platform, in freestanding C.",
-      "last_update": "2026-09-11",
-      "version": "latest-main",
-      "category": "Utilities & Tools",
-      "checksum": "dc3c804fa7f08f695a3a81c122729efb19b6b821de0122bc946f95b3ea1523ff",
-      "icon_key": "9f407062d6d757ab409057d1f62838c2448d08e1959c225491b0ad6c4132a466",
-      "id": "obscene-obscene-module-21ae2fb5"
-    },
-    {
-      "name": "obSCEne — obscene-probe-prospero",
-      "filename": "obscene-probe-prospero.elf",
-      "url": "https://github.com/project-oops/obSCEne/releases/download/latest-main/obscene-probe-prospero.elf",
-      "source": "https://github.com/project-oops/obSCEne/releases",
-      "source_direct": "https://github.com/project-oops/obSCEne/releases/download/latest-main/obscene-probe-prospero.elf",
-      "description": "A conformance probe for the Prospero-generation platform, in freestanding C.",
-      "last_update": "2026-09-11",
-      "version": "latest-main",
-      "category": "Utilities & Tools",
-      "checksum": "f81950daab5613176849814cfbd93a9f7c584e64e31da9425560507f2ee60273",
-      "icon_key": "9f407062d6d757ab409057d1f62838c2448d08e1959c225491b0ad6c4132a466",
-      "id": "obscene-obscene-probe-prospero-64e860d6"
     }
   ]
 }
