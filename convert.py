@@ -290,7 +290,7 @@ def add_avatar_icon(owner_avatar_url: str, icons: dict[str, str]) -> str:
     fallback_data = "data:image/svg+xml;base64," + base64.b64encode(fallback_svg.encode("utf-8")).decode("ascii")
     icons.setdefault(fallback_key, fallback_data)
 
-    if not owner_avatar_url.startswith("https://"):
+    if not owner_avatar_url.startswith("https://avatars.githubusercontent.com/"):
         return fallback_key
     try:
         raw = request_bytes(owner_avatar_url, accept="image/*", timeout=4)
