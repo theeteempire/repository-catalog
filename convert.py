@@ -215,6 +215,19 @@ def payload_identity(payload: dict[str, Any]) -> tuple[str, str]:
     return repo.lower(), filename
 
 
+def payload_global_identity(payload: dict[str, Any]) -> tuple[str, str, str]:
+    """Collapse identical app builds mirrored by different repository forks."""
+    name = re.sub(r"\\s*[·•]\\s*NEW\\s*$", "", str(payload.get("name") or ""), flags=re.I)
+    name = re.split(r"\\s+[—–]\\s+", name, maxsplit=1)[0]
+    name = re.sub(r"\\s+", " ", name).strip().casefold()
+    filename = str(payload.get("filename") or "").rsplit("/", 1)[-1].lower()
+    filename = re.sub(r"\\.elf$", "", filename)
+    filename = re.sub(r"[_-]v?\\d+(?:[._-]\\d+)*(?:[-_][a-z][a-z0-9._-]*)?$", "", filename)
+    filename = re.sub(r"[-_.]+", "-", filename).strip("-")
+    version = str(payload.get("version") or "").strip().lower().removeprefix("v")
+    return name, filename, version
+
+
 def payload_slug(value: Any) -> str:
     value = str(value or "").lower()
     value = re.sub(r"[^a-z0-9._-]+", "-", value)
@@ -771,6 +784,7 @@ def main() -> int:
     deduplicated_payloads: list[dict[str, Any]] = []
     seen_payload_urls_normalized: set[str] = set()
     seen_payload_identities: set[tuple[str, str]] = set()
+    seen_global_identities: set[tuple[str, str, str]] = set()
     for payload in payloads:
         filename = str(payload.get("filename") or "")
         if re.search(r"(?i)(?:^|[-_.])ps4(?:[-_.]|$)", filename):
@@ -789,10 +803,15 @@ def main() -> int:
         identity = payload_identity(payload)
         if identity[1] and identity in seen_payload_identities:
             continue
+        global_identity = payload_global_identity(payload)
+        if all(global_identity) and global_identity in seen_global_identities:
+            continue
         if normalized_url:
             seen_payload_urls_normalized.add(normalized_url)
         if identity[1]:
             seen_payload_identities.add(identity)
+        if all(global_identity):
+            seen_global_identities.add(global_identity)
         deduplicated_payloads.append(payload)
     removed_duplicates = len(payloads) - len(deduplicated_payloads)
     payloads = deduplicated_payloads
