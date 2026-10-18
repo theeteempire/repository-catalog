@@ -457,6 +457,7 @@ def main() -> int:
 
     # Keep explicitly curated projects that may not yet appear in the upstream repository list.
     # These are repository metadata records; only verified direct ELF release assets become payloads.
+    # Keep the curated list in source control so scheduled refreshes do not drop these entries.
     curated_path = OUT_DIR / "curated_repositories.json"
     try:
         curated_data = json.loads(curated_path.read_text(encoding="utf-8"))
