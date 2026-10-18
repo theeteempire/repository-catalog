@@ -1,9 +1,9 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T10:45:18+00:00",
+  "generated_at": "2026-10-18T11:00:29+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 337,
+  "count": 336,
   "payload_count": 194,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
@@ -115,7 +115,7 @@
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.1.elf",
       "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
       "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
-      "github_stars": 1109,
+      "github_stars": 1110,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-08T19:48:49Z",
       "last_update_days": 10,
@@ -191,7 +191,7 @@
       "payload_filename": "nanoDNS_0.4.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/nanoDNS_0.4.elf",
       "checksum": "dcb845f3570771275b22b37534bf924a7f8ae219fb91ef00c6bccab85d1c2420",
-      "github_stars": 421,
+      "github_stars": 422,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-12T14:55:40Z",
       "last_update_days": 75,
@@ -573,7 +573,7 @@
       "category": "Repositories",
       "author": "blackbearreloaded",
       "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac",
-      "github_stars": 748,
+      "github_stars": 749,
       "open_issues_count": 60,
       "repository_updated_at": "2026-10-18T03:56:25Z"
     },
@@ -661,7 +661,7 @@
       "payload_filename": "ps5-web-file-manager_v1.11.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.11.elf",
       "checksum": "cbcdacf69c331025e1643fc99f5b5fc117125e7c39931b6dd914323412558911",
-      "github_stars": 206,
+      "github_stars": 207,
       "open_issues_count": 8,
       "repository_updated_at": "2026-10-17T18:19:46Z",
       "last_update_days": 1,
@@ -2208,7 +2208,7 @@
       "icon_key": "17864bd13ecdedda1cccd22797141de2acea6567c241ccd3a5c8fb9da21f1772",
       "github_stars": 5,
       "open_issues_count": 4,
-      "repository_updated_at": "2026-10-17T23:09:03Z"
+      "repository_updated_at": "2026-10-18T10:54:30Z"
     },
     {
       "name": "nuvio-ps5-homebrew",
@@ -2291,7 +2291,7 @@
       "category": "Repositories",
       "author": "StonedModder",
       "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
-      "github_stars": 27,
+      "github_stars": 28,
       "open_issues_count": 5,
       "repository_updated_at": "2026-10-10T16:46:27Z"
     },
@@ -2615,7 +2615,7 @@
       "version": "v0.2.0",
       "last_update": "2026-10-16",
       "checksum": "2a4294745f1fc81f8e18c4e5258ed32ae61e5362c944cc63bda6413b3fd3b90e",
-      "github_stars": 42,
+      "github_stars": 43,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T14:23:28Z",
       "last_update_days": 2,
@@ -3148,7 +3148,7 @@
       "category": "Repositories",
       "author": "kerrdec97",
       "icon_key": "db94366ce572ae792159346bf806db5fbb0881e7a0b95754d627b1d18da18b4c",
-      "github_stars": 70,
+      "github_stars": 71,
       "open_issues_count": 12,
       "repository_updated_at": "2026-10-18T06:09:03Z"
     },
@@ -3520,7 +3520,7 @@
       "category": "Repositories",
       "author": "SynoPiia",
       "icon_key": "a29d01e806c8a4b0d2d1fe23dabe5e7c9d7716ae97973449c73db132a9a447ee",
-      "github_stars": 71,
+      "github_stars": 72,
       "open_issues_count": 4,
       "repository_updated_at": "2026-10-12T03:31:26Z"
     },
@@ -3553,7 +3553,7 @@
       "category": "Repositories",
       "author": "kamb205",
       "icon_key": "00019813b45614797a660a57ebf7cbf6daca69fd7a58ba3dfc96c487d37dd5fd",
-      "github_stars": 54,
+      "github_stars": 55,
       "open_issues_count": 4,
       "repository_updated_at": "2026-10-11T12:38:46Z"
     },
@@ -3649,7 +3649,7 @@
       "checksum": "4fe45ae380ff6ddbae45705ee4fe7686024b3481c7f2fc601af40f2526d6fa15",
       "github_stars": 1,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T10:17:16Z",
+      "repository_updated_at": "2026-10-18T10:56:57Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -3808,7 +3808,7 @@
       "version": "v.1.2.1",
       "last_update": "2026-10-16",
       "checksum": "147945cffb28405557a49cd4929c7d0534c55f6a757aba0063f9ce475c1c7255",
-      "github_stars": 56,
+      "github_stars": 55,
       "open_issues_count": 7,
       "repository_updated_at": "2026-10-16T20:56:27Z",
       "last_update_days": 2,
@@ -4196,7 +4196,7 @@
       "package_filename": "y2jb_update.zip",
       "package_url": "https://github.com/itsPLK/ps5-y2jb-autoloader/releases/download/v1.0.2-254c85f/y2jb_update.zip",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 898,
+      "github_stars": 899,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-15T12:33:54Z",
       "last_update_days": 4,
@@ -4259,7 +4259,7 @@
       "author": "MyLuxy",
       "version": "v1.0.2",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 705,
+      "github_stars": 708,
       "open_issues_count": 10,
       "repository_updated_at": "2026-10-18T04:34:12Z"
     },
@@ -4368,30 +4368,17 @@
       "last_update_months": 9.0
     },
     {
-      "name": "ArtemisLM-PS5",
-      "description": "Home build of PS5LM. llama.cpp on a PlayStation 5, with a chat page that reads the console clock and searches the web.",
-      "repository_url": "https://github.com/joelsmithlowe/ArtemisLM-PS5",
+      "name": "ps5-payload-constellation",
+      "description": "Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
+      "repository_url": "https://github.com/DeborahO18/ps5-payload-constellation",
       "category": "PS5 Auto-discovered",
-      "author": "joelsmithlowe",
+      "author": "DeborahO18",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "178a58aee5d7f3a5ab59eb4854e183ee9c99e35a87ef2243a619b004e2fd56b3",
-      "github_stars": 0,
+      "icon_key": "d3ef388f78878712212611b112174465286edb748ee9be73df58aa390261e8ea",
+      "github_stars": 1,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T10:39:28Z"
-    },
-    {
-      "name": "ps5-java25-homebrew",
-      "description": "Native OpenJDK 25 runtime port for PS5 homebrew, with console-tested milestones and Java acceptance probes.",
-      "repository_url": "https://github.com/mateo-cogeanu/ps5-java25-homebrew",
-      "category": "PS5 Auto-discovered",
-      "author": "mateo-cogeanu",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
-      "github_stars": 6,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T10:39:37Z"
+      "repository_updated_at": "2026-10-18T10:41:22Z"
     },
     {
       "name": "ps5-minecraft-java",
@@ -4405,6 +4392,19 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T10:40:49Z"
+    },
+    {
+      "name": "ps5-java25-homebrew",
+      "description": "Native OpenJDK 25 runtime port for PS5 homebrew, with console-tested milestones and Java acceptance probes.",
+      "repository_url": "https://github.com/mateo-cogeanu/ps5-java25-homebrew",
+      "category": "PS5 Auto-discovered",
+      "author": "mateo-cogeanu",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
+      "github_stars": 6,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T10:39:37Z"
     },
     {
       "name": "ps5-homebrew-tools",
@@ -4428,7 +4428,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
-      "github_stars": 3,
+      "github_stars": 4,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-18T10:15:15Z"
     },
@@ -4563,7 +4563,7 @@
       "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
       "github_stars": 47,
       "open_issues_count": 7,
-      "repository_updated_at": "2026-10-18T07:10:48Z"
+      "repository_updated_at": "2026-10-18T10:56:52Z"
     },
     {
       "name": "estante",
@@ -4577,19 +4577,6 @@
       "github_stars": 1,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T07:00:32Z"
-    },
-    {
-      "name": "ps5-payload-constellation",
-      "description": "Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
-      "repository_url": "https://github.com/DeborahO18/ps5-payload-constellation",
-      "category": "PS5 Auto-discovered",
-      "author": "DeborahO18",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "d3ef388f78878712212611b112174465286edb748ee9be73df58aa390261e8ea",
-      "github_stars": 1,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T10:41:22Z"
     },
     {
       "name": "JB_STORE",
@@ -4626,6 +4613,32 @@
       "last_update_months": 2.3
     },
     {
+      "name": "XXIIPS5",
+      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
+      "repository_url": "https://github.com/XXIITEAM/XXIIPS5",
+      "category": "PS5 Auto-discovered",
+      "author": "XXIITEAM",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "1d20ab9be4969f1780d9af8b335ecbfab54a3aebd43a465bbff97c0b61750049",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T10:49:03Z"
+    },
+    {
+      "name": "PS5-14.10-Research",
+      "description": "PS5 firmware 14.10 kernel attack surface research - 62 Lua probes mapping syscalls, memory, networking, and exploit paths from userland",
+      "repository_url": "https://github.com/ZigZagBoi1/PS5-14.10-Research",
+      "category": "PS5 Auto-discovered",
+      "author": "ZigZagBoi1",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
+      "github_stars": 117,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-18T10:40:24Z"
+    },
+    {
       "name": "Botty-Plus",
       "description": "Botty+ PS5 native app, download manager, torrent engine and compression services",
       "repository_url": "https://github.com/Portablelle/Botty-Plus",
@@ -4637,19 +4650,6 @@
       "github_stars": 26,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-18T10:29:16Z"
-    },
-    {
-      "name": "PS5-14.10-Research",
-      "description": "PS5 firmware 14.10 kernel attack surface research - 62 Lua probes mapping syscalls, memory, networking, and exploit paths from userland",
-      "repository_url": "https://github.com/ZigZagBoi1/PS5-14.10-Research",
-      "category": "PS5 Auto-discovered",
-      "author": "ZigZagBoi1",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
-      "github_stars": 118,
-      "open_issues_count": 1,
-      "repository_updated_at": "2026-10-18T10:40:24Z"
     },
     {
       "name": "PLM-Repository",
@@ -4686,7 +4686,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436",
-      "github_stars": 8954,
+      "github_stars": 8955,
       "open_issues_count": 863,
       "repository_updated_at": "2026-10-18T04:16:13Z"
     },
@@ -4699,7 +4699,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e",
-      "github_stars": 168,
+      "github_stars": 169,
       "open_issues_count": 6,
       "repository_updated_at": "2026-10-18T03:39:42Z"
     },
@@ -4830,7 +4830,7 @@
       "version": "v1.1.0",
       "last_update": "2026-10-17",
       "checksum": "1164262193931eb99cb61cd8e6414db9ff2d2cee93c74f523c5ebafae933c43e",
-      "github_stars": 24,
+      "github_stars": 26,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T20:13:58Z",
       "last_update_days": 1,
@@ -4877,7 +4877,7 @@
       "version": "v2.1.0",
       "last_update": "2026-10-17",
       "checksum": "92ef418c503aea340b058485b42f917f2ceedcc4b64acd6867d20cc30c9e93ff",
-      "github_stars": 14,
+      "github_stars": 15,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T23:02:36Z",
       "last_update_days": 1,
@@ -4919,8 +4919,8 @@
       "discovered_at": "2026-10-18",
       "icon_key": "4ac95ff0b6921a59621ee60315ab20c643fd038de45c7ad0e66e3b1054457027",
       "github_stars": 208,
-      "open_issues_count": 873,
-      "repository_updated_at": "2026-10-18T10:40:25Z"
+      "open_issues_count": 874,
+      "repository_updated_at": "2026-10-18T10:59:52Z"
     },
     {
       "name": "ps5-payloads",
@@ -4965,22 +4965,22 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "8cb3a184dfcd658d03cc16fedf265fbd2e4809d93b9e3d3069237a2c1c92ab88",
-      "github_stars": 14,
+      "github_stars": 15,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T21:12:15Z"
     },
     {
-      "name": "XXIIPS5",
-      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
-      "repository_url": "https://github.com/XXIITEAM/XXIIPS5",
+      "name": "AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "repository_url": "https://github.com/boykopovar/AnyPS5",
       "category": "PS5 Auto-discovered",
-      "author": "XXIITEAM",
+      "author": "boykopovar",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "1d20ab9be4969f1780d9af8b335ecbfab54a3aebd43a465bbff97c0b61750049",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-17T20:54:14Z"
+      "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
+      "github_stars": 42406,
+      "open_issues_count": 1002,
+      "repository_updated_at": "2026-10-18T10:52:23Z"
     },
     {
       "name": "PS5_etaHEN_Cheat_Repository",
@@ -4994,19 +4994,6 @@
       "github_stars": 94,
       "open_issues_count": 5,
       "repository_updated_at": "2026-10-18T09:43:56Z"
-    },
-    {
-      "name": "AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "repository_url": "https://github.com/boykopovar/AnyPS5",
-      "category": "PS5 Auto-discovered",
-      "author": "boykopovar",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
-      "github_stars": 42386,
-      "open_issues_count": 1001,
-      "repository_updated_at": "2026-10-18T09:27:05Z"
     }
   ]
 }
