@@ -1,9 +1,9 @@
 {
-  "name": "PS5 Repository Catalog",
+  "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T00:02:43+00:00",
+  "generated_at": "2026-10-18T00:10:42+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 323,
+  "count": 325,
   "payload_count": 186,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
@@ -372,9 +372,9 @@
       "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
       "payload_available": true,
       "payload_filename": "SwanStationPS5-DiscDaemon.elf",
-      "payload_url": "https://github.com/darkxex/SwanStationPS5/releases/download/1.4.1/SwanStationPS5-DiscDaemon.elf",
-      "version": "1.4.1",
-      "last_update": "2026-10-17",
+      "payload_url": "https://github.com/darkxex/SwanStationPS5/releases/download/1.4.2/SwanStationPS5-DiscDaemon.elf",
+      "version": "1.4.2",
+      "last_update": "2026-10-18",
       "checksum": "d996f06cbd98c96af7eed24606f38f09dd900cc55ce2cf0859d17ef71bd55abd"
     },
     {
@@ -3015,6 +3015,46 @@
       "checksum": "095e4ed478aacadaf5d55751d91007a0fc3d0b2cfe5ea5c1d3c62f06366e753c"
     },
     {
+      "name": "my-ps5-payloads",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/tanushshukla/my-ps5-payloads",
+      "category": "PS5 Auto-discovered",
+      "author": "tanushshukla",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "84393d69aedb2774cddc74f65e6dd7863a809ef9bedf1a56f18fa131bb896caa"
+    },
+    {
+      "name": "ps5-payloads",
+      "description": "PS5 payload repository for PS5 Payload Manager - serves ps5-localsend and syncps5 from latest releases",
+      "repository_url": "https://github.com/heydemoura/ps5-payloads",
+      "category": "PS5 Auto-discovered",
+      "author": "heydemoura",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "f5abba1c8028d2df0f778d2c5374ddb63851a4419f01356d4bf615fc2b65673b"
+    },
+    {
+      "name": "AnchorPS5-catalog",
+      "description": "Catálogo oficial de homebrew para AnchorPS5 · Official homebrew catalog for AnchorPS5",
+      "repository_url": "https://github.com/Kuroge/AnchorPS5-catalog",
+      "category": "PS5 Auto-discovered",
+      "author": "Kuroge",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "97de1ed11ab798302a12ed905ba7c2002fc0518c650ac9fe1c44e9f1e5d5c28c"
+    },
+    {
+      "name": "overdrive",
+      "description": "Overdrive, a PS5 homebrew game store with 1,800+ games.",
+      "repository_url": "https://github.com/MyLuxy/overdrive",
+      "category": "PS5 Auto-discovered",
+      "author": "MyLuxy",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "38cc60ea92b893f8748e5767bd3f2b5b4c62032a1484d3af2d435a2199b769fa"
+    },
+    {
       "name": "ps5-homebrew-catalog",
       "description": "Automatically discovered PS5-related GitHub repository.",
       "repository_url": "https://github.com/blackbearreloaded/ps5-homebrew-catalog",
@@ -3135,26 +3175,6 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22"
-    },
-    {
-      "name": "overdrive",
-      "description": "Overdrive, a PS5 homebrew game store with 1,800+ games.",
-      "repository_url": "https://github.com/MyLuxy/overdrive",
-      "category": "PS5 Auto-discovered",
-      "author": "MyLuxy",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "38cc60ea92b893f8748e5767bd3f2b5b4c62032a1484d3af2d435a2199b769fa"
-    },
-    {
-      "name": "AnchorPS5-catalog",
-      "description": "Catálogo oficial de homebrew para AnchorPS5 · Official homebrew catalog for AnchorPS5",
-      "repository_url": "https://github.com/Kuroge/AnchorPS5-catalog",
-      "category": "PS5 Auto-discovered",
-      "author": "Kuroge",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "97de1ed11ab798302a12ed905ba7c2002fc0518c650ac9fe1c44e9f1e5d5c28c"
     },
     {
       "name": "pkg-stream-delivery",
@@ -3279,6 +3299,26 @@
       "icon_key": "237b4b6eb81598209beda9277a00e9918b27d201b9ea4707ac8ddab981cd2db6"
     },
     {
+      "name": "JavaCraft",
+      "description": "JavaCraft is an open-source launcher project by **V0BIT** for running a player's own Minecraft Java Edition installation through the Prospero Win homebrew runtime on a homebrew-enabled PS5. It is a compatibility launcher, not a native PS5 port of Minecraft. JavaCraft is not affiliated with Mojang, Microsoft, or Sony.",
+      "repository_url": "https://github.com/SirAbdllah/JavaCraft",
+      "category": "PS5 Auto-discovered",
+      "author": "SirAbdllah",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "e35c9e432bcdaafe114aefafd81e6f28f9581fc3ee7fb1541fb10d2b74740f35"
+    },
+    {
+      "name": "KytyPS5",
+      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
+      "repository_url": "https://github.com/KytyPS5/KytyPS5",
+      "category": "PS5 Auto-discovered",
+      "author": "KytyPS5",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436"
+    },
+    {
       "name": "PS5-14.10-Research",
       "description": "PS5 firmware 14.10 kernel attack surface research - 62 Lua probes mapping syscalls, memory, networking, and exploit paths from userland",
       "repository_url": "https://github.com/ZigZagBoi1/PS5-14.10-Research",
@@ -3299,16 +3339,6 @@
       "icon_key": "1d20ab9be4969f1780d9af8b335ecbfab54a3aebd43a465bbff97c0b61750049"
     },
     {
-      "name": "JavaCraft",
-      "description": "JavaCraft is an open-source launcher project by **V0BIT** for running a player's own Minecraft Java Edition installation through the Prospero Win homebrew runtime on a homebrew-enabled PS5. It is a compatibility launcher, not a native PS5 port of Minecraft. JavaCraft is not affiliated with Mojang, Microsoft, or Sony.",
-      "repository_url": "https://github.com/SirAbdllah/JavaCraft",
-      "category": "PS5 Auto-discovered",
-      "author": "SirAbdllah",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "e35c9e432bcdaafe114aefafd81e6f28f9581fc3ee7fb1541fb10d2b74740f35"
-    },
-    {
       "name": "ps5-minecraft-java",
       "description": "Future Minecraft Java Edition homebrew for PS5. Java runtime port: https://github.com/mateo-cogeanu/ps5-java25-homebrew",
       "repository_url": "https://github.com/mateo-cogeanu/ps5-minecraft-java",
@@ -3327,16 +3357,6 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327"
-    },
-    {
-      "name": "KytyPS5",
-      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
-      "repository_url": "https://github.com/KytyPS5/KytyPS5",
-      "category": "PS5 Auto-discovered",
-      "author": "KytyPS5",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436"
     },
     {
       "name": "JB_STORE_REPO",

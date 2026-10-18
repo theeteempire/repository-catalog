@@ -1,7 +1,7 @@
 {
-  "name": "PS5 Payloads",
+  "name": "Payload Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T00:02:43+00:00",
+  "generated_at": "2026-10-18T00:10:42+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
@@ -627,16 +627,16 @@
     {
       "name": "SwanStationPS5",
       "filename": "SwanStationPS5-DiscDaemon.elf",
-      "url": "https://github.com/darkxex/SwanStationPS5/releases/download/1.4.1/SwanStationPS5-DiscDaemon.elf",
+      "url": "https://github.com/darkxex/SwanStationPS5/releases/download/1.4.2/SwanStationPS5-DiscDaemon.elf",
       "source": "https://github.com/darkxex/SwanStationPS5/releases",
-      "source_direct": "https://github.com/darkxex/SwanStationPS5/releases/download/1.4.1/SwanStationPS5-DiscDaemon.elf",
+      "source_direct": "https://github.com/darkxex/SwanStationPS5/releases/download/1.4.2/SwanStationPS5-DiscDaemon.elf",
       "description": "SwanStationPS5 (PSXS5 Fork to work with the SwanStation core): a PlayStation 1 emulator running natively on jailbroken PS5, based on SwanStation.  https://discord.gg/MseFnnfYzt",
-      "last_update": "2026-10-17",
-      "version": "1.4.1",
+      "last_update": "2026-10-18",
+      "version": "1.4.2",
       "category": "Networking & Servers",
       "checksum": "d996f06cbd98c96af7eed24606f38f09dd900cc55ce2cf0859d17ef71bd55abd",
       "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
-      "id": "swanstationps5-swanstationps5-discdaemon-0faafe16"
+      "id": "swanstationps5-swanstationps5-discdaemon-14aae9aa"
     },
     {
       "name": "XPSemu",
