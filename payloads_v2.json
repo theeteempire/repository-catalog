@@ -985,6 +985,20 @@
       "id": "padrino-save-vault-padrinosavevault-0ba1441f"
     },
     {
+      "name": "PatchDL",
+      "filename": "patchdl_0.2.1.elf",
+      "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
+      "source": "https://github.com/knutwurst/ps5-patchdl/releases",
+      "source_direct": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
+      "description": "Downloads official, unmodified game updates for games already installed on the console. Includes clearer download failure diagnostics and marks sideloaded apps so bulk updates leave them unchanged.",
+      "last_update": "2026-10-17",
+      "version": "v0.2.1",
+      "category": "Utilities & Tools",
+      "checksum": "5458739714d93ad807f3720ff3a2107687bf18be6e238c3f531a93f55d3467b7",
+      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b",
+      "id": "patchdl-patchdl_0.2.1"
+    },
+    {
       "name": "pegasus-dl",
       "filename": "pegasus_dl.elf",
       "url": "https://github.com/pegasus-ps5/pegasus-dl/releases/download/v1.11.0/pegasus_dl.elf",
@@ -1725,20 +1739,6 @@
       "checksum": "df5cdecd64d458e9b507afd2307b8652b8543197f60a861fb7ed684488c1b8e8",
       "icon_key": "561e540f77947935a1b0e7b525c4ece33ab61ba58e8764c28112d05b5090eac0",
       "id": "ps5-notify-app-notify-bridge-05a5c397"
-    },
-    {
-      "name": "ps5-patchdl",
-      "filename": "patchdl_0.2.1.elf",
-      "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
-      "source": "https://github.com/knutwurst/ps5-patchdl/releases",
-      "source_direct": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
-      "description": "Official updates for your PS5 and PS4 games, from any browser. PatchDL runs on the PS5, finds the newest update for every installed game, downloads it with parallel connections and resume, and installs it on the console. Web UI for phone, laptop and TV, plus a home-screen tile. Runs on firmware 1.00 to 13.60.",
-      "last_update": "2026-10-17",
-      "version": "v0.2.1",
-      "category": "Game Tools & Mods",
-      "checksum": "5458739714d93ad807f3720ff3a2107687bf18be6e238c3f531a93f55d3467b7",
-      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b",
-      "id": "ps5-patchdl-patchdl_0.2.1-5730d58b"
     },
     {
       "name": "ps5-payload-manager",
