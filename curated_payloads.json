@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "payloads": [
+    {
+      "name": "PatchDL",
+      "filename": "patchdl_0.2.1.elf",
+      "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
+      "source": "https://github.com/knutwurst/ps5-patchdl/releases",
+      "source_direct": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
+      "description": "Downloads official, unmodified game updates for games already installed on the console. Includes clearer download failure diagnostics and marks sideloaded apps so bulk updates leave them unchanged.",
+      "last_update": "2026-10-17",
+      "version": "v0.2.1",
+      "category": "Utilities & Tools",
+      "checksum": "5458739714d93ad807f3720ff3a2107687bf18be6e238c3f531a93f55d3467b7",
+      "id": "patchdl-patchdl_0.2.1"
+    }
+  ]
+}
