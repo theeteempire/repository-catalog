@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T11:00:29+00:00",
+  "generated_at": "2026-10-18T11:06:11+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 336,
   "payload_count": 194,
@@ -1202,7 +1202,7 @@
       "payload_filename": "onionHEN_v0.9.0.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.9.0.elf",
       "checksum": "1f1f7c883d5d998be1d95d7d80b718f85180f8156f257661b0f445a7c6b7c212",
-      "github_stars": 434,
+      "github_stars": 435,
       "open_issues_count": 16,
       "repository_updated_at": "2026-10-15T07:42:24Z",
       "last_update_days": 3,
@@ -3149,7 +3149,7 @@
       "author": "kerrdec97",
       "icon_key": "db94366ce572ae792159346bf806db5fbb0881e7a0b95754d627b1d18da18b4c",
       "github_stars": 71,
-      "open_issues_count": 12,
+      "open_issues_count": 13,
       "repository_updated_at": "2026-10-18T06:09:03Z"
     },
     {
@@ -4178,7 +4178,7 @@
       "package_url": "https://github.com/michpalm/game-glance/releases/download/v3.4.0/game-glance.zip",
       "checksum": "bea454654b24b4d675584c63ed29cff2f297c23ba3336944874943ee999de915",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 97,
+      "github_stars": 98,
       "open_issues_count": 18,
       "repository_updated_at": "2026-10-17T19:29:38Z",
       "last_update_days": 1,
@@ -4259,8 +4259,8 @@
       "author": "MyLuxy",
       "version": "v1.0.2",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 708,
-      "open_issues_count": 10,
+      "github_stars": 709,
+      "open_issues_count": 11,
       "repository_updated_at": "2026-10-18T04:34:12Z"
     },
     {
@@ -4290,8 +4290,8 @@
       "author": "lvndry",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 46,
-      "open_issues_count": 4,
-      "repository_updated_at": "2026-10-16T21:51:12Z"
+      "open_issues_count": 5,
+      "repository_updated_at": "2026-10-18T11:01:42Z"
     },
     {
       "name": "AnyPad PS5 English",
@@ -4447,7 +4447,7 @@
       "version": "v1.0.1",
       "last_update": "2026-10-18",
       "checksum": "541d320b474f9a90576294ff86d024d6ede6f6e7f79d76408b54c01818ae510f",
-      "github_stars": 8,
+      "github_stars": 9,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T10:13:43Z",
       "last_update_days": 0,
@@ -4636,7 +4636,7 @@
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
       "github_stars": 117,
       "open_issues_count": 1,
-      "repository_updated_at": "2026-10-18T10:40:24Z"
+      "repository_updated_at": "2026-10-18T11:04:24Z"
     },
     {
       "name": "Botty-Plus",
@@ -4662,7 +4662,7 @@
       "icon_key": "15f6f9b0874805c52c2cc568b043372ddae9bd65f8066f7e86675a34ab4947fc",
       "github_stars": 3,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T04:31:26Z"
+      "repository_updated_at": "2026-10-18T11:02:47Z"
     },
     {
       "name": "prospero-lab",
@@ -4686,7 +4686,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436",
-      "github_stars": 8955,
+      "github_stars": 8956,
       "open_issues_count": 863,
       "repository_updated_at": "2026-10-18T04:16:13Z"
     },
@@ -4933,7 +4933,7 @@
       "icon_key": "1169f992172b73674777e04451262dc2db394c583d2f7e2331b640e4fd9b7678",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T04:33:25Z"
+      "repository_updated_at": "2026-10-18T11:04:16Z"
     },
     {
       "name": "ps5-discord-rpc",
@@ -4978,7 +4978,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
-      "github_stars": 42406,
+      "github_stars": 42412,
       "open_issues_count": 1002,
       "repository_updated_at": "2026-10-18T10:52:23Z"
     },
