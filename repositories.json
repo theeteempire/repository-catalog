@@ -1,10 +1,10 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T04:32:33+00:00",
+  "generated_at": "2026-10-18T08:14:48+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 335,
-  "payload_count": 175,
+  "count": 331,
+  "payload_count": 178,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
@@ -773,7 +773,15 @@
       "repository_url": "https://github.com/blackbearreloaded/ProsperoStore",
       "category": "Repositories",
       "author": "blackbearreloaded",
-      "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac"
+      "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354"
+    },
+    {
+      "name": "ProsperoStore 1.000.080 (alpha)",
+      "description": "",
+      "repository_url": "https://github.com/darkxex/ProsperoStore",
+      "category": "Repositories",
+      "author": "",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "ps4mount",
@@ -1659,20 +1667,20 @@
       "icon_key": "8f8c9ca85a6778fe4f62fdcf6e40ce2f0c002ab29c5fcc81f69ab4907c073143"
     },
     {
-      "name": "ProsperoRadio",
-      "description": "A radio player for PS5, possible thanks to RadioBrowser database",
-      "repository_url": "https://github.com/blackbearreloaded/ProsperoRadio",
-      "category": "Repositories",
-      "author": "blackbearreloaded",
-      "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac"
-    },
-    {
       "name": "ProsperoTV",
       "description": "Native IPTV client for PlayStation 5 homebrew with an offline-first iptv-org catalog and hardware-accelerated H.264, HEVC, and VP9 playback.",
       "repository_url": "https://github.com/blackbearreloaded/ProsperoTV",
       "category": "Repositories",
       "author": "blackbearreloaded",
-      "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac"
+      "icon_key": "c473420e4488dc9a2b7c851819aaa02b274cdde69d495224865a8009e1107cd1"
+    },
+    {
+      "name": "ProsperoTV 01.000.070",
+      "description": "",
+      "repository_url": "https://github.com/ThatGuyKalvin/ProsperoTV",
+      "category": "Repositories",
+      "author": "",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "PShare",
@@ -1727,14 +1735,6 @@
       "name": "ProsperoAI",
       "description": "A simple LLM-based chat app that runs on the PS5 GPU",
       "repository_url": "https://github.com/blackbearreloaded/ProsperoAI",
-      "category": "Repositories",
-      "author": "blackbearreloaded",
-      "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac"
-    },
-    {
-      "name": "ps5-fsr4",
-      "description": "A proof of concept of FSR4 running on PS5 GPU",
-      "repository_url": "https://github.com/blackbearreloaded/ps5-fsr4",
       "category": "Repositories",
       "author": "blackbearreloaded",
       "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac"
@@ -2016,20 +2016,6 @@
       "category": "Repositories",
       "author": "unicxrn",
       "icon_key": "c8ddcae935a6ab77f38c30b687ccd701bb837d8fc6506692aebd5859610d5dd9"
-    },
-    {
-      "name": "Padrino-Save-Vault",
-      "description": "👑 Padrino Save Vault — Universal PS5 Savegame Backup & Restoration Payload (Firmwares 3.00 - 13.60)",
-      "repository_url": "https://github.com/B4ckd0orl/Padrino-Save-Vault",
-      "category": "Repositories",
-      "author": "B4ckd0orl",
-      "icon_key": "2c4b83a299c5d73703af8856e2d6a117273d71e90e6e4337377dec64e2145039",
-      "payload_available": true,
-      "payload_filename": "PadrinoSaveVault.elf",
-      "payload_url": "https://github.com/B4ckd0orl/Padrino-Save-Vault/releases/download/v0.0.1-BETA/PadrinoSaveVault.elf",
-      "version": "v0.0.1-BETA",
-      "last_update": "2026-10-10",
-      "checksum": "8aeded86d79f8d7fd718f23ae84b1e5c89c8e9c08c55a5c3ae775df6d56bae56"
     },
     {
       "name": "onionHEN-kernel-log-plugin",
@@ -2373,7 +2359,7 @@
     },
     {
       "name": "PKG-Master",
-      "description": "A tool for PS4/PS5 games that allows you to seemlessly convert files (example: eboot.bin -> eboot.elf) making it easier to use them with AnyPS5 and other project whilst not having to worry about encryption (shadPS4 support soon)",
+      "description": "A tool for PS4/PS5 games that allows you to seemlessly convert files (example: eboot.bin -> eboot.elf) making it easier to use them with AnyPS5 and other project whilst not having to worry about encryption with ShadPKG (ShadPS4 support soon)",
       "repository_url": "https://github.com/Guernica4u/PKG-Master",
       "category": "Repositories",
       "author": "Guernica4u",
@@ -2444,11 +2430,11 @@
       "category": "Utilities & Tools",
       "author": "knutwurst",
       "payload_available": true,
-      "version": "v0.2.1",
-      "last_update": "2026-10-17",
-      "payload_filename": "patchdl_0.2.1.elf",
-      "payload_url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
-      "checksum": "5458739714d93ad807f3720ff3a2107687bf18be6e238c3f531a93f55d3467b7",
+      "version": "v0.3.0",
+      "last_update": "2026-10-18",
+      "payload_filename": "patchdl_0.3.0.elf",
+      "payload_url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.0/patchdl_0.3.0.elf",
+      "checksum": "60f9b91efe87fb65a8daaafd73b72417f0164d69ef8f6152fbb4647baf594d66",
       "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b"
     },
     {
@@ -2459,11 +2445,11 @@
       "author": "X-F1REBALL-X",
       "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
       "payload_available": true,
-      "payload_filename": "HearBridge-1.3.5.elf",
-      "payload_url": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.3.5/HearBridge-1.3.5.elf",
-      "version": "v1.3.5",
-      "last_update": "2026-10-17",
-      "checksum": "34e790936eee274137a20e879fa9bb746c302d017acc2164be6958a8470ac4fe"
+      "payload_filename": "HearBridge-1.3.6.elf",
+      "payload_url": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.3.6/HearBridge-1.3.6.elf",
+      "version": "v1.3.6",
+      "last_update": "2026-10-18",
+      "checksum": "7b1a1b4a9a44db0723692a83718ebca63ecef38875a53a41328950f2cfa6877c"
     },
     {
       "name": "pulse-deck",
@@ -2521,7 +2507,7 @@
     },
     {
       "name": "PS5_Audiobook_Reader",
-      "description": "This tool helps you",
+      "description": "The AEbook Reader bookshelf on PS5",
       "repository_url": "https://github.com/Yahballon/PS5_Audiobook_Reader",
       "category": "Repositories",
       "author": "Yahballon",
@@ -2556,14 +2542,6 @@
       "category": "Gaming & UI",
       "author": "RafaelNGP",
       "icon_key": "83ea65c14d57a008649873f75c4484ca95463150120a8cc1337e241f47e6300b"
-    },
-    {
-      "name": "ProsperoTube",
-      "description": "Unofficial SmartTube port for PS5 homebrew.",
-      "repository_url": "https://github.com/blackbearreloaded/ProsperoTube",
-      "category": "Gaming & Media",
-      "author": "blackbearreloaded",
-      "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac"
     },
     {
       "name": "VLC",
@@ -3032,10 +3010,18 @@
       "icon_key": "a4700ffd4ff4b567875974a6bb15c3d9bd81f6a51dec15f60834e93459b96cd1",
       "payload_available": true,
       "payload_filename": "breeze.elf",
-      "payload_url": "https://github.com/MiladRx/Breeze/releases/download/v1.3/breeze.elf",
-      "version": "v1.3",
-      "last_update": "2026-10-17",
-      "checksum": "095e4ed478aacadaf5d55751d91007a0fc3d0b2cfe5ea5c1d3c62f06366e753c"
+      "payload_url": "https://github.com/MiladRTX/Breeze/releases/download/v1.4/breeze.elf",
+      "version": "v1.4",
+      "last_update": "2026-10-18",
+      "checksum": "ac4d898ab8860b5db5768406ed5987a638f5f0036a3eb9197427af29b9871800"
+    },
+    {
+      "name": "Breeze 1.3",
+      "description": "",
+      "repository_url": "https://github.com/MiladRTX/Breeze",
+      "category": "Repositories",
+      "author": "",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
       "name": "Byepervisor Reborn",
@@ -3192,12 +3178,136 @@
       "payload_url": "https://github.com/MangoScango/ps5-account-tools/releases/download/v1.2/ps5-account-tools-v1.2.elf"
     },
     {
+      "name": "ProsperoTube",
+      "description": "Unofficial SmartTube port for PS5 homebrew.",
+      "repository_url": "https://github.com/blackbearreloaded/ProsperoTube",
+      "category": "Gaming & Media",
+      "author": "blackbearreloaded",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
+    },
+    {
       "name": "PS5 Repository List",
       "description": "PS5 repository list and release tracker.",
       "repository_url": "https://github.com/nexgen999/PS5-Repository-List",
       "category": "Utilities & Tools",
       "author": "nexgen999",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
+    },
+    {
+      "name": "ArtemisLM",
+      "description": "Home build of PS5LM. llama.cpp on a PlayStation 5, with a chat page that reads the console clock and searches the web.",
+      "repository_url": "https://github.com/joelsmithlowe/ArtemisLM",
+      "category": "PS5 Auto-discovered",
+      "author": "joelsmithlowe",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "178a58aee5d7f3a5ab59eb4854e183ee9c99e35a87ef2243a619b004e2fd56b3"
+    },
+    {
+      "name": "tmp_lap",
+      "description": "AI PS5 Homebrew Testing Lab ",
+      "repository_url": "https://github.com/Yahballon/tmp_lap",
+      "category": "PS5 Auto-discovered",
+      "author": "Yahballon",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22"
+    },
+    {
+      "name": "pkg-stream-delivery",
+      "description": "Fastest PS5 Homebrew & App Transfer Tool 2026: No Slow Waits",
+      "repository_url": "https://github.com/netdroppro1/pkg-stream-delivery",
+      "category": "PS5 Auto-discovered",
+      "author": "netdroppro1",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "9a920879b8fa925e0b7ee0bb95d0eab7880c139d0166bf83840bdc63d4c11e47"
+    },
+    {
+      "name": "ps5-homebrew-catalog",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/darkxex/ps5-homebrew-catalog",
+      "category": "PS5 Auto-discovered",
+      "author": "darkxex",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354"
+    },
+    {
+      "name": "estante",
+      "description": "Native PS5 library organizer for jailbroken consoles: recent games, collections, big covers, filters. EN/PT. Needs ShadowMountPlus + Elf Arsenal.",
+      "repository_url": "https://github.com/kauansilvalopes/estante",
+      "category": "PS5 Auto-discovered",
+      "author": "kauansilvalopes",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "c2ac3c6a6fbc9f93b269d35843cf4f412f5dc12989efaf3e5239183285856d24"
+    },
+    {
+      "name": "ps5-payload-constellation",
+      "description": "Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
+      "repository_url": "https://github.com/DeborahO18/ps5-payload-constellation",
+      "category": "PS5 Auto-discovered",
+      "author": "DeborahO18",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "d3ef388f78878712212611b112174465286edb748ee9be73df58aa390261e8ea"
+    },
+    {
+      "name": "JB_STORE",
+      "description": "Open Source PS5 Homebrew Store",
+      "repository_url": "https://github.com/Yahballon/JB_STORE",
+      "category": "PS5 Auto-discovered",
+      "author": "Yahballon",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22"
+    },
+    {
+      "name": "ps5-ultrapack",
+      "description": "macOS and Windows app to build PS5 fPKG (.pkg) and .ffpfsc containers from any source. Game folder, archive, or disk image. Pack, unpack, browse a .pkg block-by-block, patch, fake-sign. Verified launching on retail FW 11.60 with kstuff-lite 1.13+.",
+      "repository_url": "https://github.com/knutwurst/ps5-ultrapack",
+      "category": "PS5 Auto-discovered",
+      "author": "knutwurst",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b"
+    },
+    {
+      "name": "ps5-payload-source",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/thatboialex/ps5-payload-source",
+      "category": "PS5 Auto-discovered",
+      "author": "thatboialex",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "8a7b346783af28864cbcf2290dad66aa986f980542daa56c79811370441ccfb7",
+      "payload_available": true,
+      "payload_filename": "pkg_install.elf",
+      "payload_url": "https://github.com/thatboialex/ps5-payload-source/releases/download/source-built-payloads/pkg_install.elf",
+      "version": "source-built-payloads",
+      "last_update": "2026-08-09",
+      "checksum": "a372966792449ded73db6f159efe8cdd2ecbc3af75b480216e11899d7b1aaa11"
+    },
+    {
+      "name": "ps5-payloads",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/avoidik/ps5-payloads",
+      "category": "PS5 Auto-discovered",
+      "author": "avoidik",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "1169f992172b73674777e04451262dc2db394c583d2f7e2331b640e4fd9b7678"
+    },
+    {
+      "name": "PLM-Repository",
+      "description": "HiddenKernel repository for PS5 Payload Manager",
+      "repository_url": "https://github.com/hiddenkernellab/PLM-Repository",
+      "category": "PS5 Auto-discovered",
+      "author": "hiddenkernellab",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "15f6f9b0874805c52c2cc568b043372ddae9bd65f8066f7e86675a34ab4947fc"
     },
     {
       "name": "AnchorPS5-catalog",
@@ -3240,16 +3350,6 @@
       "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e"
     },
     {
-      "name": "ps5-homebrew-catalog",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/darkxex/ps5-homebrew-catalog",
-      "category": "PS5 Auto-discovered",
-      "author": "darkxex",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354"
-    },
-    {
       "name": "bayo.sh",
       "description": "Animated video wallpapers for the PS5 home screen 🎬 Pick your clip, give each game its own, and control everything from your PS5, phone or PC. Works with etaHEN.",
       "repository_url": "https://github.com/bayo-labs/bayo.sh",
@@ -3276,16 +3376,6 @@
       "icon_key": "79c99ba1a2b9a454f68b3ba7cace987519d6a89154613bfc306e09a408da5c78"
     },
     {
-      "name": "pkg-stream-delivery",
-      "description": "Fastest PS5 Homebrew & App Transfer Tool 2026: No Slow Waits",
-      "repository_url": "https://github.com/netdroppro1/pkg-stream-delivery",
-      "category": "PS5 Auto-discovered",
-      "author": "netdroppro1",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "9a920879b8fa925e0b7ee0bb95d0eab7880c139d0166bf83840bdc63d4c11e47"
-    },
-    {
       "name": "ps5-payloads",
       "description": "Automatically discovered PS5-related GitHub repository.",
       "repository_url": "https://github.com/xkzink/ps5-payloads",
@@ -3296,34 +3386,24 @@
       "icon_key": "31a4f6f69d0dc5cf0b29a42e2b9389cb89f305c0e088b2568eb6269eebe906e4"
     },
     {
-      "name": "ProsperoTV",
-      "description": "Native IPTV client for PlayStation 5 homebrew with an offline-first iptv-org catalog and hardware-accelerated H.264, HEVC, and VP9 playback.",
-      "repository_url": "https://github.com/ThatGuyKalvin/ProsperoTV",
+      "name": "PS5-14.10-Research",
+      "description": "PS5 firmware 14.10 kernel attack surface research - 62 Lua probes mapping syscalls, memory, networking, and exploit paths from userland",
+      "repository_url": "https://github.com/ZigZagBoi1/PS5-14.10-Research",
       "category": "PS5 Auto-discovered",
-      "author": "ThatGuyKalvin",
+      "author": "ZigZagBoi1",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "c473420e4488dc9a2b7c851819aaa02b274cdde69d495224865a8009e1107cd1"
+      "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f"
     },
     {
-      "name": "PLDMGR_JSON",
-      "description": "Custom Payload Repositories for PS5 Payload Manager",
-      "repository_url": "https://github.com/RDX-Sci01/PLDMGR_JSON",
+      "name": "KytyPS5",
+      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
+      "repository_url": "https://github.com/KytyPS5/KytyPS5",
       "category": "PS5 Auto-discovered",
-      "author": "RDX-Sci01",
+      "author": "KytyPS5",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "d7f594ff2ea4627d6f5b00f58e86f826f57b18388d43778a57dd97266e9a8142"
-    },
-    {
-      "name": "ps5-payload-constellation",
-      "description": "Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
-      "repository_url": "https://github.com/DeborahO18/ps5-payload-constellation",
-      "category": "PS5 Auto-discovered",
-      "author": "DeborahO18",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "d3ef388f78878712212611b112174465286edb748ee9be73df58aa390261e8ea"
+      "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436"
     },
     {
       "name": "pyre-ps5",
@@ -3346,6 +3426,16 @@
       "icon_key": "84393d69aedb2774cddc74f65e6dd7863a809ef9bedf1a56f18fa131bb896caa"
     },
     {
+      "name": "PS5-14.10-Jailbreak-Research",
+      "description": "WebKit jailbreak research for PlayStation 5 firmware 14.10",
+      "repository_url": "https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research",
+      "category": "PS5 Auto-discovered",
+      "author": "pastawithpesto",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "021de2d16c459916aff57862beacef331ddaadded85f1a1b9f41a3d4b10fa7b9"
+    },
+    {
       "name": "MacheteSVG-PS5-Save-Manager",
       "description": "Native PS5 & PS4 Savegame Manager and Web Save Station (:8383 + QR Code) with PFS Save Mounting, Cross-Console PS5 Save Dummy Injection, Apollo-Style PS4 Auto-Resigning, Keystone & SAMU Crypto Vault preservation.",
       "repository_url": "https://github.com/VenezuelanBiggie24/MacheteSVG-PS5-Save-Manager",
@@ -3356,34 +3446,60 @@
       "icon_key": "becdd1b1d2fad8cf0e79b9bb31483ec03986bebd9f65c8a6fec1bb5f3b6e9c13"
     },
     {
-      "name": "ps5-payloads",
-      "description": "PS5 payload repository for PS5 Payload Manager - serves ps5-localsend and syncps5 from latest releases",
-      "repository_url": "https://github.com/heydemoura/ps5-payloads",
+      "name": "CD5",
+      "description": "PS5 Homebrew - Native Audio CD Player",
+      "repository_url": "https://github.com/Sri7ach1/CD5",
       "category": "PS5 Auto-discovered",
-      "author": "heydemoura",
+      "author": "Sri7ach1",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "f5abba1c8028d2df0f778d2c5374ddb63851a4419f01356d4bf615fc2b65673b"
+      "icon_key": "81a66dcf3ab88351ea2306f40cb82018a8a8f0a283c87daab4315483762846e4"
     },
     {
-      "name": "ProsperoTV-OldFork",
-      "description": "Native IPTV client for PlayStation 5 homebrew with an offline-first iptv-org catalog and hardware-accelerated H.264, HEVC, and VP9 playback.",
-      "repository_url": "https://github.com/ThatGuyKalvin/ProsperoTV-OldFork",
+      "name": "ex",
+      "description": "Relapse PS5 jailbreak FW (7.00 ~ 13.60 )",
+      "repository_url": "https://github.com/muhammad10yaser/ex",
       "category": "PS5 Auto-discovered",
-      "author": "ThatGuyKalvin",
+      "author": "muhammad10yaser",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "c473420e4488dc9a2b7c851819aaa02b274cdde69d495224865a8009e1107cd1"
+      "icon_key": "9f68217659d198d40b6cd1879e9789e8b3efce468944d659be3ce638cf4d7d2e"
     },
     {
-      "name": "PLM-Repository",
-      "description": "HiddenKernel repository for PS5 Payload Manager",
-      "repository_url": "https://github.com/hiddenkernellab/PLM-Repository",
+      "name": "Prospero-Menu",
+      "description": "Community expandable overlay system for homebrewed PS5",
+      "repository_url": "https://github.com/StonedModder/Prospero-Menu",
       "category": "PS5 Auto-discovered",
-      "author": "hiddenkernellab",
+      "author": "StonedModder",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "15f6f9b0874805c52c2cc568b043372ddae9bd65f8066f7e86675a34ab4947fc"
+      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
+      "payload_available": true,
+      "payload_filename": "ProsperoMenu.elf",
+      "payload_url": "https://github.com/StonedModder/Prospero-Menu/releases/download/v1.1.0/ProsperoMenu.elf",
+      "version": "v1.1.0",
+      "last_update": "2026-10-17",
+      "checksum": "1164262193931eb99cb61cd8e6414db9ff2d2cee93c74f523c5ebafae933c43e"
+    },
+    {
+      "name": "JB_STORE_REPO",
+      "description": "Open Source PS5 Homebrew App Store Repo ",
+      "repository_url": "https://github.com/Yahballon/JB_STORE_REPO",
+      "category": "PS5 Auto-discovered",
+      "author": "Yahballon",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22"
+    },
+    {
+      "name": "PS5-Jailbreak-Doctor",
+      "description": "PS5 Jailbreak Doctor is a Windows diagnostic tool for the PS5 homebrew community. It analyzes logs, identifies known errors, and provides troubleshooting guidance for tools such as ShadowMountPlus and KStuff Lite. Built to make debugging easier for both beginners and experienced users.",
+      "repository_url": "https://github.com/asomimlrxd/PS5-Jailbreak-Doctor",
+      "category": "PS5 Auto-discovered",
+      "author": "asomimlrxd",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "2b23fc35bebac06b1e00c10e9cd470a0031b2be1a3468fb1daf7d6a858240467"
     },
     {
       "name": "ps5-account-activator",
@@ -3410,162 +3526,6 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "56bbc30a966855c0f84a461ba31865eb8d3c97ef43faa23276b16c570e6ed02d"
-    },
-    {
-      "name": "CD5",
-      "description": "PS5 Homebrew - Native Audio CD Player",
-      "repository_url": "https://github.com/Sri7ach1/CD5",
-      "category": "PS5 Auto-discovered",
-      "author": "Sri7ach1",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "81a66dcf3ab88351ea2306f40cb82018a8a8f0a283c87daab4315483762846e4"
-    },
-    {
-      "name": "tmp_lap",
-      "description": "AI PS5 Homebrew Testing Lab ",
-      "repository_url": "https://github.com/Yahballon/tmp_lap",
-      "category": "PS5 Auto-discovered",
-      "author": "Yahballon",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22"
-    },
-    {
-      "name": "PS5-14.10-Research",
-      "description": "PS5 firmware 14.10 kernel attack surface research - 62 Lua probes mapping syscalls, memory, networking, and exploit paths from userland",
-      "repository_url": "https://github.com/ZigZagBoi1/PS5-14.10-Research",
-      "category": "PS5 Auto-discovered",
-      "author": "ZigZagBoi1",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f"
-    },
-    {
-      "name": "KytyPS5",
-      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
-      "repository_url": "https://github.com/KytyPS5/KytyPS5",
-      "category": "PS5 Auto-discovered",
-      "author": "KytyPS5",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436"
-    },
-    {
-      "name": "JavaCraft",
-      "description": "JavaCraft is an open-source launcher project by **V0BIT** for running a player's own Minecraft Java Edition installation through the Prospero Win homebrew runtime on a homebrew-enabled PS5. It is a compatibility launcher, not a native PS5 port of Minecraft. JavaCraft is not affiliated with Mojang, Microsoft, or Sony.",
-      "repository_url": "https://github.com/SirAbdllah/JavaCraft",
-      "category": "PS5 Auto-discovered",
-      "author": "SirAbdllah",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "e35c9e432bcdaafe114aefafd81e6f28f9581fc3ee7fb1541fb10d2b74740f35"
-    },
-    {
-      "name": "ps5-ultrapack",
-      "description": "macOS and Windows app to build PS5 fPKG (.pkg) and .ffpfsc containers from any source. Game folder, archive, or disk image. Pack, unpack, browse a .pkg block-by-block, patch, fake-sign. Verified launching on retail FW 11.60 with kstuff-lite 1.13+.",
-      "repository_url": "https://github.com/knutwurst/ps5-ultrapack",
-      "category": "PS5 Auto-discovered",
-      "author": "knutwurst",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b"
-    },
-    {
-      "name": "ex",
-      "description": "Relapse PS5 jailbreak FW (7.00 ~ 13.60 )",
-      "repository_url": "https://github.com/muhammad10yaser/ex",
-      "category": "PS5 Auto-discovered",
-      "author": "muhammad10yaser",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "9f68217659d198d40b6cd1879e9789e8b3efce468944d659be3ce638cf4d7d2e"
-    },
-    {
-      "name": "ShadowPKG",
-      "description": "Web package manager for jailbroken PS5 and PS4 consoles: browse, search and send .pkg files over your network.",
-      "repository_url": "https://github.com/NotSoTypicalGamer/ShadowPKG",
-      "category": "PS5 Auto-discovered",
-      "author": "NotSoTypicalGamer",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "8cb3a184dfcd658d03cc16fedf265fbd2e4809d93b9e3d3069237a2c1c92ab88"
-    },
-    {
-      "name": "XXIIPS5",
-      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
-      "repository_url": "https://github.com/XXIITEAM/XXIIPS5",
-      "category": "PS5 Auto-discovered",
-      "author": "XXIITEAM",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "1d20ab9be4969f1780d9af8b335ecbfab54a3aebd43a465bbff97c0b61750049"
-    },
-    {
-      "name": "Prospero-Menu",
-      "description": "Community expandable overlay system for homebrewed PS5",
-      "repository_url": "https://github.com/StonedModder/Prospero-Menu",
-      "category": "PS5 Auto-discovered",
-      "author": "StonedModder",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
-      "payload_available": true,
-      "payload_filename": "ProsperoMenu.elf",
-      "payload_url": "https://github.com/StonedModder/Prospero-Menu/releases/download/v1.1.0/ProsperoMenu.elf",
-      "version": "v1.1.0",
-      "last_update": "2026-10-17",
-      "checksum": "1164262193931eb99cb61cd8e6414db9ff2d2cee93c74f523c5ebafae933c43e"
-    },
-    {
-      "name": "ps5-rust",
-      "description": "Write PS5 homebrew payloads in Rust: no_std bindings, safe wrappers and an x86_64-sie-ps5 target, built on the PS5 Payload SDK by John Törnblom.",
-      "repository_url": "https://github.com/neokuze/ps5-rust",
-      "category": "PS5 Auto-discovered",
-      "author": "neokuze",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "fe09dcdabdaec00c04b672567f57757022cbc745ee44f582b0c379411ddb65ed"
-    },
-    {
-      "name": "PS5-14.10-Jailbreak-Research",
-      "description": "WebKit jailbreak research for PlayStation 5 firmware 14.10",
-      "repository_url": "https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research",
-      "category": "PS5 Auto-discovered",
-      "author": "pastawithpesto",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "021de2d16c459916aff57862beacef331ddaadded85f1a1b9f41a3d4b10fa7b9"
-    },
-    {
-      "name": "JB_STORE_REPO",
-      "description": "Open Source PS5 Homebrew App Store Repo ",
-      "repository_url": "https://github.com/Yahballon/JB_STORE_REPO",
-      "category": "PS5 Auto-discovered",
-      "author": "Yahballon",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22"
-    },
-    {
-      "name": "ProsperoStore",
-      "description": "Native PS5 app store for the homebrew catalog at homebrew.page (title PPSA99000)",
-      "repository_url": "https://github.com/darkxex/ProsperoStore",
-      "category": "PS5 Auto-discovered",
-      "author": "darkxex",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354"
-    },
-    {
-      "name": "PS5-Jailbreak-Doctor",
-      "description": "PS5 Jailbreak Doctor is a Windows diagnostic tool for the PS5 homebrew community. It analyzes logs, identifies known errors, and provides troubleshooting guidance for tools such as ShadowMountPlus and KStuff Lite. Built to make debugging easier for both beginners and experienced users.",
-      "repository_url": "https://github.com/asomimlrxd/PS5-Jailbreak-Doctor",
-      "category": "PS5 Auto-discovered",
-      "author": "asomimlrxd",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "2b23fc35bebac06b1e00c10e9cd470a0031b2be1a3468fb1daf7d6a858240467"
     },
     {
       "name": "Relapse-Exploit",
@@ -3614,34 +3574,34 @@
       "checksum": "eb31f2321dfdfc0991dfba8ebddd715adb4960d18ab8425ea445aa8a56e617fd"
     },
     {
-      "name": "estante",
-      "description": "Native PS5 library organizer for jailbroken consoles: recent games, collections, big covers, filters. EN/PT. Needs ShadowMountPlus + Elf Arsenal.",
-      "repository_url": "https://github.com/kauansilvalopes/estante",
+      "name": "ShadowPKG",
+      "description": "Web package manager for jailbroken PS5 and PS4 consoles: browse, search and send .pkg files over your network.",
+      "repository_url": "https://github.com/NotSoTypicalGamer/ShadowPKG",
       "category": "PS5 Auto-discovered",
-      "author": "kauansilvalopes",
+      "author": "NotSoTypicalGamer",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "c2ac3c6a6fbc9f93b269d35843cf4f412f5dc12989efaf3e5239183285856d24"
+      "icon_key": "8cb3a184dfcd658d03cc16fedf265fbd2e4809d93b9e3d3069237a2c1c92ab88"
     },
     {
-      "name": "ps5-minecraft-java",
-      "description": "Future Minecraft Java Edition homebrew for PS5. Java runtime port: https://github.com/mateo-cogeanu/ps5-java25-homebrew",
-      "repository_url": "https://github.com/mateo-cogeanu/ps5-minecraft-java",
+      "name": "XXIIPS5",
+      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
+      "repository_url": "https://github.com/XXIITEAM/XXIIPS5",
       "category": "PS5 Auto-discovered",
-      "author": "mateo-cogeanu",
+      "author": "XXIITEAM",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327"
+      "icon_key": "1d20ab9be4969f1780d9af8b335ecbfab54a3aebd43a465bbff97c0b61750049"
     },
     {
-      "name": "ps5-java25-homebrew",
-      "description": "Native OpenJDK 25 runtime port for PS5 homebrew, with console-tested milestones and Java acceptance probes.",
-      "repository_url": "https://github.com/mateo-cogeanu/ps5-java25-homebrew",
+      "name": "ps5-rust",
+      "description": "Write PS5 homebrew payloads in Rust: no_std bindings, safe wrappers and an x86_64-sie-ps5 target, built on the PS5 Payload SDK by John Törnblom.",
+      "repository_url": "https://github.com/neokuze/ps5-rust",
       "category": "PS5 Auto-discovered",
-      "author": "mateo-cogeanu",
+      "author": "neokuze",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327"
+      "icon_key": "fe09dcdabdaec00c04b672567f57757022cbc745ee44f582b0c379411ddb65ed"
     },
     {
       "name": "AnyPS5",

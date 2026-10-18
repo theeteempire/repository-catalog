@@ -1,7 +1,7 @@
 {
   "name": "Payload Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T04:32:33+00:00",
+  "generated_at": "2026-10-18T08:14:48+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
@@ -162,7 +162,7 @@
       "id": "zftpd-zftpd_v1.6.0-b2aeb7b0"
     },
     {
-      "name": "ps5debug-NG",
+      "name": "ps5debug-NG — Pharaoh2k",
       "filename": "ps5debug-NG_1.3.2.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5debug-NG_1.3.2.elf",
       "source": "https://github.com/Pharaoh2k/ps5debug-NG/releases",
@@ -176,7 +176,7 @@
       "id": "ps5debug-ng-ps5debug-ng_1.3.2-ffafd129"
     },
     {
-      "name": "kstuff-lite — kstuff-lite",
+      "name": "kstuff-lite — EchoStretch",
       "filename": "kstuff-lite_v1.11.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-lite_v1.11.elf",
       "source": "https://github.com/EchoStretch/kstuff-lite/releases",
@@ -360,16 +360,16 @@
     },
     {
       "name": "PatchDL",
-      "filename": "patchdl_0.2.1.elf",
-      "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
+      "filename": "patchdl_0.3.0.elf",
+      "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.0/patchdl_0.3.0.elf",
       "source": "https://github.com/knutwurst/ps5-patchdl/releases",
-      "source_direct": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
+      "source_direct": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.0/patchdl_0.3.0.elf",
       "description": "Downloads official, unmodified game updates for games already installed on the console. Includes clearer download failure diagnostics and marks sideloaded apps so bulk updates leave them unchanged.",
-      "last_update": "2026-10-17",
-      "version": "v0.2.1",
+      "last_update": "2026-10-18",
+      "version": "v0.3.0",
       "category": "Utilities & Tools",
-      "checksum": "5458739714d93ad807f3720ff3a2107687bf18be6e238c3f531a93f55d3467b7",
-      "id": "patchdl-patchdl_0.2.1-5730d58b",
+      "checksum": "60f9b91efe87fb65a8daaafd73b72417f0164d69ef8f6152fbb4647baf594d66",
+      "id": "patchdl-patchdl_0.3.0-70877f6d",
       "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b"
     },
     {
@@ -1041,7 +1041,7 @@
       "id": "kstuff-kstuff-b5bb301f"
     },
     {
-      "name": "kstuff-lite — kstuff",
+      "name": "kstuff-lite — drakmor",
       "filename": "kstuff.elf",
       "url": "https://github.com/drakmor/kstuff-lite/releases/download/1.2-dr-test2/kstuff.elf",
       "source": "https://github.com/drakmor/kstuff-lite/releases",
@@ -1209,7 +1209,7 @@
       "id": "savemnt-offset-dumper-savemnt-offset-dumper-f7d0b9e5"
     },
     {
-      "name": "garlic-savemgr — garlic-savemgr",
+      "name": "garlic-savemgr — earthonion",
       "filename": "garlic-savemgr.elf",
       "url": "https://github.com/earthonion/garlic-savemgr/releases/download/v1.7/garlic-savemgr.elf",
       "source": "https://github.com/earthonion/garlic-savemgr/releases",
@@ -1235,6 +1235,21 @@
       "checksum": "c61f29cdb8294c79386c7358096dfd9880f1425b4b10b162bece37af0a67678e",
       "icon_key": "5b2fb5f9beff5576a4c2e47c3f4f57e02c143d4bd5b713666947c58457ffa0a2",
       "id": "garlic-worker-garlic-worker-ps5-f69b900a"
+    },
+    {
+      "name": "ps5debug-NG — OpenSourcereR-dev · NEW",
+      "filename": "ps5debug-NG_v1.3.2.elf",
+      "url": "https://github.com/Pharaoh2k/ps5debug-NG/releases/download/1.3.2/ps5debug-NG_v1.3.2.elf",
+      "source": "https://github.com/OpenSourcereR-dev/ps5debug-NG/releases",
+      "source_direct": "https://github.com/Pharaoh2k/ps5debug-NG/releases/download/1.3.2/ps5debug-NG_v1.3.2.elf",
+      "description": "PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore. GPL-3.",
+      "last_update": "2026-09-23",
+      "version": "1.3.2",
+      "category": "Utilities & Tools",
+      "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
+      "icon_key": "d499e0744e7846bc548fa877ae897335444a978f955da2ac66e88ab91a4476d8",
+      "id": "ps5debug-ng-ps5debug-ng_v1.3.2-0fc22a07",
+      "first_seen": "2026-10-18"
     },
     {
       "name": "ps5-fw-spoof",
@@ -1908,20 +1923,6 @@
       "id": "ps5-log-collector-deci5-probe-7a6d5333"
     },
     {
-      "name": "Padrino-Save-Vault",
-      "filename": "PadrinoSaveVault.elf",
-      "url": "https://github.com/B4ckd0orl/Padrino-Save-Vault/releases/download/v0.0.1-BETA/PadrinoSaveVault.elf",
-      "source": "https://github.com/B4ckd0orl/Padrino-Save-Vault/releases",
-      "source_direct": "https://github.com/B4ckd0orl/Padrino-Save-Vault/releases/download/v0.0.1-BETA/PadrinoSaveVault.elf",
-      "description": "👑 Padrino Save Vault — Universal PS5 Savegame Backup & Restoration Payload (Firmwares 3.00 - 13.60)",
-      "last_update": "2026-10-10",
-      "version": "v0.0.1-BETA",
-      "category": "File & Package Management",
-      "checksum": "8aeded86d79f8d7fd718f23ae84b1e5c89c8e9c08c55a5c3ae775df6d56bae56",
-      "icon_key": "2c4b83a299c5d73703af8856e2d6a117273d71e90e6e4337377dec64e2145039",
-      "id": "padrino-save-vault-padrinosavevault-0ba1441f"
-    },
-    {
       "name": "onionHEN-kernel-log-plugin",
       "filename": "KLOG00001.elf",
       "url": "https://github.com/ps3120/onionHEN-kernel-log-plugin/releases/download/1.00/KLOG00001.elf",
@@ -2049,17 +2050,17 @@
     },
     {
       "name": "HearBridge-PS5",
-      "filename": "HearBridge-1.3.5.elf",
-      "url": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.3.5/HearBridge-1.3.5.elf",
+      "filename": "HearBridge-1.3.6.elf",
+      "url": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.3.6/HearBridge-1.3.6.elf",
       "source": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases",
-      "source_direct": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.3.5/HearBridge-1.3.5.elf",
+      "source_direct": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.3.6/HearBridge-1.3.6.elf",
       "description": "Play PS5 game audio on any Bluetooth headphones or earbuds. Payload for jailbroken PS5",
-      "last_update": "2026-10-17",
-      "version": "v1.3.5",
+      "last_update": "2026-10-18",
+      "version": "v1.3.6",
       "category": "Utilities & Tools",
-      "checksum": "34e790936eee274137a20e879fa9bb746c302d017acc2164be6958a8470ac4fe",
+      "checksum": "7b1a1b4a9a44db0723692a83718ebca63ecef38875a53a41328950f2cfa6877c",
       "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
-      "id": "hearbridge-ps5-hearbridge-1.3.5-bb9ebe6f"
+      "id": "hearbridge-ps5-hearbridge-1.3.6-4573c275"
     },
     {
       "name": "PS5-PlayKaraoke-Player",
@@ -2372,16 +2373,16 @@
     {
       "name": "Breeze",
       "filename": "breeze.elf",
-      "url": "https://github.com/MiladRx/Breeze/releases/download/v1.3/breeze.elf",
+      "url": "https://github.com/MiladRTX/Breeze/releases/download/v1.4/breeze.elf",
       "source": "https://github.com/MiladRx/Breeze/releases",
-      "source_direct": "https://github.com/MiladRx/Breeze/releases/download/v1.3/breeze.elf",
+      "source_direct": "https://github.com/MiladRTX/Breeze/releases/download/v1.4/breeze.elf",
       "description": "PS5 fan curve payload with a web panel. Works with elfldr and Payload Manager.",
-      "last_update": "2026-10-17",
-      "version": "v1.3",
+      "last_update": "2026-10-18",
+      "version": "v1.4",
       "category": "Loaders",
-      "checksum": "095e4ed478aacadaf5d55751d91007a0fc3d0b2cfe5ea5c1d3c62f06366e753c",
+      "checksum": "ac4d898ab8860b5db5768406ed5987a638f5f0036a3eb9197427af29b9871800",
       "icon_key": "a4700ffd4ff4b567875974a6bb15c3d9bd81f6a51dec15f60834e93459b96cd1",
-      "id": "breeze-breeze-4fd802c4"
+      "id": "breeze-breeze-48e29e3c"
     },
     {
       "name": "PSCloud Dashboard",
@@ -2396,6 +2397,51 @@
       "checksum": "4298b70ed5262bc2acdf03a88e835ea01f0c7e081fbde2a0566841f4508dd271",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "id": "pscloud-dashboard-pscloud-dashboard-25b0090b"
+    },
+    {
+      "name": "ps5-payload-source — fetchpkg · NEW",
+      "filename": "fetchpkg.elf",
+      "url": "https://github.com/thatboialex/ps5-payload-source/releases/download/source-built-payloads/fetchpkg.elf",
+      "source": "https://github.com/thatboialex/ps5-payload-source/releases",
+      "source_direct": "https://github.com/thatboialex/ps5-payload-source/releases/download/source-built-payloads/fetchpkg.elf",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "last_update": "2026-08-09",
+      "version": "source-built-payloads",
+      "category": "Utilities & Tools",
+      "checksum": "ca47bef64ab66380d56573ee30a3655fc7c3bb02e1ddd8cde2ffcbe4e0afac67",
+      "icon_key": "8a7b346783af28864cbcf2290dad66aa986f980542daa56c79811370441ccfb7",
+      "id": "ps5-payload-source-fetchpkg-c71f1743",
+      "first_seen": "2026-10-18"
+    },
+    {
+      "name": "ps5-payload-source — ghost-control-x10-ds4 · NEW",
+      "filename": "ghost-control-x10-ds4.elf",
+      "url": "https://github.com/thatboialex/ps5-payload-source/releases/download/source-built-payloads/ghost-control-x10-ds4.elf",
+      "source": "https://github.com/thatboialex/ps5-payload-source/releases",
+      "source_direct": "https://github.com/thatboialex/ps5-payload-source/releases/download/source-built-payloads/ghost-control-x10-ds4.elf",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "last_update": "2026-08-09",
+      "version": "source-built-payloads",
+      "category": "Utilities & Tools",
+      "checksum": "9ef5718ff0b6fa1b0b90a5d7108335d7852458919dd1deae30968b43fb39a5bb",
+      "icon_key": "8a7b346783af28864cbcf2290dad66aa986f980542daa56c79811370441ccfb7",
+      "id": "ps5-payload-source-ghost-control-x10-ds4-a4ce07da",
+      "first_seen": "2026-10-18"
+    },
+    {
+      "name": "ps5-payload-source — pkg_install · NEW",
+      "filename": "pkg_install.elf",
+      "url": "https://github.com/thatboialex/ps5-payload-source/releases/download/source-built-payloads/pkg_install.elf",
+      "source": "https://github.com/thatboialex/ps5-payload-source/releases",
+      "source_direct": "https://github.com/thatboialex/ps5-payload-source/releases/download/source-built-payloads/pkg_install.elf",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "last_update": "2026-08-09",
+      "version": "source-built-payloads",
+      "category": "Utilities & Tools",
+      "checksum": "a372966792449ded73db6f159efe8cdd2ecbc3af75b480216e11899d7b1aaa11",
+      "icon_key": "8a7b346783af28864cbcf2290dad66aa986f980542daa56c79811370441ccfb7",
+      "id": "ps5-payload-source-pkg_install-e100f9a3",
+      "first_seen": "2026-10-18"
     },
     {
       "name": "bayo.sh · NEW",
@@ -2413,20 +2459,6 @@
       "first_seen": "2026-10-18"
     },
     {
-      "name": "ps5-account-activator",
-      "filename": "AIO-Activator_v2.1.0.elf",
-      "url": "https://github.com/Epinorr/ps5-account-activator/releases/download/v2.1.0/AIO-Activator_v2.1.0.elf",
-      "source": "https://github.com/Epinorr/ps5-account-activator/releases",
-      "source_direct": "https://github.com/Epinorr/ps5-account-activator/releases/download/v2.1.0/AIO-Activator_v2.1.0.elf",
-      "description": "all-in-one PS5 ELF payload that seamlessly combines offline account activation with PlayStation Network (NP) Fake Signin in a single execution.",
-      "last_update": "2026-10-17",
-      "version": "v2.1.0",
-      "category": "Networking & Servers",
-      "checksum": "92ef418c503aea340b058485b42f917f2ceedcc4b64acd6867d20cc30c9e93ff",
-      "icon_key": "345557e65ea3699fbc83230077c8edbde91f41ed65b41ecdf31829d4880a3a1c",
-      "id": "ps5-account-activator-aio-activator_v2.1.0-c7f37168"
-    },
-    {
       "name": "Prospero-Menu",
       "filename": "ProsperoMenu.elf",
       "url": "https://github.com/StonedModder/Prospero-Menu/releases/download/v1.1.0/ProsperoMenu.elf",
@@ -2439,6 +2471,20 @@
       "checksum": "1164262193931eb99cb61cd8e6414db9ff2d2cee93c74f523c5ebafae933c43e",
       "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
       "id": "prospero-menu-prosperomenu-38dfae9a"
+    },
+    {
+      "name": "ps5-account-activator",
+      "filename": "AIO-Activator_v2.1.0.elf",
+      "url": "https://github.com/Epinorr/ps5-account-activator/releases/download/v2.1.0/AIO-Activator_v2.1.0.elf",
+      "source": "https://github.com/Epinorr/ps5-account-activator/releases",
+      "source_direct": "https://github.com/Epinorr/ps5-account-activator/releases/download/v2.1.0/AIO-Activator_v2.1.0.elf",
+      "description": "all-in-one PS5 ELF payload that seamlessly combines offline account activation with PlayStation Network (NP) Fake Signin in a single execution.",
+      "last_update": "2026-10-17",
+      "version": "v2.1.0",
+      "category": "Networking & Servers",
+      "checksum": "92ef418c503aea340b058485b42f917f2ceedcc4b64acd6867d20cc30c9e93ff",
+      "icon_key": "345557e65ea3699fbc83230077c8edbde91f41ed65b41ecdf31829d4880a3a1c",
+      "id": "ps5-account-activator-aio-activator_v2.1.0-c7f37168"
     },
     {
       "name": "ps5-discord-rpc",
