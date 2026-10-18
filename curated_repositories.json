@@ -70,6 +70,19 @@
       "repository_url": "https://github.com/bc160201983/ps5-cloud-save",
       "category": "Utilities & Tools",
       "author": "bc160201983"
+    },
+    {
+      "name": "Game Glance",
+      "description": "A Decky Loader plugin for Steam Game Mode that provides full-screen game pages with playtime, achievements, HowLongToBeat information, and an optional Spotlight-style Home screen with touch and mouse navigation.",
+      "repository_url": "https://github.com/michpalm/game-glance",
+      "category": "Gaming & UI",
+      "author": "michpalm",
+      "payload_available": false,
+      "version": "v3.4.0",
+      "last_update": "2026-10-17",
+      "package_filename": "game-glance.zip",
+      "package_url": "https://github.com/michpalm/game-glance/releases/download/v3.4.0/game-glance.zip",
+      "checksum": "bea454654b24b4d675584c63ed29cff2f297c23ba3336944874943ee999de915"
     }
   ]
 }
