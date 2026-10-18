@@ -217,12 +217,12 @@ def payload_identity(payload: dict[str, Any]) -> tuple[str, str]:
 
 def payload_global_identity(payload: dict[str, Any]) -> tuple[str, str, str]:
     """Collapse identical app builds mirrored by different repository forks."""
-    name = re.sub(r"\\s*[·•]\\s*NEW\\s*$", "", str(payload.get("name") or ""), flags=re.I)
-    name = re.split(r"\\s+[—–]\\s+", name, maxsplit=1)[0]
-    name = re.sub(r"\\s+", " ", name).strip().casefold()
+    name = re.sub(r"\s*[·•]\s*NEW\s*$", "", str(payload.get("name") or ""), flags=re.I)
+    name = re.split(r"\s+[—–]\s+", name, maxsplit=1)[0]
+    name = re.sub(r"\s+", " ", name).strip().casefold()
     filename = str(payload.get("filename") or "").rsplit("/", 1)[-1].lower()
-    filename = re.sub(r"\\.elf$", "", filename)
-    filename = re.sub(r"[_-]v?\\d+(?:[._-]\\d+)*(?:[-_][a-z][a-z0-9._-]*)?$", "", filename)
+    filename = re.sub(r"\.elf$", "", filename)
+    filename = re.sub(r"[_-]v?\d+(?:[._-]\d+)*(?:[-_][a-z][a-z0-9._-]*)?$", "", filename)
     filename = re.sub(r"[-_.]+", "-", filename).strip("-")
     version = str(payload.get("version") or "").strip().lower().removeprefix("v")
     return name, filename, version
