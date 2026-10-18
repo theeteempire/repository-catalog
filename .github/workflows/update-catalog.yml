@@ -70,6 +70,15 @@ jobs:
           missing_repo_icons = [(r.get("name"), r.get("repository_url"), r.get("icon_key")) for r in repos["repositories"] if not r.get("icon_key") or r["icon_key"] not in icon_map]
           assert not missing_repo_icons, f"Repository entries have missing icon mappings: {missing_repo_icons[:10]}"
 
+          # Guard against duplicate direct assets even when tracking query strings differ.
+          normalized_payload_urls = [
+              item.get("url", "").split("#", 1)[0].split("?", 1)[0].rstrip("/").lower()
+              for item in feed["payloads"]
+          ]
+          assert len(normalized_payload_urls) == len(set(normalized_payload_urls)), "Duplicate payload download URLs found"
+          payload_ids = [item.get("id") for item in feed["payloads"] if item.get("id")]
+          assert len(payload_ids) == len(set(payload_ids)), "Duplicate payload IDs found"
+
           bad_urls = []
           missing_icons = []
           invalid_icons = []
