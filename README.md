@@ -1,5 +1,17 @@
 # Repository Catalog
 
+> **Discover. Explore. Stay updated.** A refreshed catalog of PS5 payloads and repositories, with concise metadata, categories, source links, and change tracking.
+
+## ✨ Catalog highlights
+
+- **Payload summaries:** Preserve each payload's original description and append GitHub Stars, Downloads, and Firmware status in one plain-text line.
+- **Popularity and freshness:** Use real GitHub star counts, release-asset download counts when available, and update dates without inventing missing metrics.
+- **Compatibility clarity:** Show firmware compatibility only when metadata exists; unverified information is labeled accordingly.
+- **Integrity and validation:** Validate catalog structure, direct HTTPS ELF links, icon mappings, and upstream checksums when supplied.
+- **Categories and discovery:** Organize entries by category and discover eligible public repositories through configured sources.
+- **Change tracking:** Publish a machine-readable changelog of additions, updates, and removals after a successful catalog refresh.
+- **Community context:** Keep GitHub stars distinct from user ratings. Community reviews require a reliable review source and are not fabricated.
+
 ![Repository Catalog automation overview](assets/catalog-flow.svg)
 
 Repository Catalog is an automated data-collection and change-monitoring tool for configured public online sources, with a focus on repository metadata and eligible downloadable payload assets. It periodically checks configured source feeds and public GitHub repository/release information, compares discovered records with the existing catalog, validates the results, and publishes structured JSON feeds for monitoring and downstream data-processing workflows. It monitors only sources reachable through its configured feeds and discovery criteria; it does not crawl the entire internet.
@@ -10,6 +22,9 @@ The goal is to provide a regularly refreshed, organized view of repository and a
 [![GitHub Pages](https://img.shields.io/badge/feeds-GitHub%20Pages-222?logo=github)](https://theeteempire.github.io/repository-catalog/)
 
 ## Published data
+
+The generated `payloads_v2.json` feed keeps the original payload description in `original_description`; its display `description` is formatted as one plain-text line for compatible clients. Missing metrics are shown as `Unknown`. Firmware is labeled as unverified unless the source explicitly marks it tested or verified. The generated `changelog.json` records added, updated, and removed entries from the latest successful comparison.
+
 
 The workflow publishes these JSON files:
 
@@ -114,4 +129,4 @@ Contributions are welcome. You can report missing entries, suggest improvements 
 
 ---
 
-**Repository Catalog** — automated data collection, structured indexing, validation, and monitoring.
+**PS5 Repository Catalog** — discover, explore, and keep track of PS5 payloads and repositories in one place.
