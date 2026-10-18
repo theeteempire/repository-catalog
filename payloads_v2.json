@@ -1,7 +1,7 @@
 {
   "name": "PS5 Payloads",
   "schema_version": 2,
-  "generated_at": "2026-10-17T23:53:43+00:00",
+  "generated_at": "2026-10-18T00:02:43+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
@@ -216,7 +216,7 @@
       "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5",
       "icon_key": "2cc3ca2be798749bb50ba4dc2afcb00a321542352e95087aa89b0e53c9b3e2ed",
       "id": "garlic-savemgr-garlic-savemgr_v1.13.1-3de37e7d",
-      "first_seen": "2026-10-17"
+      "first_seen": "2026-10-18"
     },
     {
       "name": "ps5-linux-loader",

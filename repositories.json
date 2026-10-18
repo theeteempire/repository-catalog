@@ -1,7 +1,7 @@
 {
   "name": "PS5 Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-17T23:53:43+00:00",
+  "generated_at": "2026-10-18T00:02:43+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 323,
   "payload_count": 186,
@@ -1400,11 +1400,11 @@
       "author": "phantomptr",
       "payload_available": true,
       "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0",
-      "version": "v7.0.34",
+      "version": "v7.1.0",
       "last_update": "2026-10-17",
-      "payload_filename": "ps5upload-7.0.34.elf",
-      "payload_url": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.34/ps5upload-7.0.34.elf",
-      "checksum": "f6a09ed9f92ea230490e2bc3ad912c4e882882839a25a184bb6daddabc0904a7"
+      "payload_filename": "ps5upload-7.1.0.elf",
+      "payload_url": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.0/ps5upload-7.1.0.elf",
+      "checksum": "f16a99904f194f96a592cc29206843f3641a46ad7df96fabd4cc9851cd8c1d37"
     },
     {
       "name": "airpsx",
@@ -3015,13 +3015,23 @@
       "checksum": "095e4ed478aacadaf5d55751d91007a0fc3d0b2cfe5ea5c1d3c62f06366e753c"
     },
     {
+      "name": "ps5-homebrew-catalog",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/blackbearreloaded/ps5-homebrew-catalog",
+      "category": "PS5 Auto-discovered",
+      "author": "blackbearreloaded",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac"
+    },
+    {
       "name": "RecompStore",
       "description": "A homebrew app store for jailbroken PS5: installs and updates native ports of recompiled games. Bring your own disc.",
       "repository_url": "https://github.com/elripalda/RecompStore",
       "category": "PS5 Auto-discovered",
       "author": "elripalda",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "ccc3dff8e8dea38d24afee501b8528e6b69f04c577f359b368bbb850d5b2c8b5",
       "payload_available": true,
       "payload_filename": "RecompStore-Installer.elf",
@@ -3037,7 +3047,7 @@
       "category": "PS5 Auto-discovered",
       "author": "VenezuelanBiggie24",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "becdd1b1d2fad8cf0e79b9bb31483ec03986bebd9f65c8a6fec1bb5f3b6e9c13"
     },
     {
@@ -3047,7 +3057,7 @@
       "category": "PS5 Auto-discovered",
       "author": "hiddenkernellab",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "15f6f9b0874805c52c2cc568b043372ddae9bd65f8066f7e86675a34ab4947fc"
     },
     {
@@ -3057,7 +3067,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Wnc5",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "b29e892a1bdd0eece674ddd17a55a0854b431c600d2cfbedf64329f762f29589"
     },
     {
@@ -3067,7 +3077,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Epinorr",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "345557e65ea3699fbc83230077c8edbde91f41ed65b41ecdf31829d4880a3a1c",
       "payload_available": true,
       "payload_filename": "AIO-Activator_v2.1.0.elf",
@@ -3083,7 +3093,7 @@
       "category": "PS5 Auto-discovered",
       "author": "yova2flash",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "56bbc30a966855c0f84a461ba31865eb8d3c97ef43faa23276b16c570e6ed02d"
     },
     {
@@ -3093,7 +3103,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Sri7ach1",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "81a66dcf3ab88351ea2306f40cb82018a8a8f0a283c87daab4315483762846e4"
     },
     {
@@ -3103,7 +3113,7 @@
       "category": "PS5 Auto-discovered",
       "author": "DeborahO18",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "d3ef388f78878712212611b112174465286edb748ee9be73df58aa390261e8ea"
     },
     {
@@ -3113,7 +3123,7 @@
       "category": "PS5 Auto-discovered",
       "author": "RDX-Sci01",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "d7f594ff2ea4627d6f5b00f58e86f826f57b18388d43778a57dd97266e9a8142"
     },
     {
@@ -3123,7 +3133,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Yahballon",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22"
     },
     {
@@ -3133,7 +3143,7 @@
       "category": "PS5 Auto-discovered",
       "author": "MyLuxy",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "38cc60ea92b893f8748e5767bd3f2b5b4c62032a1484d3af2d435a2199b769fa"
     },
     {
@@ -3143,7 +3153,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Kuroge",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "97de1ed11ab798302a12ed905ba7c2002fc0518c650ac9fe1c44e9f1e5d5c28c"
     },
     {
@@ -3153,7 +3163,7 @@
       "category": "PS5 Auto-discovered",
       "author": "netdroppro1",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "9a920879b8fa925e0b7ee0bb95d0eab7880c139d0166bf83840bdc63d4c11e47"
     },
     {
@@ -3163,7 +3173,7 @@
       "category": "PS5 Auto-discovered",
       "author": "knutwurst",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b"
     },
     {
@@ -3173,7 +3183,7 @@
       "category": "PS5 Auto-discovered",
       "author": "azurejelly",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "c1914e919237544d607e5e98aa81d6627358fe8b4b02c02e76fbe943f506bf66",
       "payload_available": true,
       "payload_filename": "ps5-discord-rpc.elf",
@@ -3189,7 +3199,7 @@
       "category": "PS5 Auto-discovered",
       "author": "muhammad10yaser",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "9f68217659d198d40b6cd1879e9789e8b3efce468944d659be3ce638cf4d7d2e"
     },
     {
@@ -3199,18 +3209,8 @@
       "category": "PS5 Auto-discovered",
       "author": "NotSoTypicalGamer",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "8cb3a184dfcd658d03cc16fedf265fbd2e4809d93b9e3d3069237a2c1c92ab88"
-    },
-    {
-      "name": "ps5-homebrew-catalog",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/blackbearreloaded/ps5-homebrew-catalog",
-      "category": "PS5 Auto-discovered",
-      "author": "blackbearreloaded",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
-      "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac"
     },
     {
       "name": "Prospero-Menu",
@@ -3219,7 +3219,7 @@
       "category": "PS5 Auto-discovered",
       "author": "StonedModder",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
       "payload_available": true,
       "payload_filename": "ProsperoMenu.elf",
@@ -3235,7 +3235,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Slxcky-1",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "6b581458355ce5a83eee04c6503fd307790ac4714b3ddabaf085001252f3ccb7"
     },
     {
@@ -3245,7 +3245,7 @@
       "category": "PS5 Auto-discovered",
       "author": "neokuze",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "fe09dcdabdaec00c04b672567f57757022cbc745ee44f582b0c379411ddb65ed"
     },
     {
@@ -3255,7 +3255,7 @@
       "category": "PS5 Auto-discovered",
       "author": "aitorperamos",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "77926319b363ece3242ece8ada2ff5b4dd2ced9a6ad001587d5fedaaa2868a0d"
     },
     {
@@ -3265,7 +3265,7 @@
       "category": "PS5 Auto-discovered",
       "author": "kauansilvalopes",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "c2ac3c6a6fbc9f93b269d35843cf4f412f5dc12989efaf3e5239183285856d24"
     },
     {
@@ -3275,7 +3275,7 @@
       "category": "PS5 Auto-discovered",
       "author": "viviandsx",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "237b4b6eb81598209beda9277a00e9918b27d201b9ea4707ac8ddab981cd2db6"
     },
     {
@@ -3285,7 +3285,7 @@
       "category": "PS5 Auto-discovered",
       "author": "ZigZagBoi1",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f"
     },
     {
@@ -3295,7 +3295,7 @@
       "category": "PS5 Auto-discovered",
       "author": "XXIITEAM",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "1d20ab9be4969f1780d9af8b335ecbfab54a3aebd43a465bbff97c0b61750049"
     },
     {
@@ -3305,7 +3305,7 @@
       "category": "PS5 Auto-discovered",
       "author": "SirAbdllah",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "e35c9e432bcdaafe114aefafd81e6f28f9581fc3ee7fb1541fb10d2b74740f35"
     },
     {
@@ -3315,7 +3315,7 @@
       "category": "PS5 Auto-discovered",
       "author": "mateo-cogeanu",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327"
     },
     {
@@ -3325,7 +3325,7 @@
       "category": "PS5 Auto-discovered",
       "author": "mateo-cogeanu",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327"
     },
     {
@@ -3335,7 +3335,7 @@
       "category": "PS5 Auto-discovered",
       "author": "KytyPS5",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436"
     },
     {
@@ -3345,7 +3345,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Yahballon",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22"
     },
     {
@@ -3355,7 +3355,7 @@
       "category": "PS5 Auto-discovered",
       "author": "itsPLK",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e",
       "payload_available": true,
       "payload_filename": "websrv_v0.34.elf",
@@ -3371,7 +3371,7 @@
       "category": "PS5 Auto-discovered",
       "author": "asomimlrxd",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "2b23fc35bebac06b1e00c10e9cd470a0031b2be1a3468fb1daf7d6a858240467"
     },
     {
@@ -3381,7 +3381,7 @@
       "category": "PS5 Auto-discovered",
       "author": "lvndry",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "9c0af794c6f7a36b92560127e8c2f88ce43c4a9533d485ffe56992497e36cc7c"
     },
     {
@@ -3391,7 +3391,7 @@
       "category": "PS5 Auto-discovered",
       "author": "fs0ciety404",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "bb2d12ddfad8517362e67325e0c0b00f5240b0056371f71dd85f60daa297b5d2"
     },
     {
@@ -3401,7 +3401,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Portablelle",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "6edb20aaae48c77f26deffba45c1593fd25352ead9416b23ffbc03d582863c3d"
     },
     {
@@ -3411,7 +3411,7 @@
       "category": "PS5 Auto-discovered",
       "author": "manos555555",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "0ae1848c0597395e5170f783159958976ccb7225da7fec2b792c34cd66b1daa9"
     },
     {
@@ -3421,18 +3421,8 @@
       "category": "PS5 Auto-discovered",
       "author": "PvtSeaCow",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "bb6cc4cc8fdba4efa3a2b204291a81fbbf7993efda6cab55b50fea7495c14c43"
-    },
-    {
-      "name": "ps5-linux-loader",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/TheRealRexo/ps5-linux-loader",
-      "category": "PS5 Auto-discovered",
-      "author": "TheRealRexo",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
-      "icon_key": "16a3a0bd2d3da31ed8ae320453d2c13c5dc7a4969c6be61027baa3d0e0966b5b"
     },
     {
       "name": "prosper",
@@ -3441,7 +3431,7 @@
       "category": "PS5 Auto-discovered",
       "author": "mattias800",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "4ac95ff0b6921a59621ee60315ab20c643fd038de45c7ad0e66e3b1054457027"
     },
     {
@@ -3451,8 +3441,18 @@
       "category": "PS5 Auto-discovered",
       "author": "atanesmarc",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "4b4a51369af9022d21a3e3b944f04c8a4e38b765c1dbbb1c93c0c51f1715516c"
+    },
+    {
+      "name": "ps5-linux-loader",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/TheRealRexo/ps5-linux-loader",
+      "category": "PS5 Auto-discovered",
+      "author": "TheRealRexo",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "16a3a0bd2d3da31ed8ae320453d2c13c5dc7a4969c6be61027baa3d0e0966b5b"
     },
     {
       "name": "ps5-signal-companion",
@@ -3461,7 +3461,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Marice",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "54443099d6301f245a2d810b91d05c5e01deafea655f9ce919f6a6995e6b3168"
     },
     {
@@ -3471,7 +3471,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Marice",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "54443099d6301f245a2d810b91d05c5e01deafea655f9ce919f6a6995e6b3168",
       "payload_available": true,
       "payload_filename": "ps5-signal.elf",
@@ -3487,7 +3487,7 @@
       "category": "PS5 Auto-discovered",
       "author": "stupiditytries",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "46d2ffc86d12108ce4d7e9e8f79b7e2c7d64b02189736fb4b2897364c247654d",
       "payload_available": true,
       "payload_filename": "librespot-ps5.elf",
@@ -3503,7 +3503,7 @@
       "category": "PS5 Auto-discovered",
       "author": "project-oops",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "9f407062d6d757ab409057d1f62838c2448d08e1959c225491b0ad6c4132a466",
       "payload_available": true,
       "payload_filename": "obscene-probe-prospero.elf",
@@ -3519,7 +3519,7 @@
       "category": "PS5 Auto-discovered",
       "author": "avoidik",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "1169f992172b73674777e04451262dc2db394c583d2f7e2331b640e4fd9b7678"
     },
     {
@@ -3529,7 +3529,7 @@
       "category": "PS5 Auto-discovered",
       "author": "boykopovar",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc"
     },
     {
@@ -3539,7 +3539,7 @@
       "category": "PS5 Auto-discovered",
       "author": "kakateka",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "08d0896751563d0bc50d92dd386ad5776968221d73dacf63c2f6f3746f641765"
     },
     {
@@ -3549,7 +3549,7 @@
       "category": "PS5 Auto-discovered",
       "author": "kakateka",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-17",
+      "discovered_at": "2026-10-18",
       "icon_key": "08d0896751563d0bc50d92dd386ad5776968221d73dacf63c2f6f3746f641765"
     }
   ]
