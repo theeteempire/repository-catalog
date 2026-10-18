@@ -1,4 +1,4 @@
-name: Update PS5 repository catalog
+name: Update repository catalog
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-ps5-repository-catalog-v2
+  group: update-repository-catalog-v2
   cancel-in-progress: false
 
 jobs:
@@ -58,13 +58,13 @@ jobs:
           icons = json.loads(Path("icons.json").read_text(encoding="utf-8"))
 
           assert isinstance(repos.get("repositories"), list) and repos["repositories"], "Empty repository index"
-          assert repos.get("icons_url") == "https://theeteempire.github.io/ps5-repository-catalog/icons.json", "Repository index must reference the absolute published icon URL"
+          assert repos.get("icons_url") == "https://theeteempire.github.io/repository-catalog/icons.json", "Repository index must reference the absolute published icon URL"
           assert isinstance(feed.get("payloads"), list) and feed["payloads"], "Empty payload feed"
           icon_map = icons.get("icons")
           assert isinstance(icon_map, dict), "Invalid icons map"
           assert Path("icons.json").stat().st_size < 4 * 1024 * 1024, "Icon catalog exceeds PLDMGR's 4 MiB limit"
           assert all(isinstance(v, str) and v.startswith(("data:image/png;base64,", "data:image/jpeg;base64,", "data:image/svg+xml;base64,")) and len(v) <= 12288 for v in icon_map.values()), "Icon entries must be supported data URIs no larger than 12,288 characters"
-          expected_icons_url = "https://theeteempire.github.io/ps5-repository-catalog/icons.json"
+          expected_icons_url = "https://theeteempire.github.io/repository-catalog/icons.json"
           assert feed.get("icons_url") == expected_icons_url, "PLDMGR feed must reference the absolute published icons URL"
           assert len({r.get("repository_url") for r in repos["repositories"]}) == len(repos["repositories"]), "Duplicate repositories found"
           missing_repo_icons = [(r.get("name"), r.get("repository_url"), r.get("icon_key")) for r in repos["repositories"] if not r.get("icon_key") or r["icon_key"] not in icon_map]
@@ -112,7 +112,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update PS5 payload catalog and metadata"
+          git commit -m "Update repository payload catalog and metadata"
           git fetch origin main
           git rebase origin/main
           git push origin HEAD:main
