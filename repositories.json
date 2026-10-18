@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T14:14:01+00:00",
+  "generated_at": "2026-10-18T14:20:22+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 338,
   "payload_count": 193,
@@ -478,7 +478,7 @@
       "package_url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SX2-vk-285-171.zip",
       "package_checksum": "226ac24866f0b94566c0680c3b99c0d5abfe8030723f5b28dae20af039c76963",
       "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
-      "github_stars": 1381,
+      "github_stars": 1382,
       "open_issues_count": 59,
       "repository_updated_at": "2026-10-14T02:12:23Z",
       "last_update_days": 4,
@@ -1100,7 +1100,7 @@
       "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac",
       "github_stars": 127,
       "open_issues_count": 3,
-      "repository_updated_at": "2026-10-18T14:08:31Z"
+      "repository_updated_at": "2026-10-18T14:15:55Z"
     },
     {
       "name": "etaHEN",
@@ -2208,7 +2208,7 @@
       "icon_key": "17864bd13ecdedda1cccd22797141de2acea6567c241ccd3a5c8fb9da21f1772",
       "github_stars": 5,
       "open_issues_count": 4,
-      "repository_updated_at": "2026-10-18T14:04:01Z"
+      "repository_updated_at": "2026-10-18T14:17:45Z"
     },
     {
       "name": "nuvio-ps5-homebrew",
@@ -2958,7 +2958,7 @@
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
       "github_stars": 3,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-10T07:15:44Z"
+      "repository_updated_at": "2026-10-18T14:18:00Z"
     },
     {
       "name": "PS5GBAX",
@@ -2969,7 +2969,7 @@
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
       "github_stars": 1,
       "open_issues_count": 1,
-      "repository_updated_at": "2026-10-10T06:49:10Z"
+      "repository_updated_at": "2026-10-18T14:18:14Z"
     },
     {
       "name": "PS5SNESX",
@@ -2980,7 +2980,7 @@
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
       "github_stars": 2,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-10T06:31:49Z"
+      "repository_updated_at": "2026-10-18T14:18:32Z"
     },
     {
       "name": "PS5N64X",
@@ -2991,7 +2991,7 @@
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
       "github_stars": 2,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-10T06:31:08Z"
+      "repository_updated_at": "2026-10-18T14:17:37Z"
     },
     {
       "name": "PS5NESX",
@@ -4214,7 +4214,7 @@
       "last_update": "2026-10-18",
       "payload_filename": "RecompStore-Installer.elf",
       "payload_url": "https://github.com/elripalda/RecompStore/releases/download/v1.0.3/RecompStore-Installer.elf",
-      "github_stars": 55,
+      "github_stars": 56,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-18T06:25:36Z",
       "last_update_days": 0,
@@ -4259,9 +4259,9 @@
       "author": "MyLuxy",
       "version": "v1.0.2",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 717,
+      "github_stars": 718,
       "open_issues_count": 12,
-      "repository_updated_at": "2026-10-18T13:59:58Z"
+      "repository_updated_at": "2026-10-18T14:18:22Z"
     },
     {
       "name": "PS5 LZ4 Compression",
@@ -4305,7 +4305,7 @@
       "last_update": "2026-10-18",
       "payload_filename": "AnyPad-PS5-0.5.5-beta.elf",
       "payload_url": "https://github.com/S-Mohammad-A/AnyPad-PS5-English/releases/download/AnyPad/AnyPad-PS5-0.5.5-beta.elf",
-      "github_stars": 22,
+      "github_stars": 23,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-04T16:54:03Z",
       "last_update_days": 0,
@@ -4380,11 +4380,24 @@
       "payload_url": "https://github.com/Epinorr/y2jb-update-blocker/releases/download/v1.0.1/YT-Blocker_v1.0.1.elf",
       "checksum": "541d320b474f9a90576294ff86d024d6ede6f6e7f79d76408b54c01818ae510f",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 16,
+      "github_stars": 17,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T13:08:05Z",
       "last_update_days": 0,
       "last_update_months": 0.0
+    },
+    {
+      "name": "ps5-telemetry",
+      "description": "a simple payload that displays system usage.",
+      "repository_url": "https://github.com/M0ng0licN0mad/ps5-telemetry",
+      "category": "PS5 Auto-discovered",
+      "author": "M0ng0licN0mad",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "a41375489a247a24adc72a9a660e1673ccede8856d1624f1705590ab9ba39a30",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T14:18:50Z"
     },
     {
       "name": "regie5",
@@ -4411,19 +4424,6 @@
       "github_stars": 3,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T14:06:33Z"
-    },
-    {
-      "name": "ps5-telemetry",
-      "description": "a simple payload that displays system usage.",
-      "repository_url": "https://github.com/M0ng0licN0mad/ps5-telemetry",
-      "category": "PS5 Auto-discovered",
-      "author": "M0ng0licN0mad",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "a41375489a247a24adc72a9a660e1673ccede8856d1624f1705590ab9ba39a30",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T14:11:50Z"
     },
     {
       "name": "my-ps5-payloads",
@@ -4501,7 +4501,7 @@
       "icon_key": "feb091c8b6733f3191c40c2119bc4f4ece9251196bd91f9dc73eb0120d46b93d",
       "github_stars": 127,
       "open_issues_count": 3,
-      "repository_updated_at": "2026-10-18T14:13:02Z"
+      "repository_updated_at": "2026-10-18T14:18:21Z"
     },
     {
       "name": "ps5-account-activator",
@@ -4699,20 +4699,7 @@
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
       "github_stars": 129,
       "open_issues_count": 2,
-      "repository_updated_at": "2026-10-18T14:09:17Z"
-    },
-    {
-      "name": "SlopFin",
-      "description": "Native Jellyfin movie/TV client for jailbroken PS5, with DualSense adaptive-trigger seeking, per-series autoplay and H.264/HEVC hardware decoding.",
-      "repository_url": "https://github.com/BeLikeBrett/SlopFin",
-      "category": "PS5 Auto-discovered",
-      "author": "BeLikeBrett",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "09494b6d812a6da5b960d48faac717b554f111ea4802e54d1bc19454cb098822",
-      "github_stars": 5,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T13:32:10Z"
+      "repository_updated_at": "2026-10-18T14:15:32Z"
     },
     {
       "name": "XXIIPS5",
@@ -4726,6 +4713,19 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T14:08:57Z"
+    },
+    {
+      "name": "SlopFin",
+      "description": "Native Jellyfin movie/TV client for jailbroken PS5, with DualSense adaptive-trigger seeking, per-series autoplay and H.264/HEVC hardware decoding.",
+      "repository_url": "https://github.com/BeLikeBrett/SlopFin",
+      "category": "PS5 Auto-discovered",
+      "author": "BeLikeBrett",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "09494b6d812a6da5b960d48faac717b554f111ea4802e54d1bc19454cb098822",
+      "github_stars": 5,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T13:32:10Z"
     },
     {
       "name": "AnyPS5-Launcher",
@@ -4969,8 +4969,8 @@
       "discovered_at": "2026-10-18",
       "icon_key": "4ac95ff0b6921a59621ee60315ab20c643fd038de45c7ad0e66e3b1054457027",
       "github_stars": 208,
-      "open_issues_count": 871,
-      "repository_updated_at": "2026-10-18T13:56:14Z"
+      "open_issues_count": 870,
+      "repository_updated_at": "2026-10-18T14:15:27Z"
     },
     {
       "name": "prospero-lab",
@@ -4994,7 +4994,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436",
-      "github_stars": 8984,
+      "github_stars": 8986,
       "open_issues_count": 863,
       "repository_updated_at": "2026-10-18T04:16:13Z"
     },
@@ -5007,7 +5007,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
-      "github_stars": 42621,
+      "github_stars": 42628,
       "open_issues_count": 1026,
       "repository_updated_at": "2026-10-18T13:54:55Z"
     }
