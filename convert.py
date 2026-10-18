@@ -587,7 +587,7 @@ def main() -> int:
                 avatar_url = record.pop("_owner_avatar_url", "")
                 if not avatar_url and full_name:
                     avatar_url = f"https://github.com/{full_name.split('/')[0]}.png?size=128"
-                record["icon_key"] = add_avatar_icon(avatar_url, icons) if avatar_url else ""
+                record["icon_key"] = add_avatar_icon(avatar_url, icons)
                 if not record["icon_key"] and full_name:
                     record["icon_key"] = add_avatar_icon(f"https://github.com/{full_name.split('/')[0]}.png?size=128", icons)
             for src, dst in (
@@ -603,7 +603,7 @@ def main() -> int:
             avatar_url = record.pop("_owner_avatar_url", "")
             if not avatar_url and full_name:
                 avatar_url = f"https://github.com/{full_name.split('/')[0]}.png?size=128"
-            record["icon_key"] = add_avatar_icon(avatar_url, icons) if avatar_url else ""
+            record["icon_key"] = add_avatar_icon(avatar_url, icons)
             if not record["icon_key"] and full_name:
                 record["icon_key"] = add_avatar_icon(f"https://github.com/{full_name.split('/')[0]}.png?size=128", icons)
 
