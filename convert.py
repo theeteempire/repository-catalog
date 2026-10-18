@@ -455,6 +455,25 @@ def main() -> int:
             return 7
         print(f"Source records: {len(source_repos)}; unique valid repositories retained: {len(expected_repo_urls)}")
 
+    # Keep explicitly curated projects that may not yet appear in the upstream repository list.
+    # These are repository metadata records; only verified direct ELF release assets become payloads.
+    curated_path = OUT_DIR / "curated_repositories.json"
+    try:
+        curated_data = json.loads(curated_path.read_text(encoding="utf-8"))
+        curated_records = curated_data.get("repositories", []) if isinstance(curated_data, dict) else []
+    except (OSError, json.JSONDecodeError):
+        curated_records = []
+    for obj in curated_records:
+        if not isinstance(obj, dict):
+            continue
+        record = repository_record(obj)
+        if not record:
+            continue
+        key = record["repository_url"].lower().rstrip("/")
+        if key not in seen_repos:
+            repositories.append(record)
+            seen_repos.add(key)
+
     # Expand beyond the two curated sources: search GitHub for newly created PS5 projects.
     # Search failures are non-fatal; the curated feeds still update as usual.
     known_urls = {str(record.get("repository_url") or "").lower().rstrip("/") for record in repositories}
