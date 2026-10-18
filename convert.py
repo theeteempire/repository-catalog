@@ -282,22 +282,35 @@ def normalize_icon_data(value: Any) -> str:
 
 
 def add_avatar_icon(owner_avatar_url: str, icons: dict[str, str]) -> str:
+    # A neutral embedded SVG keeps icon coverage complete when a repository
+    # has no accessible avatar (including repositories on a self-hosted forge).
+    fallback_svg = (
+        '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">'
+        '<rect width="64" height="64" rx="12" fill="#252a34"/>'
+        '<path d="M18 20h28v6H18zm0 9h28v6H18zm0 9h18v6H18z" fill="#e6edf3"/>'
+        '<circle cx="46" cy="44" r="7" fill="#58a6ff"/>'
+        '</svg>'
+    )
+    fallback_key = hashlib.sha256(fallback_svg.encode("utf-8")).hexdigest()
+    fallback_data = "data:image/svg+xml;base64," + base64.b64encode(fallback_svg.encode("utf-8")).decode("ascii")
+    icons.setdefault(fallback_key, fallback_data)
+
     if not owner_avatar_url.startswith("https://"):
-        return ""
+        return fallback_key
     try:
         raw = request_bytes(owner_avatar_url, accept="image/*", timeout=4)
         if not raw:
-            return ""
+            return fallback_key
         key = hashlib.sha256(raw).hexdigest()
         mime = mimetypes.guess_type(owner_avatar_url.split("?")[0])[0] or "image/png"
         normalized = normalize_icon_data(f"data:{mime};base64,{base64.b64encode(raw).decode('ascii')}")
         if not normalized:
-            return ""
+            return fallback_key
         icons.setdefault(key, normalized)
         return key
     except Exception as exc:
         print(f"NOTICE: could not fetch repository avatar: {exc}", file=sys.stderr)
-        return ""
+        return fallback_key
 
 
 
