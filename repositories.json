@@ -2429,10 +2429,10 @@
       "checksum": "cc7cc3c41e809837eb478bdc37546d0e8fdf7c3bfef92b2a175fdfd4785177e4"
     },
     {
-      "name": "ps5-patchdl",
-      "description": "Official updates for your PS5 and PS4 games, from any browser. PatchDL runs on the PS5, finds the newest update for every installed game, downloads it with parallel connections and resume, and installs it on the console. Web UI for phone, laptop and TV, plus a home-screen tile. Runs on firmware 1.00 to 13.60.",
+      "name": "PatchDL",
+      "description": "Downloads official, unmodified game updates for games already installed on the console. Includes clearer download failure diagnostics and marks sideloaded apps so bulk updates leave them unchanged.",
       "repository_url": "https://github.com/knutwurst/ps5-patchdl",
-      "category": "Repositories",
+      "category": "Utilities & Tools",
       "author": "knutwurst",
       "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b",
       "payload_available": true,
@@ -2979,12 +2979,18 @@
       "checksum": "26419aa77b22c177b42032fb0af2c139823c4918ae046395e5a7eb50ee4ac0c6"
     },
     {
-      "name": "ProsperoThemes",
-      "description": "Theme manager for the PS5 home screen (homebrew app, FW 13.00): community themes, apply and restore, USB import",
+      "name": "Prospero Themes",
+      "description": "PS5 home-screen theme manager: browse and preview .p5theme packs, apply themes, restore defaults, download community themes, and import packs from USB. Release package is a ZIP, not a direct ELF asset.",
       "repository_url": "https://github.com/Darkatek7/ProsperoThemes",
-      "category": "Repositories",
+      "category": "Utilities & Tools",
       "author": "Darkatek7",
-      "icon_key": "11b41a0e12e632946879b107487948847ce675cf31430e16de5e7f5a0394998d"
+      "icon_key": "11b41a0e12e632946879b107487948847ce675cf31430e16de5e7f5a0394998d",
+      "payload_available": false,
+      "version": "01.000.000",
+      "last_update": "2026-10-17",
+      "package_filename": "PPSA90210.zip",
+      "package_url": "https://github.com/Darkatek7/ProsperoThemes/releases/download/01.000.000/PPSA90210.zip",
+      "checksum": "eba08e37359e433b691204399edd67b7e168f36fa2b1b4e95104b5ec3d25cba8"
     },
     {
       "name": "ps5-cooling-system-center-pro",
