@@ -474,6 +474,22 @@ def main() -> int:
         if key not in seen_repos:
             repositories.append(record)
             seen_repos.add(key)
+            target = repositories[-1]
+        else:
+            target = next(
+                (item for item in repositories
+                 if str(item.get("repository_url", "")).lower().rstrip("/") == key),
+                None,
+            )
+        if target is not None:
+            # Curated metadata intentionally overrides upstream labels/descriptions and
+            # may add package links; retain automatically discovered payload fields unless
+            # a curated value explicitly supplies the same field.
+            target.update({k: v for k, v in record.items() if v not in (None, "")})
+            target.update({
+                k: v for k, v in obj.items()
+                if k not in {"_owner_avatar_url"} and v not in (None, "")
+            })
 
     # Expand beyond the two curated sources: search GitHub for newly created PS5 projects.
     # Search failures are non-fatal; the curated feeds still update as usual.
