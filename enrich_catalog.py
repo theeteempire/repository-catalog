@@ -50,19 +50,20 @@ def summary(payload: dict[str, Any]) -> str:
 
     stars = payload.get("github_stars")
     downloads = payload.get("download_count")
-    firmware = payload.get("firmware_compatibility") or payload.get("firmware")
-    firmware_status = str(payload.get("firmware_status") or "").lower()
+    last_update = payload.get("last_update")
 
     stars_label = str(stars) if isinstance(stars, int) and not isinstance(stars, bool) and stars >= 0 else UNKNOWN
     metadata = [f"⭐ {stars_label}", f"📥 {compact_count(downloads)}"]
-    if isinstance(firmware, (str, int, float)) and str(firmware).strip():
-        label = str(firmware).strip()
-        firmware_label = label if firmware_status in {"verified", "tested", "confirmed"} else f"{label} (unverified)"
-    else:
-        firmware_label = UNKNOWN
-    metadata.append(f"🎮 FW {firmware_label}")
 
-    # Put the compact gaming metadata first so it is visible at a glance in PLDMGR.
+    # Only show a real, parseable update date supplied by the catalog source.
+    if isinstance(last_update, str) and last_update.strip():
+        try:
+            update_date = datetime.strptime(last_update.strip(), "%Y-%m-%d").date()
+            metadata.append(f"🕒 {update_date.isoformat()}")
+        except ValueError:
+            pass
+
+    # Put compact gaming metadata first; omit firmware because it is often unknown.
     return " · ".join(metadata) + " | " + original
 
 
