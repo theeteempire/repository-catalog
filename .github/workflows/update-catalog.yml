@@ -10,6 +10,8 @@ on:
       - "convert.py"
       - ".github/workflows/update-catalog.yml"
       - "README.md"
+      - "curated_repositories.json"
+      - "curated_payloads.json"
 
 permissions:
   contents: write
