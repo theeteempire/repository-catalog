@@ -1,7 +1,7 @@
 {
   "name": "Payload Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T09:02:56+00:00",
+  "generated_at": "2026-10-18T09:07:23+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
@@ -105,7 +105,7 @@
       "github_stars": 171,
       "open_issues_count": 5,
       "repository_updated_at": "2026-10-11T03:33:58Z",
-      "download_count": 7323,
+      "download_count": 7330,
       "download_count_source": "github_release_asset",
       "last_update_days": 7,
       "last_update_months": 0.2
@@ -441,7 +441,7 @@
       "github_stars": 208,
       "open_issues_count": 10,
       "repository_updated_at": "2026-10-10T22:31:18Z",
-      "download_count": 23979,
+      "download_count": 23982,
       "download_count_source": "github_release_asset",
       "last_update_days": 77,
       "last_update_months": 2.5
@@ -546,7 +546,7 @@
       "github_stars": 156,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-18T08:21:32Z",
-      "download_count": 31,
+      "download_count": 36,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -671,7 +671,7 @@
       "github_stars": 61,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-18T00:15:56Z",
-      "download_count": 53,
+      "download_count": 54,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -1190,7 +1190,7 @@
       "checksum": "8d7e44c512b311f4bbb522f6761a6319533bcd9d988a72bd313197d8161dd696",
       "icon_key": "06d852ffb12906bca798bbe1666f6574cf4e5ad66741318ea52f2821a103037c",
       "id": "rommps-romm-sync-0b374668",
-      "github_stars": 81,
+      "github_stars": 82,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-18T02:53:55Z",
       "download_count": 67,
@@ -1256,7 +1256,7 @@
       "github_stars": 307,
       "open_issues_count": 88,
       "repository_updated_at": "2026-10-11T04:54:40Z",
-      "download_count": 2515,
+      "download_count": 2516,
       "download_count_source": "github_release_asset",
       "last_update_days": 7,
       "last_update_months": 0.2
@@ -1445,7 +1445,7 @@
       "github_stars": 566,
       "open_issues_count": 27,
       "repository_updated_at": "2026-10-04T18:48:25Z",
-      "download_count": 24416,
+      "download_count": 24419,
       "download_count_source": "github_release_asset",
       "last_update_days": 17,
       "last_update_months": 0.6
@@ -1466,7 +1466,7 @@
       "github_stars": 24,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-11T23:47:15Z",
-      "download_count": 2726,
+      "download_count": 2727,
       "download_count_source": "github_release_asset",
       "last_update_days": 7,
       "last_update_months": 0.2
@@ -1529,7 +1529,7 @@
       "github_stars": 103,
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-06T17:42:27Z",
-      "download_count": 8170,
+      "download_count": 8171,
       "download_count_source": "github_release_asset",
       "last_update_days": 50,
       "last_update_months": 1.6
@@ -1550,7 +1550,7 @@
       "github_stars": 80,
       "open_issues_count": 6,
       "repository_updated_at": "2026-10-13T00:21:09Z",
-      "download_count": 834,
+      "download_count": 835,
       "download_count_source": "github_release_asset",
       "last_update_days": 7,
       "last_update_months": 0.2
@@ -1571,7 +1571,7 @@
       "github_stars": 133,
       "open_issues_count": 8,
       "repository_updated_at": "2026-10-16T21:30:57Z",
-      "download_count": 758,
+      "download_count": 759,
       "download_count_source": "github_release_asset",
       "last_update_days": 2,
       "last_update_months": 0.1
@@ -1718,7 +1718,7 @@
       "github_stars": 172,
       "open_issues_count": 1,
       "repository_updated_at": "2026-09-21T15:58:53Z",
-      "download_count": 8182,
+      "download_count": 8183,
       "download_count_source": "github_release_asset",
       "last_update_days": 129,
       "last_update_months": 4.2
@@ -1802,7 +1802,7 @@
       "github_stars": 111,
       "open_issues_count": 33,
       "repository_updated_at": "2026-09-30T01:01:15Z",
-      "download_count": 3571,
+      "download_count": 3573,
       "download_count_source": "github_release_asset",
       "last_update_days": 18,
       "last_update_months": 0.6
@@ -2957,7 +2957,7 @@
       "github_stars": 42,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T14:23:28Z",
-      "download_count": 501,
+      "download_count": 503,
       "download_count_source": "github_release_asset",
       "last_update_days": 2,
       "last_update_months": 0.1
@@ -3227,7 +3227,7 @@
       "checksum": "5331ebf1b69cd272a0491f899b14ca5d59240adee2e69078631473070ddeca9b",
       "icon_key": "9a2320d119e5664b70ad89359c7ddcfc92f0451c0ab3c786b191d893d1440eae",
       "id": "ps5-60fps-fps60-0bfaaabe",
-      "github_stars": 94,
+      "github_stars": 95,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-16T05:37:57Z",
       "download_count": 1313,
@@ -3272,7 +3272,7 @@
       "github_stars": 144,
       "open_issues_count": 6,
       "repository_updated_at": "2026-10-18T05:44:09Z",
-      "download_count": 44,
+      "download_count": 46,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -3503,7 +3503,7 @@
       "github_stars": 55,
       "open_issues_count": 7,
       "repository_updated_at": "2026-10-16T20:56:27Z",
-      "download_count": 211,
+      "download_count": 214,
       "download_count_source": "github_release_asset",
       "last_update_days": 2,
       "last_update_months": 0.1
@@ -3692,7 +3692,7 @@
       "github_stars": 18,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-17T09:15:12Z",
-      "download_count": 115,
+      "download_count": 116,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
       "last_update_months": 0.0
@@ -3754,8 +3754,8 @@
       "id": "breeze-breeze-e3c0f10d",
       "github_stars": 3,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T08:56:49Z",
-      "download_count": 0,
+      "repository_updated_at": "2026-10-18T09:02:20Z",
+      "download_count": 1,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -3776,7 +3776,7 @@
       "github_stars": 40,
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-15T19:14:26Z",
-      "download_count": 167,
+      "download_count": 168,
       "download_count_source": "github_release_asset",
       "last_update_days": 3,
       "last_update_months": 0.1
@@ -3907,7 +3907,7 @@
       "github_stars": 22,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T20:13:58Z",
-      "download_count": 99,
+      "download_count": 101,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
       "last_update_months": 0.0

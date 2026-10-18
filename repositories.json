@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T09:02:56+00:00",
+  "generated_at": "2026-10-18T09:07:23+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 333,
   "payload_count": 188,
@@ -267,7 +267,7 @@
       "version": "v1.2.1",
       "last_update": "2026-10-15",
       "checksum": "8d7e44c512b311f4bbb522f6761a6319533bcd9d988a72bd313197d8161dd696",
-      "github_stars": 81,
+      "github_stars": 82,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-18T02:53:55Z",
       "last_update_days": 3,
@@ -280,7 +280,7 @@
       "category": "Repositories",
       "author": "",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 81,
+      "github_stars": 82,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-18T02:53:55Z"
     },
@@ -3261,7 +3261,7 @@
       "version": "v1.0.0",
       "last_update": "2026-10-16",
       "checksum": "5331ebf1b69cd272a0491f899b14ca5d59240adee2e69078631473070ddeca9b",
-      "github_stars": 94,
+      "github_stars": 95,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-16T05:37:57Z",
       "last_update_days": 2,
@@ -4102,7 +4102,7 @@
       "checksum": "c6d60f7e780b51967857dde15675e8c6c640d0ae52ae696babc463caa720837e",
       "github_stars": 3,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T08:56:49Z",
+      "repository_updated_at": "2026-10-18T09:02:20Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -4115,7 +4115,7 @@
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 3,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T08:56:49Z"
+      "repository_updated_at": "2026-10-18T09:02:20Z"
     },
     {
       "name": "Byepervisor Reborn",
@@ -4252,7 +4252,7 @@
       "author": "MyLuxy",
       "version": "v1.0.2",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 697,
+      "github_stars": 698,
       "open_issues_count": 10,
       "repository_updated_at": "2026-10-18T04:34:12Z"
     },
@@ -4410,7 +4410,7 @@
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
       "github_stars": 3,
       "open_issues_count": 3,
-      "repository_updated_at": "2026-10-18T08:51:49Z"
+      "repository_updated_at": "2026-10-18T09:06:34Z"
     },
     {
       "name": "my-ps5-payloads — tanushshukla",
@@ -4658,7 +4658,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436",
-      "github_stars": 8945,
+      "github_stars": 8944,
       "open_issues_count": 862,
       "repository_updated_at": "2026-10-18T04:16:13Z"
     },
@@ -4843,7 +4843,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "bb6cc4cc8fdba4efa3a2b204291a81fbbf7993efda6cab55b50fea7495c14c43",
-      "github_stars": 3,
+      "github_stars": 4,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T20:00:06Z"
     },
@@ -4929,9 +4929,9 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
-      "github_stars": 42265,
-      "open_issues_count": 974,
-      "repository_updated_at": "2026-10-18T08:52:15Z"
+      "github_stars": 42269,
+      "open_issues_count": 975,
+      "repository_updated_at": "2026-10-18T09:04:31Z"
     }
   ]
 }
