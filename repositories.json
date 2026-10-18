@@ -1,10 +1,10 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T08:50:46+00:00",
+  "generated_at": "2026-10-18T08:59:00+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 331,
-  "payload_count": 187,
+  "count": 332,
+  "payload_count": 188,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
@@ -2677,11 +2677,11 @@
       "author": "naye1120",
       "icon_key": "668c3fb6a0d67edd2db4d4adcc7189c5fa9f2c189c21f0181f527215b621bad5",
       "payload_available": true,
-      "payload_filename": "NayePlmTools_0.6.1.181-me.elf",
-      "payload_url": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.181/NayePlmTools_0.6.1.181-me.elf",
-      "version": "v0.6.1.181",
-      "last_update": "2026-10-17",
-      "checksum": "f04d9731de9d71a4f14db258ad6b5ebaa14ecdc29c26bcc0cc6c0af13d5958a3"
+      "payload_filename": "NayePlmTools_0.6.1.188-me.elf",
+      "payload_url": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.188/NayePlmTools_0.6.1.188-me.elf",
+      "version": "v0.6.1.188",
+      "last_update": "2026-10-18",
+      "checksum": "0920cec67b4d36f087849a854a57be1bee92cff0315a25d16e4e913f4fce8104"
     },
     {
       "name": "HYPERHEN",
@@ -2737,17 +2737,17 @@
     },
     {
       "name": "pLinux5-NG",
-      "description": "PS5 Linux for high FW's (8.xx, 9.xx, 10.xx, 11.xx, 12.xx, 13.xx)",
+      "description": "Work-in-progress PS5 Linux port using the Byepervisor-Reborn hypervisor escape; its v0.1.0 release includes an offsets ELF, not a complete Linux loader or image.",
       "repository_url": "https://github.com/pLabs5/pLinux5-NG",
-      "category": "Repositories",
+      "category": "Linux & Development",
       "author": "pLabs5",
-      "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461",
       "payload_available": true,
-      "payload_filename": "pLinux5-NG.elf",
-      "payload_url": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG.elf",
       "version": "v0.1.0",
       "last_update": "2026-10-14",
-      "checksum": "f7f4872dd37d8f497c76a959d2e61a443a3948ca82a608325ed7dd0aa20f7853"
+      "payload_filename": "pLinux5-NG-offsets.elf",
+      "payload_url": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG-offsets.elf",
+      "checksum": "585e403b2238c488031d506834770cea6acd283eb7804a84b14d15b1a9df416d",
+      "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461"
     },
     {
       "name": "ps5-linux-porting",
@@ -3013,7 +3013,7 @@
       "payload_url": "https://github.com/MiladRTX/Breeze/releases/download/v1.5/breeze.elf",
       "version": "v1.5",
       "last_update": "2026-10-18",
-      "checksum": "1d747262a8151e8ddfdc34029f3bc458930ad9403263e78e334ddf0f6ebe18c4"
+      "checksum": "c6d60f7e780b51967857dde15675e8c6c640d0ae52ae696babc463caa720837e"
     },
     {
       "name": "Breeze 1.3",
@@ -3194,14 +3194,38 @@
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
-      "name": "my-ps5-payloads — tanushshukla",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/tanushshukla/my-ps5-payloads",
+      "name": "PS5 Y2JB USBUtilityTool",
+      "description": "PS5 Y2JB USB utility with a direct Full Y2JB Block ELF release asset.",
+      "repository_url": "https://github.com/TheWizWikii/PS5-Y2JB-USBUtilityTool",
+      "category": "System & Jailbreak",
+      "author": "TheWizWikii",
+      "payload_available": true,
+      "version": "v1",
+      "last_update": "2026-01-18",
+      "payload_filename": "full_y2jb_block0.elf",
+      "payload_url": "https://github.com/TheWizWikii/PS5-Y2JB-USBUtilityTool/releases/download/v1/full_y2jb_block0.elf",
+      "checksum": "bc9c073b24e6b3e93482b25a2557a60c641886eccda9e3d31d819cd4d3e0c0ca",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
+    },
+    {
+      "name": "ps5-java25-homebrew",
+      "description": "Native OpenJDK 25 runtime port for PS5 homebrew, with console-tested milestones and Java acceptance probes.",
+      "repository_url": "https://github.com/mateo-cogeanu/ps5-java25-homebrew",
       "category": "PS5 Auto-discovered",
-      "author": "tanushshukla",
+      "author": "mateo-cogeanu",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "84393d69aedb2774cddc74f65e6dd7863a809ef9bedf1a56f18fa131bb896caa"
+      "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327"
+    },
+    {
+      "name": "HiloadSender",
+      "description": "PS4/5 payload sender for HarmonyOS (6.0+)",
+      "repository_url": "https://github.com/azhuge233/HiloadSender",
+      "category": "PS5 Auto-discovered",
+      "author": "azhuge233",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "e440792c527bf5749dac69f56b95b2c1acdc65fb162b29e0bfc0b0a2c2cb3286"
     },
     {
       "name": "tmp_lap",
@@ -3212,6 +3236,16 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22"
+    },
+    {
+      "name": "my-ps5-payloads — tanushshukla",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/tanushshukla/my-ps5-payloads",
+      "category": "PS5 Auto-discovered",
+      "author": "tanushshukla",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "84393d69aedb2774cddc74f65e6dd7863a809ef9bedf1a56f18fa131bb896caa"
     },
     {
       "name": "ps5-ultrapack",
@@ -3300,7 +3334,7 @@
       "checksum": "a372966792449ded73db6f159efe8cdd2ecbc3af75b480216e11899d7b1aaa11"
     },
     {
-      "name": "ps5-payloads — avoidik",
+      "name": "ps5-payloads",
       "description": "Automatically discovered PS5-related GitHub repository.",
       "repository_url": "https://github.com/avoidik/ps5-payloads",
       "category": "PS5 Auto-discovered",
@@ -3482,14 +3516,14 @@
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22"
     },
     {
-      "name": "PS5-Jailbreak-Doctor",
-      "description": "PS5 Jailbreak Doctor is a Windows diagnostic tool for the PS5 homebrew community. It analyzes logs, identifies known errors, and provides troubleshooting guidance for tools such as ShadowMountPlus and KStuff Lite. Built to make debugging easier for both beginners and experienced users.",
-      "repository_url": "https://github.com/asomimlrxd/PS5-Jailbreak-Doctor",
+      "name": "exploit-core",
+      "description": "Public repository for PS5 14.10 research scaffold (exploit-core skeleton).",
+      "repository_url": "https://github.com/KENYGTZ/exploit-core",
       "category": "PS5 Auto-discovered",
-      "author": "asomimlrxd",
+      "author": "KENYGTZ",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "2b23fc35bebac06b1e00c10e9cd470a0031b2be1a3468fb1daf7d6a858240467"
+      "icon_key": "c307656bebfb34fd530039b3598fc68721e1c24d5ef11b376fbece297d4975f2"
     },
     {
       "name": "ps5-account-activator",
@@ -3602,26 +3636,6 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc"
-    },
-    {
-      "name": "ps5-payloads — xkzink",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/xkzink/ps5-payloads",
-      "category": "PS5 Auto-discovered",
-      "author": "xkzink",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "31a4f6f69d0dc5cf0b29a42e2b9389cb89f305c0e088b2568eb6269eebe906e4"
-    },
-    {
-      "name": "PS5_etaHEN_Cheat_Repository",
-      "description": "PS5_etaHEN_Cheat_Repository",
-      "repository_url": "https://github.com/spfi970/PS5_etaHEN_Cheat_Repository",
-      "category": "PS5 Auto-discovered",
-      "author": "spfi970",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "79f974ffefa655f14c5f98873330cb80be671182cc50186a6e0c98fa35bfbcf1"
     }
   ]
 }

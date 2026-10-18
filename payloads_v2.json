@@ -1,7 +1,7 @@
 {
   "name": "Payload Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T08:50:46+00:00",
+  "generated_at": "2026-10-18T08:59:00+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
@@ -548,6 +548,35 @@
       "category": "Utilities & Tools",
       "id": "pegasus-dl-pegasus_dl-2ec44249",
       "icon_key": "f247abf9a55b7f4a936bbaeddf9d17e1fbc4675d746201ee645db16387193b81"
+    },
+    {
+      "name": "Full Y2JB Block · NEW",
+      "filename": "full_y2jb_block0.elf",
+      "url": "https://github.com/TheWizWikii/PS5-Y2JB-USBUtilityTool/releases/download/v1/full_y2jb_block0.elf",
+      "source": "https://github.com/TheWizWikii/PS5-Y2JB-USBUtilityTool/releases",
+      "source_direct": "https://github.com/TheWizWikii/PS5-Y2JB-USBUtilityTool/releases/download/v1/full_y2jb_block0.elf",
+      "description": "Full Y2JB Block payload distributed by PS5 Y2JB USBUtilityTool.",
+      "version": "v1",
+      "last_update": "2026-01-18",
+      "category": "System & Jailbreak",
+      "checksum": "bc9c073b24e6b3e93482b25a2557a60c641886eccda9e3d31d819cd4d3e0c0ca",
+      "id": "full-y2jb-block-full_y2jb_block0-b31adf22",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
+      "first_seen": "2026-10-18"
+    },
+    {
+      "name": "pLinux5-NG Offsets",
+      "filename": "pLinux5-NG-offsets.elf",
+      "url": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG-offsets.elf",
+      "source": "https://github.com/pLabs5/pLinux5-NG/releases",
+      "source_direct": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG-offsets.elf",
+      "description": "Offsets ELF associated with pLinux5-NG, a work-in-progress PS5 Linux project targeting high firmware versions. This is an offsets payload, not a complete Linux loader or Linux image.",
+      "version": "v0.1.0",
+      "last_update": "2026-10-14",
+      "category": "Linux & Development",
+      "checksum": "585e403b2238c488031d506834770cea6acd283eb7804a84b14d15b1a9df416d",
+      "id": "plinux5-ng-offsets-plinux5-ng-offsets-43df9e97",
+      "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461"
     },
     {
       "name": "kylin-core-release",
@@ -2217,31 +2246,31 @@
     },
     {
       "name": "NayePlmTools — NayePlmTools",
-      "filename": "NayePlmTools_0.6.1.181-ga.elf",
-      "url": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.181/NayePlmTools_0.6.1.181-ga.elf",
+      "filename": "NayePlmTools_0.6.1.188-ga.elf",
+      "url": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.188/NayePlmTools_0.6.1.188-ga.elf",
       "source": "https://github.com/naye1120/NayePlmTools/releases",
-      "source_direct": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.181/NayePlmTools_0.6.1.181-ga.elf",
+      "source_direct": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.188/NayePlmTools_0.6.1.188-ga.elf",
       "description": "NayePlmTools — PS5 Payload Manager 中文分支（CN-FORK）：游戏改名/存档管理/背景音乐/主屏排序等增强",
-      "last_update": "2026-10-17",
-      "version": "v0.6.1.181",
+      "last_update": "2026-10-18",
+      "version": "v0.6.1.188",
       "category": "Utilities & Tools",
-      "checksum": "8d7190afbcf2e1789acdf312f57a1e7d435e02016de06367546c60fdc368ad94",
+      "checksum": "a13edf8f700f2b3f939f3dd839b22bf92578d05ec6f825ce922c33357ce39e71",
       "icon_key": "668c3fb6a0d67edd2db4d4adcc7189c5fa9f2c189c21f0181f527215b621bad5",
-      "id": "nayeplmtools-nayeplmtools_0.6.1.181-ga-e80d8c1a"
+      "id": "nayeplmtools-nayeplmtools_0.6.1.188-ga-1f94b9e6"
     },
     {
-      "name": "NayePlmTools — NayePlmTools [efd4cdc6]",
-      "filename": "NayePlmTools_0.6.1.181-me.elf",
-      "url": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.181/NayePlmTools_0.6.1.181-me.elf",
+      "name": "NayePlmTools — NayePlmTools [917d3bca]",
+      "filename": "NayePlmTools_0.6.1.188-me.elf",
+      "url": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.188/NayePlmTools_0.6.1.188-me.elf",
       "source": "https://github.com/naye1120/NayePlmTools/releases",
-      "source_direct": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.181/NayePlmTools_0.6.1.181-me.elf",
+      "source_direct": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.188/NayePlmTools_0.6.1.188-me.elf",
       "description": "NayePlmTools — PS5 Payload Manager 中文分支（CN-FORK）：游戏改名/存档管理/背景音乐/主屏排序等增强",
-      "last_update": "2026-10-17",
-      "version": "v0.6.1.181",
+      "last_update": "2026-10-18",
+      "version": "v0.6.1.188",
       "category": "Utilities & Tools",
-      "checksum": "f04d9731de9d71a4f14db258ad6b5ebaa14ecdc29c26bcc0cc6c0af13d5958a3",
+      "checksum": "0920cec67b4d36f087849a854a57be1bee92cff0315a25d16e4e913f4fce8104",
       "icon_key": "668c3fb6a0d67edd2db4d4adcc7189c5fa9f2c189c21f0181f527215b621bad5",
-      "id": "nayeplmtools-nayeplmtools_0.6.1.181-me-fc2b9bbb"
+      "id": "nayeplmtools-nayeplmtools_0.6.1.188-me-636c3587"
     },
     {
       "name": "HYPERHEN",
@@ -2272,29 +2301,15 @@
       "id": "omega-dashboard-omega-installer-ebc4dad4"
     },
     {
-      "name": "pLinux5-NG — pLinux5-NG-offsets",
-      "filename": "pLinux5-NG-offsets.elf",
-      "url": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG-offsets.elf",
-      "source": "https://github.com/pLabs5/pLinux5-NG/releases",
-      "source_direct": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG-offsets.elf",
-      "description": "PS5 Linux for high FW's (8.xx, 9.xx, 10.xx, 11.xx, 12.xx, 13.xx)",
-      "last_update": "2026-10-14",
-      "version": "v0.1.0",
-      "category": "Emulators & Linux",
-      "checksum": "585e403b2238c488031d506834770cea6acd283eb7804a84b14d15b1a9df416d",
-      "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461",
-      "id": "plinux5-ng-plinux5-ng-offsets-43df9e97"
-    },
-    {
-      "name": "pLinux5-NG — pLinux5-NG",
+      "name": "pLinux5-NG",
       "filename": "pLinux5-NG.elf",
       "url": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG.elf",
       "source": "https://github.com/pLabs5/pLinux5-NG/releases",
       "source_direct": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG.elf",
-      "description": "PS5 Linux for high FW's (8.xx, 9.xx, 10.xx, 11.xx, 12.xx, 13.xx)",
+      "description": "Work-in-progress PS5 Linux port using the Byepervisor-Reborn hypervisor escape; its v0.1.0 release includes an offsets ELF, not a complete Linux loader or image.",
       "last_update": "2026-10-14",
       "version": "v0.1.0",
-      "category": "Emulators & Linux",
+      "category": "Loaders",
       "checksum": "f7f4872dd37d8f497c76a959d2e61a443a3948ca82a608325ed7dd0aa20f7853",
       "icon_key": "5a728416d795a7d107aad6a2e99124813d0b4266d4337f6cf56b890a62127461",
       "id": "plinux5-ng-plinux5-ng-f30fd471"
@@ -2491,7 +2506,7 @@
       "last_update": "2026-10-18",
       "version": "v1.5",
       "category": "Loaders",
-      "checksum": "1d747262a8151e8ddfdc34029f3bc458930ad9403263e78e334ddf0f6ebe18c4",
+      "checksum": "c6d60f7e780b51967857dde15675e8c6c640d0ae52ae696babc463caa720837e",
       "icon_key": "a4700ffd4ff4b567875974a6bb15c3d9bd81f6a51dec15f60834e93459b96cd1",
       "id": "breeze-breeze-e3c0f10d"
     },
