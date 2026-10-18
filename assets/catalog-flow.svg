@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
 <title id="title"> Repository Catalog — automated discovery and publishing</title>
-<desc id="desc">Public  project sources flow through discovery, filtering, deduplication, validation, and published JSON feeds for PLDMGR.</desc>
+<desc id="desc">Configured public online sources are collected and checked for changes, then filtered, validated, and published as structured JSON feeds.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10172a"/><stop offset="1" stop-color="#172554"/></linearGradient>
   <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
@@ -9,9 +9,9 @@
 </defs>
 <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
 <circle cx="1080" cy="45" r="150" fill="#4338ca" opacity=".12"/><circle cx="80" cy="500" r="180" fill="#0ea5e9" opacity=".10"/>
-<text x="56" y="64" fill="#7dd3fc" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="3">AUTOMATED • COMMUNITY-DRIVEN • OPEN DATA</text>
+<text x="56" y="64" fill="#7dd3fc" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="3">COLLECT • MONITOR • VALIDATE • PUBLISH</text>
 <text x="56" y="116" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700"> Repository Catalog</text>
-<text x="56" y="151" fill="#cbd5e1" font-family="Arial,Helvetica,sans-serif" font-size="18">Discover public projects. Validate direct payloads. Publish clean JSON feeds.</text>
+<text x="56" y="151" fill="#cbd5e1" font-family="Arial,Helvetica,sans-serif" font-size="18">Collect source data. Track repository changes. Publish validated JSON feeds.</text>
 <g filter="url(#shadow)">
   <rect x="55" y="210" width="220" height="150" rx="18" fill="#1e293b" stroke="#475569"/>
   <rect x="310" y="210" width="220" height="150" rx="18" fill="#1e293b" stroke="#475569"/>
@@ -21,15 +21,15 @@
 <g fill="none" stroke="#7dd3fc" stroke-width="3" marker-end="url(#arrow)"><path d="M278 285 H302"/><path d="M533 285 H557"/><path d="M788 285 H812"/></g>
 <g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
   <g fill="#38bdf8"><circle cx="165" cy="250" r="20" fill="#0c4a6e"/><path d="M155 250h20M165 240v20" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round"/></g>
-  <text x="165" y="293" fill="#fff" font-size="19" font-weight="700">Discover</text><text x="165" y="320" fill="#cbd5e1" font-size="14">Public GitHub projects</text><text x="165" y="340" fill="#cbd5e1" font-size="14">and trusted source feeds</text>
+  <text x="165" y="293" fill="#fff" font-size="19" font-weight="700">Collect data</text><text x="165" y="320" fill="#cbd5e1" font-size="14">Configured public sources</text><text x="165" y="340" fill="#cbd5e1" font-size="14">Feeds and repository metadata</text>
   <g><circle cx="420" cy="250" r="20" fill="#164e63"/><path d="M410 250l7 7 14-16" fill="none" stroke="#67e8f9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
-  <text x="420" y="293" fill="#fff" font-size="19" font-weight="700">Filter &amp; deduplicate</text><text x="420" y="320" fill="#cbd5e1" font-size="14">Direct HTTPS .elf assets</text><text x="420" y="340" fill="#cbd5e1" font-size="14">Stable IDs and categories</text>
+  <text x="420" y="293" fill="#fff" font-size="19" font-weight="700">Compare &amp; normalize</text><text x="420" y="320" fill="#cbd5e1" font-size="14">New and changed records</text><text x="420" y="340" fill="#cbd5e1" font-size="14">Deduplication and metadata</text>
   <g><circle cx="675" cy="250" r="20" fill="#312e81"/><path d="M665 244h20M665 250h20M665 256h13" stroke="#c7d2fe" stroke-width="3" stroke-linecap="round"/></g>
-  <text x="675" y="293" fill="#fff" font-size="19" font-weight="700">Validate</text><text x="675" y="320" fill="#cbd5e1" font-size="14">JSON structure and links</text><text x="675" y="340" fill="#cbd5e1" font-size="14">Icon references and IDs</text>
+  <text x="675" y="293" fill="#fff" font-size="19" font-weight="700">Validate</text><text x="675" y="320" fill="#cbd5e1" font-size="14">JSON structure and links</text><text x="675" y="340" fill="#cbd5e1" font-size="14">Icons, IDs, and links</text>
   <g><circle cx="982" cy="250" r="20" fill="#064e3b"/><path d="M973 241h18v18h-18zM977 246h10M977 251h10M977 256h6" fill="none" stroke="#6ee7b7" stroke-width="2" stroke-linejoin="round"/></g>
-  <text x="982" y="293" fill="#fff" font-size="19" font-weight="700">Publish JSON feeds</text><text x="982" y="320" fill="#cbd5e1" font-size="14">Payloads • repositories • icons</text><text x="982" y="340" fill="#cbd5e1" font-size="14">GitHub Pages + PLDMGR</text>
+  <text x="982" y="293" fill="#fff" font-size="19" font-weight="700">Publish JSON feeds</text><text x="982" y="320" fill="#cbd5e1" font-size="14">Data • metadata • icons</text><text x="982" y="340" fill="#cbd5e1" font-size="14">GitHub Pages + JSON feeds</text>
 </g>
 <rect x="55" y="405" width="1090" height="64" rx="14" fill="#0f172a" stroke="#334155"/>
-<circle cx="84" cy="437" r="7" fill="#34d399"/><text x="105" y="443" fill="#e2e8f0" font-family="Arial,Helvetica,sans-serif" font-size="16">Runs automatically every 6 hours, with manual runs and validation before publishing.</text>
+<circle cx="84" cy="437" r="7" fill="#34d399"/><text x="105" y="443" fill="#e2e8f0" font-family="Arial,Helvetica,sans-serif" font-size="16">Checks configured sources every 6 hours; publishes validated changes when a run succeeds.</text>
 <text x="1145" y="495" text-anchor="end" fill="#94a3b8" font-family="Arial,Helvetica,sans-serif" font-size="12">PROJECT OVERVIEW</text>
 </svg>
