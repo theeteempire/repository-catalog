@@ -3,7 +3,7 @@
   "schema_version": 2,
   "generated_at": "2026-10-17T23:53:43+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
-  "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
+  "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
     {
       "name": "ps5upload",
