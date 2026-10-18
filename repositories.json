@@ -611,9 +611,9 @@
     },
     {
       "name": "blackbox",
-      "description": "BB",
+      "description": "A PS5 homebrew utility for browsing and managing files. Release v1.11.0 provides both ELF and FFPKG builds.",
       "repository_url": "https://github.com/D3ATHLY/blackbox",
-      "category": "Repositories",
+      "category": "Utilities & Tools",
       "author": "D3ATHLY",
       "icon_key": "164fe304de7937ba61afaf32c7ac801d5bc247e5c2026ad170d3ea9247efa12b",
       "payload_available": true,
@@ -621,7 +621,9 @@
       "payload_url": "https://github.com/D3ATHLY/blackbox/releases/download/1.11.0/blackbox.elf",
       "version": "1.11.0",
       "last_update": "2026-10-15",
-      "checksum": "b90b03325b673a65de21657d456d8da1fdb5d4f82f73c4dda033bf3547b34c60"
+      "checksum": "b90b03325b673a65de21657d456d8da1fdb5d4f82f73c4dda033bf3547b34c60",
+      "package_filename": "PPSA01453.ffpkg",
+      "package_url": "https://github.com/D3ATHLY/blackbox/releases/download/1.11.0/PPSA01453.ffpkg"
     },
     {
       "name": "PS5-Game-Compressor",
@@ -865,9 +867,9 @@
     },
     {
       "name": "onionHEN",
-      "description": "Yet another HEN enabler for jailbroken PS5",
+      "description": "A homebrew enabler and Toolbox for jailbroken PS5 consoles, built on etaHEN, with cheats, a game overlay, payload management, and background services.",
       "repository_url": "https://github.com/aydencharles/onionHEN",
-      "category": "Repositories",
+      "category": "System & Jailbreak",
       "author": "aydencharles",
       "payload_available": true,
       "icon_key": "9c0353458e7f31df4fe6c588f15dbac7df982893b87cf9f84b472487e61a4576",
@@ -3612,6 +3614,19 @@
       "category": "System & Jailbreak",
       "author": "PS5Dev",
       "payload_available": false
+    },
+    {
+      "name": "Game Glance",
+      "description": "A Decky Loader plugin for Steam Game Mode that provides full-screen game pages with playtime, achievements, HowLongToBeat information, and an optional Spotlight-style Home screen with touch and mouse navigation.",
+      "repository_url": "https://github.com/michpalm/game-glance",
+      "category": "Gaming & UI",
+      "author": "michpalm",
+      "payload_available": false,
+      "version": "v3.4.0",
+      "last_update": "2026-10-17",
+      "package_filename": "game-glance.zip",
+      "package_url": "https://github.com/michpalm/game-glance/releases/download/v3.4.0/game-glance.zip",
+      "checksum": "bea454654b24b4d675584c63ed29cff2f297c23ba3336944874943ee999de915"
     }
   ]
 }
