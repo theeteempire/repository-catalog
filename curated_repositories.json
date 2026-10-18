@@ -372,16 +372,16 @@
     },
     {
       "name": "Y2JB Update Blocker",
-      "description": "PS5 payload that blocks YouTube update metadata; release v1.0.1 supports additional YouTube title IDs and verifies metadata/database changes.",
+      "description": "PS5 payload that blocks YouTube update metadata; v1.0.2 simplifies payload notifications and includes minor code cleanup.",
       "repository_url": "https://github.com/Epinorr/y2jb-update-blocker",
       "category": "Utilities & Tools",
       "author": "Epinorr",
       "payload_available": true,
-      "version": "v1.0.1",
+      "version": "v1.0.2",
       "last_update": "2026-10-18",
-      "payload_filename": "YT-Blocker_v1.0.1.elf",
-      "payload_url": "https://github.com/Epinorr/y2jb-update-blocker/releases/download/v1.0.1/YT-Blocker_v1.0.1.elf",
-      "checksum": "541d320b474f9a90576294ff86d024d6ede6f6e7f79d76408b54c01818ae510f"
+      "payload_filename": "YT-Blocker_v1.0.2.elf",
+      "payload_url": "https://github.com/Epinorr/y2jb-update-blocker/releases/download/v1.0.2/YT-Blocker_v1.0.2.elf",
+      "checksum": "6ab006d92685e1ef67f9984549a5d4e8df24f6f59b2452e77c2737be6ed7df5a"
     },
     {
       "name": "PS5Droid",
