@@ -1,7 +1,7 @@
 {
   "name": "Payload Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T01:39:46+00:00",
+  "generated_at": "2026-10-18T01:42:25+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
@@ -119,7 +119,7 @@
       "id": "webkit-autoloader-installer-webkit-autoloader-installer_v0.6.1-cf17e060"
     },
     {
-      "name": "ps5-web-file-manager — ps5-web-file-manager",
+      "name": "ps5-web-file-manager",
       "filename": "ps5-web-file-manager_v1.10.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.10.elf",
       "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
@@ -147,7 +147,7 @@
       "id": "ps5-app-dumper-ps5-app-dumper_v2.10-29765990"
     },
     {
-      "name": "zftpd — zftpd",
+      "name": "zftpd",
       "filename": "zftpd_v1.6.0.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/zftpd_v1.6.0.elf",
       "source": "https://github.com/seregonwar/zftpd/releases",
@@ -162,7 +162,7 @@
       "id": "zftpd-zftpd_v1.6.0-b2aeb7b0"
     },
     {
-      "name": "ps5debug-NG — ps5debug-NG",
+      "name": "ps5debug-NG",
       "filename": "ps5debug-NG_1.3.2.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5debug-NG_1.3.2.elf",
       "source": "https://github.com/Pharaoh2k/ps5debug-NG/releases",
@@ -247,7 +247,7 @@
       "id": "elfldr-elfldr_v0.26-963098e8"
     },
     {
-      "name": "ftpsrv — ftpsrv",
+      "name": "ftpsrv",
       "filename": "ftpsrv_v0.21.1.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_v0.21.1.elf",
       "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
@@ -817,34 +817,6 @@
       "id": "ps5-fan-control-ps5-fan-control-v0.3-d42e8277"
     },
     {
-      "name": "ps5-web-file-manager — web-file-mgr",
-      "filename": "web-file-mgr-v1.11.elf",
-      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.11/web-file-mgr-v1.11.elf",
-      "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
-      "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.11/web-file-mgr-v1.11.elf",
-      "description": "A file manager for PS5 with a web UI.",
-      "last_update": "2026-10-17",
-      "version": "v1.11",
-      "category": "File & Package Management",
-      "checksum": "cbcdacf69c331025e1643fc99f5b5fc117125e7c39931b6dd914323412558911",
-      "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97",
-      "id": "ps5-web-file-manager-web-file-mgr-v1.11-7c83369a"
-    },
-    {
-      "name": "ps5-web-file-manager — wfm",
-      "filename": "wfm-7zip-helper.elf",
-      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.11/wfm-7zip-helper.elf",
-      "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
-      "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.11/wfm-7zip-helper.elf",
-      "description": "A file manager for PS5 with a web UI.",
-      "last_update": "2026-10-17",
-      "version": "v1.11",
-      "category": "File & Package Management",
-      "checksum": "dd8bbae4cd44ed20c4cbafc74fdc3271f52b9d7888a0d4f4038a8ae05feb92a4",
-      "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97",
-      "id": "ps5-web-file-manager-wfm-7zip-helper-3d32e479"
-    },
-    {
       "name": "PS5-File-Explorer — file-explorer-core",
       "filename": "file-explorer-core.elf",
       "url": "https://github.com/juma-sayeh/PS5-File-Explorer/releases/download/file-explorer-v0.2.1/file-explorer-core.elf",
@@ -1013,20 +985,6 @@
       "id": "ps5-unified-autoloader-ps5-unified-autoloader-v0.1.5-915a65e-97f2b2d4"
     },
     {
-      "name": "ps5-payload-manager",
-      "filename": "pldmgr_v0.6.1.elf",
-      "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.1/pldmgr_v0.6.1.elf",
-      "source": "https://github.com/itsPLK/ps5-payload-manager/releases",
-      "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.1/pldmgr_v0.6.1.elf",
-      "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
-      "last_update": "2026-10-14",
-      "version": "v0.6.1",
-      "category": "Utilities & Tools",
-      "checksum": "5165cbe4c13360828bd0f5d558cdbb9e2d55b0660b1dc7f7a58d3f4ee9e23285",
-      "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346",
-      "id": "ps5-payload-manager-pldmgr_v0.6.1-5d00f7cc"
-    },
-    {
       "name": "kura",
       "filename": "kura-loader-ps5.elf",
       "url": "https://github.com/NookieAI/kura/releases/download/v1.6.50/kura-loader-ps5.elf",
@@ -1081,20 +1039,6 @@
       "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569",
       "icon_key": "f2ec005352d2a6d8f05e197551e222eebf3e420fa8d9b3939af821849a69a346",
       "id": "kstuff-kstuff-b5bb301f"
-    },
-    {
-      "name": "kstuff-lite — kstuff",
-      "filename": "kstuff.elf",
-      "url": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.11/kstuff.elf",
-      "source": "https://github.com/EchoStretch/kstuff-lite/releases",
-      "source_direct": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.11/kstuff.elf",
-      "description": "**Kstuff Lite 1.11 Beta Supports Firmware 1.00-13.60**\r\n\r\nA huge thanks to @sleirsgoevy for the help and creating this project, and to @zecoxao, @flatz, @idlesauce, @buzzer-re, @Al-Azif, @drakmor and everyone else who contributed. Your work and support are greatly appreciated!\r\n\r\n🔹 Changelog\r\nAdded 13.xx Support\r\nAdded 1.xx/2.xx Support @drakmor \r\nAdded Fpkg Upto 11.40 @drakmor \r\nPerformance tuning @drakmor\r\nPS4 media app support @drakmor\r\nFixed Fpkg For 11.60 @ArkSama \r\nFixed int3 For 13.xx @idlesauce \r\nAdded Misc Kit Stuff\r\n\r\n** @drakmor put alot of work into fpkg so make sure you thank him.. **\r\n\r\n📂 Original Source:\r\n[github.com/sleirsgoevy/ps4jb-payloads/tree/bd-jb](https://github.com/sleirsgoevy/ps4jb-payloads/tree/bd-jb)",
-      "last_update": "2026-09-20",
-      "version": "v1.11",
-      "category": "Networking & Servers",
-      "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779",
-      "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b",
-      "id": "kstuff-lite-kstuff-30a43f95"
     },
     {
       "name": "kstuff-lite — kstuff",
@@ -1293,20 +1237,6 @@
       "id": "garlic-worker-garlic-worker-ps5-f69b900a"
     },
     {
-      "name": "ps5debug-NG — ps5debug-NG",
-      "filename": "ps5debug-NG_v1.3.2.elf",
-      "url": "https://github.com/Pharaoh2k/ps5debug-NG/releases/download/1.3.2/ps5debug-NG_v1.3.2.elf",
-      "source": "https://github.com/OpenSourcereR-dev/ps5debug-NG/releases",
-      "source_direct": "https://github.com/Pharaoh2k/ps5debug-NG/releases/download/1.3.2/ps5debug-NG_v1.3.2.elf",
-      "description": "PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore. GPL-3.",
-      "last_update": "2026-09-23",
-      "version": "1.3.2",
-      "category": "Utilities & Tools",
-      "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
-      "icon_key": "d499e0744e7846bc548fa877ae897335444a978f955da2ac66e88ab91a4476d8",
-      "id": "ps5debug-ng-ps5debug-ng_v1.3.2-0fc22a07"
-    },
-    {
       "name": "ps5-fw-spoof",
       "filename": "ps5-fw-spoof.elf",
       "url": "https://github.com/illusionyy/ps5-fw-spoof/releases/download/26616621599/ps5-fw-spoof.elf",
@@ -1502,34 +1432,6 @@
       "id": "ps5-debugger-ps5debug-ng-33ae8c29"
     },
     {
-      "name": "zftpd — zftpd-ps5-zhttp",
-      "filename": "zftpd-ps5-zhttp-v1.6.0.elf",
-      "url": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps5-zhttp-v1.6.0.elf",
-      "source": "https://github.com/seregonwar/zftpd/releases",
-      "source_direct": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps5-zhttp-v1.6.0.elf",
-      "description": "Zero-copy FTP/HTTP Daemon compatible with all POSIX systems",
-      "last_update": "2026-09-30",
-      "version": "v1.6.0",
-      "category": "Networking & Servers",
-      "checksum": "fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497",
-      "icon_key": "bd943d614d5d000c34a8bd4e1c00df0bbb9881907accaabe58aab384711abb6c",
-      "id": "zftpd-zftpd-ps5-zhttp-v1.6.0-c73c2256"
-    },
-    {
-      "name": "ftpsrv — ftpsrv-ps5-install",
-      "filename": "ftpsrv-ps5-install.elf",
-      "url": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps5-install.elf",
-      "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
-      "source_direct": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.21.1/ftpsrv-ps5-install.elf",
-      "description": "An FTP server for jailbroken PS4s and PS5s",
-      "last_update": "2026-08-20",
-      "version": "v0.21.1",
-      "category": "Networking & Servers",
-      "checksum": "0ccfe0097081be0514aabef34390a0f6776226e8b3eefbb047964584e0cfe3a9",
-      "icon_key": "4720d3f0f446dc4e8848351d922d3fa4c0ef2fe9267f6afd6f3865f9b14605e7",
-      "id": "ftpsrv-ftpsrv-ps5-install-737081c5"
-    },
-    {
       "name": "gdbsrv",
       "filename": "gdbsrv-ps5.elf",
       "url": "https://github.com/ps5-payload-dev/gdbsrv/releases/download/v0.9/gdbsrv-ps5.elf",
@@ -1542,20 +1444,6 @@
       "checksum": "80952d75f423768b95385f0944e5a5c2f417dcc10c22c1bb6516a923ad8894e5",
       "icon_key": "beb1df9122ceed770c86b76620c7f5fe8d72f3a0a35aff92817dcf631ab8d041",
       "id": "gdbsrv-gdbsrv-ps5-7fce7bd1"
-    },
-    {
-      "name": "ftpsrv — ftpsrv-ps5",
-      "filename": "ftpsrv-ps5.elf",
-      "url": "https://github.com/drakmor/ftpsrv/releases/download/1.16-ng-stable/ftpsrv-ps5.elf",
-      "source": "https://github.com/drakmor/ftpsrv/releases",
-      "source_direct": "https://github.com/drakmor/ftpsrv/releases/download/1.16-ng-stable/ftpsrv-ps5.elf",
-      "description": "A simple FTP server for jailbroken PS4s and PS5s",
-      "last_update": "2026-09-20",
-      "version": "1.16-ng-stable",
-      "category": "Networking & Servers",
-      "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
-      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a",
-      "id": "ftpsrv-ftpsrv-ps5-e98d1bf8"
     },
     {
       "name": "ps5-ezremote-server",

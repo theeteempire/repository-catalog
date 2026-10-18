@@ -1,10 +1,10 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T01:39:46+00:00",
+  "generated_at": "2026-10-18T01:42:25+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 334,
-  "payload_count": 185,
+  "payload_count": 177,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
@@ -1330,11 +1330,11 @@
       "author": "ps5-payload-dev",
       "payload_available": true,
       "icon_key": "071962d27a706dfa602cd64c2f5cffa9aed238574f55d35be4989e8e65ab8618",
-      "version": "v0.35",
-      "last_update": "2026-10-10",
-      "payload_filename": "websrv-ps5.elf",
-      "payload_url": "https://github.com/ps5-payload-dev/websrv/releases/download/v0.35/websrv-ps5.elf",
-      "checksum": "25501b41887a42789792d1367edd2fc892454bfe6b0b1519bc36456a581f264c"
+      "version": "v0.34",
+      "last_update": "2026-08-02",
+      "payload_filename": "websrv_v0.34.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/websrv_v0.34.elf",
+      "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263"
     },
     {
       "name": "gdbsrv",
@@ -1408,11 +1408,11 @@
       "author": "phantomptr",
       "payload_available": true,
       "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0",
-      "version": "v7.1.0",
-      "last_update": "2026-10-17",
-      "payload_filename": "ps5upload-7.1.0.elf",
-      "payload_url": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.0/ps5upload-7.1.0.elf",
-      "checksum": "f16a99904f194f96a592cc29206843f3641a46ad7df96fabd4cc9851cd8c1d37"
+      "version": "v7.0.31",
+      "last_update": "2026-10-16",
+      "payload_filename": "ps5upload_v7.0.31.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.0.31.elf",
+      "checksum": "4ef3b781ae178bbe402a87a64b6f366d3386d6557306db0f51b46b458ffa7e24"
     },
     {
       "name": "airpsx",
@@ -3523,13 +3523,7 @@
       "author": "itsPLK",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e",
-      "payload_available": true,
-      "payload_filename": "websrv_v0.34.elf",
-      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/websrv_v0.34.elf",
-      "version": "payloads-mirror",
-      "last_update": "2026-04-28",
-      "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263"
+      "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e"
     },
     {
       "name": "PS5-Jailbreak-Doctor",
