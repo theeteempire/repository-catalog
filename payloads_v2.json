@@ -1,23 +1,37 @@
 {
   "name": "Payload Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T01:42:25+00:00",
+  "generated_at": "2026-10-18T04:32:33+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v7.0.31.elf",
-      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.0.31.elf",
+      "filename": "ps5upload_v7.1.0.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.0.elf",
       "source": "https://github.com/phantomptr/ps5upload/releases",
-      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.31/ps5upload-7.0.31.elf",
+      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.0/ps5upload-7.1.0.elf",
       "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-      "last_update": "2026-10-16",
-      "version": "v7.0.31",
+      "last_update": "2026-10-17",
+      "version": "v7.1.0",
       "category": "Networking & Servers",
-      "checksum": "4ef3b781ae178bbe402a87a64b6f366d3386d6557306db0f51b46b458ffa7e24",
+      "checksum": "f16a99904f194f96a592cc29206843f3641a46ad7df96fabd4cc9851cd8c1d37",
       "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0",
-      "id": "ps5upload-ps5upload_v7.0.31-8e2ce04a"
+      "id": "ps5upload-ps5upload_v7.1.0-d49134b7"
+    },
+    {
+      "name": "ps5-web-file-manager",
+      "filename": "ps5-web-file-manager_v1.11.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.11.elf",
+      "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
+      "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.11/web-file-mgr-v1.11.elf",
+      "description": "A file manager for PS5 with a web UI",
+      "last_update": "2026-10-17",
+      "version": "v1.11",
+      "category": "Utilities & Tools",
+      "checksum": "cbcdacf69c331025e1643fc99f5b5fc117125e7c39931b6dd914323412558911",
+      "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97",
+      "id": "ps5-web-file-manager-ps5-web-file-manager_v1.11-b26c4909"
     },
     {
       "name": "onionHEN",
@@ -117,20 +131,6 @@
       "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
       "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
       "id": "webkit-autoloader-installer-webkit-autoloader-installer_v0.6.1-cf17e060"
-    },
-    {
-      "name": "ps5-web-file-manager",
-      "filename": "ps5-web-file-manager_v1.10.elf",
-      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.10.elf",
-      "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
-      "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.10/web-file-mgr-v1.10.elf",
-      "description": "A file manager for PS5 with a web UI",
-      "last_update": "2026-10-05",
-      "version": "v1.10",
-      "category": "Utilities & Tools",
-      "checksum": "409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3",
-      "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97",
-      "id": "ps5-web-file-manager-ps5-web-file-manager_v1.10-961b0ef1"
     },
     {
       "name": "ps5-app-dumper",
@@ -2343,31 +2343,31 @@
     },
     {
       "name": "ps5-cooling-system-center-pro — cooling-center-launcher-installer",
-      "filename": "cooling-center-launcher-installer_v1.69.0.elf",
-      "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.69.0/cooling-center-launcher-installer_v1.69.0.elf",
+      "filename": "cooling-center-launcher-installer_v1.69.1.elf",
+      "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.69.1/cooling-center-launcher-installer_v1.69.1.elf",
       "source": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases",
-      "source_direct": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.69.0/cooling-center-launcher-installer_v1.69.0.elf",
+      "source_direct": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.69.1/cooling-center-launcher-installer_v1.69.1.elf",
       "description": "Fan control, temperature monitoring and system center for the jailbroken PS5 – payload with a web UI (DE · EN · IT · ES · FR · RU) | Lüftersteuerung und Systemzentrale für die PS5",
-      "last_update": "2026-10-17",
-      "version": "v1.69.0",
+      "last_update": "2026-10-18",
+      "version": "v1.69.1",
       "category": "Utilities & Tools",
       "checksum": "fe8269ddac9420ec9b8d836c500e83ca2ee019efabfb227e30e0620710cf2960",
       "icon_key": "71ab581a74b2021b37fc9e240a25cd9e47593b3ddf2361455c769163f0ee35ec",
-      "id": "ps5-cooling-system-center-pro-cooling-center-launcher-installer_v1.69.0-ec7b69ee"
+      "id": "ps5-cooling-system-center-pro-cooling-center-launcher-installer_v1.69.1-0427e073"
     },
     {
       "name": "ps5-cooling-system-center-pro — PS5_Cooling_System_Center",
-      "filename": "PS5_Cooling_System_Center_v1.69.0.elf",
-      "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.69.0/PS5_Cooling_System_Center_v1.69.0.elf",
+      "filename": "PS5_Cooling_System_Center_v1.69.1.elf",
+      "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.69.1/PS5_Cooling_System_Center_v1.69.1.elf",
       "source": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases",
-      "source_direct": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.69.0/PS5_Cooling_System_Center_v1.69.0.elf",
+      "source_direct": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.69.1/PS5_Cooling_System_Center_v1.69.1.elf",
       "description": "Fan control, temperature monitoring and system center for the jailbroken PS5 – payload with a web UI (DE · EN · IT · ES · FR · RU) | Lüftersteuerung und Systemzentrale für die PS5",
-      "last_update": "2026-10-17",
-      "version": "v1.69.0",
+      "last_update": "2026-10-18",
+      "version": "v1.69.1",
       "category": "Utilities & Tools",
-      "checksum": "baa140b9c0fa238d0321e18a8c78b288074565216220b1220b34444b1b6fae1d",
+      "checksum": "ab0b2c000586bbfe77a5477ae26f11b09609b9481dc69fa5d32835f6a0c6cb6a",
       "icon_key": "71ab581a74b2021b37fc9e240a25cd9e47593b3ddf2361455c769163f0ee35ec",
-      "id": "ps5-cooling-system-center-pro-ps5_cooling_system_center_v1.69.0-77c90c5c"
+      "id": "ps5-cooling-system-center-pro-ps5_cooling_system_center_v1.69.1-4c233fbd"
     },
     {
       "name": "Breeze",
@@ -2400,16 +2400,16 @@
     {
       "name": "bayo.sh · NEW",
       "filename": "bayosh.elf",
-      "url": "https://github.com/bayo-labs/bayo.sh/releases/download/v0.3.0/bayosh.elf",
+      "url": "https://github.com/bayo-labs/bayo.sh/releases/download/v0.3.1/bayosh.elf",
       "source": "https://github.com/bayo-labs/bayo.sh/releases",
-      "source_direct": "https://github.com/bayo-labs/bayo.sh/releases/download/v0.3.0/bayosh.elf",
+      "source_direct": "https://github.com/bayo-labs/bayo.sh/releases/download/v0.3.1/bayosh.elf",
       "description": "Animated video wallpapers for the PS5 home screen 🎬 Pick your clip, give each game its own, and control everything from your PS5, phone or PC. Works with etaHEN.",
       "last_update": "2026-10-18",
-      "version": "v0.3.0",
+      "version": "v0.3.1",
       "category": "System & Jailbreak",
-      "checksum": "6f5dd3af246a2424f4b0c6721d9bbdc1af07acc932e556a3e7f7c4659f3538f5",
+      "checksum": "75d063b61915c9971050eda9a27c50d75a0e9e3b4220af4d3479972b33e85b5c",
       "icon_key": "60e453d76eca03c843f327c843bda31faaad3c7bc452bcad4cea1719ceeb819b",
-      "id": "bayo.sh-bayosh-90f5c09b",
+      "id": "bayo.sh-bayosh-f73b73a0",
       "first_seen": "2026-10-18"
     },
     {
@@ -2427,20 +2427,6 @@
       "id": "ps5-account-activator-aio-activator_v2.1.0-c7f37168"
     },
     {
-      "name": "ps5-discord-rpc",
-      "filename": "ps5-discord-rpc.elf",
-      "url": "https://github.com/azurejelly/ps5-discord-rpc/releases/download/1.0.0/ps5-discord-rpc.elf",
-      "source": "https://github.com/azurejelly/ps5-discord-rpc/releases",
-      "source_direct": "https://github.com/azurejelly/ps5-discord-rpc/releases/download/1.0.0/ps5-discord-rpc.elf",
-      "description": "Discord RPC for jailbroken PS5 consoles",
-      "last_update": "2026-10-12",
-      "version": "1.0.0",
-      "category": "Utilities & Tools",
-      "checksum": "eb31f2321dfdfc0991dfba8ebddd715adb4960d18ab8425ea445aa8a56e617fd",
-      "icon_key": "c1914e919237544d607e5e98aa81d6627358fe8b4b02c02e76fbe943f506bf66",
-      "id": "ps5-discord-rpc-ps5-discord-rpc-64598b41"
-    },
-    {
       "name": "Prospero-Menu",
       "filename": "ProsperoMenu.elf",
       "url": "https://github.com/StonedModder/Prospero-Menu/releases/download/v1.1.0/ProsperoMenu.elf",
@@ -2455,32 +2441,18 @@
       "id": "prospero-menu-prosperomenu-38dfae9a"
     },
     {
-      "name": "ps5-signal — ps5-signal-dev",
-      "filename": "ps5-signal-dev.elf",
-      "url": "https://github.com/Marice/ps5-signal/releases/download/v0.2.0/ps5-signal-dev.elf",
-      "source": "https://github.com/Marice/ps5-signal/releases",
-      "source_direct": "https://github.com/Marice/ps5-signal/releases/download/v0.2.0/ps5-signal-dev.elf",
-      "description": "PS5 background payload that plays beep tunes and LED colour patterns for homebrew, through a small HTTP API on 127.0.0.1",
-      "last_update": "2026-10-17",
-      "version": "v0.2.0",
-      "category": "Networking & Servers",
-      "checksum": "80ed8d5fd940213b1ab879d99cc4dfa928076e5af476c54309647b0162bab463",
-      "icon_key": "54443099d6301f245a2d810b91d05c5e01deafea655f9ce919f6a6995e6b3168",
-      "id": "ps5-signal-ps5-signal-dev-89b1c1f5"
-    },
-    {
-      "name": "ps5-signal — ps5-signal",
-      "filename": "ps5-signal.elf",
-      "url": "https://github.com/Marice/ps5-signal/releases/download/v0.2.0/ps5-signal.elf",
-      "source": "https://github.com/Marice/ps5-signal/releases",
-      "source_direct": "https://github.com/Marice/ps5-signal/releases/download/v0.2.0/ps5-signal.elf",
-      "description": "PS5 background payload that plays beep tunes and LED colour patterns for homebrew, through a small HTTP API on 127.0.0.1",
-      "last_update": "2026-10-17",
-      "version": "v0.2.0",
-      "category": "Networking & Servers",
-      "checksum": "189b51ac204600f40d4aa9adc8394e897decf96042689c2066d9292b47fd173e",
-      "icon_key": "54443099d6301f245a2d810b91d05c5e01deafea655f9ce919f6a6995e6b3168",
-      "id": "ps5-signal-ps5-signal-10ec8a5a"
+      "name": "ps5-discord-rpc",
+      "filename": "ps5-discord-rpc.elf",
+      "url": "https://github.com/azurejelly/ps5-discord-rpc/releases/download/1.0.0/ps5-discord-rpc.elf",
+      "source": "https://github.com/azurejelly/ps5-discord-rpc/releases",
+      "source_direct": "https://github.com/azurejelly/ps5-discord-rpc/releases/download/1.0.0/ps5-discord-rpc.elf",
+      "description": "Discord RPC for jailbroken PS5 consoles",
+      "last_update": "2026-10-12",
+      "version": "1.0.0",
+      "category": "Utilities & Tools",
+      "checksum": "eb31f2321dfdfc0991dfba8ebddd715adb4960d18ab8425ea445aa8a56e617fd",
+      "icon_key": "c1914e919237544d607e5e98aa81d6627358fe8b4b02c02e76fbe943f506bf66",
+      "id": "ps5-discord-rpc-ps5-discord-rpc-64598b41"
     }
   ]
 }
