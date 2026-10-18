@@ -5,7 +5,7 @@
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 323,
   "payload_count": 186,
-  "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
+  "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
       "name": "CheatRunner",
