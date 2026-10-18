@@ -201,6 +201,19 @@
       "category": "Linux & Development",
       "checksum": "585e403b2238c488031d506834770cea6acd283eb7804a84b14d15b1a9df416d",
       "id": "plinux5-ng-offsets-v0.1.0"
+    },
+    {
+      "name": "Y2JB Update Blocker",
+      "filename": "YT-Blocker_v1.0.1.elf",
+      "url": "https://github.com/Epinorr/y2jb-update-blocker/releases/download/v1.0.1/YT-Blocker_v1.0.1.elf",
+      "source": "https://github.com/Epinorr/y2jb-update-blocker/releases",
+      "source_direct": "https://github.com/Epinorr/y2jb-update-blocker/releases/download/v1.0.1/YT-Blocker_v1.0.1.elf",
+      "description": "PS5 payload for blocking YouTube update metadata; v1.0.1 adds title-ID support and verifies database/metadata changes.",
+      "last_update": "2026-10-18",
+      "version": "v1.0.1",
+      "category": "Utilities & Tools",
+      "checksum": "541d320b474f9a90576294ff86d024d6ede6f6e7f79d76408b54c01818ae510f",
+      "id": "y2jb-update-blocker-v1.0.1"
     }
   ]
 }
