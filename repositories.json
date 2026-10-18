@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T17:41:39+00:00",
+  "generated_at": "2026-10-18T17:48:06+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 345,
   "payload_count": 228,
@@ -115,7 +115,7 @@
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.1.elf",
       "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
       "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
-      "github_stars": 1114,
+      "github_stars": 1115,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-08T19:48:49Z",
       "last_update_days": 10,
@@ -478,7 +478,7 @@
       "package_url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SX2-vk-285-171.zip",
       "package_checksum": "226ac24866f0b94566c0680c3b99c0d5abfe8030723f5b28dae20af039c76963",
       "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
-      "github_stars": 1389,
+      "github_stars": 1390,
       "open_issues_count": 60,
       "repository_updated_at": "2026-10-14T02:12:23Z",
       "last_update_days": 4,
@@ -661,7 +661,7 @@
       "payload_filename": "ps5-web-file-manager_v1.11.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.11.elf",
       "checksum": "cbcdacf69c331025e1643fc99f5b5fc117125e7c39931b6dd914323412558911",
-      "github_stars": 208,
+      "github_stars": 209,
       "open_issues_count": 8,
       "repository_updated_at": "2026-10-17T18:19:46Z",
       "last_update_days": 1,
@@ -825,7 +825,7 @@
       "package_filename": "PPSA99177.ffpkg",
       "package_url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.3.5/PPSA99177.ffpkg",
       "icon_key": "44d63d7af0c21e5f503cf7e151276d785f3a2ffb64ecf8a0f66a1b884438c2f7",
-      "github_stars": 1009,
+      "github_stars": 1010,
       "open_issues_count": 56,
       "repository_updated_at": "2026-10-14T21:34:08Z",
       "last_update_days": 4,
@@ -1047,8 +1047,8 @@
       "author": "blackbearreloaded",
       "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
       "github_stars": 326,
-      "open_issues_count": 4,
-      "repository_updated_at": "2026-10-18T17:08:25Z"
+      "open_issues_count": 5,
+      "repository_updated_at": "2026-10-18T17:41:55Z"
     },
     {
       "name": "ProsperoStore 1.000.080 (alpha)",
@@ -1058,8 +1058,8 @@
       "author": "",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 326,
-      "open_issues_count": 4,
-      "repository_updated_at": "2026-10-18T17:08:25Z"
+      "open_issues_count": 5,
+      "repository_updated_at": "2026-10-18T17:41:55Z"
     },
     {
       "name": "ps4mount",
@@ -1074,7 +1074,7 @@
       "version": "v0.6.0",
       "last_update": "2026-10-16",
       "checksum": "72467a3d8697961d611603956c4e63d96904197e57b175ff73e41d80badcaf25",
-      "github_stars": 134,
+      "github_stars": 135,
       "open_issues_count": 8,
       "repository_updated_at": "2026-10-16T21:30:57Z",
       "last_update_days": 2,
@@ -2667,9 +2667,9 @@
       "version": "v1.1.4",
       "last_update": "2026-10-18",
       "checksum": "4fb19cbc03c77b9b3604135d92efc35acad4509dca71313cd75241907b9bff36",
-      "github_stars": 5,
+      "github_stars": 6,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T17:29:52Z",
+      "repository_updated_at": "2026-10-18T17:41:09Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -3564,7 +3564,7 @@
       "category": "Repositories",
       "author": "kamb205",
       "icon_key": "00019813b45614797a660a57ebf7cbf6daca69fd7a58ba3dfc96c487d37dd5fd",
-      "github_stars": 60,
+      "github_stars": 61,
       "open_issues_count": 4,
       "repository_updated_at": "2026-10-11T12:38:46Z"
     },
@@ -4111,7 +4111,7 @@
       "version": "v1.6",
       "last_update": "2026-10-18",
       "checksum": "b3378ffc05a42f04e8ba74189bba69f7ae4698a9be098cf44ac60b989b04d15d",
-      "github_stars": 16,
+      "github_stars": 17,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T09:20:40Z",
       "last_update_days": 0,
@@ -4124,7 +4124,7 @@
       "category": "Repositories",
       "author": "",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 16,
+      "github_stars": 17,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T09:20:40Z"
     },
@@ -4380,7 +4380,7 @@
     },
     {
       "name": "Y2JB Update Blocker",
-      "description": "PS5 payload that blocks YouTube update metadata; release v1.0.1 supports additional YouTube title IDs and verifies metadata/database changes.",
+      "description": "PS5 payload that blocks YouTube update metadata; v1.0.2 simplifies payload notifications and includes minor code cleanup.",
       "repository_url": "https://github.com/Epinorr/y2jb-update-blocker",
       "category": "Utilities & Tools",
       "author": "Epinorr",
@@ -4416,19 +4416,6 @@
       "last_update_months": 0.0
     },
     {
-      "name": "pyre-ps5",
-      "description": "PS5 jailbreak made simple: the local self-host route, reskinned and turned into one Windows program - no Python, no root, no command-line setup, with Sony and ads blocked at the DNS.",
-      "repository_url": "https://github.com/Essyekky32/pyre-ps5",
-      "category": "PS5 Auto-discovered",
-      "author": "Essyekky32",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "62c4d246c8deb88013e5e6e502912008ddcbdc5ea9847ca98e050dc187d286f7",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T17:33:03Z"
-    },
-    {
       "name": "ps5-homebrew-catalog",
       "description": "Automatically discovered PS5-related GitHub repository.",
       "repository_url": "https://github.com/darkxex/ps5-homebrew-catalog",
@@ -4440,6 +4427,19 @@
       "github_stars": 47,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-18T17:38:36Z"
+    },
+    {
+      "name": "pyre-ps5",
+      "description": "PS5 jailbreak made simple: the local self-host route, reskinned and turned into one Windows program - no Python, no root, no command-line setup, with Sony and ads blocked at the DNS.",
+      "repository_url": "https://github.com/Essyekky32/pyre-ps5",
+      "category": "PS5 Auto-discovered",
+      "author": "Essyekky32",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "62c4d246c8deb88013e5e6e502912008ddcbdc5ea9847ca98e050dc187d286f7",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T17:33:03Z"
     },
     {
       "name": "AnchorPS5-catalog",
@@ -4791,7 +4791,7 @@
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
       "github_stars": 145,
       "open_issues_count": 1,
-      "repository_updated_at": "2026-10-18T17:33:21Z"
+      "repository_updated_at": "2026-10-18T17:45:59Z"
     },
     {
       "name": "XXIIPS5",
@@ -4815,7 +4815,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436",
-      "github_stars": 9018,
+      "github_stars": 9019,
       "open_issues_count": 769,
       "repository_updated_at": "2026-10-18T15:46:04Z"
     },
@@ -5133,9 +5133,9 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
-      "github_stars": 42853,
-      "open_issues_count": 1025,
-      "repository_updated_at": "2026-10-18T17:28:06Z"
+      "github_stars": 42860,
+      "open_issues_count": 1027,
+      "repository_updated_at": "2026-10-18T17:44:10Z"
     }
   ]
 }
