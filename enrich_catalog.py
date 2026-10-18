@@ -68,7 +68,7 @@ def summary(payload: dict[str, Any]) -> str:
     if isinstance(last_update, str) and last_update.strip():
         try:
             update_date = datetime.strptime(last_update.strip(), "%Y-%m-%d").date()
-            metadata.append(f"🕒 Updated: {update_date.isoformat()}")
+            metadata.append(f"🕒 {update_date.isoformat()}")
         except ValueError:
             pass
 
