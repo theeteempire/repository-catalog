@@ -13,6 +13,20 @@
       "category": "Utilities & Tools",
       "checksum": "5458739714d93ad807f3720ff3a2107687bf18be6e238c3f531a93f55d3467b7",
       "id": "patchdl-patchdl_0.2.1"
+    },
+    {
+      "name": "Orbit Store",
+      "filename": "orbit_store.elf",
+      "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.3.5/orbit_store.elf",
+      "source": "https://github.com/saawant12/orbit-store-ps5/releases",
+      "source_direct": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.3.5/orbit_store.elf",
+      "description": "A modern PS5 download manager with a native TV app (FFPKG and ELF), phone controls, Archive.org sign-in, improved host downloads, and Orbit Zero desktop clients for macOS, Windows, and Linux.",
+      "last_update": "2026-10-14",
+      "version": "v1.3.5",
+      "category": "Utilities & Tools",
+      "checksum": "561a8e8015d9564d44e32b58a84e1294ea7043e96146110801a9f62ad99ac93b",
+      "icon_key": "44d63d7af0c21e5f503cf7e151276d785f3a2ffb64ecf8a0f66a1b884438c2f7",
+      "id": "orbit-store-ps5-orbit_store-5aa86d2b"
     }
   ]
 }
