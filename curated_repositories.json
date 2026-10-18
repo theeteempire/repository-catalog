@@ -213,13 +213,6 @@
       "author": "pegasus-ps5"
     },
     {
-      "name": "ELF Arsenal",
-      "description": "All-in-one utility for PS5; successor to Sonic Loader.",
-      "repository_url": "https://git.etawen.dev/soniciso/elf-arsenal",
-      "category": "Utilities & Tools",
-      "author": "soniciso"
-    },
-    {
       "name": "evoX-CoreOS Start Page",
       "description": "Start page for evoX-CoreOS.",
       "repository_url": "https://github.com/nexgen999/evoX-CoreOS_Start-Page",
