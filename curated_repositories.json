@@ -3,18 +3,11 @@
   "schema_version": 1,
   "repositories": [
     {
-      "name": "Orbit Store",
-      "description": "A modern PS5 download manager with resumable downloads, a native TV app, and phone controls.",
-      "repository_url": "https://github.com/saawant12/orbit-store-ps5",
-      "category": "Utilities & Tools",
-      "author": "saawant12"
-    },
-    {
-      "name": "PSCloud Dashboard",
-      "description": "A browser-based dashboard for backing up, sharing, and syncing game saves.",
-      "repository_url": "https://github.com/bc160201983/ps5-cloud-save",
-      "category": "Utilities & Tools",
-      "author": "bc160201983"
+      "name": "Byepervisor Reborn",
+      "description": "Developer-oriented hypervisor research payload project; no published ELF release asset was found.",
+      "repository_url": "https://github.com/PS5Dev/Byepervisor-Reborn",
+      "category": "System & Jailbreak",
+      "author": "PS5Dev"
     },
     {
       "name": "Enable-Disable-UPD-PS5",
@@ -24,6 +17,39 @@
       "author": "logic-68"
     },
     {
+      "name": "Orbit Store",
+      "description": "A modern PS5 download manager with resumable downloads, a native TV app, and phone controls.",
+      "repository_url": "https://github.com/saawant12/orbit-store-ps5",
+      "category": "Utilities & Tools",
+      "author": "saawant12"
+    },
+    {
+      "name": "PatchDL",
+      "description": "Downloads official, unmodified game updates for games already installed on the console. Includes clearer download failure diagnostics and marks sideloaded apps so bulk updates leave them unchanged.",
+      "repository_url": "https://github.com/knutwurst/ps5-patchdl",
+      "category": "Utilities & Tools",
+      "author": "knutwurst",
+      "payload_available": true,
+      "version": "v0.2.1",
+      "last_update": "2026-10-17",
+      "payload_filename": "patchdl_0.2.1.elf",
+      "payload_url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
+      "checksum": "5458739714d93ad807f3720ff3a2107687bf18be6e238c3f531a93f55d3467b7"
+    },
+    {
+      "name": "Prospero Themes",
+      "description": "PS5 home-screen theme manager: browse and preview .p5theme packs, apply themes, restore defaults, download community themes, and import packs from USB. Release package is a ZIP, not a direct ELF asset.",
+      "repository_url": "https://github.com/Darkatek7/ProsperoThemes",
+      "category": "Utilities & Tools",
+      "author": "Darkatek7",
+      "payload_available": false,
+      "version": "01.000.000",
+      "last_update": "2026-10-17",
+      "package_filename": "PPSA90210.zip",
+      "package_url": "https://github.com/Darkatek7/ProsperoThemes/releases/download/01.000.000/PPSA90210.zip",
+      "checksum": "eba08e37359e433b691204399edd67b7e168f36fa2b1b4e95104b5ec3d25cba8"
+    },
+    {
       "name": "PS5 Library Browser",
       "description": "A browser for the console game library; releases currently provide a ZIP rather than a direct ELF asset.",
       "repository_url": "https://github.com/sweenyxsky-oss/ps5-library-browser",
@@ -31,11 +57,11 @@
       "author": "sweenyxsky-oss"
     },
     {
-      "name": "Byepervisor Reborn",
-      "description": "Developer-oriented hypervisor research payload project; no published ELF release asset was found.",
-      "repository_url": "https://github.com/PS5Dev/Byepervisor-Reborn",
-      "category": "System & Jailbreak",
-      "author": "PS5Dev"
+      "name": "PSCloud Dashboard",
+      "description": "A browser-based dashboard for backing up, sharing, and syncing game saves.",
+      "repository_url": "https://github.com/bc160201983/ps5-cloud-save",
+      "category": "Utilities & Tools",
+      "author": "bc160201983"
     }
   ]
 }
