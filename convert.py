@@ -174,6 +174,92 @@ def is_direct_asset_url(value: Any) -> bool:
     return value.startswith("https://") and bool(re.search(r"\.elf$", value.split("?")[0], re.I))
 
 
+
+# Cache GitHub metadata so multiple payloads from the same project do not
+# trigger duplicate API requests during a catalog build.
+_REPO_METADATA_CACHE: dict[str, dict[str, Any] | None] = {}
+_RELEASE_METADATA_CACHE: dict[str, dict[str, Any] | None] = {}
+
+
+def get_repository_community_metadata(full_name: str) -> dict[str, Any] | None:
+    """Fetch public repository popularity and last-push metadata."""
+    key = full_name.casefold()
+    if key in _REPO_METADATA_CACHE:
+        return _REPO_METADATA_CACHE[key]
+    try:
+        data = download_json(f"{API_ROOT}/repos/{full_name}")
+        if not isinstance(data, dict):
+            _REPO_METADATA_CACHE[key] = None
+            return None
+        metadata = {
+            "github_stars": data.get("stargazers_count"),
+            "open_issues_count": data.get("open_issues_count"),
+            "repository_updated_at": data.get("pushed_at") or data.get("updated_at"),
+        }
+        _REPO_METADATA_CACHE[key] = metadata
+        return metadata
+    except Exception as exc:
+        print(f"NOTICE: community metadata unavailable for {full_name}: {exc}", file=sys.stderr)
+        _REPO_METADATA_CACHE[key] = None
+        return None
+
+
+def get_download_count(asset_url: Any) -> int | None:
+    """Return the GitHub Release download count for the exact published asset URL."""
+    if not isinstance(asset_url, str):
+        return None
+    parsed = urllib.parse.urlsplit(asset_url)
+    parts = [urllib.parse.unquote(part) for part in parsed.path.split("/") if part]
+    try:
+        download_index = parts.index("download")
+    except ValueError:
+        return None
+    if len(parts) <= download_index + 2:
+        return None
+    owner, repo = parts[0], parts[1]
+    tag = "/".join(parts[download_index + 1:-1])
+    asset_name = parts[-1]
+    full_name = f"{owner}/{repo}"
+    cache_key = f"{full_name.casefold()}@{tag}"
+    if cache_key not in _RELEASE_METADATA_CACHE:
+        try:
+            tag_path = urllib.parse.quote(tag, safe="")
+            release = download_json(f"{API_ROOT}/repos/{full_name}/releases/tags/{tag_path}")
+            _RELEASE_METADATA_CACHE[cache_key] = release if isinstance(release, dict) else None
+        except Exception as exc:
+            print(f"NOTICE: asset download count unavailable for {full_name} tag {tag}: {exc}", file=sys.stderr)
+            _RELEASE_METADATA_CACHE[cache_key] = None
+    release = _RELEASE_METADATA_CACHE[cache_key]
+    if not isinstance(release, dict):
+        return None
+    assets = release.get("assets")
+    if not isinstance(assets, list):
+        return None
+    for asset in assets:
+        if not isinstance(asset, dict):
+            continue
+        asset_url_from_api = asset.get("browser_download_url")
+        if asset_url_from_api == asset_url or asset.get("name") == asset_name:
+            count = asset.get("download_count")
+            return count if isinstance(count, int) and count >= 0 else None
+    return None
+
+
+def add_freshness_fields(record: dict[str, Any], date_field: str = "last_update") -> None:
+    """Add age fields derived from a source-provided date; never invent a date."""
+    raw = record.get(date_field)
+    if not isinstance(raw, str) or not raw.strip():
+        return
+    try:
+        updated = datetime.fromisoformat(raw.strip().replace("Z", "+00:00")).date()
+        today = datetime.now(timezone.utc).date()
+        days = max(0, (today - updated).days)
+        record["last_update_days"] = days
+        record["last_update_months"] = round(days / 30.4375, 1)
+    except ValueError:
+        return
+
+
 def get_latest_release(full_name: str) -> dict[str, Any] | None:
     """Find the newest public release with a direct ELF asset, including prereleases."""
     url = f"{API_ROOT}/repos/{full_name}/releases?per_page=10"
@@ -953,6 +1039,34 @@ def main() -> int:
         return 6
     for record in repositories:
         record.pop("_owner_avatar_url", None)
+
+
+    # Add optional community metrics without changing the existing PLDMGR fields.
+    # GitHub stars measure popularity, not a user rating. Download counts are
+    # attached only when GitHub exposes the count for the exact release asset.
+    for record in repositories:
+        full_name = canonical_repo(record.get("repository_url"))
+        if full_name:
+            community = get_repository_community_metadata(full_name)
+            if community:
+                for key, value in community.items():
+                    if value is not None:
+                        record[key] = value
+        add_freshness_fields(record)
+
+    for payload in payloads:
+        source_repo = canonical_repo(payload.get("source")) or canonical_repo(payload.get("source_direct"))
+        if source_repo:
+            community = get_repository_community_metadata(source_repo)
+            if community:
+                for key, value in community.items():
+                    if value is not None:
+                        payload[key] = value
+        count = get_download_count(payload.get("url"))
+        if count is not None:
+            payload["download_count"] = count
+            payload["download_count_source"] = "github_release_asset"
+        add_freshness_fields(payload)
 
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     index_doc = {
