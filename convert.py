@@ -543,10 +543,15 @@ def main() -> int:
     for group in repository_name_groups.values():
         if len(group) < 2:
             continue
-        repo_parts = [
-            (canonical_repo(record.get("repository_url")) or "").split("/")
-            for record in group
-        ]
+        repo_parts = []
+        for record in group:
+            full_name = canonical_repo(record.get("repository_url"))
+            if full_name:
+                parts = full_name.split("/")
+            else:
+                parsed = urllib.parse.urlsplit(str(record.get("repository_url") or ""))
+                parts = [part for part in parsed.path.split("/") if part]
+            repo_parts.append(parts)
         owner_counts: dict[str, int] = {}
         for parts in repo_parts:
             owner = parts[0] if parts else ""
