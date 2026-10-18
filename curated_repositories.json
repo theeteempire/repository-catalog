@@ -168,11 +168,16 @@
     },
     {
       "name": "Overdrive",
-      "description": "Overdrive PS5 homebrew application.",
+      "description": "PS5 homebrew game store with 1,800+ games. Latest v1.0.6 release provides Overdrive.exfat and update.zip, not a standalone ELF payload.",
       "repository_url": "https://github.com/MyLuxy/overdrive",
       "category": "Utilities & Tools",
       "author": "MyLuxy",
-      "version": "v1.0.2"
+      "payload_available": false,
+      "version": "v1.0.6",
+      "last_update": "2026-10-17",
+      "package_filename": "Overdrive.exfat",
+      "package_url": "https://github.com/MyLuxy/overdrive/releases/download/v1.0.6/Overdrive.exfat",
+      "checksum": "ba2922e2ce12a416a277eec747ceaa2609514a7ba8a4e46682c2179f228c5a2b"
     },
     {
       "name": "JobeesLair",
