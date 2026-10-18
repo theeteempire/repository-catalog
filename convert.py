@@ -564,6 +564,18 @@ def main() -> int:
             if key:
                 payload_by_repo.setdefault(key.lower(), curated_item)
 
+    # Only poll GitHub Releases for curated projects and repositories that do not
+    # already have a direct ELF in the upstream mirror. The mirror refreshes every
+    # six hours, so rechecking every already-covered repository wastes API calls.
+    curated_repo_keys = {
+        key
+        for obj in curated_records
+        if isinstance(obj, dict)
+        for key in [canonical_repo(obj.get("repository_url"))]
+        if key
+    }
+    curated_repo_keys = {key.lower() for key in curated_repo_keys}
+
     discovered = 0
     refreshed = 0
     checked = 0
@@ -602,8 +614,12 @@ def main() -> int:
             if not record["icon_key"] and full_name:
                 record["icon_key"] = add_avatar_icon(f"https://github.com/{full_name.split('/')[0]}.png?size=128", icons)
 
-        # Poll release metadata for existing curated entries too, so the mirror feed
-        # is not the sole source of truth for new versions.
+        # Existing mirror payloads are already refreshed from the mirror every six
+        # hours. Poll Releases only for curated records (to refresh pinned assets)
+        # or repositories without a mirror payload (to discover new direct ELF assets).
+        if match and repo_key not in curated_repo_keys:
+            continue
+
         checked += 1
         release = get_latest_release(full_name)
         time.sleep(0.05)
