@@ -3,8 +3,8 @@
   "schema_version": 2,
   "generated_at": "2026-10-18T00:10:42+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 325,
-  "payload_count": 186,
+  "count": 328,
+  "payload_count": 188,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
@@ -3571,6 +3571,39 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "08d0896751563d0bc50d92dd386ad5776968221d73dacf63c2f6f3746f641765"
+    },
+    {
+      "name": "PSCloud Dashboard",
+      "description": "A browser-based dashboard for backing up, sharing, and syncing game saves.",
+      "repository_url": "https://github.com/bc160201983/ps5-cloud-save",
+      "category": "Utilities & Tools",
+      "author": "bc160201983",
+      "payload_available": true,
+      "version": "v0.34.28",
+      "last_update": "2026-10-15",
+      "payload_filename": "pscloud-dashboard.elf",
+      "payload_url": "https://github.com/bc160201983/ps5-cloud-save/releases/download/v0.34.28/pscloud-dashboard.elf",
+      "checksum": "4298b70ed5262bc2acdf03a88e835ea01f0c7e081fbde2a0566841f4508dd271"
+    },
+    {
+      "name": "Enable-Disable-UPD-PS5",
+      "description": "Payload to enable or disable system software updates.",
+      "repository_url": "https://github.com/logic-68/Enable-Disable-UPD-PS5",
+      "category": "Utilities & Tools",
+      "author": "logic-68",
+      "payload_available": true,
+      "version": "V1.0.3",
+      "last_update": "2023-02-28",
+      "payload_filename": "Enable-Disable-UPD-PS5v1.0.3.elf",
+      "payload_url": "https://github.com/logic-68/Enable-Disable-UPD-PS5/releases/download/V1.0.3/Enable-Disable-UPD-PS5v1.0.3.elf"
+    },
+    {
+      "name": "Byepervisor Reborn",
+      "description": "Developer-oriented hypervisor research payload project; no published ELF release asset was found.",
+      "repository_url": "https://github.com/PS5Dev/Byepervisor-Reborn",
+      "category": "System & Jailbreak",
+      "author": "PS5Dev",
+      "payload_available": false
     }
   ]
 }
