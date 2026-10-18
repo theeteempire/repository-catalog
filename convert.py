@@ -215,17 +215,17 @@ def payload_identity(payload: dict[str, Any]) -> tuple[str, str]:
     return repo.lower(), filename
 
 
-def payload_global_identity(payload: dict[str, Any]) -> tuple[str, str, str]:
-    """Collapse identical app builds mirrored by different repository forks."""
+def payload_global_identity(payload: dict[str, Any]) -> tuple[str, str, str, str]:
+    """Identify payloads without conflating independent publishers."""
+    repo = canonical_repo(payload.get("source")) or canonical_repo(payload.get("source_direct")) or ""
     name = re.sub(r"\s*[·•]\s*NEW\s*$", "", str(payload.get("name") or ""), flags=re.I)
-    name = re.split(r"\s+[—–]\s+", name, maxsplit=1)[0]
     name = re.sub(r"\s+", " ", name).strip().casefold()
     filename = str(payload.get("filename") or "").rsplit("/", 1)[-1].lower()
     filename = re.sub(r"\.elf$", "", filename)
     filename = re.sub(r"[_-]v?\d+(?:[._-]\d+)*(?:[-_][a-z][a-z0-9._-]*)?$", "", filename)
     filename = re.sub(r"[-_.]+", "-", filename).strip("-")
     version = str(payload.get("version") or "").strip().lower().removeprefix("v")
-    return name, filename, version
+    return repo.lower(), name, filename, version
 
 
 def payload_slug(value: Any) -> str:
@@ -778,13 +778,12 @@ def main() -> int:
             discovered += 1
         time.sleep(0.05)
 
-    # Remove duplicate URLs even when sources append tracking query parameters or fragments.
-    # Then remove mirrored copies of the same logical ELF and PS4-only binaries.
-    # Preserve the first (curated mirror) record when duplicates are encountered.
+    # Deduplicate identical URLs (ignoring tracking parameters) and repeated ELF assets
+    # from the same upstream repository. Never deduplicate globally by display name or
+    # filename: independent publishers may maintain valid forks/variants at different versions.
     deduplicated_payloads: list[dict[str, Any]] = []
     seen_payload_urls_normalized: set[str] = set()
     seen_payload_identities: set[tuple[str, str]] = set()
-    seen_global_identities: set[tuple[str, str, str]] = set()
     for payload in payloads:
         filename = str(payload.get("filename") or "")
         if re.search(r"(?i)(?:^|[-_.])ps4(?:[-_.]|$)", filename):
@@ -803,15 +802,10 @@ def main() -> int:
         identity = payload_identity(payload)
         if identity[1] and identity in seen_payload_identities:
             continue
-        global_identity = payload_global_identity(payload)
-        if all(global_identity) and global_identity in seen_global_identities:
-            continue
         if normalized_url:
             seen_payload_urls_normalized.add(normalized_url)
         if identity[1]:
             seen_payload_identities.add(identity)
-        if all(global_identity):
-            seen_global_identities.add(global_identity)
         deduplicated_payloads.append(payload)
     removed_duplicates = len(payloads) - len(deduplicated_payloads)
     payloads = deduplicated_payloads
@@ -829,20 +823,33 @@ def main() -> int:
         used_ids.add(item_id)
         payload["id"] = item_id
 
-    # Make same-project multi-asset entries distinguishable in the UI.
+    # Disambiguate repeated display names: distinct repositories show publisher names;
+    # multiple assets from the same repository show their asset stem.
     name_groups: dict[str, list[dict[str, Any]]] = {}
     for payload in payloads:
-        name_groups.setdefault(str(payload.get("name") or "").casefold(), []).append(payload)
+        base_name = re.sub(r"\s*[·•]\s*NEW\s*$", "", str(payload.get("name") or ""), flags=re.I)
+        name_groups.setdefault(base_name.casefold(), []).append(payload)
     for group in name_groups.values():
         if len(group) < 2:
             continue
-        for payload in group:
-            source_repo = canonical_repo(payload.get("source")) or ""
-            owner = source_repo.split("/")[0] if source_repo else ""
-            stem = str(payload.get("filename") or "").rsplit("/", 1)[-1].removesuffix(".elf")
-            stem = re.sub(r"(?i)[_-]v?\d+(?:[._-]\d+)*.*$", "", stem).strip("-_ .")
-            suffix = stem or owner
-            payload["name"] = str(payload.get("name") or "Payload") + " — " + (suffix or owner)
+        repo_names = [
+            canonical_repo(p.get("source")) or canonical_repo(p.get("source_direct")) or ""
+            for p in group
+        ]
+        unique_repos = set(repo_names)
+        owner_counts: dict[str, int] = {}
+        for repo in unique_repos:
+            owner = repo.split("/")[0] if repo else ""
+            owner_counts[owner.casefold()] = owner_counts.get(owner.casefold(), 0) + 1
+        for payload, source_repo in zip(group, repo_names):
+            if len(unique_repos) > 1 and source_repo:
+                owner = source_repo.split("/")[0]
+                suffix = owner if owner_counts.get(owner.casefold(), 0) == 1 else source_repo
+            else:
+                stem = str(payload.get("filename") or "").rsplit("/", 1)[-1].removesuffix(".elf")
+                stem = re.sub(r"(?i)[_-]v?\d+(?:[._-]\d+)*.*$", "", stem).strip("-_ .")
+                suffix = stem or (source_repo.split("/")[-1] if source_repo else "asset")
+            payload["name"] = str(payload.get("name") or "Payload") + " — " + suffix
 
     # Mark genuinely new catalog entries for seven days. PLDMGR displays payload.name,
     # so this stays compatible with its current UI without requiring a client-side schema change.
@@ -876,6 +883,20 @@ def main() -> int:
     if not payloads:
         print("ERROR: no direct ELF assets found; refusing to publish empty PLDMGR feed.", file=sys.stderr)
         return 4
+
+    # Ensure repositories on custom forges also have a valid icon entry.
+    fallback_svg = (
+        '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">'
+        '<rect width="64" height="64" rx="12" fill="#252a34"/>'
+        '<path d="M18 20h28v6H18zm0 9h28v6H18zm0 9h18v6H18z" fill="#e6edf3"/>'
+        '<circle cx="46" cy="44" r="7" fill="#58a6ff"/>'
+        '</svg>'
+    )
+    fallback_key = hashlib.sha256(fallback_svg.encode("utf-8")).hexdigest()
+    icons.setdefault(fallback_key, "data:image/svg+xml;base64," + base64.b64encode(fallback_svg.encode("utf-8")).decode("ascii"))
+    for record in repositories:
+        if not isinstance(record.get("icon_key"), str) or record["icon_key"] not in icons:
+            record["icon_key"] = fallback_key
 
     missing_repository_icons = [r.get("repository_url") for r in repositories if not r.get("icon_key") or r["icon_key"] not in icons]
     if missing_repository_icons:
