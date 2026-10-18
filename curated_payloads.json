@@ -175,6 +175,32 @@
       "last_update": "2026-10-18",
       "category": "Utilities & Tools",
       "id": "pegasus-dl-v1.11.0"
+    },
+    {
+      "name": "Full Y2JB Block",
+      "filename": "full_y2jb_block0.elf",
+      "url": "https://github.com/TheWizWikii/PS5-Y2JB-USBUtilityTool/releases/download/v1/full_y2jb_block0.elf",
+      "source": "https://github.com/TheWizWikii/PS5-Y2JB-USBUtilityTool/releases",
+      "source_direct": "https://github.com/TheWizWikii/PS5-Y2JB-USBUtilityTool/releases/download/v1/full_y2jb_block0.elf",
+      "description": "Full Y2JB Block payload distributed by PS5 Y2JB USBUtilityTool.",
+      "version": "v1",
+      "last_update": "2026-01-18",
+      "category": "System & Jailbreak",
+      "checksum": "bc9c073b24e6b3e93482b25a2557a60c641886eccda9e3d31d819cd4d3e0c0ca",
+      "id": "full-y2jb-block-v1"
+    },
+    {
+      "name": "pLinux5-NG Offsets",
+      "filename": "pLinux5-NG-offsets.elf",
+      "url": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG-offsets.elf",
+      "source": "https://github.com/pLabs5/pLinux5-NG/releases",
+      "source_direct": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG-offsets.elf",
+      "description": "Offsets ELF associated with pLinux5-NG, a work-in-progress PS5 Linux project targeting high firmware versions. This is an offsets payload, not a complete Linux loader or Linux image.",
+      "version": "v0.1.0",
+      "last_update": "2026-10-14",
+      "category": "Linux & Development",
+      "checksum": "585e403b2238c488031d506834770cea6acd283eb7804a84b14d15b1a9df416d",
+      "id": "plinux5-ng-offsets-v0.1.0"
     }
   ]
 }
