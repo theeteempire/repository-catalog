@@ -814,12 +814,12 @@ def main() -> int:
             discovered += 1
         time.sleep(0.05)
 
-    # Deduplicate identical URLs (ignoring tracking parameters) and repeated ELF assets
-    # from the same upstream repository. Never deduplicate globally by display name or
-    # filename: independent publishers may maintain valid forks/variants at different versions.
+    # Remove only the same direct asset URL (ignoring query/fragment tracking).
+    # Do NOT collapse records by normalized filename or project/display-name similarity:
+    # independent publishers can ship valid forks, ports, variants, or assets with the
+    # same filename, including when their metadata points at a shared mirror.
     deduplicated_payloads: list[dict[str, Any]] = []
     seen_payload_urls_normalized: set[str] = set()
-    seen_payload_identities: set[tuple[str, str]] = set()
     for payload in payloads:
         filename = str(payload.get("filename") or "")
         if re.search(r"(?i)(?:^|[-_.])ps4(?:[-_.]|$)", filename):
@@ -835,13 +835,8 @@ def main() -> int:
         ))
         if normalized_url and normalized_url in seen_payload_urls_normalized:
             continue
-        identity = payload_identity(payload)
-        if identity[1] and identity in seen_payload_identities:
-            continue
         if normalized_url:
             seen_payload_urls_normalized.add(normalized_url)
-        if identity[1]:
-            seen_payload_identities.add(identity)
         deduplicated_payloads.append(payload)
     removed_duplicates = len(payloads) - len(deduplicated_payloads)
     payloads = deduplicated_payloads
@@ -886,6 +881,24 @@ def main() -> int:
                 stem = re.sub(r"(?i)[_-]v?\d+(?:[._-]\d+)*.*$", "", stem).strip("-_ .")
                 suffix = stem or (source_repo.split("/")[-1] if source_repo else "asset")
             payload["name"] = str(payload.get("name") or "Payload") + " — " + suffix
+
+    # Keep every independently sourced asset visible in clients that require unique
+    # display names. If publisher/filename labels still collide, append a stable URL hash
+    # instead of deleting either entry.
+    used_display_names: set[str] = set()
+    for payload in payloads:
+        display_name = str(payload.get("name") or "Payload")
+        key = display_name.casefold()
+        if key in used_display_names:
+            digest = hashlib.sha256(str(payload.get("url") or "").encode("utf-8")).hexdigest()[:8]
+            display_name = f"{display_name} [{digest}]"
+            key = display_name.casefold()
+            while key in used_display_names:
+                digest = hashlib.sha256((str(payload.get("url") or "") + display_name).encode("utf-8")).hexdigest()[:10]
+                display_name = f"{display_name} [{digest}]"
+                key = display_name.casefold()
+            payload["name"] = display_name
+        used_display_names.add(key)
 
     # Mark genuinely new catalog entries for seven days. PLDMGR displays payload.name,
     # so this stays compatible with its current UI without requiring a client-side schema change.
