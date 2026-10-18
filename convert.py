@@ -35,7 +35,7 @@ MIRROR_ICONS_URL = (
     "main/icons.json"
 )
 OUT_DIR = Path(".")
-USER_AGENT = "PS5-Repository-Catalog/2.0"
+USER_AGENT = "Repository-Catalog/2.1"
 API_ROOT = "https://api.github.com"
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 REPO_URL_KEYS = (
@@ -761,21 +761,21 @@ def main() -> int:
 
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     index_doc = {
-        "name": "PS5 Repository Catalog",
+        "name": "Repository Catalog",
         "schema_version": 2,
         "generated_at": generated_at,
         "source": SOURCE_URL,
         "count": len(repositories),
         "payload_count": len(payloads),
-        "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
+        "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
         "repositories": repositories,
     }
     pldmgr_doc = {
-        "name": "PS5 Payloads",
+        "name": "Payload Catalog",
         "schema_version": 2,
         "generated_at": generated_at,
         "source": MIRROR_URL,
-        "icons_url": "https://theeteempire.github.io/ps5-repository-catalog/icons.json",
+        "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
         "payloads": payloads,
     }
     (OUT_DIR / "repositories.json").write_text(
