@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T10:39:00+00:00",
+  "generated_at": "2026-10-18T10:45:18+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 337,
   "payload_count": 194,
@@ -1391,7 +1391,7 @@
       "last_update": "2026-09-30",
       "checksum": "e1b9f257f51678a977edaeafd4ca1f8a03e9df0afda7d5dd84435841fa20795d",
       "github_stars": 111,
-      "open_issues_count": 33,
+      "open_issues_count": 34,
       "repository_updated_at": "2026-09-30T01:01:15Z",
       "last_update_days": 18,
       "last_update_months": 0.6
@@ -3457,7 +3457,7 @@
       "category": "Gaming & UI",
       "author": "RafaelNGP",
       "icon_key": "83ea65c14d57a008649873f75c4484ca95463150120a8cc1337e241f47e6300b",
-      "github_stars": 128,
+      "github_stars": 129,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-18T03:49:08Z"
     },
@@ -4178,7 +4178,7 @@
       "package_url": "https://github.com/michpalm/game-glance/releases/download/v3.4.0/game-glance.zip",
       "checksum": "bea454654b24b4d675584c63ed29cff2f297c23ba3336944874943ee999de915",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 96,
+      "github_stars": 97,
       "open_issues_count": 18,
       "repository_updated_at": "2026-10-17T19:29:38Z",
       "last_update_days": 1,
@@ -4259,7 +4259,7 @@
       "author": "MyLuxy",
       "version": "v1.0.2",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 704,
+      "github_stars": 705,
       "open_issues_count": 10,
       "repository_updated_at": "2026-10-18T04:34:12Z"
     },
@@ -4368,17 +4368,17 @@
       "last_update_months": 9.0
     },
     {
-      "name": "ps5-minecraft-java",
-      "description": "Future Minecraft Java Edition homebrew for PS5. Java runtime port: https://github.com/mateo-cogeanu/ps5-java25-homebrew",
-      "repository_url": "https://github.com/mateo-cogeanu/ps5-minecraft-java",
+      "name": "ArtemisLM-PS5",
+      "description": "Home build of PS5LM. llama.cpp on a PlayStation 5, with a chat page that reads the console clock and searches the web.",
+      "repository_url": "https://github.com/joelsmithlowe/ArtemisLM-PS5",
       "category": "PS5 Auto-discovered",
-      "author": "mateo-cogeanu",
+      "author": "joelsmithlowe",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
-      "github_stars": 2,
+      "icon_key": "178a58aee5d7f3a5ab59eb4854e183ee9c99e35a87ef2243a619b004e2fd56b3",
+      "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T10:28:36Z"
+      "repository_updated_at": "2026-10-18T10:39:28Z"
     },
     {
       "name": "ps5-java25-homebrew",
@@ -4391,7 +4391,20 @@
       "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
       "github_stars": 6,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T10:36:49Z"
+      "repository_updated_at": "2026-10-18T10:39:37Z"
+    },
+    {
+      "name": "ps5-minecraft-java",
+      "description": "Future Minecraft Java Edition homebrew for PS5. Java runtime port: https://github.com/mateo-cogeanu/ps5-java25-homebrew",
+      "repository_url": "https://github.com/mateo-cogeanu/ps5-minecraft-java",
+      "category": "PS5 Auto-discovered",
+      "author": "mateo-cogeanu",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T10:40:49Z"
     },
     {
       "name": "ps5-homebrew-tools",
@@ -4405,19 +4418,6 @@
       "github_stars": 1,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T10:26:29Z"
-    },
-    {
-      "name": "ArtemisLM",
-      "description": "Home build of PS5LM. llama.cpp on a PlayStation 5, with a chat page that reads the console clock and searches the web.",
-      "repository_url": "https://github.com/joelsmithlowe/ArtemisLM",
-      "category": "PS5 Auto-discovered",
-      "author": "joelsmithlowe",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "178a58aee5d7f3a5ab59eb4854e183ee9c99e35a87ef2243a619b004e2fd56b3",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T10:26:09Z"
     },
     {
       "name": "tmp_lap",
@@ -4447,7 +4447,7 @@
       "version": "v1.0.1",
       "last_update": "2026-10-18",
       "checksum": "541d320b474f9a90576294ff86d024d6ede6f6e7f79d76408b54c01818ae510f",
-      "github_stars": 7,
+      "github_stars": 8,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T10:13:43Z",
       "last_update_days": 0,
@@ -4589,7 +4589,7 @@
       "icon_key": "d3ef388f78878712212611b112174465286edb748ee9be73df58aa390261e8ea",
       "github_stars": 1,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T05:46:23Z"
+      "repository_updated_at": "2026-10-18T10:41:22Z"
     },
     {
       "name": "JB_STORE",
@@ -4626,32 +4626,6 @@
       "last_update_months": 2.3
     },
     {
-      "name": "ps5-payloads",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/avoidik/ps5-payloads",
-      "category": "PS5 Auto-discovered",
-      "author": "avoidik",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "1169f992172b73674777e04451262dc2db394c583d2f7e2331b640e4fd9b7678",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T04:33:25Z"
-    },
-    {
-      "name": "PLM-Repository",
-      "description": "HiddenKernel repository for PS5 Payload Manager",
-      "repository_url": "https://github.com/hiddenkernellab/PLM-Repository",
-      "category": "PS5 Auto-discovered",
-      "author": "hiddenkernellab",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "15f6f9b0874805c52c2cc568b043372ddae9bd65f8066f7e86675a34ab4947fc",
-      "github_stars": 3,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T04:31:26Z"
-    },
-    {
       "name": "Botty-Plus",
       "description": "Botty+ PS5 native app, download manager, torrent engine and compression services",
       "repository_url": "https://github.com/Portablelle/Botty-Plus",
@@ -4673,9 +4647,22 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
-      "github_stars": 117,
-      "open_issues_count": 2,
-      "repository_updated_at": "2026-10-18T07:29:49Z"
+      "github_stars": 118,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-18T10:40:24Z"
+    },
+    {
+      "name": "PLM-Repository",
+      "description": "HiddenKernel repository for PS5 Payload Manager",
+      "repository_url": "https://github.com/hiddenkernellab/PLM-Repository",
+      "category": "PS5 Auto-discovered",
+      "author": "hiddenkernellab",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "15f6f9b0874805c52c2cc568b043372ddae9bd65f8066f7e86675a34ab4947fc",
+      "github_stars": 3,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T04:31:26Z"
     },
     {
       "name": "prospero-lab",
@@ -4933,7 +4920,20 @@
       "icon_key": "4ac95ff0b6921a59621ee60315ab20c643fd038de45c7ad0e66e3b1054457027",
       "github_stars": 208,
       "open_issues_count": 873,
-      "repository_updated_at": "2026-10-18T10:35:50Z"
+      "repository_updated_at": "2026-10-18T10:40:25Z"
+    },
+    {
+      "name": "ps5-payloads",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/avoidik/ps5-payloads",
+      "category": "PS5 Auto-discovered",
+      "author": "avoidik",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "1169f992172b73674777e04451262dc2db394c583d2f7e2331b640e4fd9b7678",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T04:33:25Z"
     },
     {
       "name": "ps5-discord-rpc",
@@ -4965,7 +4965,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "8cb3a184dfcd658d03cc16fedf265fbd2e4809d93b9e3d3069237a2c1c92ab88",
-      "github_stars": 13,
+      "github_stars": 14,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T21:12:15Z"
     },
@@ -5004,8 +5004,8 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
-      "github_stars": 42377,
-      "open_issues_count": 1000,
+      "github_stars": 42386,
+      "open_issues_count": 1001,
       "repository_updated_at": "2026-10-18T09:27:05Z"
     }
   ]
