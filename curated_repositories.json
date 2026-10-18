@@ -115,6 +115,198 @@
       "package_filename": "PPSA98510.zip",
       "package_url": "https://github.com/darkxex/SwanStationPS5/releases/download/1.4.2/PPSA98510.zip",
       "package_checksum": "19e024135f7303d5928d93b3742707e14552abf1c5051b3f6dfa212be4bf4cf8"
+    },
+    {
+      "name": "PS5 Y2JB Autoloader",
+      "description": "An automated payload loader for exploited PS5 consoles.",
+      "repository_url": "https://github.com/itsPLK/ps5-y2jb-autoloader",
+      "category": "System & Jailbreak",
+      "author": "itsPLK"
+    },
+    {
+      "name": "Recomp Store",
+      "description": "PS5 homebrew application store.",
+      "repository_url": "https://github.com/elripalda/RecompStore",
+      "category": "Utilities & Tools",
+      "author": "elripalda",
+      "version": "v1.0.3"
+    },
+    {
+      "name": "PS5 Homebrew UI",
+      "description": "Homebrew user interface for PS5.",
+      "repository_url": "https://github.com/blackbearreloaded/ps5-homebrew-ui",
+      "category": "Gaming & UI",
+      "author": "blackbearreloaded",
+      "version": "01.000.000"
+    },
+    {
+      "name": "BlackBox",
+      "description": "BlackBox utility for PS5.",
+      "repository_url": "https://github.com/BlackBoxPS5/blackbox",
+      "category": "Utilities & Tools",
+      "author": "BlackBoxPS5",
+      "version": "v1.0.5"
+    },
+    {
+      "name": "Overdrive Releases (half144)",
+      "description": "Overdrive releases for jailbroken PS5.",
+      "repository_url": "https://github.com/half144/overdrive-releases",
+      "category": "Utilities & Tools",
+      "author": "half144"
+    },
+    {
+      "name": "Overdrive Releases",
+      "description": "Overdrive releases for jailbroken PS5.",
+      "repository_url": "https://github.com/overdriveps5/overdrive-releases",
+      "category": "Utilities & Tools",
+      "author": "overdriveps5"
+    },
+    {
+      "name": "Overdrive",
+      "description": "Overdrive PS5 homebrew application.",
+      "repository_url": "https://github.com/MyLuxy/overdrive",
+      "category": "Utilities & Tools",
+      "author": "MyLuxy",
+      "version": "v1.0.2"
+    },
+    {
+      "name": "JobeesLair",
+      "description": "Standalone, content-neutral PS5 homebrew indexer and media framework.",
+      "repository_url": "https://github.com/JVK3R/JobeesLair",
+      "category": "Utilities & Tools",
+      "author": "JVK3R"
+    },
+    {
+      "name": "Xbox Cloud Gaming PS5",
+      "description": "Xbox Cloud Gaming app for PS5 homebrew.",
+      "repository_url": "https://github.com/RafaelNGP/xbox-cloud-gaming-ps5",
+      "category": "Gaming & UI",
+      "author": "RafaelNGP"
+    },
+    {
+      "name": "PS5 LZ4 Compression",
+      "description": "LZ4 compression for games, performed entirely on the PS5.",
+      "repository_url": "https://github.com/theghostonline/PS5-LZ4-Compression",
+      "category": "Utilities & Tools",
+      "author": "theghostonline"
+    },
+    {
+      "name": "Game Catalogue",
+      "description": "Closed-source Windows game catalogue browser; binary releases only.",
+      "repository_url": "https://github.com/kerrdec97/Game-Catalogue",
+      "category": "Utilities & Tools",
+      "author": "kerrdec97"
+    },
+    {
+      "name": "Spectrum Library",
+      "description": "PS5 homebrew library.",
+      "repository_url": "https://github.com/Phoenixx1202/Spectrum-Library",
+      "category": "Utilities & Tools",
+      "author": "Phoenixx1202",
+      "version": "1.4.6"
+    },
+    {
+      "name": "pegasus-dl",
+      "description": "Direct package downloading from your PS5.",
+      "repository_url": "https://github.com/pegasus-ps5/pegasus-dl",
+      "category": "Utilities & Tools",
+      "author": "pegasus-ps5"
+    },
+    {
+      "name": "ELF Arsenal",
+      "description": "All-in-one utility for PS5; successor to Sonic Loader.",
+      "repository_url": "https://git.etawen.dev/soniciso/elf-arsenal",
+      "category": "Utilities & Tools",
+      "author": "soniciso"
+    },
+    {
+      "name": "evoX-CoreOS Start Page",
+      "description": "Start page for evoX-CoreOS.",
+      "repository_url": "https://github.com/nexgen999/evoX-CoreOS_Start-Page",
+      "category": "Gaming & UI",
+      "author": "nexgen999"
+    },
+    {
+      "name": "PS5 Firmware PIN",
+      "description": "Helps keep a jailbroken PS5 on a selected firmware and avoid forced system updates.",
+      "repository_url": "https://github.com/lvndry/ps5-firmware-pin",
+      "category": "System & Jailbreak",
+      "author": "lvndry"
+    },
+    {
+      "name": "PS5 60FPS",
+      "description": "PS5 60FPS project.",
+      "repository_url": "https://github.com/eladharels/ps5-60FPS",
+      "category": "Gaming & UI",
+      "author": "eladharels"
+    },
+    {
+      "name": "AnyPad PS5 English",
+      "description": "PS5 controller compatibility project.",
+      "repository_url": "https://github.com/S-Mohammad-A/AnyPad-PS5-English",
+      "category": "Utilities & Tools",
+      "author": "S-Mohammad-A",
+      "version": "0.5.5-beta"
+    },
+    {
+      "name": "PS5 Account Tools",
+      "description": "Payload that opens a web server on port 6769 to manage local PS5 accounts, including offline activation, fake PSN sign-in, and profile avatar changes.",
+      "repository_url": "https://github.com/MangoScango/ps5-account-tools",
+      "category": "Account & Remote Play",
+      "author": "MangoScango"
+    },
+    {
+      "name": "PS5 Linux Image",
+      "description": "Linux image releases for PS5.",
+      "repository_url": "https://github.com/ps5-linux/ps5-linux-image",
+      "category": "Linux & Development",
+      "author": "ps5-linux"
+    },
+    {
+      "name": "PS5 Linux Loader",
+      "description": "Linux loader for PS5.",
+      "repository_url": "https://github.com/ps5-linux/ps5-linux-loader",
+      "category": "Linux & Development",
+      "author": "ps5-linux",
+      "version": "v2.5"
+    },
+    {
+      "name": "ProsperoTube",
+      "description": "Unofficial SmartTube port for PS5 homebrew.",
+      "repository_url": "https://github.com/blackbearreloaded/ProsperoTube",
+      "category": "Gaming & Media",
+      "author": "blackbearreloaded"
+    },
+    {
+      "name": "PS5 Repository List",
+      "description": "PS5 repository list and release tracker.",
+      "repository_url": "https://github.com/nexgen999/PS5-Repository-List",
+      "category": "Utilities & Tools",
+      "author": "nexgen999"
+    },
+    {
+      "name": "PS5 Game Compressor (gcoding97)",
+      "description": "PS5 game compression utility.",
+      "repository_url": "https://github.com/gcoding97/PS5-Game-Compressor",
+      "category": "Utilities & Tools",
+      "author": "gcoding97",
+      "version": "v1.1.1"
+    },
+    {
+      "name": "PS5 Game Compressor (juma-sayeh)",
+      "description": "PS5 game compression utility with a multilingual interface including Arabic.",
+      "repository_url": "https://github.com/juma-sayeh/PS5-Game-Compressor",
+      "category": "Utilities & Tools",
+      "author": "juma-sayeh",
+      "version": "v1.0.4"
+    },
+    {
+      "name": "PS5 LZ4 Game Compressor",
+      "description": "LZ4-based game compression utility for PS5; beta release.",
+      "repository_url": "https://github.com/gameboy829/PS5-LZ4-Game-Compressor",
+      "category": "Utilities & Tools",
+      "author": "gameboy829",
+      "version": "beta.7"
     }
   ]
 }
