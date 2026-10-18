@@ -1,7 +1,7 @@
 {
   "name": "Payload Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T01:30:35+00:00",
+  "generated_at": "2026-10-18T01:35:57+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
@@ -2567,34 +2567,6 @@
       "id": "prospero-menu-prosperomenu-38dfae9a"
     },
     {
-      "name": "ps5-payloads-mirror — ps5upload",
-      "filename": "ps5upload_v7.0.31.elf",
-      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.0.31.elf",
-      "source": "https://github.com/itsPLK/ps5-payloads-mirror/releases",
-      "source_direct": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.0.31.elf",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "last_update": "2026-04-28",
-      "version": "payloads-mirror",
-      "category": "Networking & Servers",
-      "checksum": "4ef3b781ae178bbe402a87a64b6f366d3386d6557306db0f51b46b458ffa7e24",
-      "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e",
-      "id": "ps5-payloads-mirror-ps5upload_v7.0.31-73a3eeec"
-    },
-    {
-      "name": "ps5-payloads-mirror — websrv",
-      "filename": "websrv_v0.34.elf",
-      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/websrv_v0.34.elf",
-      "source": "https://github.com/itsPLK/ps5-payloads-mirror/releases",
-      "source_direct": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/websrv_v0.34.elf",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "last_update": "2026-04-28",
-      "version": "payloads-mirror",
-      "category": "Networking & Servers",
-      "checksum": "54730c867c6e1148536fdcb370e63a7762d989ea87b62488ad4caff64d43f263",
-      "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e",
-      "id": "ps5-payloads-mirror-websrv_v0.34-ed142fd6"
-    },
-    {
       "name": "ps5-signal — ps5-signal-dev",
       "filename": "ps5-signal-dev.elf",
       "url": "https://github.com/Marice/ps5-signal/releases/download/v0.2.0/ps5-signal-dev.elf",
@@ -2621,20 +2593,6 @@
       "checksum": "189b51ac204600f40d4aa9adc8394e897decf96042689c2066d9292b47fd173e",
       "icon_key": "54443099d6301f245a2d810b91d05c5e01deafea655f9ce919f6a6995e6b3168",
       "id": "ps5-signal-ps5-signal-10ec8a5a"
-    },
-    {
-      "name": "librespot-ps5",
-      "filename": "librespot-ps5.elf",
-      "url": "https://github.com/stupiditytries/librespot-ps5/releases/download/v0.1.0/librespot-ps5.elf",
-      "source": "https://github.com/stupiditytries/librespot-ps5/releases",
-      "source_direct": "https://github.com/stupiditytries/librespot-ps5/releases/download/v0.1.0/librespot-ps5.elf",
-      "description": "Payload for background Spotify playback on modified PS5 consoles",
-      "last_update": "2026-10-11",
-      "version": "v0.1.0",
-      "category": "Utilities & Tools",
-      "checksum": "37d571ac23ddb58648a44665f90a5939d06cdda0b71cc77e9d6a5358bb6e1957",
-      "icon_key": "46d2ffc86d12108ce4d7e9e8f79b7e2c7d64b02189736fb4b2897364c247654d",
-      "id": "librespot-ps5-librespot-ps5-c6523ee1"
     }
   ]
 }

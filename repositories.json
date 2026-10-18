@@ -1,10 +1,10 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T01:30:35+00:00",
+  "generated_at": "2026-10-18T01:35:57+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 335,
-  "payload_count": 188,
+  "count": 334,
+  "payload_count": 185,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
@@ -3416,16 +3416,6 @@
       "checksum": "1164262193931eb99cb61cd8e6414db9ff2d2cee93c74f523c5ebafae933c43e"
     },
     {
-      "name": "Relapse-Exploit",
-      "description": "PS5 Host",
-      "repository_url": "https://github.com/Slxcky-1/Relapse-Exploit",
-      "category": "PS5 Auto-discovered",
-      "author": "Slxcky-1",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "6b581458355ce5a83eee04c6503fd307790ac4714b3ddabaf085001252f3ccb7"
-    },
-    {
       "name": "KytyPS5",
       "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
       "repository_url": "https://github.com/KytyPS5/KytyPS5",
@@ -3562,6 +3552,16 @@
       "icon_key": "bb2d12ddfad8517362e67325e0c0b00f5240b0056371f71dd85f60daa297b5d2"
     },
     {
+      "name": "Relapse-Exploit",
+      "description": "PS5 Host",
+      "repository_url": "https://github.com/Slxcky-1/Relapse-Exploit",
+      "category": "PS5 Auto-discovered",
+      "author": "Slxcky-1",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "6b581458355ce5a83eee04c6503fd307790ac4714b3ddabaf085001252f3ccb7"
+    },
+    {
       "name": "PS5-Exploit-DNS-Blocklist",
       "description": "Blocklist for PS5 update",
       "repository_url": "https://github.com/PvtSeaCow/PS5-Exploit-DNS-Blocklist",
@@ -3626,22 +3626,6 @@
       "version": "v0.2.0",
       "last_update": "2026-10-17",
       "checksum": "189b51ac204600f40d4aa9adc8394e897decf96042689c2066d9292b47fd173e"
-    },
-    {
-      "name": "librespot-ps5",
-      "description": "Payload for background Spotify playback on modified PS5 consoles",
-      "repository_url": "https://github.com/stupiditytries/librespot-ps5",
-      "category": "PS5 Auto-discovered",
-      "author": "stupiditytries",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "46d2ffc86d12108ce4d7e9e8f79b7e2c7d64b02189736fb4b2897364c247654d",
-      "payload_available": true,
-      "payload_filename": "librespot-ps5.elf",
-      "payload_url": "https://github.com/stupiditytries/librespot-ps5/releases/download/v0.1.0/librespot-ps5.elf",
-      "version": "v0.1.0",
-      "last_update": "2026-10-11",
-      "checksum": "37d571ac23ddb58648a44665f90a5939d06cdda0b71cc77e9d6a5358bb6e1957"
     },
     {
       "name": "AnyPS5",
