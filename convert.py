@@ -749,17 +749,32 @@ def main() -> int:
             discovered += 1
         time.sleep(0.05)
 
-    # Remove mirrored/upstream duplicates and PS4-only binaries before publishing.
-    # Keep the curated mirror entry first when it represents the same logical ELF.
+    # Remove duplicate URLs even when sources append tracking query parameters or fragments.
+    # Then remove mirrored copies of the same logical ELF and PS4-only binaries.
+    # Preserve the first (curated mirror) record when duplicates are encountered.
     deduplicated_payloads: list[dict[str, Any]] = []
+    seen_payload_urls_normalized: set[str] = set()
     seen_payload_identities: set[tuple[str, str]] = set()
     for payload in payloads:
         filename = str(payload.get("filename") or "")
         if re.search(r"(?i)(?:^|[-_.])ps4(?:[-_.]|$)", filename):
             continue
+        raw_url = str(payload.get("url") or "").strip()
+        parsed_url = urllib.parse.urlsplit(raw_url)
+        normalized_url = urllib.parse.urlunsplit((
+            parsed_url.scheme.lower(),
+            parsed_url.netloc.lower(),
+            parsed_url.path.rstrip("/"),
+            "",
+            "",
+        ))
+        if normalized_url and normalized_url in seen_payload_urls_normalized:
+            continue
         identity = payload_identity(payload)
         if identity[1] and identity in seen_payload_identities:
             continue
+        if normalized_url:
+            seen_payload_urls_normalized.add(normalized_url)
         if identity[1]:
             seen_payload_identities.add(identity)
         deduplicated_payloads.append(payload)
