@@ -382,6 +382,18 @@
       "payload_filename": "YT-Blocker_v1.0.1.elf",
       "payload_url": "https://github.com/Epinorr/y2jb-update-blocker/releases/download/v1.0.1/YT-Blocker_v1.0.1.elf",
       "checksum": "541d320b474f9a90576294ff86d024d6ede6f6e7f79d76408b54c01818ae510f"
+    },
+    {
+      "name": "PS5Droid",
+      "description": "Android games on your PS5",
+      "repository_url": "https://github.com/aarvsn/PS5Droid",
+      "category": "Gaming & UI",
+      "author": "aarvsn",
+      "payload_available": false,
+      "version": "v1.0.0",
+      "last_update": "2026-10-18",
+      "package_filename": "ps5droid-elf-payload.zip",
+      "package_url": "https://github.com/aarvsn/PS5Droid/releases/download/v1.0.0/ps5droid-elf-payload.zip"
     }
   ]
 }
