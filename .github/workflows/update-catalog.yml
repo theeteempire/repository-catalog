@@ -67,6 +67,8 @@ jobs:
           expected_icons_url = "https://theeteempire.github.io/repository-catalog/icons.json"
           assert feed.get("icons_url") == expected_icons_url, "PLDMGR feed must reference the absolute published icons URL"
           assert len({r.get("repository_url") for r in repos["repositories"]}) == len(repos["repositories"]), "Duplicate repositories found"
+          repository_names = [str(r.get("name") or "").casefold() for r in repos["repositories"]]
+          assert len(repository_names) == len(set(repository_names)), "Duplicate repository display names found; disambiguate publishers"
           missing_repo_icons = [(r.get("name"), r.get("repository_url"), r.get("icon_key")) for r in repos["repositories"] if not r.get("icon_key") or r["icon_key"] not in icon_map]
           assert not missing_repo_icons, f"Repository entries have missing icon mappings: {missing_repo_icons[:10]}"
 
@@ -78,6 +80,8 @@ jobs:
           assert len(normalized_payload_urls) == len(set(normalized_payload_urls)), "Duplicate payload download URLs found"
           payload_ids = [item.get("id") for item in feed["payloads"] if item.get("id")]
           assert len(payload_ids) == len(set(payload_ids)), "Duplicate payload IDs found"
+          payload_names = [str(item.get("name") or "").casefold() for item in feed["payloads"]]
+          assert len(payload_names) == len(set(payload_names)), "Duplicate payload display names found; disambiguate publishers/assets"
 
           bad_urls = []
           missing_icons = []
