@@ -369,6 +369,19 @@
       "last_update": "2026-10-08",
       "payload_filename": "webkit-autoloader-installer_v0.6.1.elf",
       "payload_url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.1/webkit-autoloader-installer_v0.6.1.elf"
+    },
+    {
+      "name": "Y2JB Update Blocker",
+      "description": "PS5 payload that blocks YouTube update metadata; release v1.0.1 supports additional YouTube title IDs and verifies metadata/database changes.",
+      "repository_url": "https://github.com/Epinorr/y2jb-update-blocker",
+      "category": "Utilities & Tools",
+      "author": "Epinorr",
+      "payload_available": true,
+      "version": "v1.0.1",
+      "last_update": "2026-10-18",
+      "payload_filename": "YT-Blocker_v1.0.1.elf",
+      "payload_url": "https://github.com/Epinorr/y2jb-update-blocker/releases/download/v1.0.1/YT-Blocker_v1.0.1.elf",
+      "checksum": "541d320b474f9a90576294ff86d024d6ede6f6e7f79d76408b54c01818ae510f"
     }
   ]
 }
