@@ -234,6 +234,13 @@ def payload_slug(value: Any) -> str:
     return re.sub(r"[-_.]{2,}", "-", value).strip("-._") or "payload"
 
 
+def normalize_project_name(value: Any) -> str:
+    """Normalize labels for duplicate detection without using publisher as identity."""
+    name = re.sub(r"\s*[·•]\s*NEW\s*$", "", str(value or ""), flags=re.I)
+    name = re.sub(r"(?i)(?:^|\s|[-_])PS5(?=$|\s|[-_])", " ", name)
+    return re.sub(r"[^a-z0-9]+", "", name.casefold())
+
+
 def infer_category(*values: Any) -> str:
     """Assign consistent PLDMGR categories to payloads using their metadata."""
     text = " ".join(str(value or "") for value in values).lower()
@@ -532,7 +539,7 @@ def main() -> int:
     repository_name_groups: dict[str, list[dict[str, Any]]] = {}
     for record in repositories:
         base_name = str(record.get("name") or "").strip()
-        repository_name_groups.setdefault(base_name.casefold(), []).append(record)
+        repository_name_groups.setdefault(normalize_project_name(base_name), []).append(record)
     for group in repository_name_groups.values():
         if len(group) < 2:
             continue
@@ -852,7 +859,7 @@ def main() -> int:
     name_groups: dict[str, list[dict[str, Any]]] = {}
     for payload in payloads:
         base_name = re.sub(r"\s*[·•]\s*NEW\s*$", "", str(payload.get("name") or ""), flags=re.I)
-        name_groups.setdefault(base_name.casefold(), []).append(payload)
+        name_groups.setdefault(normalize_project_name(base_name), []).append(payload)
     for group in name_groups.values():
         if len(group) < 2:
             continue
