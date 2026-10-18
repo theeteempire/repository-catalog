@@ -82,6 +82,19 @@ jobs:
           assert len(normalized_payload_urls) == len(set(normalized_payload_urls)), "Duplicate payload download URLs found"
           payload_ids = [item.get("id") for item in feed["payloads"] if item.get("id")]
           assert len(payload_ids) == len(set(payload_ids)), "Duplicate payload IDs found"
+          for item in feed["payloads"]:
+              if "github_stars" in item:
+                  assert isinstance(item["github_stars"], int) and item["github_stars"] >= 0, f"Invalid GitHub star count: {item.get('name')}"
+              if "download_count" in item:
+                  assert isinstance(item["download_count"], int) and item["download_count"] >= 0, f"Invalid download count: {item.get('name')}"
+              if "last_update_days" in item:
+                  assert isinstance(item["last_update_days"], int) and item["last_update_days"] >= 0, f"Invalid update age: {item.get('name')}"
+              if "last_update_months" in item:
+                  assert isinstance(item["last_update_months"], (int, float)) and item["last_update_months"] >= 0, f"Invalid update age in months: {item.get('name')}"
+          repository_names = [str(r.get("name") or "").casefold() for r in repos["repositories"]]
+          for record in repos["repositories"]:
+              if "github_stars" in record:
+                  assert isinstance(record["github_stars"], int) and record["github_stars"] >= 0, f"Invalid repository stars: {record.get('name')}"
           payload_names = [str(item.get("name") or "").casefold() for item in feed["payloads"]]
           assert len(payload_names) == len(set(payload_names)), "Duplicate payload display names found; disambiguate publishers/assets"
 
