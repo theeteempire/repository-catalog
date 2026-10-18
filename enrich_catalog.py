@@ -50,29 +50,20 @@ def summary(payload: dict[str, Any]) -> str:
 
     stars = payload.get("github_stars")
     downloads = payload.get("download_count")
-    firmware = payload.get("firmware_compatibility") or payload.get("firmware")
-    firmware_status = str(payload.get("firmware_status") or "").lower()
     last_update = payload.get("last_update")
 
     stars_label = str(stars) if isinstance(stars, int) and not isinstance(stars, bool) and stars >= 0 else UNKNOWN
     metadata = [f"⭐ {stars_label}", f"📥 {compact_count(downloads)}"]
 
-    if isinstance(firmware, (str, int, float)) and str(firmware).strip():
-        label = str(firmware).strip()
-        firmware_label = label if firmware_status in {"verified", "tested", "confirmed"} else f"{label} (unverified)"
-    else:
-        firmware_label = UNKNOWN
-    metadata.append(f"🎮 FW {firmware_label}")
-
     # Only show a real, parseable update date supplied by the catalog source.
     if isinstance(last_update, str) and last_update.strip():
         try:
             update_date = datetime.strptime(last_update.strip(), "%Y-%m-%d").date()
-            metadata.append(f"🕒 {update_date.isoformat()}")
+            metadata.append(f"🕒 {update_date.day} {update_date.strftime('%b')} {update_date.strftime('%y')}")
         except ValueError:
             pass
 
-    # Keep firmware visible and append the update date only when trustworthy.
+    # Append the compact update date only when a trustworthy source date is available.
     return " · ".join(metadata) + " | " + original
 
 
