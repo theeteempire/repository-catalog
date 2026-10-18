@@ -1,9 +1,9 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T17:48:06+00:00",
+  "generated_at": "2026-10-18T17:54:39+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 345,
+  "count": 346,
   "payload_count": 228,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
@@ -478,7 +478,7 @@
       "package_url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SX2-vk-285-171.zip",
       "package_checksum": "226ac24866f0b94566c0680c3b99c0d5abfe8030723f5b28dae20af039c76963",
       "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
-      "github_stars": 1390,
+      "github_stars": 1391,
       "open_issues_count": 60,
       "repository_updated_at": "2026-10-14T02:12:23Z",
       "last_update_days": 4,
@@ -573,7 +573,7 @@
       "category": "Repositories",
       "author": "blackbearreloaded",
       "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac",
-      "github_stars": 760,
+      "github_stars": 761,
       "open_issues_count": 62,
       "repository_updated_at": "2026-10-18T03:56:25Z"
     },
@@ -768,7 +768,7 @@
       "checksum": "556ae30754a97a6380eba97dc876820f2cb9115c612587befacf1e2ef6ba18ee",
       "github_stars": 24,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T17:35:19Z",
+      "repository_updated_at": "2026-10-18T17:51:51Z",
       "last_update_days": 7,
       "last_update_months": 0.2
     },
@@ -1046,9 +1046,9 @@
       "category": "Repositories",
       "author": "blackbearreloaded",
       "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
-      "github_stars": 326,
+      "github_stars": 327,
       "open_issues_count": 5,
-      "repository_updated_at": "2026-10-18T17:41:55Z"
+      "repository_updated_at": "2026-10-18T17:48:22Z"
     },
     {
       "name": "ProsperoStore 1.000.080 (alpha)",
@@ -1057,9 +1057,9 @@
       "category": "Repositories",
       "author": "",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 326,
+      "github_stars": 327,
       "open_issues_count": 5,
-      "repository_updated_at": "2026-10-18T17:41:55Z"
+      "repository_updated_at": "2026-10-18T17:48:22Z"
     },
     {
       "name": "ps4mount",
@@ -1120,7 +1120,7 @@
       "category": "Repositories",
       "author": "etaHEN",
       "icon_key": "01980dfabfe1ad0159d8772aee128f512e916dcb7ae64ae2677f1675f49b49ab",
-      "github_stars": 794,
+      "github_stars": 795,
       "open_issues_count": 24,
       "repository_updated_at": "2026-05-04T03:14:05Z"
     },
@@ -1270,7 +1270,7 @@
       "payload_filename": "kstuff-lite_v1.11.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-lite_v1.11.elf",
       "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779",
-      "github_stars": 756,
+      "github_stars": 757,
       "open_issues_count": 11,
       "repository_updated_at": "2026-09-23T23:23:44Z",
       "last_update_days": 28,
@@ -1338,7 +1338,7 @@
       "payload_filename": "ps5-linux-loader_v2.5.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-linux-loader_v2.5.elf",
       "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49",
-      "github_stars": 298,
+      "github_stars": 299,
       "open_issues_count": 4,
       "repository_updated_at": "2026-10-18T01:06:23Z",
       "last_update_days": 43,
@@ -1421,7 +1421,7 @@
       "last_update": "2026-10-05",
       "checksum": "00677d6cfac752f1da395d2aeddfee1b5f8f3a3175c524bb0ca90afd9ea0d624",
       "github_stars": 47,
-      "open_issues_count": 16,
+      "open_issues_count": 17,
       "repository_updated_at": "2026-10-05T23:02:52Z",
       "last_update_days": 13,
       "last_update_months": 0.4
@@ -3272,7 +3272,7 @@
       "version": "v1.0.0",
       "last_update": "2026-10-16",
       "checksum": "5331ebf1b69cd272a0491f899b14ca5d59240adee2e69078631473070ddeca9b",
-      "github_stars": 98,
+      "github_stars": 99,
       "open_issues_count": 4,
       "repository_updated_at": "2026-10-16T05:37:57Z",
       "last_update_days": 2,
@@ -3677,7 +3677,7 @@
       "version": "HYPERHEN_V0_9_2",
       "last_update": "2026-10-14",
       "checksum": "c35b8f6dbe4355be7e55891e6b326d82f3d6aae8483f6cf0e27d372b0aea97ae",
-      "github_stars": 209,
+      "github_stars": 210,
       "open_issues_count": 7,
       "repository_updated_at": "2026-10-14T17:52:35Z",
       "last_update_days": 4,
@@ -3819,7 +3819,7 @@
       "version": "v.1.2.1",
       "last_update": "2026-10-16",
       "checksum": "147945cffb28405557a49cd4929c7d0534c55f6a757aba0063f9ce475c1c7255",
-      "github_stars": 56,
+      "github_stars": 57,
       "open_issues_count": 7,
       "repository_updated_at": "2026-10-16T20:56:27Z",
       "last_update_days": 2,
@@ -4135,7 +4135,7 @@
       "category": "System & Jailbreak",
       "author": "PS5Dev",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 480,
+      "github_stars": 481,
       "open_issues_count": 20,
       "repository_updated_at": "2026-10-12T22:52:46Z"
     },
@@ -4264,15 +4264,22 @@
     },
     {
       "name": "Overdrive",
-      "description": "Overdrive PS5 homebrew application.",
+      "description": "PS5 homebrew game store with 1,800+ games. Latest v1.0.6 release provides Overdrive.exfat and update.zip, not a standalone ELF payload.",
       "repository_url": "https://github.com/MyLuxy/overdrive",
       "category": "Utilities & Tools",
       "author": "MyLuxy",
-      "version": "v1.0.2",
+      "payload_available": false,
+      "version": "v1.0.6",
+      "last_update": "2026-10-17",
+      "package_filename": "Overdrive.exfat",
+      "package_url": "https://github.com/MyLuxy/overdrive/releases/download/v1.0.6/Overdrive.exfat",
+      "checksum": "ba2922e2ce12a416a277eec747ceaa2609514a7ba8a4e46682c2179f228c5a2b",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 744,
       "open_issues_count": 16,
-      "repository_updated_at": "2026-10-18T14:39:05Z"
+      "repository_updated_at": "2026-10-18T14:39:05Z",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "PS5 LZ4 Compression",
@@ -4409,7 +4416,7 @@
       "package_filename": "ps5droid-elf-payload.zip",
       "package_url": "https://github.com/aarvsn/PS5Droid/releases/download/v1.0.0/ps5droid-elf-payload.zip",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 22,
+      "github_stars": 23,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T13:53:35Z",
       "last_update_days": 0,
@@ -4426,7 +4433,7 @@
       "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
       "github_stars": 47,
       "open_issues_count": 3,
-      "repository_updated_at": "2026-10-18T17:38:36Z"
+      "repository_updated_at": "2026-10-18T17:48:13Z"
     },
     {
       "name": "pyre-ps5",
@@ -4439,7 +4446,7 @@
       "icon_key": "62c4d246c8deb88013e5e6e502912008ddcbdc5ea9847ca98e050dc187d286f7",
       "github_stars": 1,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T17:33:03Z"
+      "repository_updated_at": "2026-10-18T17:50:09Z"
     },
     {
       "name": "AnchorPS5-catalog",
@@ -4478,7 +4485,7 @@
       "icon_key": "7bf2db3d9bce8084e9864ec2923f6550d4203ba8c9e75934059d03e825374a3a",
       "github_stars": 1,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T17:11:22Z"
+      "repository_updated_at": "2026-10-18T17:48:39Z"
     },
     {
       "name": "WelcomeHubActivator",
@@ -4692,7 +4699,7 @@
       "icon_key": "707678cd2be781dd47e9341f2a6fa4e82574c6baaf1e2f8ba3b458fae5d0f9e0",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T15:41:16Z"
+      "repository_updated_at": "2026-10-18T17:48:37Z"
     },
     {
       "name": "ps5-hub",
@@ -4757,28 +4764,7 @@
       "icon_key": "84393d69aedb2774cddc74f65e6dd7863a809ef9bedf1a56f18fa131bb896caa",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T14:04:16Z"
-    },
-    {
-      "name": "ps5-account-activator",
-      "description": "all-in-one PS5 ELF payload that seamlessly combines offline account activation with PlayStation Network (NP) Fake Signin in a single execution.",
-      "repository_url": "https://github.com/Epinorr/ps5-account-activator",
-      "category": "PS5 Auto-discovered",
-      "author": "Epinorr",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "345557e65ea3699fbc83230077c8edbde91f41ed65b41ecdf31829d4880a3a1c",
-      "payload_available": true,
-      "payload_filename": "AIO-Activator_v2.1.0.elf",
-      "payload_url": "https://github.com/Epinorr/ps5-account-activator/releases/download/v2.1.0/AIO-Activator_v2.1.0.elf",
-      "version": "v2.1.0",
-      "last_update": "2026-10-17",
-      "checksum": "92ef418c503aea340b058485b42f917f2ceedcc4b64acd6867d20cc30c9e93ff",
-      "github_stars": 24,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T13:58:48Z",
-      "last_update_days": 1,
-      "last_update_months": 0.0
+      "repository_updated_at": "2026-10-18T17:51:35Z"
     },
     {
       "name": "PS5-14.10-Research",
@@ -4789,9 +4775,22 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
-      "github_stars": 145,
+      "github_stars": 146,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-18T17:45:59Z"
+    },
+    {
+      "name": "Tethersnap",
+      "description": "Export photos and videos from game consoles, cameras, and drives to your Mac: Switch 2 and Switch over USB (baseline PTP, no drivers), PS5, PS4, Switch SD, and camera cards from disk, plus a date fixer for filename timestamps. SwiftUI app + CLI.",
+      "repository_url": "https://github.com/Luminoid/Tethersnap",
+      "category": "PS5 Auto-discovered",
+      "author": "Luminoid",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "3a37f848df3405de1538b940c2c14f9436c6cbdaf1ba7d9b7aa0deebefccf11c",
+      "github_stars": 8,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-10-18T17:33:25Z"
     },
     {
       "name": "XXIIPS5",
@@ -4815,7 +4814,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436",
-      "github_stars": 9019,
+      "github_stars": 9020,
       "open_issues_count": 769,
       "repository_updated_at": "2026-10-18T15:46:04Z"
     },
@@ -4927,7 +4926,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "021de2d16c459916aff57862beacef331ddaadded85f1a1b9f41a3d4b10fa7b9",
-      "github_stars": 23,
+      "github_stars": 24,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T04:33:10Z"
     },
@@ -4961,7 +4960,7 @@
       "checksum": "dc3b1cdea6d5dcf68dd178ff14b8eba925ba35ca08e22b1d2442bce5c778fc46",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T03:18:35Z",
+      "repository_updated_at": "2026-10-18T17:52:54Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -4976,7 +4975,7 @@
       "icon_key": "becdd1b1d2fad8cf0e79b9bb31483ec03986bebd9f65c8a6fec1bb5f3b6e9c13",
       "github_stars": 20,
       "open_issues_count": 1,
-      "repository_updated_at": "2026-10-18T00:10:42Z"
+      "repository_updated_at": "2026-10-18T17:53:06Z"
     },
     {
       "name": "CD5",
@@ -5022,6 +5021,27 @@
       "github_stars": 27,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T20:13:58Z",
+      "last_update_days": 1,
+      "last_update_months": 0.0
+    },
+    {
+      "name": "ps5-account-activator",
+      "description": "all-in-one PS5 ELF payload that seamlessly combines offline account activation with PlayStation Network (NP) Fake Signin in a single execution.",
+      "repository_url": "https://github.com/Epinorr/ps5-account-activator",
+      "category": "PS5 Auto-discovered",
+      "author": "Epinorr",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "345557e65ea3699fbc83230077c8edbde91f41ed65b41ecdf31829d4880a3a1c",
+      "payload_available": true,
+      "payload_filename": "AIO-Activator_v2.1.0.elf",
+      "payload_url": "https://github.com/Epinorr/ps5-account-activator/releases/download/v2.1.0/AIO-Activator_v2.1.0.elf",
+      "version": "v2.1.0",
+      "last_update": "2026-10-17",
+      "checksum": "92ef418c503aea340b058485b42f917f2ceedcc4b64acd6867d20cc30c9e93ff",
+      "github_stars": 24,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-18T13:58:48Z",
       "last_update_days": 1,
       "last_update_months": 0.0
     },
@@ -5112,6 +5132,19 @@
       "repository_updated_at": "2026-10-18T07:00:32Z"
     },
     {
+      "name": "AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "repository_url": "https://github.com/boykopovar/AnyPS5",
+      "category": "PS5 Auto-discovered",
+      "author": "boykopovar",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
+      "github_stars": 42864,
+      "open_issues_count": 1027,
+      "repository_updated_at": "2026-10-18T17:53:21Z"
+    },
+    {
       "name": "Darkwatch-Recompiled-PS5",
       "description": "A little project I did for myself. Completely decompiled and recompiled the xbox version of Darkwatch into a playable build for the PS5. I will try to get it out onto windows systems in the future but this was just to see if i can do it at all.",
       "repository_url": "https://github.com/JittleYang42/Darkwatch-Recompiled-PS5",
@@ -5123,19 +5156,6 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T17:36:20Z"
-    },
-    {
-      "name": "AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "repository_url": "https://github.com/boykopovar/AnyPS5",
-      "category": "PS5 Auto-discovered",
-      "author": "boykopovar",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
-      "github_stars": 42860,
-      "open_issues_count": 1027,
-      "repository_updated_at": "2026-10-18T17:44:10Z"
     }
   ]
 }
