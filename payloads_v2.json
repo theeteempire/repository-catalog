@@ -1,7 +1,7 @@
 {
   "name": "Payload Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T08:18:12+00:00",
+  "generated_at": "2026-10-18T08:50:46+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
@@ -219,7 +219,7 @@
       "first_seen": "2026-10-18"
     },
     {
-      "name": "ps5-linux-loader",
+      "name": "ps5-linux-loader — ps5-linux-loader",
       "filename": "ps5-linux-loader_v2.5.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-linux-loader_v2.5.elf",
       "source": "https://github.com/ps5-linux/ps5-linux-loader/releases",
@@ -524,6 +524,19 @@
       "first_seen": "2026-10-18"
     },
     {
+      "name": "PS5 Linux Loader — ps5-linux-loader",
+      "filename": "ps5-linux-loader.elf",
+      "url": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.5/ps5-linux-loader.elf",
+      "source": "https://github.com/ps5-linux/ps5-linux-loader/releases",
+      "source_direct": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.5/ps5-linux-loader.elf",
+      "description": "Loader payload for running Linux on PS5.",
+      "version": "v2.5",
+      "last_update": "2026-10-18",
+      "category": "Linux & Development",
+      "id": "ps5-linux-loader-ps5-linux-loader-5d33691f",
+      "icon_key": "b3d73d513d62b4d6c880873e46cbea07b977c9bc03295c7e3a31e091fda7a8f7"
+    },
+    {
       "name": "Pegasus DL",
       "filename": "pegasus_dl.elf",
       "url": "https://github.com/pegasus-ps5/pegasus-dl/releases/download/v1.11.0/pegasus_dl.elf",
@@ -621,7 +634,7 @@
       "id": "actremotelink-13.x-actremotelink_pin_notify-74f82d05"
     },
     {
-      "name": "instalador-host-psm-poop2jb",
+      "name": "instalador-host-psm-poop2jb — Host-PSM-pooP2JB",
       "filename": "Host-PSM-pooP2JB-v1.2.0-instala-onionhen-en.elf",
       "url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen-en.elf",
       "source": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases",
@@ -633,6 +646,48 @@
       "checksum": "90f1ec197e66bbf4fa1a3bce040d6a5d04d571c4f8290f608401e8f7c2e9e0a4",
       "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41",
       "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-onionhen-en-5272e025"
+    },
+    {
+      "name": "instalador-host-psm-poop2jb — Host-PSM-pooP2JB [835f39e1]",
+      "filename": "Host-PSM-pooP2JB-v1.2.0-instala-onionhen.elf",
+      "url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen.elf",
+      "source": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases",
+      "source_direct": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-onionhen.elf",
+      "description": "Host-PSM pooP2JB v1.2.0 - EXE, ELF e APK Android - seletor final OnionHEN/PLDMGR e idioma PT/EN",
+      "last_update": "2026-08-30",
+      "version": "v1.2.0",
+      "category": "System & Jailbreak",
+      "checksum": "894432bb3161559a272bbdd07cc66dd80ac487f6ddbcc9ae5718090dc0f6e716",
+      "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41",
+      "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-onionhen-c5a6fe0b"
+    },
+    {
+      "name": "instalador-host-psm-poop2jb — Host-PSM-pooP2JB [2f403544]",
+      "filename": "Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en.elf",
+      "url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en.elf",
+      "source": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases",
+      "source_direct": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr-en.elf",
+      "description": "Host-PSM pooP2JB v1.2.0 - EXE, ELF e APK Android - seletor final OnionHEN/PLDMGR e idioma PT/EN",
+      "last_update": "2026-08-30",
+      "version": "v1.2.0",
+      "category": "System & Jailbreak",
+      "checksum": "3ccc45938dcc1bb6ee766195106c928049fd632993828bcf73b5368fdebfc496",
+      "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41",
+      "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-pldmgr-en-6374376d"
+    },
+    {
+      "name": "instalador-host-psm-poop2jb — Host-PSM-pooP2JB [aef58266]",
+      "filename": "Host-PSM-pooP2JB-v1.2.0-instala-pldmgr.elf",
+      "url": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr.elf",
+      "source": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases",
+      "source_direct": "https://github.com/ps4macedo/instalador-host-psm-poop2jb/releases/download/v1.2.0/Host-PSM-pooP2JB-v1.2.0-instala-pldmgr.elf",
+      "description": "Host-PSM pooP2JB v1.2.0 - EXE, ELF e APK Android - seletor final OnionHEN/PLDMGR e idioma PT/EN",
+      "last_update": "2026-08-30",
+      "version": "v1.2.0",
+      "category": "System & Jailbreak",
+      "checksum": "b81609da1db061165e44541653b95f524c917a3d5a1fca308965b0d821be3178",
+      "icon_key": "71b38276912496e6cc4c65af4581d493eedf03aa24d49b5168b0f38f9c14fa41",
+      "id": "instalador-host-psm-poop2jb-host-psm-poop2jb-v1.2.0-instala-pldmgr-a25518dc"
     },
     {
       "name": "FGG-PlayPods-GUI",
@@ -985,7 +1040,7 @@
       "id": "ps5-unified-autoloader-ps5-unified-autoloader-v0.1.5-915a65e-97f2b2d4"
     },
     {
-      "name": "kura",
+      "name": "kura — kura-loader-ps5",
       "filename": "kura-loader-ps5.elf",
       "url": "https://github.com/NookieAI/kura/releases/download/v1.6.50/kura-loader-ps5.elf",
       "source": "https://github.com/NookieAI/kura/releases",
@@ -997,6 +1052,20 @@
       "checksum": "8bac520b2b99dcda8109838884380605736d8b1c23793754250bcef00536b6ab",
       "icon_key": "a29d4aa95b75046bac92b452ad2fc5fcfac405ca3843b73906ee9db2e4198a14",
       "id": "kura-kura-loader-ps5-c7f50e67"
+    },
+    {
+      "name": "kura — kura-loader",
+      "filename": "kura-loader.elf",
+      "url": "https://github.com/NookieAI/kura/releases/download/v1.6.50/kura-loader.elf",
+      "source": "https://github.com/NookieAI/kura/releases",
+      "source_direct": "https://github.com/NookieAI/kura/releases/download/v1.6.50/kura-loader.elf",
+      "description": "Scan, identify, organize, and transfer your PS1-PS5 & Vita game library (Windows, macOS, Linux), with a bundled PS5 payload for installs, cheats, saves, and fan control",
+      "last_update": "2026-09-02",
+      "version": "v1.6.50",
+      "category": "Loaders",
+      "checksum": "8bac520b2b99dcda8109838884380605736d8b1c23793754250bcef00536b6ab",
+      "icon_key": "a29d4aa95b75046bac92b452ad2fc5fcfac405ca3843b73906ee9db2e4198a14",
+      "id": "kura-kura-loader-84ced1a4"
     },
     {
       "name": "PIZZA-HEN",
@@ -1685,7 +1754,7 @@
       "id": "ps-play-psplay-2.1-e2600598"
     },
     {
-      "name": "EVO-PLAYER-PS5",
+      "name": "EVO-PLAYER-PS5 — EVOPlayer",
       "filename": "EVOPlayer-v0.7.0-InstallTile.elf",
       "url": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases/download/v0.7.0/EVOPlayer-v0.7.0-InstallTile.elf",
       "source": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases",
@@ -1697,6 +1766,34 @@
       "checksum": "829ace433cade99379d5ef79ed4aaefa14d6c04689a32a4edb89bccf6241aa65",
       "icon_key": "fa027ca7258331e1c9d4bd21d51fa7816b81bbb46d8b52000c589036c61b7c12",
       "id": "evo-player-ps5-evoplayer-v0.7.0-installtile-96d27c34"
+    },
+    {
+      "name": "EVO-PLAYER-PS5 — EVOPlayer [fd20ffbc]",
+      "filename": "EVOPlayer-v0.7.0-player-only.elf",
+      "url": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases/download/v0.7.0/EVOPlayer-v0.7.0-player-only.elf",
+      "source": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases",
+      "source_direct": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases/download/v0.7.0/EVOPlayer-v0.7.0-player-only.elf",
+      "description": "![](https://img.shields.io/badge/Release-v0.7.0-blueviolet?style=for-the-badge) ![](https://img.shields.io/badge/PS5%20Hardware-Verified-0070d1?style=for-the-badge&logo=playstation&logoColor=white) ![](https://img.shields.io/badge/Firmware-12.70-blue?style=for-the-badge)\n\n**Emby password authentication, native HTTPS/TLS streaming, master-detail hierarchical changelog viewer, direct memory buffer streaming, and native PS5 IME keyboard.**\n\nDownload **`EVOPlayer-0.7.0-InstallTile.elf`** to register the Media tile on the home screen, or **`EVOPlayer-0.7.0-player-only.elf`** for homebrew app slot launch.\n\n---\n\n### ![](https://img.shields.io/badge/ADDON-007acc?style=flat-square) Emby Password Authentication & Setup\n\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Account Password Support:** Dedicated interactive password configuration row in Emby Setup screen with virtual keyboard input and secure asterisk masking (`********`).\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Robust cJSON Authentication:** Server authentication payloads formatted with `cJSON` for compliant user session tokens against password-protected Emby and Jellyfin servers.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Config Persistence:** Safe loading and saving of passwords in `/data/evoplayer/emby.conf` and USB configurations with key-value and legacy positional compatibility.\n\n### ![](https://img.shields.io/badge/UI%2FUX-007acc?style=flat-square) Hierarchical Changelog Viewer\n\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Master-Detail Version Architecture:** Replaced legacy flat cards with a clean dual-pane layout: a version selector on the left and a dedicated release notes inspector card on the right.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Categorized Visual Badges:** Clear `[NEW]`, `[FIXED]`, `[IMPROVED]`, and `[REMOVED]` indicator pills with accent color coding.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Instant Version Switching:** Fluid D-pad navigation across all releases with automatic detail panel updates.\n\n### ![](https://img.shields.io/badge/CORE-ff8c00?style=flat-square) Core Subsystems & Network Engine\n\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) ![](https://img.shields.io/badge/SECURITY-e91e63?style=flat-square) **Native HTTPS & TLS Support:** Integrated OpenSSL (`libssl.a`/`libcrypto.a`) with TLS 1.2/1.3 handshakes, SNI extension, and secure communication for remote HTTPS media servers.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Direct Memory Region Manager:** High-throughput streaming buffer allocations leveraging native PS5 direct memory (`dmem`).\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Native PS5 IME Keyboard Support:** Seamless integration with `libSceImeDialog.sprx` supporting multilingual input and USB keyboards, with automatic fallback to custom virtual keyboard.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Media Directory Search:** Interactive search modal in file browser for fast folder and item filtering.\n- ![](https://img.shields.io/badge/FIXED-2ea44f?style=flat-square) **Streaming Stability:** Fixed custom AVIO lifecycle conflict and stabilized network streaming playback.\n- ![](https://img.shields.io/badge/IMPROVED-ff8c00?style=flat-square) **CPU SIMD Vectorized YUV Pipeline:** 8-wide AVX2 SIMD workgroups for high-throughput video presentation (7.4ms per 4K frame).\n\n---\n\n## Install — start here\n\n**Download `EVOPlayer-0.7.0-InstallTile.elf`.** That is the one to run.\n\n1. Jailbreak the console (12.70) and start `ps5-payload-elfldr`.\n2. Copy `EVOPlayer-0.7.0-InstallTile.elf` to a USB stick.\n3. Start it from your **payload manager** — the on-console one, typically at `http://<ps5>:8084`. Anything that sends an ELF to elfldr works.\n4. It says **\"EVO Player ready in Media\"**. Open EVO Player from the console's **Media** row.\n\n### Which file is which\n\n| File | Use it for |\n|---|---|\n| `EVOPlayer-0.7.0-InstallTile.elf` | **Normal install.** Payload manager → tile in Media |\n| `EVOPlayer-0.7.0-UninstallTile.elf` | Removes the tile completely |\n| `EVOPlayer-0.7.0-homebrew.zip` | The websrv route: extract to a USB stick as `/homebrew/EVOPlayer/`, launch from `http://<ps5>:8080` |\n| `EVOPlayer-0.7.0-player-only.elf` | The bare player. Runs via `hbldr` in PS Now app slot |",
+      "last_update": "2026-08-14",
+      "version": "v0.7.0",
+      "category": "System & Jailbreak",
+      "checksum": "5d79849af3ac9c6834e4028fdae0f7896ef0b4e5071bcc33bc46842bcfe482ed",
+      "icon_key": "fa027ca7258331e1c9d4bd21d51fa7816b81bbb46d8b52000c589036c61b7c12",
+      "id": "evo-player-ps5-evoplayer-v0.7.0-player-only-e7d57749"
+    },
+    {
+      "name": "EVO-PLAYER-PS5 — EVOPlayer [c869e6ba]",
+      "filename": "EVOPlayer-v0.7.0-UninstallTile.elf",
+      "url": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases/download/v0.7.0/EVOPlayer-v0.7.0-UninstallTile.elf",
+      "source": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases",
+      "source_direct": "https://github.com/sainsaji/EVO-PLAYER-PS5/releases/download/v0.7.0/EVOPlayer-v0.7.0-UninstallTile.elf",
+      "description": "![](https://img.shields.io/badge/Release-v0.7.0-blueviolet?style=for-the-badge) ![](https://img.shields.io/badge/PS5%20Hardware-Verified-0070d1?style=for-the-badge&logo=playstation&logoColor=white) ![](https://img.shields.io/badge/Firmware-12.70-blue?style=for-the-badge)\n\n**Emby password authentication, native HTTPS/TLS streaming, master-detail hierarchical changelog viewer, direct memory buffer streaming, and native PS5 IME keyboard.**\n\nDownload **`EVOPlayer-0.7.0-InstallTile.elf`** to register the Media tile on the home screen, or **`EVOPlayer-0.7.0-player-only.elf`** for homebrew app slot launch.\n\n---\n\n### ![](https://img.shields.io/badge/ADDON-007acc?style=flat-square) Emby Password Authentication & Setup\n\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Account Password Support:** Dedicated interactive password configuration row in Emby Setup screen with virtual keyboard input and secure asterisk masking (`********`).\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Robust cJSON Authentication:** Server authentication payloads formatted with `cJSON` for compliant user session tokens against password-protected Emby and Jellyfin servers.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Config Persistence:** Safe loading and saving of passwords in `/data/evoplayer/emby.conf` and USB configurations with key-value and legacy positional compatibility.\n\n### ![](https://img.shields.io/badge/UI%2FUX-007acc?style=flat-square) Hierarchical Changelog Viewer\n\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Master-Detail Version Architecture:** Replaced legacy flat cards with a clean dual-pane layout: a version selector on the left and a dedicated release notes inspector card on the right.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Categorized Visual Badges:** Clear `[NEW]`, `[FIXED]`, `[IMPROVED]`, and `[REMOVED]` indicator pills with accent color coding.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Instant Version Switching:** Fluid D-pad navigation across all releases with automatic detail panel updates.\n\n### ![](https://img.shields.io/badge/CORE-ff8c00?style=flat-square) Core Subsystems & Network Engine\n\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) ![](https://img.shields.io/badge/SECURITY-e91e63?style=flat-square) **Native HTTPS & TLS Support:** Integrated OpenSSL (`libssl.a`/`libcrypto.a`) with TLS 1.2/1.3 handshakes, SNI extension, and secure communication for remote HTTPS media servers.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Direct Memory Region Manager:** High-throughput streaming buffer allocations leveraging native PS5 direct memory (`dmem`).\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Native PS5 IME Keyboard Support:** Seamless integration with `libSceImeDialog.sprx` supporting multilingual input and USB keyboards, with automatic fallback to custom virtual keyboard.\n- ![](https://img.shields.io/badge/NEW-007acc?style=flat-square) **Media Directory Search:** Interactive search modal in file browser for fast folder and item filtering.\n- ![](https://img.shields.io/badge/FIXED-2ea44f?style=flat-square) **Streaming Stability:** Fixed custom AVIO lifecycle conflict and stabilized network streaming playback.\n- ![](https://img.shields.io/badge/IMPROVED-ff8c00?style=flat-square) **CPU SIMD Vectorized YUV Pipeline:** 8-wide AVX2 SIMD workgroups for high-throughput video presentation (7.4ms per 4K frame).\n\n---\n\n## Install — start here\n\n**Download `EVOPlayer-0.7.0-InstallTile.elf`.** That is the one to run.\n\n1. Jailbreak the console (12.70) and start `ps5-payload-elfldr`.\n2. Copy `EVOPlayer-0.7.0-InstallTile.elf` to a USB stick.\n3. Start it from your **payload manager** — the on-console one, typically at `http://<ps5>:8084`. Anything that sends an ELF to elfldr works.\n4. It says **\"EVO Player ready in Media\"**. Open EVO Player from the console's **Media** row.\n\n### Which file is which\n\n| File | Use it for |\n|---|---|\n| `EVOPlayer-0.7.0-InstallTile.elf` | **Normal install.** Payload manager → tile in Media |\n| `EVOPlayer-0.7.0-UninstallTile.elf` | Removes the tile completely |\n| `EVOPlayer-0.7.0-homebrew.zip` | The websrv route: extract to a USB stick as `/homebrew/EVOPlayer/`, launch from `http://<ps5>:8080` |\n| `EVOPlayer-0.7.0-player-only.elf` | The bare player. Runs via `hbldr` in PS Now app slot |",
+      "last_update": "2026-08-14",
+      "version": "v0.7.0",
+      "category": "System & Jailbreak",
+      "checksum": "fa8e5e79f0547ff0e019fab8a9396736a295272f9f17ce834906b2cd58da4b18",
+      "icon_key": "fa027ca7258331e1c9d4bd21d51fa7816b81bbb46d8b52000c589036c61b7c12",
+      "id": "evo-player-ps5-evoplayer-v0.7.0-uninstalltile-42650303"
     },
     {
       "name": "nuvio-ps5-homebrew",
@@ -2119,7 +2216,7 @@
       "id": "beetlepceps5-beetlepceps5-v1.0-697a9072"
     },
     {
-      "name": "NayePlmTools",
+      "name": "NayePlmTools — NayePlmTools",
       "filename": "NayePlmTools_0.6.1.181-ga.elf",
       "url": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.181/NayePlmTools_0.6.1.181-ga.elf",
       "source": "https://github.com/naye1120/NayePlmTools/releases",
@@ -2131,6 +2228,20 @@
       "checksum": "8d7190afbcf2e1789acdf312f57a1e7d435e02016de06367546c60fdc368ad94",
       "icon_key": "668c3fb6a0d67edd2db4d4adcc7189c5fa9f2c189c21f0181f527215b621bad5",
       "id": "nayeplmtools-nayeplmtools_0.6.1.181-ga-e80d8c1a"
+    },
+    {
+      "name": "NayePlmTools — NayePlmTools [efd4cdc6]",
+      "filename": "NayePlmTools_0.6.1.181-me.elf",
+      "url": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.181/NayePlmTools_0.6.1.181-me.elf",
+      "source": "https://github.com/naye1120/NayePlmTools/releases",
+      "source_direct": "https://github.com/naye1120/NayePlmTools/releases/download/v0.6.1.181/NayePlmTools_0.6.1.181-me.elf",
+      "description": "NayePlmTools — PS5 Payload Manager 中文分支（CN-FORK）：游戏改名/存档管理/背景音乐/主屏排序等增强",
+      "last_update": "2026-10-17",
+      "version": "v0.6.1.181",
+      "category": "Utilities & Tools",
+      "checksum": "f04d9731de9d71a4f14db258ad6b5ebaa14ecdc29c26bcc0cc6c0af13d5958a3",
+      "icon_key": "668c3fb6a0d67edd2db4d4adcc7189c5fa9f2c189c21f0181f527215b621bad5",
+      "id": "nayeplmtools-nayeplmtools_0.6.1.181-me-fc2b9bbb"
     },
     {
       "name": "HYPERHEN",
@@ -2373,16 +2484,16 @@
     {
       "name": "Breeze",
       "filename": "breeze.elf",
-      "url": "https://github.com/MiladRTX/Breeze/releases/download/v1.4/breeze.elf",
+      "url": "https://github.com/MiladRTX/Breeze/releases/download/v1.5/breeze.elf",
       "source": "https://github.com/MiladRx/Breeze/releases",
-      "source_direct": "https://github.com/MiladRTX/Breeze/releases/download/v1.4/breeze.elf",
+      "source_direct": "https://github.com/MiladRTX/Breeze/releases/download/v1.5/breeze.elf",
       "description": "PS5 fan curve payload with a web panel. Works with elfldr and Payload Manager.",
       "last_update": "2026-10-18",
-      "version": "v1.4",
+      "version": "v1.5",
       "category": "Loaders",
-      "checksum": "ac4d898ab8860b5db5768406ed5987a638f5f0036a3eb9197427af29b9871800",
+      "checksum": "1d747262a8151e8ddfdc34029f3bc458930ad9403263e78e334ddf0f6ebe18c4",
       "icon_key": "a4700ffd4ff4b567875974a6bb15c3d9bd81f6a51dec15f60834e93459b96cd1",
-      "id": "breeze-breeze-48e29e3c"
+      "id": "breeze-breeze-e3c0f10d"
     },
     {
       "name": "PSCloud Dashboard",
@@ -2397,6 +2508,21 @@
       "checksum": "4298b70ed5262bc2acdf03a88e835ea01f0c7e081fbde2a0566841f4508dd271",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "id": "pscloud-dashboard-pscloud-dashboard-25b0090b"
+    },
+    {
+      "name": "Recomp Store · NEW",
+      "filename": "RecompStore-Installer.elf",
+      "url": "https://github.com/elripalda/RecompStore/releases/download/v1.1.2/RecompStore-Installer.elf",
+      "source": "https://github.com/elripalda/RecompStore/releases",
+      "source_direct": "https://github.com/elripalda/RecompStore/releases/download/v1.1.2/RecompStore-Installer.elf",
+      "description": "PS5 homebrew application store.",
+      "last_update": "2026-10-18",
+      "version": "v1.1.2",
+      "category": "Utilities & Tools",
+      "checksum": "c88cb81859e05770fbd686ff5aacc4b30c057c4dbe219890d82c81d0f2440fe2",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
+      "id": "recomp-store-recompstore-installer-1aa1fc08",
+      "first_seen": "2026-10-17"
     },
     {
       "name": "ps5-payload-source — fetchpkg · NEW",

@@ -1,10 +1,10 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T08:18:12+00:00",
+  "generated_at": "2026-10-18T08:50:46+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 331,
-  "payload_count": 178,
+  "payload_count": 187,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
@@ -3010,10 +3010,10 @@
       "icon_key": "a4700ffd4ff4b567875974a6bb15c3d9bd81f6a51dec15f60834e93459b96cd1",
       "payload_available": true,
       "payload_filename": "breeze.elf",
-      "payload_url": "https://github.com/MiladRTX/Breeze/releases/download/v1.4/breeze.elf",
-      "version": "v1.4",
+      "payload_url": "https://github.com/MiladRTX/Breeze/releases/download/v1.5/breeze.elf",
+      "version": "v1.5",
       "last_update": "2026-10-18",
-      "checksum": "ac4d898ab8860b5db5768406ed5987a638f5f0036a3eb9197427af29b9871800"
+      "checksum": "1d747262a8151e8ddfdc34029f3bc458930ad9403263e78e334ddf0f6ebe18c4"
     },
     {
       "name": "Breeze 1.3",
@@ -3194,14 +3194,14 @@
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
-      "name": "ArtemisLM",
-      "description": "Home build of PS5LM. llama.cpp on a PlayStation 5, with a chat page that reads the console clock and searches the web.",
-      "repository_url": "https://github.com/joelsmithlowe/ArtemisLM",
+      "name": "my-ps5-payloads — tanushshukla",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/tanushshukla/my-ps5-payloads",
       "category": "PS5 Auto-discovered",
-      "author": "joelsmithlowe",
+      "author": "tanushshukla",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
-      "icon_key": "178a58aee5d7f3a5ab59eb4854e183ee9c99e35a87ef2243a619b004e2fd56b3"
+      "icon_key": "84393d69aedb2774cddc74f65e6dd7863a809ef9bedf1a56f18fa131bb896caa"
     },
     {
       "name": "tmp_lap",
@@ -3212,6 +3212,26 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22"
+    },
+    {
+      "name": "ps5-ultrapack",
+      "description": "macOS and Windows app to build PS5 fPKG (.pkg) and .ffpfsc containers from any source. Game folder, archive, or disk image. Pack, unpack, browse a .pkg block-by-block, patch, fake-sign. Verified launching on retail FW 11.60 with kstuff-lite 1.13+.",
+      "repository_url": "https://github.com/knutwurst/ps5-ultrapack",
+      "category": "PS5 Auto-discovered",
+      "author": "knutwurst",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b"
+    },
+    {
+      "name": "ArtemisLM",
+      "description": "Home build of PS5LM. llama.cpp on a PlayStation 5, with a chat page that reads the console clock and searches the web.",
+      "repository_url": "https://github.com/joelsmithlowe/ArtemisLM",
+      "category": "PS5 Auto-discovered",
+      "author": "joelsmithlowe",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "178a58aee5d7f3a5ab59eb4854e183ee9c99e35a87ef2243a619b004e2fd56b3"
     },
     {
       "name": "pkg-stream-delivery",
@@ -3262,16 +3282,6 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22"
-    },
-    {
-      "name": "ps5-ultrapack",
-      "description": "macOS and Windows app to build PS5 fPKG (.pkg) and .ffpfsc containers from any source. Game folder, archive, or disk image. Pack, unpack, browse a .pkg block-by-block, patch, fake-sign. Verified launching on retail FW 11.60 with kstuff-lite 1.13+.",
-      "repository_url": "https://github.com/knutwurst/ps5-ultrapack",
-      "category": "PS5 Auto-discovered",
-      "author": "knutwurst",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b"
     },
     {
       "name": "ps5-payload-source",
@@ -3376,16 +3386,6 @@
       "icon_key": "79c99ba1a2b9a454f68b3ba7cace987519d6a89154613bfc306e09a408da5c78"
     },
     {
-      "name": "ps5-payloads — xkzink",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/xkzink/ps5-payloads",
-      "category": "PS5 Auto-discovered",
-      "author": "xkzink",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "31a4f6f69d0dc5cf0b29a42e2b9389cb89f305c0e088b2568eb6269eebe906e4"
-    },
-    {
       "name": "PS5-14.10-Research",
       "description": "PS5 firmware 14.10 kernel attack surface research - 62 Lua probes mapping syscalls, memory, networking, and exploit paths from userland",
       "repository_url": "https://github.com/ZigZagBoi1/PS5-14.10-Research",
@@ -3414,16 +3414,6 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "62c4d246c8deb88013e5e6e502912008ddcbdc5ea9847ca98e050dc187d286f7"
-    },
-    {
-      "name": "my-ps5-payloads — tanushshukla",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/tanushshukla/my-ps5-payloads",
-      "category": "PS5 Auto-discovered",
-      "author": "tanushshukla",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "84393d69aedb2774cddc74f65e6dd7863a809ef9bedf1a56f18fa131bb896caa"
     },
     {
       "name": "PS5-14.10-Jailbreak-Research",
@@ -3612,6 +3602,16 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc"
+    },
+    {
+      "name": "ps5-payloads — xkzink",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/xkzink/ps5-payloads",
+      "category": "PS5 Auto-discovered",
+      "author": "xkzink",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "31a4f6f69d0dc5cf0b29a42e2b9389cb89f305c0e088b2568eb6269eebe906e4"
     },
     {
       "name": "PS5_etaHEN_Cheat_Repository",
