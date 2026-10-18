@@ -1,10 +1,10 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T09:07:23+00:00",
+  "generated_at": "2026-10-18T09:11:39+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 333,
-  "payload_count": 188,
+  "payload_count": 190,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
@@ -103,17 +103,17 @@
       "last_update_months": 0.6
     },
     {
-      "name": "ps5-webkit-autoloader",
-      "description": "An automated payload loader for exploited PS5 consoles",
+      "name": "PS5 WebKit Autoloader",
+      "description": "Automated WebKit payload loader for exploited PS5 consoles. The latest release includes a PS5 installer ELF and separate Windows/Python host tools.",
       "repository_url": "https://github.com/itsPLK/ps5-webkit-autoloader",
-      "category": "Repositories",
+      "category": "System & Jailbreak",
       "author": "itsPLK",
       "payload_available": true,
-      "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
       "version": "v0.6.1",
       "last_update": "2026-10-08",
       "payload_filename": "WebKit-Autoloader-Installer_v0.6.1.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.1.elf",
+      "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
       "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
       "github_stars": 1108,
       "open_issues_count": 0,
@@ -492,7 +492,7 @@
       "author": "mihawk-99",
       "icon_key": "251c998dd037925609ea12083787760381406e604080ac96e2cf9bd908238394",
       "github_stars": 352,
-      "open_issues_count": 27,
+      "open_issues_count": 28,
       "repository_updated_at": "2026-10-18T02:28:19Z"
     },
     {
@@ -1133,17 +1133,17 @@
       "last_update_months": 0.6
     },
     {
-      "name": "ps5-payload-manager",
-      "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
+      "name": "PS5 Payload Manager (PLDMGR)",
+      "description": "A modern web-based dashboard to manage, import, and automatically load payloads on PS5. The latest release publishes the installable pldmgr_v0.6.1.elf asset.",
       "repository_url": "https://github.com/itsPLK/ps5-payload-manager",
-      "category": "Repositories",
+      "category": "Utilities & Tools",
       "author": "itsPLK",
       "payload_available": true,
-      "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346",
       "version": "v0.6.1",
       "last_update": "2026-10-14",
       "payload_filename": "pldmgr_v0.6.1.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.1.elf",
+      "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346",
       "checksum": "5165cbe4c13360828bd0f5d558cdbb9e2d55b0660b1dc7f7a58d3f4ee9e23285",
       "github_stars": 584,
       "open_issues_count": 13,
@@ -3109,7 +3109,7 @@
       "icon_key": "1a18e5217d16816970dd7ff3333bf71cd87f5657fcedfb91df401e7df54664ce",
       "github_stars": 13,
       "open_issues_count": 3,
-      "repository_updated_at": "2026-10-18T08:55:50Z"
+      "repository_updated_at": "2026-10-18T09:07:08Z"
     },
     {
       "name": "ps5-stream8",
@@ -4186,14 +4186,21 @@
     },
     {
       "name": "PS5 Y2JB Autoloader",
-      "description": "An automated payload loader for exploited PS5 consoles.",
+      "description": "Automated payload loader for exploited PS5 consoles. Latest release provides download0.dat and y2jb_update.zip, not a standalone .elf asset, so it is listed as a repository/tool rather than a PLDMGR-installable ELF payload.",
       "repository_url": "https://github.com/itsPLK/ps5-y2jb-autoloader",
       "category": "System & Jailbreak",
       "author": "itsPLK",
+      "payload_available": false,
+      "version": "v1.0.2-254c85f",
+      "last_update": "2026-10-14",
+      "package_filename": "y2jb_update.zip",
+      "package_url": "https://github.com/itsPLK/ps5-y2jb-autoloader/releases/download/v1.0.2-254c85f/y2jb_update.zip",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 896,
       "open_issues_count": 1,
-      "repository_updated_at": "2026-10-15T12:33:54Z"
+      "repository_updated_at": "2026-10-15T12:33:54Z",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "Recomp Store",
@@ -4361,6 +4368,19 @@
       "last_update_months": 9.0
     },
     {
+      "name": "tmp_lap",
+      "description": "AI PS5 Homebrew Testing Lab ",
+      "repository_url": "https://github.com/Yahballon/tmp_lap",
+      "category": "PS5 Auto-discovered",
+      "author": "Yahballon",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-18",
+      "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
+      "github_stars": 3,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-10-18T09:10:57Z"
+    },
+    {
       "name": "ps5-minecraft-java",
       "description": "Future Minecraft Java Edition homebrew for PS5. Java runtime port: https://github.com/mateo-cogeanu/ps5-java25-homebrew",
       "repository_url": "https://github.com/mateo-cogeanu/ps5-minecraft-java",
@@ -4398,19 +4418,6 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T08:55:50Z"
-    },
-    {
-      "name": "tmp_lap",
-      "description": "AI PS5 Homebrew Testing Lab ",
-      "repository_url": "https://github.com/Yahballon/tmp_lap",
-      "category": "PS5 Auto-discovered",
-      "author": "Yahballon",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-18",
-      "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
-      "github_stars": 3,
-      "open_issues_count": 3,
-      "repository_updated_at": "2026-10-18T09:06:34Z"
     },
     {
       "name": "my-ps5-payloads — tanushshukla",
@@ -4755,7 +4762,7 @@
       "version": "v1.1.0",
       "last_update": "2026-10-17",
       "checksum": "1164262193931eb99cb61cd8e6414db9ff2d2cee93c74f523c5ebafae933c43e",
-      "github_stars": 22,
+      "github_stars": 23,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T20:13:58Z",
       "last_update_days": 1,
@@ -4802,7 +4809,7 @@
       "version": "v2.1.0",
       "last_update": "2026-10-17",
       "checksum": "92ef418c503aea340b058485b42f917f2ceedcc4b64acd6867d20cc30c9e93ff",
-      "github_stars": 13,
+      "github_stars": 14,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T23:02:36Z",
       "last_update_days": 1,
@@ -4857,8 +4864,8 @@
       "discovered_at": "2026-10-18",
       "icon_key": "4ac95ff0b6921a59621ee60315ab20c643fd038de45c7ad0e66e3b1054457027",
       "github_stars": 208,
-      "open_issues_count": 875,
-      "repository_updated_at": "2026-10-18T08:46:36Z"
+      "open_issues_count": 876,
+      "repository_updated_at": "2026-10-18T09:08:34Z"
     },
     {
       "name": "ps5-discord-rpc",
@@ -4929,8 +4936,8 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-18",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
-      "github_stars": 42269,
-      "open_issues_count": 975,
+      "github_stars": 42274,
+      "open_issues_count": 978,
       "repository_updated_at": "2026-10-18T09:04:31Z"
     }
   ]

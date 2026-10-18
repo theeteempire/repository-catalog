@@ -1,7 +1,7 @@
 {
   "name": "Payload Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-18T09:07:23+00:00",
+  "generated_at": "2026-10-18T09:11:39+00:00",
   "source": "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/main/payloads_v2.json",
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "payloads": [
@@ -21,7 +21,7 @@
       "github_stars": 762,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-18T05:53:31Z",
-      "download_count": 1222,
+      "download_count": 1271,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
       "last_update_months": 0.0
@@ -42,7 +42,7 @@
       "github_stars": 205,
       "open_issues_count": 8,
       "repository_updated_at": "2026-10-17T18:19:46Z",
-      "download_count": 1750,
+      "download_count": 1828,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
       "last_update_months": 0.0
@@ -63,7 +63,7 @@
       "github_stars": 433,
       "open_issues_count": 16,
       "repository_updated_at": "2026-10-15T07:42:24Z",
-      "download_count": 10610,
+      "download_count": 10638,
       "download_count_source": "github_release_asset",
       "last_update_days": 3,
       "last_update_months": 0.1
@@ -84,7 +84,7 @@
       "github_stars": 584,
       "open_issues_count": 13,
       "repository_updated_at": "2026-10-14T19:30:12Z",
-      "download_count": 12594,
+      "download_count": 12607,
       "download_count_source": "github_release_asset",
       "last_update_days": 4,
       "last_update_months": 0.1
@@ -126,7 +126,7 @@
       "github_stars": 207,
       "open_issues_count": 12,
       "repository_updated_at": "2026-10-10T15:38:09Z",
-      "download_count": 30151,
+      "download_count": 30175,
       "download_count_source": "github_release_asset",
       "last_update_days": 8,
       "last_update_months": 0.3
@@ -169,7 +169,7 @@
       "github_stars": 994,
       "open_issues_count": 20,
       "repository_updated_at": "2026-10-10T18:36:33Z",
-      "download_count": 59188,
+      "download_count": 59234,
       "download_count_source": "github_release_asset",
       "last_update_days": 8,
       "last_update_months": 0.3
@@ -190,7 +190,7 @@
       "github_stars": 1108,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-08T19:48:49Z",
-      "download_count": 56934,
+      "download_count": 56975,
       "download_count_source": "github_release_asset",
       "last_update_days": 10,
       "last_update_months": 0.3
@@ -211,7 +211,7 @@
       "github_stars": 171,
       "open_issues_count": 7,
       "repository_updated_at": "2026-10-03T01:11:21Z",
-      "download_count": 15783,
+      "download_count": 15787,
       "download_count_source": "github_release_asset",
       "last_update_days": 15,
       "last_update_months": 0.5
@@ -275,7 +275,7 @@
       "github_stars": 753,
       "open_issues_count": 11,
       "repository_updated_at": "2026-09-23T23:23:44Z",
-      "download_count": 121643,
+      "download_count": 121683,
       "download_count_source": "github_release_asset",
       "last_update_days": 28,
       "last_update_months": 0.9
@@ -336,7 +336,7 @@
       "github_stars": 297,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-18T01:06:23Z",
-      "download_count": 14426,
+      "download_count": 14431,
       "download_count_source": "github_release_asset",
       "last_update_days": 43,
       "last_update_months": 1.4
@@ -378,7 +378,7 @@
       "github_stars": 185,
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-30T15:59:13Z",
-      "download_count": 71657,
+      "download_count": 71666,
       "download_count_source": "github_release_asset",
       "last_update_days": 59,
       "last_update_months": 1.9
@@ -441,7 +441,7 @@
       "github_stars": 208,
       "open_issues_count": 10,
       "repository_updated_at": "2026-10-10T22:31:18Z",
-      "download_count": 23982,
+      "download_count": 23988,
       "download_count_source": "github_release_asset",
       "last_update_days": 77,
       "last_update_months": 2.5
@@ -546,7 +546,7 @@
       "github_stars": 156,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-18T08:21:32Z",
-      "download_count": 36,
+      "download_count": 39,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -567,7 +567,7 @@
       "github_stars": 991,
       "open_issues_count": 54,
       "repository_updated_at": "2026-10-14T21:34:08Z",
-      "download_count": 24190,
+      "download_count": 24228,
       "download_count_source": "github_release_asset",
       "last_update_days": 4,
       "last_update_months": 0.1
@@ -609,7 +609,7 @@
       "github_stars": 271,
       "open_issues_count": 37,
       "repository_updated_at": "2026-08-21T20:43:14Z",
-      "download_count": 21303,
+      "download_count": 21311,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -629,7 +629,7 @@
       "github_stars": 1371,
       "open_issues_count": 59,
       "repository_updated_at": "2026-10-14T02:12:23Z",
-      "download_count": 6105,
+      "download_count": 6112,
       "download_count_source": "github_release_asset",
       "last_update_days": 4,
       "last_update_months": 0.1
@@ -650,7 +650,7 @@
       "github_stars": 1371,
       "open_issues_count": 59,
       "repository_updated_at": "2026-10-14T02:12:23Z",
-      "download_count": 5557,
+      "download_count": 5561,
       "download_count_source": "github_release_asset",
       "last_update_days": 4,
       "last_update_months": 0.1
@@ -691,7 +691,7 @@
       "github_stars": 545,
       "open_issues_count": 11,
       "repository_updated_at": "2026-10-18T00:10:22Z",
-      "download_count": 19862,
+      "download_count": 19893,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -753,7 +753,7 @@
       "github_stars": 22,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-04T16:54:03Z",
-      "download_count": 655,
+      "download_count": 656,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -794,7 +794,7 @@
       "github_stars": 297,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-18T01:06:23Z",
-      "download_count": 3425,
+      "download_count": 3426,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -814,7 +814,7 @@
       "github_stars": 369,
       "open_issues_count": 32,
       "repository_updated_at": "2026-10-17T21:20:35Z",
-      "download_count": 7032,
+      "download_count": 7038,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -987,6 +987,27 @@
       "download_count_source": "github_release_asset",
       "last_update_days": 17,
       "last_update_months": 0.6
+    },
+    {
+      "name": "PS5 WebKit Autoloader",
+      "filename": "webkit-autoloader-installer_v0.6.1.elf",
+      "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.1/webkit-autoloader-installer_v0.6.1.elf",
+      "source": "https://github.com/itsPLK/ps5-webkit-autoloader/releases",
+      "source_direct": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.1/webkit-autoloader-installer_v0.6.1.elf",
+      "description": "Automated WebKit payload loader for exploited PS5 consoles. The latest release includes a PS5 installer ELF and separate Windows/Python host tools.",
+      "last_update": "2026-10-08",
+      "version": "v0.6.1",
+      "category": "System & Jailbreak",
+      "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
+      "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
+      "id": "ps5-webkit-autoloader-webkit-autoloader-installer_v0.6.1-22373381",
+      "github_stars": 1108,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-08T19:48:49Z",
+      "download_count": 26758,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 10,
+      "last_update_months": 0.3
     },
     {
       "name": "instalador-host-psm-poop2jb — Host-PSM-pooP2JB",
@@ -1256,7 +1277,7 @@
       "github_stars": 307,
       "open_issues_count": 88,
       "repository_updated_at": "2026-10-11T04:54:40Z",
-      "download_count": 2516,
+      "download_count": 2518,
       "download_count_source": "github_release_asset",
       "last_update_days": 7,
       "last_update_months": 0.2
@@ -1277,7 +1298,7 @@
       "github_stars": 1371,
       "open_issues_count": 59,
       "repository_updated_at": "2026-10-14T02:12:23Z",
-      "download_count": 2384,
+      "download_count": 2387,
       "download_count_source": "github_release_asset",
       "last_update_days": 4,
       "last_update_months": 0.1
@@ -1298,7 +1319,7 @@
       "github_stars": 186,
       "open_issues_count": 10,
       "repository_updated_at": "2026-10-15T10:55:27Z",
-      "download_count": 2781,
+      "download_count": 2782,
       "download_count_source": "github_release_asset",
       "last_update_days": 8,
       "last_update_months": 0.3
@@ -1487,7 +1508,7 @@
       "github_stars": 49,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-16T08:23:50Z",
-      "download_count": 172,
+      "download_count": 173,
       "download_count_source": "github_release_asset",
       "last_update_days": 4,
       "last_update_months": 0.1
@@ -1592,10 +1613,32 @@
       "github_stars": 36,
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-29T14:03:59Z",
-      "download_count": 1206,
+      "download_count": 1207,
       "download_count_source": "github_release_asset",
       "last_update_days": 19,
       "last_update_months": 0.6
+    },
+    {
+      "name": "PS5 Payload Manager (PLDMGR) · NEW",
+      "filename": "pldmgr_v0.6.1.elf",
+      "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.1/pldmgr_v0.6.1.elf",
+      "source": "https://github.com/itsPLK/ps5-payload-manager/releases",
+      "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.1/pldmgr_v0.6.1.elf",
+      "description": "A modern web-based dashboard to manage, import, and automatically load payloads on PS5. The latest release publishes the installable pldmgr_v0.6.1.elf asset.",
+      "last_update": "2026-10-14",
+      "version": "v0.6.1",
+      "category": "Utilities & Tools",
+      "checksum": "5165cbe4c13360828bd0f5d558cdbb9e2d55b0660b1dc7f7a58d3f4ee9e23285",
+      "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346",
+      "id": "ps5-payload-manager-pldmgr-pldmgr_v0.6.1-5d00f7cc",
+      "first_seen": "2026-10-18",
+      "github_stars": 584,
+      "open_issues_count": 13,
+      "repository_updated_at": "2026-10-14T19:30:12Z",
+      "download_count": 6961,
+      "download_count_source": "github_release_asset",
+      "last_update_days": 4,
+      "last_update_months": 0.1
     },
     {
       "name": "kura — kura-loader-ps5",
@@ -1760,7 +1803,7 @@
       "github_stars": 111,
       "open_issues_count": 33,
       "repository_updated_at": "2026-09-30T01:01:15Z",
-      "download_count": 2069,
+      "download_count": 2070,
       "download_count_source": "github_release_asset",
       "last_update_days": 18,
       "last_update_months": 0.6
@@ -1781,7 +1824,7 @@
       "github_stars": 111,
       "open_issues_count": 33,
       "repository_updated_at": "2026-09-30T01:01:15Z",
-      "download_count": 1948,
+      "download_count": 1949,
       "download_count_source": "github_release_asset",
       "last_update_days": 18,
       "last_update_months": 0.6
@@ -1802,7 +1845,7 @@
       "github_stars": 111,
       "open_issues_count": 33,
       "repository_updated_at": "2026-09-30T01:01:15Z",
-      "download_count": 3573,
+      "download_count": 3575,
       "download_count_source": "github_release_asset",
       "last_update_days": 18,
       "last_update_months": 0.6
@@ -2957,7 +3000,7 @@
       "github_stars": 42,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T14:23:28Z",
-      "download_count": 503,
+      "download_count": 505,
       "download_count_source": "github_release_asset",
       "last_update_days": 2,
       "last_update_months": 0.1
@@ -3419,7 +3462,7 @@
       "github_stars": 209,
       "open_issues_count": 7,
       "repository_updated_at": "2026-10-14T17:52:35Z",
-      "download_count": 5323,
+      "download_count": 5327,
       "download_count_source": "github_release_asset",
       "last_update_days": 4,
       "last_update_months": 0.1
@@ -3904,7 +3947,7 @@
       "checksum": "1164262193931eb99cb61cd8e6414db9ff2d2cee93c74f523c5ebafae933c43e",
       "icon_key": "2b52f83b8173aafa29f038e937178696747c6209442968b8f1d10a4afa14a816",
       "id": "prospero-menu-prosperomenu-38dfae9a",
-      "github_stars": 22,
+      "github_stars": 23,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T20:13:58Z",
       "download_count": 101,
@@ -3925,7 +3968,7 @@
       "checksum": "92ef418c503aea340b058485b42f917f2ceedcc4b64acd6867d20cc30c9e93ff",
       "icon_key": "345557e65ea3699fbc83230077c8edbde91f41ed65b41ecdf31829d4880a3a1c",
       "id": "ps5-account-activator-aio-activator_v2.1.0-c7f37168",
-      "github_stars": 13,
+      "github_stars": 14,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T23:02:36Z",
       "download_count": 135,
