@@ -509,6 +509,32 @@ def main() -> int:
             if key:
                 payload_by_repo.setdefault(key.lower(), item)
 
+    # Merge explicitly curated direct ELF assets so manual additions survive scheduled rebuilds.
+    curated_payload_path = OUT_DIR / "curated_payloads.json"
+    try:
+        curated_payload_data = json.loads(curated_payload_path.read_text(encoding="utf-8"))
+        curated_payload_records = curated_payload_data.get("payloads", []) if isinstance(curated_payload_data, dict) else []
+    except (OSError, json.JSONDecodeError):
+        curated_payload_records = []
+    for item in curated_payload_records:
+        if not isinstance(item, dict) or not is_direct_asset_url(item.get("url")):
+            continue
+        if not all(isinstance(item.get(k), str) and item[k].strip() for k in ("name", "filename", "url")):
+            continue
+        url = item["url"].strip()
+        if url in seen_payload_urls:
+            continue
+        curated_item = dict(item)
+        curated_item.setdefault("source_direct", url)
+        if not isinstance(curated_item.get("source"), str) or not curated_item["source"].strip():
+            curated_item["source"] = url.split("/releases/", 1)[0] + "/releases"
+        payloads.append(curated_item)
+        seen_payload_urls.add(url)
+        for field in ("source", "source_direct"):
+            key = canonical_repo(curated_item.get(field))
+            if key:
+                payload_by_repo.setdefault(key.lower(), curated_item)
+
     discovered = 0
     refreshed = 0
     checked = 0
