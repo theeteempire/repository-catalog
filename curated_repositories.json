@@ -314,6 +314,32 @@
       "payload_url": "https://github.com/D3ATHLY/blackbox/releases/download/1.11.0/blackbox.elf",
       "package_filename": "PPSA01453.ffpkg",
       "package_url": "https://github.com/D3ATHLY/blackbox/releases/download/1.11.0/PPSA01453.ffpkg"
+    },
+    {
+      "name": "PS5 Y2JB USBUtilityTool",
+      "description": "PS5 Y2JB USB utility with a direct Full Y2JB Block ELF release asset.",
+      "repository_url": "https://github.com/TheWizWikii/PS5-Y2JB-USBUtilityTool",
+      "category": "System & Jailbreak",
+      "author": "TheWizWikii",
+      "payload_available": true,
+      "version": "v1",
+      "last_update": "2026-01-18",
+      "payload_filename": "full_y2jb_block0.elf",
+      "payload_url": "https://github.com/TheWizWikii/PS5-Y2JB-USBUtilityTool/releases/download/v1/full_y2jb_block0.elf",
+      "checksum": "bc9c073b24e6b3e93482b25a2557a60c641886eccda9e3d31d819cd4d3e0c0ca"
+    },
+    {
+      "name": "pLinux5-NG",
+      "description": "Work-in-progress PS5 Linux port using the Byepervisor-Reborn hypervisor escape; its v0.1.0 release includes an offsets ELF, not a complete Linux loader or image.",
+      "repository_url": "https://github.com/pLabs5/pLinux5-NG",
+      "category": "Linux & Development",
+      "author": "pLabs5",
+      "payload_available": true,
+      "version": "v0.1.0",
+      "last_update": "2026-10-14",
+      "payload_filename": "pLinux5-NG-offsets.elf",
+      "payload_url": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG-offsets.elf",
+      "checksum": "585e403b2238c488031d506834770cea6acd283eb7804a84b14d15b1a9df416d"
     }
   ]
 }
