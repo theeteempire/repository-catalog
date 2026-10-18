@@ -307,6 +307,20 @@
       "category": "Utilities & Tools",
       "author": "gameboy829",
       "version": "beta.7"
+    },
+    {
+      "name": "BlackBox (D3ATHLY)",
+      "description": "PS5 file browser and utility. Release 1.11.0 provides a direct ELF payload and FFPKG package.",
+      "repository_url": "https://github.com/D3ATHLY/blackbox",
+      "category": "Utilities & Tools",
+      "author": "D3ATHLY",
+      "payload_available": true,
+      "version": "1.11.0",
+      "last_update": "2026-10-18",
+      "payload_filename": "blackbox.elf",
+      "payload_url": "https://github.com/D3ATHLY/blackbox/releases/download/1.11.0/blackbox.elf",
+      "package_filename": "PPSA01453.ffpkg",
+      "package_url": "https://github.com/D3ATHLY/blackbox/releases/download/1.11.0/PPSA01453.ffpkg"
     }
   ]
 }
