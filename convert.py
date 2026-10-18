@@ -527,6 +527,30 @@ def main() -> int:
             repositories.append(record)
             known_urls.add(url_key)
 
+    # Make same-named repositories from different publishers distinguishable in the index.
+    # Repository URL remains the identity; similar names from different owners are valid entries.
+    repository_name_groups: dict[str, list[dict[str, Any]]] = {}
+    for record in repositories:
+        base_name = str(record.get("name") or "").strip()
+        repository_name_groups.setdefault(base_name.casefold(), []).append(record)
+    for group in repository_name_groups.values():
+        if len(group) < 2:
+            continue
+        repo_parts = [
+            (canonical_repo(record.get("repository_url")) or "").split("/")
+            for record in group
+        ]
+        owner_counts: dict[str, int] = {}
+        for parts in repo_parts:
+            owner = parts[0] if parts else ""
+            owner_counts[owner.casefold()] = owner_counts.get(owner.casefold(), 0) + 1
+        for record, parts in zip(group, repo_parts):
+            if len(parts) < 2:
+                continue
+            owner = parts[0]
+            suffix = owner if owner_counts.get(owner.casefold(), 0) == 1 else "/".join(parts)
+            record["name"] = str(record.get("name") or "Repository") + " — " + suffix
+
     mirror_payloads = mirror_data.get("payloads") if isinstance(mirror_data, dict) else None
     if not isinstance(mirror_payloads, list):
         print("ERROR: itsPLK mirror schema changed; expected payloads array.", file=sys.stderr)
