@@ -441,6 +441,19 @@
       "package_filename": "PS5_RetroArch-v3.0.0-beta-3.zip",
       "package_url": "https://github.com/mihawk-99/PS5_RetroArch/releases/download/v3.0.0-beta-3/PS5_RetroArch-v3.0.0-beta-3.zip",
       "package_checksum": "121786b162652dfe08a0d3fc98015e57d782d06ba6680f4d032b078e6a621a5a"
+    },
+    {
+      "name": "HYPERHEN",
+      "description": "Unified firmware-aware PS5 homebrew stack combining HyperCore, Automount, Toolbox, plugins, network services, and optional boot tools. Release v0.9.2 provides a standalone ELF entry payload.",
+      "repository_url": "https://github.com/Michele-M-Media/HYPERHEN",
+      "category": "System & Jailbreak",
+      "author": "Michele-M-Media",
+      "payload_available": true,
+      "version": "v0.9.2",
+      "last_update": "2026-10-14",
+      "payload_filename": "HyperHEN-v0.9.2.elf",
+      "payload_url": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_2/HyperHEN-v0.9.2.elf",
+      "checksum": "c35b8f6dbe4355be7e55891e6b326d82f3d6aae8483f6cf0e27d372b0aea97ae"
     }
   ]
 }
