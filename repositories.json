@@ -1,10 +1,10 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-19T18:09:11+00:00",
+  "generated_at": "2026-10-19T18:13:38+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 348,
-  "payload_count": 205,
+  "count": 349,
+  "payload_count": 204,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
@@ -759,7 +759,7 @@
       "icon_key": "7eb11cc6b234465ddf8cb32671a0bd92f2e0e20ce14c996927d263e26f51f790",
       "github_stars": 3,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T18:04:42Z"
+      "repository_updated_at": "2026-10-19T18:08:23Z"
     },
     {
       "name": "luci-app-ps5block",
@@ -1496,7 +1496,7 @@
       "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346",
       "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4",
       "github_stars": 601,
-      "open_issues_count": 4,
+      "open_issues_count": 3,
       "repository_updated_at": "2026-10-19T13:42:54Z",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -1552,7 +1552,7 @@
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.1.elf",
       "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
       "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
-      "github_stars": 1133,
+      "github_stars": 1134,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-08T19:48:49Z",
       "last_update_days": 11,
@@ -2066,17 +2066,17 @@
     },
     {
       "name": "HYPERHEN",
-      "description": "",
+      "description": "Unified firmware-aware PS5 homebrew stack combining HyperCore, Automount, Toolbox, plugins, network services, and optional boot tools. Release v0.9.2 provides a standalone ELF entry payload.",
       "repository_url": "https://github.com/Michele-M-Media/HYPERHEN",
-      "category": "Repositories",
+      "category": "System & Jailbreak",
       "author": "Michele-M-Media",
-      "icon_key": "aaa4fd74d3929c5583008763a7ba52f51833566bb47705684f97a69fb1cea3a3",
       "payload_available": true,
-      "payload_filename": "HyperHEN-v0.9.2.elf",
-      "payload_url": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_2/HyperHEN-v0.9.2.elf",
       "version": "HYPERHEN_V0_9_2",
       "last_update": "2026-10-14",
+      "payload_filename": "HyperHEN-v0.9.2.elf",
+      "payload_url": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_2/HyperHEN-v0.9.2.elf",
       "checksum": "c35b8f6dbe4355be7e55891e6b326d82f3d6aae8483f6cf0e27d372b0aea97ae",
+      "icon_key": "aaa4fd74d3929c5583008763a7ba52f51833566bb47705684f97a69fb1cea3a3",
       "github_stars": 220,
       "open_issues_count": 7,
       "repository_updated_at": "2026-10-14T17:52:35Z",
@@ -2103,15 +2103,23 @@
       "last_update_months": 1.8
     },
     {
-      "name": "PS5_RetroArch",
-      "description": "🎮 RetroArch Homebrew for the PS5 that supports 35 cores & 44 systems.",
+      "name": "PS5 RetroArch",
+      "description": "RetroArch homebrew for PS5 supporting 35 cores and 44 systems. Release v3.0.0-beta-3 adds Game Forwarder, SwanStation, melonDS DS, frame-generation pacing, and RetroAchievements support for FLAC CHDs. Release is a large ZIP package, not a standalone ELF payload.",
       "repository_url": "https://github.com/mihawk-99/PS5_RetroArch",
-      "category": "Repositories",
+      "category": "Emulation & Gaming",
       "author": "mihawk-99",
+      "payload_available": false,
+      "version": "v3.0.0-beta-3",
+      "last_update": "2026-10-18",
+      "package_filename": "PS5_RetroArch-v3.0.0-beta-3.zip",
+      "package_url": "https://github.com/mihawk-99/PS5_RetroArch/releases/download/v3.0.0-beta-3/PS5_RetroArch-v3.0.0-beta-3.zip",
+      "package_checksum": "121786b162652dfe08a0d3fc98015e57d782d06ba6680f4d032b078e6a621a5a",
       "icon_key": "251c998dd037925609ea12083787760381406e604080ac96e2cf9bd908238394",
       "github_stars": 371,
       "open_issues_count": 20,
-      "repository_updated_at": "2026-10-19T14:00:52Z"
+      "repository_updated_at": "2026-10-19T14:00:52Z",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "Breeze",
@@ -3032,7 +3040,7 @@
       "author": "RafaelNGP",
       "icon_key": "83ea65c14d57a008649873f75c4484ca95463150120a8cc1337e241f47e6300b",
       "github_stars": 141,
-      "open_issues_count": 3,
+      "open_issues_count": 4,
       "repository_updated_at": "2026-10-19T05:41:41Z"
     },
     {
@@ -3612,7 +3620,7 @@
       "package_url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SX2-vk-285-171.zip",
       "package_checksum": "226ac24866f0b94566c0680c3b99c0d5abfe8030723f5b28dae20af039c76963",
       "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
-      "github_stars": 1439,
+      "github_stars": 1441,
       "open_issues_count": 62,
       "repository_updated_at": "2026-10-19T15:40:52Z",
       "last_update_days": 0,
@@ -3947,7 +3955,7 @@
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
       "github_stars": 1,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T17:58:54Z"
+      "repository_updated_at": "2026-10-19T18:08:29Z"
     },
     {
       "name": "PS5GBCX",
@@ -4229,7 +4237,7 @@
       "package_url": "https://github.com/MyLuxy/overdrive/releases/download/v1.0.6/Overdrive.exfat",
       "checksum": "ba2922e2ce12a416a277eec747ceaa2609514a7ba8a4e46682c2179f228c5a2b",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 873,
+      "github_stars": 874,
       "open_issues_count": 12,
       "repository_updated_at": "2026-10-19T18:07:13Z",
       "last_update_days": 2,
@@ -4418,17 +4426,56 @@
       "last_update_months": 0.1
     },
     {
-      "name": "ps5-cachy-os-patch",
-      "description": "Post-install master patch, boot fixes, 4GB VRAM and silent thermal control for CachyOS Linux on PlayStation 5",
-      "repository_url": "https://github.com/EmaCorona/ps5-cachy-os-patch",
+      "name": "ps5-elf-sender",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/12lie20/ps5-elf-sender",
       "category": "PS5 Auto-discovered",
-      "author": "EmaCorona",
+      "author": "12lie20",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-19",
-      "icon_key": "707678cd2be781dd47e9341f2a6fa4e82574c6baaf1e2f8ba3b458fae5d0f9e0",
-      "github_stars": 1,
+      "icon_key": "aaeee0792201d22613e82303d67e22efce1d6df4cdbc816c4adbbd74de80a18e",
+      "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T18:06:57Z"
+      "repository_updated_at": "2026-10-19T18:10:40Z"
+    },
+    {
+      "name": "ps5-minecraft-java",
+      "description": "Future Minecraft Java Edition homebrew for PS5. Java runtime port: https://github.com/mateo-cogeanu/ps5-java25-homebrew",
+      "repository_url": "https://github.com/mateo-cogeanu/ps5-minecraft-java",
+      "category": "PS5 Auto-discovered",
+      "author": "mateo-cogeanu",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-19",
+      "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-19T18:07:43Z"
+    },
+    {
+      "name": "ps5-signal-suite",
+      "description": "Payload repository for Payload Manager (pldmgr): ps5-exporter, ps5-homeassistant, ps5-signal",
+      "repository_url": "https://github.com/Marice/ps5-signal-suite",
+      "category": "PS5 Auto-discovered",
+      "author": "Marice",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-19",
+      "icon_key": "54443099d6301f245a2d810b91d05c5e01deafea655f9ce919f6a6995e6b3168",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-19T18:06:39Z"
+    },
+    {
+      "name": "ps5-java25-homebrew",
+      "description": "Native OpenJDK 25 runtime port for PS5 homebrew, with console-tested milestones and Java acceptance probes.",
+      "repository_url": "https://github.com/mateo-cogeanu/ps5-java25-homebrew",
+      "category": "PS5 Auto-discovered",
+      "author": "mateo-cogeanu",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-19",
+      "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
+      "github_stars": 7,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-19T18:04:37Z"
     },
     {
       "name": "PLDMGR_JSON",
@@ -4465,32 +4512,6 @@
       "last_update_months": 0.0
     },
     {
-      "name": "ps5-minecraft-java",
-      "description": "Future Minecraft Java Edition homebrew for PS5. Java runtime port: https://github.com/mateo-cogeanu/ps5-java25-homebrew",
-      "repository_url": "https://github.com/mateo-cogeanu/ps5-minecraft-java",
-      "category": "PS5 Auto-discovered",
-      "author": "mateo-cogeanu",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-19",
-      "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
-      "github_stars": 2,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T18:07:43Z"
-    },
-    {
-      "name": "ps5-java25-homebrew",
-      "description": "Native OpenJDK 25 runtime port for PS5 homebrew, with console-tested milestones and Java acceptance probes.",
-      "repository_url": "https://github.com/mateo-cogeanu/ps5-java25-homebrew",
-      "category": "PS5 Auto-discovered",
-      "author": "mateo-cogeanu",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-19",
-      "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
-      "github_stars": 7,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T18:04:37Z"
-    },
-    {
       "name": "ps5-trophy-sync",
       "description": "PS5 Homebrew app that allows to sync to a web app your trophies and playtimes",
       "repository_url": "https://github.com/Rasenringu/ps5-trophy-sync",
@@ -4514,7 +4535,7 @@
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
       "github_stars": 4,
       "open_issues_count": 4,
-      "repository_updated_at": "2026-10-19T18:05:28Z"
+      "repository_updated_at": "2026-10-19T18:10:56Z"
     },
     {
       "name": "ps5-homebrew-catalog",
@@ -4809,7 +4830,7 @@
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
       "github_stars": 222,
       "open_issues_count": 1,
-      "repository_updated_at": "2026-10-19T18:05:12Z"
+      "repository_updated_at": "2026-10-19T18:10:36Z"
     },
     {
       "name": "erebus-TriAevum",
@@ -4963,6 +4984,19 @@
       "repository_updated_at": "2026-10-19T11:21:23Z"
     },
     {
+      "name": "ps5-cachy-os-patch",
+      "description": "Post-install master patch, boot fixes, 4GB VRAM and silent thermal control for CachyOS Linux on PlayStation 5",
+      "repository_url": "https://github.com/EmaCorona/ps5-cachy-os-patch",
+      "category": "PS5 Auto-discovered",
+      "author": "EmaCorona",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-19",
+      "icon_key": "707678cd2be781dd47e9341f2a6fa4e82574c6baaf1e2f8ba3b458fae5d0f9e0",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-19T18:11:38Z"
+    },
+    {
       "name": "PS5-14.10-Jailbreak-Research",
       "description": "WebKit jailbreak research for PlayStation 5 firmware 14.10",
       "repository_url": "https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research",
@@ -5081,27 +5115,6 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T22:49:14Z"
-    },
-    {
-      "name": "pkg-mutant-shop",
-      "description": "A homebrew package manager and store front-end for a jailbroken PlayStation 5 and PlayStation 4 - from the console, a PC, or your phone.",
-      "repository_url": "https://github.com/XavyProd-Git/pkg-mutant-shop",
-      "category": "PS5 Auto-discovered",
-      "author": "XavyProd-Git",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-19",
-      "icon_key": "97bcd90a9a4dc50aa56d4b41ad9c6701c0c9c888fbaf8eb090593c2579302424",
-      "payload_available": true,
-      "payload_filename": "PKG-MUTANT-SHOP.elf",
-      "payload_url": "https://github.com/XavyProd-Git/pkg-mutant-shop/releases/download/v3.99.2/PKG-MUTANT-SHOP.elf",
-      "version": "v3.99.2",
-      "last_update": "2026-10-18",
-      "checksum": "339d9471b79a75df06aefbb9a21f8fd42e919c2ca0643dc3d6d0698221119cc8",
-      "github_stars": 6,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-18T20:39:43Z",
-      "last_update_days": 1,
-      "last_update_months": 0.0
     },
     {
       "name": "ps5-payload-constellation",
@@ -5224,9 +5237,9 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-19",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
-      "github_stars": 44178,
-      "open_issues_count": 887,
-      "repository_updated_at": "2026-10-19T17:59:14Z"
+      "github_stars": 44180,
+      "open_issues_count": 890,
+      "repository_updated_at": "2026-10-19T18:10:01Z"
     }
   ]
 }
