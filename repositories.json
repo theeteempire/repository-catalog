@@ -1,10 +1,10 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-19T17:57:02+00:00",
+  "generated_at": "2026-10-19T18:09:11+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 347,
-  "payload_count": 203,
+  "count": 348,
+  "payload_count": 205,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
@@ -268,23 +268,6 @@
       "github_stars": 86,
       "open_issues_count": 9,
       "repository_updated_at": "2026-10-19T13:37:13Z"
-    },
-    {
-      "name": "PS5 Homebrew UI",
-      "description": "Homebrew user interface for PS5.",
-      "repository_url": "https://github.com/blackbearreloaded/ps5-homebrew-ui",
-      "category": "Gaming & UI",
-      "author": "blackbearreloaded",
-      "version": "01.000.000",
-      "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac"
-    },
-    {
-      "name": "ps5-opengl",
-      "description": "Experimental OpenGL 4.6 Core and GLSL 4.60 port for PS5 homebrew, powered by Mesa/Gallium, with native EGL support, an SDK, and examples.",
-      "repository_url": "https://github.com/blackbearreloaded/ps5-opengl",
-      "category": "Repositories",
-      "author": "blackbearreloaded",
-      "icon_key": "95d950cdab673d3c920cf497278483633e16168640911685db50bfc128ee4bac"
     },
     {
       "name": "ps5-theme",
@@ -761,7 +744,7 @@
       "payload_filename": "ShadowMountPlus_1.7-beta5fix1.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7-beta5fix1.elf",
       "checksum": "e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5",
-      "github_stars": 1027,
+      "github_stars": 1028,
       "open_issues_count": 23,
       "repository_updated_at": "2026-10-10T18:36:33Z",
       "last_update_days": 9,
@@ -776,7 +759,7 @@
       "icon_key": "7eb11cc6b234465ddf8cb32671a0bd92f2e0e20ce14c996927d263e26f51f790",
       "github_stars": 3,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T15:39:05Z"
+      "repository_updated_at": "2026-10-19T18:04:42Z"
     },
     {
       "name": "luci-app-ps5block",
@@ -1134,7 +1117,7 @@
       "version": "v0.6.0",
       "last_update": "2026-10-16",
       "checksum": "72467a3d8697961d611603956c4e63d96904197e57b175ff73e41d80badcaf25",
-      "github_stars": 141,
+      "github_stars": 142,
       "open_issues_count": 8,
       "repository_updated_at": "2026-10-19T12:01:31Z",
       "last_update_days": 3,
@@ -1513,7 +1496,7 @@
       "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346",
       "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4",
       "github_stars": 601,
-      "open_issues_count": 5,
+      "open_issues_count": 4,
       "repository_updated_at": "2026-10-19T13:42:54Z",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -1569,7 +1552,7 @@
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.1.elf",
       "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
       "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
-      "github_stars": 1132,
+      "github_stars": 1133,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-08T19:48:49Z",
       "last_update_days": 11,
@@ -1749,7 +1732,7 @@
       "category": "Repositories",
       "author": "kerrdec97",
       "icon_key": "db94366ce572ae792159346bf806db5fbb0881e7a0b95754d627b1d18da18b4c",
-      "github_stars": 252,
+      "github_stars": 253,
       "open_issues_count": 27,
       "repository_updated_at": "2026-07-05T17:19:10Z"
     },
@@ -1819,7 +1802,7 @@
       "checksum": "57a2476448253a59f969ab5a665e569c865117b8f404854e559d941217774d8a",
       "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b",
       "github_stars": 165,
-      "open_issues_count": 2,
+      "open_issues_count": 3,
       "repository_updated_at": "2026-10-19T06:36:25Z",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -3654,7 +3637,7 @@
       "author": "TeeKay87",
       "icon_key": "093a69226b6286b189aeec938c32d03150976045070eb07572c02e6bc50b2877",
       "github_stars": 259,
-      "open_issues_count": 43,
+      "open_issues_count": 44,
       "repository_updated_at": "2026-10-19T10:11:56Z"
     },
     {
@@ -3964,7 +3947,7 @@
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
       "github_stars": 1,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T17:55:06Z"
+      "repository_updated_at": "2026-10-19T17:58:54Z"
     },
     {
       "name": "PS5GBCX",
@@ -4096,7 +4079,7 @@
       "category": "System & Jailbreak",
       "author": "PS5Dev",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 487,
+      "github_stars": 488,
       "open_issues_count": 20,
       "repository_updated_at": "2026-10-12T22:52:46Z"
     },
@@ -4194,6 +4177,15 @@
       "last_update_months": 0.0
     },
     {
+      "name": "PS5 Homebrew UI",
+      "description": "Homebrew user interface for PS5.",
+      "repository_url": "https://github.com/blackbearreloaded/ps5-homebrew-ui",
+      "category": "Gaming & UI",
+      "author": "blackbearreloaded",
+      "version": "01.000.000",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
+    },
+    {
       "name": "BlackBox",
       "description": "BlackBox utility for PS5.",
       "repository_url": "https://github.com/BlackBoxPS5/blackbox",
@@ -4220,7 +4212,7 @@
       "category": "Utilities & Tools",
       "author": "overdriveps5",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 638,
+      "github_stars": 639,
       "open_issues_count": 12,
       "repository_updated_at": "2026-10-13T12:55:45Z"
     },
@@ -4237,9 +4229,9 @@
       "package_url": "https://github.com/MyLuxy/overdrive/releases/download/v1.0.6/Overdrive.exfat",
       "checksum": "ba2922e2ce12a416a277eec747ceaa2609514a7ba8a4e46682c2179f228c5a2b",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 871,
+      "github_stars": 873,
       "open_issues_count": 12,
-      "repository_updated_at": "2026-10-19T17:48:01Z",
+      "repository_updated_at": "2026-10-19T18:07:13Z",
       "last_update_days": 2,
       "last_update_months": 0.1
     },
@@ -4326,7 +4318,7 @@
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 96,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T16:40:29Z"
+      "repository_updated_at": "2026-10-19T17:59:05Z"
     },
     {
       "name": "PS5 Y2JB USBUtilityTool",
@@ -4397,9 +4389,78 @@
       "payload_url": "https://github.com/soniciso1/ps5-linux-loader/releases/download/v13.60/ps5-linux-loader.elf",
       "checksum": "32041e7c54db8f1a86a0db0b8fb2a755d8f0209482e29ee903afd059d71b0989",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 122,
+      "github_stars": 121,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-19T04:49:35Z",
+      "last_update_days": 0,
+      "last_update_months": 0.0
+    },
+    {
+      "name": "Prospero Menu",
+      "description": "Community expandable overlay system for homebrewed PS5. Release v1.1.0 includes the standalone ProsperoMenu.elf payload and a separate overlays ZIP.",
+      "repository_url": "https://github.com/StonedModder/Prospero-Menu",
+      "category": "Gaming & UI",
+      "author": "StonedModder",
+      "payload_available": true,
+      "version": "v1.1.0",
+      "last_update": "2026-10-17",
+      "payload_filename": "ProsperoMenu.elf",
+      "payload_url": "https://github.com/StonedModder/Prospero-Menu/releases/download/v1.1.0/ProsperoMenu.elf",
+      "checksum": "1164262193931eb99cb61cd8e6414db9ff2d2cee93c74f523c5ebafae933c43e",
+      "package_filename": "ProsperoMenu-v1.1.0-overlays.zip",
+      "package_url": "https://github.com/StonedModder/Prospero-Menu/releases/download/v1.1.0/ProsperoMenu-v1.1.0-overlays.zip",
+      "package_checksum": "d88082366ce1d4864173899a278878eb045b1713e0592b6d65c73ee2cf51378d",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
+      "github_stars": 39,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-10-17T20:13:58Z",
+      "last_update_days": 2,
+      "last_update_months": 0.1
+    },
+    {
+      "name": "ps5-cachy-os-patch",
+      "description": "Post-install master patch, boot fixes, 4GB VRAM and silent thermal control for CachyOS Linux on PlayStation 5",
+      "repository_url": "https://github.com/EmaCorona/ps5-cachy-os-patch",
+      "category": "PS5 Auto-discovered",
+      "author": "EmaCorona",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-19",
+      "icon_key": "707678cd2be781dd47e9341f2a6fa4e82574c6baaf1e2f8ba3b458fae5d0f9e0",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-19T18:06:57Z"
+    },
+    {
+      "name": "PLDMGR_JSON",
+      "description": "Custom Payload Repositories for PS5 Payload Manager",
+      "repository_url": "https://github.com/RDX-Sci01/PLDMGR_JSON",
+      "category": "PS5 Auto-discovered",
+      "author": "RDX-Sci01",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-19",
+      "icon_key": "d7f594ff2ea4627d6f5b00f58e86f826f57b18388d43778a57dd97266e9a8142",
+      "github_stars": 4,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-19T18:01:16Z"
+    },
+    {
+      "name": "SoundBridge-PS5",
+      "description": "Stream your jailbroken PS5's game audio to your PC headset with ~50 ms delay. PS5 payload + PS5-style Windows app.",
+      "repository_url": "https://github.com/Xnos666/SoundBridge-PS5",
+      "category": "PS5 Auto-discovered",
+      "author": "Xnos666",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-19",
+      "icon_key": "5f919ab48cbee341af0c3b923a1919c9fd6876c47cfb706e04f358a62104709f",
+      "payload_available": true,
+      "payload_filename": "SoundBridge_PS5_13.60.elf",
+      "payload_url": "https://github.com/Xnos666/SoundBridge-PS5/releases/download/v1.0/SoundBridge_PS5_13.60.elf",
+      "version": "v1.0",
+      "last_update": "2026-10-19",
+      "checksum": "9203c0015985a30fcea733deea98be31f1e2ecdb3a52f0195e055c2ceaec4fc5",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-19T17:52:00Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -4414,7 +4475,7 @@
       "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
       "github_stars": 2,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T17:50:03Z"
+      "repository_updated_at": "2026-10-19T18:07:43Z"
     },
     {
       "name": "ps5-java25-homebrew",
@@ -4427,7 +4488,7 @@
       "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
       "github_stars": 7,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T17:48:57Z"
+      "repository_updated_at": "2026-10-19T18:04:37Z"
     },
     {
       "name": "ps5-trophy-sync",
@@ -4443,19 +4504,6 @@
       "repository_updated_at": "2026-10-19T17:48:49Z"
     },
     {
-      "name": "ps5-cachy-os-patch",
-      "description": "Post-install master patch, boot fixes, 4GB VRAM and silent thermal control for CachyOS Linux on PlayStation 5",
-      "repository_url": "https://github.com/EmaCorona/ps5-cachy-os-patch",
-      "category": "PS5 Auto-discovered",
-      "author": "EmaCorona",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-19",
-      "icon_key": "707678cd2be781dd47e9341f2a6fa4e82574c6baaf1e2f8ba3b458fae5d0f9e0",
-      "github_stars": 1,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T17:53:22Z"
-    },
-    {
       "name": "tmp_lap",
       "description": "AI PS5 Homebrew Testing Lab ",
       "repository_url": "https://github.com/Yahballon/tmp_lap",
@@ -4465,8 +4513,8 @@
       "discovered_at": "2026-10-19",
       "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
       "github_stars": 4,
-      "open_issues_count": 3,
-      "repository_updated_at": "2026-10-19T17:55:57Z"
+      "open_issues_count": 4,
+      "repository_updated_at": "2026-10-19T18:05:28Z"
     },
     {
       "name": "ps5-homebrew-catalog",
@@ -4579,19 +4627,6 @@
       "last_update_months": 0.0
     },
     {
-      "name": "PLDMGR_JSON",
-      "description": "Custom Payload Repositories for PS5 Payload Manager",
-      "repository_url": "https://github.com/RDX-Sci01/PLDMGR_JSON",
-      "category": "PS5 Auto-discovered",
-      "author": "RDX-Sci01",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-19",
-      "icon_key": "d7f594ff2ea4627d6f5b00f58e86f826f57b18388d43778a57dd97266e9a8142",
-      "github_stars": 4,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T16:01:31Z"
-    },
-    {
       "name": "my-ps5-payloads",
       "description": "Automatically discovered PS5-related GitHub repository.",
       "repository_url": "https://github.com/tanushshukla/my-ps5-payloads",
@@ -4626,7 +4661,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-19",
       "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b",
-      "github_stars": 48,
+      "github_stars": 49,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-19T15:27:43Z"
     },
@@ -4764,32 +4799,6 @@
       "last_update_months": 2.3
     },
     {
-      "name": "perfect-eye",
-      "description": "Perfect Dark and GoldenEye 007 as native PS5 homebrew: two home screen tiles, online with PC players, HD textures (Dab's Mod)",
-      "repository_url": "https://github.com/thesmokesession-bit/perfect-eye",
-      "category": "PS5 Auto-discovered",
-      "author": "thesmokesession-bit",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-19",
-      "icon_key": "52738c7b0702db3fc7a3af3dcd1eb67b714baceada3b144909293b5eb014c055",
-      "github_stars": 7,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T13:20:35Z"
-    },
-    {
-      "name": "ps5-payloads — avoidik",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/avoidik/ps5-payloads",
-      "category": "PS5 Auto-discovered",
-      "author": "avoidik",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-19",
-      "icon_key": "1169f992172b73674777e04451262dc2db394c583d2f7e2331b640e4fd9b7678",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T13:14:24Z"
-    },
-    {
       "name": "PS5-14.10-Research",
       "description": "Open PS5 firmware 14.10 research: Lua userland experiments, syscall and attack-surface analysis. Kernel read/write and a complete exploit are not demonstrated.",
       "repository_url": "https://github.com/ZigZagBoi1/PS5-14.10-Research",
@@ -4800,7 +4809,7 @@
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
       "github_stars": 222,
       "open_issues_count": 1,
-      "repository_updated_at": "2026-10-19T17:52:47Z"
+      "repository_updated_at": "2026-10-19T18:05:12Z"
     },
     {
       "name": "erebus-TriAevum",
@@ -4837,9 +4846,22 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-19",
       "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436",
-      "github_stars": 9204,
+      "github_stars": 9205,
       "open_issues_count": 785,
       "repository_updated_at": "2026-10-19T14:22:46Z"
+    },
+    {
+      "name": "perfect-eye",
+      "description": "Perfect Dark and GoldenEye 007 as native PS5 homebrew: two home screen tiles, online with PC players, HD textures (Dab's Mod)",
+      "repository_url": "https://github.com/thesmokesession-bit/perfect-eye",
+      "category": "PS5 Auto-discovered",
+      "author": "thesmokesession-bit",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-19",
+      "icon_key": "52738c7b0702db3fc7a3af3dcd1eb67b714baceada3b144909293b5eb014c055",
+      "github_stars": 7,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-19T13:20:35Z"
     },
     {
       "name": "PLM-Repository",
@@ -4939,19 +4961,6 @@
       "github_stars": 6,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-19T11:21:23Z"
-    },
-    {
-      "name": "universal-controller-bridge",
-      "description": "Open-source controller bridge research for PS5 homebrew",
-      "repository_url": "https://github.com/TheGoonGoblin/universal-controller-bridge",
-      "category": "PS5 Auto-discovered",
-      "author": "TheGoonGoblin",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-19",
-      "icon_key": "7229f3293d588c0a7b33e627eac9d085335c4e71bb56d6018d0b4aa352ec4715",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T10:33:00Z"
     },
     {
       "name": "PS5-14.10-Jailbreak-Research",
@@ -5134,6 +5143,19 @@
       "repository_updated_at": "2026-10-19T08:32:11Z"
     },
     {
+      "name": "ps5-payloads — avoidik",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/avoidik/ps5-payloads",
+      "category": "PS5 Auto-discovered",
+      "author": "avoidik",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-19",
+      "icon_key": "1169f992172b73674777e04451262dc2db394c583d2f7e2331b640e4fd9b7678",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-19T13:14:24Z"
+    },
+    {
       "name": "ps5-payload-catalog",
       "description": "Json  Payload Managers for auto update github dependencies ",
       "repository_url": "https://github.com/Jamzi94/ps5-payload-catalog",
@@ -5145,6 +5167,19 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-19T12:21:52Z"
+    },
+    {
+      "name": "universal-controller-bridge",
+      "description": "Open-source controller bridge research for PS5 homebrew",
+      "repository_url": "https://github.com/TheGoonGoblin/universal-controller-bridge",
+      "category": "PS5 Auto-discovered",
+      "author": "TheGoonGoblin",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-19",
+      "icon_key": "7229f3293d588c0a7b33e627eac9d085335c4e71bb56d6018d0b4aa352ec4715",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-19T10:33:00Z"
     },
     {
       "name": "WelcomeHubActivator",
@@ -5189,9 +5224,9 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-19",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
-      "github_stars": 44163,
-      "open_issues_count": 886,
-      "repository_updated_at": "2026-10-19T17:55:35Z"
+      "github_stars": 44178,
+      "open_issues_count": 887,
+      "repository_updated_at": "2026-10-19T17:59:14Z"
     }
   ]
 }
