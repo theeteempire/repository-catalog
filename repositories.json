@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-19T21:13:08+00:00",
+  "generated_at": "2026-10-19T21:19:10+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 351,
   "payload_count": 204,
@@ -506,7 +506,7 @@
       "icon_key": "164fe304de7937ba61afaf32c7ac801d5bc247e5c2026ad170d3ea9247efa12b",
       "github_stars": 580,
       "open_issues_count": 3,
-      "repository_updated_at": "2026-10-19T21:01:20Z",
+      "repository_updated_at": "2026-10-19T21:16:23Z",
       "last_update_days": 1,
       "last_update_months": 0.0
     },
@@ -577,7 +577,7 @@
       "category": "Repositories",
       "author": "DevvNirvana",
       "icon_key": "d83ffafa364b57a5e1983f86f36cfa2c46337b68573e436bc566fd2187e35eb2",
-      "github_stars": 5,
+      "github_stars": 6,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-16T05:36:50Z"
     },
@@ -2116,7 +2116,7 @@
       "package_checksum": "121786b162652dfe08a0d3fc98015e57d782d06ba6680f4d032b078e6a621a5a",
       "icon_key": "251c998dd037925609ea12083787760381406e604080ac96e2cf9bd908238394",
       "github_stars": 372,
-      "open_issues_count": 20,
+      "open_issues_count": 21,
       "repository_updated_at": "2026-10-19T20:57:27Z",
       "last_update_days": 1,
       "last_update_months": 0.0
@@ -3620,7 +3620,7 @@
       "package_url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SX2-vk-285-171.zip",
       "package_checksum": "226ac24866f0b94566c0680c3b99c0d5abfe8030723f5b28dae20af039c76963",
       "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
-      "github_stars": 1445,
+      "github_stars": 1446,
       "open_issues_count": 65,
       "repository_updated_at": "2026-10-19T15:40:52Z",
       "last_update_days": 0,
@@ -4180,7 +4180,7 @@
       "checksum": "31ad654f92cb5cb357c3e3fc1be7f790ef15aa588e85072b7ed8afddc74cbfbf",
       "github_stars": 64,
       "open_issues_count": 1,
-      "repository_updated_at": "2026-10-19T03:10:50Z",
+      "repository_updated_at": "2026-10-19T21:13:09Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -4203,7 +4203,7 @@
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 580,
       "open_issues_count": 3,
-      "repository_updated_at": "2026-10-19T21:01:20Z"
+      "repository_updated_at": "2026-10-19T21:16:23Z"
     },
     {
       "name": "Overdrive Releases (half144)",
@@ -4237,9 +4237,9 @@
       "package_url": "https://github.com/MyLuxy/overdrive/releases/download/v1.0.6/Overdrive.exfat",
       "checksum": "ba2922e2ce12a416a277eec747ceaa2609514a7ba8a4e46682c2179f228c5a2b",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 885,
+      "github_stars": 886,
       "open_issues_count": 12,
-      "repository_updated_at": "2026-10-19T21:11:42Z",
+      "repository_updated_at": "2026-10-19T21:16:01Z",
       "last_update_days": 2,
       "last_update_months": 0.1
     },
@@ -4385,7 +4385,7 @@
       "last_update_months": 0.0
     },
     {
-      "name": "PS5 Linux Loader — soniciso1",
+      "name": "PS5 Linux Loader (soniciso1)",
       "description": "PS5 Linux loader fork with firmware 13.60 support, including PS5 Pro. Latest release provides a standalone ELF payload; send it to elfldr on port 9021 after jailbreaking.",
       "repository_url": "https://github.com/soniciso1/ps5-linux-loader",
       "category": "Linux & Development",
@@ -4426,6 +4426,19 @@
       "last_update_months": 0.1
     },
     {
+      "name": "my-ps5-payloads — tanushshukla",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/tanushshukla/my-ps5-payloads",
+      "category": "PS5 Auto-discovered",
+      "author": "tanushshukla",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-19",
+      "icon_key": "84393d69aedb2774cddc74f65e6dd7863a809ef9bedf1a56f18fa131bb896caa",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-19T21:09:41Z"
+    },
+    {
       "name": "ps5-homebrew-catalog",
       "description": "https://discord.gg/Drx8tsqq3B - https://ProsperoStore.net",
       "repository_url": "https://github.com/darkxex/ps5-homebrew-catalog",
@@ -4436,7 +4449,7 @@
       "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
       "github_stars": 49,
       "open_issues_count": 1,
-      "repository_updated_at": "2026-10-19T21:05:31Z"
+      "repository_updated_at": "2026-10-19T21:17:21Z"
     },
     {
       "name": "mis-payloads-ps5 — cacharrearconjuan",
@@ -4747,19 +4760,6 @@
       "repository_updated_at": "2026-10-19T18:26:23Z"
     },
     {
-      "name": "ps5-payload-catalog",
-      "description": "Json  Payload Managers for auto update github dependencies ",
-      "repository_url": "https://github.com/Jamzi94/ps5-payload-catalog",
-      "category": "PS5 Auto-discovered",
-      "author": "Jamzi94",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-19",
-      "icon_key": "bd2a5b982338fb4b3431533d27d5ff571a88155838fbbc87b58319a58c40e28d",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T18:17:40Z"
-    },
-    {
       "name": "PS5-14.10-Research",
       "description": "Open PS5 firmware 14.10 research: Lua userland experiments, syscall and attack-surface analysis. Kernel read/write and a complete exploit are not demonstrated.",
       "repository_url": "https://github.com/ZigZagBoi1/PS5-14.10-Research",
@@ -4769,8 +4769,8 @@
       "discovered_at": "2026-10-19",
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
       "github_stars": 227,
-      "open_issues_count": 8,
-      "repository_updated_at": "2026-10-19T21:11:51Z"
+      "open_issues_count": 9,
+      "repository_updated_at": "2026-10-19T21:18:00Z"
     },
     {
       "name": "XXIIPS5",
@@ -4914,19 +4914,6 @@
       "repository_updated_at": "2026-10-19T16:03:31Z"
     },
     {
-      "name": "my-ps5-payloads — tanushshukla",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/tanushshukla/my-ps5-payloads",
-      "category": "PS5 Auto-discovered",
-      "author": "tanushshukla",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-19",
-      "icon_key": "84393d69aedb2774cddc74f65e6dd7863a809ef9bedf1a56f18fa131bb896caa",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-19T21:09:41Z"
-    },
-    {
       "name": "ps5-ultrapack",
       "description": "macOS and Windows app to build PS5 fPKG (.pkg) and .ffpfsc containers from any source. Game folder, archive, or disk image. Pack, unpack, browse a .pkg block-by-block, patch, fake-sign. Verified launching on retail FW 11.60 with kstuff-lite 1.13+.",
       "repository_url": "https://github.com/knutwurst/ps5-ultrapack",
@@ -5068,7 +5055,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-19",
       "icon_key": "52738c7b0702db3fc7a3af3dcd1eb67b714baceada3b144909293b5eb014c055",
-      "github_stars": 7,
+      "github_stars": 8,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-19T13:20:35Z"
     },
@@ -5198,6 +5185,19 @@
       "repository_updated_at": "2026-10-19T08:32:11Z"
     },
     {
+      "name": "ps5-payload-catalog",
+      "description": "Json  Payload Managers for auto update github dependencies ",
+      "repository_url": "https://github.com/Jamzi94/ps5-payload-catalog",
+      "category": "PS5 Auto-discovered",
+      "author": "Jamzi94",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-19",
+      "icon_key": "bd2a5b982338fb4b3431533d27d5ff571a88155838fbbc87b58319a58c40e28d",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-19T18:17:40Z"
+    },
+    {
       "name": "PS5-Volume-Center",
       "description": "Real-time USB audio & Bluetooth transmitter volume controller for jailbroken PS5 consoles via ProsperoMenu featuring hardware OSS mixer control, preamp dB boost, stereo balance, and background volume lock.",
       "repository_url": "https://github.com/BernardoCampos99/PS5-Volume-Center",
@@ -5258,8 +5258,8 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-19",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
-      "github_stars": 44333,
-      "open_issues_count": 893,
+      "github_stars": 44339,
+      "open_issues_count": 895,
       "repository_updated_at": "2026-10-19T20:52:52Z"
     },
     {
