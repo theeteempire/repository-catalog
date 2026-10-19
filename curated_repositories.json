@@ -428,6 +428,19 @@
       "package_filename": "ProsperoMenu-v1.1.0-overlays.zip",
       "package_url": "https://github.com/StonedModder/Prospero-Menu/releases/download/v1.1.0/ProsperoMenu-v1.1.0-overlays.zip",
       "package_checksum": "d88082366ce1d4864173899a278878eb045b1713e0592b6d65c73ee2cf51378d"
+    },
+    {
+      "name": "PS5 RetroArch",
+      "description": "RetroArch homebrew for PS5 supporting 35 cores and 44 systems. Release v3.0.0-beta-3 adds Game Forwarder, SwanStation, melonDS DS, frame-generation pacing, and RetroAchievements support for FLAC CHDs. Release is a large ZIP package, not a standalone ELF payload.",
+      "repository_url": "https://github.com/mihawk-99/PS5_RetroArch",
+      "category": "Emulation & Gaming",
+      "author": "mihawk-99",
+      "payload_available": false,
+      "version": "v3.0.0-beta-3",
+      "last_update": "2026-10-18",
+      "package_filename": "PS5_RetroArch-v3.0.0-beta-3.zip",
+      "package_url": "https://github.com/mihawk-99/PS5_RetroArch/releases/download/v3.0.0-beta-3/PS5_RetroArch-v3.0.0-beta-3.zip",
+      "package_checksum": "121786b162652dfe08a0d3fc98015e57d782d06ba6680f4d032b078e6a621a5a"
     }
   ]
 }
