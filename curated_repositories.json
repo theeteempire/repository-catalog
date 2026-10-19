@@ -412,6 +412,22 @@
       "payload_filename": "ps5-linux-loader.elf",
       "payload_url": "https://github.com/soniciso1/ps5-linux-loader/releases/download/v13.60/ps5-linux-loader.elf",
       "checksum": "32041e7c54db8f1a86a0db0b8fb2a755d8f0209482e29ee903afd059d71b0989"
+    },
+    {
+      "name": "Prospero Menu",
+      "description": "Community expandable overlay system for homebrewed PS5. Release v1.1.0 includes the standalone ProsperoMenu.elf payload and a separate overlays ZIP.",
+      "repository_url": "https://github.com/StonedModder/Prospero-Menu",
+      "category": "Gaming & UI",
+      "author": "StonedModder",
+      "payload_available": true,
+      "version": "v1.1.0",
+      "last_update": "2026-10-17",
+      "payload_filename": "ProsperoMenu.elf",
+      "payload_url": "https://github.com/StonedModder/Prospero-Menu/releases/download/v1.1.0/ProsperoMenu.elf",
+      "checksum": "1164262193931eb99cb61cd8e6414db9ff2d2cee93c74f523c5ebafae933c43e",
+      "package_filename": "ProsperoMenu-v1.1.0-overlays.zip",
+      "package_url": "https://github.com/StonedModder/Prospero-Menu/releases/download/v1.1.0/ProsperoMenu-v1.1.0-overlays.zip",
+      "package_checksum": "d88082366ce1d4864173899a278878eb045b1713e0592b6d65c73ee2cf51378d"
     }
   ]
 }
