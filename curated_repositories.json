@@ -399,6 +399,19 @@
       "last_update": "2026-10-18",
       "package_filename": "ps5droid-elf-payload.zip",
       "package_url": "https://github.com/aarvsn/PS5Droid/releases/download/v1.0.0/ps5droid-elf-payload.zip"
+    },
+    {
+      "name": "PS5 Linux Loader (soniciso1)",
+      "description": "PS5 Linux loader fork with firmware 13.60 support, including PS5 Pro. Latest release provides a standalone ELF payload; send it to elfldr on port 9021 after jailbreaking.",
+      "repository_url": "https://github.com/soniciso1/ps5-linux-loader",
+      "category": "Linux & Development",
+      "author": "soniciso1",
+      "payload_available": true,
+      "version": "v13.60",
+      "last_update": "2026-10-19",
+      "payload_filename": "ps5-linux-loader.elf",
+      "payload_url": "https://github.com/soniciso1/ps5-linux-loader/releases/download/v13.60/ps5-linux-loader.elf",
+      "checksum": "32041e7c54db8f1a86a0db0b8fb2a755d8f0209482e29ee903afd059d71b0989"
     }
   ]
 }
