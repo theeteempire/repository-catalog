@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-22T00:58:50+00:00",
+  "generated_at": "2026-10-22T01:05:35+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 352,
   "payload_count": 196,
@@ -314,7 +314,7 @@
       "category": "Repositories",
       "author": "bornaradusin",
       "icon_key": "840f4a5a9cd423a60f78c7fb5d8dc7548b697c8b1e7f4c55aeddc5b50989bdbe",
-      "github_stars": 7,
+      "github_stars": 8,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-21T11:52:09Z"
     },
@@ -1557,7 +1557,7 @@
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/WebKit-Autoloader-Installer_v0.6.1.elf",
       "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
       "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
-      "github_stars": 1171,
+      "github_stars": 1172,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-08T19:48:49Z",
       "last_update_days": 14,
@@ -2227,7 +2227,7 @@
       "last_update": "2026-10-15",
       "checksum": "f764824466d317bed73715ce8d5235b8a6505f676ab6338b7134d7264b0a84af",
       "github_stars": 14,
-      "open_issues_count": 0,
+      "open_issues_count": 1,
       "repository_updated_at": "2026-10-15T23:22:52Z",
       "last_update_days": 7,
       "last_update_months": 0.2
@@ -3651,7 +3651,7 @@
       "icon_key": "cc79c67551185e2ce59b2630e9ad7335d5c6ac9fd9f9775394de6833599fe764",
       "github_stars": 266,
       "open_issues_count": 47,
-      "repository_updated_at": "2026-10-22T00:53:27Z"
+      "repository_updated_at": "2026-10-22T01:02:22Z"
     },
     {
       "name": "ps5-cloud-play",
@@ -4184,7 +4184,7 @@
       "payload_filename": "RecompStore-Installer.elf",
       "payload_url": "https://github.com/elripalda/RecompStore/releases/download/v2.5.1/RecompStore-Installer.elf",
       "checksum": "f5a224ec77e56194e6db141bd077a029dfced975c3645f1afe34e4994419309b",
-      "github_stars": 96,
+      "github_stars": 97,
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-21T08:13:58Z",
       "last_update_days": 1,
@@ -4243,7 +4243,7 @@
       "package_url": "https://github.com/MyLuxy/overdrive/releases/download/v1.0.6/Overdrive.exfat",
       "checksum": "ba2922e2ce12a416a277eec747ceaa2609514a7ba8a4e46682c2179f228c5a2b",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 1130,
+      "github_stars": 1132,
       "open_issues_count": 13,
       "repository_updated_at": "2026-10-21T19:08:16Z",
       "last_update_days": 5,
@@ -4443,7 +4443,7 @@
       "payload_filename": "Linux-autoloader-installer.elf",
       "payload_url": "https://github.com/Wawapun/ps5-linux-autoloader/releases/download/v0.6.1-linux1/Linux-autoloader-installer.elf",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 10,
+      "github_stars": 11,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-21T16:43:23Z",
       "last_update_days": 1,
@@ -4511,16 +4511,6 @@
       "last_update_months": 0.7
     },
     {
-      "name": "joker-ps5-jailbreak-manager",
-      "description": "Open-source remote control for jailbroken PS5: virtual DualSense, screenshots, app launch, file transfer, MCP server for AI agents",
-      "repository_url": "https://github.com/leen12/joker-ps5-jailbreak-manager",
-      "category": "PS5 Auto-discovered",
-      "author": "leen12",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-22",
-      "icon_key": "c76205a7ee85bb45af3a4f7f0687d306afad500d12115fdbd37d5e0bb44f4e14"
-    },
-    {
       "name": "SoundBridge-PS5",
       "description": "Stream your jailbroken PS5's game audio to your PC headset with ~50 ms delay. PS5 payload + PS5-style Windows app.",
       "repository_url": "https://github.com/Xnos666/SoundBridge-PS5",
@@ -4552,7 +4542,7 @@
       "icon_key": "840f4a5a9cd423a60f78c7fb5d8dc7548b697c8b1e7f4c55aeddc5b50989bdbe",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-22T00:39:08Z"
+      "repository_updated_at": "2026-10-22T01:02:28Z"
     },
     {
       "name": "Relapse-PS5",
@@ -4565,7 +4555,7 @@
       "icon_key": "dc227b57d7089536cc1618e3d4bbcb7fecb8b9c8e47ac4e29a05609d69f4a107",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-10-22T00:34:35Z"
+      "repository_updated_at": "2026-10-22T01:03:51Z"
     },
     {
       "name": "pkg-stream-delivery",
@@ -4727,6 +4717,19 @@
       "repository_updated_at": "2026-10-21T21:39:08Z"
     },
     {
+      "name": "GTA-SA-PS5-Homebrew",
+      "description": "GTA San Andreas Classic homebrew launcher for PlayStation 5, powered by Prospero Win",
+      "repository_url": "https://github.com/CHI-GETSU/GTA-SA-PS5-Homebrew",
+      "category": "PS5 Auto-discovered",
+      "author": "CHI-GETSU",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-22",
+      "icon_key": "2c0f44dcf7522ef8c1921d61e80850caae4c79ce712e935b9adf435794ff84f5",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-22T00:59:07Z"
+    },
+    {
       "name": "KytyPS5",
       "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
       "repository_url": "https://github.com/KytyPS5/KytyPS5",
@@ -4736,7 +4739,7 @@
       "discovered_at": "2026-10-22",
       "icon_key": "7ead20220ae86358afed723f4a968c4c8eabf67ac7f6024b10d7a62fa092b436",
       "github_stars": 9527,
-      "open_issues_count": 796,
+      "open_issues_count": 797,
       "repository_updated_at": "2026-10-22T00:52:11Z"
     },
     {
@@ -5235,7 +5238,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-22",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
-      "github_stars": 46374,
+      "github_stars": 46376,
       "open_issues_count": 1350,
       "repository_updated_at": "2026-10-21T21:32:12Z"
     },
