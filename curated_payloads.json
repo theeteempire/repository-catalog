@@ -214,6 +214,90 @@
       "category": "Utilities & Tools",
       "checksum": "541d320b474f9a90576294ff86d024d6ede6f6e7f79d76408b54c01818ae510f",
       "id": "y2jb-update-blocker-v1.0.1"
+    },
+    {
+      "name": "PS5 Linux Autoloader",
+      "filename": "Linux-autoloader-installer.elf",
+      "url": "https://github.com/Wawapun/ps5-linux-autoloader/releases/download/v0.6.1-linux1/Linux-autoloader-installer.elf",
+      "source": "https://github.com/Wawapun/ps5-linux-autoloader/releases",
+      "source_direct": "https://github.com/Wawapun/ps5-linux-autoloader/releases/download/v0.6.1-linux1/Linux-autoloader-installer.elf",
+      "description": "Installer ELF for the PS5 Linux Autoloader project.",
+      "version": "v0.6.1-linux1",
+      "last_update": "2026-10-21",
+      "category": "Linux & Boot",
+      "id": "ps5-linux-autoloader-v0.6.1-linux1"
+    },
+    {
+      "name": "PS5 Linux Loader (soniciso1)",
+      "filename": "ps5-linux-loader.elf",
+      "url": "https://github.com/soniciso1/ps5-linux-loader/releases/download/v2026.10.22-all11-13/ps5-linux-loader.elf",
+      "source": "https://github.com/soniciso1/ps5-linux-loader/releases",
+      "source_direct": "https://github.com/soniciso1/ps5-linux-loader/releases/download/v2026.10.22-all11-13/ps5-linux-loader.elf",
+      "description": "Direct ELF asset from soniciso1's PS5 Linux Loader release; separate from the ps5-linux/ps5-linux-loader project.",
+      "version": "v2026.10.22-all11-13",
+      "last_update": "2026-10-22",
+      "category": "Linux & Boot",
+      "id": "ps5-linux-loader-soniciso1-v2026.10.22-all11-13"
+    },
+    {
+      "name": "Prospero Menu",
+      "filename": "ProsperoMenu.elf",
+      "url": "https://github.com/StonedModder/Prospero-Menu/releases/download/v1.1.0/ProsperoMenu.elf",
+      "source": "https://github.com/StonedModder/Prospero-Menu/releases",
+      "source_direct": "https://github.com/StonedModder/Prospero-Menu/releases/download/v1.1.0/ProsperoMenu.elf",
+      "description": "Direct ELF release asset for Prospero Menu.",
+      "version": "v1.1.0",
+      "last_update": "2026-10-17",
+      "category": "Utilities & Tools",
+      "id": "prospero-menu-v1.1.0"
+    },
+    {
+      "name": "PS5 Payload Manager (PLDMGR)",
+      "filename": "pldmgr_v0.6.3.elf",
+      "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf",
+      "source": "https://github.com/itsPLK/ps5-payload-manager/releases",
+      "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf",
+      "description": "Web-based PS5 payload manager; latest checked direct ELF release asset.",
+      "version": "v0.6.3",
+      "last_update": "2026-10-19",
+      "category": "Utilities & Tools",
+      "id": "pldmgr-v0.6.3"
+    },
+    {
+      "name": "PS5 ELF Loader (elfldr)",
+      "filename": "elfldr-ps5-v0.26-bb1e117.elf",
+      "url": "https://github.com/itsPLK/ps5-elfldr/releases/download/v0.26-bb1e117/elfldr-ps5-v0.26-bb1e117.elf",
+      "source": "https://github.com/itsPLK/ps5-elfldr/releases",
+      "source_direct": "https://github.com/itsPLK/ps5-elfldr/releases/download/v0.26-bb1e117/elfldr-ps5-v0.26-bb1e117.elf",
+      "description": "Direct ELF release asset for PS5 ELF Loader (elfldr).",
+      "version": "v0.26-bb1e117",
+      "last_update": "2026-09-29",
+      "category": "Utilities & Tools",
+      "id": "ps5-elfldr-v0.26-bb1e117"
+    },
+    {
+      "name": "PS5 Unified Autoloader",
+      "filename": "ps5-unified-autoloader-v0.1.6-e7093cd.elf",
+      "url": "https://github.com/itsPLK/ps5-unified-autoloader/releases/download/v0.1.6-e7093cd/ps5-unified-autoloader-v0.1.6-e7093cd.elf",
+      "source": "https://github.com/itsPLK/ps5-unified-autoloader/releases",
+      "source_direct": "https://github.com/itsPLK/ps5-unified-autoloader/releases/download/v0.1.6-e7093cd/ps5-unified-autoloader-v0.1.6-e7093cd.elf",
+      "description": "Direct ELF release asset for PS5 Unified Autoloader.",
+      "version": "v0.1.6-e7093cd",
+      "last_update": "2026-10-20",
+      "category": "Utilities & Tools",
+      "id": "ps5-unified-autoloader-v0.1.6-e7093cd"
+    },
+    {
+      "name": "HYPERHEN",
+      "filename": "HyperHEN-v0.9.2.elf",
+      "url": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_2/HyperHEN-v0.9.2.elf",
+      "source": "https://github.com/Michele-M-Media/HYPERHEN/releases",
+      "source_direct": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_2/HyperHEN-v0.9.2.elf",
+      "description": "Direct ELF release asset for HYPERHEN v0.9.2.",
+      "version": "v0.9.2",
+      "last_update": "2026-10-14",
+      "category": "System & Jailbreak",
+      "id": "hyperhen-v0.9.2"
     }
   ]
 }
