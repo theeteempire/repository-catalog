@@ -4,10 +4,11 @@
   "repositories": [
     {
       "name": "Byepervisor Reborn",
-      "description": "Developer-oriented hypervisor research payload project; no published ELF release asset was found.",
+      "description": "Developer-oriented PS5 hypervisor research project; no latest release asset was verified.",
       "repository_url": "https://github.com/PS5Dev/Byepervisor-Reborn",
       "category": "System & Jailbreak",
-      "author": "PS5Dev"
+      "author": "PS5Dev",
+      "payload_available": false
     },
     {
       "name": "Enable-Disable-UPD-PS5",
@@ -118,13 +119,13 @@
     },
     {
       "name": "PS5 Y2JB Autoloader",
-      "description": "Automated payload loader for exploited PS5 consoles. Latest release provides download0.dat and y2jb_update.zip, not a standalone .elf asset, so it is listed as a repository/tool rather than a PLDMGR-installable ELF payload.",
+      "description": "Y2JB autoloader; latest checked release v1.0.3-185cdf8 provides download0.dat and y2jb_update.zip, not a direct ELF asset.",
       "repository_url": "https://github.com/itsPLK/ps5-y2jb-autoloader",
       "category": "System & Jailbreak",
       "author": "itsPLK",
       "payload_available": false,
-      "version": "v1.0.2-254c85f",
-      "last_update": "2026-10-14",
+      "version": "v1.0.3-185cdf8",
+      "last_update": "2026-10-20",
       "package_filename": "y2jb_update.zip",
       "package_url": "https://github.com/itsPLK/ps5-y2jb-autoloader/releases/download/v1.0.2-254c85f/y2jb_update.zip"
     },
@@ -353,15 +354,15 @@
     },
     {
       "name": "PS5 Payload Manager (PLDMGR)",
-      "description": "A modern web-based dashboard to manage, import, and automatically load payloads on PS5. The latest release publishes the installable pldmgr_v0.6.1.elf asset.",
+      "description": "Web-based PS5 payload manager; latest checked release v0.6.3 includes pldmgr_v0.6.3.elf.",
       "repository_url": "https://github.com/itsPLK/ps5-payload-manager",
       "category": "Utilities & Tools",
       "author": "itsPLK",
       "payload_available": true,
-      "version": "v0.6.1",
-      "last_update": "2026-10-14",
-      "payload_filename": "pldmgr_v0.6.1.elf",
-      "payload_url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.1/pldmgr_v0.6.1.elf"
+      "version": "v0.6.3",
+      "last_update": "2026-10-19",
+      "payload_filename": "pldmgr_v0.6.3.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf"
     },
     {
       "name": "PS5 WebKit Autoloader",
@@ -402,20 +403,20 @@
     },
     {
       "name": "PS5 Linux Loader (soniciso1)",
-      "description": "PS5 Linux loader fork with firmware 13.60 support, including PS5 Pro. Latest release provides a standalone ELF payload; send it to elfldr on port 9021 after jailbreaking.",
+      "description": "PS5 Linux loader maintained by soniciso1; latest checked release v2026.10.22-all11-13 includes ps5-linux-loader.elf. Separate from ps5-linux/ps5-linux-loader.",
       "repository_url": "https://github.com/soniciso1/ps5-linux-loader",
-      "category": "Linux & Development",
+      "category": "Linux & Boot",
       "author": "soniciso1",
       "payload_available": true,
-      "version": "v13.60",
-      "last_update": "2026-10-19",
+      "version": "v2026.10.22-all11-13",
+      "last_update": "2026-10-22",
       "payload_filename": "ps5-linux-loader.elf",
-      "payload_url": "https://github.com/soniciso1/ps5-linux-loader/releases/download/v13.60/ps5-linux-loader.elf",
+      "payload_url": "https://github.com/soniciso1/ps5-linux-loader/releases/download/v2026.10.22-all11-13/ps5-linux-loader.elf",
       "checksum": "32041e7c54db8f1a86a0db0b8fb2a755d8f0209482e29ee903afd059d71b0989"
     },
     {
       "name": "Prospero Menu",
-      "description": "Community expandable overlay system for homebrewed PS5. Release v1.1.0 includes the standalone ProsperoMenu.elf payload and a separate overlays ZIP.",
+      "description": "PS5 Prospero menu project; latest checked release v1.1.0 includes ProsperoMenu.elf.",
       "repository_url": "https://github.com/StonedModder/Prospero-Menu",
       "category": "Gaming & UI",
       "author": "StonedModder",
@@ -431,20 +432,20 @@
     },
     {
       "name": "PS5 RetroArch",
-      "description": "RetroArch homebrew for PS5 supporting 35 cores and 44 systems. Release v3.0.0-beta-3 adds Game Forwarder, SwanStation, melonDS DS, frame-generation pacing, and RetroAchievements support for FLAC CHDs. Release is a large ZIP package, not a standalone ELF payload.",
+      "description": "RetroArch port/project for PS5. Latest checked release v4.0.0-beta-4 provides a ZIP package, not a direct ELF asset.",
       "repository_url": "https://github.com/mihawk-99/PS5_RetroArch",
-      "category": "Emulation & Gaming",
+      "category": "Emulators",
       "author": "mihawk-99",
       "payload_available": false,
-      "version": "v3.0.0-beta-3",
-      "last_update": "2026-10-18",
+      "version": "v4.0.0-beta-4",
+      "last_update": "2026-10-19",
       "package_filename": "PS5_RetroArch-v3.0.0-beta-3.zip",
       "package_url": "https://github.com/mihawk-99/PS5_RetroArch/releases/download/v3.0.0-beta-3/PS5_RetroArch-v3.0.0-beta-3.zip",
       "package_checksum": "121786b162652dfe08a0d3fc98015e57d782d06ba6680f4d032b078e6a621a5a"
     },
     {
       "name": "HYPERHEN",
-      "description": "Unified firmware-aware PS5 homebrew stack combining HyperCore, Automount, Toolbox, plugins, network services, and optional boot tools. Release v0.9.2 provides a standalone ELF entry payload.",
+      "description": "Unified firmware-aware PS5 homebrew stack; latest checked release v0.9.2 includes HyperHEN-v0.9.2.elf.",
       "repository_url": "https://github.com/Michele-M-Media/HYPERHEN",
       "category": "System & Jailbreak",
       "author": "Michele-M-Media",
@@ -454,6 +455,79 @@
       "payload_filename": "HyperHEN-v0.9.2.elf",
       "payload_url": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_2/HyperHEN-v0.9.2.elf",
       "checksum": "c35b8f6dbe4355be7e55891e6b326d82f3d6aae8483f6cf0e27d372b0aea97ae"
+    },
+    {
+      "name": "PS5 Linux Autoloader",
+      "description": "Linux boot/autoload installer for PS5. Latest checked release v0.6.1-linux1 includes Linux-autoloader-installer.elf.",
+      "repository_url": "https://github.com/Wawapun/ps5-linux-autoloader",
+      "category": "Linux & Boot",
+      "author": "Wawapun",
+      "version": "v0.6.1-linux1",
+      "last_update": "2026-10-21",
+      "payload_available": true,
+      "payload_filename": "Linux-autoloader-installer.elf",
+      "payload_url": "https://github.com/Wawapun/ps5-linux-autoloader/releases/download/v0.6.1-linux1/Linux-autoloader-installer.elf"
+    },
+    {
+      "name": "PS5 MihawkOS",
+      "description": "Experimental PS5 homebrew desktop/runtime project for running Windows programs through Wine/Proton components. No direct ELF release asset verified.",
+      "repository_url": "https://github.com/mihawk-99/PS5_MihawkOS",
+      "category": "Homebrew & UI",
+      "author": "mihawk-99"
+    },
+    {
+      "name": "etaHEN",
+      "description": "PS5 homebrew environment/project. Latest checked release 2.5B provides a .bin asset rather than a direct ELF payload.",
+      "repository_url": "https://github.com/etaHEN/etaHEN",
+      "category": "System & Jailbreak",
+      "author": "etaHEN",
+      "version": "2.5B",
+      "last_update": "2025-12-25",
+      "payload_available": false
+    },
+    {
+      "name": "PS5 ELF Loader (elfldr)",
+      "description": "ELF loader for PS5; latest checked release v0.26-bb1e117 includes elfldr-ps5-v0.26-bb1e117.elf.",
+      "repository_url": "https://github.com/itsPLK/ps5-elfldr",
+      "category": "Utilities & Tools",
+      "author": "itsPLK",
+      "version": "v0.26-bb1e117",
+      "last_update": "2026-09-29",
+      "payload_available": true,
+      "payload_filename": "elfldr-ps5-v0.26-bb1e117.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-elfldr/releases/download/v0.26-bb1e117/elfldr-ps5-v0.26-bb1e117.elf"
+    },
+    {
+      "name": "PS5 Unified Autoloader",
+      "description": "Unified PS5 payload autoloader; latest checked release v0.1.6-e7093cd includes a direct ELF asset.",
+      "repository_url": "https://github.com/itsPLK/ps5-unified-autoloader",
+      "category": "Utilities & Tools",
+      "author": "itsPLK",
+      "version": "v0.1.6-e7093cd",
+      "last_update": "2026-10-20",
+      "payload_available": true,
+      "payload_filename": "ps5-unified-autoloader-v0.1.6-e7093cd.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-unified-autoloader/releases/download/v0.1.6-e7093cd/ps5-unified-autoloader-v0.1.6-e7093cd.elf"
+    },
+    {
+      "name": "PS5 KEXP",
+      "description": "PS5 exploit component referenced by Y2JB autoloader development releases; latest checked release v1 provides a ZIP, not a direct ELF asset.",
+      "repository_url": "https://github.com/ufm42/kexp",
+      "category": "System & Jailbreak",
+      "author": "ufm42",
+      "version": "v1",
+      "last_update": "2026-05-25",
+      "payload_available": false
+    },
+    {
+      "name": "Relapse Y2JB",
+      "description": "Y2JB exploit component/compatibility project; latest checked release contains relapse.js rather than a direct ELF asset.",
+      "repository_url": "https://github.com/edisnord/relapse-y2jb",
+      "category": "System & Jailbreak",
+      "author": "edisnord",
+      "version": "manually_published",
+      "last_update": "2026-10-01",
+      "payload_available": false
     }
   ]
 }
