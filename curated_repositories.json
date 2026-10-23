@@ -553,6 +553,15 @@
       "payload_filename": "elf-launcher.elf",
       "payload_url": "https://github.com/X-F1REBALL-X/elf-launcher/releases/download/v2.0.5/elf-launcher.elf",
       "checksum": "1b4494e669ef07525c77036777d36a20f1eb81a708fe8262b26ffffa9452f547"
+    },
+    {
+      "name": "ESP32 Keyboard for WK Autoloader Store (X-F1REBALL-X)",
+      "description": "ESP32-S3/S2 Mini USB-keyboard firmware that automatically opens WK Autoloader Store on PS5 boot; hardware companion firmware, not a PS5 ELF payload.",
+      "repository_url": "https://github.com/X-F1REBALL-X/esp32-keyboard-wk-autoloader-store",
+      "category": "Utilities & Tools",
+      "author": "X-F1REBALL-X",
+      "payload_available": false,
+      "version": "v1.0.1"
     }
   ]
 }
