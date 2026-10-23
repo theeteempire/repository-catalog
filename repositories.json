@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-10-23T18:07:33+00:00",
+  "generated_at": "2026-10-23T18:12:16+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 351,
   "payload_count": 209,
@@ -3836,13 +3836,13 @@
     },
     {
       "name": "Elf Launcher (X-F1REBALL-X)",
-      "description": "PS5 home-screen and browser ELF payload launcher with payload catalog, AutoPayload profiles, file manager, and self-updating interface. Release v2.0.5.",
+      "description": "PS5 home-screen and browser ELF payload launcher with a payload catalog, AutoPayload profiles, file manager, and self-updating interface. Release v2.0.5.",
       "repository_url": "https://github.com/X-F1REBALL-X/elf-launcher",
       "category": "Payload Managers & Launchers",
       "author": "X-F1REBALL-X",
       "payload_available": true,
       "version": "v2.0.5",
-      "last_update": "2026-10-13",
+      "last_update": "2026-10-23",
       "payload_filename": "elf-launcher.elf",
       "payload_url": "https://github.com/X-F1REBALL-X/elf-launcher/releases/download/v2.0.5/elf-launcher.elf",
       "checksum": "1b4494e669ef07525c77036777d36a20f1eb81a708fe8262b26ffffa9452f547",
@@ -3850,8 +3850,8 @@
       "github_stars": 14,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-23T17:28:49Z",
-      "last_update_days": 10,
-      "last_update_months": 0.3
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "HearBridge-Browser",
@@ -3893,7 +3893,7 @@
     },
     {
       "name": "WK Autoloader (X-F1REBALL-X)",
-      "description": "PS5 home-screen jailbreak host that runs the Relapse chain and opens Elf Launcher. Store-tile release v1.1.4; release README states firmware 7.00–13.60 for this Store build.",
+      "description": "PS5 home-screen host that runs the Relapse chain and opens Elf Launcher. Store-tile release v1.1.4; release README states firmware 7.00–13.60 for this build.",
       "repository_url": "https://github.com/X-F1REBALL-X/wk-autoloader",
       "category": "Jailbreak & Autoloaders",
       "author": "X-F1REBALL-X",
@@ -3903,7 +3903,6 @@
       "payload_filename": "WK_Autoloader_Store_V1.1.4.elf",
       "payload_url": "https://github.com/X-F1REBALL-X/wk-autoloader/releases/download/v1.1.4/WK_Autoloader_Store_V1.1.4.elf",
       "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
-      "checksum": "8a1acd0e6ac607138842b901c22991fd4a92c14510cb406783ef03185b63e34e",
       "github_stars": 24,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-23T17:38:54Z",
@@ -4522,6 +4521,19 @@
       "last_update_months": 0.7
     },
     {
+      "name": "ps5-minecraft-java",
+      "description": "Future Minecraft Java Edition homebrew for PS5. Java runtime port: https://github.com/mateo-cogeanu/ps5-java25-homebrew",
+      "repository_url": "https://github.com/mateo-cogeanu/ps5-minecraft-java",
+      "category": "PS5 Auto-discovered",
+      "author": "mateo-cogeanu",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-10-23",
+      "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
+      "github_stars": 6,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-23T18:04:43Z"
+    },
+    {
       "name": "Relapse-Exploit",
       "description": "PS5 Host",
       "repository_url": "https://github.com/Slxcky-1/Relapse-Exploit",
@@ -4957,7 +4969,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-10-23",
       "icon_key": "021de2d16c459916aff57862beacef331ddaadded85f1a1b9f41a3d4b10fa7b9",
-      "github_stars": 126,
+      "github_stars": 127,
       "open_issues_count": 34,
       "repository_updated_at": "2026-10-23T09:55:24Z"
     },
@@ -5244,19 +5256,6 @@
       "last_update_months": 0.0
     },
     {
-      "name": "opengnm-psbc",
-      "description": "SPIR-V to PS4/PS5 Shader Binary compiler (Mesa 26.2.0 NIR+ACO)",
-      "repository_url": "https://github.com/PS4-OpenGNM/opengnm-psbc",
-      "category": "PS5 Auto-discovered",
-      "author": "PS4-OpenGNM",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-10-23",
-      "icon_key": "245951f9fc49c305f5b358bba45533fadf75499bc7d6fd74ac2b7b45734aad3b",
-      "github_stars": 2,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-23T03:59:13Z"
-    },
-    {
       "name": "AnyPS5",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "repository_url": "https://github.com/boykopovar/AnyPS5",
@@ -5266,8 +5265,8 @@
       "discovered_at": "2026-10-23",
       "icon_key": "c83545bc1fb23c7f8d7352eab17f48f633c943b17cd0b74cd064cf2eba6cfbcc",
       "github_stars": 47256,
-      "open_issues_count": 1558,
-      "repository_updated_at": "2026-10-23T17:59:09Z"
+      "open_issues_count": 1557,
+      "repository_updated_at": "2026-10-23T18:11:28Z"
     }
   ]
 }
