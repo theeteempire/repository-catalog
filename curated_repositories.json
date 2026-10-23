@@ -531,7 +531,7 @@
     },
     {
       "name": "WK Autoloader (X-F1REBALL-X)",
-      "description": "PS5 home-screen jailbreak host that runs the Relapse chain and opens Elf Launcher. Store-tile release v1.1.4; release README states firmware 7.00–13.60 for this Store build.",
+      "description": "PS5 home-screen host that runs the Relapse chain and opens Elf Launcher. Store-tile release v1.1.4; release README states firmware 7.00–13.60 for this build.",
       "repository_url": "https://github.com/X-F1REBALL-X/wk-autoloader",
       "category": "Jailbreak & Autoloaders",
       "author": "X-F1REBALL-X",
@@ -543,7 +543,7 @@
     },
     {
       "name": "Elf Launcher (X-F1REBALL-X)",
-      "description": "PS5 home-screen and browser ELF payload launcher with payload catalog, AutoPayload profiles, file manager, and self-updating interface. Release v2.0.5.",
+      "description": "PS5 home-screen and browser ELF payload launcher with a payload catalog, AutoPayload profiles, file manager, and self-updating interface. Release v2.0.5.",
       "repository_url": "https://github.com/X-F1REBALL-X/elf-launcher",
       "category": "Payload Managers & Launchers",
       "author": "X-F1REBALL-X",
