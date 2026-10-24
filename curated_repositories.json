@@ -217,8 +217,8 @@
       "version": "1.4.6"
     },
     {
-      "name": "pegasus-dl",
-      "description": "Direct package downloading from your PS5.",
+      "name": "Pegasus DL / Pegasus DL+",
+      "description": "PS5 homebrew download and file-management app with a local web UI: browse trusted catalog sources, queue downloads, extract supported archives, manage installed titles and files, and optionally use Real-Debrid or TorBox. Requires a homebrew-enabled PS5, compatible ShadowMountPlus setup, and an ELF loader.",
       "repository_url": "https://github.com/pegasus-ps5/pegasus-dl",
       "category": "Utilities & Tools",
       "author": "pegasus-ps5"
