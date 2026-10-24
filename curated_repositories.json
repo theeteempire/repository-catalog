@@ -562,6 +562,19 @@
       "author": "X-F1REBALL-X",
       "payload_available": false,
       "version": "v1.0.1"
+    },
+    {
+      "name": "APR Emu Updater (tsuramatsu1)",
+      "description": "PS5 payload with a console web interface for selecting per-game or global APR Emu (libSceAmpr.sprx) versions; requires a jailbroken PS5 and ShadowMountPlus for image-installed games. Latest checked release v2.0.6.",
+      "repository_url": "https://github.com/tsuramatsu1/apr-emu-updater",
+      "category": "Utilities & Tools",
+      "author": "tsuramatsu1",
+      "payload_available": true,
+      "version": "v2.0.6",
+      "last_update": "2026-08-29",
+      "payload_filename": "apr_emu_updater_v2.0.6.elf",
+      "payload_url": "https://github.com/tsuramatsu1/apr-emu-updater/releases/download/v2.0.6/apr_emu_updater_v2.0.6.elf",
+      "checksum": "4f04464283a6a551883e40e36b59134ecad0e38ecbb7ea89cbec3f91a3bd9122"
     }
   ]
 }
