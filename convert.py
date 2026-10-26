@@ -609,6 +609,14 @@ def main() -> int:
                 k: v for k, v in obj.items()
                 if k not in {"_owner_avatar_url"} and v not in (None, "")
             })
+            explicit_payload_fields = [
+                field for field in (
+                    "version", "last_update", "payload_filename", "payload_url", "checksum"
+                )
+                if obj.get(field) not in (None, "")
+            ]
+            if explicit_payload_fields:
+                target["_curated_payload_overrides"] = explicit_payload_fields
 
     # Expand beyond the two curated sources: search GitHub for newly created PS5 projects.
     # Search failures are non-fatal; the curated feeds still update as usual.
@@ -750,7 +758,10 @@ def main() -> int:
                 ("filename", "payload_filename"),
                 ("url", "payload_url"), ("checksum", "checksum"),
             ):
-                if isinstance(match.get(src), str) and match[src].strip():
+                if (
+                    isinstance(match.get(src), str) and match[src].strip()
+                    and dst not in record.get("_curated_payload_overrides", [])
+                ):
                     record[dst] = match[src]
             if record.get("icon_key") and match.get("icon_key") not in icons:
                 match["icon_key"] = record["icon_key"]
@@ -1052,6 +1063,7 @@ def main() -> int:
         return 6
     for record in repositories:
         record.pop("_owner_avatar_url", None)
+        record.pop("_curated_payload_overrides", None)
 
 
     # Add optional community metrics without changing the existing PLDMGR fields.
