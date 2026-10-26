@@ -590,7 +590,8 @@
       "restore_payload_filename": "web-browser-restore-test0.elf",
       "restore_payload_url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-restore-test0.elf",
       "release_url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/tag/test",
-      "prerelease": true
+      "prerelease": true,
+      "checksum": "14db2927e2b5e157c393f35f749ecd05c88d76fe336ce307b0f7b919fd506d24"
     }
   ]
 }
