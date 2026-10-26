@@ -24,7 +24,7 @@
       "download_count": 3861,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)"
     },
     {
@@ -757,7 +757,7 @@
       "download_count": 39,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Downloads official, unmodified game updates for games already installed on the console. Includes clearer download failure diagnostics and marks sideloaded apps so bulk updates leave them unchanged."
     },
     {
@@ -779,7 +779,7 @@
       "download_count": 59,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "A modern PS5 download manager with a native TV app (FFPKG and ELF), phone controls, Archive.org sign-in, improved host downloads, and Orbit Zero desktop clients for macOS, Windows, and Linux."
     },
     {
@@ -889,7 +889,7 @@
       "download_count": 23,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Disc daemon ELF accompanying SwanStationPS5, a PS1 emulator for jailbroken PS5."
     },
     {
@@ -955,7 +955,7 @@
       "download_count": 709,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Installer ELF for Recomp Store, a PS5 homebrew application store."
     },
     {
@@ -1152,7 +1152,7 @@
       "download_count": 517,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Direct ELF asset from soniciso1's PS5 Linux Loader release; separate from the ps5-linux/ps5-linux-loader project."
     },
     {
@@ -1459,7 +1459,7 @@
       "download_count": 10,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Custom home-screen themes for jailbroken PS5 consoles (etaHEN plugin or standalone payload): backgrounds, icons, sounds, fonts and home music as read-only overlays."
     },
     {
@@ -1481,7 +1481,7 @@
       "download_count": 26,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Custom home-screen themes for jailbroken PS5 consoles (etaHEN plugin or standalone payload): backgrounds, icons, sounds, fonts and home music as read-only overlays."
     },
     {
@@ -1989,7 +1989,7 @@
       "download_count": 821,
       "download_count_source": "github_release_asset",
       "last_update_days": 30,
-      "last_update_months": 1.0,
+      "last_update_months": 1,
       "original_description": "Hear your PS5 on any Bluetooth headset — game audio and system sounds streamed over the console's own Bluetooth, no dongle, DualSense stays wireless. Payload for jailbroken PS5."
     },
     {
@@ -2628,7 +2628,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Gerenciador homebrew de arquivos para PS5 com Google Drive publico, downloads para o console e interface web. Versao experimental."
     },
     {
@@ -2870,7 +2870,7 @@
       "download_count": 16,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Port of Final Burn Neo for PS5"
     },
     {
@@ -2982,7 +2982,7 @@
       "download_count": 1,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "NayePlmTools — PS5 Payload Manager 中文分支（CN-FORK）：游戏改名/存档管理/背景音乐/主屏排序等增强"
     },
     {
@@ -3005,7 +3005,7 @@
       "download_count": 1,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "NayePlmTools — PS5 Payload Manager 中文分支（CN-FORK）：游戏改名/存档管理/背景音乐/主屏排序等增强"
     },
     {
@@ -4292,18 +4292,18 @@
       "original_description": "Linux boot/autoload installer for PS5. Latest checked release v0.6.1-linux1 includes Linux-autoloader-installer.elf."
     },
     {
-      "name": "PS5 Web Browser Fullscreen — web-browser-fullscreen-test0 · NEW",
+      "name": "PS5 Web Browser Fullscreen",
       "filename": "web-browser-fullscreen-test0.elf",
       "url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-fullscreen-test0.elf",
       "source": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases",
       "source_direct": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-fullscreen-test0.elf",
-      "description": "⭐ 5 · 📥 28 · 🕒 26 Oct 26 | PS5 payload that opens the built-in web browser in fullscreen 1920×1080 while preserving normal controller input and localhost access. Requires a supported jailbroken PS5 and an ELF loader on port 9021. The only verified release at catalog check is the prerelease test build; firmware compatibility has not been independently verified.",
+      "description": "⭐ 5 · 📥 28 · 🕒 26 Oct 26 | Opens the PS5 web browser in fullscreen at 1920×1080 while preserving normal controller input and localhost access. The project author reports testing on firmware 4.03, 12.20 and 13.60; this is a prerelease test build and should be used at your own risk.",
       "last_update": "2026-10-26",
       "version": "test",
       "category": "Loaders",
       "checksum": "14db2927e2b5e157c393f35f749ecd05c88d76fe336ce307b0f7b919fd506d24",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "id": "ps5-web-browser-fullscreen-web-browser-fullscreen-test0-605c111f",
+      "id": "ps5-web-browser-fullscreen-test0",
       "first_seen": "2026-10-26",
       "github_stars": 5,
       "open_issues_count": 0,
@@ -4311,22 +4311,22 @@
       "download_count": 28,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
-      "original_description": "PS5 payload that opens the built-in web browser in fullscreen 1920×1080 while preserving normal controller input and localhost access. Requires a supported jailbroken PS5 and an ELF loader on port 9021. The only verified release at catalog check is the prerelease test build; firmware compatibility has not been independently verified."
+      "last_update_months": 0,
+      "original_description": "Opens the PS5 web browser in fullscreen at 1920×1080 while preserving normal controller input and localhost access. The project author reports testing on firmware 4.03, 12.20 and 13.60; this is a prerelease test build and should be used at your own risk."
     },
     {
-      "name": "PS5 Web Browser Fullscreen — web-browser-restore-test0 · NEW",
+      "name": "PS5 Web Browser Fullscreen — Restore",
       "filename": "web-browser-restore-test0.elf",
       "url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-restore-test0.elf",
       "source": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases",
       "source_direct": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-restore-test0.elf",
-      "description": "⭐ 5 · 📥 14 · 🕒 26 Oct 26 | PS5 payload that opens the built-in web browser in fullscreen 1920×1080 while preserving normal controller input and localhost access. Requires a supported jailbroken PS5 and an ELF loader on port 9021. The only verified release at catalog check is the prerelease test build; firmware compatibility has not been independently verified.",
+      "description": "⭐ 5 · 📥 14 · 🕒 26 Oct 26 | Companion restore payload that returns the PS5 web browser to its ordinary layout without rebooting. Prerelease test build; close and reopen the browser after running it.",
       "last_update": "2026-10-26",
       "version": "test",
       "category": "Loaders",
       "checksum": "5f47690baa36193fe7426225a142681df629196ad84e72b1484ec006d025c05b",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "id": "ps5-web-browser-fullscreen-web-browser-restore-test0-130143a7",
+      "id": "ps5-web-browser-fullscreen-restore-test0",
       "first_seen": "2026-10-26",
       "github_stars": 5,
       "open_issues_count": 0,
@@ -4334,8 +4334,8 @@
       "download_count": 14,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
-      "original_description": "PS5 payload that opens the built-in web browser in fullscreen 1920×1080 while preserving normal controller input and localhost access. Requires a supported jailbroken PS5 and an ELF loader on port 9021. The only verified release at catalog check is the prerelease test build; firmware compatibility has not been independently verified."
+      "last_update_months": 0,
+      "original_description": "Companion restore payload that returns the PS5 web browser to its ordinary layout without rebooting. Prerelease test build; close and reopen the browser after running it."
     },
     {
       "name": "PLM-Repository · NEW",
@@ -4380,7 +4380,7 @@
       "download_count": 31,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Remote Play for jailbroken PS5s on Mac, Windows and Linux. Play at home without PSN sign-in, or away from home over a direct, encrypted connection. Supports local PS5 accounts and sets up Remote Play for you."
     },
     {
@@ -4426,7 +4426,7 @@
       "download_count": 8,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "A ps5-linux-loader payload for Jailbroken PS5(s): Boots Linux on rest-mode resume, with a built-in WebUI server."
     },
     {
@@ -4449,7 +4449,7 @@
       "download_count": 15,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "A homebrew package manager and store front-end for a jailbroken PlayStation 5 and PlayStation 4 - from the console, a PC, or your phone."
     },
     {
@@ -4472,7 +4472,7 @@
       "download_count": 82,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Turns off the PlayStation 5's continuous recent-gameplay recording. With nothing encoded, there is nothing for the console to save."
     },
     {
@@ -4495,7 +4495,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4518,7 +4518,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4541,7 +4541,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4564,7 +4564,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4587,7 +4587,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4610,7 +4610,7 @@
       "download_count": 1,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4633,7 +4633,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4656,7 +4656,7 @@
       "download_count": 1,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4679,7 +4679,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4702,7 +4702,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4725,7 +4725,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     }
   ]
