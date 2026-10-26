@@ -578,7 +578,7 @@
     },
     {
       "name": "PS5 Web Browser Fullscreen",
-      "description": "PS5 payload that opens the built-in web browser in fullscreen 1920×1080 while preserving normal controller input and localhost access. Requires a supported jailbroken PS5 and an ELF loader on port 9021. The only verified release at catalog check is the prerelease test build; firmware compatibility has not been independently verified.",
+      "description": "PS5 payload that opens the built-in web browser in fullscreen 1920×1080 while preserving normal controller input and localhost access. Requires a supported jailbroken PS5 and an ELF loader on port 9021. The prerelease test notes report author testing on firmware 4.03, 12.20 and 13.60; this has not been independently verified.",
       "repository_url": "https://github.com/owendswang/ps5-web-browser-fullscreen",
       "category": "Utilities & Tools",
       "author": "owendswang",
