@@ -687,6 +687,19 @@ def main() -> int:
             continue
         url = item["url"].strip()
         if url in seen_payload_urls:
+            # A curated record may intentionally enrich an asset already discovered
+            # from the mirror or a repository release. Keep live metrics/icon data,
+            # but let the curated record control its display name and original
+            # description, so multi-asset projects can label each payload accurately.
+            existing = next((payload for payload in payloads if payload.get("url") == url), None)
+            if existing:
+                for field in (
+                    "name", "filename", "description", "version", "last_update",
+                    "category", "checksum", "id", "source", "source_direct",
+                ):
+                    value = item.get(field)
+                    if isinstance(value, str) and value.strip():
+                        existing[field] = value.strip()
             continue
         curated_item = dict(item)
         curated_item.setdefault("source_direct", url)
