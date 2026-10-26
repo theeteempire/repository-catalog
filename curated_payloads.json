@@ -323,6 +323,32 @@
       "category": "Payload Managers & Launchers",
       "checksum": "1b4494e669ef07525c77036777d36a20f1eb81a708fe8262b26ffffa9452f547",
       "id": "x-f1reball-x-elf-launcher-elf-launcher-v2.0.5"
+    },
+    {
+      "name": "PS5 Web Browser Fullscreen",
+      "filename": "web-browser-fullscreen-test0.elf",
+      "url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-fullscreen-test0.elf",
+      "source": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases",
+      "source_direct": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-fullscreen-test0.elf",
+      "description": "Opens the PS5 web browser in fullscreen at 1920×1080 while preserving normal controller input and localhost access. The project author reports testing on firmware 4.03, 12.20 and 13.60; this is a prerelease test build and should be used at your own risk.",
+      "last_update": "2026-10-26",
+      "version": "test",
+      "category": "Utilities & Tools",
+      "checksum": "14db2927e2b5e157c393f35f749ecd05c88d76fe336ce307b0f7b919fd506d24",
+      "id": "ps5-web-browser-fullscreen-test0"
+    },
+    {
+      "name": "PS5 Web Browser Fullscreen — Restore",
+      "filename": "web-browser-restore-test0.elf",
+      "url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-restore-test0.elf",
+      "source": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases",
+      "source_direct": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-restore-test0.elf",
+      "description": "Companion restore payload that returns the PS5 web browser to its ordinary layout without rebooting. Prerelease test build; close and reopen the browser after running it.",
+      "last_update": "2026-10-26",
+      "version": "test",
+      "category": "Utilities & Tools",
+      "checksum": "5f47690baa36193fe7426225a142681df629196ad84e72b1484ec006d025c05b",
+      "id": "ps5-web-browser-fullscreen-restore-test0"
     }
   ]
 }
