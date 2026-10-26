@@ -4,9 +4,9 @@
 
 ## ✨ Catalog highlights
 
-- **Payload summaries:** Preserve each payload's original description and append GitHub Stars, Downloads, and Firmware status in one plain-text line.
+- **PLDMGR display format:** `⭐ stars · 📥 downloads · 🕒 short date | original description`. Preserve the payload-specific description; do not append a separate Firmware field.
 - **Popularity and freshness:** Use real GitHub star counts, release-asset download counts when available, and update dates without inventing missing metrics.
-- **Compatibility clarity:** Show firmware compatibility only when metadata exists; unverified information is labeled accordingly.
+- **Compatibility clarity:** Include compatibility notes only when supported by source evidence, within the original description rather than as a separate display field.
 - **Integrity and validation:** Validate catalog structure, direct HTTPS ELF links, icon mappings, and upstream checksums when supplied.
 - **Categories and discovery:** Organize entries by category and discover eligible public repositories through configured sources.
 - **Change tracking:** Publish a machine-readable changelog of additions, updates, and removals after a successful catalog refresh.
@@ -23,7 +23,7 @@ The goal is to provide a regularly refreshed, organized view of repository and a
 
 ## Published data
 
-The generated `payloads_v2.json` feed keeps the original payload description in `original_description`; its display `description` is formatted as one plain-text line for compatible clients. Missing metrics are shown as `Unknown`. Firmware is labeled as unverified unless the source explicitly marks it tested or verified. The generated `changelog.json` records added, updated, and removed entries from the latest successful comparison.
+The generated `payloads_v2.json` feed keeps the payload-specific text in `original_description`; its display `description` follows `⭐ stars · 📥 downloads · 🕒 short date | original description`. Missing metrics are shown as `Unknown`, and a separate Firmware field is not appended to the PLDMGR display line. Compatibility notes remain in the original description only when supported by source evidence. The generated `changelog.json` records additions, updates, and removals from the latest successful comparison.
 
 
 The workflow publishes these JSON files:
