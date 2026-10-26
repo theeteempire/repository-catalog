@@ -286,7 +286,7 @@
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-26T03:14:33Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "ps5-debugger",
@@ -550,7 +550,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-26T13:15:28Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "TitaniaPy",
@@ -983,7 +983,7 @@
       "open_issues_count": 22,
       "repository_updated_at": "2026-05-04T03:14:05Z",
       "last_update_days": 305,
-      "last_update_months": 10.0
+      "last_update_months": 10
     },
     {
       "name": "exfat2ampr",
@@ -1051,7 +1051,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-13T19:50:34Z",
       "last_update_days": 30,
-      "last_update_months": 1.0
+      "last_update_months": 1
     },
     {
       "name": "FGG-Unpack",
@@ -1810,7 +1810,7 @@
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-26T16:29:52Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "wings-app",
@@ -1900,7 +1900,7 @@
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-26T14:18:48Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "ps5-doom",
@@ -2192,7 +2192,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-26T00:47:12Z",
       "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "fceummPS5",
@@ -2342,7 +2342,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-26T13:53:31Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "PS5-Custom-Tool-Manager-",
@@ -2624,7 +2624,7 @@
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-26T16:49:30Z",
       "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "Spectrum Library",
@@ -3193,7 +3193,7 @@
       "open_issues_count": 42,
       "repository_updated_at": "2026-10-26T19:56:55Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "EVO-PLAYER-PS5",
@@ -4198,7 +4198,7 @@
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-26T07:15:51Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "PS5 Homebrew UI",
@@ -4417,7 +4417,7 @@
       "open_issues_count": 10,
       "repository_updated_at": "2026-10-25T16:49:29Z",
       "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "Prospero Menu",
@@ -4535,15 +4535,15 @@
     },
     {
       "name": "PS5 Web Browser Fullscreen",
-      "description": "PS5 payload that opens the built-in web browser in fullscreen 1920×1080 while preserving normal controller input and localhost access. Requires a supported jailbroken PS5 and an ELF loader on port 9021. The only verified release at catalog check is the prerelease test build; firmware compatibility has not been independently verified.",
+      "description": "PS5 payload that opens the built-in web browser in fullscreen 1920×1080 while preserving normal controller input and localhost access. Requires a supported jailbroken PS5 and an ELF loader on port 9021. The prerelease test notes report author testing on firmware 4.03, 12.20 and 13.60; this has not been independently verified.",
       "repository_url": "https://github.com/owendswang/ps5-web-browser-fullscreen",
       "category": "Utilities & Tools",
       "author": "owendswang",
       "version": "test",
       "last_update": "2026-10-26",
       "payload_available": true,
-      "payload_filename": "web-browser-restore-test0.elf",
-      "payload_url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-restore-test0.elf",
+      "payload_filename": "web-browser-fullscreen-test0.elf",
+      "payload_url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-fullscreen-test0.elf",
       "restore_payload_filename": "web-browser-restore-test0.elf",
       "restore_payload_url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-restore-test0.elf",
       "release_url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/tag/test",
@@ -4554,7 +4554,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-26T13:13:57Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "ps5-homebrew-catalog",
@@ -4947,7 +4947,7 @@
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-26T13:16:31Z",
       "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "PS5LM",
@@ -4989,7 +4989,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-26T06:13:45Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "MacheteSVG-PS5-Save-Manager",
@@ -5088,7 +5088,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-26T01:22:00Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "ps5-security-research",
@@ -5174,7 +5174,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-26T10:51:26Z",
       "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "ps5-custom-payloads",
@@ -5195,7 +5195,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-26T08:59:29Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "KytyPS5",
