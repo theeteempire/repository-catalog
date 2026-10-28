@@ -477,7 +477,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-28T06:42:19Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "ps5-ezremote-server",
@@ -558,7 +558,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-27T23:30:46Z",
       "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "TitaniaPy",
@@ -757,7 +757,7 @@
       "open_issues_count": 22,
       "repository_updated_at": "2026-10-28T10:52:43Z",
       "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "Folder-updater-for-itsplk-PS5-Payloads-Mirror",
@@ -1426,7 +1426,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-05-29T03:44:14Z",
       "last_update_days": 152,
-      "last_update_months": 5.0
+      "last_update_months": 5
     },
     {
       "name": "universe",
@@ -1818,7 +1818,7 @@
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-28T07:51:56Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "wings-app",
@@ -2094,7 +2094,7 @@
       "open_issues_count": 7,
       "repository_updated_at": "2026-10-28T01:44:42Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "PIZZA-HEN",
@@ -2399,7 +2399,7 @@
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-28T04:14:21Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "NX-Controller-Tester",
@@ -2459,7 +2459,7 @@
       "open_issues_count": 14,
       "repository_updated_at": "2026-10-27T19:11:31Z",
       "last_update_days": 30,
-      "last_update_months": 1.0
+      "last_update_months": 1
     },
     {
       "name": "ps5debug-NG",
@@ -2632,7 +2632,7 @@
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-28T07:53:40Z",
       "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "Spectrum Library",
@@ -3043,7 +3043,7 @@
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-27T12:16:47Z",
       "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "pico8-ps5",
@@ -3359,7 +3359,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-29T02:29:36Z",
       "last_update_days": 29,
-      "last_update_months": 1.0
+      "last_update_months": 1
     },
     {
       "name": "unofficial-stremio-ps5-port",
@@ -3626,7 +3626,7 @@
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-28T11:27:54Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "PS5SX2",
@@ -3763,7 +3763,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-06T17:42:27Z",
       "last_update_days": 60,
-      "last_update_months": 2.0
+      "last_update_months": 2
     },
     {
       "name": "psp5",
@@ -4407,7 +4407,7 @@
     },
     {
       "name": "PS5 Linux Loader (soniciso1)",
-      "description": "PS5 Linux loader maintained by soniciso1; latest checked release v2026.10.22-all11-13 includes ps5-linux-loader.elf. Separate from ps5-linux/ps5-linux-loader.",
+      "description": "PS5 Linux loader maintained by soniciso1. Latest release 10.xx-support (2026-10-25) provides ps5-linux-loader-10-13-20261025.elf; release notes specify 10.xx support for PS5 Fat/Slim, not Pro. Keep this repository distinct from ps5-linux/ps5-linux-loader.",
       "repository_url": "https://github.com/soniciso1/ps5-linux-loader",
       "category": "Linux & Boot",
       "author": "soniciso1",
@@ -4422,7 +4422,8 @@
       "open_issues_count": 15,
       "repository_updated_at": "2026-10-25T16:49:29Z",
       "last_update_days": 3,
-      "last_update_months": 0.1
+      "last_update_months": 0.1,
+      "release_url": "https://github.com/soniciso1/ps5-linux-loader/releases/tag/10.xx-support"
     },
     {
       "name": "Prospero Menu",
@@ -4492,7 +4493,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-27T23:31:52Z",
       "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "PS5 KEXP",
@@ -4659,7 +4660,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-28T12:09:50Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "ghostldr",
@@ -4758,7 +4759,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-28T10:11:53Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "pkg-stream-delivery",
@@ -4805,7 +4806,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-28T09:43:00Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "tmp_lap",
@@ -4925,7 +4926,7 @@
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-28T10:49:47Z",
       "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "JamesPond2RobocodRecomp",
@@ -5123,7 +5124,7 @@
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-28T04:40:06Z",
       "last_update_days": 0,
-      "last_update_months": 0.0
+      "last_update_months": 0
     },
     {
       "name": "KytyPS5",

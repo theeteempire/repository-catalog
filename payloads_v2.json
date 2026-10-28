@@ -25,7 +25,7 @@
       "download_count": 323,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions"
     },
     {
@@ -47,7 +47,7 @@
       "download_count": 2253,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Installs WebKit Autoloader on homescreen (FW 7.00-13.60)"
     },
     {
@@ -69,7 +69,7 @@
       "download_count": 1523,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)"
     },
     {
@@ -91,7 +91,7 @@
       "download_count": 237,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "A toolkit for working with PS5 game dumps"
     },
     {
@@ -115,7 +115,7 @@
       "download_count": 3121,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles."
     },
     {
@@ -757,7 +757,7 @@
       "download_count": 43,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Downloads official, unmodified game updates for games already installed on the console. Includes clearer download failure diagnostics and marks sideloaded apps so bulk updates leave them unchanged."
     },
     {
@@ -889,7 +889,7 @@
       "download_count": 23,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Disc daemon ELF accompanying SwanStationPS5, a PS1 emulator for jailbroken PS5."
     },
     {
@@ -1133,27 +1133,27 @@
       "original_description": "Installer ELF for the PS5 Linux Autoloader project."
     },
     {
-      "name": "PS5 Linux Loader (soniciso1) · NEW",
+      "name": "PS5 Linux Loader (soniciso1)",
       "filename": "ps5-linux-loader-10-13-20261025.elf",
       "url": "https://github.com/soniciso1/ps5-linux-loader/releases/download/10.xx-support/ps5-linux-loader-10-13-20261025.elf",
       "source": "https://github.com/soniciso1/ps5-linux-loader/releases",
       "source_direct": "https://github.com/soniciso1/ps5-linux-loader/releases/download/10.xx-support/ps5-linux-loader-10-13-20261025.elf",
-      "description": "⭐ 274 · 📥 840 · 🕒 25 Oct 26 | Direct ELF asset from soniciso1's PS5 Linux Loader release; separate from the ps5-linux/ps5-linux-loader project.",
+      "description": "⭐ 274 · 📥 893 · 🕒 25 Oct 26 | Direct ELF asset from soniciso1's PS5 Linux Loader release. Release notes specify 10.xx support for PS5 Fat/Slim, not Pro; separate from ps5-linux/ps5-linux-loader.",
       "version": "10.xx-support",
       "last_update": "2026-10-25",
       "category": "Linux & Boot",
-      "id": "ps5-linux-loader-soniciso1-ps5-linux-loader-10-13-20261025-7429a5a2",
+      "id": "ps5-linux-loader-soniciso1-10.xx-support",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "checksum": "17679bd43e5435bd407802b5036399a2b961e6845a726dd3b1919f0a5a5af8e6",
       "first_seen": "2026-10-25",
       "github_stars": 274,
       "open_issues_count": 15,
       "repository_updated_at": "2026-10-25T16:49:29Z",
-      "download_count": 840,
+      "download_count": 893,
       "download_count_source": "github_release_asset",
       "last_update_days": 3,
       "last_update_months": 0.1,
-      "original_description": "Direct ELF asset from soniciso1's PS5 Linux Loader release; separate from the ps5-linux/ps5-linux-loader project."
+      "original_description": "Direct ELF asset from soniciso1's PS5 Linux Loader release. Release notes specify 10.xx support for PS5 Fat/Slim, not Pro; this project is separate from ps5-linux/ps5-linux-loader."
     },
     {
       "name": "Prospero Menu",
@@ -1219,7 +1219,7 @@
       "download_count": 68,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Direct ELF release asset for PS5 ELF Loader (elfldr)."
     },
     {
@@ -1263,7 +1263,7 @@
       "download_count": 385,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Direct ELF release asset for HYPERHEN v0.9.2."
     },
     {
@@ -1726,7 +1726,7 @@
       "download_count": 13,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "## New:\r\nCreated a new payload called \"ezRemote Loader\". It is a striped download version of [websrv](https://github.com/ps5-payload-dev/websrv) payload by John Törnblom. It only retains the code for loading a big app. It's adapted to be an installer, auto updater and launcher for the ezRemote Client app and intended to be used in Payload Manager. With this payload, you don't need websrv anymore.\r\n\r\nFor new and current users , you just need to add \"ezRemote Loader\" to Payload Manager and launch it. It will do everything for you ie. download/update the software and install it to the correct folder and launch it.\r\n\r\n#### Note: You can still continue to use \"Ps5_ezRemote_Client_2.00.pkg\" and launch the app via websrv, but you will have to manually update.\r\n\r\n## Other changes:\r\n - Rebuilt wit latest SDK that adds support for 14.00 and 14.10 firmwares\r\n - [make all client poolable and with different idle timeout](https://github.com/cy33hc/ps5-ezremote-server/commit/ddf871dd7a1714d5fbaf4d2eb72fdd6fef1f6987)\r\n - [make session based client idle timeout to 5 and http clients 7 days](https://github.com/cy33hc/ps5-ezremote-server/commit/2d46fc0d35359c19c3c22f9f2ecf3315f02e7bc7)\r\n - [minor tweak to splitfile](https://github.com/cy33hc/ps5-ezremote-client/commit/d414dae57ac0c031e7ce334f75a05e9fac266619)\r\n - [add loader payload for auto install/update and launcher](https://github.com/cy33hc/ps5-ezremote-client/commit/f7df36b3f094d83671a749ab762c422655e0aa56)"
     },
     {
@@ -2451,7 +2451,7 @@
       "download_count": 1779,
       "download_count_source": "github_release_asset",
       "last_update_days": 152,
-      "last_update_months": 5.0,
+      "last_update_months": 5,
       "original_description": "Patch PS4 SDK + PS5 Update version in kernel data to `99.99` without hardcoded offsets."
     },
     {
@@ -2562,7 +2562,7 @@
       "download_count": 886,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automated WebKit payload loader for exploited PS5 consoles. The latest release includes a PS5 installer ELF and separate Windows/Python host tools."
     },
     {
@@ -3116,7 +3116,7 @@
       "download_count": 10,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Scan, identify, organize, and transfer your PS1-PS5 & Vita game library (Windows, macOS, Linux), with a bundled PS5 payload for installs, cheats, saves, and fan control"
     },
     {
@@ -3138,7 +3138,7 @@
       "download_count": 11,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Scan, identify, organize, and transfer your PS1-PS5 & Vita game library (Windows, macOS, Linux), with a bundled PS5 payload for installs, cheats, saves, and fan control"
     },
     {
@@ -3160,7 +3160,7 @@
       "download_count": 45363,
       "download_count_source": "github_release_asset",
       "last_update_days": 30,
-      "last_update_months": 1.0,
+      "last_update_months": 1,
       "original_description": "All-In-One manager for your PS5!"
     },
     {
@@ -3777,7 +3777,7 @@
       "download_count": 150,
       "download_count_source": "github_release_asset",
       "last_update_days": 29,
-      "last_update_months": 1.0,
+      "last_update_months": 1,
       "original_description": "Integração nativa kstuff-lite + A53/PPR +backport em um único ELF, direto no Código-fonte, do Kstuff créditos e compilação documentados."
     },
     {
@@ -4043,7 +4043,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "## PS5 Network Mounting v1.1.2\n\n### Fixes and improvements\n- Bind the control server to all interfaces by default and report reachable console URLs for LAN clients.\n- Verify a running instance before treating a port conflict as a relaunch; unrelated listeners are reported as errors.\n- Launch or refresh the console browser with retry handling, and expose browser status and a manual launch action in the control panel.\n- Create a home-screen shortcut with an embedded PS5 launcher, metadata, and icon; request a ShadowMountPlus scan when its API is available.\n- Recover stale FUSE mounts and clean up active mounts when the payload exits.\n\n### Included artifact\n- `PS5NetworkMounting.elf`: PS5 payload built with the organization-maintained SDK and NFS/SMB FUSE adapters."
     },
     {
@@ -4131,7 +4131,7 @@
       "download_count": 9445,
       "download_count_source": "github_release_asset",
       "last_update_days": 60,
-      "last_update_months": 2.0,
+      "last_update_months": 2,
       "original_description": "PS5 payload with a console web interface for selecting per-game or global APR Emu (libSceAmpr.sprx) versions; requires a jailbroken PS5 and ShadowMountPlus for image-installed games. Latest checked release v2.0.6."
     },
     {
@@ -4424,7 +4424,7 @@
       "download_count": 1,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Let Claude (or any MCP client) see a jailbroken PS5's screen and press its buttons: virtual-controller payload + MCP server"
     },
     {
@@ -4447,7 +4447,7 @@
       "download_count": 1,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Let Claude (or any MCP client) see a jailbroken PS5's screen and press its buttons: virtual-controller payload + MCP server"
     },
     {
@@ -4470,7 +4470,7 @@
       "download_count": 3,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "A PS5 homebrew app to navigate and play videos from Beeld en Geluid Schatkamer"
     },
     {
@@ -4493,7 +4493,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4516,7 +4516,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4539,7 +4539,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4562,7 +4562,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4585,7 +4585,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4608,7 +4608,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4631,7 +4631,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4654,7 +4654,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4677,7 +4677,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4700,7 +4700,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4723,7 +4723,7 @@
       "download_count": 0,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Automatically discovered PS5-related GitHub repository."
     },
     {
@@ -4769,7 +4769,7 @@
       "download_count": 66,
       "download_count_source": "github_release_asset",
       "last_update_days": 1,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "PS5 homebrew: converts PS5 and PS4 debug .pkg files into ShadowMountPlus folders or images on the console. Downloads: desstannsoftware.com"
     },
     {
@@ -4861,7 +4861,7 @@
       "download_count": 3,
       "download_count_source": "github_release_asset",
       "last_update_days": 0,
-      "last_update_months": 0.0,
+      "last_update_months": 0,
       "original_description": "Watch, hear and record a jailbroken PS5 on your Windows PC with low latency."
     }
   ]
