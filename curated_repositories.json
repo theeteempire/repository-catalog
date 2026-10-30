@@ -592,6 +592,26 @@
       "release_url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/tag/test",
       "prerelease": true,
       "checksum": "14db2927e2b5e157c393f35f749ecd05c88d76fe336ce307b0f7b919fd506d24"
+    },
+    {
+      "name": "PC5",
+      "description": "PS5 homebrew launcher for installing and launching users' own Windows PC games from USB, with a cover-based library, per-game settings, DualSense support, and game updates. Built on prospero-win; latest verified release v1.8.2 (2026-10-27) is distributed as PPSA11018.zip, not a standalone ELF payload. Compatibility varies by game; games requiring store launchers, online DRM, anti-cheat, or kernel drivers are unsupported.",
+      "repository_url": "https://github.com/bornaradusin/PC5",
+      "category": "Gaming & UI",
+      "author": "bornaradusin",
+      "payload_available": false,
+      "version": "v1.8.2",
+      "last_update": "2026-10-27",
+      "package_filename": "PPSA11018.zip",
+      "package_url": "https://github.com/bornaradusin/PC5/releases/download/v1.8.2/PPSA11018.zip"
+    },
+    {
+      "name": "prospero-win",
+      "description": "Experimental Windows compatibility runtime for homebrew-enabled PS5, based on Wine with a custom x86 translator, DXVK/Vulkan, Mesa Zink, DualSense and keyboard/mouse support. Distributed as a PS5 application ZIP rather than a standalone ELF payload; firmware compatibility depends on the jailbreak, loader, and bundled runtime checks.",
+      "repository_url": "https://github.com/mpereiraesaa/prospero-win",
+      "category": "Linux & Development",
+      "author": "mpereiraesaa",
+      "payload_available": false
     }
   ]
 }
