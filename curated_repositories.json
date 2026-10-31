@@ -612,6 +612,14 @@
       "category": "Linux & Development",
       "author": "mpereiraesaa",
       "payload_available": false
+    },
+    {
+      "name": "PS5 Bazzite Deck",
+      "description": "Bazzite-based PS5 Linux image that boots directly into Steam Gaming Mode, with KDE desktop access. Runs from a USB drive through rmux's PS5 Linux loader without modifying the PS5 system; supports original PS5, Slim and PS5 Pro with hardware-dependent HDMI and Wi-Fi/Bluetooth features. Requires compatible loader firmware; see the project README for prerequisites and model-specific limitations.",
+      "repository_url": "https://github.com/VivaLaVent/ps5-bazzite-deck",
+      "category": "Linux & Development",
+      "author": "VivaLaVent",
+      "payload_available": false
     }
   ]
 }
