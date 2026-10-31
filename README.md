@@ -123,6 +123,12 @@ Automated discovery cannot guarantee complete coverage. Some repositories may no
 
 A direct download link does not guarantee that a file is safe, maintained, or suitable for a particular environment. Review the original project's documentation and release notes before using any downloaded asset. This catalog organizes public project data; it does not modify asset binaries or independently audit their contents.
 
+## Working with OpenCode
+
+This repository includes a root-level `AGENTS.md` that OpenCode reads automatically when the project is opened. It defines repository research, deduplication, payload classification, validation, GitHub Actions, and publication rules. Supporting handoff documentation is available in [docs/OPENCODE_SETUP.md](docs/OPENCODE_SETUP.md), [docs/PROJECT_CONTEXT.md](docs/PROJECT_CONTEXT.md), [docs/WORKFLOW.md](docs/WORKFLOW.md), [docs/KNOWN_PROJECTS.md](docs/KNOWN_PROJECTS.md), and [docs/PUBLISHING.md](docs/PUBLISHING.md).
+
+OpenCode must authenticate to GitHub independently; ChatGPT's connected GitHub permissions and credentials are not transferred. Never store access tokens or secrets in this repository.
+
 ## Contributing
 
 Contributions are welcome. You can report missing entries, suggest improvements to discovery criteria or validation, or propose changes to the catalog format. Include the original source URL and enough context to explain the proposed change, and avoid unofficial or misleading download links.
