@@ -619,7 +619,9 @@
       "repository_url": "https://github.com/VivaLaVent/ps5-bazzite-deck",
       "category": "Linux & Development",
       "author": "VivaLaVent",
-      "payload_available": false
+      "payload_available": false,
+      "version": "v1.8.4",
+      "last_update": "2026-10-29"
     }
   ]
 }
