@@ -28,6 +28,9 @@ A PS5-focused repository and payload catalog. The project collects configured so
 8. Compatibility notes belong in the original description only when sourced and useful.
 9. Use direct HTTPS individual ELF URLs in the payload feed; a repository or release URL is not a payload download URL.
 10. Preserve stable unique payload IDs, and do not collapse independently sourced assets merely because filenames or display names resemble one another.
+11. The primary payload mirror is authoritative for projects it covers. Optional payload catalogs are failure-tolerant secondary sources: they may add a project that is not represented yet, and they may refresh an identically named entry only when their source date is strictly newer. Foreign `icon_key` values are always dropped because they reference a different icon map.
+12. Repository discovery uses GitHub keyword search plus the `ps5-payload`, `ps5-homebrew`, `ps5-jailbreak`, and `ps5-linux` topics. Automatically discovered repositories are regenerated each run and may drop out when they no longer match; curated records are always retained.
+13. Bluesky public search is a pointer-only social source. A linked repository must pass GitHub existence, archive-status, and PS5-context checks before it is added. Social posts never supply stars, downloads, versions, checksums, or compatibility claims. Reddit returns 403 to unauthenticated requests, X/Twitter requires a paid API, and Discord requires a bot token, so those are not used.
 
 ## Previously handled projects and relationship notes
 The following are historical verified notes from the previous maintenance work. Recheck current upstream README/releases before changing versions or compatibility statements.

@@ -34,6 +34,28 @@ MIRROR_ICONS_URL = (
     "https://raw.githubusercontent.com/itsPLK/ps5-payloads-mirror/"
     "main/icons.json"
 )
+# Additional independent payload catalogs. Each one is optional: a missing,
+# rate-limited, or schema-changed feed is skipped without failing the build.
+EXTRA_PAYLOAD_FEEDS = (
+    "https://raw.githubusercontent.com/RDX-Sci01/PLDMGR_JSON/main/payloads.json",
+)
+# Public, unauthenticated social discovery. Only posts that link to a GitHub
+# repository are used, and every candidate is re-verified through the GitHub API.
+BLUESKY_SEARCH_URL = "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts"
+BLUESKY_QUERIES = (
+    "ps5 payload", "ps5 elf", "ps5 homebrew", "ps5 jailbreak",
+    "etahen", "ps5 linux", "pldmgr",
+)
+BLUESKY_MAX_NEW_REPOSITORIES = 20
+PS5_CONTEXT_TERMS = ("ps5", "playstation 5", "playstation5", "prospero")
+PS5_CAPABILITY_TERMS = (
+    "payload", "homebrew", "jailbreak", "exploit", "etahen", "kstuff",
+    "elf", "prospero", "ps5sdk", "ps5 sdk", "ps5-linux", "ps5 linux",
+    "ps5 tool", "playstation 5",
+)
+GITHUB_REPO_URL_PATTERN = re.compile(
+    r"https?://github\.com/([A-Za-z0-9_.-]+)/([A-Za-z0-9_.-]+)"
+)
 OUT_DIR = Path(".")
 USER_AGENT = "Repository-Catalog/2.1"
 API_ROOT = "https://api.github.com"
@@ -415,6 +437,15 @@ def add_avatar_icon(owner_avatar_url: str, icons: dict[str, str]) -> str:
 
 
 
+def has_ps5_project_context(text: str) -> bool:
+    """Require both a PS5 reference and a payload/homebrew capability signal."""
+    lowered = text.lower()
+    return (
+        any(term in lowered for term in PS5_CONTEXT_TERMS)
+        and any(term in lowered for term in PS5_CAPABILITY_TERMS)
+    )
+
+
 def discover_github_repositories(existing_urls: set[str]) -> list[dict[str, Any]]:
     """Discover additional PS5-related repositories through GitHub repository search."""
     queries = [
@@ -424,14 +455,16 @@ def discover_github_repositories(existing_urls: set[str]) -> list[dict[str, Any]
         'ps5 exploit in:name,description,readme',
         'ps5 elf in:name,description,readme',
         'ps5 in:name,description',
+        # Topic queries reach projects whose description does not repeat the
+        # keywords above; each topic pool is small enough to stay within the
+        # first page of results.
+        'topic:ps5-payload',
+        'topic:ps5-homebrew',
+        'topic:ps5-jailbreak',
+        'topic:ps5-linux',
     ]
     discovered: list[dict[str, Any]] = []
     seen = {u.lower().rstrip("/") for u in existing_urls}
-    capability_terms = (
-        "payload", "homebrew", "jailbreak", "exploit", "etahen", "kstuff",
-        "elf", "prospero", "ps5sdk", "ps5 sdk", "ps5-linux", "ps5 linux",
-        "ps5 tool", "playstation 5"
-    )
     for query in queries:
         endpoint = API_ROOT + "/search/repositories?" + urllib.parse.urlencode({
             "q": query, "sort": "updated", "order": "desc", "per_page": 100, "page": 1
@@ -459,10 +492,8 @@ def discover_github_repositories(existing_urls: set[str]) -> list[dict[str, Any]
             searchable = " ".join([
                 full_name, str(item.get("description") or ""),
                 " ".join(str(t) for t in topics)
-            ]).lower()
-            has_ps5_context = any(term in searchable for term in ("ps5", "playstation 5", "playstation5", "prospero"))
-            has_payload_context = any(term in searchable for term in capability_terms)
-            if not (has_ps5_context and has_payload_context):
+            ])
+            if not has_ps5_project_context(searchable):
                 continue
             seen.add(key)
             discovered.append({
@@ -477,6 +508,193 @@ def discover_github_repositories(existing_urls: set[str]) -> list[dict[str, Any]
             })
     print(f"Additional PS5-related repositories discovered via GitHub Search: {len(discovered)}")
     return discovered
+
+
+def discover_from_bluesky(existing_urls: set[str]) -> list[dict[str, Any]]:
+    """Discover PS5 projects shared on Bluesky through its public search endpoint.
+
+    Social posts are only a pointer: every candidate repository is re-checked
+    through the GitHub API for existence, archive status, and PS5 context before
+    it is added to the index. The whole source is optional and failure-tolerant.
+    """
+    candidates: dict[str, str] = {}
+    for query in BLUESKY_QUERIES:
+        endpoint = BLUESKY_SEARCH_URL + "?" + urllib.parse.urlencode({
+            "q": query, "limit": 50,
+        })
+        try:
+            data = download_json(endpoint)
+        except Exception as exc:
+            print(f"NOTICE: Bluesky discovery query failed ({query}): {exc}", file=sys.stderr)
+            continue
+        posts = data.get("posts") if isinstance(data, dict) else None
+        if not isinstance(posts, list):
+            continue
+        for post in posts:
+            if not isinstance(post, dict):
+                continue
+            record = post.get("record") if isinstance(post.get("record"), dict) else {}
+            text = str(record.get("text") or "")
+            links: list[str] = []
+            facets = record.get("facets") if isinstance(record.get("facets"), list) else []
+            for facet in facets:
+                features = facet.get("features") if isinstance(facet, dict) else None
+                if not isinstance(features, list):
+                    continue
+                for feature in features:
+                    uri = feature.get("uri") if isinstance(feature, dict) else None
+                    if isinstance(uri, str):
+                        links.append(uri)
+            links.extend(match.group(0) for match in GITHUB_REPO_URL_PATTERN.finditer(text))
+            for link in links:
+                match = GITHUB_REPO_URL_PATTERN.match(link.strip())
+                if not match:
+                    continue
+                owner = match.group(1)
+                repository = match.group(2)
+                if repository.lower().endswith(".git"):
+                    repository = repository[:-4]
+                if not owner or not repository:
+                    continue
+                candidates.setdefault(f"{owner}/{repository}".lower(), f"{owner}/{repository}")
+
+    discovered: list[dict[str, Any]] = []
+    seen = {u.lower().rstrip("/") for u in existing_urls}
+    for full_name in candidates.values():
+        if len(discovered) >= BLUESKY_MAX_NEW_REPOSITORIES:
+            break
+        html_url = f"https://github.com/{full_name}"
+        if html_url.lower().rstrip("/") in seen:
+            continue
+        try:
+            data = download_json(f"{API_ROOT}/repos/{full_name}")
+        except Exception as exc:
+            print(f"NOTICE: Bluesky candidate could not be verified ({full_name}): {exc}", file=sys.stderr)
+            continue
+        if not isinstance(data, dict) or data.get("archived") is True:
+            continue
+        topics = data.get("topics") if isinstance(data.get("topics"), list) else []
+        searchable = " ".join([
+            str(data.get("full_name") or full_name),
+            str(data.get("description") or ""),
+            " ".join(str(topic) for topic in topics),
+        ])
+        if not has_ps5_project_context(searchable):
+            continue
+        owner = data.get("owner") if isinstance(data.get("owner"), dict) else {}
+        seen.add(html_url.lower().rstrip("/"))
+        discovered.append({
+            "name": str(data.get("name") or full_name.split("/")[-1]),
+            "description": str(data.get("description") or "Automatically discovered PS5-related GitHub repository."),
+            "repository_url": html_url,
+            "category": "PS5 Auto-discovered",
+            "author": str(owner.get("login") or full_name.split("/")[0]),
+            "_owner_avatar_url": str(owner.get("avatar_url") or ""),
+            "discovery_source": "Bluesky public search",
+            "discovered_at": datetime.now(timezone.utc).date().isoformat(),
+        })
+    print(f"Additional PS5-related repositories discovered via Bluesky: {len(discovered)}")
+    return discovered
+
+
+def load_extra_payload_feeds(
+    feed_urls: tuple[str, ...],
+    payloads: list[dict[str, Any]],
+    seen_payload_urls: set[str],
+    payload_by_repo: dict[str, dict[str, Any]],
+) -> None:
+    """Merge optional payload catalogs without duplicating covered projects.
+
+    Duplicate detection stays URL-first, as required. A record from another
+    catalog that points at a project already represented in the feed never adds
+    a second row for that project; it can only refresh an identically named
+    entry when it carries a strictly newer source date. Icon keys from foreign
+    catalogs are dropped because they reference a different icon map.
+    """
+    covered_repos: set[str] = set()
+    for payload in payloads:
+        for field in ("source", "source_direct"):
+            key = canonical_repo(payload.get(field))
+            if key:
+                covered_repos.add(key.lower())
+
+    added = 0
+    refreshed = 0
+    for feed_url in feed_urls:
+        try:
+            data = download_json(feed_url)
+        except Exception as exc:
+            print(f"NOTICE: optional payload feed unavailable ({feed_url}): {exc}", file=sys.stderr)
+            continue
+        items = data.get("payloads") if isinstance(data, dict) else data
+        if not isinstance(items, list):
+            print(f"NOTICE: optional payload feed has an unexpected schema ({feed_url})", file=sys.stderr)
+            continue
+        for item in items:
+            if not isinstance(item, dict) or not is_direct_asset_url(item.get("url")):
+                continue
+            if not all(isinstance(item.get(key), str) and item[key].strip()
+                       for key in ("name", "filename", "url")):
+                continue
+            url = item["url"].strip()
+            filename = item["filename"].strip()
+            if re.search(r"(?i)(?:^|[-_.])ps4(?:[-_.]|$)", filename):
+                continue
+            if url in seen_payload_urls:
+                continue
+            repo_key = (
+                canonical_repo(item.get("source"))
+                or canonical_repo(item.get("source_direct"))
+                or ""
+            ).lower()
+            candidate = {
+                field: item[field].strip()
+                for field in (
+                    "name", "filename", "description", "last_update", "version",
+                    "category", "checksum",
+                )
+                if isinstance(item.get(field), str) and item[field].strip()
+            }
+            candidate["url"] = url
+            candidate["source_direct"] = url
+            source = item.get("source")
+            candidate["source"] = (
+                source.strip() if isinstance(source, str) and source.strip()
+                else url.split("/releases/", 1)[0] + "/releases"
+            )
+            if repo_key and repo_key in covered_repos:
+                target = next(
+                    (
+                        payload for payload in payloads
+                        if normalize_project_name(payload.get("name"))
+                        == normalize_project_name(candidate.get("name"))
+                        and repo_key in {
+                            str(canonical_repo(payload.get(field)) or "").lower()
+                            for field in ("source", "source_direct")
+                        }
+                    ),
+                    None,
+                )
+                candidate_date = str(candidate.get("last_update") or "")
+                if target is not None and candidate_date > str(target.get("last_update") or ""):
+                    old_url = str(target.get("url") or "")
+                    seen_payload_urls.discard(old_url)
+                    for field in (
+                        "filename", "url", "version", "last_update",
+                        "checksum", "description", "source_direct",
+                    ):
+                        if candidate.get(field):
+                            target[field] = candidate[field]
+                    seen_payload_urls.add(url)
+                    refreshed += 1
+                continue
+            payloads.append(candidate)
+            seen_payload_urls.add(url)
+            if repo_key:
+                covered_repos.add(repo_key)
+                payload_by_repo.setdefault(repo_key, candidate)
+            added += 1
+    print(f"Additional direct ELF payloads from optional feeds: {added} new, {refreshed} refreshed")
 
 
 def load_previous_payloads() -> list[dict[str, Any]]:
@@ -618,11 +836,18 @@ def main() -> int:
             if explicit_payload_fields:
                 target["_curated_payload_overrides"] = explicit_payload_fields
 
-    # Expand beyond the two curated sources: search GitHub for newly created PS5 projects.
-    # Search failures are non-fatal; the curated feeds still update as usual.
+    # Expand beyond the two curated sources: search GitHub for newly created PS5
+    # projects, then check public social posts for projects that have not been
+    # indexed yet. Search failures are non-fatal; the curated feeds still update.
     known_urls = {str(record.get("repository_url") or "").lower().rstrip("/") for record in repositories}
     auto_discovered = discover_github_repositories(known_urls)
     for record in auto_discovered:
+        url_key = str(record.get("repository_url") or "").lower().rstrip("/")
+        if url_key and url_key not in known_urls:
+            repositories.append(record)
+            known_urls.add(url_key)
+    social_discovered = discover_from_bluesky(known_urls)
+    for record in social_discovered:
         url_key = str(record.get("repository_url") or "").lower().rstrip("/")
         if url_key and url_key not in known_urls:
             repositories.append(record)
@@ -679,7 +904,9 @@ def main() -> int:
         for field in ("source", "source_direct"):
             key = canonical_repo(item.get(field))
             if key:
-                payload_by_repo.setdefault(key.lower(), item)
+                # Keep a reference to the emitted copy, so release refreshes update
+                # the published record rather than the temporary upstream object.
+                payload_by_repo.setdefault(key.lower(), payloads[-1])
 
     # Merge explicitly curated direct ELF assets so manual additions survive scheduled rebuilds.
     curated_payload_path = OUT_DIR / "curated_payloads.json"
@@ -719,6 +946,11 @@ def main() -> int:
             key = canonical_repo(curated_item.get(field))
             if key:
                 payload_by_repo.setdefault(key.lower(), curated_item)
+
+    # Merge independent community payload catalogs. This is an optional source:
+    # the mirror remains authoritative for the primary feed, while these feeds add
+    # newly published projects and can refresh an entry when they are strictly newer.
+    load_extra_payload_feeds(EXTRA_PAYLOAD_FEEDS, payloads, seen_payload_urls, payload_by_repo)
 
     # Only poll GitHub Releases for curated projects and repositories that do not
     # already have a direct ELF in the upstream mirror. The mirror refreshes every

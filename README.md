@@ -104,7 +104,15 @@ The icon feed is keyed by SHA-256 hashes. The scheduled workflow rebuilds `icons
 
 ## Sources and discovery scope
 
-The catalog combines upstream community data with automated discovery through the GitHub Repository Search API. The exact collection scope depends on the source lists and search terms configured in the project. Search results may vary with repository names, descriptions, README content, indexing, and API limits.
+The catalog combines several kinds of upstream data:
+
+- **Repository databases and curated records** — the primary repository index and hand-verified overrides.
+- **Payload mirrors and compatible payload catalogs** — the primary `itsPLK/ps5-payloads-mirror` feed plus optional community catalogs such as `RDX-Sci01/PLDMGR_JSON`. Optional feeds are failure-tolerant: if one is unavailable or changes schema, the run continues without it. A record from an optional feed never creates a second row for a project already represented in the feed; it can only refresh an identically named entry when it carries a strictly newer source date.
+- **GitHub release metadata** — direct `.elf` release assets are discovered from project releases, and version, date, checksum, star, and download metadata are refreshed only when the source provides them.
+- **GitHub Repository Search** — keyword queries plus the `ps5-payload`, `ps5-homebrew`, `ps5-jailbreak`, and `ps5-linux` topics discover repositories that the source databases do not list yet.
+- **Bluesky public search** — public posts are scanned for GitHub repository links. Each linked repository is re-verified through the GitHub API for existence, archive status, and PS5 context before it can be added. Social discovery is capped per run and is skipped entirely if the public endpoint is unavailable.
+
+The exact collection scope depends on the source lists and search terms configured in the project. Search results may vary with repository names, descriptions, README content, topics, indexing, and API limits. Social posts are treated as pointers only; they are never used as evidence for stars, downloads, versions, or compatibility.
 
 Finding a repository does not automatically mean that it has a valid downloadable asset to publish. Private repositories are not included in public discovery.
 
@@ -120,6 +128,8 @@ Check the [latest workflow runs](https://github.com/theeteempire/repository-cata
 ## Limitations
 
 Automated discovery cannot guarantee complete coverage. Some repositories may not appear in search results, and some releases may not provide individually downloadable assets or use a distribution method the generator can interpret. Updates may also be delayed if GitHub's API or an upstream source is temporarily unavailable.
+
+Because discovery depends on current search results and topic pages, an automatically discovered repository can drop out of a later build when it no longer matches those criteria. Curated records are always retained. A payload mirror can also lag behind an upstream release; optional payload feeds can supply a newer asset, but the mirror remains authoritative for projects it covers.
 
 A direct download link does not guarantee that a file is safe, maintained, or suitable for a particular environment. Review the original project's documentation and release notes before using any downloaded asset. This catalog organizes public project data; it does not modify asset binaries or independently audit their contents.
 
