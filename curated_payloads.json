@@ -257,7 +257,7 @@
       "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf",
       "source": "https://github.com/itsPLK/ps5-payload-manager/releases",
       "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf",
-      "description": "Web-based PS5 payload manager; latest checked direct ELF release asset.",
+      "description": "Web-based PS5 payload manager dashboard to import, manage, and autoload payloads; recommended with a PS5 autoloader.",
       "version": "v0.6.3",
       "last_update": "2026-10-19",
       "category": "Utilities & Tools",

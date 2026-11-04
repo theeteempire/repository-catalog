@@ -354,7 +354,7 @@
     },
     {
       "name": "PS5 Payload Manager (PLDMGR)",
-      "description": "Web-based PS5 payload manager; latest checked release v0.6.3 includes pldmgr_v0.6.3.elf.",
+      "description": "Web-based PS5 payload manager dashboard to import, manage, and autoload payloads; recommended with a PS5 autoloader; latest checked release v0.6.3 includes pldmgr_v0.6.3.elf.",
       "repository_url": "https://github.com/itsPLK/ps5-payload-manager",
       "category": "Utilities & Tools",
       "author": "itsPLK",
