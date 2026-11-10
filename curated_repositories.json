@@ -615,13 +615,29 @@
     },
     {
       "name": "PS5 Bazzite Deck",
-      "description": "Bazzite-based PS5 Linux image that boots directly into Steam Gaming Mode, with KDE desktop access. Runs from a USB drive through rmux's PS5 Linux loader without modifying the PS5 system; supports original PS5, Slim and PS5 Pro with hardware-dependent HDMI and Wi-Fi/Bluetooth features. Requires compatible loader firmware; see the project README for prerequisites and model-specific limitations.",
+      "description": "Bazzite (SteamOS-style Linux) image for the PS5 with Steam Gaming Mode and a KDE desktop, shipped as a single bootc image that updates in place with 'sudo bootc upgrade'. Runs from a USB drive or the M.2 slot and leaves the PS5 system untouched; start it with the project's bazzite-bootc-loader ELF, which is based on the ps5-linux-loader project. Use the release marked Latest (pre-releases are test builds); install prerequisites and per-model limitations are on wiki.ps5-linux.eu.",
       "repository_url": "https://github.com/VivaLaVent/ps5-bazzite-deck",
       "category": "Linux & Development",
       "author": "VivaLaVent",
+      "payload_available": true,
+      "payload_filename": "bazzite-bootc-loader-v2.10.elf",
+      "payload_url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v2.10/bazzite-bootc-loader-v2.10.elf",
+      "version": "v2.10",
+      "last_update": "2026-11-10",
+      "checksum": "41fd9d2484f7430d790190d85e645403d71134585dc7611b1ad9fc8d3d4abf66"
+    },
+    {
+      "name": "EglantinePS5 NUP",
+      "description": "Experimental Nintendo Switch 1 and Switch 2 emulator for jailbroken PS5, built on the Eglantine (Eden) core with NUP support so games, updates and DLC run from folders or single .nup files. Reports console testing on firmware 13.60 launched with ShadowMountPlus, with other users on 11.40 and 11.60. Distributed as a ZIP package, not a direct ELF; no games, keys or firmware are included.",
+      "repository_url": "https://github.com/viejunerd/Eglantine-PS5-",
+      "category": "Emulators",
+      "author": "viejunerd",
       "payload_available": false,
-      "version": "v1.8.4",
-      "last_update": "2026-10-29"
+      "version": "v1.219.029",
+      "last_update": "2026-11-10",
+      "package_filename": "EglantinePS5-v1.219.029.zip",
+      "package_url": "https://github.com/viejunerd/Eglantine-PS5-/releases/download/v1.219.029/EglantinePS5-v1.219.029.zip",
+      "package_checksum": "807cb84530e12607ea8a0a9a3154b78bd06ce7e394e1d0e5ff070dcece230f29"
     }
   ]
 }

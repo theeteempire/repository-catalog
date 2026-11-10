@@ -349,6 +349,19 @@
       "category": "Utilities & Tools",
       "checksum": "5f47690baa36193fe7426225a142681df629196ad84e72b1484ec006d025c05b",
       "id": "ps5-web-browser-fullscreen-restore-test0"
+    },
+    {
+      "name": "PS5 Bazzite Deck",
+      "filename": "bazzite-bootc-loader-v2.10.elf",
+      "url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v2.10/bazzite-bootc-loader-v2.10.elf",
+      "source": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases",
+      "source_direct": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v2.10/bazzite-bootc-loader-v2.10.elf",
+      "description": "Bazzite (SteamOS-style Linux) image for the PS5 with Steam Gaming Mode and a KDE desktop, shipped as a single bootc image that updates in place with 'sudo bootc upgrade'. Runs from a USB drive or the M.2 slot and leaves the PS5 system untouched; this ELF is the loader that starts it and is based on the ps5-linux-loader project. Use the release marked Latest (pre-releases are test builds); install prerequisites and per-model limitations are on wiki.ps5-linux.eu.",
+      "last_update": "2026-11-10",
+      "version": "v2.10",
+      "category": "Loaders",
+      "checksum": "41fd9d2484f7430d790190d85e645403d71134585dc7611b1ad9fc8d3d4abf66",
+      "id": "ps5-bazzite-deck-bootc-loader-v2.10"
     }
   ]
 }
