@@ -1,9 +1,9 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-11-10T20:29:54+00:00",
+  "generated_at": "2026-11-10T20:48:23+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 612,
+  "count": 614,
   "payload_count": 348,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
@@ -426,7 +426,7 @@
       "icon_key": "32327dae279a917fff3b1d7a501cea417df053f24b9890d7f6c60eb3d536ef51",
       "github_stars": 141,
       "open_issues_count": 39,
-      "repository_updated_at": "2026-11-10T20:22:03Z",
+      "repository_updated_at": "2026-11-10T20:35:52Z",
       "last_update_days": 14,
       "last_update_months": 0.5
     },
@@ -2056,7 +2056,7 @@
       "icon_key": "072602be9ac6351b9040a374ef5df22d8cfacc5fb28407b10afaf2eedee149ff",
       "github_stars": 75,
       "open_issues_count": 10,
-      "repository_updated_at": "2026-11-10T20:22:37Z"
+      "repository_updated_at": "2026-11-10T20:25:38Z"
     },
     {
       "name": "PS5-File-Explorer",
@@ -2708,8 +2708,8 @@
       "author": "meta",
       "icon_key": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e",
       "github_stars": 28219,
-      "open_issues_count": 464,
-      "repository_updated_at": "2026-11-10T19:31:31Z"
+      "open_issues_count": 463,
+      "repository_updated_at": "2026-11-10T20:36:40Z"
     },
     {
       "name": "HYPERHEN",
@@ -2757,7 +2757,7 @@
       "author": "mihawk-99",
       "icon_key": "251c998dd037925609ea12083787760381406e604080ac96e2cf9bd908238394",
       "github_stars": 388,
-      "open_issues_count": 52,
+      "open_issues_count": 53,
       "repository_updated_at": "2026-11-08T13:11:26Z"
     },
     {
@@ -3075,7 +3075,7 @@
       "icon_key": "e97910fcda346d6035f622df04b24b074eaa8f77ba7026cfc7cbb8cd86e73db4",
       "github_stars": 101,
       "open_issues_count": 4,
-      "repository_updated_at": "2026-11-10T20:24:42Z"
+      "repository_updated_at": "2026-11-10T20:44:09Z"
     },
     {
       "name": "PS5-Custom-Tool-Manager-",
@@ -3105,7 +3105,7 @@
       "icon_key": "1a18e5217d16816970dd7ff3333bf71cd87f5657fcedfb91df401e7df54664ce",
       "github_stars": 14,
       "open_issues_count": 3,
-      "repository_updated_at": "2026-11-10T18:52:40Z"
+      "repository_updated_at": "2026-11-10T20:39:48Z"
     },
     {
       "name": "kura",
@@ -3180,7 +3180,7 @@
       "payload_filename": "ProsperoMgr.elf",
       "payload_url": "https://github.com/notmaj0r/ProsperoMgr/releases/download/v1.2/ProsperoMgr.elf",
       "checksum": "127394cc4f1ac7347fea509e010e80bab7b5ee13d820665474cdc3928d173bce",
-      "github_stars": 328,
+      "github_stars": 329,
       "open_issues_count": 8,
       "repository_updated_at": "2026-11-09T00:31:51Z",
       "last_update_days": 1,
@@ -3448,7 +3448,7 @@
       "payload_url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.5/ps5upload-12.4.5.elf",
       "checksum": "72fef6dcd299aa927b3df800dcc13f166f84eef7b8e403004cb6f4c33ece0b77",
       "github_stars": 1159,
-      "open_issues_count": 3,
+      "open_issues_count": 1,
       "repository_updated_at": "2026-11-10T20:14:23Z",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -3870,7 +3870,7 @@
       "category": "Repositories",
       "author": "quer3q",
       "icon_key": "5eac949bcf60902313172bbcefb56f32429b483e6722bbf5390070116a2dac51",
-      "github_stars": 151,
+      "github_stars": 152,
       "open_issues_count": 15,
       "repository_updated_at": "2026-11-10T18:08:17Z"
     },
@@ -3887,7 +3887,7 @@
       "payload_filename": "ps5-dump-forge_v0.5.5.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.5.elf",
       "checksum": "858b8ae2954341a3389e4a9f998c6a57d01bc4e4fb8f01a71c41719001c30be7",
-      "github_stars": 335,
+      "github_stars": 336,
       "open_issues_count": 3,
       "repository_updated_at": "2026-11-09T19:55:17Z",
       "last_update_days": 1,
@@ -4859,7 +4859,7 @@
       "checksum": "41fd9d2484f7430d790190d85e645403d71134585dc7611b1ad9fc8d3d4abf66",
       "icon_key": "f07c0f6af10677b0c50ba30be549cc0c7a9945884365baf55631390b4edd5d8a",
       "github_stars": 534,
-      "open_issues_count": 8,
+      "open_issues_count": 9,
       "repository_updated_at": "2026-11-10T17:06:25Z",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -5681,7 +5681,7 @@
       "author": "Darkatek7",
       "icon_key": "11b41a0e12e632946879b107487948847ce675cf31430e16de5e7f5a0394998d",
       "github_stars": 20,
-      "open_issues_count": 11,
+      "open_issues_count": 12,
       "repository_updated_at": "2026-11-10T17:01:33Z"
     },
     {
@@ -6430,7 +6430,7 @@
       "icon_key": "6986b184787075bf5c998f31c0748129fc6058b40ce9b21c5ceebd3a512234d8",
       "github_stars": 18,
       "open_issues_count": 7,
-      "repository_updated_at": "2026-11-10T20:23:45Z"
+      "repository_updated_at": "2026-11-10T20:39:31Z"
     },
     {
       "name": "MedievalTennis",
@@ -6630,7 +6630,7 @@
       "icon_key": "5230f5ddd8a55b9fbe459ee63278a9edde35b9b56c15c94dbe15f3f41f3737d5",
       "github_stars": 2,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-10T15:14:02Z"
+      "repository_updated_at": "2026-11-10T20:36:26Z"
     },
     {
       "name": "Byepervisor Reborn",
@@ -7038,6 +7038,22 @@
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
+      "name": "Hookshot PS5",
+      "description": "Native PS5 port of Hookshot, the static recompilation of the Nintendo Switch 2 version of The Legend of Zelda: Ocarina of Time, running as title PPSA99024 on Mesa RADV from the author's PS5_Vulkan and PS5_PayloadSDK projects. Built on a Linux PC (or WSL 2) from your own game dump at program 0400486024DEC000 with update v131072; the only release is a beta that ships build scripts, not a ready-made title, and no game files or keys are included. The author reports a first boot on a PS5 Pro at 33-40 fps in Kokiri Forest, while Hyrule Castle Town can still run out of memory.",
+      "repository_url": "https://github.com/mihawk-99/PS5_Hookshot",
+      "category": "Gaming & Media",
+      "author": "mihawk-99",
+      "payload_available": false,
+      "version": "ps5-v0.1.0-beta.1",
+      "last_update": "2026-11-10",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
+      "github_stars": 43,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-10T20:44:32Z",
+      "last_update_days": 0,
+      "last_update_months": 0.0
+    },
+    {
       "name": "PS5-14.20-WebKit-Research",
       "description": "PS5 14.20 WebKit attack-surface research: diagnostics, probes and field notes. No exploit code.",
       "repository_url": "https://github.com/Khal0da/PS5-14.20-WebKit-Research",
@@ -7085,7 +7101,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-10",
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
-      "github_stars": 481,
+      "github_stars": 482,
       "open_issues_count": 14,
       "repository_updated_at": "2026-11-10T17:27:26Z"
     },
@@ -7229,6 +7245,19 @@
       "repository_updated_at": "2026-11-10T14:51:26Z",
       "last_update_days": 23,
       "last_update_months": 0.8
+    },
+    {
+      "name": "GBAR5",
+      "description": "Game Boy Advance emulation for the PS5 - mGBA core, native homebrew app, RetroAchievements, cheats, saves and a shelf, in one title.",
+      "repository_url": "https://github.com/thereal47Ronin/GBAR5",
+      "category": "PS5 Auto-discovered",
+      "author": "thereal47Ronin",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-10",
+      "icon_key": "7ac48a4b4315afc2f7205112cbf61f69f998c5f027df0f9b83affac84d6a291c",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-10T20:45:22Z"
     },
     {
       "name": "ps5-homebrew-catalog",
@@ -7607,9 +7636,9 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-10",
       "icon_key": "212af449392c2dee77170575aa3bedb6ada197bb94802024f7a933532bc32192",
-      "github_stars": 52944,
-      "open_issues_count": 2273,
-      "repository_updated_at": "2026-11-10T20:19:58Z"
+      "github_stars": 52948,
+      "open_issues_count": 2270,
+      "repository_updated_at": "2026-11-10T20:36:48Z"
     },
     {
       "name": "PS5-Linux-After.Setup.Guide",
@@ -8878,7 +8907,7 @@
       "discovery_source": "Bluesky public search",
       "discovered_at": "2026-11-10",
       "icon_key": "47e7d67c3fae8dccfe23b808ccad232325b5be0482052bbb8d1ae832c774cb70",
-      "github_stars": 94,
+      "github_stars": 95,
       "open_issues_count": 4,
       "repository_updated_at": "2026-11-10T00:05:53Z"
     }
