@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-11-10T19:51:50+00:00",
+  "generated_at": "2026-11-10T20:29:54+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 612,
   "payload_count": 348,
@@ -426,7 +426,7 @@
       "icon_key": "32327dae279a917fff3b1d7a501cea417df053f24b9890d7f6c60eb3d536ef51",
       "github_stars": 141,
       "open_issues_count": 39,
-      "repository_updated_at": "2026-11-10T19:37:56Z",
+      "repository_updated_at": "2026-11-10T20:22:03Z",
       "last_update_days": 14,
       "last_update_months": 0.5
     },
@@ -674,8 +674,8 @@
       "package_url": "https://github.com/D3ATHLY/blackbox/releases/download/1.11.0/PPSA01453.ffpkg",
       "icon_key": "a9c447e408661c4d1a6908f1fe7913ed4516a89c616b323d24e63b88fbf8e278",
       "checksum": "c99c154b0b141e9a845f3029f7e905644958104ff3ed93911c38a458344f3e3f",
-      "github_stars": 768,
-      "open_issues_count": 7,
+      "github_stars": 769,
+      "open_issues_count": 8,
       "repository_updated_at": "2026-11-09T00:25:18Z",
       "last_update_days": 18,
       "last_update_months": 0.6
@@ -999,7 +999,7 @@
       "payload_filename": "ShadowMountPlus_1.7beta11.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7beta11.elf",
       "checksum": "08c843018750bef013fe3a4de5f80c5c9738c6c2dafa2406e6b6e68d7585f3da",
-      "github_stars": 1336,
+      "github_stars": 1337,
       "open_issues_count": 30,
       "repository_updated_at": "2026-11-09T14:01:35Z",
       "last_update_days": 12,
@@ -1678,7 +1678,7 @@
       "icon_key": "17864bd13ecdedda1cccd22797141de2acea6567c241ccd3a5c8fb9da21f1772",
       "github_stars": 13,
       "open_issues_count": 5,
-      "repository_updated_at": "2026-11-10T19:43:46Z"
+      "repository_updated_at": "2026-11-10T20:13:27Z"
     },
     {
       "name": "youtube-maxd",
@@ -2055,8 +2055,8 @@
       "author": "jstrdev",
       "icon_key": "072602be9ac6351b9040a374ef5df22d8cfacc5fb28407b10afaf2eedee149ff",
       "github_stars": 75,
-      "open_issues_count": 12,
-      "repository_updated_at": "2026-11-10T19:44:27Z"
+      "open_issues_count": 10,
+      "repository_updated_at": "2026-11-10T20:22:37Z"
     },
     {
       "name": "PS5-File-Explorer",
@@ -2348,7 +2348,7 @@
       "author": "leolobato",
       "icon_key": "39d07bff0f0e3924c30cd1a4367db08a2d1ab98592d613fc06062b708371b60e",
       "github_stars": 1051,
-      "open_issues_count": 241,
+      "open_issues_count": 242,
       "repository_updated_at": "2026-11-10T17:50:04Z"
     },
     {
@@ -2708,7 +2708,7 @@
       "author": "meta",
       "icon_key": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e",
       "github_stars": 28219,
-      "open_issues_count": 463,
+      "open_issues_count": 464,
       "repository_updated_at": "2026-11-10T19:31:31Z"
     },
     {
@@ -3075,7 +3075,7 @@
       "icon_key": "e97910fcda346d6035f622df04b24b074eaa8f77ba7026cfc7cbb8cd86e73db4",
       "github_stars": 101,
       "open_issues_count": 4,
-      "repository_updated_at": "2026-11-10T19:48:26Z"
+      "repository_updated_at": "2026-11-10T20:24:42Z"
     },
     {
       "name": "PS5-Custom-Tool-Manager-",
@@ -3442,14 +3442,14 @@
       "author": "phantomptr",
       "payload_available": true,
       "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0",
-      "version": "v12.4.4",
+      "version": "v12.4.5",
       "last_update": "2026-11-10",
-      "payload_filename": "ps5upload-12.4.4.elf",
-      "payload_url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.4/ps5upload-12.4.4.elf",
-      "checksum": "c6a57b7a562cafdf974b91011db5f945518cfa9c56a796048e3f27f04c6323ac",
-      "github_stars": 1158,
-      "open_issues_count": 4,
-      "repository_updated_at": "2026-11-10T19:26:41Z",
+      "payload_filename": "ps5upload-12.4.5.elf",
+      "payload_url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.5/ps5upload-12.4.5.elf",
+      "checksum": "72fef6dcd299aa927b3df800dcc13f166f84eef7b8e403004cb6f4c33ece0b77",
+      "github_stars": 1159,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-11-10T20:14:23Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -3633,7 +3633,7 @@
       "category": "Linux & Development",
       "author": "ps5-linux",
       "icon_key": "385dd4d0023c130e5f82309f1b273326eb3439b957ca176a08e073d07ad559be",
-      "github_stars": 116,
+      "github_stars": 117,
       "open_issues_count": 12,
       "repository_updated_at": "2026-11-10T12:23:39Z"
     },
@@ -3887,7 +3887,7 @@
       "payload_filename": "ps5-dump-forge_v0.5.5.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.5.elf",
       "checksum": "858b8ae2954341a3389e4a9f998c6a57d01bc4e4fb8f01a71c41719001c30be7",
-      "github_stars": 334,
+      "github_stars": 335,
       "open_issues_count": 3,
       "repository_updated_at": "2026-11-09T19:55:17Z",
       "last_update_days": 1,
@@ -4458,7 +4458,7 @@
       "checksum": "9ce01f4c93b0934fe0612163d07f15477e6a5d8edc35be24e7c5e46d51027afc",
       "github_stars": 8,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-10T15:37:24Z",
+      "repository_updated_at": "2026-11-10T20:10:42Z",
       "last_update_days": 1,
       "last_update_months": 0.0
     },
@@ -4847,17 +4847,17 @@
     },
     {
       "name": "PS5 Bazzite Deck",
-      "description": "Bazzite-based PS5 Linux image that boots directly into Steam Gaming Mode, with KDE desktop access. Runs from a USB drive through rmux's PS5 Linux loader without modifying the PS5 system; supports original PS5, Slim and PS5 Pro with hardware-dependent HDMI and Wi-Fi/Bluetooth features. Requires compatible loader firmware; see the project README for prerequisites and model-specific limitations.",
+      "description": "Bazzite (SteamOS-style Linux) image for the PS5 with Steam Gaming Mode and a KDE desktop, shipped as a single bootc image that updates in place with 'sudo bootc upgrade'. Runs from a USB drive or the M.2 slot and leaves the PS5 system untouched; start it with the project's bazzite-bootc-loader ELF, which is based on the ps5-linux-loader project. Use the release marked Latest (pre-releases are test builds); install prerequisites and per-model limitations are on wiki.ps5-linux.eu.",
       "repository_url": "https://github.com/VivaLaVent/ps5-bazzite-deck",
       "category": "Linux & Development",
       "author": "VivaLaVent",
       "payload_available": true,
-      "version": "v2.10",
-      "last_update": "2026-11-10",
-      "icon_key": "f07c0f6af10677b0c50ba30be549cc0c7a9945884365baf55631390b4edd5d8a",
       "payload_filename": "bazzite-bootc-loader-v2.10.elf",
       "payload_url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v2.10/bazzite-bootc-loader-v2.10.elf",
+      "version": "v2.10",
+      "last_update": "2026-11-10",
       "checksum": "41fd9d2484f7430d790190d85e645403d71134585dc7611b1ad9fc8d3d4abf66",
+      "icon_key": "f07c0f6af10677b0c50ba30be549cc0c7a9945884365baf55631390b4edd5d8a",
       "github_stars": 534,
       "open_issues_count": 8,
       "repository_updated_at": "2026-11-10T17:06:25Z",
@@ -5413,8 +5413,8 @@
       "author": "Portablelle",
       "icon_key": "6edb20aaae48c77f26deffba45c1593fd25352ead9416b23ffbc03d582863c3d",
       "github_stars": 49,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-10T18:57:32Z"
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-11-10T20:10:18Z"
     },
     {
       "name": "ProsperoEden — Swordpdf",
@@ -5428,15 +5428,23 @@
       "repository_updated_at": "2026-10-18T03:56:25Z"
     },
     {
-      "name": "Eglantine-PS5-",
-      "description": "",
+      "name": "EglantinePS5 NUP",
+      "description": "Experimental Nintendo Switch 1 and Switch 2 emulator for jailbroken PS5, built on the Eglantine (Eden) core with NUP support so games, updates and DLC run from folders or single .nup files. Reports console testing on firmware 13.60 launched with ShadowMountPlus, with other users on 11.40 and 11.60. Distributed as a ZIP package, not a direct ELF; no games, keys or firmware are included.",
       "repository_url": "https://github.com/viejunerd/Eglantine-PS5-",
-      "category": "Repositories",
+      "category": "Emulators",
       "author": "viejunerd",
+      "payload_available": false,
+      "version": "v1.219.029",
+      "last_update": "2026-11-10",
+      "package_filename": "EglantinePS5-v1.219.029.zip",
+      "package_url": "https://github.com/viejunerd/Eglantine-PS5-/releases/download/v1.219.029/EglantinePS5-v1.219.029.zip",
+      "package_checksum": "807cb84530e12607ea8a0a9a3154b78bd06ce7e394e1d0e5ff070dcece230f29",
       "icon_key": "8945793c57c5ff9fe0b7828c9ce7e90846b3c77971f5a11b6cfcd534871eabfc",
       "github_stars": 168,
       "open_issues_count": 18,
-      "repository_updated_at": "2026-11-10T09:40:58Z"
+      "repository_updated_at": "2026-11-10T09:40:58Z",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "NSP-Box",
@@ -6323,7 +6331,7 @@
       "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
       "github_stars": 56,
       "open_issues_count": 5,
-      "repository_updated_at": "2026-11-10T19:27:24Z"
+      "repository_updated_at": "2026-11-10T19:54:31Z"
     },
     {
       "name": "PokeMMO-Prospero",
@@ -6420,9 +6428,9 @@
       "category": "Repositories",
       "author": "saschb2b",
       "icon_key": "6986b184787075bf5c998f31c0748129fc6058b40ce9b21c5ceebd3a512234d8",
-      "github_stars": 17,
-      "open_issues_count": 6,
-      "repository_updated_at": "2026-11-10T19:36:15Z"
+      "github_stars": 18,
+      "open_issues_count": 7,
+      "repository_updated_at": "2026-11-10T20:23:45Z"
     },
     {
       "name": "MedievalTennis",
@@ -6547,8 +6555,8 @@
       "author": "ThatRetiredDude",
       "icon_key": "7864badf316288d238582cd257e9f6e59d9dd4101183dc12ecf8a3cffa35ee7d",
       "github_stars": 6,
-      "open_issues_count": 4,
-      "repository_updated_at": "2026-11-10T19:45:24Z"
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-11-10T20:13:17Z"
     },
     {
       "name": "PS5SD",
@@ -6725,7 +6733,7 @@
       "checksum": "3a20194226cf5e1ee66a5a67d81610c1ac9bf82deee7b791c752d0e7d6202d5c",
       "github_stars": 376,
       "open_issues_count": 21,
-      "repository_updated_at": "2026-11-10T19:33:09Z",
+      "repository_updated_at": "2026-11-10T20:04:56Z",
       "last_update_days": 11,
       "last_update_months": 0.4
     },
@@ -6746,7 +6754,7 @@
       "author": "BlackBoxPS5",
       "version": "v1.0.5",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 768,
+      "github_stars": 769,
       "open_issues_count": 8,
       "repository_updated_at": "2026-11-09T00:25:18Z"
     },
@@ -7030,6 +7038,19 @@
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
+      "name": "PS5-14.20-WebKit-Research",
+      "description": "PS5 14.20 WebKit attack-surface research: diagnostics, probes and field notes. No exploit code.",
+      "repository_url": "https://github.com/Khal0da/PS5-14.20-WebKit-Research",
+      "category": "PS5 Auto-discovered",
+      "author": "Khal0da",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-10",
+      "icon_key": "fcf15713f8d21f08f7d2266c72177f34eec9e4c1e9a56b85af725f0f00480e06",
+      "github_stars": 1,
+      "open_issues_count": 3,
+      "repository_updated_at": "2026-11-10T20:07:22Z"
+    },
+    {
       "name": "ksre-ps5",
       "description": "Experimental native PS5 homebrew port of Katawa Shoujo: Re-Engineered (Ren'Py 8.5.3 / CPython 3.12) using the open-source ps5-payload-sdk. No game assets included.",
       "repository_url": "https://github.com/lasscat/ksre-ps5",
@@ -7105,7 +7126,7 @@
       "icon_key": "9e4560799020d321ee0f6aeb9326b09cad49c43fa7b12968806817ee91298327",
       "github_stars": 9,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-10T19:26:31Z"
+      "repository_updated_at": "2026-11-10T19:53:06Z"
     },
     {
       "name": "ps5-package-sender",
@@ -7165,7 +7186,7 @@
       "icon_key": "8473c38fa8360c5030385ff26adb95999fa59fd16bf3a889aab6370e9ba84db1",
       "github_stars": 7,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-10T19:01:16Z"
+      "repository_updated_at": "2026-11-10T20:01:02Z"
     },
     {
       "name": "ps5-glibren-releases",
@@ -7219,8 +7240,8 @@
       "discovered_at": "2026-11-10",
       "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
       "github_stars": 69,
-      "open_issues_count": 3,
-      "repository_updated_at": "2026-11-10T18:25:54Z"
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-11-10T20:22:13Z"
     },
     {
       "name": "psp5 — Mindset474",
@@ -7281,19 +7302,6 @@
       "github_stars": 11,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-10T11:40:10Z"
-    },
-    {
-      "name": "Greenhollow",
-      "description": "A small 2.5D RPG for PS5 homebrew with ink-drawn art, made with AnyDevKit Studio's drag and drop scenes and logic blocks.",
-      "repository_url": "https://github.com/AnyDevStudio/Greenhollow",
-      "category": "PS5 Auto-discovered",
-      "author": "AnyDevStudio",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-10",
-      "icon_key": "f1419b14eb3a50cb185bdd4b168e1728746e01e19d6669980ec848db0d628484",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-10T09:51:57Z"
     },
     {
       "name": "elf-launcher-config-sync",
@@ -7599,9 +7607,9 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-10",
       "icon_key": "212af449392c2dee77170575aa3bedb6ada197bb94802024f7a933532bc32192",
-      "github_stars": 52936,
-      "open_issues_count": 2275,
-      "repository_updated_at": "2026-11-10T19:47:18Z"
+      "github_stars": 52944,
+      "open_issues_count": 2273,
+      "repository_updated_at": "2026-11-10T20:19:58Z"
     },
     {
       "name": "PS5-Linux-After.Setup.Guide",
@@ -8870,7 +8878,7 @@
       "discovery_source": "Bluesky public search",
       "discovered_at": "2026-11-10",
       "icon_key": "47e7d67c3fae8dccfe23b808ccad232325b5be0482052bbb8d1ae832c774cb70",
-      "github_stars": 92,
+      "github_stars": 94,
       "open_issues_count": 4,
       "repository_updated_at": "2026-11-10T00:05:53Z"
     }
