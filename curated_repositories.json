@@ -638,6 +638,16 @@
       "package_filename": "EglantinePS5-v1.219.029.zip",
       "package_url": "https://github.com/viejunerd/Eglantine-PS5-/releases/download/v1.219.029/EglantinePS5-v1.219.029.zip",
       "package_checksum": "807cb84530e12607ea8a0a9a3154b78bd06ce7e394e1d0e5ff070dcece230f29"
+    },
+    {
+      "name": "Hookshot PS5",
+      "description": "Native PS5 port of Hookshot, the static recompilation of the Nintendo Switch 2 version of The Legend of Zelda: Ocarina of Time, running as title PPSA99024 on Mesa RADV from the author's PS5_Vulkan and PS5_PayloadSDK projects. Built on a Linux PC (or WSL 2) from your own game dump at program 0400486024DEC000 with update v131072; the only release is a beta that ships build scripts, not a ready-made title, and no game files or keys are included. The author reports a first boot on a PS5 Pro at 33-40 fps in Kokiri Forest, while Hyrule Castle Town can still run out of memory.",
+      "repository_url": "https://github.com/mihawk-99/PS5_Hookshot",
+      "category": "Gaming & Media",
+      "author": "mihawk-99",
+      "payload_available": false,
+      "version": "ps5-v0.1.0-beta.1",
+      "last_update": "2026-11-10"
     }
   ]
 }
