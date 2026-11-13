@@ -362,6 +362,19 @@
       "category": "Loaders",
       "checksum": "41fd9d2484f7430d790190d85e645403d71134585dc7611b1ad9fc8d3d4abf66",
       "id": "ps5-bazzite-deck-bootc-loader-v2.10"
+    },
+    {
+      "name": "Kraken Mount",
+      "filename": "kraken-mount.elf",
+      "url": "https://github.com/quer3q/kraken-mount/releases/download/v0.0.1-beta/kraken-mount.elf",
+      "source": "https://github.com/quer3q/kraken-mount/releases",
+      "source_direct": "https://github.com/quer3q/kraken-mount/releases/download/v0.0.1-beta/kraken-mount.elf",
+      "description": "Experimental PS5 ELF payload that registers games from debug FPKG .pkg files or game folders (plain, zstd or LZ4 packs) without installing them, adds a home-screen tile per title and launches it through a bundled ampr-emu-ng runtime. Scans the internal SSD plus USB and extended drives, caches games on internal storage and serves a web UI on port 8097; elfldr must be running. The author reports only a small number of games tested so far and that .pkg support is the newest and least tested path.",
+      "last_update": "2026-11-13",
+      "version": "v0.0.1-beta",
+      "category": "Plugins & System Tools",
+      "checksum": "32cdf8e9aee9a8e91a7acd8884ac4701a75a38d96d483ea00bb7cbf4fe11a522",
+      "id": "kraken-mount-kraken-mount-f0860a5b"
     }
   ]
 }

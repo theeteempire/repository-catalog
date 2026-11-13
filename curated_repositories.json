@@ -648,6 +648,19 @@
       "payload_available": false,
       "version": "ps5-v0.1.0-beta.1",
       "last_update": "2026-11-10"
+    },
+    {
+      "name": "Kraken Mount",
+      "description": "Experimental PS5 ELF payload that registers games from debug FPKG .pkg files or game folders (plain, zstd or LZ4 packs) without installing them, adds a home-screen tile per title and launches it through a bundled ampr-emu-ng runtime. Scans the internal SSD plus USB and extended drives, caches games on internal storage and serves a web UI on port 8097; elfldr must be running. The author reports only a small number of games tested so far and that .pkg support is the newest and least tested path.",
+      "repository_url": "https://github.com/quer3q/kraken-mount",
+      "category": "Plugins & System Tools",
+      "author": "quer3q",
+      "payload_available": true,
+      "version": "v0.0.1-beta",
+      "last_update": "2026-11-13",
+      "payload_filename": "kraken-mount.elf",
+      "payload_url": "https://github.com/quer3q/kraken-mount/releases/download/v0.0.1-beta/kraken-mount.elf",
+      "checksum": "32cdf8e9aee9a8e91a7acd8884ac4701a75a38d96d483ea00bb7cbf4fe11a522"
     }
   ]
 }
