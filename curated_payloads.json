@@ -375,6 +375,19 @@
       "category": "Plugins & System Tools",
       "checksum": "32cdf8e9aee9a8e91a7acd8884ac4701a75a38d96d483ea00bb7cbf4fe11a522",
       "id": "kraken-mount-kraken-mount-f0860a5b"
+    },
+    {
+      "name": "Kite Pack",
+      "filename": "kite-helper.elf",
+      "url": "https://github.com/nankhor/kite-pack/releases/download/v0.1.1/kite-helper.elf",
+      "source": "https://github.com/nankhor/kite-pack/releases",
+      "source_direct": "https://github.com/nankhor/kite-pack/releases/download/v0.1.1/kite-helper.elf",
+      "description": "Desktop app for Windows, macOS and Linux that packs your own PS5 game dumps with zstd into folder, exFAT, .ffpkg or .ffpfs copies and sends them over Wi-Fi to a jailbroken PS5; this release asset is the PS5-side kite-helper.elf, which needs an ELF loader (port 9021) and ShadowMount+ watching the destination folder (/data/homebrew by default). Packing uses PS5 Dump Forge and transfers use AVA1; builds are unsigned, DLC installation is not included yet, and it does not include or download games.",
+      "last_update": "2026-11-13",
+      "version": "v0.1.1",
+      "category": "Utilities & Tools",
+      "checksum": "05bc32a1b7bd8e712f668d2f1818516a01a2801e70bbdccc78a78c0a618c08bf",
+      "id": "kite-pack-kite-helper-66d30101"
     }
   ]
 }

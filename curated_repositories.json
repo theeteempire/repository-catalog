@@ -661,6 +661,28 @@
       "payload_filename": "kraken-mount.elf",
       "payload_url": "https://github.com/quer3q/kraken-mount/releases/download/v0.0.1-beta/kraken-mount.elf",
       "checksum": "32cdf8e9aee9a8e91a7acd8884ac4701a75a38d96d483ea00bb7cbf4fe11a522"
+    },
+    {
+      "name": "Kite Pack",
+      "description": "Desktop app for Windows, macOS and Linux that packs your own PS5 game dumps with zstd into folder, exFAT, .ffpkg or .ffpfs copies and sends them over Wi-Fi to a jailbroken PS5; this release asset is the PS5-side kite-helper.elf, which needs an ELF loader (port 9021) and ShadowMount+ watching the destination folder (/data/homebrew by default). Packing uses PS5 Dump Forge and transfers use AVA1; builds are unsigned, DLC installation is not included yet, and it does not include or download games.",
+      "repository_url": "https://github.com/nankhor/kite-pack",
+      "category": "Utilities & Tools",
+      "author": "nankhor",
+      "payload_available": true,
+      "version": "v0.1.1",
+      "last_update": "2026-11-13",
+      "payload_filename": "kite-helper.elf",
+      "payload_url": "https://github.com/nankhor/kite-pack/releases/download/v0.1.1/kite-helper.elf",
+      "checksum": "05bc32a1b7bd8e712f668d2f1818516a01a2801e70bbdccc78a78c0a618c08bf"
+    },
+    {
+      "name": "fuse-ppkg",
+      "description": "Mount a PS5 debug FPKG (.pkg) as a read-only directory on Linux. Nothing is unpacked: file bytes are read at their offsets in the .pkg and Kraken blocks are decoded only where a read touches them, through ps5-dump-forge's FpkgSource. Read-only, debug FPKG only, Linux only. Prototype — see upstream Limits before using.",
+      "repository_url": "https://github.com/Pix13/fuse-ppkg",
+      "category": "Repositories",
+      "author": "Pix13",
+      "payload_available": false,
+      "last_update": "2026-11-13"
     }
   ]
 }
