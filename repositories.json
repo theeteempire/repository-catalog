@@ -1,10 +1,10 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-11-13T21:55:42+00:00",
+  "generated_at": "2026-11-14T06:27:11+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 630,
-  "payload_count": 350,
+  "count": 635,
+  "payload_count": 349,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
@@ -34,8 +34,8 @@
       "github_stars": 36,
       "open_issues_count": 6,
       "repository_updated_at": "2026-11-12T19:37:59Z",
-      "last_update_days": 4,
-      "last_update_months": 0.1
+      "last_update_days": 5,
+      "last_update_months": 0.2
     },
     {
       "name": "PS5Droid",
@@ -52,7 +52,7 @@
       "github_stars": 72,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-09T06:06:12Z",
-      "last_update_days": 26,
+      "last_update_days": 27,
       "last_update_months": 0.9
     },
     {
@@ -71,7 +71,7 @@
       "github_stars": 8,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-13T20:42:07Z",
-      "last_update_days": 0,
+      "last_update_days": 1,
       "last_update_months": 0.0
     },
     {
@@ -90,8 +90,8 @@
       "github_stars": 29,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-25T18:48:01Z",
-      "last_update_days": 19,
-      "last_update_months": 0.6
+      "last_update_days": 20,
+      "last_update_months": 0.7
     },
     {
       "name": "spot5",
@@ -131,7 +131,7 @@
       "github_stars": 46,
       "open_issues_count": 1,
       "repository_updated_at": "2026-06-03T23:47:45Z",
-      "last_update_days": 216,
+      "last_update_days": 217,
       "last_update_months": 7.1
     },
     {
@@ -141,7 +141,7 @@
       "category": "Repositories",
       "author": "AldySan",
       "icon_key": "19eda5d029ee4a7992120597d1c3eee65f167f811145c868b8b1b2504de1943f",
-      "github_stars": 7,
+      "github_stars": 8,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-10T08:56:10Z"
     },
@@ -194,7 +194,7 @@
       "github_stars": 7,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-20T16:37:37Z",
-      "last_update_days": 24,
+      "last_update_days": 25,
       "last_update_months": 0.8
     },
     {
@@ -235,7 +235,7 @@
       "github_stars": 98,
       "open_issues_count": 4,
       "repository_updated_at": "2026-10-01T13:32:10Z",
-      "last_update_days": 43,
+      "last_update_days": 44,
       "last_update_months": 1.4
     },
     {
@@ -251,10 +251,10 @@
       "payload_filename": "onionHEN_v0.9.0.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/onionHEN_v0.9.0.elf",
       "checksum": "1f1f7c883d5d998be1d95d7d80b718f85180f8156f257661b0f445a7c6b7c212",
-      "github_stars": 517,
-      "open_issues_count": 18,
+      "github_stars": 516,
+      "open_issues_count": 20,
       "repository_updated_at": "2026-11-12T04:24:50Z",
-      "last_update_days": 29,
+      "last_update_days": 30,
       "last_update_months": 1.0
     },
     {
@@ -273,7 +273,7 @@
       "github_stars": 17,
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-24T20:32:27Z",
-      "last_update_days": 20,
+      "last_update_days": 21,
       "last_update_months": 0.7
     },
     {
@@ -292,8 +292,8 @@
       "github_stars": 37,
       "open_issues_count": 9,
       "repository_updated_at": "2026-01-14T23:29:02Z",
-      "last_update_days": 531,
-      "last_update_months": 17.4
+      "last_update_days": 532,
+      "last_update_months": 17.5
     },
     {
       "name": "BackPork",
@@ -308,10 +308,10 @@
       "payload_filename": "BackPork_0.1.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/BackPork_0.1.elf",
       "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
-      "github_stars": 281,
+      "github_stars": 282,
       "open_issues_count": 6,
       "repository_updated_at": "2026-01-22T00:19:24Z",
-      "last_update_days": 197,
+      "last_update_days": 198,
       "last_update_months": 6.5
     },
     {
@@ -330,8 +330,8 @@
       "github_stars": 11,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-10T10:26:15Z",
-      "last_update_days": 41,
-      "last_update_months": 1.3
+      "last_update_days": 42,
+      "last_update_months": 1.4
     },
     {
       "name": "ps5-forever",
@@ -360,7 +360,7 @@
       "github_stars": 29,
       "open_issues_count": 4,
       "repository_updated_at": "2026-06-18T14:27:20Z",
-      "last_update_days": 148,
+      "last_update_days": 149,
       "last_update_months": 4.9
     },
     {
@@ -379,7 +379,7 @@
       "github_stars": 45,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-06T01:21:40Z",
-      "last_update_days": 14,
+      "last_update_days": 15,
       "last_update_months": 0.5
     },
     {
@@ -398,7 +398,7 @@
       "github_stars": 21,
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-27T17:03:54Z",
-      "last_update_days": 133,
+      "last_update_days": 134,
       "last_update_months": 4.4
     },
     {
@@ -425,9 +425,9 @@
       "package_url": "https://github.com/bornaradusin/PC5/releases/download/v1.8.2/PPSA11018.zip",
       "icon_key": "32327dae279a917fff3b1d7a501cea417df053f24b9890d7f6c60eb3d536ef51",
       "github_stars": 146,
-      "open_issues_count": 32,
-      "repository_updated_at": "2026-11-13T21:43:12Z",
-      "last_update_days": 17,
+      "open_issues_count": 25,
+      "repository_updated_at": "2026-11-13T23:48:59Z",
+      "last_update_days": 18,
       "last_update_months": 0.6
     },
     {
@@ -468,7 +468,7 @@
       "github_stars": 3,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-03T16:40:43Z",
-      "last_update_days": 33,
+      "last_update_days": 34,
       "last_update_months": 1.1
     },
     {
@@ -487,7 +487,7 @@
       "github_stars": 11,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-12T23:07:03Z",
-      "last_update_days": 34,
+      "last_update_days": 35,
       "last_update_months": 1.1
     },
     {
@@ -515,10 +515,10 @@
       "last_update": "2026-10-22",
       "checksum": "4a0250329e63b376f620511c4b6e2c6a2eb959e056824abde27947bf53f07b59",
       "github_stars": 412,
-      "open_issues_count": 121,
+      "open_issues_count": 120,
       "repository_updated_at": "2026-10-22T23:27:57Z",
-      "last_update_days": 22,
-      "last_update_months": 0.7
+      "last_update_days": 23,
+      "last_update_months": 0.8
     },
     {
       "name": "movian_ps5",
@@ -536,7 +536,7 @@
       "github_stars": 3,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-11T01:30:21Z",
-      "last_update_days": 14,
+      "last_update_days": 15,
       "last_update_months": 0.5
     },
     {
@@ -566,7 +566,7 @@
       "github_stars": 43,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-15T15:35:41Z",
-      "last_update_days": 43,
+      "last_update_days": 44,
       "last_update_months": 1.4
     },
     {
@@ -607,8 +607,8 @@
       "github_stars": 39,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-03T15:36:27Z",
-      "last_update_days": 10,
-      "last_update_months": 0.3
+      "last_update_days": 11,
+      "last_update_months": 0.4
     },
     {
       "name": "ps5-tools",
@@ -637,8 +637,8 @@
       "github_stars": 86,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-11T07:36:50Z",
-      "last_update_days": 4,
-      "last_update_months": 0.1
+      "last_update_days": 5,
+      "last_update_months": 0.2
     },
     {
       "name": "ps5-ezremote-server",
@@ -656,7 +656,7 @@
       "github_stars": 8,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-11T07:35:39Z",
-      "last_update_days": 24,
+      "last_update_days": 25,
       "last_update_months": 0.8
     },
     {
@@ -674,10 +674,10 @@
       "package_url": "https://github.com/D3ATHLY/blackbox/releases/download/1.11.0/PPSA01453.ffpkg",
       "icon_key": "a9c447e408661c4d1a6908f1fe7913ed4516a89c616b323d24e63b88fbf8e278",
       "checksum": "c99c154b0b141e9a845f3029f7e905644958104ff3ed93911c38a458344f3e3f",
-      "github_stars": 788,
+      "github_stars": 790,
       "open_issues_count": 8,
       "repository_updated_at": "2026-11-09T00:25:18Z",
-      "last_update_days": 21,
+      "last_update_days": 22,
       "last_update_months": 0.7
     },
     {
@@ -707,7 +707,7 @@
       "github_stars": 21,
       "open_issues_count": 3,
       "repository_updated_at": "2026-11-09T22:34:50Z",
-      "last_update_days": 27,
+      "last_update_days": 28,
       "last_update_months": 0.9
     },
     {
@@ -717,7 +717,7 @@
       "category": "Repositories",
       "author": "darkxex",
       "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
-      "github_stars": 533,
+      "github_stars": 538,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-08T00:21:25Z"
     },
@@ -740,8 +740,8 @@
       "github_stars": 98,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-04T22:24:14Z",
-      "last_update_days": 13,
-      "last_update_months": 0.4
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "TitaniaPy",
@@ -759,7 +759,7 @@
       "github_stars": 6,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-09T03:51:42Z",
-      "last_update_days": 29,
+      "last_update_days": 30,
       "last_update_months": 1.0
     },
     {
@@ -808,10 +808,10 @@
       "payload_filename": "OmniPad-PS5-1.0.4.elf",
       "payload_url": "https://github.com/diegobarbosaa/OmniPad-PS5/releases/download/v1.0.4-hotfix1/OmniPad-PS5-1.0.4.elf",
       "checksum": "00677d6cfac752f1da395d2aeddfee1b5f8f3a3175c524bb0ca90afd9ea0d624",
-      "github_stars": 75,
+      "github_stars": 76,
       "open_issues_count": 25,
       "repository_updated_at": "2026-10-05T23:02:52Z",
-      "last_update_days": 39,
+      "last_update_days": 40,
       "last_update_months": 1.3
     },
     {
@@ -830,8 +830,8 @@
       "github_stars": 15,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-03T18:23:22Z",
-      "last_update_days": 10,
-      "last_update_months": 0.3
+      "last_update_days": 11,
+      "last_update_months": 0.4
     },
     {
       "name": "dsxinput",
@@ -873,7 +873,7 @@
       "category": "Repositories",
       "author": "drakmor",
       "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8",
-      "github_stars": 223,
+      "github_stars": 225,
       "open_issues_count": 7,
       "repository_updated_at": "2026-09-06T13:14:04Z"
     },
@@ -912,10 +912,10 @@
       "payload_filename": "ftpsrv-drakmor_1.16-ng-stable.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv-drakmor_1.16-ng-stable.elf",
       "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
-      "github_stars": 163,
+      "github_stars": 164,
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-23T21:15:12Z",
-      "last_update_days": 54,
+      "last_update_days": 55,
       "last_update_months": 1.8
     },
     {
@@ -931,10 +931,10 @@
       "version": "1.2-dr-test2",
       "last_update": "2026-06-11",
       "checksum": "2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75",
-      "github_stars": 209,
+      "github_stars": 210,
       "open_issues_count": 1,
       "repository_updated_at": "2026-09-21T15:58:53Z",
-      "last_update_days": 155,
+      "last_update_days": 156,
       "last_update_months": 5.1
     },
     {
@@ -950,11 +950,11 @@
       "payload_filename": "nanoDNS_0.4.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/nanoDNS_0.4.elf",
       "checksum": "dcb845f3570771275b22b37534bf924a7f8ae219fb91ef00c6bccab85d1c2420",
-      "github_stars": 559,
+      "github_stars": 560,
       "open_issues_count": 6,
       "repository_updated_at": "2026-10-12T14:55:40Z",
-      "last_update_days": 101,
-      "last_update_months": 3.3
+      "last_update_days": 102,
+      "last_update_months": 3.4
     },
     {
       "name": "pgo_stub",
@@ -983,8 +983,8 @@
       "github_stars": 14,
       "open_issues_count": 0,
       "repository_updated_at": "2026-06-01T21:02:56Z",
-      "last_update_days": 165,
-      "last_update_months": 5.4
+      "last_update_days": 166,
+      "last_update_months": 5.5
     },
     {
       "name": "ShadowMountPlus",
@@ -999,10 +999,10 @@
       "payload_filename": "ShadowMountPlus_1.7beta11.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7beta11.elf",
       "checksum": "08c843018750bef013fe3a4de5f80c5c9738c6c2dafa2406e6b6e68d7585f3da",
-      "github_stars": 1373,
+      "github_stars": 1377,
       "open_issues_count": 34,
       "repository_updated_at": "2026-11-09T14:01:35Z",
-      "last_update_days": 15,
+      "last_update_days": 16,
       "last_update_months": 0.5
     },
     {
@@ -1043,7 +1043,7 @@
       "github_stars": 20,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-30T04:00:18Z",
-      "last_update_days": 14,
+      "last_update_days": 15,
       "last_update_months": 0.5
     },
     {
@@ -1062,7 +1062,7 @@
       "github_stars": 212,
       "open_issues_count": 22,
       "repository_updated_at": "2026-11-11T22:20:52Z",
-      "last_update_days": 2,
+      "last_update_days": 3,
       "last_update_months": 0.1
     },
     {
@@ -1081,8 +1081,8 @@
       "github_stars": 14,
       "open_issues_count": 3,
       "repository_updated_at": "2026-11-12T13:32:42Z",
-      "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "kdump_ps5",
@@ -1100,7 +1100,7 @@
       "github_stars": 23,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-30T03:59:54Z",
-      "last_update_days": 14,
+      "last_update_days": 15,
       "last_update_months": 0.5
     },
     {
@@ -1119,7 +1119,7 @@
       "github_stars": 5,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-30T04:00:10Z",
-      "last_update_days": 14,
+      "last_update_days": 15,
       "last_update_months": 0.5
     },
     {
@@ -1157,10 +1157,10 @@
       "version": "v1.6.7",
       "last_update": "2026-01-04",
       "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569",
-      "github_stars": 376,
+      "github_stars": 375,
       "open_issues_count": 0,
       "repository_updated_at": "2026-01-25T17:49:52Z",
-      "last_update_days": 313,
+      "last_update_days": 314,
       "last_update_months": 10.3
     },
     {
@@ -1179,7 +1179,7 @@
       "github_stars": 940,
       "open_issues_count": 22,
       "repository_updated_at": "2026-10-20T03:10:21Z",
-      "last_update_days": 54,
+      "last_update_days": 55,
       "last_update_months": 1.8
     },
     {
@@ -1209,8 +1209,8 @@
       "github_stars": 197,
       "open_issues_count": 9,
       "repository_updated_at": "2026-10-03T01:11:21Z",
-      "last_update_days": 41,
-      "last_update_months": 1.3
+      "last_update_days": 42,
+      "last_update_months": 1.4
     },
     {
       "name": "PS5 60FPS",
@@ -1228,8 +1228,8 @@
       "github_stars": 153,
       "open_issues_count": 6,
       "repository_updated_at": "2026-10-16T05:37:57Z",
-      "last_update_days": 28,
-      "last_update_months": 0.9
+      "last_update_days": 29,
+      "last_update_months": 1.0
     },
     {
       "name": "PS5-NetDis",
@@ -1247,8 +1247,8 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-16T05:38:04Z",
-      "last_update_days": 28,
-      "last_update_months": 0.9
+      "last_update_days": 29,
+      "last_update_months": 1.0
     },
     {
       "name": "any-pad",
@@ -1266,7 +1266,7 @@
       "github_stars": 24,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-14T19:06:02Z",
-      "last_update_days": 32,
+      "last_update_days": 33,
       "last_update_months": 1.1
     },
     {
@@ -1276,7 +1276,7 @@
       "category": "Repositories",
       "author": "elripalda",
       "icon_key": "ccc3dff8e8dea38d24afee501b8528e6b69f04c577f359b368bbb850d5b2c8b5",
-      "github_stars": 238,
+      "github_stars": 239,
       "open_issues_count": 32,
       "repository_updated_at": "2026-11-03T19:07:50Z"
     },
@@ -1304,7 +1304,7 @@
       "github_stars": 843,
       "open_issues_count": 23,
       "repository_updated_at": "2026-05-04T03:14:05Z",
-      "last_update_days": 323,
+      "last_update_days": 324,
       "last_update_months": 10.6
     },
     {
@@ -1323,8 +1323,8 @@
       "github_stars": 24,
       "open_issues_count": 7,
       "repository_updated_at": "2026-10-28T22:34:22Z",
-      "last_update_days": 16,
-      "last_update_months": 0.5
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "exfat2ampr",
@@ -1342,7 +1342,7 @@
       "github_stars": 35,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-14T14:03:29Z",
-      "last_update_days": 30,
+      "last_update_days": 31,
       "last_update_months": 1.0
     },
     {
@@ -1372,7 +1372,7 @@
       "github_stars": 6,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-04T23:21:44Z",
-      "last_update_days": 34,
+      "last_update_days": 35,
       "last_update_months": 1.1
     },
     {
@@ -1391,7 +1391,7 @@
       "github_stars": 17,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-13T19:50:34Z",
-      "last_update_days": 48,
+      "last_update_days": 49,
       "last_update_months": 1.6
     },
     {
@@ -1410,7 +1410,7 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-05T19:51:42Z",
-      "last_update_days": 69,
+      "last_update_days": 70,
       "last_update_months": 2.3
     },
     {
@@ -1429,8 +1429,8 @@
       "github_stars": 13,
       "open_issues_count": 2,
       "repository_updated_at": "2026-09-19T17:57:51Z",
-      "last_update_days": 56,
-      "last_update_months": 1.8
+      "last_update_days": 57,
+      "last_update_months": 1.9
     },
     {
       "name": "ps5-lockshellui",
@@ -1448,7 +1448,7 @@
       "github_stars": 9,
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-25T13:26:22Z",
-      "last_update_days": 20,
+      "last_update_days": 21,
       "last_update_months": 0.7
     },
     {
@@ -1478,7 +1478,7 @@
       "github_stars": 74,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-12T19:39:29Z",
-      "last_update_days": 2,
+      "last_update_days": 3,
       "last_update_months": 0.1
     },
     {
@@ -1497,7 +1497,7 @@
       "github_stars": 124,
       "open_issues_count": 10,
       "repository_updated_at": "2026-10-13T00:21:09Z",
-      "last_update_days": 33,
+      "last_update_days": 34,
       "last_update_months": 1.1
     },
     {
@@ -1513,11 +1513,11 @@
       "payload_filename": "NeoEnabler_v0.6.2.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/NeoEnabler_v0.6.2.elf",
       "checksum": "c0506bd055820a199ddae59a475686fdcf6f832f94594870ba41cee9b3fce1be",
-      "github_stars": 221,
-      "open_issues_count": 11,
-      "repository_updated_at": "2026-11-13T07:58:32Z",
-      "last_update_days": 10,
-      "last_update_months": 0.3
+      "github_stars": 223,
+      "open_issues_count": 12,
+      "repository_updated_at": "2026-11-14T01:42:31Z",
+      "last_update_days": 11,
+      "last_update_months": 0.4
     },
     {
       "name": "ps4mount",
@@ -1527,16 +1527,16 @@
       "author": "gasb07",
       "payload_available": true,
       "icon_key": "de625d7674459fd12f00e334b2f97dcc10eca0667e4b349b67dc5882050889a8",
-      "version": "v0.7.3",
-      "last_update": "2026-11-05",
-      "payload_filename": "ps4mount_v0.7.3.elf",
-      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps4mount_v0.7.3.elf",
-      "checksum": "f107a443aa83196744deeefe748a7f09d8b8b340a30df1b232535b6ee0f15127",
-      "github_stars": 212,
+      "version": "v0.8.0",
+      "last_update": "2026-11-13",
+      "payload_filename": "ps4mount_v0.8.0.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps4mount_v0.8.0.elf",
+      "checksum": "2f7d548cdb5c2beba631299fa9f1e5c18cca65c648443f9f36ffab9940a6a5ac",
+      "github_stars": 214,
       "open_issues_count": 11,
       "repository_updated_at": "2026-11-13T21:29:21Z",
-      "last_update_days": 8,
-      "last_update_months": 0.3
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "PS5 Game Compressor (gcoding97)",
@@ -1554,7 +1554,7 @@
       "github_stars": 117,
       "open_issues_count": 6,
       "repository_updated_at": "2026-10-02T13:06:33Z",
-      "last_update_days": 26,
+      "last_update_days": 27,
       "last_update_months": 0.9
     },
     {
@@ -1573,7 +1573,7 @@
       "github_stars": 16,
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-23T20:03:12Z",
-      "last_update_days": 21,
+      "last_update_days": 22,
       "last_update_months": 0.7
     },
     {
@@ -1614,7 +1614,7 @@
       "github_stars": 6,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-14T14:51:13Z",
-      "last_update_days": 30,
+      "last_update_days": 31,
       "last_update_months": 1.0
     },
     {
@@ -1644,7 +1644,7 @@
       "github_stars": 22,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-11T02:19:05Z",
-      "last_update_days": 33,
+      "last_update_days": 34,
       "last_update_months": 1.1
     },
     {
@@ -1678,7 +1678,7 @@
       "icon_key": "17864bd13ecdedda1cccd22797141de2acea6567c241ccd3a5c8fb9da21f1772",
       "github_stars": 15,
       "open_issues_count": 4,
-      "repository_updated_at": "2026-11-13T20:48:42Z"
+      "repository_updated_at": "2026-11-13T23:48:29Z"
     },
     {
       "name": "youtube-maxd",
@@ -1718,8 +1718,8 @@
       "github_stars": 1,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-22T10:26:35Z",
-      "last_update_days": 22,
-      "last_update_months": 0.7
+      "last_update_days": 23,
+      "last_update_months": 0.8
     },
     {
       "name": "Chiral-FTP",
@@ -1739,7 +1739,7 @@
       "category": "Repositories",
       "author": "heydemoura",
       "icon_key": "f5abba1c8028d2df0f778d2c5374ddb63851a4419f01356d4bf615fc2b65673b",
-      "github_stars": 29,
+      "github_stars": 33,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-01T14:58:10Z"
     },
@@ -1770,7 +1770,7 @@
       "github_stars": 8,
       "open_issues_count": 1,
       "repository_updated_at": "2026-06-05T00:46:51Z",
-      "last_update_days": 161,
+      "last_update_days": 162,
       "last_update_months": 5.3
     },
     {
@@ -1799,7 +1799,7 @@
       "github_stars": 55,
       "open_issues_count": 1,
       "repository_updated_at": "2025-03-09T14:25:13Z",
-      "last_update_days": 614,
+      "last_update_days": 615,
       "last_update_months": 20.2
     },
     {
@@ -1818,7 +1818,7 @@
       "github_stars": 54,
       "open_issues_count": 0,
       "repository_updated_at": "2025-11-20T16:02:35Z",
-      "last_update_days": 358,
+      "last_update_days": 359,
       "last_update_months": 11.8
     },
     {
@@ -1837,7 +1837,7 @@
       "github_stars": 50,
       "open_issues_count": 3,
       "repository_updated_at": "2026-06-09T20:12:50Z",
-      "last_update_days": 157,
+      "last_update_days": 158,
       "last_update_months": 5.2
     },
     {
@@ -1856,8 +1856,8 @@
       "github_stars": 44,
       "open_issues_count": 0,
       "repository_updated_at": "2026-05-29T03:44:14Z",
-      "last_update_days": 168,
-      "last_update_months": 5.5
+      "last_update_days": 169,
+      "last_update_months": 5.6
     },
     {
       "name": "universe",
@@ -1908,7 +1908,7 @@
       "github_stars": 67,
       "open_issues_count": 4,
       "repository_updated_at": "2026-10-24T15:04:18Z",
-      "last_update_days": 94,
+      "last_update_days": 95,
       "last_update_months": 3.1
     },
     {
@@ -1927,8 +1927,8 @@
       "github_stars": 36,
       "open_issues_count": 3,
       "repository_updated_at": "2026-07-31T00:54:17Z",
-      "last_update_days": 105,
-      "last_update_months": 3.4
+      "last_update_days": 106,
+      "last_update_months": 3.5
     },
     {
       "name": "PoorDS4",
@@ -1946,7 +1946,7 @@
       "github_stars": 139,
       "open_issues_count": 43,
       "repository_updated_at": "2026-10-24T05:01:00Z",
-      "last_update_days": 23,
+      "last_update_days": 24,
       "last_update_months": 0.8
     },
     {
@@ -1962,11 +1962,11 @@
       "payload_url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf",
       "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346",
       "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4",
-      "github_stars": 748,
+      "github_stars": 752,
       "open_issues_count": 21,
       "repository_updated_at": "2026-10-19T13:42:54Z",
-      "last_update_days": 25,
-      "last_update_months": 0.8
+      "last_update_days": 26,
+      "last_update_months": 0.9
     },
     {
       "name": "ps5-pkg-manager",
@@ -1981,10 +1981,10 @@
       "payload_filename": "PKG-Manager_v1.5.1.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/PKG-Manager_v1.5.1.elf",
       "checksum": "82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca",
-      "github_stars": 254,
+      "github_stars": 255,
       "open_issues_count": 13,
       "repository_updated_at": "2026-10-10T15:38:09Z",
-      "last_update_days": 34,
+      "last_update_days": 35,
       "last_update_months": 1.1
     },
     {
@@ -2003,7 +2003,7 @@
       "github_stars": 46,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-29T10:58:41Z",
-      "last_update_days": 15,
+      "last_update_days": 16,
       "last_update_months": 0.5
     },
     {
@@ -2019,10 +2019,10 @@
       "payload_url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.1/webkit-autoloader-installer_v0.6.1.elf",
       "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
       "checksum": "df60538570e9811bb0b4652a3fdb3e1a35ec3455b3ca7c80edc4140c5bb47ce2",
-      "github_stars": 1426,
+      "github_stars": 1429,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-08T00:52:43Z",
-      "last_update_days": 36,
+      "last_update_days": 37,
       "last_update_months": 1.2
     },
     {
@@ -2055,8 +2055,8 @@
       "author": "jstrdev",
       "icon_key": "072602be9ac6351b9040a374ef5df22d8cfacc5fb28407b10afaf2eedee149ff",
       "github_stars": 86,
-      "open_issues_count": 28,
-      "repository_updated_at": "2026-11-13T19:42:10Z"
+      "open_issues_count": 30,
+      "repository_updated_at": "2026-11-14T01:31:35Z"
     },
     {
       "name": "PS5-File-Explorer",
@@ -2074,8 +2074,8 @@
       "github_stars": 23,
       "open_issues_count": 0,
       "repository_updated_at": "2026-06-19T12:33:52Z",
-      "last_update_days": 147,
-      "last_update_months": 4.8
+      "last_update_days": 148,
+      "last_update_months": 4.9
     },
     {
       "name": "PS5 Game Compressor (juma-sayeh)",
@@ -2093,7 +2093,7 @@
       "github_stars": 298,
       "open_issues_count": 37,
       "repository_updated_at": "2026-08-21T20:43:14Z",
-      "last_update_days": 26,
+      "last_update_days": 27,
       "last_update_months": 0.9
     },
     {
@@ -2202,7 +2202,7 @@
       "category": "Repositories",
       "author": "kerrdec97",
       "icon_key": "9b348e4b2c850d45060b6fc044e4ed870eb3b47650652d6c7572aa57077d74c0",
-      "github_stars": 138,
+      "github_stars": 139,
       "open_issues_count": 12,
       "repository_updated_at": "2026-11-01T14:48:55Z"
     },
@@ -2222,7 +2222,7 @@
       "github_stars": 34,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-10T07:37:08Z",
-      "last_update_days": 81,
+      "last_update_days": 82,
       "last_update_months": 2.7
     },
     {
@@ -2263,7 +2263,7 @@
       "github_stars": 23,
       "open_issues_count": 1,
       "repository_updated_at": "2026-08-08T18:42:54Z",
-      "last_update_days": 97,
+      "last_update_days": 98,
       "last_update_months": 3.2
     },
     {
@@ -2273,7 +2273,7 @@
       "category": "Repositories",
       "author": "KINGDKAK",
       "icon_key": "6c8c27bb1a39cf8e8cadca5f1cae46bec8214bea8c942989e2e69f40942c8215",
-      "github_stars": 170,
+      "github_stars": 171,
       "open_issues_count": 33,
       "repository_updated_at": "2026-07-19T14:28:36Z"
     },
@@ -2290,10 +2290,10 @@
       "payload_url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
       "checksum": "5458739714d93ad807f3720ff3a2107687bf18be6e238c3f531a93f55d3467b7",
       "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b",
-      "github_stars": 270,
-      "open_issues_count": 3,
+      "github_stars": 272,
+      "open_issues_count": 4,
       "repository_updated_at": "2026-11-02T20:29:43Z",
-      "last_update_days": 27,
+      "last_update_days": 28,
       "last_update_months": 0.9
     },
     {
@@ -2336,7 +2336,7 @@
       "category": "Repositories",
       "author": "LedyBacer",
       "icon_key": "d741280e97680fb0e3cf01fc86bf2303dfc01a9a17f21fb0cdcd2aff16b02788",
-      "github_stars": 158,
+      "github_stars": 159,
       "open_issues_count": 7,
       "repository_updated_at": "2026-10-30T18:44:14Z"
     },
@@ -2347,9 +2347,9 @@
       "category": "Repositories",
       "author": "leolobato",
       "icon_key": "39d07bff0f0e3924c30cd1a4367db08a2d1ab98592d613fc06062b708371b60e",
-      "github_stars": 1067,
-      "open_issues_count": 257,
-      "repository_updated_at": "2026-11-13T18:40:24Z"
+      "github_stars": 1068,
+      "open_issues_count": 270,
+      "repository_updated_at": "2026-11-14T03:17:46Z"
     },
     {
       "name": "ps5-stream8",
@@ -2367,7 +2367,7 @@
       "github_stars": 3,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-17T14:13:47Z",
-      "last_update_days": 27,
+      "last_update_days": 28,
       "last_update_months": 0.9
     },
     {
@@ -2386,7 +2386,7 @@
       "github_stars": 4,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-07T14:47:26Z",
-      "last_update_days": 15,
+      "last_update_days": 16,
       "last_update_months": 0.5
     },
     {
@@ -2405,7 +2405,7 @@
       "github_stars": 212,
       "open_issues_count": 17,
       "repository_updated_at": "2026-10-05T20:26:33Z",
-      "last_update_days": 40,
+      "last_update_days": 41,
       "last_update_months": 1.3
     },
     {
@@ -2435,8 +2435,8 @@
       "github_stars": 5,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-28T14:54:32Z",
-      "last_update_days": 16,
-      "last_update_months": 0.5
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "CD-Player",
@@ -2498,8 +2498,8 @@
       "github_stars": 111,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-09T18:30:55Z",
-      "last_update_days": 4,
-      "last_update_months": 0.1
+      "last_update_days": 5,
+      "last_update_months": 0.2
     },
     {
       "name": "OliSePlayer",
@@ -2528,8 +2528,8 @@
       "github_stars": 12,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-03T10:02:05Z",
-      "last_update_days": 25,
-      "last_update_months": 0.8
+      "last_update_days": 26,
+      "last_update_months": 0.9
     },
     {
       "name": "ps5-homeassistant",
@@ -2547,7 +2547,7 @@
       "github_stars": 13,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-03T10:02:07Z",
-      "last_update_days": 21,
+      "last_update_days": 22,
       "last_update_months": 0.7
     },
     {
@@ -2566,8 +2566,8 @@
       "github_stars": 3,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-03T10:02:11Z",
-      "last_update_days": 25,
-      "last_update_months": 0.8
+      "last_update_days": 26,
+      "last_update_months": 0.9
     },
     {
       "name": "ps5-smbd",
@@ -2585,8 +2585,8 @@
       "github_stars": 6,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-03T10:02:17Z",
-      "last_update_days": 13,
-      "last_update_months": 0.4
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "Linux-desktop-wallpapers-for-PS5",
@@ -2626,7 +2626,7 @@
       "github_stars": 11,
       "open_issues_count": 0,
       "repository_updated_at": "2026-07-06T15:16:57Z",
-      "last_update_days": 130,
+      "last_update_days": 131,
       "last_update_months": 4.3
     },
     {
@@ -2678,7 +2678,7 @@
       "github_stars": 7,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-10T19:56:46Z",
-      "last_update_days": 34,
+      "last_update_days": 35,
       "last_update_months": 1.1
     },
     {
@@ -2697,7 +2697,7 @@
       "github_stars": 4,
       "open_issues_count": 4,
       "repository_updated_at": "2026-10-07T09:45:27Z",
-      "last_update_days": 39,
+      "last_update_days": 40,
       "last_update_months": 1.3
     },
     {
@@ -2707,9 +2707,9 @@
       "category": "Repositories",
       "author": "meta",
       "icon_key": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e",
-      "github_stars": 28245,
-      "open_issues_count": 453,
-      "repository_updated_at": "2026-11-13T21:49:24Z"
+      "github_stars": 28246,
+      "open_issues_count": 437,
+      "repository_updated_at": "2026-11-14T02:37:50Z"
     },
     {
       "name": "HYPERHEN",
@@ -2724,11 +2724,11 @@
       "payload_url": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_5/HyperHEN-v0.9.5.elf",
       "checksum": "dbdecc6187bd43a1f3e84c47874c50c8546673accc969918340c7522a3bb299e",
       "icon_key": "b4949343bde3dafa009a69b08f08c386271d95ab034b25fd2eb08d8878bd9134",
-      "github_stars": 253,
+      "github_stars": 254,
       "open_issues_count": 9,
       "repository_updated_at": "2026-11-03T18:50:35Z",
-      "last_update_days": 10,
-      "last_update_months": 0.3
+      "last_update_days": 11,
+      "last_update_months": 0.4
     },
     {
       "name": "PIZZA-HEN",
@@ -2746,7 +2746,7 @@
       "github_stars": 69,
       "open_issues_count": 2,
       "repository_updated_at": "2026-08-24T23:53:04Z",
-      "last_update_days": 81,
+      "last_update_days": 82,
       "last_update_months": 2.7
     },
     {
@@ -2773,11 +2773,11 @@
       "package_url": "https://github.com/mihawk-99/PS5_RetroArch/releases/download/v3.0.0-beta-3/PS5_RetroArch-v3.0.0-beta-3.zip",
       "package_checksum": "121786b162652dfe08a0d3fc98015e57d782d06ba6680f4d032b078e6a621a5a",
       "icon_key": "251c998dd037925609ea12083787760381406e604080ac96e2cf9bd908238394",
-      "github_stars": 438,
+      "github_stars": 439,
       "open_issues_count": 67,
       "repository_updated_at": "2026-10-19T20:57:27Z",
-      "last_update_days": 25,
-      "last_update_months": 0.8
+      "last_update_days": 26,
+      "last_update_months": 0.9
     },
     {
       "name": "Breeze",
@@ -2795,7 +2795,7 @@
       "github_stars": 31,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-26T20:45:46Z",
-      "last_update_days": 18,
+      "last_update_days": 19,
       "last_update_months": 0.6
     },
     {
@@ -2814,8 +2814,8 @@
       "github_stars": 20,
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-31T00:58:35Z",
-      "last_update_days": 13,
-      "last_update_months": 0.4
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "beetlepcePS5",
@@ -2833,7 +2833,7 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-24T12:44:29Z",
-      "last_update_days": 20,
+      "last_update_days": 21,
       "last_update_months": 0.7
     },
     {
@@ -2852,7 +2852,7 @@
       "github_stars": 16,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-10T12:41:43Z",
-      "last_update_days": 3,
+      "last_update_days": 4,
       "last_update_months": 0.1
     },
     {
@@ -2871,7 +2871,7 @@
       "github_stars": 3,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-24T12:50:38Z",
-      "last_update_days": 20,
+      "last_update_days": 21,
       "last_update_months": 0.7
     },
     {
@@ -2890,7 +2890,7 @@
       "github_stars": 14,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-24T12:47:00Z",
-      "last_update_days": 20,
+      "last_update_days": 21,
       "last_update_months": 0.7
     },
     {
@@ -2909,7 +2909,7 @@
       "github_stars": 9,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-11T20:57:11Z",
-      "last_update_days": 2,
+      "last_update_days": 3,
       "last_update_months": 0.1
     },
     {
@@ -2928,8 +2928,8 @@
       "github_stars": 66,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-31T13:38:26Z",
-      "last_update_days": 13,
-      "last_update_months": 0.4
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "stellaPS5",
@@ -2947,7 +2947,7 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-30T14:13:20Z",
-      "last_update_days": 14,
+      "last_update_days": 15,
       "last_update_months": 0.5
     },
     {
@@ -2968,7 +2968,7 @@
       "category": "Repositories",
       "author": "mortaljinx",
       "icon_key": "91e613f3e31488006f5241002dfe75e76f268d8b0a618eed824f7c0da1434acd",
-      "github_stars": 4,
+      "github_stars": 5,
       "open_issues_count": 2,
       "repository_updated_at": "2026-11-01T14:46:50Z"
     },
@@ -2988,7 +2988,7 @@
       "github_stars": 53,
       "open_issues_count": 0,
       "repository_updated_at": "2026-08-15T00:45:56Z",
-      "last_update_days": 91,
+      "last_update_days": 92,
       "last_update_months": 3.0
     },
     {
@@ -3052,8 +3052,8 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-28T16:37:04Z",
-      "last_update_days": 16,
-      "last_update_months": 0.5
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "NiakPS5",
@@ -3074,8 +3074,8 @@
       "author": "niakw",
       "icon_key": "e97910fcda346d6035f622df04b24b074eaa8f77ba7026cfc7cbb8cd86e73db4",
       "github_stars": 112,
-      "open_issues_count": 13,
-      "repository_updated_at": "2026-11-13T21:33:07Z"
+      "open_issues_count": 16,
+      "repository_updated_at": "2026-11-14T04:27:41Z"
     },
     {
       "name": "PS5-Custom-Tool-Manager-",
@@ -3093,8 +3093,8 @@
       "github_stars": 3,
       "open_issues_count": 1,
       "repository_updated_at": "2026-06-05T18:36:35Z",
-      "last_update_days": 162,
-      "last_update_months": 5.3
+      "last_update_days": 163,
+      "last_update_months": 5.4
     },
     {
       "name": "AstraPlay",
@@ -3105,7 +3105,7 @@
       "icon_key": "1a18e5217d16816970dd7ff3333bf71cd87f5657fcedfb91df401e7df54664ce",
       "github_stars": 14,
       "open_issues_count": 3,
-      "repository_updated_at": "2026-11-11T21:24:10Z"
+      "repository_updated_at": "2026-11-14T05:58:41Z"
     },
     {
       "name": "kura",
@@ -3120,11 +3120,11 @@
       "version": "v1.6.51",
       "last_update": "2026-10-28",
       "checksum": "57f96e4ad256a53ca812129d0ed7f3e104afb7088d0d4b24876dff78050a4547",
-      "github_stars": 89,
+      "github_stars": 88,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-28T04:14:21Z",
-      "last_update_days": 16,
-      "last_update_months": 0.5
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "NX-Controller-Tester",
@@ -3150,11 +3150,11 @@
       "payload_filename": "CheatRunner_v0.18.1.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/CheatRunner_v0.18.1.elf",
       "checksum": "80535260027983f09fc9d131e11e13591de61ef5eeea458825598263862d2ce8",
-      "github_stars": 304,
+      "github_stars": 305,
       "open_issues_count": 6,
       "repository_updated_at": "2026-11-03T20:12:18Z",
-      "last_update_days": 10,
-      "last_update_months": 0.3
+      "last_update_days": 11,
+      "last_update_months": 0.4
     },
     {
       "name": "CheatRunner_Patches",
@@ -3180,11 +3180,11 @@
       "payload_filename": "ProsperoMgr.elf",
       "payload_url": "https://github.com/notmaj0r/ProsperoMgr/releases/download/v1.2/ProsperoMgr.elf",
       "checksum": "127394cc4f1ac7347fea509e010e80bab7b5ee13d820665474cdc3928d173bce",
-      "github_stars": 348,
+      "github_stars": 349,
       "open_issues_count": 9,
       "repository_updated_at": "2026-11-09T00:31:51Z",
-      "last_update_days": 4,
-      "last_update_months": 0.1
+      "last_update_days": 5,
+      "last_update_months": 0.2
     },
     {
       "name": "Datura",
@@ -3213,8 +3213,8 @@
       "github_stars": 1,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-06T11:16:17Z",
-      "last_update_days": 13,
-      "last_update_months": 0.4
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "Solanum",
@@ -3240,10 +3240,10 @@
       "payload_filename": "ps5debug-NG_v1.3.2.elf",
       "payload_url": "https://github.com/Pharaoh2k/ps5debug-NG/releases/download/1.3.2/ps5debug-NG_v1.3.2.elf",
       "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
-      "github_stars": 131,
+      "github_stars": 130,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-22T10:25:39Z",
-      "last_update_days": 51,
+      "last_update_days": 52,
       "last_update_months": 1.7
     },
     {
@@ -3259,10 +3259,10 @@
       "payload_filename": "ps5debug-NG_1.3.2.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5debug-NG_1.3.2.elf",
       "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
-      "github_stars": 131,
+      "github_stars": 130,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-22T10:25:39Z",
-      "last_update_days": 51,
+      "last_update_days": 52,
       "last_update_months": 1.7
     },
     {
@@ -3281,7 +3281,7 @@
       "github_stars": 8,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-10T01:52:33Z",
-      "last_update_days": 3,
+      "last_update_days": 4,
       "last_update_months": 0.1
     },
     {
@@ -3291,7 +3291,7 @@
       "category": "Utilities & Tools",
       "author": "overdriveps5",
       "icon_key": "9fa72297718672827fba07e87b9eb30da72a5491349f49b99165901e311b6607",
-      "github_stars": 786,
+      "github_stars": 787,
       "open_issues_count": 13,
       "repository_updated_at": "2026-10-13T12:55:45Z"
     },
@@ -3311,7 +3311,7 @@
       "github_stars": 3,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-05T14:00:23Z",
-      "last_update_days": 39,
+      "last_update_days": 40,
       "last_update_months": 1.3
     },
     {
@@ -3330,7 +3330,7 @@
       "github_stars": 18,
       "open_issues_count": 2,
       "repository_updated_at": "2026-08-08T16:39:00Z",
-      "last_update_days": 97,
+      "last_update_days": 98,
       "last_update_months": 3.2
     },
     {
@@ -3351,9 +3351,9 @@
       "checksum": "14db2927e2b5e157c393f35f749ecd05c88d76fe336ce307b0f7b919fd506d24",
       "icon_key": "418554c041c5266e9086249dd6b90be34de94cb4bcbb6e4f369b8e3cbc5c2a66",
       "github_stars": 23,
-      "open_issues_count": 0,
+      "open_issues_count": 1,
       "repository_updated_at": "2026-11-13T12:02:03Z",
-      "last_update_days": 18,
+      "last_update_days": 19,
       "last_update_months": 0.6
     },
     {
@@ -3369,10 +3369,10 @@
       "payload_filename": "ps5-web-file-manager_v1.14.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.14.elf",
       "checksum": "8493c0bd11d77f9cce4b6c93564ffcae7185a5b530ecf856a768519c2514e231",
-      "github_stars": 317,
+      "github_stars": 318,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-10T13:40:52Z",
-      "last_update_days": 3,
+      "last_update_days": 4,
       "last_update_months": 0.1
     },
     {
@@ -3393,7 +3393,7 @@
       "category": "Repositories",
       "author": "owenksmith24-tech",
       "icon_key": "db98c750666e5f127d40348d7ee46a7f9c8c3b370b98bd36438649ef231fd8c9",
-      "github_stars": 57,
+      "github_stars": 58,
       "open_issues_count": 6,
       "repository_updated_at": "2026-10-16T15:02:38Z"
     },
@@ -3413,7 +3413,7 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-12T18:34:30Z",
-      "last_update_days": 32,
+      "last_update_days": 33,
       "last_update_months": 1.1
     },
     {
@@ -3431,7 +3431,7 @@
       "github_stars": 469,
       "open_issues_count": 24,
       "repository_updated_at": "2026-10-26T16:38:36Z",
-      "last_update_days": 26,
+      "last_update_days": 27,
       "last_update_months": 0.9
     },
     {
@@ -3444,13 +3444,13 @@
       "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0",
       "version": "v12.4.17",
       "last_update": "2026-11-13",
-      "payload_filename": "ps5upload-12.4.17.elf",
-      "payload_url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.17/ps5upload-12.4.17.elf",
+      "payload_filename": "ps5upload_v12.4.17.elf",
+      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.4.17.elf",
       "checksum": "f145f543338cab0b5f67946d1b98c4cc2dab1ca6e898f088da41e525fb0c6903",
-      "github_stars": 1217,
-      "open_issues_count": 0,
+      "github_stars": 1221,
+      "open_issues_count": 1,
       "repository_updated_at": "2026-11-13T18:54:29Z",
-      "last_update_days": 0,
+      "last_update_days": 1,
       "last_update_months": 0.0
     },
     {
@@ -3461,7 +3461,7 @@
       "author": "Phoenixx1202",
       "version": "1.4.6",
       "icon_key": "389ad3ac2a5251baba0617dc0b9b3ba7008ebc464c27c720d043b662cc2c9924",
-      "github_stars": 575,
+      "github_stars": 574,
       "open_issues_count": 27,
       "repository_updated_at": "2026-10-04T18:48:25Z"
     },
@@ -3478,10 +3478,10 @@
       "payload_url": "https://github.com/pLabs5/pLinux5-NG/releases/download/v0.1.0/pLinux5-NG-offsets.elf",
       "checksum": "585e403b2238c488031d506834770cea6acd283eb7804a84b14d15b1a9df416d",
       "icon_key": "12ddf86dced0daab2422de3f7bb1b3e61cf61191878c8684f63e90eef3d14985",
-      "github_stars": 194,
+      "github_stars": 193,
       "open_issues_count": 4,
       "repository_updated_at": "2026-10-21T00:05:09Z",
-      "last_update_days": 30,
+      "last_update_days": 31,
       "last_update_months": 1.0
     },
     {
@@ -3500,8 +3500,8 @@
       "github_stars": 5,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-13T08:13:35Z",
-      "last_update_days": 31,
-      "last_update_months": 1.0
+      "last_update_days": 32,
+      "last_update_months": 1.1
     },
     {
       "name": "Common-FPS-for-PS5",
@@ -3519,8 +3519,8 @@
       "github_stars": 35,
       "open_issues_count": 10,
       "repository_updated_at": "2026-10-16T20:40:19Z",
-      "last_update_days": 28,
-      "last_update_months": 0.9
+      "last_update_days": 29,
+      "last_update_months": 1.0
     },
     {
       "name": "OpenNOW-PS5",
@@ -3549,7 +3549,7 @@
       "github_stars": 16,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-23T12:10:01Z",
-      "last_update_days": 40,
+      "last_update_days": 41,
       "last_update_months": 1.3
     },
     {
@@ -3559,8 +3559,8 @@
       "category": "Repositories",
       "author": "premohq",
       "icon_key": "0ebfde54636445e27d482c56158c8b0bb6e23f93711bc81a9e0fd6824508eb4a",
-      "github_stars": 498,
-      "open_issues_count": 25,
+      "github_stars": 499,
+      "open_issues_count": 26,
       "repository_updated_at": "2026-11-12T23:56:30Z"
     },
     {
@@ -3570,8 +3570,8 @@
       "category": "Repositories",
       "author": "",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 498,
-      "open_issues_count": 25,
+      "github_stars": 499,
+      "open_issues_count": 26,
       "repository_updated_at": "2026-11-12T23:56:30Z"
     },
     {
@@ -3623,7 +3623,7 @@
       "github_stars": 5,
       "open_issues_count": 1,
       "repository_updated_at": "2026-08-30T23:29:51Z",
-      "last_update_days": 75,
+      "last_update_days": 76,
       "last_update_months": 2.5
     },
     {
@@ -3633,9 +3633,9 @@
       "category": "Linux & Development",
       "author": "ps5-linux",
       "icon_key": "385dd4d0023c130e5f82309f1b273326eb3439b957ca176a08e073d07ad559be",
-      "github_stars": 121,
+      "github_stars": 122,
       "open_issues_count": 12,
-      "repository_updated_at": "2026-11-13T18:23:21Z"
+      "repository_updated_at": "2026-11-13T23:54:19Z"
     },
     {
       "name": "PS5 Linux Loader — ps5-linux",
@@ -3653,7 +3653,7 @@
       "github_stars": 579,
       "open_issues_count": 19,
       "repository_updated_at": "2026-11-09T23:23:58Z",
-      "last_update_days": 69,
+      "last_update_days": 70,
       "last_update_months": 2.3
     },
     {
@@ -3702,10 +3702,10 @@
       "payload_filename": "elfldr_v0.27.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/elfldr_v0.27.elf",
       "checksum": "82f6227610172c98bad6efe68219fc93a10027035991f47eb4b75532d023407d",
-      "github_stars": 165,
+      "github_stars": 166,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-21T17:41:33Z",
-      "last_update_days": 23,
+      "last_update_days": 24,
       "last_update_months": 0.8
     },
     {
@@ -3721,10 +3721,10 @@
       "payload_filename": "ftpsrv_v0.22.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_v0.22.elf",
       "checksum": "41148c2c1cad1ea9e7cfde03e389fa918e3338e896d06167346de09adbdc8757",
-      "github_stars": 219,
+      "github_stars": 220,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-08T21:40:15Z",
-      "last_update_days": 5,
+      "last_update_days": 6,
       "last_update_months": 0.2
     },
     {
@@ -3743,7 +3743,7 @@
       "github_stars": 17,
       "open_issues_count": 1,
       "repository_updated_at": "2026-08-02T16:39:27Z",
-      "last_update_days": 103,
+      "last_update_days": 104,
       "last_update_months": 3.4
     },
     {
@@ -3762,7 +3762,7 @@
       "github_stars": 26,
       "open_issues_count": 0,
       "repository_updated_at": "2026-08-02T16:37:09Z",
-      "last_update_days": 103,
+      "last_update_days": 104,
       "last_update_months": 3.4
     },
     {
@@ -3781,8 +3781,8 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-01T18:21:42Z",
-      "last_update_days": 74,
-      "last_update_months": 2.4
+      "last_update_days": 75,
+      "last_update_months": 2.5
     },
     {
       "name": "sdk",
@@ -3791,7 +3791,7 @@
       "category": "Repositories",
       "author": "ps5-payload-dev",
       "icon_key": "c3350840e339a20eb8ab25e59a3aac358e51f380ed0f20dd77f396945f03a18e",
-      "github_stars": 286,
+      "github_stars": 287,
       "open_issues_count": 4,
       "repository_updated_at": "2026-11-08T18:50:40Z"
     },
@@ -3811,7 +3811,7 @@
       "github_stars": 7,
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-01T20:31:44Z",
-      "last_update_days": 73,
+      "last_update_days": 74,
       "last_update_months": 2.4
     },
     {
@@ -3830,7 +3830,7 @@
       "github_stars": 227,
       "open_issues_count": 8,
       "repository_updated_at": "2026-10-10T22:31:18Z",
-      "last_update_days": 103,
+      "last_update_days": 104,
       "last_update_months": 3.4
     },
     {
@@ -3849,7 +3849,7 @@
       "github_stars": 46,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-25T14:35:18Z",
-      "last_update_days": 33,
+      "last_update_days": 34,
       "last_update_months": 1.1
     },
     {
@@ -3870,8 +3870,8 @@
       "category": "Repositories",
       "author": "quer3q",
       "icon_key": "4552aaabdc5b3db43035fd42d32827a3b7dcf110f164272aae69d4b75855050a",
-      "github_stars": 237,
-      "open_issues_count": 7,
+      "github_stars": 247,
+      "open_issues_count": 10,
       "repository_updated_at": "2026-11-13T10:16:09Z"
     },
     {
@@ -3887,11 +3887,11 @@
       "payload_filename": "ps5-dump-forge_v0.5.5.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.5.elf",
       "checksum": "858b8ae2954341a3389e4a9f998c6a57d01bc4e4fb8f01a71c41719001c30be7",
-      "github_stars": 429,
-      "open_issues_count": 9,
+      "github_stars": 437,
+      "open_issues_count": 10,
       "repository_updated_at": "2026-11-09T19:55:17Z",
-      "last_update_days": 4,
-      "last_update_months": 0.1
+      "last_update_days": 5,
+      "last_update_months": 0.2
     },
     {
       "name": "pico8-ps5",
@@ -3912,7 +3912,7 @@
       "author": "RafaelNGP",
       "icon_key": "373f66e70746d5e1f2994003cbb84be7933850000ba2eec330347f622eb2719f",
       "github_stars": 0,
-      "open_issues_count": 41,
+      "open_issues_count": 47,
       "repository_updated_at": "2026-11-11T00:17:25Z"
     },
     {
@@ -3942,7 +3942,7 @@
       "github_stars": 50,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-23T13:02:13Z",
-      "last_update_days": 30,
+      "last_update_days": 31,
       "last_update_months": 1.0
     },
     {
@@ -4016,8 +4016,8 @@
       "github_stars": 123,
       "open_issues_count": 4,
       "repository_updated_at": "2026-11-13T14:12:08Z",
-      "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "v1.4.3",
@@ -4046,7 +4046,7 @@
       "github_stars": 22,
       "open_issues_count": 5,
       "repository_updated_at": "2026-11-12T06:56:04Z",
-      "last_update_days": 2,
+      "last_update_days": 3,
       "last_update_months": 0.1
     },
     {
@@ -4056,19 +4056,19 @@
       "category": "Utilities & Tools",
       "author": "saawant12",
       "payload_available": true,
-      "version": "v1.8.5",
-      "last_update": "2026-11-04",
+      "version": "v1.9.0",
+      "last_update": "2026-11-13",
       "payload_filename": "orbit_store.elf",
-      "payload_url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.8.5/orbit_store.elf",
-      "checksum": "935f81956acd3acba876977057c2ce77ded6a7fc72a98fd821cba2d1765e1f77",
+      "payload_url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.0/orbit_store.elf",
+      "checksum": "4d2b78ad4c0de1211b93664d5401beb1e19e54452fccc74886d4cb63b659439a",
       "package_filename": "PPSA99177.ffpkg",
       "package_url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.3.5/PPSA99177.ffpkg",
       "icon_key": "44d63d7af0c21e5f503cf7e151276d785f3a2ffb64ecf8a0f66a1b884438c2f7",
-      "github_stars": 1403,
-      "open_issues_count": 58,
-      "repository_updated_at": "2026-11-10T17:08:54Z",
-      "last_update_days": 9,
-      "last_update_months": 0.3
+      "github_stars": 1406,
+      "open_issues_count": 53,
+      "repository_updated_at": "2026-11-13T22:23:03Z",
+      "last_update_days": 1,
+      "last_update_months": 0.0
     },
     {
       "name": "EVO-PLAYER-PS5",
@@ -4086,7 +4086,7 @@
       "github_stars": 65,
       "open_issues_count": 54,
       "repository_updated_at": "2026-11-12T16:40:19Z",
-      "last_update_days": 91,
+      "last_update_days": 92,
       "last_update_months": 3.0
     },
     {
@@ -4116,7 +4116,7 @@
       "github_stars": 6,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-21T22:33:36Z",
-      "last_update_days": 23,
+      "last_update_days": 24,
       "last_update_months": 0.8
     },
     {
@@ -4157,7 +4157,7 @@
       "github_stars": 42,
       "open_issues_count": 4,
       "repository_updated_at": "2026-11-13T01:53:17Z",
-      "last_update_days": 0,
+      "last_update_days": 1,
       "last_update_months": 0.0
     },
     {
@@ -4176,7 +4176,7 @@
       "github_stars": 4,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-07T00:52:51Z",
-      "last_update_days": 6,
+      "last_update_days": 7,
       "last_update_months": 0.2
     },
     {
@@ -4206,7 +4206,7 @@
       "github_stars": 17,
       "open_issues_count": 2,
       "repository_updated_at": "2026-11-02T05:53:21Z",
-      "last_update_days": 40,
+      "last_update_days": 41,
       "last_update_months": 1.3
     },
     {
@@ -4225,7 +4225,7 @@
       "github_stars": 6,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-02T19:23:25Z",
-      "last_update_days": 11,
+      "last_update_days": 12,
       "last_update_months": 0.4
     },
     {
@@ -4244,8 +4244,8 @@
       "github_stars": 140,
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-28T09:27:05Z",
-      "last_update_days": 16,
-      "last_update_months": 0.5
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "JewelCase",
@@ -4271,10 +4271,10 @@
       "version": "v1.0.19",
       "last_update": "2026-10-18",
       "checksum": "fbb798d01fa413ca0d04b81ff9c719e1da0535e4145858459d9982e163b975d1",
-      "github_stars": 22,
+      "github_stars": 24,
       "open_issues_count": 6,
       "repository_updated_at": "2026-10-18T20:54:26Z",
-      "last_update_days": 26,
+      "last_update_days": 27,
       "last_update_months": 0.9
     },
     {
@@ -4293,7 +4293,7 @@
       "github_stars": 8,
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-29T02:29:36Z",
-      "last_update_days": 45,
+      "last_update_days": 46,
       "last_update_months": 1.5
     },
     {
@@ -4323,7 +4323,7 @@
       "github_stars": 4,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-01T22:33:17Z",
-      "last_update_days": 43,
+      "last_update_days": 44,
       "last_update_months": 1.4
     },
     {
@@ -4342,8 +4342,8 @@
       "github_stars": 20,
       "open_issues_count": 3,
       "repository_updated_at": "2026-04-08T02:59:16Z",
-      "last_update_days": 220,
-      "last_update_months": 7.2
+      "last_update_days": 221,
+      "last_update_months": 7.3
     },
     {
       "name": "PS-DiscordPresence",
@@ -4361,7 +4361,7 @@
       "github_stars": 10,
       "open_issues_count": 4,
       "repository_updated_at": "2026-07-17T12:52:53Z",
-      "last_update_days": 119,
+      "last_update_days": 120,
       "last_update_months": 3.9
     },
     {
@@ -4380,7 +4380,7 @@
       "github_stars": 8,
       "open_issues_count": 1,
       "repository_updated_at": "2026-07-12T22:13:28Z",
-      "last_update_days": 124,
+      "last_update_days": 125,
       "last_update_months": 4.1
     },
     {
@@ -4410,7 +4410,7 @@
       "github_stars": 1,
       "open_issues_count": 0,
       "repository_updated_at": "2026-06-11T01:44:27Z",
-      "last_update_days": 155,
+      "last_update_days": 156,
       "last_update_months": 5.1
     },
     {
@@ -4429,7 +4429,7 @@
       "github_stars": 10,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-08T08:48:06Z",
-      "last_update_days": 36,
+      "last_update_days": 37,
       "last_update_months": 1.2
     },
     {
@@ -4440,14 +4440,14 @@
       "author": "strongt1me",
       "icon_key": "3b815985bf2a65b51ae5b608179a3dc777b84bdf9470f4ca1abe1a47901a939b",
       "payload_available": true,
-      "payload_filename": "PS5_Cooling_System_Center_v1.82.0.elf",
-      "payload_url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.82.0/PS5_Cooling_System_Center_v1.82.0.elf",
-      "version": "v1.82.0",
-      "last_update": "2026-11-13",
-      "checksum": "b6357aefe8ef7930904fff707d139945b9aed945e37e678202db97ce9c5d27e4",
+      "payload_filename": "PS5_Cooling_System_Center_v1.84.0.elf",
+      "payload_url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.84.0/PS5_Cooling_System_Center_v1.84.0.elf",
+      "version": "v1.84.0",
+      "last_update": "2026-11-14",
+      "checksum": "06a853d7016439d198cc17d2fdeb328bee2617735a1b79dc6832eb10463aee9e",
       "github_stars": 9,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T16:50:21Z",
+      "repository_updated_at": "2026-11-14T00:52:10Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -4478,7 +4478,7 @@
       "github_stars": 10,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-13T11:17:42Z",
-      "last_update_days": 0,
+      "last_update_days": 1,
       "last_update_months": 0.0
     },
     {
@@ -4497,7 +4497,7 @@
       "github_stars": 24,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-17T09:15:12Z",
-      "last_update_days": 27,
+      "last_update_days": 28,
       "last_update_months": 0.9
     },
     {
@@ -4516,7 +4516,7 @@
       "github_stars": 21,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-13T20:24:43Z",
-      "last_update_days": 0,
+      "last_update_days": 1,
       "last_update_months": 0.0
     },
     {
@@ -4546,8 +4546,8 @@
       "github_stars": 18,
       "open_issues_count": 2,
       "repository_updated_at": "2026-11-01T21:58:25Z",
-      "last_update_days": 13,
-      "last_update_months": 0.4
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "Prospero-Explorer",
@@ -4598,7 +4598,7 @@
       "github_stars": 18,
       "open_issues_count": 2,
       "repository_updated_at": "2026-11-04T09:42:35Z",
-      "last_update_days": 9,
+      "last_update_days": 10,
       "last_update_months": 0.3
     },
     {
@@ -4617,10 +4617,10 @@
       "package_url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SX2-vk-285-171.zip",
       "package_checksum": "226ac24866f0b94566c0680c3b99c0d5abfe8030723f5b28dae20af039c76963",
       "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
-      "github_stars": 1667,
+      "github_stars": 1671,
       "open_issues_count": 88,
       "repository_updated_at": "2026-11-13T01:35:30Z",
-      "last_update_days": 8,
+      "last_update_days": 9,
       "last_update_months": 0.3
     },
     {
@@ -4643,7 +4643,7 @@
       "icon_key": "5ffc5d7561e518519163b3c9f9e40a87e2f4b91905e070ae079f0cf57920d6cc",
       "github_stars": 308,
       "open_issues_count": 95,
-      "repository_updated_at": "2026-11-13T06:57:53Z"
+      "repository_updated_at": "2026-11-14T01:52:38Z"
     },
     {
       "name": "ps5-cloud-play",
@@ -4663,7 +4663,7 @@
       "category": "Repositories",
       "author": "ThatGuyKalvin",
       "icon_key": "781dc678a1548e78def2a97d36d89e4cf9541efd7e21986acc12b44289429b98",
-      "github_stars": 88,
+      "github_stars": 87,
       "open_issues_count": 3,
       "repository_updated_at": "2026-11-08T11:17:53Z"
     },
@@ -4716,8 +4716,8 @@
       "github_stars": 50,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-16T07:02:08Z",
-      "last_update_days": 28,
-      "last_update_months": 0.9
+      "last_update_days": 29,
+      "last_update_months": 1.0
     },
     {
       "name": "PS5-Linux-Loader — TheRealRexo",
@@ -4726,17 +4726,9 @@
       "category": "Repositories",
       "author": "TheRealRexo",
       "icon_key": "16a3a0bd2d3da31ed8ae320453d2c13c5dc7a4969c6be61027baa3d0e0966b5b",
-      "payload_available": true,
-      "payload_filename": "ps5-linux-loader.elf",
-      "payload_url": "https://github.com/TheRealRexo/PS5-Linux-Loader/releases/download/v1.0.0/ps5-linux-loader.elf",
-      "version": "v1.0.0",
-      "last_update": "2026-10-26",
-      "checksum": "a2dc8da57dcb12aa52a0dc1836fbdec6653a6098221437003bd18b56ac228b81",
       "github_stars": 8,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T21:38:48Z",
-      "last_update_days": 18,
-      "last_update_months": 0.6
+      "repository_updated_at": "2026-11-13T21:38:48Z"
     },
     {
       "name": "APR Emu Updater (tsuramatsu1)",
@@ -4754,7 +4746,7 @@
       "github_stars": 121,
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-06T17:42:27Z",
-      "last_update_days": 76,
+      "last_update_days": 77,
       "last_update_months": 2.5
     },
     {
@@ -4847,11 +4839,11 @@
       "last_update": "2026-11-12",
       "checksum": "8714a2457ce9c81db5c48904c3cea2c1c622163e2f1dff7bf755a38daf604410",
       "icon_key": "f07c0f6af10677b0c50ba30be549cc0c7a9945884365baf55631390b4edd5d8a",
-      "github_stars": 558,
-      "open_issues_count": 9,
+      "github_stars": 559,
+      "open_issues_count": 10,
       "repository_updated_at": "2026-11-12T23:20:41Z",
-      "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "PS5MC",
@@ -4891,7 +4883,7 @@
       "github_stars": 53,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-02T22:50:19Z",
-      "last_update_days": 20,
+      "last_update_days": 21,
       "last_update_months": 0.7
     },
     {
@@ -4907,11 +4899,11 @@
       "payload_url": "https://github.com/X-F1REBALL-X/elf-launcher/releases/download/v2.1.6/elf-launcher.elf",
       "checksum": "5c4a9c3146cf7ac14ce0dab35358eb5ab9cd17c647735d9fcd0932913ac2a9d2",
       "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
-      "github_stars": 20,
+      "github_stars": 21,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-12T18:45:10Z",
-      "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "HearBridge-Browser",
@@ -4929,8 +4921,8 @@
       "github_stars": 3,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-23T17:48:30Z",
-      "last_update_days": 31,
-      "last_update_months": 1.0
+      "last_update_days": 32,
+      "last_update_months": 1.1
     },
     {
       "name": "HearBridge-PS5",
@@ -4948,7 +4940,7 @@
       "github_stars": 196,
       "open_issues_count": 15,
       "repository_updated_at": "2026-10-30T15:09:40Z",
-      "last_update_days": 14,
+      "last_update_days": 15,
       "last_update_months": 0.5
     },
     {
@@ -4966,7 +4958,7 @@
       "github_stars": 39,
       "open_issues_count": 4,
       "repository_updated_at": "2026-11-12T19:51:17Z",
-      "last_update_days": 21,
+      "last_update_days": 22,
       "last_update_months": 0.7
     },
     {
@@ -5004,10 +4996,10 @@
       "payload_filename": "TabShifter.elf",
       "payload_url": "https://github.com/xvvulcanvx/PS5-TabShifter/releases/download/v1.4.0/TabShifter.elf",
       "checksum": "f687372160a2ae564b2c401c5378fa5ae0902e9815f2f13fc6a07b9c34c1630f",
-      "github_stars": 110,
+      "github_stars": 109,
       "open_issues_count": 7,
       "repository_updated_at": "2026-11-13T01:03:31Z",
-      "last_update_days": 0,
+      "last_update_days": 1,
       "last_update_months": 0.0
     },
     {
@@ -5023,11 +5015,11 @@
       "version": "v1.0.9",
       "last_update": "2026-11-09",
       "checksum": "381e0555b5c67ebb5236d5b47ce80ced81239d79c4134ede2f1a783ceab108bf",
-      "github_stars": 53,
+      "github_stars": 54,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-09T20:47:22Z",
-      "last_update_days": 4,
-      "last_update_months": 0.1
+      "last_update_days": 5,
+      "last_update_months": 0.2
     },
     {
       "name": "BlackwireSMB",
@@ -5045,8 +5037,8 @@
       "github_stars": 27,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-29T01:03:48Z",
-      "last_update_days": 16,
-      "last_update_months": 0.5
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "PS5_Audiobook_Reader",
@@ -5163,7 +5155,7 @@
       "github_stars": 221,
       "open_issues_count": 7,
       "repository_updated_at": "2026-11-12T20:06:08Z",
-      "last_update_days": 3,
+      "last_update_days": 4,
       "last_update_months": 0.1
     },
     {
@@ -5182,8 +5174,8 @@
       "github_stars": 5,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-31T20:51:31Z",
-      "last_update_days": 13,
-      "last_update_months": 0.4
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "Ruffle-Flash-PS5",
@@ -5201,7 +5193,7 @@
       "github_stars": 20,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-21T02:42:46Z",
-      "last_update_days": 40,
+      "last_update_days": 41,
       "last_update_months": 1.3
     },
     {
@@ -5217,10 +5209,10 @@
       "version": "v0.6.1",
       "last_update": "2026-11-10",
       "checksum": "31c8a3479937e310f758d36d87c937c91ae942921fa4645473b3d228a7d88959",
-      "github_stars": 76,
+      "github_stars": 75,
       "open_issues_count": 3,
       "repository_updated_at": "2026-11-10T17:01:41Z",
-      "last_update_days": 3,
+      "last_update_days": 4,
       "last_update_months": 0.1
     },
     {
@@ -5236,10 +5228,10 @@
       "version": "Alpha-2.1",
       "last_update": "2026-10-10",
       "checksum": "31c8a3479937e310f758d36d87c937c91ae942921fa4645473b3d228a7d88959",
-      "github_stars": 211,
-      "open_issues_count": 5,
+      "github_stars": 212,
+      "open_issues_count": 7,
       "repository_updated_at": "2026-11-11T15:14:32Z",
-      "last_update_days": 34,
+      "last_update_days": 35,
       "last_update_months": 1.1
     },
     {
@@ -5335,8 +5327,8 @@
       "github_stars": 6,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-01T10:01:32Z",
-      "last_update_days": 13,
-      "last_update_months": 0.4
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "ps5-discord",
@@ -5354,8 +5346,8 @@
       "github_stars": 28,
       "open_issues_count": 3,
       "repository_updated_at": "2026-11-12T20:38:19Z",
-      "last_update_days": 25,
-      "last_update_months": 0.8
+      "last_update_days": 26,
+      "last_update_months": 0.9
     },
     {
       "name": "ProsperoWeb",
@@ -5406,7 +5398,7 @@
       "github_stars": 12,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-02T22:20:52Z",
-      "last_update_days": 11,
+      "last_update_days": 12,
       "last_update_months": 0.4
     },
     {
@@ -5425,8 +5417,8 @@
       "github_stars": 18,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-06T01:36:43Z",
-      "last_update_days": 7,
-      "last_update_months": 0.2
+      "last_update_days": 8,
+      "last_update_months": 0.3
     },
     {
       "name": "ps5-youtube-update-blocker",
@@ -5441,10 +5433,10 @@
       "version": "v1.0",
       "last_update": "2026-11-01",
       "checksum": "482bfa89f67030b8bfa600df14d6925848fdc1aa76777d49d0cb36462005cee8",
-      "github_stars": 25,
+      "github_stars": 26,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-01T20:48:04Z",
-      "last_update_days": 12,
+      "last_update_days": 13,
       "last_update_months": 0.4
     },
     {
@@ -5465,7 +5457,7 @@
       "category": "Repositories",
       "author": "heydemoura",
       "icon_key": "f5abba1c8028d2df0f778d2c5374ddb63851a4419f01356d4bf615fc2b65673b",
-      "github_stars": 358,
+      "github_stars": 362,
       "open_issues_count": 13,
       "repository_updated_at": "2026-11-13T13:56:30Z"
     },
@@ -5507,7 +5499,7 @@
       "github_stars": 174,
       "open_issues_count": 22,
       "repository_updated_at": "2026-11-10T09:40:58Z",
-      "last_update_days": 3,
+      "last_update_days": 4,
       "last_update_months": 0.1
     },
     {
@@ -5517,7 +5509,7 @@
       "category": "Repositories",
       "author": "smarkyie",
       "icon_key": "19d7d3c4ab3042c284c8c794960c911ea2930d31d3e0bf3dbbd8d95d0ecc9458",
-      "github_stars": 586,
+      "github_stars": 587,
       "open_issues_count": 6,
       "repository_updated_at": "2026-11-03T18:34:28Z"
     },
@@ -5581,7 +5573,7 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-02T13:55:49Z",
-      "last_update_days": 11,
+      "last_update_days": 12,
       "last_update_months": 0.4
     },
     {
@@ -5600,8 +5592,8 @@
       "github_stars": 329,
       "open_issues_count": 20,
       "repository_updated_at": "2026-11-03T18:24:04Z",
-      "last_update_days": 10,
-      "last_update_months": 0.3
+      "last_update_days": 11,
+      "last_update_months": 0.4
     },
     {
       "name": "PS5-BDclone",
@@ -5619,8 +5611,8 @@
       "github_stars": 1,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-31T23:02:59Z",
-      "last_update_days": 13,
-      "last_update_months": 0.4
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "PlayBridge",
@@ -5635,11 +5627,11 @@
       "version": "v1.6.0",
       "last_update": "2026-11-12",
       "checksum": "67add0b3978f1c80f658754693152cd4e66a2cd21e235bae1f633c39b75199f4",
-      "github_stars": 29,
+      "github_stars": 30,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-12T22:39:45Z",
-      "last_update_days": 1,
-      "last_update_months": 0.0
+      "last_update_days": 2,
+      "last_update_months": 0.1
     },
     {
       "name": "nanoDNS-Desktop",
@@ -5712,7 +5704,7 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-04T10:39:44Z",
-      "last_update_days": 9,
+      "last_update_days": 10,
       "last_update_months": 0.3
     },
     {
@@ -5876,9 +5868,9 @@
       "category": "Repositories",
       "author": "thelinkin3000",
       "icon_key": "ff69e0e628fec31c5139dc0fb1a348af76692127aeb7e8b598f1132a20479611",
-      "github_stars": 90,
+      "github_stars": 91,
       "open_issues_count": 5,
-      "repository_updated_at": "2026-11-13T21:47:30Z"
+      "repository_updated_at": "2026-11-14T04:26:42Z"
     },
     {
       "name": "Build 141 (c414020)",
@@ -5887,9 +5879,9 @@
       "category": "Repositories",
       "author": "",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 90,
+      "github_stars": 91,
       "open_issues_count": 5,
-      "repository_updated_at": "2026-11-13T21:47:30Z"
+      "repository_updated_at": "2026-11-14T04:26:42Z"
     },
     {
       "name": "Infinity-Blade-PS5",
@@ -6076,7 +6068,7 @@
       "icon_key": "082f07bcb27674ff75dce0dee9e24963e2ad54cefc0c93ea5effe54cad881cd8",
       "github_stars": 7,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T21:41:16Z"
+      "repository_updated_at": "2026-11-13T21:56:30Z"
     },
     {
       "name": "PS5_Sunshine",
@@ -6426,7 +6418,7 @@
       "category": "Repositories",
       "author": "Marice",
       "icon_key": "54443099d6301f245a2d810b91d05c5e01deafea655f9ce919f6a6995e6b3168",
-      "github_stars": 1,
+      "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-03T10:02:21Z"
     },
@@ -6492,9 +6484,9 @@
       "category": "Repositories",
       "author": "saschb2b",
       "icon_key": "6986b184787075bf5c998f31c0748129fc6058b40ce9b21c5ceebd3a512234d8",
-      "github_stars": 32,
+      "github_stars": 33,
       "open_issues_count": 9,
-      "repository_updated_at": "2026-11-13T21:49:27Z"
+      "repository_updated_at": "2026-11-14T02:59:08Z"
     },
     {
       "name": "MedievalTennis",
@@ -6556,7 +6548,7 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-10T19:25:22Z",
-      "last_update_days": 3,
+      "last_update_days": 4,
       "last_update_months": 0.1
     },
     {
@@ -6575,7 +6567,7 @@
       "github_stars": 1,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-01T21:09:53Z",
-      "last_update_days": 12,
+      "last_update_days": 13,
       "last_update_months": 0.4
     },
     {
@@ -6671,7 +6663,7 @@
       "github_stars": 844,
       "open_issues_count": 18,
       "repository_updated_at": "2026-11-09T10:46:32Z",
-      "last_update_days": 42,
+      "last_update_days": 43,
       "last_update_months": 1.4
     },
     {
@@ -6681,7 +6673,7 @@
       "category": "Repositories",
       "author": "TheRealRetro",
       "icon_key": "c745564447df968fa55f209f64069098556feae224728fe9c0281d78cd4fb6e5",
-      "github_stars": 37,
+      "github_stars": 38,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-18T01:58:21Z"
     },
@@ -6704,7 +6696,7 @@
       "author": "PS5Dev",
       "payload_available": false,
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 536,
+      "github_stars": 535,
       "open_issues_count": 25,
       "repository_updated_at": "2026-10-12T22:52:46Z"
     },
@@ -6723,7 +6715,7 @@
       "github_stars": 17,
       "open_issues_count": 0,
       "repository_updated_at": "2023-02-28T12:09:24Z",
-      "last_update_days": 26,
+      "last_update_days": 27,
       "last_update_months": 0.9
     },
     {
@@ -6742,7 +6734,7 @@
       "github_stars": 51,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-15T19:14:26Z",
-      "last_update_days": 29,
+      "last_update_days": 30,
       "last_update_months": 1.0
     },
     {
@@ -6758,10 +6750,10 @@
       "package_url": "https://github.com/michpalm/game-glance/releases/download/v3.4.0/game-glance.zip",
       "checksum": "bea454654b24b4d675584c63ed29cff2f297c23ba3336944874943ee999de915",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 145,
-      "open_issues_count": 27,
+      "github_stars": 146,
+      "open_issues_count": 28,
       "repository_updated_at": "2026-11-10T12:58:52Z",
-      "last_update_days": 27,
+      "last_update_days": 28,
       "last_update_months": 0.9
     },
     {
@@ -6776,10 +6768,10 @@
       "package_filename": "y2jb_update.zip",
       "package_url": "https://github.com/itsPLK/ps5-y2jb-autoloader/releases/download/v1.0.2-254c85f/y2jb_update.zip",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 1248,
+      "github_stars": 1249,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-28T14:19:47Z",
-      "last_update_days": 24,
+      "last_update_days": 25,
       "last_update_months": 0.8
     },
     {
@@ -6795,10 +6787,10 @@
       "payload_filename": "RecompStore-Installer.elf",
       "payload_url": "https://github.com/elripalda/RecompStore/releases/download/v2.7.4/RecompStore-Installer.elf",
       "checksum": "3a20194226cf5e1ee66a5a67d81610c1ac9bf82deee7b791c752d0e7d6202d5c",
-      "github_stars": 387,
+      "github_stars": 391,
       "open_issues_count": 23,
-      "repository_updated_at": "2026-11-13T21:50:46Z",
-      "last_update_days": 14,
+      "repository_updated_at": "2026-11-14T04:57:12Z",
+      "last_update_days": 15,
       "last_update_months": 0.5
     },
     {
@@ -6818,7 +6810,7 @@
       "author": "BlackBoxPS5",
       "version": "v1.0.5",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 788,
+      "github_stars": 790,
       "open_issues_count": 8,
       "repository_updated_at": "2026-11-09T00:25:18Z"
     },
@@ -6843,7 +6835,7 @@
       "package_url": "https://github.com/MyLuxy/overdrive/releases/download/v1.0.6/Overdrive.exfat",
       "checksum": "ba2922e2ce12a416a277eec747ceaa2609514a7ba8a4e46682c2179f228c5a2b",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "last_update_days": 27,
+      "last_update_days": 28,
       "last_update_months": 0.9
     },
     {
@@ -6891,7 +6883,7 @@
       "github_stars": 80,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-04T16:54:03Z",
-      "last_update_days": 26,
+      "last_update_days": 27,
       "last_update_months": 0.9
     },
     {
@@ -6909,7 +6901,7 @@
       "github_stars": 126,
       "open_issues_count": 1,
       "repository_updated_at": "2026-09-19T15:29:14Z",
-      "last_update_days": 26,
+      "last_update_days": 27,
       "last_update_months": 0.9
     },
     {
@@ -6929,7 +6921,7 @@
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 113,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T18:15:56Z"
+      "repository_updated_at": "2026-11-14T00:00:43Z"
     },
     {
       "name": "PS5 Y2JB USBUtilityTool",
@@ -6947,8 +6939,8 @@
       "github_stars": 18,
       "open_issues_count": 0,
       "repository_updated_at": "2025-12-10T14:29:09Z",
-      "last_update_days": 299,
-      "last_update_months": 9.8
+      "last_update_days": 300,
+      "last_update_months": 9.9
     },
     {
       "name": "Y2JB Update Blocker",
@@ -6966,7 +6958,7 @@
       "github_stars": 65,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-18T15:39:55Z",
-      "last_update_days": 26,
+      "last_update_days": 27,
       "last_update_months": 0.9
     },
     {
@@ -6988,7 +6980,7 @@
       "github_stars": 55,
       "open_issues_count": 5,
       "repository_updated_at": "2026-10-17T20:13:58Z",
-      "last_update_days": 27,
+      "last_update_days": 28,
       "last_update_months": 0.9
     },
     {
@@ -7006,7 +6998,7 @@
       "github_stars": 34,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-21T16:43:23Z",
-      "last_update_days": 23,
+      "last_update_days": 24,
       "last_update_months": 0.8
     },
     {
@@ -7025,7 +7017,7 @@
       "github_stars": 24,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-27T23:31:52Z",
-      "last_update_days": 17,
+      "last_update_days": 18,
       "last_update_months": 0.6
     },
     {
@@ -7041,7 +7033,7 @@
       "github_stars": 18,
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-21T07:38:29Z",
-      "last_update_days": 172,
+      "last_update_days": 173,
       "last_update_months": 5.7
     },
     {
@@ -7057,7 +7049,7 @@
       "github_stars": 65,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-01T23:54:45Z",
-      "last_update_days": 43,
+      "last_update_days": 44,
       "last_update_months": 1.4
     },
     {
@@ -7083,7 +7075,7 @@
       "version": "ps5-v0.1.0-beta.1",
       "last_update": "2026-11-10",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "last_update_days": 3,
+      "last_update_days": 4,
       "last_update_months": 0.1
     },
     {
@@ -7099,10 +7091,10 @@
       "payload_url": "https://github.com/quer3q/kraken-mount/releases/download/v0.0.1-beta/kraken-mount.elf",
       "checksum": "32cdf8e9aee9a8e91a7acd8884ac4701a75a38d96d483ea00bb7cbf4fe11a522",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 207,
-      "open_issues_count": 4,
+      "github_stars": 266,
+      "open_issues_count": 10,
       "repository_updated_at": "2026-11-13T14:29:09Z",
-      "last_update_days": 0,
+      "last_update_days": 1,
       "last_update_months": 0.0
     },
     {
@@ -7112,15 +7104,15 @@
       "category": "Utilities & Tools",
       "author": "nankhor",
       "payload_available": true,
-      "version": "v0.1.1",
-      "last_update": "2026-11-13",
+      "version": "v0.1.3",
+      "last_update": "2026-11-14",
       "payload_filename": "kite-helper.elf",
-      "payload_url": "https://github.com/nankhor/kite-pack/releases/download/v0.1.1/kite-helper.elf",
+      "payload_url": "https://github.com/nankhor/kite-pack/releases/download/v0.1.3/kite-helper.elf",
       "checksum": "05bc32a1b7bd8e712f668d2f1818516a01a2801e70bbdccc78a78c0a618c08bf",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 8,
+      "github_stars": 24,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T19:27:32Z",
+      "repository_updated_at": "2026-11-14T01:04:33Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -7136,138 +7128,60 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-13T17:58:13Z",
-      "last_update_days": 0,
+      "last_update_days": 1,
       "last_update_months": 0.0
     },
     {
-      "name": "XPS5",
-      "description": "X (Twitter) as a native app for jailbroken PS5: timeines, posts with your captures, notifications over yur game, playing status. Unofficial homebrew.",
-      "repository_url": "https://github.com/ramalhoboss/XPS5",
+      "name": "ps5-mypayloads — jonathanccox",
+      "description": "Collection of payloads",
+      "repository_url": "https://github.com/jonathanccox/ps5-mypayloads",
       "category": "PS5 Auto-discovered",
-      "author": "ramalhoboss",
+      "author": "jonathanccox",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "2550363bf44ff8d809daea581827aa0fbbaa647232b6a765491126c8230d038a",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T21:53:46Z"
-    },
-    {
-      "name": "erebus-webofshadows-native",
-      "description": "Native PS5 build of WoS (Xbox 360). Game code is statically recompiled for the PS5 and drawn by EoT renderer instead of GPU emulation: 60 fps target, up to 4K. Bring your own iso disc image, no game files included.",
-      "repository_url": "https://github.com/rimidalv333/erebus-webofshadows-native",
-      "category": "PS5 Auto-discovered",
-      "author": "rimidalv333",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "5295426cf4411401fd82e677ea10f4b860d398b34faf5c0fc6a038f03cba553e",
+      "discovered_at": "2026-11-14",
+      "icon_key": "026271116485a5b7b43c649ee223d518bb3f4344a44f04e88d2f23d93f70606d",
       "github_stars": 1,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T21:03:25Z"
+      "repository_updated_at": "2026-11-14T05:54:21Z"
     },
     {
-      "name": "ps5-payload-constellation",
-      "description": "Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
-      "repository_url": "https://github.com/DeborahO18/ps5-payload-constellation",
-      "category": "PS5 Auto-discovered",
-      "author": "DeborahO18",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "ce54f7da38ef21ca9bf62e20134558f9b92701bb8058fe9c1b8013e41916b9f8",
-      "github_stars": 2,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T20:23:25Z"
-    },
-    {
-      "name": "playstation-tools",
-      "description": "pst - command-line tool for jailbroken PS4 and PS5 consoles: status, payloads, game dumps, fake packages and saves",
-      "repository_url": "https://github.com/Daaboulex/playstation-tools",
-      "category": "PS5 Auto-discovered",
-      "author": "Daaboulex",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "e100f81bd45e286c1c2eff6a3bcda8d10bd42b5622cefd5bb4fe2e90c5bc28a4",
-      "github_stars": 1,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T20:08:38Z"
-    },
-    {
-      "name": "PLDMGR_JSON",
-      "description": "Custom Payload Repositories for PS5 Payload Manager",
-      "repository_url": "https://github.com/RDX-Sci01/PLDMGR_JSON",
-      "category": "PS5 Auto-discovered",
-      "author": "RDX-Sci01",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "8473c38fa8360c5030385ff26adb95999fa59fd16bf3a889aab6370e9ba84db1",
-      "github_stars": 7,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T20:01:19Z"
-    },
-    {
-      "name": "psbox-cloud-gaming",
-      "description": "Xbox Cloud Gaming app for PS5 Homebrew",
-      "repository_url": "https://github.com/RafaelNGP/psbox-cloud-gaming",
-      "category": "PS5 Auto-discovered",
-      "author": "RafaelNGP",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "373f66e70746d5e1f2994003cbb84be7933850000ba2eec330347f622eb2719f",
-      "github_stars": 196,
-      "open_issues_count": 2,
-      "repository_updated_at": "2026-11-13T19:57:28Z"
-    },
-    {
-      "name": "JobeesLair-Homebrew",
-      "description": "The Homebrew section of Jobee'sLair: its index of open-source PS5 homebrew, the builder that refreshes it, and the home of Jobee'sLair Homebrew.",
-      "repository_url": "https://github.com/JVK3R/JobeesLair-Homebrew",
-      "category": "PS5 Auto-discovered",
-      "author": "JVK3R",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "760a49fdf10f5f09399ff8e3838f7db401a258b8899601ca98ea9eece7fc2757",
-      "github_stars": 1,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T19:53:51Z"
-    },
-    {
-      "name": "ps5-payloads",
+      "name": "ps5-payloads-mirror — itsPLK",
       "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/avoidik/ps5-payloads",
+      "repository_url": "https://github.com/itsPLK/ps5-payloads-mirror",
       "category": "PS5 Auto-discovered",
-      "author": "avoidik",
+      "author": "itsPLK",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "6f44e4587019903b39a6813dd2687c1db3adca5bc5a83df3e32d565d9189a721",
+      "discovered_at": "2026-11-14",
+      "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e",
+      "github_stars": 199,
+      "open_issues_count": 17,
+      "repository_updated_at": "2026-11-14T05:31:14Z"
+    },
+    {
+      "name": "mis-payloads-ps5 — cacharrearconjuan",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/cacharrearconjuan/mis-payloads-ps5",
+      "category": "PS5 Auto-discovered",
+      "author": "cacharrearconjuan",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "f34bd895720b9fd6c1a8a512ff79826b2b9a0921ad61be80921ae591498a7f78",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T19:41:19Z"
+      "repository_updated_at": "2026-11-14T04:46:38Z"
     },
     {
-      "name": "PS5PayloadManagerUpdater",
-      "description": "PS5 Payloads automatically updated from different repos",
-      "repository_url": "https://github.com/sHarK-ps/PS5PayloadManagerUpdater",
+      "name": "ps5-payloads — xkzink",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/xkzink/ps5-payloads",
       "category": "PS5 Auto-discovered",
-      "author": "sHarK-ps",
+      "author": "xkzink",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "71f4b9a1337b2a5d78c9c5a3aa849d3861597e9fc762bd74e118c1ceb0afc830",
-      "github_stars": 1,
+      "discovered_at": "2026-11-14",
+      "icon_key": "31a4f6f69d0dc5cf0b29a42e2b9389cb89f305c0e088b2568eb6269eebe906e4",
+      "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T18:56:13Z"
-    },
-    {
-      "name": "ps5-homebrew-catalog",
-      "description": "https://discord.gg/Drx8tsqq3B - https://ProsperoStore.net",
-      "repository_url": "https://github.com/darkxex/ps5-homebrew-catalog",
-      "category": "PS5 Auto-discovered",
-      "author": "darkxex",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
-      "github_stars": 74,
-      "open_issues_count": 3,
-      "repository_updated_at": "2026-11-13T21:36:22Z"
+      "repository_updated_at": "2026-11-14T04:40:58Z"
     },
     {
       "name": "ps5-glibren-releases",
@@ -7276,7 +7190,7 @@
       "category": "PS5 Auto-discovered",
       "author": "pristmc-code",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "75542eea4fb72fd39768b3fe7f28991895609fece8a789849d4eb39a20229366",
       "payload_available": true,
       "payload_filename": "glibren.elf",
@@ -7286,35 +7200,87 @@
       "checksum": "73af89b9578e439d491e50171967314943f09aad6d27fb5130d8e2017b4b908b",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T18:38:49Z",
-      "last_update_days": 2,
+      "repository_updated_at": "2026-11-14T04:24:17Z",
+      "last_update_days": 3,
       "last_update_months": 0.1
     },
     {
-      "name": "Ryty",
-      "description": "Tool for porting PlayStation 4 & 5 executables to Windows, MacOS, iOS and Linux",
-      "repository_url": "https://github.com/aarvsn/Ryty",
+      "name": "sr-ps5",
+      "description": "SAINTS ROW: ReInstated: Saints Row 1 and 2 (Xbox 360) recompiled to run natively on the PS5 in one app, with FSR, SMAA, DLC, saves and trophies. No game files included.",
+      "repository_url": "https://github.com/ChaosTheory1075/sr-ps5",
       "category": "PS5 Auto-discovered",
-      "author": "aarvsn",
+      "author": "ChaosTheory1075",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "ad4ed23611def2de0ec3d60c9b74a64f8c9ab34e9ef64dd8fab6b7a86f68c54b",
-      "github_stars": 140,
-      "open_issues_count": 1,
-      "repository_updated_at": "2026-11-13T18:07:43Z"
+      "discovered_at": "2026-11-14",
+      "icon_key": "dd0b561076bddd315a19eec3323b6f9cbf9775aa81eae65eb7682a70253b66e3",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-14T02:57:39Z"
     },
     {
-      "name": "GreenHatBoy",
-      "description": "Emulator test builds, patches and test logs for a jailbroken base PS5. Bring your own game.",
-      "repository_url": "https://github.com/Vampinity/GreenHatBoy",
+      "name": "ps5-homebrew-catalog",
+      "description": "https://discord.gg/Drx8tsqq3B - https://ProsperoStore.net",
+      "repository_url": "https://github.com/darkxex/ps5-homebrew-catalog",
       "category": "PS5 Auto-discovered",
-      "author": "Vampinity",
+      "author": "darkxex",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "433f52648b3b72884786ed2250de11f476d3e7b4b9e45996a41f6bce2f663e70",
-      "github_stars": 4,
+      "discovered_at": "2026-11-14",
+      "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
+      "github_stars": 74,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-11-14T03:25:15Z"
+    },
+    {
+      "name": "AnchorPS5-catalog",
+      "description": "Catálogo oficial de homebrew para AnchorPS5 · Official homebrew catalog for AnchorPS5",
+      "repository_url": "https://github.com/Kuroge/AnchorPS5-catalog",
+      "category": "PS5 Auto-discovered",
+      "author": "Kuroge",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "dcceb5f1145d8e927bf611ed94ee6e75c724f0573a66378e7dc252b8d44d4ad7",
+      "github_stars": 1,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-11-14T02:25:24Z"
+    },
+    {
+      "name": "EmuFive",
+      "description": "A PS5 emulator for the PS4. Runs on a jailbroken PS4 with Linux, installed through PS4 Multiboot.",
+      "repository_url": "https://github.com/blue0x1/EmuFive",
+      "category": "PS5 Auto-discovered",
+      "author": "blue0x1",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "47e7d67c3fae8dccfe23b808ccad232325b5be0482052bbb8d1ae832c774cb70",
+      "github_stars": 249,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-11-14T01:34:25Z"
+    },
+    {
+      "name": "ps5-payload-constellation",
+      "description": "Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
+      "repository_url": "https://github.com/DeborahO18/ps5-payload-constellation",
+      "category": "PS5 Auto-discovered",
+      "author": "DeborahO18",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "ce54f7da38ef21ca9bf62e20134558f9b92701bb8058fe9c1b8013e41916b9f8",
+      "github_stars": 2,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T21:37:09Z"
+      "repository_updated_at": "2026-11-14T01:28:21Z"
+    },
+    {
+      "name": "D-Sig-PS5",
+      "description": "Roteador de sinais de acessibilidade para PlayStation 5 com jailbreak",
+      "repository_url": "https://github.com/cdanv/D-Sig-PS5",
+      "category": "PS5 Auto-discovered",
+      "author": "cdanv",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "69434a430650981ca3f7b318542d3c8124ecf475321d555e6b6ac88bd23274b5",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-14T01:20:03Z"
     },
     {
       "name": "PS5-Toolkit",
@@ -7323,37 +7289,84 @@
       "category": "PS5 Auto-discovered",
       "author": "liweili",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "031bd7a4f1863a1bdca08b115c623a7d0bc40b8d989d2ebd745727c1cd5bc964",
       "github_stars": 4,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T20:30:27Z"
+      "repository_updated_at": "2026-11-14T01:20:45Z"
     },
     {
-      "name": "JB_STORE_REPO",
-      "description": "Open Source PS5 Homebrew App Store Repo ",
-      "repository_url": "https://github.com/Yahballon/JB_STORE_REPO",
+      "name": "ps5-playtime-tracker",
+      "description": "Open-source playtime and trophy tracker for jailbroken PS5. Tracks PS5 and PS4 games and syncs them to your gowithme.club profile. No PSN required.",
+      "repository_url": "https://github.com/gowithme-club/ps5-playtime-tracker",
       "category": "PS5 Auto-discovered",
-      "author": "Yahballon",
+      "author": "gowithme-club",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
+      "discovered_at": "2026-11-14",
+      "icon_key": "3f748fb8f3a505cc7c55896be2daf7c5b4417dafeec43c3c56d7ff4d89fa100f",
+      "payload_available": true,
+      "payload_filename": "gowithme.club_v1.0.0.elf",
+      "payload_url": "https://github.com/gowithme-club/ps5-playtime-tracker/releases/download/v1.0.0/gowithme.club_v1.0.0.elf",
+      "version": "v1.0.0",
+      "last_update": "2026-11-09",
+      "checksum": "457c2af3ac747e824775739f3f9a3356c0f5134e36aa38354c70036a93e84e50",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-14T00:37:52Z",
+      "last_update_days": 5,
+      "last_update_months": 0.2
+    },
+    {
+      "name": "PS5PayloadManagerUpdater",
+      "description": "PS5 Payloads automatically updated from different repos",
+      "repository_url": "https://github.com/sHarK-ps/PS5PayloadManagerUpdater",
+      "category": "PS5 Auto-discovered",
+      "author": "sHarK-ps",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "71f4b9a1337b2a5d78c9c5a3aa849d3861597e9fc762bd74e118c1ceb0afc830",
       "github_stars": 1,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T19:59:27Z"
+      "repository_updated_at": "2026-11-14T00:34:19Z"
     },
     {
-      "name": "Solanum-Catalog",
-      "description": "The open catalog of PS5 homebrew that Solanum installs. Add your app with a pull request.",
-      "repository_url": "https://github.com/Oliv3rmoon/Solanum-Catalog",
+      "name": "GreenHatBoy",
+      "description": "Emulator test builds, patches and test logs for a jailbroken base PS5. Bring your own game.",
+      "repository_url": "https://github.com/Vampinity/GreenHatBoy",
       "category": "PS5 Auto-discovered",
-      "author": "Oliv3rmoon",
+      "author": "Vampinity",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "7f330e60a98f85748d862c7fda89bf013e65d5867e6f2fbb5ea4e970d50ec9de",
+      "discovered_at": "2026-11-14",
+      "icon_key": "433f52648b3b72884786ed2250de11f476d3e7b4b9e45996a41f6bce2f663e70",
+      "github_stars": 4,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-14T05:49:07Z"
+    },
+    {
+      "name": "hotaru-webos",
+      "description": "PlayStation Remote Play for LG webOS TVs",
+      "repository_url": "https://github.com/renjfk/hotaru-webos",
+      "category": "PS5 Auto-discovered",
+      "author": "renjfk",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "34922b9204dd9beaf2978bf82e6239ad08b6fe20a36716f04149be9a841a6b9d",
       "github_stars": 2,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T19:54:28Z"
+      "repository_updated_at": "2026-11-13T23:48:20Z"
+    },
+    {
+      "name": "my-ps5-payloads — tanushshukla",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/tanushshukla/my-ps5-payloads",
+      "category": "PS5 Auto-discovered",
+      "author": "tanushshukla",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "76b2ebe0335f58b4ea30809f5a0417749f4ac5065eb9f2956489b4b003c9fe82",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-13T23:42:09Z"
     },
     {
       "name": "PLM-Repository",
@@ -7362,7 +7375,7 @@
       "category": "PS5 Auto-discovered",
       "author": "hiddenkernellab",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "aeae56b2b7f250b5eed92057ea635b8bd632a341eb986fed876711d8a985327e",
       "payload_available": true,
       "payload_filename": "HiddenKernel-4Stores.elf",
@@ -7372,35 +7385,77 @@
       "checksum": "948c2443906d250956de34a426608ec7e25f36c103f5f865c70353b85f59e85f",
       "github_stars": 3,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T17:11:54Z",
-      "last_update_days": 26,
+      "repository_updated_at": "2026-11-14T06:19:51Z",
+      "last_update_days": 27,
       "last_update_months": 0.9
     },
     {
-      "name": "PStube",
-      "description": "An ad-free YouTube experience for PS5. Standalone native homebrew with controller navigation, accounts and buffered playback. Requires OnionHEN and websrv. Beta 0.20.",
-      "repository_url": "https://github.com/leetlamer/PStube",
+      "name": "crackdown-ps5",
+      "description": "Crackdown (Xbox 360) recompiled to run natively on the PS5: 60 FPS, DLC, saves and trophies. No game files included.",
+      "repository_url": "https://github.com/ChaosTheory1075/crackdown-ps5",
       "category": "PS5 Auto-discovered",
-      "author": "leetlamer",
+      "author": "ChaosTheory1075",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "11d3374bf962bf48ba2be688eb8e7cba7536c4af7b9c3661085a674a647925eb",
+      "discovered_at": "2026-11-14",
+      "icon_key": "dd0b561076bddd315a19eec3323b6f9cbf9775aa81eae65eb7682a70253b66e3",
       "github_stars": 1,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T17:08:30Z"
+      "repository_updated_at": "2026-11-13T23:14:03Z"
     },
     {
-      "name": "EmuFive",
-      "description": "A PS5 emulator for the PS4. Runs on a jailbroken PS4 with Linux, installed through PS4 Multiboot.",
-      "repository_url": "https://github.com/blue0x1/EmuFive",
+      "name": "XPS5",
+      "description": "X (Twitter) as a native app for jailbroken PS5: timelines, posts with your captures, notifications over your game, playing status. Unofficial homebrew.",
+      "repository_url": "https://github.com/ramalhoboss/XPS5",
       "category": "PS5 Auto-discovered",
-      "author": "blue0x1",
+      "author": "ramalhoboss",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "47e7d67c3fae8dccfe23b808ccad232325b5be0482052bbb8d1ae832c774cb70",
-      "github_stars": 243,
-      "open_issues_count": 9,
-      "repository_updated_at": "2026-11-13T16:50:31Z"
+      "discovered_at": "2026-11-14",
+      "icon_key": "2550363bf44ff8d809daea581827aa0fbbaa647232b6a765491126c8230d038a",
+      "payload_available": true,
+      "payload_filename": "XPS5.elf",
+      "payload_url": "https://github.com/ramalhoboss/XPS5/releases/download/v1.0.1/XPS5.elf",
+      "version": "v1.0.1",
+      "last_update": "2026-11-13",
+      "checksum": "4dfdc1b9b983dc918b44b067b5e5287a67d0d55a0751f975dba5f9c5bcb9ad2c",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-13T22:58:04Z",
+      "last_update_days": 1,
+      "last_update_months": 0.0
+    },
+    {
+      "name": "ghostcontrol-8bitdo",
+      "description": "Xbox controllers on a jailbroken PS5 via the 8BitDo USB Adapter 2 or by wire, as virtual DualSense pads. Lightweight GhostControl rework.",
+      "repository_url": "https://github.com/kh-mitya/ghostcontrol-8bitdo",
+      "category": "PS5 Auto-discovered",
+      "author": "kh-mitya",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "1d79ae97038526419119e94b94f78c7a5efe33f7159f2a5ef68c3b95827f9db9",
+      "payload_available": true,
+      "payload_filename": "GC_v0.4_8bitdo.elf",
+      "payload_url": "https://github.com/kh-mitya/ghostcontrol-8bitdo/releases/download/v0.4/GC_v0.4_8bitdo.elf",
+      "version": "v0.4",
+      "last_update": "2026-11-13",
+      "checksum": "9d6dce7f639444b981ee63cf71b8eab0d3d448c675e43dea394cbc4ef08aa5fc",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-13T22:46:49Z",
+      "last_update_days": 1,
+      "last_update_months": 0.0
+    },
+    {
+      "name": "ps5-iperf3",
+      "description": "iperf 3.22 as a PS5 homebrew ELF. A desktop iperf3 3.x client measures the path to a console that is running this server.",
+      "repository_url": "https://github.com/nefarius/ps5-iperf3",
+      "category": "PS5 Auto-discovered",
+      "author": "nefarius",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "71135c6237cbb2ee40de689aab6b0dd774313c6d916f468e40e663664eb0548b",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-13T22:43:33Z"
     },
     {
       "name": "reUndr2-ps5",
@@ -7409,84 +7464,84 @@
       "category": "PS5 Auto-discovered",
       "author": "bystritskiy",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "e066829606fef92e5adbc17bba139727137956f1dcf80e26226d3156f20984d8",
       "github_stars": 12,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T16:47:02Z"
+      "repository_updated_at": "2026-11-13T22:03:51Z"
     },
     {
-      "name": "ps5-wireguard",
-      "description": "WireGuard peer for jailbroken PS5 (userspace wireguard-go + gVisor netstack payload)",
-      "repository_url": "https://github.com/wnzzer/ps5-wireguard",
+      "name": "ytps5-sponsorblock",
+      "description": "YouTube ad blocker + SponsorBlock for the official PS5 video app (jailbroken FW 8.20). One ELF via Payload Manager, native settings, no app packages, keys, or DRM tools. Research/educational. Tested with PPSA01652.",
+      "repository_url": "https://github.com/MasterShivnath007/ytps5-sponsorblock",
       "category": "PS5 Auto-discovered",
-      "author": "wnzzer",
+      "author": "MasterShivnath007",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "e96bffedc1cf006e9a27dde2c959a2cbe6af13686146168f956a3dca519a4124",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T16:22:31Z"
-    },
-    {
-      "name": "OGBox",
-      "description": "XBOX emulator for PS5",
-      "repository_url": "https://github.com/Press5elect/OGBox",
-      "category": "PS5 Auto-discovered",
-      "author": "Press5elect",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "9542b62ee60fbe40df690324d9fe8c0868d01999a42ccf6eed4a118a0b63f315",
-      "github_stars": 14,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T15:49:58Z"
-    },
-    {
-      "name": "AnchorPS5-catalog",
-      "description": "Catálogo oficial de homebrew para AnchorPS5 · Official homebrew catalog for AnchorPS5",
-      "repository_url": "https://github.com/Kuroge/AnchorPS5-catalog",
-      "category": "PS5 Auto-discovered",
-      "author": "Kuroge",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "dcceb5f1145d8e927bf611ed94ee6e75c724f0573a66378e7dc252b8d44d4ad7",
-      "github_stars": 1,
-      "open_issues_count": 2,
-      "repository_updated_at": "2026-11-13T15:22:12Z"
-    },
-    {
-      "name": "PrefBar",
-      "description": "PrefBar - Standalone On-Screen Performance Overlay for Jailbroken PS5",
-      "repository_url": "https://github.com/X1NONs/PrefBar",
-      "category": "PS5 Auto-discovered",
-      "author": "X1NONs",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "2dca95eb4a9ee9dece0915bb5e84662a19389ad6d12ad7dfe7191d73e3722750",
+      "discovered_at": "2026-11-14",
+      "icon_key": "d15c2a2c77c747e1c53199c95d88d6b06e84e2f9f88a6536a4f10257eaaadba7",
       "payload_available": true,
-      "payload_filename": "Prefbar_V0.3.0.elf",
-      "payload_url": "https://github.com/X1NONs/PrefBar/releases/download/v0.3.0/Prefbar_V0.3.0.elf",
-      "version": "v0.3.0",
-      "last_update": "2026-11-13",
-      "checksum": "e4379590115ef87b2f0310b502321d7da30783536d939bfb1c4c0e511972af30",
-      "github_stars": 44,
-      "open_issues_count": 1,
-      "repository_updated_at": "2026-11-13T15:11:49Z",
-      "last_update_days": 0,
-      "last_update_months": 0.0
+      "payload_filename": "ytps5.elf",
+      "payload_url": "https://github.com/MasterShivnath007/ytps5-sponsorblock/releases/download/v1.2.0/ytps5.elf",
+      "version": "v1.2.0",
+      "last_update": "2026-11-05",
+      "checksum": "bbbf486e1e5c632916a22f86381e2948cbefd8d8bbd3ffa33978b954499b1036",
+      "github_stars": 9,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-13T21:51:22Z",
+      "last_update_days": 9,
+      "last_update_months": 0.3
     },
     {
-      "name": "ps5term",
-      "description": "A terminal for a jailbroken PS5: native shell, real Linux shell, SSH and SFTP.",
-      "repository_url": "https://github.com/phantomptr/ps5term",
+      "name": "erebus-webofshadows-native",
+      "description": "Native PS5 build of WoS (Xbox 360). Game code is statically recompiled for the PS5 and drawn by EoT renderer instead of GPU emulation: 60 fps target, up to 4K. Bring your own iso disc image, no game files included.",
+      "repository_url": "https://github.com/rimidalv333/erebus-webofshadows-native",
       "category": "PS5 Auto-discovered",
-      "author": "phantomptr",
+      "author": "rimidalv333",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "54564f488d34624ceb675ebb6a67e267c44325912c1f2cb7eb95746cf35e788f",
-      "github_stars": 3,
-      "open_issues_count": 1,
-      "repository_updated_at": "2026-11-13T13:55:56Z"
+      "discovered_at": "2026-11-14",
+      "icon_key": "5295426cf4411401fd82e677ea10f4b860d398b34faf5c0fc6a038f03cba553e",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-13T21:03:25Z"
+    },
+    {
+      "name": "JB_STORE_REPO",
+      "description": "Open Source PS5 Homebrew App Store Repo ",
+      "repository_url": "https://github.com/Yahballon/JB_STORE_REPO",
+      "category": "PS5 Auto-discovered",
+      "author": "Yahballon",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-13T19:59:27Z"
+    },
+    {
+      "name": "psbox-cloud-gaming",
+      "description": "Xbox Cloud Gaming app for PS5 Homebrew",
+      "repository_url": "https://github.com/RafaelNGP/psbox-cloud-gaming",
+      "category": "PS5 Auto-discovered",
+      "author": "RafaelNGP",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "373f66e70746d5e1f2994003cbb84be7933850000ba2eec330347f622eb2719f",
+      "github_stars": 199,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-11-13T19:57:28Z"
+    },
+    {
+      "name": "Solanum-Catalog",
+      "description": "The open catalog of PS5 homebrew that Solanum installs. Add your app with a pull request.",
+      "repository_url": "https://github.com/Oliv3rmoon/Solanum-Catalog",
+      "category": "PS5 Auto-discovered",
+      "author": "Oliv3rmoon",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "7f330e60a98f85748d862c7fda89bf013e65d5867e6f2fbb5ea4e970d50ec9de",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-13T19:54:28Z"
     },
     {
       "name": "zstd-catalog",
@@ -7495,24 +7550,24 @@
       "category": "PS5 Auto-discovered",
       "author": "FrancoVoid9",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "97abf27bd0ce605d2af3595c84ec26acf3c8a8b300b787a6d97ab396790f33f4",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T21:52:04Z"
+      "repository_updated_at": "2026-11-14T02:44:38Z"
     },
     {
-      "name": "D-Sig-PS5",
-      "description": "Roteador de sinais de acessibilidade para PlayStation 5 com jailbreak",
-      "repository_url": "https://github.com/cdanv/D-Sig-PS5",
+      "name": "Blitz1993.github.io",
+      "description": "PS4 | PS5 Jailbreak for all exploitable firmwares",
+      "repository_url": "https://github.com/Blitz1993/Blitz1993.github.io",
       "category": "PS5 Auto-discovered",
-      "author": "cdanv",
+      "author": "Blitz1993",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "69434a430650981ca3f7b318542d3c8124ecf475321d555e6b6ac88bd23274b5",
+      "discovered_at": "2026-11-14",
+      "icon_key": "378e58104ecdd4fb4cd47f045a00e003717a65a342ca00d452db34fa4a5d776f",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T21:15:36Z"
+      "repository_updated_at": "2026-11-13T22:40:39Z"
     },
     {
       "name": "ps5-hackintosh",
@@ -7521,11 +7576,24 @@
       "category": "PS5 Auto-discovered",
       "author": "rodri0x",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "e80e8addb0ae2f189a46a106cb08aa6f264731dbbea69e99430994fdf44c0ceb",
-      "github_stars": 131,
+      "github_stars": 134,
       "open_issues_count": 3,
       "repository_updated_at": "2026-11-13T16:23:56Z"
+    },
+    {
+      "name": "ps5-wireguard",
+      "description": "WireGuard peer for jailbroken PS5 (userspace wireguard-go + gVisor netstack payload)",
+      "repository_url": "https://github.com/wnzzer/ps5-wireguard",
+      "category": "PS5 Auto-discovered",
+      "author": "wnzzer",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "e96bffedc1cf006e9a27dde2c959a2cbe6af13686146168f956a3dca519a4124",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-13T16:22:31Z"
     },
     {
       "name": "ps5-14.00-jailbreak-research",
@@ -7534,11 +7602,24 @@
       "category": "PS5 Auto-discovered",
       "author": "logicalpeyote777",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "5b52433bb5eea992152d147c8257d429a32ee2d5a3b0f0065fa6533dc1711c76",
       "github_stars": 1,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-13T15:28:48Z"
+    },
+    {
+      "name": "ps5term",
+      "description": "A terminal for a jailbroken PS5: native shell, real Linux shell, SSH and SFTP.",
+      "repository_url": "https://github.com/phantomptr/ps5term",
+      "category": "PS5 Auto-discovered",
+      "author": "phantomptr",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "54564f488d34624ceb675ebb6a67e267c44325912c1f2cb7eb95746cf35e788f",
+      "github_stars": 3,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-11-13T13:55:56Z"
     },
     {
       "name": "slopkit",
@@ -7547,7 +7628,7 @@
       "category": "PS5 Auto-discovered",
       "author": "seregonwar",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe",
       "github_stars": 2,
       "open_issues_count": 0,
@@ -7560,7 +7641,7 @@
       "category": "PS5 Auto-discovered",
       "author": "hsdutra",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "7795f5c674dbd0258b9eddc4cb7f4c20d251681d49e85cfaef03f3f3a6688118",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -7568,12 +7649,12 @@
     },
     {
       "name": "PS5HomeScreenManager",
-      "description": "A PS5 .elf Payload File that can edit/modify App Icons, App Background, Animated Background, App Name, Hide Apps, and Make Folders",
+      "description": "It only does everything on your PS5 home screen. Payload File that can edit/modify App Icons, App Background, Animated Background, App Name, Hide Apps, and Make Folders",
       "repository_url": "https://github.com/lazyboy6791/PS5HomeScreenManager",
       "category": "PS5 Auto-discovered",
       "author": "lazyboy6791",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "7af5eeaf870b3fc812ff97595a28930cd74f66bac8060e0fc54443416149965a",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -7586,7 +7667,7 @@
       "category": "PS5 Auto-discovered",
       "author": "thatboialex",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "8a7b346783af28864cbcf2290dad66aa986f980542daa56c79811370441ccfb7",
       "payload_available": true,
       "payload_filename": "pkg_install.elf",
@@ -7597,42 +7678,34 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-13T06:52:52Z",
-      "last_update_days": 96,
+      "last_update_days": 97,
       "last_update_months": 3.2
     },
     {
-      "name": "ps5-payloads-mirror — itsPLK",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/itsPLK/ps5-payloads-mirror",
+      "name": "ps5-security-research",
+      "description": "PlayStation 5 (Prospero OS) Security Research: FreeBSD Kernel Vectors, Byepervisor Analysis & Memory Safety",
+      "repository_url": "https://github.com/adri22235/ps5-security-research",
       "category": "PS5 Auto-discovered",
-      "author": "itsPLK",
+      "author": "adri22235",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "e802430190357ad25547fb2f90eca0c23b93f59e4be689c6982778714c1ac23e",
-      "payload_available": true,
-      "payload_filename": "ps5upload_v12.4.14.elf",
-      "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.4.14.elf",
-      "version": "payloads-mirror",
-      "last_update": "2026-04-28",
-      "checksum": "17dc0827d3d49701534a8b2f7dca337ec88f213eb825ed028763be5eeec72f7e",
-      "github_stars": 199,
-      "open_issues_count": 17,
-      "repository_updated_at": "2026-11-13T05:41:58Z",
-      "last_update_days": 199,
-      "last_update_months": 6.5
-    },
-    {
-      "name": "cyber-forge-ps5-ps4-exploit-host",
-      "description": "CYBER-FORGE v5.0 // PS5 (Relapse 7.00-13.60 / Y2JB / UMTX2) & PS4 (GoldHEN 5.05-14.00) WebKit Exploit Host, Offline PWA Autoloader, Live Scene Radar & PSX Wasm Emulator.",
-      "repository_url": "https://github.com/oscarlaradev/cyber-forge-ps5-ps4-exploit-host",
-      "category": "PS5 Auto-discovered",
-      "author": "oscarlaradev",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "12e5015c9e5c9e4a4747523d20fef666cb384609c2edb88685a30ee33cc6ef0e",
+      "discovered_at": "2026-11-14",
+      "icon_key": "504c4e397a031d75022d710272fa7429826e5cdabc67f8ddf93dc53bde6d528d",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T19:25:21Z"
+      "repository_updated_at": "2026-11-14T00:55:50Z"
+    },
+    {
+      "name": "ps4",
+      "description": "PS4/PS5 WebKit Exploit - Mustafa Golden Edition",
+      "repository_url": "https://github.com/mustafs-ps4-ps5/ps4",
+      "category": "PS5 Auto-discovered",
+      "author": "mustafs-ps4-ps5",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "5c4e5fde33811692f693a64cffe404c2a8eeaf46eeae82ae80ba2b982090b3d6",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-14T00:03:49Z"
     },
     {
       "name": "ps5-payloads-mirror — siko15006-bot",
@@ -7641,7 +7714,7 @@
       "category": "PS5 Auto-discovered",
       "author": "siko15006-bot",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "3fdbbc66b6401b8b53d72631b43ae96d0335c20f78ea8509ee1af7fecaa17c8c",
       "payload_available": true,
       "payload_filename": "zftpd_v1.7.0.elf",
@@ -7650,19 +7723,19 @@
       "last_update": "2026-11-07",
       "checksum": "39d2078f5d04dd9e4c281325b1dcd202159ea6dc604dfdb4c22f9ab38fe203f8",
       "github_stars": 1,
-      "open_issues_count": 23,
-      "repository_updated_at": "2026-11-13T21:52:53Z",
-      "last_update_days": 6,
+      "open_issues_count": 24,
+      "repository_updated_at": "2026-11-14T00:11:23Z",
+      "last_update_days": 7,
       "last_update_months": 0.2
     },
     {
-      "name": "mis-payloads-ps5",
+      "name": "mis-payloads-ps5 — atanesmarc",
       "description": "Catàleg personal de payloads PS5 (.elf) en format payloads.json",
       "repository_url": "https://github.com/atanesmarc/mis-payloads-ps5",
       "category": "PS5 Auto-discovered",
       "author": "atanesmarc",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "f0e1092c9f2097157bdb798a5a55deef0ada905461162584e01baf2b6f6adf4d",
       "payload_available": true,
       "payload_filename": "npfsng-ps5.elf",
@@ -7673,7 +7746,93 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-13T21:04:27Z",
-      "last_update_days": 0,
+      "last_update_days": 1,
+      "last_update_months": 0.0
+    },
+    {
+      "name": "ps5-payloads — avoidik",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/avoidik/ps5-payloads",
+      "category": "PS5 Auto-discovered",
+      "author": "avoidik",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "6f44e4587019903b39a6813dd2687c1db3adca5bc5a83df3e32d565d9189a721",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-14T06:21:53Z"
+    },
+    {
+      "name": "cyber-forge-ps5-ps4-exploit-host",
+      "description": "CYBER-FORGE v5.0 // PS5 (Relapse 7.00-13.60 / Y2JB / UMTX2) & PS4 (GoldHEN 5.05-14.00) WebKit Exploit Host, Offline PWA Autoloader, Live Scene Radar & PSX Wasm Emulator.",
+      "repository_url": "https://github.com/oscarlaradev/cyber-forge-ps5-ps4-exploit-host",
+      "category": "PS5 Auto-discovered",
+      "author": "oscarlaradev",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "12e5015c9e5c9e4a4747523d20fef666cb384609c2edb88685a30ee33cc6ef0e",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-13T19:25:21Z"
+    },
+    {
+      "name": "Ryty",
+      "description": "Tool for porting PlayStation 4 & 5 executables to Windows, MacOS, iOS and Linux",
+      "repository_url": "https://github.com/aarvsn/Ryty",
+      "category": "PS5 Auto-discovered",
+      "author": "aarvsn",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "ad4ed23611def2de0ec3d60c9b74a64f8c9ab34e9ef64dd8fab6b7a86f68c54b",
+      "github_stars": 140,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-11-14T05:19:20Z"
+    },
+    {
+      "name": "PStube",
+      "description": "An ad-free YouTube experience for PS5. Standalone native homebrew with controller navigation, accounts and buffered playback. Requires OnionHEN and websrv. Beta 0.20.",
+      "repository_url": "https://github.com/leetlamer/PStube",
+      "category": "PS5 Auto-discovered",
+      "author": "leetlamer",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "11d3374bf962bf48ba2be688eb8e7cba7536c4af7b9c3661085a674a647925eb",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-13T17:08:30Z"
+    },
+    {
+      "name": "OGBox",
+      "description": "XBOX emulator for PS5",
+      "repository_url": "https://github.com/Press5elect/OGBox",
+      "category": "PS5 Auto-discovered",
+      "author": "Press5elect",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "9542b62ee60fbe40df690324d9fe8c0868d01999a42ccf6eed4a118a0b63f315",
+      "github_stars": 14,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-13T15:49:58Z"
+    },
+    {
+      "name": "PrefBar",
+      "description": "PrefBar - Standalone On-Screen Performance Overlay for Jailbroken PS5",
+      "repository_url": "https://github.com/X1NONs/PrefBar",
+      "category": "PS5 Auto-discovered",
+      "author": "X1NONs",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "2dca95eb4a9ee9dece0915bb5e84662a19389ad6d12ad7dfe7191d73e3722750",
+      "payload_available": true,
+      "payload_filename": "Prefbar_V0.3.0.elf",
+      "payload_url": "https://github.com/X1NONs/PrefBar/releases/download/v0.3.0/Prefbar_V0.3.0.elf",
+      "version": "v0.3.0",
+      "last_update": "2026-11-13",
+      "checksum": "e4379590115ef87b2f0310b502321d7da30783536d939bfb1c4c0e511972af30",
+      "github_stars": 45,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-11-13T15:11:49Z",
+      "last_update_days": 1,
       "last_update_months": 0.0
     },
     {
@@ -7683,7 +7842,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Ayan4k",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "f0506bc94b24a4969e1058d976a48a7369c542fde19cfc659a43f19859618894",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -7696,7 +7855,7 @@
       "category": "PS5 Auto-discovered",
       "author": "jpemendonca",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "564b6c53ec392cd388c794a4cf5edb9efb58b089f3a9ab475644018c96b7105c",
       "payload_available": true,
       "payload_filename": "BlueBird.elf",
@@ -7707,70 +7866,7 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-13T13:47:35Z",
-      "last_update_days": 0,
-      "last_update_months": 0.0
-    },
-    {
-      "name": "ghostcontrol-8bitdo",
-      "description": "Xbox controllers on a jailbroken PS5 via the 8BitDo USB Adapter 2 or by wire, as virtual DualSense pads. Lightweight GhostControl rework.",
-      "repository_url": "https://github.com/kh-mitya/ghostcontrol-8bitdo",
-      "category": "PS5 Auto-discovered",
-      "author": "kh-mitya",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "1d79ae97038526419119e94b94f78c7a5efe33f7159f2a5ef68c3b95827f9db9",
-      "payload_available": true,
-      "payload_filename": "ghostcontrol-8bitdo.elf",
-      "payload_url": "https://github.com/kh-mitya/ghostcontrol-8bitdo/releases/download/v0.3/ghostcontrol-8bitdo.elf",
-      "version": "v0.3",
-      "last_update": "2026-11-13",
-      "checksum": "32b8f59daa6c0025fb4b5de1c5dc0fd415876d95d7581da04e4d79ecde5f4b1f",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T12:09:11Z",
-      "last_update_days": 0,
-      "last_update_months": 0.0
-    },
-    {
-      "name": "Updater-Games",
-      "description": "Payload para PS5: actualiza tus juegos de PS5 y PS4 desde el navegador, con interfaz web multiidioma y auto-actualizacion",
-      "repository_url": "https://github.com/B4ckd0orl/Updater-Games",
-      "category": "PS5 Auto-discovered",
-      "author": "B4ckd0orl",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "2c4b83a299c5d73703af8856e2d6a117273d71e90e6e4337377dec64e2145039",
-      "payload_available": true,
-      "payload_filename": "updatergames-ps5.elf",
-      "payload_url": "https://github.com/B4ckd0orl/Updater-Games/releases/download/v1.0.0/updatergames-ps5.elf",
-      "version": "v1.0.0",
-      "last_update": "2026-11-13",
-      "checksum": "085ac7d5a9279d35bcb0eb5512da66be8f44492e1b77a860e47e1fd3dc79c144",
-      "github_stars": 3,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T08:48:25Z",
-      "last_update_days": 0,
-      "last_update_months": 0.0
-    },
-    {
-      "name": "ps5-backup-center",
-      "description": "Back up, compare and sync PS5 games, saves, apps and DLC between two PS5s, USB drives, a NAS, and Switch / Switch 2 emulators — from the TV or any browser. Free, GPL-3.0, 19 languages.",
-      "repository_url": "https://github.com/consolecenterstudio/ps5-backup-center",
-      "category": "PS5 Auto-discovered",
-      "author": "consolecenterstudio",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "0e54c2db31b098982f5c43c8ee6c07e90e3792a7c7681e0fd7aedd4602c1ea09",
-      "payload_available": true,
-      "payload_filename": "ps5-backup-center-2.99.5-engine.elf",
-      "payload_url": "https://github.com/consolecenterstudio/ps5-backup-center/releases/download/v2.99.5/ps5-backup-center-2.99.5-engine.elf",
-      "version": "v2.99.5",
-      "last_update": "2026-11-13",
-      "checksum": "3c8d4dd2b35b8685e82711b31d8250671d22c3773c1f129367969196e05e9d46",
-      "github_stars": 1,
-      "open_issues_count": 1,
-      "repository_updated_at": "2026-11-13T19:27:31Z",
-      "last_update_days": 0,
+      "last_update_days": 1,
       "last_update_months": 0.0
     },
     {
@@ -7780,24 +7876,50 @@
       "category": "PS5 Auto-discovered",
       "author": "boykopovar",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "212af449392c2dee77170575aa3bedb6ada197bb94802024f7a933532bc32192",
-      "github_stars": 53695,
-      "open_issues_count": 1795,
-      "repository_updated_at": "2026-11-13T21:46:33Z"
+      "github_stars": 53771,
+      "open_issues_count": 1782,
+      "repository_updated_at": "2026-11-14T06:18:40Z"
     },
     {
-      "name": "PS5PRoAgent",
-      "description": "Android-App (Kivy/Python) zur Preis- und Verfügbarkeitsüberwachung der PlayStation 5 Pro 2 TB in 42 Shops – mit Radar-UI, Alarmen und Hintergrund-Scan.",
-      "repository_url": "https://github.com/xsensenmannx/PS5PRoAgent",
+      "name": "PySN",
+      "description": "Download manager for game update pkgs for the PlayStation 3, PlayStation 4, and PlayStation Vita and firmware for the PS3, PS4, PS5, and Vita",
+      "repository_url": "https://github.com/AphelionWasTaken/PySN",
       "category": "PS5 Auto-discovered",
-      "author": "xsensenmannx",
+      "author": "AphelionWasTaken",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "575d727ae0416f0dc32ac4eab4be40392952843f6497470a7ca736786e5aa5a2",
+      "discovered_at": "2026-11-14",
+      "icon_key": "20ea4d29ca3625beca1b3b32409ce22703166d9aad038ae6d294f6dd87866635",
+      "github_stars": 141,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-11-14T03:46:11Z"
+    },
+    {
+      "name": "nor-studio",
+      "description": "Single-file PS5 NOR editor, CH341A programmer and UART diagnostics tool",
+      "repository_url": "https://github.com/gmorb/nor-studio",
+      "category": "PS5 Auto-discovered",
+      "author": "gmorb",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "c7b2384a44f0ceb53aedb03376973ef9755c98816ad5fd97f86e69e11976e7c4",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T21:45:25Z"
+      "repository_updated_at": "2026-11-14T01:45:42Z"
+    },
+    {
+      "name": "ha-ps5-local",
+      "description": "Local PlayStation 5 monitoring and control for Home Assistant",
+      "repository_url": "https://github.com/ivaschru/ha-ps5-local",
+      "category": "PS5 Auto-discovered",
+      "author": "ivaschru",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "4b1b45d276bd999c86b93ff5fb06b2418ef218a290b9761c94f3cefb211c5a59",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-14T01:39:52Z"
     },
     {
       "name": "AnyPS5 — ZuanCrisp",
@@ -7806,71 +7928,24 @@
       "category": "PS5 Auto-discovered",
       "author": "ZuanCrisp",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "baadaea227f3903aa2b971f19b24cc5ac0b7264744bf3e3c6b36c182045ffc2c",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T20:30:23Z"
+      "repository_updated_at": "2026-11-14T01:27:56Z"
     },
     {
-      "name": "ps5-wifi-driver-fix",
-      "description": "PlayStation 5 Linux Wi-Fi Driver Fix Suite & Patches for MT7921 / MT7921e and NXP IW620",
-      "repository_url": "https://github.com/Mohabbadi11/ps5-wifi-driver-fix",
+      "name": "PS5X-Next-Generation-PlayStation-Emulation-Platform",
+      "description": "🚀 PS5X is an advanced standalone software environment and architecture emulation platform for PlayStation 5 built in Rust. Explore system runtimes, high-performance CPU/GPU engines, and professional developer tools on your PC safely. 💻✨",
+      "repository_url": "https://github.com/HeroFromUnicorn67004/PS5X-Next-Generation-PlayStation-Emulation-Platform",
       "category": "PS5 Auto-discovered",
-      "author": "Mohabbadi11",
+      "author": "HeroFromUnicorn67004",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "4fdd50670b93c326cd485b8c0e1827a9519f4fec1c621665be42176ef05d7cc6",
-      "github_stars": 0,
+      "discovered_at": "2026-11-14",
+      "icon_key": "7f855c705bd7b75e810ae3791beb3e66890fb1a4234490cba048aeadd0e91667",
+      "github_stars": 20,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T20:20:18Z"
-    },
-    {
-      "name": "ps5-mqtt",
-      "description": "Integrate your PlayStation 5 with Home Assistant",
-      "repository_url": "https://github.com/FunkeyFlo/ps5-mqtt",
-      "category": "PS5 Auto-discovered",
-      "author": "FunkeyFlo",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "22b49a6b573e10053519ff519edd86c6f205797222fee1e79a5c457330e9aa89",
-      "github_stars": 592,
-      "open_issues_count": 10,
-      "repository_updated_at": "2026-11-13T18:13:43Z"
-    },
-    {
-      "name": "PS5-Linux-After.Setup.Guide",
-      "description": "PS5-Linux-After.Setup.Guide",
-      "repository_url": "https://github.com/nexgen999/PS5-Linux-After.Setup.Guide",
-      "category": "PS5 Auto-discovered",
-      "author": "nexgen999",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "49daa7caa648c1cc5ca123c0b88632c9e2d1d6186ef2b057c40e4280366d84e6",
-      "github_stars": 1,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T17:46:18Z"
-    },
-    {
-      "name": "ytps5-sponsorblock",
-      "description": "YouTube ad blocker + SponsorBlock for the official PS5 video app (jailbroken FW 8.20). One ELF via Payload Manager, native settings, no app packages, keys, or DRM tools. Research/educational. Tested with PPSA01652.",
-      "repository_url": "https://github.com/MasterShivnath007/ytps5-sponsorblock",
-      "category": "PS5 Auto-discovered",
-      "author": "MasterShivnath007",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "d15c2a2c77c747e1c53199c95d88d6b06e84e2f9f88a6536a4f10257eaaadba7",
-      "payload_available": true,
-      "payload_filename": "ytps5.elf",
-      "payload_url": "https://github.com/MasterShivnath007/ytps5-sponsorblock/releases/download/v1.2.0/ytps5.elf",
-      "version": "v1.2.0",
-      "last_update": "2026-11-05",
-      "checksum": "bbbf486e1e5c632916a22f86381e2948cbefd8d8bbd3ffa33978b954499b1036",
-      "github_stars": 9,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-13T21:51:22Z",
-      "last_update_days": 8,
-      "last_update_months": 0.3
+      "repository_updated_at": "2026-11-14T00:39:13Z"
     },
     {
       "name": "ps5-package-receiver-elf",
@@ -7879,7 +7954,7 @@
       "category": "PS5 Auto-discovered",
       "author": "AldySan",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "19eda5d029ee4a7992120597d1c3eee65f167f811145c868b8b1b2504de1943f",
       "payload_available": true,
       "payload_filename": "pkg-receiver.elf",
@@ -7890,7 +7965,7 @@
       "github_stars": 1,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-12T01:10:38Z",
-      "last_update_days": 3,
+      "last_update_days": 4,
       "last_update_months": 0.1
     },
     {
@@ -7900,7 +7975,7 @@
       "category": "PS5 Auto-discovered",
       "author": "freefelt",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "e2a04063e8834ac14a7deda1d3718b7f28f13c852eb44da3c8a3fdf6d889c1e4",
       "payload_available": true,
       "payload_filename": "Transmission-0.4.elf",
@@ -7911,7 +7986,7 @@
       "github_stars": 9,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-11T07:26:24Z",
-      "last_update_days": 2,
+      "last_update_days": 3,
       "last_update_months": 0.1
     },
     {
@@ -7921,7 +7996,7 @@
       "category": "PS5 Auto-discovered",
       "author": "PratikHackTR",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "16adcf160d8e99a55129106bb1cc5b3f83823ed82dfee150dfef59f04b25eec8",
       "payload_available": true,
       "payload_filename": "ProsperoMgr.elf",
@@ -7932,7 +8007,7 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-10T17:47:42Z",
-      "last_update_days": 15,
+      "last_update_days": 16,
       "last_update_months": 0.5
     },
     {
@@ -7942,7 +8017,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Techsociology",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "0ca47cd0ffa5748d89b511f4bfefa07cd5fd4865bc01d5d9addbf7081a340de0",
       "payload_available": true,
       "payload_filename": "dlmgr_v0.1.0.elf",
@@ -7953,7 +8028,7 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-10T12:57:23Z",
-      "last_update_days": 3,
+      "last_update_days": 4,
       "last_update_months": 0.1
     },
     {
@@ -7963,7 +8038,7 @@
       "category": "PS5 Auto-discovered",
       "author": "ShaneBreazeale",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "7bf2db3d9bce8084e9864ec2923f6550d4203ba8c9e75934059d03e825374a3a",
       "github_stars": 4,
       "open_issues_count": 0,
@@ -7976,7 +8051,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Phynix88",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "59b0f7e3f436cbcd6794b207628c09257277660898149332a780721ca95dfaaa",
       "payload_available": true,
       "payload_filename": "ps5-hass.elf",
@@ -7987,7 +8062,7 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-07T14:00:18Z",
-      "last_update_days": 6,
+      "last_update_days": 7,
       "last_update_months": 0.2
     },
     {
@@ -7997,7 +8072,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Relativequantitybenchmark5536",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "e5a9702962488c1622aa3d7cd557fbdc72c8858959559c2b6eb1b79c22eee2d5",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -8010,7 +8085,7 @@
       "category": "PS5 Auto-discovered",
       "author": "0xZ3n0x",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "e1b2a68d75b672086b8d79318fb4dc0a1bfbec2b1049e61fe808b2892bc46fa0",
       "payload_available": true,
       "payload_filename": "OrangeHUD.elf",
@@ -8021,8 +8096,8 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-06T17:45:07Z",
-      "last_update_days": 7,
-      "last_update_months": 0.2
+      "last_update_days": 8,
+      "last_update_months": 0.3
     },
     {
       "name": "n-zik-ps5",
@@ -8031,7 +8106,7 @@
       "category": "PS5 Auto-discovered",
       "author": "DevVeda",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "20afaae5682637031c6be9f60b741ebe884797925d8ad2588cde3fce6292144c",
       "payload_available": true,
       "payload_filename": "n-zik-ps5.elf",
@@ -8042,7 +8117,7 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-04T21:34:30Z",
-      "last_update_days": 9,
+      "last_update_days": 10,
       "last_update_months": 0.3
     },
     {
@@ -8052,7 +8127,7 @@
       "category": "PS5 Auto-discovered",
       "author": "holdmysocks",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "fe7e474a0e54577f9ab9ef1a9e0af3b42ac204b5556cf2b144b2d915b3a337db",
       "payload_available": true,
       "payload_filename": "tailscale-0.7.3.elf",
@@ -8061,9 +8136,9 @@
       "last_update": "2026-11-04",
       "checksum": "899c9f76994317171ab62a331a229b260e7c93aab68963502d79c861392e5801",
       "github_stars": 66,
-      "open_issues_count": 3,
+      "open_issues_count": 4,
       "repository_updated_at": "2026-11-04T16:05:32Z",
-      "last_update_days": 9,
+      "last_update_days": 10,
       "last_update_months": 0.3
     },
     {
@@ -8073,7 +8148,7 @@
       "category": "PS5 Auto-discovered",
       "author": "bayo-labs",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "3902e0094c54869e3a71826e5fb7162cc1a7ddbd9e19494e94a93d5067dbaf4f",
       "payload_available": true,
       "payload_filename": "bayosh.elf",
@@ -8084,7 +8159,7 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-01T16:33:36Z",
-      "last_update_days": 12,
+      "last_update_days": 13,
       "last_update_months": 0.4
     },
     {
@@ -8094,7 +8169,7 @@
       "category": "PS5 Auto-discovered",
       "author": "bps2414",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "bed36637bc9d470b4223a8ca7f1494e5b7ca9539d5d69f3bf02ee7eb015d36a0",
       "github_stars": 1,
       "open_issues_count": 0,
@@ -8107,7 +8182,7 @@
       "category": "PS5 Auto-discovered",
       "author": "DevVeda",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "20afaae5682637031c6be9f60b741ebe884797925d8ad2588cde3fce6292144c",
       "github_stars": 1,
       "open_issues_count": 0,
@@ -8120,7 +8195,7 @@
       "category": "PS5 Auto-discovered",
       "author": "heni0xyz",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "payload_available": true,
       "icon_key": "6b0563518b0f643c3123c8cd93b4fb329217b2433c92f75e58b71cf7e90a52e5",
       "version": "v2",
@@ -8131,7 +8206,7 @@
       "github_stars": 58,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-22T20:37:32Z",
-      "last_update_days": 23,
+      "last_update_days": 24,
       "last_update_months": 0.8
     },
     {
@@ -8141,7 +8216,7 @@
       "category": "PS5 Auto-discovered",
       "author": "azurejelly",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "0c4983e7d8c66c099f2dff733ae9f31af786eb7611685dbbce0b4a3779a586e6",
       "payload_available": true,
       "payload_filename": "ps5-discord-rpc.elf",
@@ -8152,8 +8227,8 @@
       "github_stars": 4,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-22T07:48:05Z",
-      "last_update_days": 22,
-      "last_update_months": 0.7
+      "last_update_days": 23,
+      "last_update_months": 0.8
     },
     {
       "name": "SoundBridge-PS5",
@@ -8162,7 +8237,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Xnos666",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "1293d6ee3092b0216b6ea25b357b4933b3628fe5d458eeff7b649e65cd0f30fc",
       "payload_available": true,
       "payload_filename": "SoundBridge_PS5_13.60.elf",
@@ -8173,8 +8248,8 @@
       "github_stars": 3,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-22T00:53:36Z",
-      "last_update_days": 25,
-      "last_update_months": 0.8
+      "last_update_days": 26,
+      "last_update_months": 0.9
     },
     {
       "name": "xpad-ps5",
@@ -8183,7 +8258,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Alexandre78500",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "1e95498e9288ec5bb8005b35ce6e5c55724e2e1e8e7bb332ada5cee01356713d",
       "payload_available": true,
       "payload_filename": "xpad-ps5.elf",
@@ -8194,7 +8269,7 @@
       "github_stars": 3,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-20T18:47:21Z",
-      "last_update_days": 24,
+      "last_update_days": 25,
       "last_update_months": 0.8
     },
     {
@@ -8204,7 +8279,7 @@
       "category": "PS5 Auto-discovered",
       "author": "neokuze",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "7f2f526866658782990837aa5add7e508173d54df05da6afbc3bb48e35f23b5a",
       "github_stars": 4,
       "open_issues_count": 0,
@@ -8217,7 +8292,7 @@
       "category": "PS5 Auto-discovered",
       "author": "rodri0x",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "e80e8addb0ae2f189a46a106cb08aa6f264731dbbea69e99430994fdf44c0ceb",
       "payload_available": true,
       "payload_filename": "airplay-installer.elf",
@@ -8228,8 +8303,8 @@
       "github_stars": 40,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-13T19:02:07Z",
-      "last_update_days": 31,
-      "last_update_months": 1.0
+      "last_update_days": 32,
+      "last_update_months": 1.1
     },
     {
       "name": "PS5_DevLoop",
@@ -8238,7 +8313,7 @@
       "category": "PS5 Auto-discovered",
       "author": "griches",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "e5f09f2f881b532f5efa49e39e4597ed82bccf8af1ab4e69effaac67510937a6",
       "github_stars": 15,
       "open_issues_count": 0,
@@ -8251,7 +8326,7 @@
       "category": "PS5 Auto-discovered",
       "author": "rynmrde",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "e00b603f9f97a75a77ba6829e1ba4947ece0b18a21d9c2bacf25dc1c2f270d11",
       "payload_available": true,
       "payload_filename": "ghost-tooth-ui.elf",
@@ -8262,7 +8337,7 @@
       "github_stars": 1,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-08T07:42:03Z",
-      "last_update_days": 36,
+      "last_update_days": 37,
       "last_update_months": 1.2
     },
     {
@@ -8272,7 +8347,7 @@
       "category": "PS5 Auto-discovered",
       "author": "DevOldSchool",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "e441037a5c2a119b12349a8c47da21cb1c82fba1b2cf0479e298f362fb0cd49d",
       "github_stars": 1,
       "open_issues_count": 0,
@@ -8285,7 +8360,7 @@
       "category": "PS5 Auto-discovered",
       "author": "itsmemac",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "2c440374a46ef6d4e7b25b22725dd5d2435889bea96ad5ccc06a7ba0a76ac69a",
       "github_stars": 19,
       "open_issues_count": 0,
@@ -8298,7 +8373,7 @@
       "category": "PS5 Auto-discovered",
       "author": "marcelorsdd",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "461447950fa42cc07b312bc5db98906faaac030fbdc2581511f422a273aa5ab1",
       "payload_available": true,
       "payload_filename": "openpsapp.elf",
@@ -8306,10 +8381,10 @@
       "version": "v0.1.0",
       "last_update": "2026-11-10",
       "checksum": "5ad6fe841f946fe25b2350066479f50b9a96aee0f85bdfa1bf5c5674935d41a4",
-      "github_stars": 8,
+      "github_stars": 10,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-12T13:49:36Z",
-      "last_update_days": 3,
+      "last_update_days": 4,
       "last_update_months": 0.1
     },
     {
@@ -8319,10 +8394,10 @@
       "category": "PS5 Auto-discovered",
       "author": "ZigZagBoi1",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
-      "github_stars": 494,
-      "open_issues_count": 11,
+      "github_stars": 496,
+      "open_issues_count": 12,
       "repository_updated_at": "2026-11-12T13:30:00Z"
     },
     {
@@ -8332,7 +8407,7 @@
       "category": "PS5 Auto-discovered",
       "author": "m2k7m",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "4620977c0276c30996da1867f589f14958099bde884dfa35a7ca10e06337052f",
       "github_stars": 1,
       "open_issues_count": 0,
@@ -8345,7 +8420,7 @@
       "category": "PS5 Auto-discovered",
       "author": "thereal47Ronin",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "7ac48a4b4315afc2f7205112cbf61f69f998c5f027df0f9b83affac84d6a291c",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -8358,7 +8433,7 @@
       "category": "PS5 Auto-discovered",
       "author": "dantonious",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "bd19a565c3e4d500e4eb3212b1d382c54d41439f31ac2552c88f9eb5a8b91848",
       "github_stars": 1,
       "open_issues_count": 0,
@@ -8371,7 +8446,7 @@
       "category": "PS5 Auto-discovered",
       "author": "HaydenGriffin",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "94e097d9e81ef6b33e836c22f99a1aaea387c7472a69b987ee00c8ef92aee11e",
       "github_stars": 1,
       "open_issues_count": 0,
@@ -8384,7 +8459,7 @@
       "category": "PS5 Auto-discovered",
       "author": "NotHavocc",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "68c1c3880ac3361dae9d8f56b1021178fd8e75619e28ca5fe40dbb88187dd477",
       "github_stars": 10,
       "open_issues_count": 0,
@@ -8397,7 +8472,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Oliv3rmoon",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "7f330e60a98f85748d862c7fda89bf013e65d5867e6f2fbb5ea4e970d50ec9de",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -8410,32 +8485,11 @@
       "category": "PS5 Auto-discovered",
       "author": "elripalda",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "ccc3dff8e8dea38d24afee501b8528e6b69f04c577f359b368bbb850d5b2c8b5",
       "github_stars": 99,
       "open_issues_count": 16,
       "repository_updated_at": "2026-11-09T19:18:07Z"
-    },
-    {
-      "name": "ps5-playtime-tracker",
-      "description": "Open-source playtime and trophy tracker for jailbroken PS5. Tracks PS5 and PS4 games and syncs them to your gowithme.club profile. No PSN required.",
-      "repository_url": "https://github.com/gowithme-club/ps5-playtime-tracker",
-      "category": "PS5 Auto-discovered",
-      "author": "gowithme-club",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "3f748fb8f3a505cc7c55896be2daf7c5b4417dafeec43c3c56d7ff4d89fa100f",
-      "payload_available": true,
-      "payload_filename": "gowithme.club_v1.0.0.elf",
-      "payload_url": "https://github.com/gowithme-club/ps5-playtime-tracker/releases/download/v1.0.0/gowithme.club_v1.0.0.elf",
-      "version": "v1.0.0",
-      "last_update": "2026-11-09",
-      "checksum": "b31a59ed903fa8e79cb9b1e34ceb402a91f972582fec16577bd31a8c8756d777",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-09T14:40:46Z",
-      "last_update_days": 4,
-      "last_update_months": 0.1
     },
     {
       "name": "ps5-fpkg-converter — mibhati",
@@ -8444,7 +8498,7 @@
       "category": "PS5 Auto-discovered",
       "author": "mibhati",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "001f9ebf81ee0c72349b862ab9ebc1852bc21e6ea3b2560be15575bb5cf2f34b",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -8457,7 +8511,7 @@
       "category": "PS5 Auto-discovered",
       "author": "arg0WAK",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "ef62cc48a546a846e9daa963337037551f31336613d77670fd3cb85145f20f5b",
       "github_stars": 3,
       "open_issues_count": 0,
@@ -8470,7 +8524,7 @@
       "category": "PS5 Auto-discovered",
       "author": "LeoFeitosa",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "d8b0d1f4bac4db3781f1a5c5b5c7691e1ad19eff44742f4dd8c3bb2a267eeb38",
       "github_stars": 2,
       "open_issues_count": 1,
@@ -8483,7 +8537,7 @@
       "category": "PS5 Auto-discovered",
       "author": "kamb205",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "7465076ffc8aaf0f9c98fdc7e81df95b9a2b2285d5f49631ef40182d16b47ef7",
       "github_stars": 3,
       "open_issues_count": 1,
@@ -8496,9 +8550,9 @@
       "category": "PS5 Auto-discovered",
       "author": "ChaosTheory1075",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "dd0b561076bddd315a19eec3323b6f9cbf9775aa81eae65eb7682a70253b66e3",
-      "github_stars": 2,
+      "github_stars": 3,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-07T05:41:14Z"
     },
@@ -8509,7 +8563,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Jarama88",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "d89844e084b22320d3cbbca0005f9c35b58d60c668b80b8c3f51b937ae6bc372",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -8522,7 +8576,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Straitofmagellanpeeler158",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "46d3d2ed35d6972d0c1836cd66b3d9ddd4c276b7b0dc48dc05b02d439319c258",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -8535,7 +8589,7 @@
       "category": "PS5 Auto-discovered",
       "author": "zel-jebr",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "7236f48ec57f02178e1bb0c644ac86bb407fc282fddc47606f8c5a228924f9cb",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -8548,7 +8602,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Oliv3rmoon",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "7f330e60a98f85748d862c7fda89bf013e65d5867e6f2fbb5ea4e970d50ec9de",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -8561,7 +8615,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Oliv3rmoon",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "7f330e60a98f85748d862c7fda89bf013e65d5867e6f2fbb5ea4e970d50ec9de",
       "github_stars": 1,
       "open_issues_count": 0,
@@ -8574,7 +8628,7 @@
       "category": "PS5 Auto-discovered",
       "author": "realLesiedd",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "41c75f8cea8d6431630ce2506d22b26dea099cbab6cd34998951f2e23550998a",
       "payload_available": true,
       "payload_filename": "fileden.elf",
@@ -8585,7 +8639,7 @@
       "github_stars": 2,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-05T14:32:14Z",
-      "last_update_days": 9,
+      "last_update_days": 10,
       "last_update_months": 0.3
     },
     {
@@ -8595,7 +8649,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Xtacy856X",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "8923a65fde8f6f717d5279564342d9812346167bcb59b2d9ecfbd76123414655",
       "payload_available": true,
       "payload_filename": "ps5info.elf",
@@ -8606,7 +8660,7 @@
       "github_stars": 1,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-04T17:47:47Z",
-      "last_update_days": 9,
+      "last_update_days": 10,
       "last_update_months": 0.3
     },
     {
@@ -8616,7 +8670,7 @@
       "category": "PS5 Auto-discovered",
       "author": "bps2414",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "bed36637bc9d470b4223a8ca7f1494e5b7ca9539d5d69f3bf02ee7eb015d36a0",
       "github_stars": 3,
       "open_issues_count": 0,
@@ -8629,7 +8683,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Ch0ya",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "4a472065a4abdd872ecdbb2120f43f1e77ee20e39a5e6bf401d9d783f66fe964",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -8642,7 +8696,7 @@
       "category": "PS5 Auto-discovered",
       "author": "bawertl",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "25281ba0a7bb75e604ce055d3e81f8af022ff81602047a2bf843b46717c409c1",
       "github_stars": 1,
       "open_issues_count": 0,
@@ -8655,7 +8709,7 @@
       "category": "PS5 Auto-discovered",
       "author": "bawertl",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "25281ba0a7bb75e604ce055d3e81f8af022ff81602047a2bf843b46717c409c1",
       "payload_available": true,
       "payload_filename": "shadowmountplus.elf",
@@ -8666,21 +8720,8 @@
       "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-01T00:13:53Z",
-      "last_update_days": 13,
-      "last_update_months": 0.4
-    },
-    {
-      "name": "crackdown-ps5",
-      "description": "Crackdown (Xbox 360) recompiled to run natively on the PS5: 60 FPS, DLC, saves and trophies. No game files included.",
-      "repository_url": "https://github.com/ChaosTheory1075/crackdown-ps5",
-      "category": "PS5 Auto-discovered",
-      "author": "ChaosTheory1075",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "dd0b561076bddd315a19eec3323b6f9cbf9775aa81eae65eb7682a70253b66e3",
-      "github_stars": 1,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-01T00:06:48Z"
+      "last_update_days": 14,
+      "last_update_months": 0.5
     },
     {
       "name": "ps5-fpkg-converter — sub0x00001",
@@ -8689,7 +8730,7 @@
       "category": "PS5 Auto-discovered",
       "author": "sub0x00001",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "2493e0efdffbc244b4dedbae9d66b29714c0f584c848050e7963cec49695d80b",
       "github_stars": 23,
       "open_issues_count": 0,
@@ -8702,7 +8743,7 @@
       "category": "PS5 Auto-discovered",
       "author": "boykopovar",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "212af449392c2dee77170575aa3bedb6ada197bb94802024f7a933532bc32192",
       "github_stars": 1,
       "open_issues_count": 0,
@@ -8715,7 +8756,7 @@
       "category": "PS5 Auto-discovered",
       "author": "ahmad3a4",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "d519a5255aaa9f476e817bfda49f0fbd45c810afc954825cec3d94c5ba6088a4",
       "github_stars": 11,
       "open_issues_count": 0,
@@ -8728,7 +8769,7 @@
       "category": "PS5 Auto-discovered",
       "author": "griches",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "e5f09f2f881b532f5efa49e39e4597ed82bccf8af1ab4e69effaac67510937a6",
       "github_stars": 1,
       "open_issues_count": 0,
@@ -8741,7 +8782,7 @@
       "category": "PS5 Auto-discovered",
       "author": "sagacity",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "ae11bb5b3ea636f09bba47ba7d4988c323f8924de8d704012b5b95ff63239811",
       "payload_available": true,
       "payload_filename": "schatkamer-app.elf",
@@ -8752,8 +8793,8 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-28T10:11:53Z",
-      "last_update_days": 16,
-      "last_update_months": 0.5
+      "last_update_days": 17,
+      "last_update_months": 0.6
     },
     {
       "name": "azeroth-survivors-ps5",
@@ -8762,7 +8803,7 @@
       "category": "PS5 Auto-discovered",
       "author": "ebreen",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "8a2c3421236239b4cce66fddec3c1bce95dc9fb312c2b9686d83282e2a419a0e",
       "github_stars": 1,
       "open_issues_count": 0,
@@ -8775,7 +8816,7 @@
       "category": "PS5 Auto-discovered",
       "author": "leafyjerk",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "c1d69002b7770e6b218da181a75a2a263efd0fba4e5ff5a1d15b76939fc5d259",
       "github_stars": 9,
       "open_issues_count": 0,
@@ -8788,7 +8829,7 @@
       "category": "PS5 Auto-discovered",
       "author": "viviandsx",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "17d545689570b8c48c7073131a1e86c238ebd2b4ff3fc450765fa5ad115cb4fb",
       "github_stars": 8,
       "open_issues_count": 1,
@@ -8801,7 +8842,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Alexius0815",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "3554eff9733bc53a4fa2c8c5258d5d1ec6c242fbe376096e41c17603a89c1e5c",
       "github_stars": 2,
       "open_issues_count": 0,
@@ -8814,7 +8855,7 @@
       "category": "PS5 Auto-discovered",
       "author": "griches",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "e5f09f2f881b532f5efa49e39e4597ed82bccf8af1ab4e69effaac67510937a6",
       "github_stars": 29,
       "open_issues_count": 0,
@@ -8827,7 +8868,7 @@
       "category": "PS5 Auto-discovered",
       "author": "NotHavocc",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "68c1c3880ac3361dae9d8f56b1021178fd8e75619e28ca5fe40dbb88187dd477",
       "github_stars": 4,
       "open_issues_count": 0,
@@ -8840,7 +8881,7 @@
       "category": "PS5 Auto-discovered",
       "author": "MiladRTX",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "092cad42fa26515c1d42462a8ece33a81f37998e9402955a2f9e9fcbe2142763",
       "github_stars": 9,
       "open_issues_count": 0,
@@ -8853,7 +8894,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Techsociology",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "0ca47cd0ffa5748d89b511f4bfefa07cd5fd4865bc01d5d9addbf7081a340de0",
       "payload_available": true,
       "payload_filename": "Browser_appCache_remove.elf",
@@ -8864,8 +8905,8 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-19T19:44:55Z",
-      "last_update_days": 25,
-      "last_update_months": 0.8
+      "last_update_days": 26,
+      "last_update_months": 0.9
     },
     {
       "name": "twispero",
@@ -8874,24 +8915,11 @@
       "category": "PS5 Auto-discovered",
       "author": "unicxrn",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "c8ddcae935a6ab77f38c30b687ccd701bb837d8fc6506692aebd5859610d5dd9",
       "github_stars": 2,
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-19T18:46:25Z"
-    },
-    {
-      "name": "PS5JB-JustDance-Control",
-      "description": "PS5 Jailbreak Just dance control with Phone / Joycon",
-      "repository_url": "https://github.com/brunocprado/PS5JB-JustDance-Control",
-      "category": "PS5 Auto-discovered",
-      "author": "brunocprado",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
-      "icon_key": "526963aaeb348370e5917a3d577a3518cac3f5346036de40a9bedcb63d7b08b7",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-10-16T19:30:54Z"
     },
     {
       "name": "ps5-hwcon-plugin",
@@ -8900,7 +8928,7 @@
       "category": "PS5 Auto-discovered",
       "author": "NotHavocc",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "68c1c3880ac3361dae9d8f56b1021178fd8e75619e28ca5fe40dbb88187dd477",
       "github_stars": 16,
       "open_issues_count": 1,
@@ -8913,7 +8941,7 @@
       "category": "PS5 Auto-discovered",
       "author": "percdotdev",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "ce638f19de37549b530593659b93ee02870011cb46d2c581aeafdf6a09a82956",
       "github_stars": 12,
       "open_issues_count": 0,
@@ -8926,9 +8954,9 @@
       "category": "PS5 Auto-discovered",
       "author": "Portablelle",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "6edb20aaae48c77f26deffba45c1593fd25352ead9416b23ffbc03d582863c3d",
-      "github_stars": 37,
+      "github_stars": 36,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-07T02:37:46Z"
     },
@@ -8939,7 +8967,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Ykls53",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "8958513321e9d3ceb866b7226242636abc91db7cad0d05f18ef575d0766a4707",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -8952,11 +8980,24 @@
       "category": "PS5 Auto-discovered",
       "author": "skythedevil",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "949ca5944a8cb8fc5c9afd1fc1e89ee3339aeacac3733f3dc5105cd212c1956b",
       "github_stars": 0,
       "open_issues_count": 2,
       "repository_updated_at": "2026-10-28T14:12:02Z"
+    },
+    {
+      "name": "PS5JB-JustDance-Control",
+      "description": "PS5 Jailbreak Just dance control with Phone / Joycon",
+      "repository_url": "https://github.com/brunocprado/PS5JB-JustDance-Control",
+      "category": "PS5 Auto-discovered",
+      "author": "brunocprado",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-14",
+      "icon_key": "526963aaeb348370e5917a3d577a3518cac3f5346036de40a9bedcb63d7b08b7",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-10-16T19:30:54Z"
     },
     {
       "name": "ps5-webkit-autoloader — pinkythegawd",
@@ -8965,7 +9006,7 @@
       "category": "PS5 Auto-discovered",
       "author": "pinkythegawd",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "4b2e438b2aaf659dbae94db626d7d21cd91de2a6b975f0ca23c7bd19fe4614a0",
       "payload_available": true,
       "payload_filename": "webkit-autoloader-installer_v0.7.1.elf",
@@ -8976,7 +9017,7 @@
       "github_stars": 6,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-15T18:11:46Z",
-      "last_update_days": 29,
+      "last_update_days": 30,
       "last_update_months": 1.0
     },
     {
@@ -8986,7 +9027,7 @@
       "category": "PS5 Auto-discovered",
       "author": "fstat13",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "21dab2e7d2a0b70169567f50f48d788e127f583c0d196008f1fde3ef33ecddf5",
       "github_stars": 8,
       "open_issues_count": 4,
@@ -8999,7 +9040,7 @@
       "category": "PS5 Auto-discovered",
       "author": "TiagoVal97",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "ba87e23db5f1f808e73553601134b6549971895c577f9fd6a8d234f0301f53d9",
       "payload_available": true,
       "payload_filename": "cheatspecter-v0.4.3.elf",
@@ -9010,7 +9051,7 @@
       "github_stars": 4,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-12T23:30:44Z",
-      "last_update_days": 32,
+      "last_update_days": 33,
       "last_update_months": 1.1
     },
     {
@@ -9020,7 +9061,7 @@
       "category": "PS5 Auto-discovered",
       "author": "JBuildr",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "3c7e2e5fc804d84d459c23e2478ec53eb32ef3a58ad6e38ae54a70afc7913e17",
       "github_stars": 5,
       "open_issues_count": 0,
@@ -9033,7 +9074,7 @@
       "category": "PS5 Auto-discovered",
       "author": "mortyzip",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "1d2749e2939407246a71279227186470b87caf4f7e84dbf9f691fdb1a17d46f3",
       "payload_available": true,
       "payload_filename": "keepawake_ps5_v1.5.0.elf",
@@ -9044,8 +9085,8 @@
       "github_stars": 8,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-10T02:43:51Z",
-      "last_update_days": 35,
-      "last_update_months": 1.1
+      "last_update_days": 36,
+      "last_update_months": 1.2
     },
     {
       "name": "PS5-fc27-ps5-backport-language-fix",
@@ -9054,7 +9095,7 @@
       "category": "PS5 Auto-discovered",
       "author": "YasefDogan",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "1e900c423c594f3f9d2966ba6e910e51013a445b32a632fc22a46bdf62eb4502",
       "github_stars": 5,
       "open_issues_count": 0,
@@ -9067,7 +9108,7 @@
       "category": "PS5 Auto-discovered",
       "author": "brunocprado",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "526963aaeb348370e5917a3d577a3518cac3f5346036de40a9bedcb63d7b08b7",
       "payload_available": true,
       "payload_filename": "PS5Instrumentalizer.elf",
@@ -9078,8 +9119,8 @@
       "github_stars": 3,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-06T18:35:44Z",
-      "last_update_days": 38,
-      "last_update_months": 1.2
+      "last_update_days": 39,
+      "last_update_months": 1.3
     },
     {
       "name": "Breakallery",
@@ -9088,7 +9129,7 @@
       "category": "PS5 Auto-discovered",
       "author": "H4zeyaf",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "5baed6a18b1474c639ae951e13be7bbd8c1c140383923da8dd8a08eaddd03e35",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -9101,7 +9142,7 @@
       "category": "PS5 Auto-discovered",
       "author": "zx0CF1",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "776160b61ef601f8f902686226ea6a9a1af951eab6da475864f1218a9f706b1c",
       "payload_available": true,
       "payload_filename": "RetroPapa-Installer.elf",
@@ -9112,7 +9153,7 @@
       "github_stars": 8,
       "open_issues_count": 0,
       "repository_updated_at": "2026-08-29T02:18:35Z",
-      "last_update_days": 78,
+      "last_update_days": 79,
       "last_update_months": 2.6
     },
     {
@@ -9122,7 +9163,7 @@
       "category": "PS5 Auto-discovered",
       "author": "Collins3560",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "c6f49bcfbb6564d13d6e8ee5b7d095741d86c3631d1dc33ce04cfcc9fe39fe11",
       "github_stars": 3,
       "open_issues_count": 0,
@@ -9135,7 +9176,7 @@
       "category": "PS5 Auto-discovered",
       "author": "NookieAI",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "a7b91bc53c197ad909c7f2f90d086493e6fb0b488afb03f19b93c4d3149b0908",
       "github_stars": 99,
       "open_issues_count": 1,
@@ -9148,7 +9189,7 @@
       "category": "PS5 Auto-discovered",
       "author": "NookieAI",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "a7b91bc53c197ad909c7f2f90d086493e6fb0b488afb03f19b93c4d3149b0908",
       "github_stars": 114,
       "open_issues_count": 1,
@@ -9161,7 +9202,7 @@
       "category": "PS5 Auto-discovered",
       "author": "honkhonk-mi",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "4873e2c16723a0d0801e03d99c02f1eac66dd938daf1db1067d4591692a9f00d",
       "github_stars": 0,
       "open_issues_count": 0,
@@ -9174,9 +9215,9 @@
       "category": "PS5 Auto-discovered",
       "author": "v0ltfault",
       "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "4e063a8c5673191a756da5640bc0ba5180f28af5d23539ca1d55f46d83165074",
-      "github_stars": 27,
+      "github_stars": 26,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-15T04:02:53Z"
     },
@@ -9187,7 +9228,7 @@
       "category": "PS5 Auto-discovered",
       "author": "fixoulab",
       "discovery_source": "Bluesky public search",
-      "discovered_at": "2026-11-13",
+      "discovered_at": "2026-11-14",
       "icon_key": "cad6c4358517e94f313a290e69a44ddb710138c7845a5ae3b3c8d12518c1fc1a",
       "github_stars": 3,
       "open_issues_count": 0,
