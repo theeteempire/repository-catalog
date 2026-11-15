@@ -676,6 +676,19 @@
       "checksum": "05bc32a1b7bd8e712f668d2f1818516a01a2801e70bbdccc78a78c0a618c08bf"
     },
     {
+      "name": "TITAN CORE",
+      "description": "PS5 game workspace with native FPKG engine, external-drive installer and live diagnostics. Bundles kstuff-lite and ShadowMountPlus; starts them automatically. Requires a jailbroken PS5 with elfldr. Dashboard, library, USB browser, cache builder and 31 language/localization support. Arabic RTL, themes, controller-friendly navigation.",
+      "repository_url": "https://github.com/devchmod/TITAN-CORE",
+      "category": "Plugins & System Tools",
+      "author": "devchmod",
+      "payload_available": true,
+      "version": "v0.5.4-beta.1",
+      "last_update": "2026-11-14",
+      "payload_filename": "TITAN-CORE-0.5.4-beta.1.elf",
+      "payload_url": "https://github.com/devchmod/TITAN-CORE/releases/download/v0.5.4-beta.1/TITAN-CORE-0.5.4-beta.1.elf",
+      "checksum": "b8b9a8fb3d0a9d248dd1150a78bcb2b6837f3925b6b424bb544781cde070df8e"
+    },
+    {
       "name": "fuse-ppkg",
       "description": "Mount a PS5 debug FPKG (.pkg) as a read-only directory on Linux. Nothing is unpacked: file bytes are read at their offsets in the .pkg and Kraken blocks are decoded only where a read touches them, through ps5-dump-forge's FpkgSource. Read-only, debug FPKG only, Linux only. Prototype — see upstream Limits before using.",
       "repository_url": "https://github.com/Pix13/fuse-ppkg",

@@ -388,6 +388,19 @@
       "category": "Utilities & Tools",
       "checksum": "05bc32a1b7bd8e712f668d2f1818516a01a2801e70bbdccc78a78c0a618c08bf",
       "id": "kite-pack-kite-helper-66d30101"
+    },
+    {
+      "name": "TITAN CORE",
+      "filename": "TITAN-CORE-0.5.4-beta.1.elf",
+      "url": "https://github.com/devchmod/TITAN-CORE/releases/download/v0.5.4-beta.1/TITAN-CORE-0.5.4-beta.1.elf",
+      "source": "https://github.com/devchmod/TITAN-CORE/releases",
+      "source_direct": "https://github.com/devchmod/TITAN-CORE/releases/download/v0.5.4-beta.1/TITAN-CORE-0.5.4-beta.1.elf",
+      "description": "PS5 game workspace with native FPKG engine, external-drive installer and live diagnostics. Bundles kstuff-lite and ShadowMountPlus; starts them automatically. Requires a jailbroken PS5 with elfldr. Dashboard, library, USB browser, cache builder and 31 language/localization support. Arabic RTL, themes, controller-friendly navigation.",
+      "last_update": "2026-11-14",
+      "version": "v0.5.4-beta.1",
+      "category": "Plugins & System Tools",
+      "checksum": "b8b9a8fb3d0a9d248dd1150a78bcb2b6837f3925b6b424bb544781cde070df8e",
+      "id": "titan-core-devchmod-titan-core-0.5.4-beta.1-elf"
     }
   ]
 }
