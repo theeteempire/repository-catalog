@@ -714,6 +714,36 @@
       "payload_available": false,
       "version": "v1.0.30",
       "last_update": "2026-08-24"
+    },
+    {
+      "name": "Sphaira",
+      "description": "Homebrew menu and file manager for Nintendo Switch and Switch 2. Stable 1.1.0 adds Switch 2 support under kaiHEN; installing, forwarders, game library, game-card, App Store, Themezer, IRS, USB and MTP features are unavailable on Switch 2. Other features include FTP, MTP, file associations for emulator ROM loading, themes, and Ownfoil library installation on Switch. Release is a ZIP, not a PS5 ELF payload.",
+      "repository_url": "https://github.com/NaGaa95/sphaira",
+      "category": "Homebrew & UI",
+      "author": "NaGaa95",
+      "payload_available": false,
+      "version": "1.1.0",
+      "last_update": "2026-11-16"
+    },
+    {
+      "name": "WiiCompiled-Switch2",
+      "description": "Experimental, unofficial Switch 2 port of WiiCompiled with Retro Rewind, started as an .nro from hbmenu under kaiHEN. Requires your own clean Mario Kart Wii PAL (RMCP01) disc and Retro Rewind files; all releases are prereleases with no downloadable assets, so no game data or built NRO is provided and you build it locally. Author-tested on kaiHEN 20261114d and 20261116 with known issues including 15-20 second shader setup on each launch, no second launch in the same kaiHEN session, and raised clocks only applying on a charger. Not a PS5 payload.",
+      "repository_url": "https://github.com/6rimson/Wiicompiled-Switch2",
+      "category": "Gaming & Media",
+      "author": "6rimson",
+      "payload_available": false,
+      "version": "v0.3.1",
+      "last_update": "2026-11-16"
+    },
+    {
+      "name": "Dekopon",
+      "description": "Open-source 3DS emulator for Nintendo Switch and Switch 2 based on Azahar (base Azahar 2126.1.1), with gyro, CIA installation, LayeredFS, texture packs, button remapping and multiple screen layouts. Stable v0.9.1 ships dekopon.nro with experimental async shader compilation enabled by default; known issues include lens-flare slowdown in Majora's Mask 3D and slow shader-cache rebuilds on first launch after updating. This is a Switch homebrew NRO, not a PS5 ELF payload.",
+      "repository_url": "https://github.com/Olmectron/dekopon",
+      "category": "Emulators",
+      "author": "Olmectron",
+      "payload_available": false,
+      "version": "v0.9.1",
+      "last_update": "2026-11-16"
     }
   ]
 }
