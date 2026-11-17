@@ -1,9 +1,9 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-11-17T21:03:02+00:00",
+  "generated_at": "2026-11-17T21:29:22+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 637,
+  "count": 636,
   "payload_count": 368,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
@@ -112,7 +112,7 @@
       "author": "abrocoma",
       "icon_key": "5dfc9b19dcd0b8e99eb092b8efe01bd259a735dd8abd4e3e5f03e580381b7090",
       "github_stars": 81,
-      "open_issues_count": 1,
+      "open_issues_count": 0,
       "repository_updated_at": "2026-11-17T08:59:40Z"
     },
     {
@@ -123,7 +123,7 @@
       "author": "",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 81,
-      "open_issues_count": 1,
+      "open_issues_count": 0,
       "repository_updated_at": "2026-11-17T08:59:40Z"
     },
     {
@@ -923,7 +923,7 @@
       "payload_filename": "ftpsrv-drakmor_1.16-ng-stable.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv-drakmor_1.16-ng-stable.elf",
       "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
-      "github_stars": 164,
+      "github_stars": 165,
       "open_issues_count": 0,
       "repository_updated_at": "2026-09-23T21:15:12Z",
       "last_update_days": 58,
@@ -2030,7 +2030,7 @@
       "payload_url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.0-pre-0850478/webkit-autoloader-installer_v0.8.0-pre-0850478.elf",
       "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
       "checksum": "d5929a1a8aa31ba7c6fd86eb501650b3be11d9f370adaada3d1abd236473356e",
-      "github_stars": 1467,
+      "github_stars": 1468,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-17T13:39:57Z",
       "last_update_days": 0,
@@ -2348,7 +2348,7 @@
       "author": "leolobato",
       "icon_key": "39d07bff0f0e3924c30cd1a4367db08a2d1ab98592d613fc06062b708371b60e",
       "github_stars": 1085,
-      "open_issues_count": 340,
+      "open_issues_count": 342,
       "repository_updated_at": "2026-11-17T19:21:09Z"
     },
     {
@@ -3075,7 +3075,7 @@
       "icon_key": "e97910fcda346d6035f622df04b24b074eaa8f77ba7026cfc7cbb8cd86e73db4",
       "github_stars": 119,
       "open_issues_count": 11,
-      "repository_updated_at": "2026-11-17T20:56:29Z"
+      "repository_updated_at": "2026-11-17T21:20:39Z"
     },
     {
       "name": "PS5-Custom-Tool-Manager-",
@@ -4064,7 +4064,7 @@
       "package_filename": "PPSA99177.ffpkg",
       "package_url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.3.5/PPSA99177.ffpkg",
       "icon_key": "44d63d7af0c21e5f503cf7e151276d785f3a2ffb64ecf8a0f66a1b884438c2f7",
-      "github_stars": 1438,
+      "github_stars": 1439,
       "open_issues_count": 44,
       "repository_updated_at": "2026-11-16T11:34:35Z",
       "last_update_days": 1,
@@ -5025,7 +5025,7 @@
       "checksum": "e1f32177140c2de7c89b620e0a5a698c995462a5ee1fa4e001388aec51b2f28d",
       "github_stars": 110,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-17T17:50:18Z",
+      "repository_updated_at": "2026-11-17T21:04:23Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -5504,7 +5504,7 @@
       "package_url": "https://github.com/viejunerd/Eglantine-PS5-/releases/download/v1.219.029/EglantinePS5-v1.219.029.zip",
       "package_checksum": "807cb84530e12607ea8a0a9a3154b78bd06ce7e394e1d0e5ff070dcece230f29",
       "icon_key": "8945793c57c5ff9fe0b7828c9ce7e90846b3c77971f5a11b6cfcd534871eabfc",
-      "github_stars": 175,
+      "github_stars": 176,
       "open_issues_count": 23,
       "repository_updated_at": "2026-11-10T09:40:58Z",
       "last_update_days": 7,
@@ -6642,7 +6642,7 @@
       "icon_key": "11b41a0e12e632946879b107487948847ce675cf31430e16de5e7f5a0394998d",
       "github_stars": 15,
       "open_issues_count": 3,
-      "repository_updated_at": "2026-11-17T20:57:06Z"
+      "repository_updated_at": "2026-11-17T21:10:56Z"
     },
     {
       "name": "PS5MG",
@@ -6808,7 +6808,7 @@
       "checksum": "3a20194226cf5e1ee66a5a67d81610c1ac9bf82deee7b791c752d0e7d6202d5c",
       "github_stars": 400,
       "open_issues_count": 23,
-      "repository_updated_at": "2026-11-17T14:59:47Z",
+      "repository_updated_at": "2026-11-17T21:24:48Z",
       "last_update_days": 18,
       "last_update_months": 0.6
     },
@@ -7179,6 +7179,22 @@
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0"
     },
     {
+      "name": "green-nx",
+      "description": "Unofficial, open-source Xbox Cloud Gaming (xCloud) client for Nintendo Switch homebrew: device-code Microsoft sign-in, a searchable Game Pass library with box art, and native WebRTC streaming at 720p/1080p/1080p HQ with hardware H.264 decoding and zero-copy GPU rendering, plus ad-supported free-to-play titles. Requires Atmosphere CFW, 5 GHz Wi-Fi and a Game Pass subscription for the subscription catalog (games you own and ad-supported free-to-play titles work without one); must be launched in title mode because applet mode lacks memory for hardware decoding. Latest stable release v1.0.30 ships green-nx.nro; a newer v1.0.31pre1 is a prerelease with hardware-tested sign-in and streaming fixes. Nintendo Switch homebrew, not a PS5 payload.",
+      "repository_url": "https://github.com/rmrf404/green-nx",
+      "category": "Gaming & UI",
+      "author": "rmrf404",
+      "payload_available": false,
+      "version": "v1.0.30",
+      "last_update": "2026-08-24",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
+      "github_stars": 162,
+      "open_issues_count": 22,
+      "repository_updated_at": "2026-09-17T09:05:47Z",
+      "last_update_days": 85,
+      "last_update_months": 2.8
+    },
+    {
       "name": "Longshot_ps5",
       "description": "Longshot (OOT recompilation) as a native PS5 homebrew title: the game's code compiled for the console, graphics on Vulkan    through Mesa's RADV. Build it from your own copy of the game; no game files included.",
       "repository_url": "https://github.com/yeistark/Longshot_ps5",
@@ -7275,7 +7291,7 @@
       "icon_key": "22aac296b96e36784a343938055afa838351d8bce61c4e308c2106e0547536b1",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-17T20:04:50Z"
+      "repository_updated_at": "2026-11-17T21:07:24Z"
     },
     {
       "name": "PS5PayloadManagerUpdater",
@@ -7326,45 +7342,11 @@
       "version": "v1.0.0-rc13",
       "last_update": "2026-11-17",
       "checksum": "b90f8a409e97ad1e627d0c6e7764626012527a1343642e644f8cfe63af7b3449",
-      "github_stars": 6,
+      "github_stars": 7,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-17T16:23:12Z",
       "last_update_days": 0,
       "last_update_months": 0.0
-    },
-    {
-      "name": "ps5-payloads — xkzink",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/xkzink/ps5-payloads",
-      "category": "PS5 Auto-discovered",
-      "author": "xkzink",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-17",
-      "icon_key": "31a4f6f69d0dc5cf0b29a42e2b9389cb89f305c0e088b2568eb6269eebe906e4",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-17T16:22:26Z"
-    },
-    {
-      "name": "PLM-Repository",
-      "description": "HiddenKernel repository for PS5 Payload Manager",
-      "repository_url": "https://github.com/hiddenkernellab/PLM-Repository",
-      "category": "PS5 Auto-discovered",
-      "author": "hiddenkernellab",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-17",
-      "icon_key": "aeae56b2b7f250b5eed92057ea635b8bd632a341eb986fed876711d8a985327e",
-      "payload_available": true,
-      "payload_filename": "HiddenKernel-4Stores.elf",
-      "payload_url": "https://github.com/hiddenkernellab/PLM-Repository/releases/download/hiddenkernel-4stores-current/HiddenKernel-4Stores.elf",
-      "version": "hiddenkernel-4stores-current",
-      "last_update": "2026-10-18",
-      "checksum": "948c2443906d250956de34a426608ec7e25f36c103f5f865c70353b85f59e85f",
-      "github_stars": 3,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-17T15:58:17Z",
-      "last_update_days": 30,
-      "last_update_months": 1.0
     },
     {
       "name": "PS5-Toolkit",
@@ -7388,8 +7370,8 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-17",
       "icon_key": "04fc10ab0949aeb1f9285c2f27e9ab7b26cfb000b6d626f6953e81cbec5b2b13",
-      "github_stars": 11454,
-      "open_issues_count": 914,
+      "github_stars": 11457,
+      "open_issues_count": 915,
       "repository_updated_at": "2026-11-17T19:34:48Z"
     },
     {
@@ -7403,7 +7385,7 @@
       "icon_key": "3d31a7d5ebd5528292e939826cfc4567334c84fc24d27dccf50cee81fcca13f6",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-17T19:34:31Z"
+      "repository_updated_at": "2026-11-17T21:26:39Z"
     },
     {
       "name": "GreenHatBoy",
@@ -7430,6 +7412,27 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-17T16:27:35Z"
+    },
+    {
+      "name": "PLM-Repository",
+      "description": "HiddenKernel repository for PS5 Payload Manager",
+      "repository_url": "https://github.com/hiddenkernellab/PLM-Repository",
+      "category": "PS5 Auto-discovered",
+      "author": "hiddenkernellab",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-17",
+      "icon_key": "aeae56b2b7f250b5eed92057ea635b8bd632a341eb986fed876711d8a985327e",
+      "payload_available": true,
+      "payload_filename": "HiddenKernel-4Stores.elf",
+      "payload_url": "https://github.com/hiddenkernellab/PLM-Repository/releases/download/hiddenkernel-4stores-current/HiddenKernel-4Stores.elf",
+      "version": "hiddenkernel-4stores-current",
+      "last_update": "2026-10-18",
+      "checksum": "948c2443906d250956de34a426608ec7e25f36c103f5f865c70353b85f59e85f",
+      "github_stars": 3,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-17T15:58:17Z",
+      "last_update_days": 30,
+      "last_update_months": 1.0
     },
     {
       "name": "ARMSX5",
@@ -7515,7 +7518,7 @@
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
       "github_stars": 511,
       "open_issues_count": 4,
-      "repository_updated_at": "2026-11-17T13:48:12Z"
+      "repository_updated_at": "2026-11-17T21:05:45Z"
     },
     {
       "name": ".github — PS5-homebrew",
@@ -7589,19 +7592,6 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-17T12:45:04Z"
-    },
-    {
-      "name": "chiaki-ng-ps3",
-      "description": "PS4 and PS5 Remote Play for the PlayStation 3 (homebrew), based on chiaki-ng",
-      "repository_url": "https://github.com/ThoraldM/chiaki-ng-ps3",
-      "category": "PS5 Auto-discovered",
-      "author": "ThoraldM",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-17",
-      "icon_key": "5314f846ddee9ea32a566543a0c0ef8a2c8777a44167d2dc0e8b6a40c7351c79",
-      "github_stars": 3,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-17T12:35:12Z"
     },
     {
       "name": "gta6-mcp",
@@ -7787,7 +7777,7 @@
       "last_update_months": 0.0
     },
     {
-      "name": "ps5-payloads — avoidik",
+      "name": "ps5-payloads",
       "description": "Automatically discovered PS5-related GitHub repository.",
       "repository_url": "https://github.com/avoidik/ps5-payloads",
       "category": "PS5 Auto-discovered",
@@ -7808,9 +7798,9 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-17",
       "icon_key": "212af449392c2dee77170575aa3bedb6ada197bb94802024f7a933532bc32192",
-      "github_stars": 54857,
-      "open_issues_count": 2067,
-      "repository_updated_at": "2026-11-17T21:01:07Z"
+      "github_stars": 54866,
+      "open_issues_count": 2056,
+      "repository_updated_at": "2026-11-17T21:20:50Z"
     },
     {
       "name": "PrefBar",
@@ -8337,7 +8327,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-17",
       "icon_key": "333095fe76bb30365b122ed48db60d8793d51529d9010a7e88f78529974b79a8",
-      "github_stars": 1,
+      "github_stars": 2,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-17T01:06:12Z"
     },
