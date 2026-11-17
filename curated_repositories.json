@@ -696,6 +696,14 @@
       "author": "Pix13",
       "payload_available": false,
       "last_update": "2026-11-13"
+    },
+    {
+      "name": "BananaNative",
+      "description": "Unofficial, experimental Android compatibility layer for running user-owned Switch 2 game dumps on Snapdragon phones; runs the game's ARM64 code with system-service shims and Vulkan graphics translation. Requires Android 13+, an Adreno GPU and at least 12 GB RAM. Distributed as APKs from its Forgejo releases, not as PS5 payloads.",
+      "repository_url": "https://git.eden-emu.dev/moceure/BananaNative",
+      "category": "Emulators",
+      "author": "moceure",
+      "payload_available": false
     }
   ]
 }

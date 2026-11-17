@@ -59,6 +59,8 @@ GITHUB_REPO_URL_PATTERN = re.compile(
 OUT_DIR = Path(".")
 USER_AGENT = "Repository-Catalog/2.1"
 API_ROOT = "https://api.github.com"
+ALLOWED_REPOSITORY_HOSTS = ("github.com", "git.eden-emu.dev")
+FORGEJO_HOST = "git.eden-emu.dev"
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 REPO_URL_KEYS = (
     "url", "html_url", "repo_url", "repository_url", "github_url",
@@ -88,17 +90,23 @@ def get_first(obj: dict[str, Any], keys: tuple[str, ...]) -> Any:
 
 
 def clean_github_url(value: Any) -> str | None:
-    """Accept GitHub-hosted repository links only; reject every other forge/domain."""
+    """Accept only GitHub and the explicitly allowed Forgejo host; reject other forges."""
     if not isinstance(value, str):
         return None
     value = value.strip()
-    match = re.match(r"^https://github\.com/([^/\s?#]+)/([^/\s?#]+)(?:\.git)?(?:/(?:tree|blob|releases|issues|actions|pulls|commits|wiki|projects|settings)(?:/.*)?)?/?(?:[?#].*)?$", value, re.I)
+    hosts = "|".join(re.escape(host) for host in ALLOWED_REPOSITORY_HOSTS)
+    match = re.match(
+        rf"^https://({hosts})/([^/\s?#]+)/([^/\s?#]+)(?:/(?:tree|blob|releases|issues|actions|pulls|commits|wiki|projects|settings)(?:/.*)?)?/?(?:[?#].*)?$",
+        value,
+        re.I,
+    )
     if not match:
         return None
-    owner, repo = match.group(1), re.sub(r"\.git$", "", match.group(2), flags=re.I)
+    host = match.group(1).lower()
+    owner, repo = match.group(2), re.sub(r"\.git$", "", match.group(3), flags=re.I)
     if repo.lower() in {"topics", "collections", "marketplace", "orgs", "users", "sponsors", "login", "signup", "explore"}:
         return None
-    return f"https://github.com/{owner}/{repo}"
+    return f"https://{host}/{owner}/{repo}"
 
 
 def walk_objects(value: Any):
@@ -183,11 +191,23 @@ def download_json(url: str) -> Any:
 def canonical_repo(value: Any) -> str | None:
     if not isinstance(value, str):
         return None
+    hosts = "|".join(re.escape(host) for host in ALLOWED_REPOSITORY_HOSTS)
     match = re.match(
-        r"^https://github\.com/([^/\s?#]+)/([^/\s?#]+)(?:/(?:releases|tree|blob|issues|actions).*)?/?$",
+        rf"^https://({hosts})/([^/\s?#]+)/([^/\s?#]+)(?:/(?:releases|tree|blob|issues|actions).*)?/?$",
         value.strip(), re.I
     )
-    return f"{match.group(1)}/{match.group(2)}" if match else None
+    if not match:
+        return None
+    host = match.group(1).lower()
+    owner, repo = match.group(2), re.sub(r"\.git$", "", match.group(3), flags=re.I)
+    # Keep non-GitHub identities host-qualified so GitHub API calls are never
+    # aimed at a same-named repository on the wrong forge.
+    return f"{host}/{owner}/{repo}" if host == FORGEJO_HOST else f"{owner}/{repo}"
+
+
+def is_github_repo_id(full_name: str | None) -> bool:
+    """True only for GitHub repository identities usable with the GitHub API."""
+    return bool(full_name) and not str(full_name).lower().startswith(f"{FORGEJO_HOST}/")
 
 
 def is_direct_asset_url(value: Any) -> bool:
@@ -980,10 +1000,10 @@ def main() -> int:
                 record["icon_key"] = candidate_icon
             if not record.get("icon_key"):
                 avatar_url = record.pop("_owner_avatar_url", "")
-                if not avatar_url and full_name:
+                if not avatar_url and full_name and is_github_repo_id(full_name):
                     avatar_url = f"https://github.com/{full_name.split('/')[0]}.png?size=128"
                 record["icon_key"] = add_avatar_icon(avatar_url, icons)
-                if not record["icon_key"] and full_name:
+                if not record["icon_key"] and full_name and is_github_repo_id(full_name):
                     record["icon_key"] = add_avatar_icon(f"https://github.com/{full_name.split('/')[0]}.png?size=128", icons)
             for src, dst in (
                 ("version", "version"), ("last_update", "last_update"),
@@ -999,10 +1019,10 @@ def main() -> int:
                 match["icon_key"] = record["icon_key"]
         else:
             avatar_url = record.pop("_owner_avatar_url", "")
-            if not avatar_url and full_name:
+            if not avatar_url and full_name and is_github_repo_id(full_name):
                 avatar_url = f"https://github.com/{full_name.split('/')[0]}.png?size=128"
             record["icon_key"] = add_avatar_icon(avatar_url, icons)
-            if not record["icon_key"] and full_name:
+            if not record["icon_key"] and full_name and is_github_repo_id(full_name):
                 record["icon_key"] = add_avatar_icon(f"https://github.com/{full_name.split('/')[0]}.png?size=128", icons)
 
         # Existing mirror payloads are already refreshed from the mirror every six
@@ -1011,6 +1031,8 @@ def main() -> int:
         if match and repo_key not in curated_repo_keys:
             continue
 
+        if not is_github_repo_id(full_name):
+            continue
         checked += 1
         release = get_latest_release(full_name)
         time.sleep(0.05)
@@ -1262,7 +1284,7 @@ def main() -> int:
             full_name = canonical_repo(payload.get("source")) or canonical_repo(payload.get("source_direct"))
             related = repository_by_name.get(full_name.lower()) if full_name else None
             icon_key = related.get("icon_key") if related else None
-            if not icon_key and full_name:
+            if not icon_key and full_name and is_github_repo_id(full_name):
                 owner = full_name.split("/")[0]
                 icon_key = add_avatar_icon(f"https://github.com/{owner}.png?size=128", icons)
             if icon_key and icon_key in icons:
@@ -1303,7 +1325,7 @@ def main() -> int:
     # attached only when GitHub exposes the count for the exact release asset.
     for record in repositories:
         full_name = canonical_repo(record.get("repository_url"))
-        if full_name:
+        if full_name and is_github_repo_id(full_name):
             community = get_repository_community_metadata(full_name)
             if community:
                 for key, value in community.items():
@@ -1313,7 +1335,7 @@ def main() -> int:
 
     for payload in payloads:
         source_repo = canonical_repo(payload.get("source")) or canonical_repo(payload.get("source_direct"))
-        if source_repo:
+        if source_repo and is_github_repo_id(source_repo):
             community = get_repository_community_metadata(source_repo)
             if community:
                 for key, value in community.items():
