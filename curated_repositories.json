@@ -704,6 +704,16 @@
       "category": "Emulators",
       "author": "moceure",
       "payload_available": false
+    },
+    {
+      "name": "green-nx",
+      "description": "Unofficial, open-source Xbox Cloud Gaming (xCloud) client for Nintendo Switch homebrew: device-code Microsoft sign-in, a searchable Game Pass library with box art, and native WebRTC streaming at 720p/1080p/1080p HQ with hardware H.264 decoding and zero-copy GPU rendering, plus ad-supported free-to-play titles. Requires Atmosphere CFW, 5 GHz Wi-Fi and a Game Pass subscription for the subscription catalog (games you own and ad-supported free-to-play titles work without one); must be launched in title mode because applet mode lacks memory for hardware decoding. Latest stable release v1.0.30 ships green-nx.nro; a newer v1.0.31pre1 is a prerelease with hardware-tested sign-in and streaming fixes. Nintendo Switch homebrew, not a PS5 payload.",
+      "repository_url": "https://github.com/rmrf404/green-nx",
+      "category": "Gaming & UI",
+      "author": "rmrf404",
+      "payload_available": false,
+      "version": "v1.0.30",
+      "last_update": "2026-08-24"
     }
   ]
 }
