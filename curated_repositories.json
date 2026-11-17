@@ -744,6 +744,32 @@
       "payload_available": false,
       "version": "v0.9.1",
       "last_update": "2026-11-16"
+    },
+    {
+      "name": "NxNow",
+      "description": "Unofficial native GeForce NOW client for Nintendo Switch homebrew, with a controller-first library and catalog UI, QR-code NVIDIA sign-in, a Switch virtual keyboard and mouse mode, 30/60 FPS stream profiles, server, codec and bitrate settings, and an optional performance HUD. Requires a GeForce NOW account and game entitlements, hbmenu in application mode (hold R while launching an installed game), and a stable 5 GHz Wi-Fi connection. Early stable release v0.2.4 ships NxNow.nro; this is a Switch homebrew client, not a PS5 payload.",
+      "repository_url": "https://github.com/kazar-root/NxNow",
+      "category": "Gaming & UI",
+      "author": "kazar-root",
+      "payload_available": false,
+      "version": "v0.2.4",
+      "last_update": "2026-11-17",
+      "package_filename": "NxNow.nro",
+      "package_url": "https://github.com/kazar-root/NxNow/releases/download/v0.2.4/NxNow.nro",
+      "package_checksum": "72550ab9cd33bcbc46ef14f188d360eb4e2ba4bc5f1e51bf8a6d486a80873b04"
+    },
+    {
+      "name": "OpenNOW-Switch",
+      "description": "Native, controller-first GeForce NOW client for Nintendo Switch homebrew, derived from SwitchNOW. Includes library and store browsing, cloud-session launching, native WebRTC with H.264/Opus, NVDEC hardware decoding with a software fallback, and a HOME shortcut installer. Requires custom firmware, hbmenu and a valid GeForce NOW account; the author recommends overclocking because stock clocks give about 45-50 FPS instead of a steady 60. Stable v0.0.12 ships SwitchNOW-0.0.12.nro; this is a Switch homebrew client, not a PS5 payload.",
+      "repository_url": "https://github.com/OpenCloudGaming/OpenNOW-Switch",
+      "category": "Gaming & UI",
+      "author": "OpenCloudGaming",
+      "payload_available": false,
+      "version": "v0.0.12",
+      "last_update": "2026-10-29",
+      "package_filename": "SwitchNOW-0.0.12.nro",
+      "package_url": "https://github.com/OpenCloudGaming/OpenNOW-Switch/releases/download/v0.0.12/SwitchNOW-0.0.12.nro",
+      "package_checksum": "2692572341e8ed9fa32eec12905ece74732897ad08ec4ad582e05d5a0222979a"
     }
   ]
 }
