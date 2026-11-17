@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-11-17T20:50:18+00:00",
+  "generated_at": "2026-11-17T21:03:02+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 637,
   "payload_count": 368,
@@ -111,7 +111,7 @@
       "category": "Repositories",
       "author": "abrocoma",
       "icon_key": "5dfc9b19dcd0b8e99eb092b8efe01bd259a735dd8abd4e3e5f03e580381b7090",
-      "github_stars": 80,
+      "github_stars": 81,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-17T08:59:40Z"
     },
@@ -122,7 +122,7 @@
       "category": "Repositories",
       "author": "",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 80,
+      "github_stars": 81,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-17T08:59:40Z"
     },
@@ -461,7 +461,7 @@
       "icon_key": "bed36637bc9d470b4223a8ca7f1494e5b7ca9539d5d69f3bf02ee7eb015d36a0",
       "github_stars": 20,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-17T07:58:38Z"
+      "repository_updated_at": "2026-11-17T20:58:35Z"
     },
     {
       "name": "visor-ps5",
@@ -2301,7 +2301,7 @@
       "payload_url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
       "checksum": "5458739714d93ad807f3720ff3a2107687bf18be6e238c3f531a93f55d3467b7",
       "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b",
-      "github_stars": 281,
+      "github_stars": 282,
       "open_issues_count": 3,
       "repository_updated_at": "2026-11-14T12:00:20Z",
       "last_update_days": 31,
@@ -2416,7 +2416,7 @@
       "author": "Loopayeh",
       "icon_key": "e60c377145819cea04c9ac2b8a128a6178e3d8de99527b298b4394f2cafdb717",
       "github_stars": 222,
-      "open_issues_count": 5,
+      "open_issues_count": 6,
       "repository_updated_at": "2026-11-17T02:26:34Z"
     },
     {
@@ -3075,7 +3075,7 @@
       "icon_key": "e97910fcda346d6035f622df04b24b074eaa8f77ba7026cfc7cbb8cd86e73db4",
       "github_stars": 119,
       "open_issues_count": 11,
-      "repository_updated_at": "2026-11-17T20:46:40Z"
+      "repository_updated_at": "2026-11-17T20:56:29Z"
     },
     {
       "name": "PS5-Custom-Tool-Manager-",
@@ -3382,7 +3382,7 @@
       "category": "Repositories",
       "author": "owendswang",
       "icon_key": "418554c041c5266e9086249dd6b90be34de94cb4bcbb6e4f369b8e3cbc5c2a66",
-      "github_stars": 147,
+      "github_stars": 148,
       "open_issues_count": 4,
       "repository_updated_at": "2026-11-14T13:57:52Z"
     },
@@ -6505,7 +6505,7 @@
       "icon_key": "6986b184787075bf5c998f31c0748129fc6058b40ce9b21c5ceebd3a512234d8",
       "github_stars": 44,
       "open_issues_count": 10,
-      "repository_updated_at": "2026-11-17T20:48:14Z"
+      "repository_updated_at": "2026-11-17T20:55:59Z"
     },
     {
       "name": "MedievalTennis",
@@ -6642,7 +6642,7 @@
       "icon_key": "11b41a0e12e632946879b107487948847ce675cf31430e16de5e7f5a0394998d",
       "github_stars": 15,
       "open_issues_count": 3,
-      "repository_updated_at": "2026-11-17T18:22:45Z"
+      "repository_updated_at": "2026-11-17T20:57:06Z"
     },
     {
       "name": "PS5MG",
@@ -7110,7 +7110,7 @@
       "payload_url": "https://github.com/quer3q/kraken-mount/releases/download/v0.2.1/kraken-mount.elf",
       "checksum": "3b50bdfffaad5bacdd41ad380cc7ce3dfe419d8efde57b30c0c0e7a338fe2494",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 477,
+      "github_stars": 478,
       "open_issues_count": 23,
       "repository_updated_at": "2026-11-16T10:46:54Z",
       "last_update_days": 1,
@@ -7187,9 +7187,22 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-17",
       "icon_key": "96893b1b030d710bdf615ecafae1572746f46d02a4ff637abce2212e4bad740a",
-      "github_stars": 0,
+      "github_stars": 1,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-17T19:53:44Z"
+    },
+    {
+      "name": "ps5-payload-constellation",
+      "description": "Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
+      "repository_url": "https://github.com/DeborahO18/ps5-payload-constellation",
+      "category": "PS5 Auto-discovered",
+      "author": "DeborahO18",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-17",
+      "icon_key": "ce54f7da38ef21ca9bf62e20134558f9b92701bb8058fe9c1b8013e41916b9f8",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-17T19:44:28Z"
     },
     {
       "name": "playstation-tools",
@@ -7354,6 +7367,19 @@
       "last_update_months": 1.0
     },
     {
+      "name": "PS5-Toolkit",
+      "description": "PS5 本地资源管理工具：插件仓库浏览与每日更新提醒、按需勾选下载（断点续传/旧版清理/下载历史）、HEN 金手指同步与版本历史、PS4/PS5 游戏资源每日新增检测。全中文化，纯 Node.js 零依赖。基于 nexgen999/PS5-Repository-List 改造开发。",
+      "repository_url": "https://github.com/liweili/PS5-Toolkit",
+      "category": "PS5 Auto-discovered",
+      "author": "liweili",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-17",
+      "icon_key": "031bd7a4f1863a1bdca08b115c623a7d0bc40b8d989d2ebd745727c1cd5bc964",
+      "github_stars": 4,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-17T19:41:18Z"
+    },
+    {
       "name": "KytyPS5",
       "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
       "repository_url": "https://github.com/KytyPS5/KytyPS5",
@@ -7362,7 +7388,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-17",
       "icon_key": "04fc10ab0949aeb1f9285c2f27e9ab7b26cfb000b6d626f6953e81cbec5b2b13",
-      "github_stars": 11452,
+      "github_stars": 11454,
       "open_issues_count": 914,
       "repository_updated_at": "2026-11-17T19:34:48Z"
     },
@@ -7719,19 +7745,6 @@
       "repository_updated_at": "2026-11-17T15:21:50Z"
     },
     {
-      "name": "ps5-payload-constellation",
-      "description": "Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
-      "repository_url": "https://github.com/DeborahO18/ps5-payload-constellation",
-      "category": "PS5 Auto-discovered",
-      "author": "DeborahO18",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-17",
-      "icon_key": "ce54f7da38ef21ca9bf62e20134558f9b92701bb8058fe9c1b8013e41916b9f8",
-      "github_stars": 2,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-17T19:44:28Z"
-    },
-    {
       "name": "ps5-payloads-mirror — siko15006-bot",
       "description": "https://siko15006-bot.github.io/ps5-payloads-mirror/payloads_v3.json",
       "repository_url": "https://github.com/siko15006-bot/ps5-payloads-mirror",
@@ -7784,7 +7797,7 @@
       "icon_key": "6f44e4587019903b39a6813dd2687c1db3adca5bc5a83df3e32d565d9189a721",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-17T07:54:15Z"
+      "repository_updated_at": "2026-11-17T20:54:57Z"
     },
     {
       "name": "AnyPS5",
@@ -7795,9 +7808,9 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-17",
       "icon_key": "212af449392c2dee77170575aa3bedb6ada197bb94802024f7a933532bc32192",
-      "github_stars": 54852,
-      "open_issues_count": 2080,
-      "repository_updated_at": "2026-11-17T20:45:31Z"
+      "github_stars": 54857,
+      "open_issues_count": 2067,
+      "repository_updated_at": "2026-11-17T21:01:07Z"
     },
     {
       "name": "PrefBar",
@@ -8290,19 +8303,6 @@
       "last_update_months": 1.3
     },
     {
-      "name": "PS5-Toolkit",
-      "description": "PS5 本地资源管理工具：插件仓库浏览与每日更新提醒、按需勾选下载（断点续传/旧版清理/下载历史）、HEN 金手指同步与版本历史、PS4/PS5 游戏资源每日新增检测。全中文化，纯 Node.js 零依赖。基于 nexgen999/PS5-Repository-List 改造开发。",
-      "repository_url": "https://github.com/liweili/PS5-Toolkit",
-      "category": "PS5 Auto-discovered",
-      "author": "liweili",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-17",
-      "icon_key": "031bd7a4f1863a1bdca08b115c623a7d0bc40b8d989d2ebd745727c1cd5bc964",
-      "github_stars": 4,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-17T19:41:18Z"
-    },
-    {
       "name": "ps5-agentic-ui",
       "description": "Native, controller-driven agentic UIs on a PlayStation 5 (AG-UI + A2UI 1.0 + CopilotKit). Includes a C++ A2UI renderer, a TypeScript agent runtime, a CopilotKit Channels adapter, and a PS5 demo app with on-console voice commands.",
       "repository_url": "https://github.com/Laptopmini/ps5-agentic-ui",
@@ -8337,7 +8337,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-17",
       "icon_key": "333095fe76bb30365b122ed48db60d8793d51529d9010a7e88f78529974b79a8",
-      "github_stars": 2,
+      "github_stars": 1,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-17T01:06:12Z"
     },
