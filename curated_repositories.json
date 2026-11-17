@@ -696,6 +696,19 @@
       "author": "Pix13",
       "payload_available": false,
       "last_update": "2026-11-13"
+    },
+    {
+      "name": "BrowserPS5",
+      "description": "Full native PS5 web browser (title PPSA97024) with its own WebKit 627.1.7 port, JavaScript JIT, GPU rendering and DualSense controls. The one-file installer ELF installs the browser; its interface runs as a payload that needs an ELF loader on port 9021 (etaHEN starts one) and ShadowMountPlus running every time the browser opens. Tested on one PS5 on firmware 13.60 only. No DRM video (Netflix, Disney+, Prime Video, Spotify web player), no WebRTC calls/camera/microphone, up to 6 tabs sharing 1 GiB. Release v1.0.0-rc13 is a prerelease that fixes a missing temp folder that made rc12 close at startup.",
+      "repository_url": "https://github.com/ramalhoboss/BrowserPS5",
+      "category": "Utilities & Tools",
+      "author": "ramalhoboss",
+      "payload_available": true,
+      "version": "v1.0.0-rc13",
+      "last_update": "2026-11-17",
+      "payload_filename": "BrowserPS5.elf",
+      "payload_url": "https://github.com/ramalhoboss/BrowserPS5/releases/download/v1.0.0-rc13/BrowserPS5.elf",
+      "checksum": "b90f8a409e97ad1e627d0c6e7764626012527a1343642e644f8cfe63af7b3449"
     }
   ]
 }

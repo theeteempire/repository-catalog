@@ -401,6 +401,45 @@
       "category": "Plugins & System Tools",
       "checksum": "b8b9a8fb3d0a9d248dd1150a78bcb2b6837f3925b6b424bb544781cde070df8e",
       "id": "titan-core-devchmod-titan-core-0.5.4-beta.1-elf"
+    },
+    {
+      "name": "BrowserPS5",
+      "filename": "BrowserPS5.elf",
+      "url": "https://github.com/ramalhoboss/BrowserPS5/releases/download/v1.0.0-rc13/BrowserPS5.elf",
+      "source": "https://github.com/ramalhoboss/BrowserPS5/releases",
+      "source_direct": "https://github.com/ramalhoboss/BrowserPS5/releases/download/v1.0.0-rc13/BrowserPS5.elf",
+      "description": "One-file installer ELF for BrowserPS5, a native PS5 title (PPSA97024) with a WebKit 627.1.7 browser, JavaScript JIT, GPU rendering and DualSense controls. Run once, then open BrowserPS5 from Games; do not add it to an autoload list. Needs a jailbroken PS5 with an ELF loader on port 9021 (etaHEN) and ShadowMountPlus running every time the browser opens. Tested on one PS5 on firmware 13.60 only. No DRM video, no WebRTC, up to 6 tabs sharing 1 GiB. rc13 fixes the missing /user/homebrew/browserps5/data/tmp folder that made rc12 close at startup.",
+      "last_update": "2026-11-17",
+      "version": "v1.0.0-rc13",
+      "category": "Utilities & Tools",
+      "checksum": "b90f8a409e97ad1e627d0c6e7764626012527a1343642e644f8cfe63af7b3449",
+      "id": "browserps5-browserps5-f3711c1e"
+    },
+    {
+      "name": "BrowserPS5 Uninstall",
+      "filename": "BrowserPS5-uninstall.elf",
+      "url": "https://github.com/ramalhoboss/BrowserPS5/releases/download/v1.0.0-rc13/BrowserPS5-uninstall.elf",
+      "source": "https://github.com/ramalhoboss/BrowserPS5/releases",
+      "source_direct": "https://github.com/ramalhoboss/BrowserPS5/releases/download/v1.0.0-rc13/BrowserPS5-uninstall.elf",
+      "description": "Uninstaller ELF for BrowserPS5: removes the installed title and browser files and asks ShadowMountPlus to remove the Games-tab tile. Favorites, history, settings and saved logins are kept for a later install; downloaded files are not touched. Needs the PS5 jailbreak setup: ELF loader on port 9021 and ShadowMountPlus.",
+      "last_update": "2026-11-17",
+      "version": "v1.0.0-rc13",
+      "category": "Utilities & Tools",
+      "checksum": "5c22a7b2928d833c914d874139d512f697abeae13b917851924081f6499dd1cb",
+      "id": "browserps5-browserps5-uninstall-d93ff8a7"
+    },
+    {
+      "name": "BrowserPS5 Uninstall All",
+      "filename": "BrowserPS5-uninstall-all.elf",
+      "url": "https://github.com/ramalhoboss/BrowserPS5/releases/download/v1.0.0-rc13/BrowserPS5-uninstall-all.elf",
+      "source": "https://github.com/ramalhoboss/BrowserPS5/releases",
+      "source_direct": "https://github.com/ramalhoboss/BrowserPS5/releases/download/v1.0.0-rc13/BrowserPS5-uninstall-all.elf",
+      "description": "Uninstaller ELF for BrowserPS5 that removes the installed title and browser files, the Games-tab tile, and the saved favorites, history, settings and logins. Downloaded files are not touched. Needs the PS5 jailbreak setup: ELF loader on port 9021 and ShadowMountPlus.",
+      "last_update": "2026-11-17",
+      "version": "v1.0.0-rc13",
+      "category": "Utilities & Tools",
+      "checksum": "bf0e02a175be7fde4dc009660fafdef9b089087d3e0eb36582895b9fac62ac90",
+      "id": "browserps5-browserps5-uninstall-all-ba778d83"
     }
   ]
 }
