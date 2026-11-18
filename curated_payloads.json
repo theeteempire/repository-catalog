@@ -300,16 +300,17 @@
       "id": "hyperhen-v0.9.2"
     },
     {
-      "name": "WK Autoloader Store Installer",
-      "filename": "WK_Autoloader_Store_V1.1.4.elf",
-      "url": "https://github.com/X-F1REBALL-X/wk-autoloader/releases/download/v1.1.4/WK_Autoloader_Store_V1.1.4.elf",
-      "source": "https://github.com/X-F1REBALL-X/wk-autoloader/releases/tag/v1.1.4",
-      "source_direct": "https://github.com/X-F1REBALL-X/wk-autoloader/releases/download/v1.1.4/WK_Autoloader_Store_V1.1.4.elf",
-      "description": "WK Autoloader Store-tile installer. Release README states firmware 7.00–13.60 for this Store build.",
-      "last_update": "2026-10-23",
-      "version": "v1.1.4",
+      "name": "WK Store Installer",
+      "filename": "WK_Store_V1.2.4.elf",
+      "url": "https://github.com/X-F1REBALL-X/wk-store/releases/download/v1.2.4/WK_Store_V1.2.4.elf",
+      "source": "https://github.com/X-F1REBALL-X/wk-store/releases",
+      "source_direct": "https://github.com/X-F1REBALL-X/wk-store/releases/download/v1.2.4/WK_Store_V1.2.4.elf",
+      "description": "Installer ELF for WK Store v1.2.4, which replaces the PS5 Store tile with a jailbreak launcher that opens bundled Elf Launcher 2.1.6 when the chain finishes. Send to elfldr on port 9021; if WK Store is already installed, send the Restore ELF first and reopen elfldr, then send this installer. The console reboots itself when installation finishes. Wobkot offsets cover 6.00/6.02 through 13.60 as listed upstream; Relapse covers 7.00–13.60. Works offline after install.",
+      "last_update": "2026-11-18",
+      "version": "v1.2.4",
       "category": "Jailbreak & Autoloaders",
-      "id": "x-f1reball-x-wk-autoloader-store-v1.1.4"
+      "id": "x-f1reball-x-wk-store-installer-v1.2.4",
+      "checksum": "b1745b94445ffcc348dfd96158433b4ef8981917ad4c2da664828dbc4487b088"
     },
     {
       "name": "Elf Launcher",
@@ -440,6 +441,19 @@
       "category": "Utilities & Tools",
       "checksum": "bf0e02a175be7fde4dc009660fafdef9b089087d3e0eb36582895b9fac62ac90",
       "id": "browserps5-browserps5-uninstall-all-ba778d83"
+    },
+    {
+      "name": "WK Store Restore",
+      "filename": "WK_Store_Restore_V1.2.4.elf",
+      "url": "https://github.com/X-F1REBALL-X/wk-store/releases/download/v1.2.4/WK_Store_Restore_V1.2.4.elf",
+      "source": "https://github.com/X-F1REBALL-X/wk-store/releases",
+      "source_direct": "https://github.com/X-F1REBALL-X/wk-store/releases/download/v1.2.4/WK_Store_Restore_V1.2.4.elf",
+      "description": "Restore ELF for WK Store v1.2.4: puts the original PlayStation Store tile back. Send to elfldr on port 9021; no reboot is needed after Restore. Use it before every WK Store upgrade when WK Store is already installed.",
+      "last_update": "2026-11-18",
+      "version": "v1.2.4",
+      "category": "Jailbreak & Autoloaders",
+      "checksum": "f58603b88d247c54d4d627c211549d3d25ea7fcf7a2f0706cad5329afdc21f86",
+      "id": "x-f1reball-x-wk-store-restore-v1.2.4"
     }
   ]
 }
