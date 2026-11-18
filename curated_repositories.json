@@ -770,6 +770,32 @@
       "package_filename": "SwitchNOW-0.0.12.nro",
       "package_url": "https://github.com/OpenCloudGaming/OpenNOW-Switch/releases/download/v0.0.12/SwitchNOW-0.0.12.nro",
       "package_checksum": "2692572341e8ed9fa32eec12905ece74732897ad08ec4ad582e05d5a0222979a"
+    },
+    {
+      "name": "brewstore",
+      "description": "Homebrew storefront for Nintendo Switch 2 under kaiHEN, with in-app catalog refresh and support for custom repositories hosted as packages.json manifests. Installation replaces hbmenu.nro with a modified build and places brewloader.nro in the kaiHEN programs directory; version string should read v1337.69420.l33t. Stable 1.2.0 ships brewstore.nro; this is a Switch homebrew NRO, not a PS5 ELF payload.",
+      "repository_url": "https://github.com/HerXayah/brewstore",
+      "category": "Homebrew & UI",
+      "author": "HerXayah",
+      "payload_available": false,
+      "version": "1.2.0",
+      "last_update": "2026-11-18",
+      "package_filename": "brewstore.nro",
+      "package_url": "https://github.com/HerXayah/brewstore/releases/download/1.2.0/brewstore.nro",
+      "package_checksum": "2a942ee3f462f6b7911c1b02d6431b132c4c7c1c757a3c71780fc0ee10f3a665"
+    },
+    {
+      "name": "blacklist-tool",
+      "description": "Switch 2 homebrew for viewing and modifying the console's FunctionBlackList, which can show blocked games, unblock titles with mandatory updates so owned copies can be played without updating, or install a custom blacklist. Changes persist across reboots and possibly factory resets; writing the BCAT copy may risk a console ban. Stable v1.1.0 ships blacklist-tool-switch2.nro; this is a Switch homebrew NRO, not a PS5 ELF payload.",
+      "repository_url": "https://github.com/s8n/blacklist-tool",
+      "category": "Utilities & Tools",
+      "author": "s8n",
+      "payload_available": false,
+      "version": "v1.1.0",
+      "last_update": "2026-11-18",
+      "package_filename": "blacklist-tool-switch2.nro",
+      "package_url": "https://github.com/s8n/blacklist-tool/releases/download/v1.1.0/blacklist-tool-switch2.nro",
+      "package_checksum": "4f49a482668fa2560188c4cb409534e9c802a3e273d2e9a4fc057966f3b7d381"
     }
   ]
 }
