@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-11-18T17:22:07+00:00",
+  "generated_at": "2026-11-18T17:31:58+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 644,
   "payload_count": 355,
@@ -2030,7 +2030,7 @@
       "payload_url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.0-pre-0850478/webkit-autoloader-installer_v0.8.0-pre-0850478.elf",
       "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7",
       "checksum": "d5929a1a8aa31ba7c6fd86eb501650b3be11d9f370adaada3d1abd236473356e",
-      "github_stars": 1483,
+      "github_stars": 1484,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-17T13:39:57Z",
       "last_update_days": 1,
@@ -2708,7 +2708,7 @@
       "author": "meta",
       "icon_key": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e",
       "github_stars": 28261,
-      "open_issues_count": 419,
+      "open_issues_count": 418,
       "repository_updated_at": "2026-11-18T17:15:26Z"
     },
     {
@@ -3291,7 +3291,7 @@
       "category": "Utilities & Tools",
       "author": "overdriveps5",
       "icon_key": "9fa72297718672827fba07e87b9eb30da72a5491349f49b99165901e311b6607",
-      "github_stars": 801,
+      "github_stars": 802,
       "open_issues_count": 13,
       "repository_updated_at": "2026-10-13T12:55:45Z"
     },
@@ -3369,7 +3369,7 @@
       "payload_filename": "ps5-web-file-manager_v1.14.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.14.elf",
       "checksum": "8493c0bd11d77f9cce4b6c93564ffcae7185a5b530ecf856a768519c2514e231",
-      "github_stars": 333,
+      "github_stars": 334,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-10T13:40:52Z",
       "last_update_days": 8,
@@ -3447,7 +3447,7 @@
       "payload_filename": "ps5upload_v12.6.5.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.6.5.elf",
       "checksum": "cd8ff9209d0e8d62c08762a28ee4b5b663b812e4ab480b4024b1b8cca9f6676f",
-      "github_stars": 1293,
+      "github_stars": 1294,
       "open_issues_count": 4,
       "repository_updated_at": "2026-11-18T13:21:36Z",
       "last_update_days": 0,
@@ -3888,8 +3888,8 @@
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.5.6.elf",
       "checksum": "f0415aab6ded1cdf875418b6683ab56aeae3721492af99fba71b08c2c351f82f",
       "github_stars": 512,
-      "open_issues_count": 5,
-      "repository_updated_at": "2026-11-17T19:06:50Z",
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-11-18T17:20:33Z",
       "last_update_days": 2,
       "last_update_months": 0.1
     },
@@ -4064,7 +4064,7 @@
       "package_filename": "PPSA99177.ffpkg",
       "package_url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.3.5/PPSA99177.ffpkg",
       "icon_key": "44d63d7af0c21e5f503cf7e151276d785f3a2ffb64ecf8a0f66a1b884438c2f7",
-      "github_stars": 1444,
+      "github_stars": 1445,
       "open_issues_count": 47,
       "repository_updated_at": "2026-11-16T11:34:35Z",
       "last_update_days": 2,
@@ -4726,9 +4726,17 @@
       "category": "Repositories",
       "author": "TheRealRexo",
       "icon_key": "16a3a0bd2d3da31ed8ae320453d2c13c5dc7a4969c6be61027baa3d0e0966b5b",
+      "payload_available": true,
+      "payload_filename": "ps5-linux-loader.elf",
+      "payload_url": "https://github.com/TheRealRexo/PS5-Linux-Loader/releases/download/v1.0.0/ps5-linux-loader.elf",
+      "version": "v1.0.0",
+      "last_update": "2026-11-18",
+      "checksum": "0f5f1789fce85a27bddd3a0de7b6022bb0fe2d5e703555556d7ed0babd7288a4",
       "github_stars": 8,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-18T17:15:46Z"
+      "repository_updated_at": "2026-11-18T17:15:46Z",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "APR Emu Updater (tsuramatsu1)",
@@ -4937,40 +4945,41 @@
       "version": "v1.4.2",
       "last_update": "2026-11-15",
       "checksum": "565bb15656efad8d5561c2e397eac89002f12955fb2c6b65dc3475017613e434",
-      "github_stars": 207,
+      "github_stars": 208,
       "open_issues_count": 7,
       "repository_updated_at": "2026-11-15T23:03:53Z",
       "last_update_days": 3,
       "last_update_months": 0.1
     },
     {
-      "name": "WK Autoloader (X-F1REBALL-X)",
-      "description": "PS5 home-screen host that runs the Relapse chain and opens Elf Launcher. Store-tile release v1.1.4; release README states firmware 7.00–13.60 for this build.",
+      "name": "wk-store",
+      "description": "PS5 jailbreak installed on the Store tile. Runs Relapse from the home screen, then opens Elf Launcher.",
       "repository_url": "https://github.com/X-F1REBALL-X/wk-autoloader",
-      "category": "Jailbreak & Autoloaders",
+      "category": "Repositories",
       "author": "X-F1REBALL-X",
-      "payload_available": true,
-      "version": "v1.1.4",
-      "last_update": "2026-10-23",
-      "payload_filename": "WK_Autoloader_Store_V1.1.4.elf",
-      "payload_url": "https://github.com/X-F1REBALL-X/wk-autoloader/releases/download/v1.1.4/WK_Autoloader_Store_V1.1.4.elf",
       "icon_key": "f218b3e0c5cdd0474d04840f3ccdae2a36207911a313bf1f03dd9ec675d41f9f",
       "github_stars": 42,
       "open_issues_count": 4,
-      "repository_updated_at": "2026-11-18T15:24:27Z",
-      "last_update_days": 26,
-      "last_update_months": 0.9
+      "repository_updated_at": "2026-11-18T15:24:27Z"
     },
     {
-      "name": "WK Store 1.2.4",
-      "description": "",
+      "name": "WK Store (X-F1REBALL-X)",
+      "description": "Replaces the PS5 Store tile with WK Store: open the tile, start the jailbreak, and Elf Launcher opens when it finishes. Two chains from the tile: Wobkot (new in 1.2.4; listed offsets: 6.00/6.02, 7.00/7.01/7.20/7.40/7.60, 8.00/8.20/8.40/8.60, 9.00/9.20/9.40/9.60, 10.00/10.20/10.60, 11.00/11.40/11.60, 12.00/12.20/12.40/12.60, 13.00/13.20/13.40/13.60) and Relapse (7.00–13.60). Wobkot is about 0.6s on a good run. Bundles Elf Launcher 2.1.6 and works offline after installation. Needs elfldr on port 9021. If WK Store is already installed, send Restore first and reopen elfldr before installing again; the console reboots itself after install.",
       "repository_url": "https://github.com/X-F1REBALL-X/wk-store",
-      "category": "Repositories",
-      "author": "",
+      "category": "Jailbreak & Autoloaders",
+      "author": "X-F1REBALL-X",
+      "payload_available": true,
+      "version": "v1.2.4",
+      "last_update": "2026-11-18",
+      "payload_filename": "WK_Store_V1.2.4.elf",
+      "payload_url": "https://github.com/X-F1REBALL-X/wk-store/releases/download/v1.2.4/WK_Store_V1.2.4.elf",
+      "checksum": "b1745b94445ffcc348dfd96158433b4ef8981917ad4c2da664828dbc4487b088",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 42,
       "open_issues_count": 4,
-      "repository_updated_at": "2026-11-18T15:24:27Z"
+      "repository_updated_at": "2026-11-18T15:24:27Z",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "Orion-Media-Center",
@@ -7226,7 +7235,7 @@
       "version": "1.1.0",
       "last_update": "2026-11-16",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 972,
+      "github_stars": 973,
       "open_issues_count": 99,
       "repository_updated_at": "2026-11-17T22:42:46Z",
       "last_update_days": 2,
@@ -7351,7 +7360,7 @@
       "icon_key": "de856f37c15f16d7d42fe16d68246d8511a2efe2a2cabbaca5d2b9a29132f23c",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-18T16:50:45Z"
+      "repository_updated_at": "2026-11-18T17:30:03Z"
     },
     {
       "name": "ps5-homebrew-catalog",
@@ -7555,19 +7564,6 @@
       "last_update_months": 1.0
     },
     {
-      "name": ".github — Relapse-PlayStation-5",
-      "description": "(Relapse is a jailbreak for PlayStation 5 covering firmware versions 7.00 through 13.60, compatible with both standard and Pro models. It combines a browser exploit with a kernel exploit to gain read-write access to system memory, then loads payloads such as etaHEN via port 9021.)",
-      "repository_url": "https://github.com/Relapse-PlayStation-5/.github",
-      "category": "PS5 Auto-discovered",
-      "author": "Relapse-PlayStation-5",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-18",
-      "icon_key": "d03c0eb9a95681fd701399e26918c2ae810efaa83b8fb13d7d839a3863d2cebd",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-18T11:18:18Z"
-    },
-    {
       "name": "ProsPeroX",
       "description": "A open-source PS5 and PC batocera themed emulator/launcher still in progress but can launch light games like cuphead. Our goal is to emulate more light ps5 games (hopefully 3d) like far cry etc.",
       "repository_url": "https://github.com/BudgieOS/ProsPeroX",
@@ -7589,7 +7585,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-18",
       "icon_key": "04fc10ab0949aeb1f9285c2f27e9ab7b26cfb000b6d626f6953e81cbec5b2b13",
-      "github_stars": 11640,
+      "github_stars": 11644,
       "open_issues_count": 934,
       "repository_updated_at": "2026-11-18T14:44:54Z"
     },
@@ -7631,6 +7627,19 @@
       "github_stars": 14,
       "open_issues_count": 2,
       "repository_updated_at": "2026-11-18T11:55:55Z"
+    },
+    {
+      "name": ".github — Relapse-PlayStation-5",
+      "description": "(Relapse is a jailbreak for PlayStation 5 covering firmware versions 7.00 through 13.60, compatible with both standard and Pro models. It combines a browser exploit with a kernel exploit to gain read-write access to system memory, then loads payloads such as etaHEN via port 9021.)",
+      "repository_url": "https://github.com/Relapse-PlayStation-5/.github",
+      "category": "PS5 Auto-discovered",
+      "author": "Relapse-PlayStation-5",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-18",
+      "icon_key": "d03c0eb9a95681fd701399e26918c2ae810efaa83b8fb13d7d839a3863d2cebd",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-18T11:18:18Z"
     },
     {
       "name": ".github — PS5-homebrew",
@@ -7706,19 +7715,6 @@
       "repository_updated_at": "2026-11-18T09:18:18Z"
     },
     {
-      "name": "gta6-mcp",
-      "description": "Claude plays GTA 6 on a stock PS5 via Remote Play — an MCP server. No jailbreak, no mods, launch day.",
-      "repository_url": "https://github.com/Santy1422/gta6-mcp",
-      "category": "PS5 Auto-discovered",
-      "author": "Santy1422",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-18",
-      "icon_key": "df69989d30a0f82062c33c3275d0ec6cb87117edd1b27aaf8601bab0d4bcbde0",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-18T15:18:35Z"
-    },
-    {
       "name": "zstd-catalog",
       "description": "Catalogo comunitario del grupo \"PS5 jailbreak 1.xx 14.10 en español\"",
       "repository_url": "https://github.com/FrancoVoid9/zstd-catalog",
@@ -7730,6 +7726,19 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-18T16:20:54Z"
+    },
+    {
+      "name": "gta6-mcp",
+      "description": "Claude plays GTA 6 on a stock PS5 via Remote Play — an MCP server. No jailbreak, no mods, launch day.",
+      "repository_url": "https://github.com/Santy1422/gta6-mcp",
+      "category": "PS5 Auto-discovered",
+      "author": "Santy1422",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-18",
+      "icon_key": "df69989d30a0f82062c33c3275d0ec6cb87117edd1b27aaf8601bab0d4bcbde0",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-18T15:18:35Z"
     },
     {
       "name": "ps5-payloads-mirror — itsPLK",
@@ -7847,8 +7856,8 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-18",
       "icon_key": "212af449392c2dee77170575aa3bedb6ada197bb94802024f7a933532bc32192",
-      "github_stars": 55525,
-      "open_issues_count": 2143,
+      "github_stars": 55536,
+      "open_issues_count": 2149,
       "repository_updated_at": "2026-11-18T16:55:52Z"
     },
     {
