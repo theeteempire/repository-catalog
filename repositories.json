@@ -1,9 +1,9 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-11-19T20:13:34+00:00",
+  "generated_at": "2026-11-19T20:46:02+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 655,
+  "count": 656,
   "payload_count": 373,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
@@ -67,7 +67,7 @@
       "payload_url": "https://github.com/abasow/onix-hub/releases/download/v16/onix-hub.elf",
       "version": "v16",
       "last_update": "2026-11-17",
-      "checksum": "23e070d18815247a63f2e469b240068defd80036850fa2f454b926ee6c8fa461",
+      "checksum": "9c155044c2861b4a17bebedcc5a15a9577e6ea37142074bf17ab5b699b5334cc",
       "github_stars": 10,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-17T23:38:30Z",
@@ -163,7 +163,7 @@
       "category": "Repositories",
       "author": "alfizari",
       "icon_key": "ee98d010dbb368a7e8940d2d1692b9482b3896113c473ba9da68fde18a0b9c42",
-      "github_stars": 14,
+      "github_stars": 15,
       "open_issues_count": 0,
       "repository_updated_at": "2026-10-25T16:19:00Z"
     },
@@ -961,7 +961,7 @@
       "payload_filename": "nanoDNS_0.4.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/nanoDNS_0.4.elf",
       "checksum": "dcb845f3570771275b22b37534bf924a7f8ae219fb91ef00c6bccab85d1c2420",
-      "github_stars": 586,
+      "github_stars": 587,
       "open_issues_count": 7,
       "repository_updated_at": "2026-10-12T14:55:40Z",
       "last_update_days": 107,
@@ -1606,7 +1606,7 @@
       "author": "griches",
       "icon_key": "e5f09f2f881b532f5efa49e39e4597ed82bccf8af1ab4e69effaac67510937a6",
       "github_stars": 36,
-      "open_issues_count": 11,
+      "open_issues_count": 12,
       "repository_updated_at": "2026-10-28T16:17:52Z"
     },
     {
@@ -2066,8 +2066,8 @@
       "author": "jstrdev",
       "icon_key": "072602be9ac6351b9040a374ef5df22d8cfacc5fb28407b10afaf2eedee149ff",
       "github_stars": 88,
-      "open_issues_count": 43,
-      "repository_updated_at": "2026-11-19T11:37:49Z"
+      "open_issues_count": 44,
+      "repository_updated_at": "2026-11-19T20:40:08Z"
     },
     {
       "name": "PS5-File-Explorer",
@@ -2348,7 +2348,7 @@
       "author": "leolobato",
       "icon_key": "39d07bff0f0e3924c30cd1a4367db08a2d1ab98592d613fc06062b708371b60e",
       "github_stars": 1095,
-      "open_issues_count": 418,
+      "open_issues_count": 422,
       "repository_updated_at": "2026-11-19T12:26:14Z"
     },
     {
@@ -2708,8 +2708,8 @@
       "author": "meta",
       "icon_key": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e",
       "github_stars": 28265,
-      "open_issues_count": 421,
-      "repository_updated_at": "2026-11-19T19:44:14Z"
+      "open_issues_count": 418,
+      "repository_updated_at": "2026-11-19T20:39:38Z"
     },
     {
       "name": "HYPERHEN",
@@ -3075,7 +3075,7 @@
       "icon_key": "e97910fcda346d6035f622df04b24b074eaa8f77ba7026cfc7cbb8cd86e73db4",
       "github_stars": 122,
       "open_issues_count": 15,
-      "repository_updated_at": "2026-11-19T20:09:01Z"
+      "repository_updated_at": "2026-11-19T20:40:33Z"
     },
     {
       "name": "PS5-Custom-Tool-Manager-",
@@ -4065,7 +4065,7 @@
       "package_url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.3.5/PPSA99177.ffpkg",
       "icon_key": "44d63d7af0c21e5f503cf7e151276d785f3a2ffb64ecf8a0f66a1b884438c2f7",
       "github_stars": 1451,
-      "open_issues_count": 49,
+      "open_issues_count": 50,
       "repository_updated_at": "2026-11-16T11:34:35Z",
       "last_update_days": 3,
       "last_update_months": 0.1
@@ -4947,7 +4947,7 @@
       "checksum": "cc3ed39ee208ab76d0da2b3e99596a7037474f6d7238f98452c23130bdc7f379",
       "github_stars": 213,
       "open_issues_count": 7,
-      "repository_updated_at": "2026-11-19T20:01:03Z",
+      "repository_updated_at": "2026-11-19T20:12:01Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -6515,9 +6515,9 @@
       "category": "Repositories",
       "author": "saschb2b",
       "icon_key": "6986b184787075bf5c998f31c0748129fc6058b40ce9b21c5ceebd3a512234d8",
-      "github_stars": 46,
-      "open_issues_count": 13,
-      "repository_updated_at": "2026-11-19T20:09:33Z"
+      "github_stars": 47,
+      "open_issues_count": 11,
+      "repository_updated_at": "2026-11-19T20:34:22Z"
     },
     {
       "name": "MedievalTennis",
@@ -6896,7 +6896,7 @@
       "author": "lvndry",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 87,
-      "open_issues_count": 6,
+      "open_issues_count": 7,
       "repository_updated_at": "2026-10-23T06:12:25Z"
     },
     {
@@ -7219,7 +7219,7 @@
       "version": "v1.0.30",
       "last_update": "2026-08-24",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 162,
+      "github_stars": 163,
       "open_issues_count": 23,
       "repository_updated_at": "2026-09-17T09:05:47Z",
       "last_update_days": 87,
@@ -7388,6 +7388,27 @@
       "last_update_months": 5.8
     },
     {
+      "name": "ps5-medic-ui-tool",
+      "description": "PS5 Medic: check-up, plain-language diagnosis and safe repair for jailbroken PS5 consoles",
+      "repository_url": "https://github.com/strongt1me/ps5-medic-ui-tool",
+      "category": "PS5 Auto-discovered",
+      "author": "strongt1me",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-19",
+      "icon_key": "3b815985bf2a65b51ae5b608179a3dc777b84bdf9470f4ca1abe1a47901a939b",
+      "payload_available": true,
+      "payload_filename": "ps5medic-launcher.elf",
+      "payload_url": "https://github.com/strongt1me/ps5-medic-ui-tool/releases/download/v0.4.1/ps5medic-launcher.elf",
+      "version": "v0.4.1",
+      "last_update": "2026-11-19",
+      "checksum": "85e5838a4bd81b52297a45ee8f89e3bdeb39e22a07ab2cdca35f82d6c8bda092",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-19T20:10:09Z",
+      "last_update_days": 0,
+      "last_update_months": 0.0
+    },
+    {
       "name": "Advanced-Payload-Builder",
       "description": "One-click Windows builder for PS4 and PS5 homebrew payloads, with bundled SDKs and native + WSL backends.",
       "repository_url": "https://github.com/WeightyHornet83/Advanced-Payload-Builder",
@@ -7505,7 +7526,7 @@
       "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
       "github_stars": 78,
       "open_issues_count": 1,
-      "repository_updated_at": "2026-11-19T18:57:46Z"
+      "repository_updated_at": "2026-11-19T20:39:16Z"
     },
     {
       "name": "ps5-custom-payloads — poiedk",
@@ -7542,27 +7563,6 @@
       "last_update_months": 0.3
     },
     {
-      "name": "ps5-medic-ui-tool",
-      "description": "PS5 Medic: Check-up, Klartext-Diagnose und sichere Reparatur für gejailbreakte PS5 | check-up, plain-language diagnosis and safe repair for jailbroken PS5",
-      "repository_url": "https://github.com/strongt1me/ps5-medic-ui-tool",
-      "category": "PS5 Auto-discovered",
-      "author": "strongt1me",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-19",
-      "icon_key": "3b815985bf2a65b51ae5b608179a3dc777b84bdf9470f4ca1abe1a47901a939b",
-      "payload_available": true,
-      "payload_filename": "ps5medic-launcher.elf",
-      "payload_url": "https://github.com/strongt1me/ps5-medic-ui-tool/releases/download/v0.4.1/ps5medic-launcher.elf",
-      "version": "v0.4.1",
-      "last_update": "2026-11-19",
-      "checksum": "85e5838a4bd81b52297a45ee8f89e3bdeb39e22a07ab2cdca35f82d6c8bda092",
-      "github_stars": 2,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T20:10:09Z",
-      "last_update_days": 0,
-      "last_update_months": 0.0
-    },
-    {
       "name": "mis-payloads-ps5 — cacharrearconjuan",
       "description": "Automatically discovered PS5-related GitHub repository.",
       "repository_url": "https://github.com/cacharrearconjuan/mis-payloads-ps5",
@@ -7585,7 +7585,7 @@
       "discovered_at": "2026-11-19",
       "icon_key": "373f66e70746d5e1f2994003cbb84be7933850000ba2eec330347f622eb2719f",
       "github_stars": 228,
-      "open_issues_count": 7,
+      "open_issues_count": 8,
       "repository_updated_at": "2026-11-19T17:00:40Z"
     },
     {
@@ -7636,17 +7636,17 @@
       "last_update_months": 0.2
     },
     {
-      "name": "ps5-ultrapack",
-      "description": "macOS and Windows app to build PS5 fPKG (.pkg) and .ffpfsc containers from any source. Game folder, archive, or disk image. Pack, unpack, browse a .pkg block-by-block, patch, fake-sign. Verified launching on retail FW 11.60 with kstuff-lite 1.13+.",
-      "repository_url": "https://github.com/knutwurst/ps5-ultrapack",
+      "name": "gt7-tutor",
+      "description": "Self-hosted voice tutor for Gran Turismo 7 on PS5. Reads the console telemetry and gives short English voice cues in a browser.",
+      "repository_url": "https://github.com/alex-yurchenko-85/gt7-tutor",
       "category": "PS5 Auto-discovered",
-      "author": "knutwurst",
+      "author": "alex-yurchenko-85",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-19",
-      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b",
-      "github_stars": 83,
-      "open_issues_count": 1,
-      "repository_updated_at": "2026-11-19T15:21:59Z"
+      "icon_key": "3d31a7d5ebd5528292e939826cfc4567334c84fc24d27dccf50cee81fcca13f6",
+      "github_stars": 0,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-11-19T20:25:10Z"
     },
     {
       "name": "PS5_Longshot",
@@ -7701,6 +7701,19 @@
       "repository_updated_at": "2026-11-19T17:38:23Z"
     },
     {
+      "name": "ps5-ultrapack",
+      "description": "macOS and Windows app to build PS5 fPKG (.pkg) and .ffpfsc containers from any source. Game folder, archive, or disk image. Pack, unpack, browse a .pkg block-by-block, patch, fake-sign. Verified launching on retail FW 11.60 with kstuff-lite 1.13+.",
+      "repository_url": "https://github.com/knutwurst/ps5-ultrapack",
+      "category": "PS5 Auto-discovered",
+      "author": "knutwurst",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-19",
+      "icon_key": "1521c053dc467d98f6799e2d165e835edfc795bd6d89efea540739084c1d590b",
+      "github_stars": 83,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-11-19T15:21:59Z"
+    },
+    {
       "name": "ps5-bridge",
       "description": "PS5 Bridge - PS4 Homebrew, das die Spielebibliothek von ps5upload auf der PS5 anzeigt und Titel direkt startet.",
       "repository_url": "https://github.com/xsensenmannx/ps5-bridge",
@@ -7737,7 +7750,7 @@
       "icon_key": "433f52648b3b72884786ed2250de11f476d3e7b4b9e45996a41f6bce2f663e70",
       "github_stars": 6,
       "open_issues_count": 4,
-      "repository_updated_at": "2026-11-19T18:28:01Z"
+      "repository_updated_at": "2026-11-19T20:15:02Z"
     },
     {
       "name": "dcrpsv",
@@ -7774,32 +7787,6 @@
       "repository_updated_at": "2026-11-19T13:43:37Z"
     },
     {
-      "name": "KytyPS5",
-      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
-      "repository_url": "https://github.com/KytyPS5/KytyPS5",
-      "category": "PS5 Auto-discovered",
-      "author": "KytyPS5",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-19",
-      "icon_key": "04fc10ab0949aeb1f9285c2f27e9ab7b26cfb000b6d626f6953e81cbec5b2b13",
-      "github_stars": 12124,
-      "open_issues_count": 958,
-      "repository_updated_at": "2026-11-19T13:09:37Z"
-    },
-    {
-      "name": "gt7-tutor",
-      "description": "Self-hosted voice tutor for Gran Turismo 7 on PS5. Reads the console telemetry and gives short English voice cues in a browser.",
-      "repository_url": "https://github.com/alex-yurchenko-85/gt7-tutor",
-      "category": "PS5 Auto-discovered",
-      "author": "alex-yurchenko-85",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-19",
-      "icon_key": "3d31a7d5ebd5528292e939826cfc4567334c84fc24d27dccf50cee81fcca13f6",
-      "github_stars": 0,
-      "open_issues_count": 1,
-      "repository_updated_at": "2026-11-19T13:08:20Z"
-    },
-    {
       "name": "zstd-catalog",
       "description": "Catalogo comunitario del grupo \"PS5 jailbreak 1.xx 14.10 en español\"",
       "repository_url": "https://github.com/FrancoVoid9/zstd-catalog",
@@ -7810,7 +7797,7 @@
       "icon_key": "97abf27bd0ce605d2af3595c84ec26acf3c8a8b300b787a6d97ab396790f33f4",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T20:06:34Z"
+      "repository_updated_at": "2026-11-19T20:39:38Z"
     },
     {
       "name": "gta6-mcp",
@@ -7923,7 +7910,7 @@
       "checksum": "2db682925a341d39d6ea94e35482bb928d241242f6aef113fb8d5bfa972224a5",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T04:07:33Z",
+      "repository_updated_at": "2026-11-19T20:29:31Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -7965,6 +7952,19 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-18T21:20:59Z"
+    },
+    {
+      "name": "KytyPS5",
+      "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
+      "repository_url": "https://github.com/KytyPS5/KytyPS5",
+      "category": "PS5 Auto-discovered",
+      "author": "KytyPS5",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-19",
+      "icon_key": "04fc10ab0949aeb1f9285c2f27e9ab7b26cfb000b6d626f6953e81cbec5b2b13",
+      "github_stars": 12143,
+      "open_issues_count": 959,
+      "repository_updated_at": "2026-11-19T13:09:37Z"
     },
     {
       "name": "ELKY5",
@@ -8029,8 +8029,8 @@
       "last_update": "2026-11-07",
       "checksum": "39d2078f5d04dd9e4c281325b1dcd202159ea6dc604dfdb4c22f9ab38fe203f8",
       "github_stars": 1,
-      "open_issues_count": 41,
-      "repository_updated_at": "2026-11-19T11:27:27Z",
+      "open_issues_count": 42,
+      "repository_updated_at": "2026-11-19T20:22:57Z",
       "last_update_days": 12,
       "last_update_months": 0.4
     },
@@ -8058,7 +8058,7 @@
       "icon_key": "6f44e4587019903b39a6813dd2687c1db3adca5bc5a83df3e32d565d9189a721",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T07:24:22Z"
+      "repository_updated_at": "2026-11-19T20:36:41Z"
     },
     {
       "name": "BlueBird",
@@ -8090,9 +8090,9 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-19",
       "icon_key": "212af449392c2dee77170575aa3bedb6ada197bb94802024f7a933532bc32192",
-      "github_stars": 57612,
-      "open_issues_count": 2296,
-      "repository_updated_at": "2026-11-19T20:08:47Z"
+      "github_stars": 57649,
+      "open_issues_count": 2309,
+      "repository_updated_at": "2026-11-19T20:42:27Z"
     },
     {
       "name": "AnyPS5 — OctagonDragonfly",
@@ -8106,6 +8106,19 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-19T19:45:27Z"
+    },
+    {
+      "name": "wiki.ps5-linux.eu",
+      "description": "PS5 Linux Wiki",
+      "repository_url": "https://github.com/VivaLaVent/wiki.ps5-linux.eu",
+      "category": "PS5 Auto-discovered",
+      "author": "VivaLaVent",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-19",
+      "icon_key": "f07c0f6af10677b0c50ba30be549cc0c7a9945884365baf55631390b4edd5d8a",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-19T19:06:55Z"
     },
     {
       "name": "gta6-trophy-rarity-forecast",
