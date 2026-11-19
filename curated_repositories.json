@@ -823,6 +823,19 @@
       "package_filename": "PPSSPP-NX2.nro",
       "package_url": "https://github.com/XITRIX/ppsspp-nx2/releases/download/v0.1.0/PPSSPP-NX2.nro",
       "package_checksum": "9351dbb8cc4950c204d8ddf9d962fdaab05e6ed28e2ace754d3a25d79afdaff3"
+    },
+    {
+      "name": "Luac0re",
+      "description": "Archived research project and mast1c0re variant for PS4 and PS5 that uses the console's embedded Lua 5.3 interpreter to simplify PS2-emulator exploit development instead of PS2SDK shellcode. From version 2.0 it adds a JIT compiler exploit which upstream reports enables arbitrary native userland code execution on current PS4/PS5 firmware without a kernel exploit and bypasses the PS5 8.00+ non-AF_UNIX socket restriction; the poopsploit path still requires PS5 12.00 or lower. Requires a legally owned copy of Star Wars Racer Revenge (CUSA03474/CUSA03492) and mandatory resigning of the included savedata image. Stable 2.4b is a ZIP package, not a direct ELF payload.",
+      "repository_url": "https://github.com/Gezine/Luac0re",
+      "category": "System & Jailbreak",
+      "author": "Gezine",
+      "payload_available": false,
+      "version": "2.4b",
+      "last_update": "2026-05-26",
+      "package_filename": "Luac0re_2.4b.zip",
+      "package_url": "https://github.com/Gezine/Luac0re/releases/download/2.4b/Luac0re_2.4b.zip",
+      "package_checksum": "1acda950d024c31d849dda2a3e1106002d17f6a923f8d2661a3759623e73b498"
     }
   ]
 }
