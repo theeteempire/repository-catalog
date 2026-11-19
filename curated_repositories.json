@@ -810,6 +810,19 @@
       "package_filename": "blacklist-tool-switch2.nro",
       "package_url": "https://github.com/s8n/blacklist-tool/releases/download/v1.1.0/blacklist-tool-switch2.nro",
       "package_checksum": "4f49a482668fa2560188c4cb409534e9c802a3e273d2e9a4fc057966f3b7d381"
+    },
+    {
+      "name": "PPSSPP-NX2",
+      "description": "Experimental native PSP emulator port for Nintendo Switch 2 under kaiHEN, forked from PPSSPP and built with libounce/OunceVK (Vulkan) and the ARM64 recompiler. Requires ounce-devkit, libkaihen with kaihenJitPublishRanges (protocol 6 or compatible) and a GameShare-capable title-override launch; applet mode is not qualified. Release v0.1.0 ships PPSSPP-NX2.nro with an experimental GameShare guest mode; upstream reports console-tested menu, controls and Tekken gameplay with JIT and audio, but sustained speed remains unqualified, touch/rumble/camera/microphone/HTTPS are not implemented, and no PSP games or firmware are included. This is a Switch homebrew NRO, not a PS5 ELF payload.",
+      "repository_url": "https://github.com/XITRIX/ppsspp-nx2",
+      "category": "Emulators",
+      "author": "XITRIX",
+      "payload_available": false,
+      "version": "v0.1.0",
+      "last_update": "2026-11-19",
+      "package_filename": "PPSSPP-NX2.nro",
+      "package_url": "https://github.com/XITRIX/ppsspp-nx2/releases/download/v0.1.0/PPSSPP-NX2.nro",
+      "package_checksum": "9351dbb8cc4950c204d8ddf9d962fdaab05e6ed28e2ace754d3a25d79afdaff3"
     }
   ]
 }
