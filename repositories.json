@@ -1,7 +1,7 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-11-19T19:55:53+00:00",
+  "generated_at": "2026-11-19T20:13:34+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
   "count": 655,
   "payload_count": 373,
@@ -2126,7 +2126,7 @@
       "author": "kamb205",
       "icon_key": "7465076ffc8aaf0f9c98fdc7e81df95b9a2b2285d5f49631ef40182d16b47ef7",
       "github_stars": 113,
-      "open_issues_count": 12,
+      "open_issues_count": 13,
       "repository_updated_at": "2026-10-11T12:38:46Z"
     },
     {
@@ -2707,7 +2707,7 @@
       "category": "Repositories",
       "author": "meta",
       "icon_key": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e",
-      "github_stars": 28264,
+      "github_stars": 28265,
       "open_issues_count": 421,
       "repository_updated_at": "2026-11-19T19:44:14Z"
     },
@@ -3075,7 +3075,7 @@
       "icon_key": "e97910fcda346d6035f622df04b24b074eaa8f77ba7026cfc7cbb8cd86e73db4",
       "github_stars": 122,
       "open_issues_count": 15,
-      "repository_updated_at": "2026-11-19T18:38:33Z"
+      "repository_updated_at": "2026-11-19T20:09:01Z"
     },
     {
       "name": "PS5-Custom-Tool-Manager-",
@@ -4944,10 +4944,10 @@
       "payload_url": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.4.3/HearBridge-1.4.3.elf",
       "version": "v1.4.3",
       "last_update": "2026-11-19",
-      "checksum": "f9cd0952d1dd9bc8f1c48a974c8575a5de4646678c2cbb3669110d5ba7db3fef",
+      "checksum": "cc3ed39ee208ab76d0da2b3e99596a7037474f6d7238f98452c23130bdc7f379",
       "github_stars": 213,
       "open_issues_count": 7,
-      "repository_updated_at": "2026-11-19T19:50:31Z",
+      "repository_updated_at": "2026-11-19T20:01:03Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -6516,8 +6516,8 @@
       "author": "saschb2b",
       "icon_key": "6986b184787075bf5c998f31c0748129fc6058b40ce9b21c5ceebd3a512234d8",
       "github_stars": 46,
-      "open_issues_count": 11,
-      "repository_updated_at": "2026-11-19T19:52:59Z"
+      "open_issues_count": 13,
+      "repository_updated_at": "2026-11-19T20:09:33Z"
     },
     {
       "name": "MedievalTennis",
@@ -7122,7 +7122,7 @@
       "payload_url": "https://github.com/quer3q/kraken-mount/releases/download/v0.3.0/kraken-mount.elf",
       "checksum": "092623a204b707b89d0867a0087f9dd1c430eef6a22db497f03b59aaf1297bfe",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 545,
+      "github_stars": 546,
       "open_issues_count": 16,
       "repository_updated_at": "2026-11-18T16:13:46Z",
       "last_update_days": 1,
@@ -7369,6 +7369,38 @@
       "last_update_months": 0.0
     },
     {
+      "name": "Luac0re",
+      "description": "Archived research project and mast1c0re variant for PS4 and PS5 that uses the console's embedded Lua 5.3 interpreter to simplify PS2-emulator exploit development instead of PS2SDK shellcode. From version 2.0 it adds a JIT compiler exploit which upstream reports enables arbitrary native userland code execution on current PS4/PS5 firmware without a kernel exploit and bypasses the PS5 8.00+ non-AF_UNIX socket restriction; the poopsploit path still requires PS5 12.00 or lower. Requires a legally owned copy of Star Wars Racer Revenge (CUSA03474/CUSA03492) and mandatory resigning of the included savedata image. Stable 2.4b is a ZIP package, not a direct ELF payload.",
+      "repository_url": "https://github.com/Gezine/Luac0re",
+      "category": "System & Jailbreak",
+      "author": "Gezine",
+      "payload_available": false,
+      "version": "2.4b",
+      "last_update": "2026-05-26",
+      "package_filename": "Luac0re_2.4b.zip",
+      "package_url": "https://github.com/Gezine/Luac0re/releases/download/2.4b/Luac0re_2.4b.zip",
+      "package_checksum": "1acda950d024c31d849dda2a3e1106002d17f6a923f8d2661a3759623e73b498",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
+      "github_stars": 338,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-09-19T10:20:40Z",
+      "last_update_days": 177,
+      "last_update_months": 5.8
+    },
+    {
+      "name": "Advanced-Payload-Builder",
+      "description": "One-click Windows builder for PS4 and PS5 homebrew payloads, with bundled SDKs and native + WSL backends.",
+      "repository_url": "https://github.com/WeightyHornet83/Advanced-Payload-Builder",
+      "category": "PS5 Auto-discovered",
+      "author": "WeightyHornet83",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-19",
+      "icon_key": "5e0a6a4181511031081d4066d40c8a0cc4688d0acd2a489051bf83b9387407b6",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-19T20:08:45Z"
+    },
+    {
       "name": "my-ps5-payloads",
       "description": "Automatically discovered PS5-related GitHub repository.",
       "repository_url": "https://github.com/tanushshukla/my-ps5-payloads",
@@ -7392,7 +7424,7 @@
       "icon_key": "6d357b9e2b24127c00fac9d9bd551a882fe1679446aa28c78816fa258ac61bd9",
       "github_stars": 11,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T19:46:44Z"
+      "repository_updated_at": "2026-11-19T20:11:23Z"
     },
     {
       "name": "PS5-WebKit-Autoloader-V1b",
@@ -7435,6 +7467,19 @@
       "repository_updated_at": "2026-11-19T19:08:03Z",
       "last_update_days": 0,
       "last_update_months": 0.0
+    },
+    {
+      "name": "ps5-payload-constellation",
+      "description": "Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
+      "repository_url": "https://github.com/DeborahO18/ps5-payload-constellation",
+      "category": "PS5 Auto-discovered",
+      "author": "DeborahO18",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-19",
+      "icon_key": "ce54f7da38ef21ca9bf62e20134558f9b92701bb8058fe9c1b8013e41916b9f8",
+      "github_stars": 2,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-19T18:52:11Z"
     },
     {
       "name": "ps5-payload-source",
@@ -7513,7 +7558,7 @@
       "checksum": "85e5838a4bd81b52297a45ee8f89e3bdeb39e22a07ab2cdca35f82d6c8bda092",
       "github_stars": 2,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T17:19:38Z",
+      "repository_updated_at": "2026-11-19T20:10:09Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -7604,19 +7649,6 @@
       "repository_updated_at": "2026-11-19T15:21:59Z"
     },
     {
-      "name": "PS5-14.22-Research",
-      "description": "Independent AI-assisted PS5 firmware 14.22 security research, WebKit analysis and vulnerability investigation.",
-      "repository_url": "https://github.com/ryancafc/PS5-14.22-Research",
-      "category": "PS5 Auto-discovered",
-      "author": "ryancafc",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-19",
-      "icon_key": "3b4250e04690a2cdcfddcb989c92f1090219eedb33a46e3cf61a6599958a0c48",
-      "github_stars": 1,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T14:59:31Z"
-    },
-    {
       "name": "PS5_Longshot",
       "description": "Longshot for the PlayStation 5: a port of Longshot (static recompilation) to the PS5, with the Longshot PS5 Builder for Linux and Windows. No PC builds of the game.",
       "repository_url": "https://github.com/heydemoura/PS5_Longshot",
@@ -7625,9 +7657,22 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-19",
       "icon_key": "f5abba1c8028d2df0f778d2c5374ddb63851a4419f01356d4bf615fc2b65673b",
-      "github_stars": 160,
+      "github_stars": 161,
       "open_issues_count": 26,
       "repository_updated_at": "2026-11-19T19:39:40Z"
+    },
+    {
+      "name": "PS5-Toolkit",
+      "description": "PS5 本地资源管理工具：插件仓库浏览与每日更新提醒、按需勾选下载（断点续传/旧版清理/下载历史）、HEN 金手指同步与版本历史、PS4/PS5 游戏资源每日新增检测。全中文化，纯 Node.js 零依赖。基于 nexgen999/PS5-Repository-List 改造开发。",
+      "repository_url": "https://github.com/liweili/PS5-Toolkit",
+      "category": "PS5 Auto-discovered",
+      "author": "liweili",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-19",
+      "icon_key": "031bd7a4f1863a1bdca08b115c623a7d0bc40b8d989d2ebd745727c1cd5bc964",
+      "github_stars": 4,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-19T18:56:47Z"
     },
     {
       "name": "ps5-homebrew-history",
@@ -7667,6 +7712,19 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-19T15:11:17Z"
+    },
+    {
+      "name": "PS5-14.22-Research",
+      "description": "Independent AI-assisted PS5 firmware 14.22 security research, WebKit analysis and vulnerability investigation.",
+      "repository_url": "https://github.com/ryancafc/PS5-14.22-Research",
+      "category": "PS5 Auto-discovered",
+      "author": "ryancafc",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-19",
+      "icon_key": "3b4250e04690a2cdcfddcb989c92f1090219eedb33a46e3cf61a6599958a0c48",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-19T14:59:31Z"
     },
     {
       "name": "GreenHatBoy",
@@ -7724,8 +7782,8 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-19",
       "icon_key": "04fc10ab0949aeb1f9285c2f27e9ab7b26cfb000b6d626f6953e81cbec5b2b13",
-      "github_stars": 12121,
-      "open_issues_count": 960,
+      "github_stars": 12124,
+      "open_issues_count": 958,
       "repository_updated_at": "2026-11-19T13:09:37Z"
     },
     {
@@ -7740,6 +7798,32 @@
       "github_stars": 0,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-19T13:08:20Z"
+    },
+    {
+      "name": "zstd-catalog",
+      "description": "Catalogo comunitario del grupo \"PS5 jailbreak 1.xx 14.10 en español\"",
+      "repository_url": "https://github.com/FrancoVoid9/zstd-catalog",
+      "category": "PS5 Auto-discovered",
+      "author": "FrancoVoid9",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-19",
+      "icon_key": "97abf27bd0ce605d2af3595c84ec26acf3c8a8b300b787a6d97ab396790f33f4",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-19T20:06:34Z"
+    },
+    {
+      "name": "gta6-mcp",
+      "description": "Claude plays GTA 6 on a stock PS5 via Remote Play — an MCP server. No jailbreak, no mods, launch day.",
+      "repository_url": "https://github.com/Santy1422/gta6-mcp",
+      "category": "PS5 Auto-discovered",
+      "author": "Santy1422",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-19",
+      "icon_key": "df69989d30a0f82062c33c3275d0ec6cb87117edd1b27aaf8601bab0d4bcbde0",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-19T15:25:33Z"
     },
     {
       "name": "ps5-tailscale",
@@ -7761,58 +7845,6 @@
       "repository_updated_at": "2026-11-19T13:00:20Z",
       "last_update_days": 0,
       "last_update_months": 0.0
-    },
-    {
-      "name": "AnchorPS5-catalog",
-      "description": "Catálogo oficial de homebrew para AnchorPS5 · Official homebrew catalog for AnchorPS5",
-      "repository_url": "https://github.com/Kuroge/AnchorPS5-catalog",
-      "category": "PS5 Auto-discovered",
-      "author": "Kuroge",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-19",
-      "icon_key": "dcceb5f1145d8e927bf611ed94ee6e75c724f0573a66378e7dc252b8d44d4ad7",
-      "github_stars": 1,
-      "open_issues_count": 2,
-      "repository_updated_at": "2026-11-19T12:59:31Z"
-    },
-    {
-      "name": "ELKY5",
-      "description": "ELKY5 is a free and open-source PlayStation 5 translation layer written in C++ for Windows and Linux, with experimental macOS support. It is a renamed fork of KytyPS5, itself based on a heavily modified version of Kyty. The project is in active development, and behavior can change significantly between builds.",
-      "repository_url": "https://github.com/Ilyesltm/ELKY5",
-      "category": "PS5 Auto-discovered",
-      "author": "Ilyesltm",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-19",
-      "icon_key": "54747b801cd2f016f38b1461982ca8eac0ba1013aebc58a1f2b057acbed6e750",
-      "github_stars": 0,
-      "open_issues_count": 2,
-      "repository_updated_at": "2026-11-19T13:20:40Z"
-    },
-    {
-      "name": "zstd-catalog",
-      "description": "Catalogo comunitario del grupo \"PS5 jailbreak 1.xx 14.10 en español\"",
-      "repository_url": "https://github.com/FrancoVoid9/zstd-catalog",
-      "category": "PS5 Auto-discovered",
-      "author": "FrancoVoid9",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-19",
-      "icon_key": "97abf27bd0ce605d2af3595c84ec26acf3c8a8b300b787a6d97ab396790f33f4",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T19:52:08Z"
-    },
-    {
-      "name": "gta6-mcp",
-      "description": "Claude plays GTA 6 on a stock PS5 via Remote Play — an MCP server. No jailbreak, no mods, launch day.",
-      "repository_url": "https://github.com/Santy1422/gta6-mcp",
-      "category": "PS5 Auto-discovered",
-      "author": "Santy1422",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-19",
-      "icon_key": "df69989d30a0f82062c33c3275d0ec6cb87117edd1b27aaf8601bab0d4bcbde0",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T15:25:33Z"
     },
     {
       "name": "elf-launcher-config-sync",
@@ -7935,17 +7967,17 @@
       "repository_updated_at": "2026-11-18T21:20:59Z"
     },
     {
-      "name": "ps5-payload-constellation",
-      "description": "Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
-      "repository_url": "https://github.com/DeborahO18/ps5-payload-constellation",
+      "name": "ELKY5",
+      "description": "ELKY5 is a free and open-source PlayStation 5 translation layer written in C++ for Windows and Linux, with experimental macOS support. It is a renamed fork of KytyPS5, itself based on a heavily modified version of Kyty. The project is in active development, and behavior can change significantly between builds.",
+      "repository_url": "https://github.com/Ilyesltm/ELKY5",
       "category": "PS5 Auto-discovered",
-      "author": "DeborahO18",
+      "author": "Ilyesltm",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-19",
-      "icon_key": "ce54f7da38ef21ca9bf62e20134558f9b92701bb8058fe9c1b8013e41916b9f8",
-      "github_stars": 2,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T18:52:11Z"
+      "icon_key": "54747b801cd2f016f38b1461982ca8eac0ba1013aebc58a1f2b057acbed6e750",
+      "github_stars": 0,
+      "open_issues_count": 2,
+      "repository_updated_at": "2026-11-19T13:20:40Z"
     },
     {
       "name": "ps5-custom-payloads — lucasliet",
@@ -7977,7 +8009,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-19",
       "icon_key": "47e7d67c3fae8dccfe23b808ccad232325b5be0482052bbb8d1ae832c774cb70",
-      "github_stars": 334,
+      "github_stars": 335,
       "open_issues_count": 11,
       "repository_updated_at": "2026-11-19T11:28:29Z"
     },
@@ -8050,7 +8082,7 @@
       "last_update_months": 0.2
     },
     {
-      "name": "AnyPS5",
+      "name": "AnyPS5 — boykopovar",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "repository_url": "https://github.com/boykopovar/AnyPS5",
       "category": "PS5 Auto-discovered",
@@ -8058,9 +8090,22 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-19",
       "icon_key": "212af449392c2dee77170575aa3bedb6ada197bb94802024f7a933532bc32192",
-      "github_stars": 57593,
+      "github_stars": 57612,
       "open_issues_count": 2296,
-      "repository_updated_at": "2026-11-19T19:51:37Z"
+      "repository_updated_at": "2026-11-19T20:08:47Z"
+    },
+    {
+      "name": "AnyPS5 — OctagonDragonfly",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "repository_url": "https://github.com/OctagonDragonfly/AnyPS5",
+      "category": "PS5 Auto-discovered",
+      "author": "OctagonDragonfly",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-19",
+      "icon_key": "d75e04bf7f0a4f50489b5466cdd54336b934ed0b341e474acdda02e8d937e86f",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-19T19:45:27Z"
     },
     {
       "name": "gta6-trophy-rarity-forecast",
@@ -8074,32 +8119,6 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-19T18:45:56Z"
-    },
-    {
-      "name": "PS5-Linux-Fedora45",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/Vivian1987/PS5-Linux-Fedora45",
-      "category": "PS5 Auto-discovered",
-      "author": "Vivian1987",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-19",
-      "icon_key": "003556899b024092e52fcfed5cc7a43adf26faa36792855fe0e06153b3c92393",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T18:12:46Z"
-    },
-    {
-      "name": "PS5-GTAVI-Emulation",
-      "description": "An experimental PlayStation 5 emulation project focused on exploring the possibility of running Grand Theft Auto VI on Windows-based PCs.",
-      "repository_url": "https://github.com/VoltRepresentative/PS5-GTAVI-Emulation",
-      "category": "PS5 Auto-discovered",
-      "author": "VoltRepresentative",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-19",
-      "icon_key": "abe0328fb5d6e7add5a36b54d3473f7982ffd7c3e9e0dcf428ab8339556546c7",
-      "github_stars": 1,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T18:10:28Z"
     },
     {
       "name": "PrefBar",
@@ -8590,19 +8609,6 @@
       "repository_updated_at": "2026-10-08T07:42:03Z",
       "last_update_days": 42,
       "last_update_months": 1.4
-    },
-    {
-      "name": "PS5-Toolkit",
-      "description": "PS5 本地资源管理工具：插件仓库浏览与每日更新提醒、按需勾选下载（断点续传/旧版清理/下载历史）、HEN 金手指同步与版本历史、PS4/PS5 游戏资源每日新增检测。全中文化，纯 Node.js 零依赖。基于 nexgen999/PS5-Repository-List 改造开发。",
-      "repository_url": "https://github.com/liweili/PS5-Toolkit",
-      "category": "PS5 Auto-discovered",
-      "author": "liweili",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-19",
-      "icon_key": "031bd7a4f1863a1bdca08b115c623a7d0bc40b8d989d2ebd745727c1cd5bc964",
-      "github_stars": 4,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-19T18:56:47Z"
     },
     {
       "name": "anyps-conversor",
