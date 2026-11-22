@@ -467,6 +467,19 @@
       "category": "Game Tools & Mods",
       "checksum": "ff2443663899210b5a8aebf1fcac6c953d266f2ae10f2b8521866dce7df9d3cd",
       "id": "zerodayofficial-noupdate-v1.0.0"
+    },
+    {
+      "name": "PSWloader",
+      "filename": "PSWloader.elf",
+      "url": "https://github.com/mr-Native/PSWloader/releases/download/v1.0.4/PSWloader.elf",
+      "source": "https://github.com/mr-Native/PSWloader/releases",
+      "source_direct": "https://github.com/mr-Native/PSWloader/releases/download/v1.0.4/PSWloader.elf",
+      "description": "PS5-side loader ELF for PSWloader: boots a custom UEFI firmware so stock Windows 11 runs natively on the console hardware with PatchGuard on. Requires a payload-capable PS5, a USB stick with the official Windows 11 ISO and a target M.2 SSD or USB drive; tested on system software 13.60. Windows uses test-signing mode for the unsigned PS5 drivers, so some anti-cheat games will not launch; Bluetooth, audio and in-Windows resolution changes are not supported yet.",
+      "last_update": "2026-11-22",
+      "version": "v1.0.4",
+      "category": "Loaders",
+      "checksum": "0c1c256d8136223c371d3a1c05d3abceecdab786b34b0100703454c21ed31eca",
+      "id": "mr-native-pswloader-v1.0.4"
     }
   ]
 }

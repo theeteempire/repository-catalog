@@ -849,6 +849,29 @@
       "payload_filename": "NoUpdate.elf",
       "payload_url": "https://github.com/zerodayofficial/NoUpdate/releases/download/v1.0.0/NoUpdate.elf",
       "checksum": "ff2443663899210b5a8aebf1fcac6c953d266f2ae10f2b8521866dce7df9d3cd"
+    },
+    {
+      "name": "Longshot Plus",
+      "description": "Unofficial fork of heydemoura/PS5_Longshot that builds a native PS5 port of Longshot, the static recompilation of The Legend of Zelda: Ocarina of Time, as title PPSA99198 on Mesa RADV from PS5_Vulkan. Release notes for v0.3.0-plus report hardware testing on PS5 Fat/Slim and PS5 Pro with 4-tier memory management and FSR 4.1.2/3.1; v0.3.2-plus adds a real-time clock, a PS5 Pro renderer profile (3.5 GiB budget, 1024-texel texture retention), A64_SUB_V, an RDNA2 atomic hang fix and FSR 3.1 direct output. Releases ship only a desktop Builder (Windows ZIP or Linux AppImage) that creates the title folder from your own game dump and .nup ROM; no game files, no ready-made title and no direct ELF asset. Back up /data/homebrew/PPSA99198/user/ and clear cache/ and radv-shader-cache/ before upgrading.",
+      "repository_url": "https://github.com/groovy2312/PS5_Longshot_Plus",
+      "category": "Gaming & Media",
+      "author": "groovy2312",
+      "payload_available": false,
+      "version": "v0.3.2-plus",
+      "last_update": "2026-11-22"
+    },
+    {
+      "name": "PSWloader",
+      "description": "Payload that boots a custom EDK2 UEFI firmware on the PS5 so stock Windows 11 runs directly on the console hardware with no virtual machine and PatchGuard left on: all 8 cores/16 threads, AMD Oberon GPU with DirectX 11/12, Vulkan and OpenGL 4.6, HDMI output, wired Ethernet, onboard Wi-Fi 6 and USB keyboard/mouse. Requires a PS5 that can run payloads through a Payload Manager, a 16 GB or larger USB stick with the official Windows 11 ISO and an internal M.2 SSD or USB drive as the target; the author reports testing on system software 13.60. Windows runs in test-signing mode because the drivers are unsigned, so anti-cheat titles may refuse to start; Bluetooth, audio and changing resolution from Windows are not supported yet, and a restart from Windows returns to Windows rather than GameOS. Stable v1.0.4 adds PS5 Slim/Oberon Plus GPU PCI IDs plus installer and Wi-Fi fixes. The direct ELF is the PS5-side loader; the separate USB-Stick and Updater ZIPs are PC-side tools, not ELF payloads.",
+      "repository_url": "https://github.com/mr-Native/PSWloader",
+      "category": "Loaders",
+      "author": "mr-Native",
+      "payload_available": true,
+      "version": "v1.0.4",
+      "last_update": "2026-11-22",
+      "payload_filename": "PSWloader.elf",
+      "payload_url": "https://github.com/mr-Native/PSWloader/releases/download/v1.0.4/PSWloader.elf",
+      "checksum": "0c1c256d8136223c371d3a1c05d3abceecdab786b34b0100703454c21ed31eca"
     }
   ]
 }
