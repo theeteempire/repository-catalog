@@ -836,6 +836,19 @@
       "package_filename": "Luac0re_2.4b.zip",
       "package_url": "https://github.com/Gezine/Luac0re/releases/download/2.4b/Luac0re_2.4b.zip",
       "package_checksum": "1acda950d024c31d849dda2a3e1106002d17f6a923f8d2661a3759623e73b498"
+    },
+    {
+      "name": "NoUpdate",
+      "description": "PS5 payload that removes the \"Update Required\" launch restriction on installed games after an accidental online connection or a detected/partially downloaded game update. It scans installed titles automatically (no per-game patching), applies a temporary in-memory patch to the update checks and, where needed, makes backed-up persistent metadata changes that can survive a reboot. Manual launch only; no autostart, and this build disables the old OnionHEN autostart marker. A one-time console restart is required after first activation; re-launch to reapply the temporary patch (no restart needed after each launch). Targeted firmware range 6.xx–13.60 in code, but tested only on firmware 10.01 — other versions unverified. For offline single-player use on your own console; removing the prompt does not add missing firmware features or guarantee game compatibility. Stable v1.0.0; source GPL-3.0 (C#).",
+      "repository_url": "https://github.com/zerodayofficial/NoUpdate",
+      "category": "Game Tools & Mods",
+      "author": "zerodayofficial",
+      "payload_available": true,
+      "version": "v1.0.0",
+      "last_update": "2026-11-22",
+      "payload_filename": "NoUpdate.elf",
+      "payload_url": "https://github.com/zerodayofficial/NoUpdate/releases/download/v1.0.0/NoUpdate.elf",
+      "checksum": "ff2443663899210b5a8aebf1fcac6c953d266f2ae10f2b8521866dce7df9d3cd"
     }
   ]
 }
