@@ -506,6 +506,19 @@
       "category": "System & Jailbreak",
       "checksum": "9a48eb056391779899133e64acd9c2138f1181669c931b72d4d1ab3a8314dd91",
       "id": "drakmor-kstuff-dr-1.15-test2a"
+    },
+    {
+      "name": "kstuff-dr (1.15-dr-test3-stable)",
+      "filename": "kstuff-1.15-dr-test3-stable.elf",
+      "url": "https://raw.githubusercontent.com/theeteempire/repository-catalog/main/payloads/kstuff-1.15-dr-test3-stable.elf",
+      "source": "https://github.com/drakmor/kstuff-lite",
+      "source_direct": "https://raw.githubusercontent.com/theeteempire/repository-catalog/main/payloads/kstuff-1.15-dr-test3-stable.elf",
+      "description": "dr. test build 1.15-dr-test3-stable of kstuff-lite, the PS5 kernel patch payload used as an FPKG enabler. Attributed to drakmor (dr builds) on the EchoStretch/kstuff-lite lineage; no public release notes or tagged upstream release exist for this test build. The binary is self-hosted in this catalog because no public direct download was found; SHA256 is provided for verification. Verify before use and load it with an ELF loader.",
+      "last_update": "2026-11-25",
+      "version": "1.15-dr-test3-stable",
+      "category": "System & Jailbreak",
+      "checksum": "6c3758c2cc84e3aa7e3c41952371fd04e641647d46d03f8d4bea2ab77c16ecf5",
+      "id": "drakmor-kstuff-1.15-dr-test3-stable"
     }
   ]
 }
