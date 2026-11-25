@@ -493,6 +493,19 @@
       "category": "Loaders",
       "checksum": "0c1c256d8136223c371d3a1c05d3abceecdab786b34b0100703454c21ed31eca",
       "id": "mr-native-pswloader-v1.0.4"
+    },
+    {
+      "name": "kstuff-dr (1.15-test2a)",
+      "filename": "kstuff-dr-1.15-test2a.elf",
+      "url": "https://raw.githubusercontent.com/m2k7m/Relapse-Exploit/main/payloads/kstuff-dr-1.15-test2a.elf",
+      "source": "https://github.com/drakmor/kstuff-lite",
+      "source_direct": "https://raw.githubusercontent.com/m2k7m/Relapse-Exploit/main/payloads/kstuff-dr-1.15-test2a.elf",
+      "description": "dr. test build 1.15-test2a of kstuff-lite, the PS5 kernel patch payload used as an FPKG enabler. Attributed to drakmor (dr builds) on the EchoStretch/kstuff-lite lineage; this exact binary is the one bundled by the Relapse exploit host, not a tagged release of drakmor/kstuff-lite. No published release notes for this test build; verify before use and load it with an ELF loader.",
+      "last_update": "2026-11-25",
+      "version": "1.15-test2a",
+      "category": "System & Jailbreak",
+      "checksum": "9a48eb056391779899133e64acd9c2138f1181669c931b72d4d1ab3a8314dd91",
+      "id": "drakmor-kstuff-dr-1.15-test2a"
     }
   ]
 }
