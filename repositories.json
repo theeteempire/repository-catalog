@@ -1,9 +1,9 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-11-25T19:48:00+00:00",
+  "generated_at": "2026-11-25T20:03:51+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 672,
+  "count": 673,
   "payload_count": 371,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
@@ -114,13 +114,13 @@
       "icon_key": "5dfc9b19dcd0b8e99eb092b8efe01bd259a735dd8abd4e3e5f03e580381b7090",
       "payload_available": true,
       "payload_filename": "ps5-linux-loader-badfe48.elf",
-      "payload_url": "https://github.com/abrocoma/PS5-CachyOS/releases/download/image-2026-11-25/ps5-linux-loader-badfe48.elf",
-      "version": "image-2026-11-25",
+      "payload_url": "https://github.com/abrocoma/PS5-CachyOS/releases/download/image-2026-11-26/ps5-linux-loader-badfe48.elf",
+      "version": "image-2026-11-26",
       "last_update": "2026-11-25",
       "checksum": "779b341d3697526db6efb2ddc78212daa04d86694096eb86b9855f9b732c4ee3",
       "github_stars": 100,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-25T18:41:20Z",
+      "repository_updated_at": "2026-11-25T19:48:45Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -133,7 +133,7 @@
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 100,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-25T18:41:20Z"
+      "repository_updated_at": "2026-11-25T19:48:45Z"
     },
     {
       "name": "chukei-dns",
@@ -446,8 +446,8 @@
       "package_checksum": "fda2b173f994be5063495b46534ee07f30a289611ac343a4169e02ca6b85237c",
       "icon_key": "32327dae279a917fff3b1d7a501cea417df053f24b9890d7f6c60eb3d536ef51",
       "github_stars": 164,
-      "open_issues_count": 20,
-      "repository_updated_at": "2026-11-25T19:28:46Z",
+      "open_issues_count": 15,
+      "repository_updated_at": "2026-11-25T19:47:21Z",
       "last_update_days": 3,
       "last_update_months": 0.1
     },
@@ -936,18 +936,18 @@
       "repository_url": "https://github.com/drakmor/kstuff-lite",
       "category": "Repositories",
       "author": "drakmor",
-      "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8",
       "payload_available": true,
-      "payload_filename": "kstuff.elf",
-      "payload_url": "https://github.com/drakmor/kstuff-lite/releases/download/1.2-dr-test2/kstuff.elf",
-      "version": "1.2-dr-test2",
-      "last_update": "2026-06-11",
-      "checksum": "2b699d411079a21dba7c39a02993fc0fb21e52f434103e884a0c892fafe56b75",
+      "icon_key": "d766fbeb77ce065552959a9191e2c87148f286af467b13a310f5a46aeaddafd8",
+      "version": "1.15-test2a",
+      "last_update": "2026-11-25",
+      "payload_filename": "kstuff-dr-1.15-test2a.elf",
+      "payload_url": "https://raw.githubusercontent.com/m2k7m/Relapse-Exploit/main/payloads/kstuff-dr-1.15-test2a.elf",
+      "checksum": "9a48eb056391779899133e64acd9c2138f1181669c931b72d4d1ab3a8314dd91",
       "github_stars": 228,
       "open_issues_count": 1,
       "repository_updated_at": "2026-09-21T15:58:53Z",
-      "last_update_days": 167,
-      "last_update_months": 5.5
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "nanoDNS",
@@ -1526,8 +1526,8 @@
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/NeoEnabler_0.7.0.elf",
       "checksum": "4195e02fa9f1d3d6ecacdf37149db1ba4ba3e6261d6a10d47d3c92b56ce9d4c6",
       "github_stars": 243,
-      "open_issues_count": 13,
-      "repository_updated_at": "2026-11-25T19:28:02Z",
+      "open_issues_count": 12,
+      "repository_updated_at": "2026-11-25T19:52:45Z",
       "last_update_days": 9,
       "last_update_months": 0.3
     },
@@ -1689,7 +1689,7 @@
       "author": "HandshakeHackin",
       "icon_key": "17864bd13ecdedda1cccd22797141de2acea6567c241ccd3a5c8fb9da21f1772",
       "github_stars": 16,
-      "open_issues_count": 3,
+      "open_issues_count": 4,
       "repository_updated_at": "2026-11-23T23:01:48Z"
     },
     {
@@ -2717,8 +2717,8 @@
       "author": "meta",
       "icon_key": "739403e3e9c4863d91065b08e17bd05d5feba828b41d354944997adf1db8d34e",
       "github_stars": 28328,
-      "open_issues_count": 408,
-      "repository_updated_at": "2026-11-25T19:42:42Z"
+      "open_issues_count": 410,
+      "repository_updated_at": "2026-11-25T19:50:21Z"
     },
     {
       "name": "HYPERHEN",
@@ -3685,8 +3685,8 @@
       "author": "ps5-linux",
       "icon_key": "385dd4d0023c130e5f82309f1b273326eb3439b957ca176a08e073d07ad559be",
       "github_stars": 66,
-      "open_issues_count": 17,
-      "repository_updated_at": "2026-11-18T05:36:35Z"
+      "open_issues_count": 16,
+      "repository_updated_at": "2026-11-25T19:56:25Z"
     },
     {
       "name": "ps5-linux-tools",
@@ -5485,7 +5485,7 @@
       "category": "Repositories",
       "author": "heydemoura",
       "icon_key": "f5abba1c8028d2df0f778d2c5374ddb63851a4419f01356d4bf615fc2b65673b",
-      "github_stars": 452,
+      "github_stars": 453,
       "open_issues_count": 23,
       "repository_updated_at": "2026-11-25T11:24:08Z"
     },
@@ -6662,7 +6662,7 @@
       "icon_key": "7864badf316288d238582cd257e9f6e59d9dd4101183dc12ecf8a3cffa35ee7d",
       "github_stars": 8,
       "open_issues_count": 4,
-      "repository_updated_at": "2026-11-25T19:35:42Z"
+      "repository_updated_at": "2026-11-25T19:58:27Z"
     },
     {
       "name": "PS5SD",
@@ -6839,7 +6839,7 @@
       "payload_filename": "RecompStore-Installer.elf",
       "payload_url": "https://github.com/elripalda/RecompStore/releases/download/v2.7.4/RecompStore-Installer.elf",
       "checksum": "3a20194226cf5e1ee66a5a67d81610c1ac9bf82deee7b791c752d0e7d6202d5c",
-      "github_stars": 418,
+      "github_stars": 417,
       "open_issues_count": 23,
       "repository_updated_at": "2026-11-19T09:38:00Z",
       "last_update_days": 26,
@@ -7438,7 +7438,7 @@
       "payload_url": "https://github.com/zerodayofficial/NoUpdate/releases/download/v1.0.0/NoUpdate.elf",
       "checksum": "ff2443663899210b5a8aebf1fcac6c953d266f2ae10f2b8521866dce7df9d3cd",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 76,
+      "github_stars": 77,
       "open_issues_count": 4,
       "repository_updated_at": "2026-11-22T01:21:31Z",
       "last_update_days": 3,
@@ -7454,7 +7454,7 @@
       "version": "v0.3.2-plus",
       "last_update": "2026-11-22",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 72,
+      "github_stars": 73,
       "open_issues_count": 3,
       "repository_updated_at": "2026-11-24T08:36:54Z",
       "last_update_days": 3,
@@ -7527,7 +7527,7 @@
       "payload_url": "https://github.com/s8n/cheeky-nands/releases/download/v0.1/cheeky-nands-switch2.nro",
       "checksum": "1773c88cfb1d7ca7b9b1019eb32dd876f3e99aa0577fbee459e5dd2677523bb7",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 18,
+      "github_stars": 19,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-25T06:06:41Z",
       "last_update_days": 1,
@@ -7664,7 +7664,7 @@
       "icon_key": "7dabf598c3017031f74fea95650ca2e7f36070d677e0dc430bb46c35670da2ee",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-25T19:03:38Z"
+      "repository_updated_at": "2026-11-25T19:58:47Z"
     },
     {
       "name": "longshot-oberon",
@@ -7878,6 +7878,32 @@
       "repository_updated_at": "2026-11-25T15:35:14Z"
     },
     {
+      "name": "ico-classic-hd-ps5",
+      "description": "Unofficial PS5 homebrew port of ICO based on ico-pc. Requires your own disc image",
+      "repository_url": "https://github.com/kiktuo/ico-classic-hd-ps5",
+      "category": "PS5 Auto-discovered",
+      "author": "kiktuo",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-25",
+      "icon_key": "03f192a9abcbc694ddcdcf00d4f3a01c332ec67199813d4f39d32d6e50bdea95",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-25T19:42:54Z"
+    },
+    {
+      "name": "JB_STORE_REPO",
+      "description": "Open Source PS5 Homebrew App Store Repo ",
+      "repository_url": "https://github.com/Yahballon/JB_STORE_REPO",
+      "category": "PS5 Auto-discovered",
+      "author": "Yahballon",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-25",
+      "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-25T19:11:04Z"
+    },
+    {
       "name": "PS5-Toolkit",
       "description": "PS5 本地资源管理工具：插件仓库浏览与每日更新提醒、按需勾选下载（断点续传/旧版清理/下载历史）、HEN 金手指同步与版本历史、PS4/PS5 游戏资源每日新增检测。全中文化，纯 Node.js 零依赖。基于 nexgen999/PS5-Repository-List 改造开发。",
       "repository_url": "https://github.com/liweili/PS5-Toolkit",
@@ -7993,19 +8019,6 @@
       "github_stars": 6,
       "open_issues_count": 4,
       "repository_updated_at": "2026-11-25T19:01:21Z"
-    },
-    {
-      "name": "godsend-ps5",
-      "description": "Desktop manager for a jailbroken PS5: FTP library, payloads, Ghostpad controller, downloads, conversions",
-      "repository_url": "https://github.com/ghostyshell/godsend-ps5",
-      "category": "PS5 Auto-discovered",
-      "author": "ghostyshell",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-25",
-      "icon_key": "7ebf0c9bd3c88d5ad9376cf9add35670ab39d2db436360f274628a50620b52ed",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-25T19:29:06Z"
     },
     {
       "name": "save-garage",
@@ -8191,6 +8204,19 @@
       "last_update_months": 0.6
     },
     {
+      "name": "godsend-ps5",
+      "description": "Desktop manager for a jailbroken PS5: FTP library, payloads, Ghostpad controller, downloads, conversions",
+      "repository_url": "https://github.com/ghostyshell/godsend-ps5",
+      "category": "PS5 Auto-discovered",
+      "author": "ghostyshell",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-25",
+      "icon_key": "7ebf0c9bd3c88d5ad9376cf9add35670ab39d2db436360f274628a50620b52ed",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-25T19:29:06Z"
+    },
+    {
       "name": "ps5-payloads-mirror — farquer",
       "description": "Automatically discovered PS5-related GitHub repository.",
       "repository_url": "https://github.com/farquer/ps5-payloads-mirror",
@@ -8306,9 +8332,9 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-25",
       "icon_key": "212af449392c2dee77170575aa3bedb6ada197bb94802024f7a933532bc32192",
-      "github_stars": 61447,
-      "open_issues_count": 3011,
-      "repository_updated_at": "2026-11-25T19:02:49Z"
+      "github_stars": 61449,
+      "open_issues_count": 3002,
+      "repository_updated_at": "2026-11-25T19:58:20Z"
     },
     {
       "name": "alerta-ps5",
@@ -8321,7 +8347,7 @@
       "icon_key": "7eac27804d449ad1b206de1807733c05ff5ef05a7849f9927d6e0c76f52b2b39",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-25T19:00:39Z"
+      "repository_updated_at": "2026-11-25T20:00:40Z"
     },
     {
       "name": "PS5-EMULATOR-PORT-GTA6",
@@ -8361,19 +8387,6 @@
       "github_stars": 0,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-25T17:01:41Z"
-    },
-    {
-      "name": "GTAVI-PS5-Compatibility",
-      "description": "A compatibility research project investigating PlayStation 5 game execution and potential support for Grand Theft Auto VI on PC platforms.",
-      "repository_url": "https://github.com/settlementwaybreak/GTAVI-PS5-Compatibility",
-      "category": "PS5 Auto-discovered",
-      "author": "settlementwaybreak",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-25",
-      "icon_key": "b603f6f44296b68397e7c9e1deb800300fcad3958602d9466305f5adfdd83945",
-      "github_stars": 2,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-25T16:52:03Z"
     },
     {
       "name": "PrefBar",
@@ -9101,7 +9114,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-25",
       "icon_key": "6cf9771a15fbf369cb7accdc1d229ca2c54e83289f1c58758f5f998584d9238f",
-      "github_stars": 560,
+      "github_stars": 561,
       "open_issues_count": 20,
       "repository_updated_at": "2026-11-22T16:45:47Z"
     },
