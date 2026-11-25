@@ -15,7 +15,9 @@
       "description": "Payload to enable or disable system software updates.",
       "repository_url": "https://github.com/logic-68/Enable-Disable-UPD-PS5",
       "category": "Utilities & Tools",
-      "author": "logic-68"
+      "author": "logic-68",
+      "version": "V1.0.3",
+      "last_update": "2023-02-28"
     },
     {
       "name": "Orbit Store",
@@ -24,13 +26,14 @@
       "category": "Utilities & Tools",
       "author": "saawant12",
       "payload_available": true,
-      "version": "v1.3.5",
-      "last_update": "2026-10-14",
+      "version": "v1.9.7",
+      "last_update": "2026-11-23",
       "payload_filename": "orbit_store.elf",
-      "payload_url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.3.5/orbit_store.elf",
-      "checksum": "561a8e8015d9564d44e32b58a84e1294ea7043e96146110801a9f62ad99ac93b",
+      "payload_url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.7/orbit_store.elf",
+      "checksum": "4e62fd3f7ab9f81686b22d0f641048ea8a044206fa6a00dc1c87ad7a2ad97f99",
       "package_filename": "PPSA99177.ffpkg",
-      "package_url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.3.5/PPSA99177.ffpkg"
+      "package_url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.7/PPSA99177.ffpkg",
+      "package_checksum": "71424fb71b112912292aad7b5d230d9197258e421fa1bb2aa17b1051a020b4c1"
     },
     {
       "name": "PatchDL",
@@ -39,11 +42,11 @@
       "category": "Utilities & Tools",
       "author": "knutwurst",
       "payload_available": true,
-      "version": "v0.2.1",
-      "last_update": "2026-10-17",
-      "payload_filename": "patchdl_0.2.1.elf",
-      "payload_url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.2.1/patchdl_0.2.1.elf",
-      "checksum": "5458739714d93ad807f3720ff3a2107687bf18be6e238c3f531a93f55d3467b7"
+      "version": "v0.3.13",
+      "last_update": "2026-11-14",
+      "payload_filename": "patchdl_0.3.13.elf",
+      "payload_url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.13/patchdl_0.3.13.elf",
+      "checksum": "257cce632b9ad701094dad3f8c0206ff87ab6b417415a57ebfd558c5ee3b0c50"
     },
     {
       "name": "Prospero Themes",
@@ -52,25 +55,30 @@
       "category": "Utilities & Tools",
       "author": "Darkatek7",
       "payload_available": false,
-      "version": "01.000.000",
-      "last_update": "2026-10-17",
+      "version": "01.000.043",
+      "last_update": "2026-11-16",
       "package_filename": "PPSA90210.zip",
-      "package_url": "https://github.com/Darkatek7/ProsperoThemes/releases/download/01.000.000/PPSA90210.zip",
-      "checksum": "eba08e37359e433b691204399edd67b7e168f36fa2b1b4e95104b5ec3d25cba8"
+      "package_url": "https://github.com/Darkatek7/ProsperoThemes/releases/download/01.000.043/PPSA90210.zip",
+      "checksum": "eba08e37359e433b691204399edd67b7e168f36fa2b1b4e95104b5ec3d25cba8",
+      "package_checksum": "72411848fec3bc22fce4e0958b4083a447fd21da0af7ee1842129967966945fe"
     },
     {
       "name": "PS5 Library Browser",
       "description": "A browser for the console game library; releases currently provide a ZIP rather than a direct ELF asset.",
       "repository_url": "https://github.com/sweenyxsky-oss/ps5-library-browser",
       "category": "Utilities & Tools",
-      "author": "sweenyxsky-oss"
+      "author": "sweenyxsky-oss",
+      "version": "v0.5.1",
+      "last_update": "2026-10-11"
     },
     {
       "name": "PSCloud Dashboard",
       "description": "A browser-based dashboard for backing up, sharing, and syncing game saves.",
       "repository_url": "https://github.com/bc160201983/ps5-cloud-save",
       "category": "Utilities & Tools",
-      "author": "bc160201983"
+      "author": "bc160201983",
+      "version": "v0.34.28",
+      "last_update": "2026-10-15"
     },
     {
       "name": "Game Glance",
@@ -79,11 +87,12 @@
       "category": "Gaming & UI",
       "author": "michpalm",
       "payload_available": false,
-      "version": "v3.4.0",
-      "last_update": "2026-10-17",
+      "version": "v3.6.2",
+      "last_update": "2026-11-09",
       "package_filename": "game-glance.zip",
-      "package_url": "https://github.com/michpalm/game-glance/releases/download/v3.4.0/game-glance.zip",
-      "checksum": "bea454654b24b4d675584c63ed29cff2f297c23ba3336944874943ee999de915"
+      "package_url": "https://github.com/michpalm/game-glance/releases/download/v3.6.2/game-glance.zip",
+      "checksum": "bea454654b24b4d675584c63ed29cff2f297c23ba3336944874943ee999de915",
+      "package_checksum": "3d077cec8d37600d388803fed1a4df6fe6d71d9121206fe830f6f098fc26979c"
     },
     {
       "name": "PS5SX2",
@@ -93,10 +102,10 @@
       "author": "Swordpdf",
       "payload_available": true,
       "payload_filename": "PS5SXHelper.elf",
-      "payload_url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SXHelper.elf",
-      "version": "vk-285-171",
-      "last_update": "2026-10-14",
-      "checksum": "9fa809eb10e1fe5149b2d031f55497d7b050e950ec5aec38bac7ebe1ef6da153",
+      "payload_url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-345/PS5SXHelper.elf",
+      "version": "vk-285-345",
+      "last_update": "2026-11-24",
+      "checksum": "d8ff3a8d35dd2943ee405c5eca9405142f19057368eb539c4454b18b5de2917f",
       "package_filename": "PS5SX2-vk-285-171.zip",
       "package_url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-171/PS5SX2-vk-285-171.zip",
       "package_checksum": "226ac24866f0b94566c0680c3b99c0d5abfe8030723f5b28dae20af039c76963"
@@ -109,13 +118,13 @@
       "author": "darkxex",
       "payload_available": true,
       "payload_filename": "SwanStationPS5-DiscDaemon.elf",
-      "payload_url": "https://github.com/darkxex/SwanStationPS5/releases/download/1.4.2/SwanStationPS5-DiscDaemon.elf",
-      "version": "1.4.2",
-      "last_update": "2026-10-18",
-      "checksum": "d996f06cbd98c96af7eed24606f38f09dd900cc55ce2cf0859d17ef71bd55abd",
+      "payload_url": "https://github.com/darkxex/SwanStationPS5/releases/download/1.6.6/SwanStationPS5-DiscDaemon.elf",
+      "version": "1.6.6",
+      "last_update": "2026-11-17",
+      "checksum": "f91922d10437855f177034aa14d75a58fb6473bfb4840dadf4e8eb91d515f4fd",
       "package_filename": "PPSA98510.zip",
-      "package_url": "https://github.com/darkxex/SwanStationPS5/releases/download/1.4.2/PPSA98510.zip",
-      "package_checksum": "19e024135f7303d5928d93b3742707e14552abf1c5051b3f6dfa212be4bf4cf8"
+      "package_url": "https://github.com/darkxex/SwanStationPS5/releases/download/1.6.6/PPSA98510.zip",
+      "package_checksum": "de4d05545858d6bdafb00574ae7598e468a243cc1eff6c20e46162c0514a8ecf"
     },
     {
       "name": "PS5 Y2JB Autoloader",
@@ -124,10 +133,11 @@
       "category": "System & Jailbreak",
       "author": "itsPLK",
       "payload_available": false,
-      "version": "v1.0.3-185cdf8",
-      "last_update": "2026-10-20",
+      "version": "v1.1.0-ba879c8",
+      "last_update": "2026-10-28",
       "package_filename": "y2jb_update.zip",
-      "package_url": "https://github.com/itsPLK/ps5-y2jb-autoloader/releases/download/v1.0.2-254c85f/y2jb_update.zip"
+      "package_url": "https://github.com/itsPLK/ps5-y2jb-autoloader/releases/download/v1.1.0-ba879c8/y2jb_update.zip",
+      "package_checksum": "7148ce48191202cf8b2bc47e0779b49581634f2466b7a6082e08aa49f6fd7a96"
     },
     {
       "name": "Recomp Store",
@@ -135,7 +145,8 @@
       "repository_url": "https://github.com/elripalda/RecompStore",
       "category": "Utilities & Tools",
       "author": "elripalda",
-      "version": "v1.0.3"
+      "version": "v2.7.4",
+      "last_update": "2026-10-30"
     },
     {
       "name": "PS5 Homebrew UI",
@@ -151,7 +162,8 @@
       "repository_url": "https://github.com/BlackBoxPS5/blackbox",
       "category": "Utilities & Tools",
       "author": "BlackBoxPS5",
-      "version": "v1.0.5"
+      "version": "2.0.0",
+      "last_update": "2026-11-08"
     },
     {
       "name": "Overdrive Releases (half144)",
@@ -165,7 +177,9 @@
       "description": "Overdrive releases for jailbroken PS5.",
       "repository_url": "https://github.com/overdriveps5/overdrive-releases",
       "category": "Utilities & Tools",
-      "author": "overdriveps5"
+      "author": "overdriveps5",
+      "version": "v0.2.5",
+      "last_update": "2026-10-13"
     },
     {
       "name": "Overdrive",
@@ -185,14 +199,18 @@
       "description": "Standalone, content-neutral PS5 homebrew indexer and media framework.",
       "repository_url": "https://github.com/JVK3R/JobeesLair",
       "category": "Utilities & Tools",
-      "author": "JVK3R"
+      "author": "JVK3R",
+      "version": "v0.5.7",
+      "last_update": "2026-11-09"
     },
     {
       "name": "Xbox Cloud Gaming PS5",
       "description": "Xbox Cloud Gaming app for PS5 homebrew.",
       "repository_url": "https://github.com/RafaelNGP/xbox-cloud-gaming-ps5",
       "category": "Gaming & UI",
-      "author": "RafaelNGP"
+      "author": "RafaelNGP",
+      "version": "v1.6.9",
+      "last_update": "2026-11-11"
     },
     {
       "name": "PS5 LZ4 Compression",
@@ -206,7 +224,9 @@
       "description": "Closed-source Windows game catalogue browser; binary releases only.",
       "repository_url": "https://github.com/kerrdec97/Game-Catalogue",
       "category": "Utilities & Tools",
-      "author": "kerrdec97"
+      "author": "kerrdec97",
+      "version": "v0.0.4",
+      "last_update": "2026-09-23"
     },
     {
       "name": "Spectrum Library",
@@ -214,21 +234,26 @@
       "repository_url": "https://github.com/Phoenixx1202/Spectrum-Library",
       "category": "Utilities & Tools",
       "author": "Phoenixx1202",
-      "version": "1.4.6"
+      "version": "1.4.9",
+      "last_update": "2026-10-04"
     },
     {
       "name": "Pegasus DL / Pegasus DL+",
       "description": "PS5 homebrew download and file-management app with a local web UI: browse trusted catalog sources, queue downloads, extract supported archives, manage installed titles and files, and optionally use Real-Debrid or TorBox. Requires a homebrew-enabled PS5, compatible ShadowMountPlus setup, and an ELF loader.",
       "repository_url": "https://github.com/pegasus-ps5/pegasus-dl",
       "category": "Utilities & Tools",
-      "author": "pegasus-ps5"
+      "author": "pegasus-ps5",
+      "version": "native-v2.0.5",
+      "last_update": "2026-10-26"
     },
     {
       "name": "evoX-CoreOS Start Page",
       "description": "Start page for evoX-CoreOS.",
       "repository_url": "https://github.com/nexgen999/evoX-CoreOS_Start-Page",
       "category": "Gaming & UI",
-      "author": "nexgen999"
+      "author": "nexgen999",
+      "version": "v1.00",
+      "last_update": "2026-10-14"
     },
     {
       "name": "PS5 Firmware PIN",
@@ -242,7 +267,9 @@
       "description": "PS5 60FPS project.",
       "repository_url": "https://github.com/eladharels/ps5-60FPS",
       "category": "Gaming & UI",
-      "author": "eladharels"
+      "author": "eladharels",
+      "version": "v1.0.0",
+      "last_update": "2026-10-16"
     },
     {
       "name": "AnyPad PS5 English",
@@ -250,21 +277,26 @@
       "repository_url": "https://github.com/S-Mohammad-A/AnyPad-PS5-English",
       "category": "Utilities & Tools",
       "author": "S-Mohammad-A",
-      "version": "0.5.5-beta"
+      "version": "AnyPad",
+      "last_update": "2026-10-04"
     },
     {
       "name": "PS5 Account Tools",
       "description": "Payload that opens a web server on port 6769 to manage local PS5 accounts, including offline activation, fake PSN sign-in, and profile avatar changes.",
       "repository_url": "https://github.com/MangoScango/ps5-account-tools",
       "category": "Account & Remote Play",
-      "author": "MangoScango"
+      "author": "MangoScango",
+      "version": "v1.2",
+      "last_update": "2026-09-19"
     },
     {
       "name": "PS5 Linux Image",
       "description": "Linux image releases for PS5.",
       "repository_url": "https://github.com/ps5-linux/ps5-linux-image",
       "category": "Linux & Development",
-      "author": "ps5-linux"
+      "author": "ps5-linux",
+      "version": "latest",
+      "last_update": "2026-11-18"
     },
     {
       "name": "PS5 Linux Loader",
@@ -272,7 +304,8 @@
       "repository_url": "https://github.com/ps5-linux/ps5-linux-loader",
       "category": "Linux & Development",
       "author": "ps5-linux",
-      "version": "v2.5"
+      "version": "v2.5",
+      "last_update": "2026-09-05"
     },
     {
       "name": "ProsperoTube",
@@ -294,7 +327,8 @@
       "repository_url": "https://github.com/gcoding97/PS5-Game-Compressor",
       "category": "Utilities & Tools",
       "author": "gcoding97",
-      "version": "v1.1.1"
+      "version": "v1.1.1",
+      "last_update": "2026-10-02"
     },
     {
       "name": "PS5 Game Compressor (juma-sayeh)",
@@ -302,7 +336,8 @@
       "repository_url": "https://github.com/juma-sayeh/PS5-Game-Compressor",
       "category": "Utilities & Tools",
       "author": "juma-sayeh",
-      "version": "v1.0.4"
+      "version": "v1.0.4",
+      "last_update": "2026-08-21"
     },
     {
       "name": "PS5 LZ4 Game Compressor",
@@ -310,21 +345,17 @@
       "repository_url": "https://github.com/gameboy829/PS5-LZ4-Game-Compressor",
       "category": "Utilities & Tools",
       "author": "gameboy829",
-      "version": "beta.7"
+      "version": "beta.7",
+      "last_update": "2026-10-11"
     },
     {
       "name": "BlackBox (D3ATHLY)",
-      "description": "PS5 file browser and utility. Release 1.11.0 provides a direct ELF payload and FFPKG package.",
+      "description": "PS5 file browser and utility. Latest release 2.0.0 provides BlackBox.exfat and update.zip; no direct ELF or FFPKG asset was verified.",
       "repository_url": "https://github.com/D3ATHLY/blackbox",
       "category": "Utilities & Tools",
       "author": "D3ATHLY",
-      "payload_available": true,
-      "version": "1.11.0",
-      "last_update": "2026-10-18",
-      "payload_filename": "blackbox.elf",
-      "payload_url": "https://github.com/D3ATHLY/blackbox/releases/download/1.11.0/blackbox.elf",
-      "package_filename": "PPSA01453.ffpkg",
-      "package_url": "https://github.com/D3ATHLY/blackbox/releases/download/1.11.0/PPSA01453.ffpkg"
+      "version": "2.0.0",
+      "last_update": "2026-11-08"
     },
     {
       "name": "PS5 Y2JB USBUtilityTool",
@@ -334,7 +365,7 @@
       "author": "TheWizWikii",
       "payload_available": true,
       "version": "v1",
-      "last_update": "2026-01-18",
+      "last_update": "2025-12-10",
       "payload_filename": "full_y2jb_block0.elf",
       "payload_url": "https://github.com/TheWizWikii/PS5-Y2JB-USBUtilityTool/releases/download/v1/full_y2jb_block0.elf",
       "checksum": "bc9c073b24e6b3e93482b25a2557a60c641886eccda9e3d31d819cd4d3e0c0ca"
@@ -362,7 +393,8 @@
       "version": "v0.6.3",
       "last_update": "2026-10-19",
       "payload_filename": "pldmgr_v0.6.3.elf",
-      "payload_url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf"
+      "payload_url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf",
+      "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4"
     },
     {
       "name": "PS5 WebKit Autoloader",
@@ -371,8 +403,8 @@
       "category": "System & Jailbreak",
       "author": "itsPLK",
       "payload_available": true,
-      "version": "v0.6.1",
-      "last_update": "2026-10-08",
+      "version": "v0.8.4",
+      "last_update": "2026-11-23",
       "payload_filename": "webkit-autoloader-installer_v0.6.1.elf",
       "payload_url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.6.1/webkit-autoloader-installer_v0.6.1.elf"
     },
@@ -396,10 +428,11 @@
       "category": "Gaming & UI",
       "author": "aarvsn",
       "payload_available": false,
-      "version": "v1.0.0",
-      "last_update": "2026-10-18",
+      "version": "v1.0.6",
+      "last_update": "2026-11-22",
       "package_filename": "ps5droid-elf-payload.zip",
-      "package_url": "https://github.com/aarvsn/PS5Droid/releases/download/v1.0.0/ps5droid-elf-payload.zip"
+      "package_url": "https://github.com/aarvsn/PS5Droid/releases/download/v1.0.6/ps5droid-elf-payload.zip",
+      "package_checksum": "b2886246e1751e8fa9dd35790651c688438f8168e88cbd260a5e5b524f3d1fd4"
     },
     {
       "name": "PS5 Linux Loader (soniciso1)",
@@ -408,11 +441,11 @@
       "category": "Linux & Boot",
       "author": "soniciso1",
       "payload_available": true,
-      "version": "10.xx-support",
-      "last_update": "2026-10-25",
-      "payload_filename": "ps5-linux-loader-10-13-20261025.elf",
-      "payload_url": "https://github.com/soniciso1/ps5-linux-loader/releases/download/10.xx-support/ps5-linux-loader-10-13-20261025.elf",
-      "checksum": "17679bd43e5435bd407802b5036399a2b961e6845a726dd3b1919f0a5a5af8e6"
+      "version": "v2026.11.03-all10-13-pro",
+      "last_update": "2026-11-03",
+      "payload_filename": "ps5-linux-loader-all10-13-20261103-pro.elf",
+      "payload_url": "https://github.com/soniciso1/ps5-linux-loader/releases/download/v2026.11.03-all10-13-pro/ps5-linux-loader-all10-13-20261103-pro.elf",
+      "checksum": "03a8f761e1ef8a4702be0818b55b9dc37361e3c4d515bc52fd59e19c2b130d49"
     },
     {
       "name": "Prospero Menu",
@@ -437,8 +470,8 @@
       "category": "Emulators",
       "author": "mihawk-99",
       "payload_available": false,
-      "version": "v4.0.0-beta-4",
-      "last_update": "2026-10-19",
+      "version": "v4.7.0-beta-4",
+      "last_update": "2026-11-22",
       "package_filename": "PS5_RetroArch-v3.0.0-beta-3.zip",
       "package_url": "https://github.com/mihawk-99/PS5_RetroArch/releases/download/v3.0.0-beta-3/PS5_RetroArch-v3.0.0-beta-3.zip",
       "package_checksum": "121786b162652dfe08a0d3fc98015e57d782d06ba6680f4d032b078e6a621a5a"
@@ -450,8 +483,8 @@
       "category": "System & Jailbreak",
       "author": "Michele-M-Media",
       "payload_available": true,
-      "version": "v0.9.2",
-      "last_update": "2026-10-14",
+      "version": "HYPERHEN_V0_9_5",
+      "last_update": "2026-11-03",
       "payload_filename": "HyperHEN-v0.9.2.elf",
       "payload_url": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_2/HyperHEN-v0.9.2.elf",
       "checksum": "c35b8f6dbe4355be7e55891e6b326d82f3d6aae8483f6cf0e27d372b0aea97ae"
@@ -473,7 +506,9 @@
       "description": "Experimental PS5 homebrew desktop/runtime project for running Windows programs through Wine/Proton components. No direct ELF release asset verified.",
       "repository_url": "https://github.com/mihawk-99/PS5_MihawkOS",
       "category": "Homebrew & UI",
-      "author": "mihawk-99"
+      "author": "mihawk-99",
+      "version": "v8.2.0-alpha-8",
+      "last_update": "2026-11-08"
     },
     {
       "name": "etaHEN",
@@ -491,8 +526,8 @@
       "repository_url": "https://github.com/itsPLK/ps5-elfldr",
       "category": "Utilities & Tools",
       "author": "itsPLK",
-      "version": "v0.26-bb1e117",
-      "last_update": "2026-09-29",
+      "version": "v0.27-b57d0e9",
+      "last_update": "2026-10-27",
       "payload_available": true,
       "payload_filename": "elfldr-ps5-v0.26-bb1e117.elf",
       "payload_url": "https://github.com/itsPLK/ps5-elfldr/releases/download/v0.26-bb1e117/elfldr-ps5-v0.26-bb1e117.elf"
@@ -503,8 +538,8 @@
       "repository_url": "https://github.com/itsPLK/ps5-unified-autoloader",
       "category": "Utilities & Tools",
       "author": "itsPLK",
-      "version": "v0.1.6-e7093cd",
-      "last_update": "2026-10-20",
+      "version": "v0.1.7-abc3b82",
+      "last_update": "2026-10-29",
       "payload_available": true,
       "payload_filename": "ps5-unified-autoloader-v0.1.6-e7093cd.elf",
       "payload_url": "https://github.com/itsPLK/ps5-unified-autoloader/releases/download/v0.1.6-e7093cd/ps5-unified-autoloader-v0.1.6-e7093cd.elf"
@@ -515,8 +550,8 @@
       "repository_url": "https://github.com/ufm42/kexp",
       "category": "System & Jailbreak",
       "author": "ufm42",
-      "version": "v1",
-      "last_update": "2026-05-25",
+      "version": "v1.1",
+      "last_update": "2026-11-18",
       "payload_available": false
     },
     {
@@ -549,11 +584,11 @@
       "category": "Payload Managers & Launchers",
       "author": "X-F1REBALL-X",
       "payload_available": true,
-      "version": "v2.0.5",
-      "last_update": "2026-10-23",
+      "version": "v2.1.6",
+      "last_update": "2026-11-12",
       "payload_filename": "elf-launcher.elf",
-      "payload_url": "https://github.com/X-F1REBALL-X/elf-launcher/releases/download/v2.0.5/elf-launcher.elf",
-      "checksum": "1b4494e669ef07525c77036777d36a20f1eb81a708fe8262b26ffffa9452f547"
+      "payload_url": "https://github.com/X-F1REBALL-X/elf-launcher/releases/download/v2.1.6/elf-launcher.elf",
+      "checksum": "5c4a9c3146cf7ac14ce0dab35358eb5ab9cd17c647735d9fcd0932913ac2a9d2"
     },
     {
       "name": "ESP32 Keyboard for WK Autoloader Store (X-F1REBALL-X)",
@@ -562,7 +597,8 @@
       "category": "Utilities & Tools",
       "author": "X-F1REBALL-X",
       "payload_available": false,
-      "version": "v1.0.1"
+      "version": "v1.0.1",
+      "last_update": "2026-10-23"
     },
     {
       "name": "APR Emu Updater (tsuramatsu1)",
@@ -583,16 +619,17 @@
       "repository_url": "https://github.com/owendswang/ps5-web-browser-fullscreen",
       "category": "Utilities & Tools",
       "author": "owendswang",
-      "version": "test",
-      "last_update": "2026-10-26",
+      "version": "v0.1b",
+      "last_update": "2026-11-10",
       "payload_available": true,
-      "payload_filename": "web-browser-fullscreen-test0.elf",
-      "payload_url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-fullscreen-test0.elf",
-      "restore_payload_filename": "web-browser-restore-test0.elf",
-      "restore_payload_url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/test/web-browser-restore-test0.elf",
+      "payload_filename": "web-browser-fullscreen-v0.1b.elf",
+      "payload_url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/v0.1b/web-browser-fullscreen-v0.1b.elf",
+      "restore_payload_filename": "web-browser-restore-v0.1b.elf",
+      "restore_payload_url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/download/v0.1b/web-browser-restore-v0.1b.elf",
       "release_url": "https://github.com/owendswang/ps5-web-browser-fullscreen/releases/tag/test",
       "prerelease": true,
-      "checksum": "14db2927e2b5e157c393f35f749ecd05c88d76fe336ce307b0f7b919fd506d24"
+      "checksum": "520977607a22ecdf51c8d8b75360486026e0bd8780ded8026c3456fac7997a97",
+      "restore_checksum": "337035a591c05ee8ffc41a5c94acec1cc9d6dfba266e78af89e503f1e18936a3"
     },
     {
       "name": "PC5",
@@ -601,10 +638,11 @@
       "category": "Gaming & UI",
       "author": "bornaradusin",
       "payload_available": false,
-      "version": "v1.8.2",
-      "last_update": "2026-10-27",
+      "version": "v2.4.7",
+      "last_update": "2026-11-22",
       "package_filename": "PPSA11018.zip",
-      "package_url": "https://github.com/bornaradusin/PC5/releases/download/v1.8.2/PPSA11018.zip"
+      "package_url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.7/PPSA11018.zip",
+      "package_checksum": "fda2b173f994be5063495b46534ee07f30a289611ac343a4169e02ca6b85237c"
     },
     {
       "name": "prospero-win",
@@ -612,7 +650,9 @@
       "repository_url": "https://github.com/mpereiraesaa/prospero-win",
       "category": "Linux & Development",
       "author": "mpereiraesaa",
-      "payload_available": false
+      "payload_available": false,
+      "version": "v0.3.0",
+      "last_update": "2026-10-28"
     },
     {
       "name": "PS5 Bazzite Deck",
@@ -623,8 +663,8 @@
       "payload_available": true,
       "payload_filename": "bazzite-bootc-loader-v2.10.elf",
       "payload_url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v2.10/bazzite-bootc-loader-v2.10.elf",
-      "version": "v2.10",
-      "last_update": "2026-11-10",
+      "version": "v3.0.4",
+      "last_update": "2026-11-23",
       "checksum": "41fd9d2484f7430d790190d85e645403d71134585dc7611b1ad9fc8d3d4abf66"
     },
     {
@@ -657,11 +697,11 @@
       "category": "Plugins & System Tools",
       "author": "quer3q",
       "payload_available": true,
-      "version": "v0.0.1-beta",
-      "last_update": "2026-11-13",
+      "version": "v0.4.0",
+      "last_update": "2026-11-25",
       "payload_filename": "kraken-mount.elf",
-      "payload_url": "https://github.com/quer3q/kraken-mount/releases/download/v0.0.1-beta/kraken-mount.elf",
-      "checksum": "32cdf8e9aee9a8e91a7acd8884ac4701a75a38d96d483ea00bb7cbf4fe11a522"
+      "payload_url": "https://github.com/quer3q/kraken-mount/releases/download/v0.4.0/kraken-mount.elf",
+      "checksum": "6c778613b796039230f6690a16e4c04a76069a6b7b6c8030e292f54e904cc401"
     },
     {
       "name": "Kite Pack",
@@ -670,11 +710,11 @@
       "category": "Utilities & Tools",
       "author": "nankhor",
       "payload_available": true,
-      "version": "v0.1.1",
-      "last_update": "2026-11-13",
+      "version": "v0.2.0",
+      "last_update": "2026-11-17",
       "payload_filename": "kite-helper.elf",
-      "payload_url": "https://github.com/nankhor/kite-pack/releases/download/v0.1.1/kite-helper.elf",
-      "checksum": "05bc32a1b7bd8e712f668d2f1818516a01a2801e70bbdccc78a78c0a618c08bf"
+      "payload_url": "https://github.com/nankhor/kite-pack/releases/download/v0.2.0/kite-helper.elf",
+      "checksum": "180dabfc39fc46da8bd1505f794f3823614114e11e6ef1e27c853cadf54e1ed5"
     },
     {
       "name": "TITAN CORE",
@@ -683,8 +723,8 @@
       "category": "Plugins & System Tools",
       "author": "devchmod",
       "payload_available": true,
-      "version": "v0.5.4-beta.1",
-      "last_update": "2026-11-14",
+      "version": "v1.0.0",
+      "last_update": "2026-11-16",
       "payload_filename": "TITAN-CORE-0.5.4-beta.1.elf",
       "payload_url": "https://github.com/devchmod/TITAN-CORE/releases/download/v0.5.4-beta.1/TITAN-CORE-0.5.4-beta.1.elf",
       "checksum": "b8b9a8fb3d0a9d248dd1150a78bcb2b6837f3925b6b424bb544781cde070df8e"
@@ -696,7 +736,8 @@
       "category": "Repositories",
       "author": "Pix13",
       "payload_available": false,
-      "last_update": "2026-11-13"
+      "last_update": "2026-11-15",
+      "version": "v0.2"
     },
     {
       "name": "BrowserPS5",
@@ -705,11 +746,11 @@
       "category": "Utilities & Tools",
       "author": "ramalhoboss",
       "payload_available": true,
-      "version": "v1.0.0-rc13",
-      "last_update": "2026-11-17",
+      "version": "v1.0.0-rc17",
+      "last_update": "2026-11-18",
       "payload_filename": "BrowserPS5.elf",
-      "payload_url": "https://github.com/ramalhoboss/BrowserPS5/releases/download/v1.0.0-rc13/BrowserPS5.elf",
-      "checksum": "b90f8a409e97ad1e627d0c6e7764626012527a1343642e644f8cfe63af7b3449"
+      "payload_url": "https://github.com/ramalhoboss/BrowserPS5/releases/download/v1.0.0-rc17/BrowserPS5.elf",
+      "checksum": "61a5cb6848dcb3c145c22e24a1433b66801d7770b8331f00b25a2fea3f80a575"
     },
     {
       "name": "BananaNative",
@@ -736,8 +777,8 @@
       "category": "Homebrew & UI",
       "author": "NaGaa95",
       "payload_available": false,
-      "version": "1.1.0",
-      "last_update": "2026-11-16"
+      "version": "1.1.1",
+      "last_update": "2026-11-19"
     },
     {
       "name": "WiiCompiled-Switch2",
@@ -746,8 +787,8 @@
       "category": "Gaming & Media",
       "author": "6rimson",
       "payload_available": false,
-      "version": "v0.3.1",
-      "last_update": "2026-11-16"
+      "version": "v0.4.1",
+      "last_update": "2026-11-18"
     },
     {
       "name": "Dekopon",
@@ -792,11 +833,11 @@
       "category": "Homebrew & UI",
       "author": "HerXayah",
       "payload_available": false,
-      "version": "1.2.0",
-      "last_update": "2026-11-18",
+      "version": "1.3.1",
+      "last_update": "2026-11-21",
       "package_filename": "brewstore.nro",
-      "package_url": "https://github.com/HerXayah/brewstore/releases/download/1.2.0/brewstore.nro",
-      "package_checksum": "2a942ee3f462f6b7911c1b02d6431b132c4c7c1c757a3c71780fc0ee10f3a665"
+      "package_url": "https://github.com/HerXayah/brewstore/releases/download/1.3.1/brewstore.nro",
+      "package_checksum": "475481a2b2c938456d193e5233d41afe955f901c62912948ca5523530d1da963"
     },
     {
       "name": "blacklist-tool",
@@ -872,6 +913,91 @@
       "payload_filename": "PSWloader.elf",
       "payload_url": "https://github.com/mr-Native/PSWloader/releases/download/v1.0.4/PSWloader.elf",
       "checksum": "0c1c256d8136223c371d3a1c05d3abceecdab786b34b0100703454c21ed31eca"
+    },
+    {
+      "name": "nx2-relink",
+      "description": "Tool that relinks a Nintendo Switch 2 game dump the user owns into a homebrew NRO that runs on Switch 2 via kaiHEN. Rebuilds the program from its dump and reads the game's files from a separate RomFS image on the SD card; it is not a general ROM loader and does not bypass game ownership.",
+      "repository_url": "https://github.com/Olmectron/nx2-relink",
+      "category": "Homebrew & UI",
+      "author": "Olmectron",
+      "payload_available": false,
+      "version": "v0.1.6",
+      "last_update": "2026-11-25"
+    },
+    {
+      "name": "IZtwiNS2",
+      "description": "Twitch client for Nintendo Switch 2, distributed as a native IZ2S IZA and as a KaiHEN NRO build. The NRO is directly launchable under kaiHEN; the IZA build requires an IZ2S-compatible launcher.",
+      "repository_url": "https://github.com/byizmysh/IZtwiNS2",
+      "category": "Gaming & Media",
+      "author": "byizmysh",
+      "payload_available": true,
+      "version": "v0.11.0",
+      "last_update": "2026-11-24",
+      "payload_filename": "IZtwiNS2-0.11.0.nro",
+      "payload_url": "https://github.com/byizmysh/IZtwiNS2/releases/download/v0.11.0/IZtwiNS2-0.11.0.nro",
+      "checksum": "57f64a054b4e6418d3ae394c65b6879e8cbc8a5166c92a9729c93d4ba8c2e767"
+    },
+    {
+      "name": "cheeky-nands",
+      "description": "Switch 2 NAND dumper. The release provides a small NRO and a companion net_pull.py host script. Its documentation warns that partitions 28, 30, 31 and 33 are unsupported and that UserDataRoot is about 256 GB and can take 2–6 hours to dump; do not use it for firmware, keys, or protected data.",
+      "repository_url": "https://github.com/s8n/cheeky-nands",
+      "category": "Utilities & Tools",
+      "author": "s8n",
+      "payload_available": true,
+      "version": "v0.1",
+      "last_update": "2026-11-24",
+      "payload_filename": "cheeky-nands-switch2.nro",
+      "payload_url": "https://github.com/s8n/cheeky-nands/releases/download/v0.1/cheeky-nands-switch2.nro",
+      "checksum": "1773c88cfb1d7ca7b9b1019eb32dd876f3e99aa0577fbee459e5dd2677523bb7"
+    },
+    {
+      "name": "IZ2S-SB4",
+      "description": "IZ2S homebrew launcher edition for Nintendo Switch 2 designed for use with SmileBASIC 4. Distributed as platform archives (Windows ZIP, Linux tar.gz, macOS ZIP), not as a direct NRO; it is a separate edition and does not unlock generic .iza apps.",
+      "repository_url": "https://github.com/byizmysh/IZ2S-SB4",
+      "category": "Homebrew & UI",
+      "author": "byizmysh",
+      "payload_available": false,
+      "version": "v0.25.2-sb4.1",
+      "last_update": "2026-11-24"
+    },
+    {
+      "name": "Switch2-HBmenu-Home",
+      "description": "Switch 2 HOME-style user interface for ounce-hbmenu under kaiHEN, rendered natively with Vulkan (OunceVK) at 1080p handheld and up to 4K docked at 60 fps. The official installation replaces /hbmenu.nro; this catalog entry describes the project and does not imply replacement of an existing launcher.",
+      "repository_url": "https://github.com/ImDella/Switch2-HBmenu-Home",
+      "category": "Homebrew & UI",
+      "author": "ImDella",
+      "payload_available": true,
+      "version": "v1.0.1",
+      "last_update": "2026-11-22",
+      "payload_filename": "hbmenu.nro",
+      "payload_url": "https://github.com/ImDella/Switch2-HBmenu-Home/releases/download/v1.0.1/hbmenu.nro",
+      "checksum": "44f6e1e33a3b84b405a6dc40f30a70b113aec68a9a127baf60b8b69e2e8e3fae"
+    },
+    {
+      "name": "SeedSwap",
+      "description": "Tool that runs Switch 1 games on Switch 2 in place of an installed Switch 1 title such as Sleep Mole Island / Seedsow Lullaby. The release includes a Windows builder and a seedswap.nro; it is not a launcher for Switch 2-native game dumps.",
+      "repository_url": "https://github.com/Hinoaaaaaf212/SeedSwap",
+      "category": "Gaming & Media",
+      "author": "Hinoaaaaaf212",
+      "payload_available": true,
+      "version": "v0.14.0",
+      "last_update": "2026-11-25",
+      "payload_filename": "seedswap.nro",
+      "payload_url": "https://github.com/Hinoaaaaaf212/SeedSwap/releases/download/v0.14.0/seedswap.nro",
+      "checksum": "d071e0f5c118c76e0d173621829247907bb20f3e9ec608acde0e04782d2d3af7"
+    },
+    {
+      "name": "switch2-gamevault",
+      "description": "Game Vault for Switch 2: game and save backup/restore, decrypted backups, USB MTP, FTP and SMB storage. The stable release provides a direct NRO plus runtime/source ZIPs and a published SHA256SUMS.txt.",
+      "repository_url": "https://github.com/flex36ty/switch2-gamevault",
+      "category": "Utilities & Tools",
+      "author": "flex36ty",
+      "payload_available": true,
+      "version": "v0.4.5",
+      "last_update": "2026-11-19",
+      "payload_filename": "game-vault-v045.nro",
+      "payload_url": "https://github.com/flex36ty/switch2-gamevault/releases/download/v0.4.5/game-vault-v045.nro",
+      "checksum": "d52106c5881a298ad72c2a8e5b62d7a0259204d19d3a8ddcaceedb58c66f2f43"
     }
   ]
 }
