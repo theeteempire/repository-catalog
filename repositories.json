@@ -1,10 +1,10 @@
 {
   "name": "Repository Catalog",
   "schema_version": 2,
-  "generated_at": "2026-11-26T19:55:12+00:00",
+  "generated_at": "2026-11-26T20:50:48+00:00",
   "source": "https://raw.githubusercontent.com/nexgen999/PS5-Repository-List/main/json/repos-database.json",
-  "count": 681,
-  "payload_count": 586,
+  "count": 679,
+  "payload_count": 588,
   "icons_url": "https://theeteempire.github.io/repository-catalog/icons.json",
   "repositories": [
     {
@@ -1011,7 +1011,7 @@
       "payload_filename": "ShadowMountPlus_1.7beta12.elf",
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7beta12.elf",
       "checksum": "8755172ec9bef1bff5453ea75606e0caf7c41b5963f94f5a1087e7e8c6d9b1bd",
-      "github_stars": 1516,
+      "github_stars": 1517,
       "open_issues_count": 42,
       "repository_updated_at": "2026-11-14T11:44:50Z",
       "last_update_days": 18,
@@ -1974,7 +1974,7 @@
       "payload_url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf",
       "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4",
       "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346",
-      "github_stars": 830,
+      "github_stars": 831,
       "open_issues_count": 28,
       "repository_updated_at": "2026-10-19T13:42:54Z",
       "last_update_days": 38,
@@ -2357,8 +2357,8 @@
       "author": "leolobato",
       "icon_key": "39d07bff0f0e3924c30cd1a4367db08a2d1ab98592d613fc06062b708371b60e",
       "github_stars": 1119,
-      "open_issues_count": 448,
-      "repository_updated_at": "2026-11-26T12:30:07Z"
+      "open_issues_count": 450,
+      "repository_updated_at": "2026-11-26T20:43:56Z"
     },
     {
       "name": "ps5-stream8",
@@ -2424,7 +2424,7 @@
       "category": "Repositories",
       "author": "Loopayeh",
       "icon_key": "e60c377145819cea04c9ac2b8a128a6178e3d8de99527b298b4394f2cafdb717",
-      "github_stars": 279,
+      "github_stars": 280,
       "open_issues_count": 7,
       "repository_updated_at": "2026-11-26T06:58:08Z"
     },
@@ -3092,7 +3092,7 @@
       "icon_key": "e97910fcda346d6035f622df04b24b074eaa8f77ba7026cfc7cbb8cd86e73db4",
       "github_stars": 134,
       "open_issues_count": 10,
-      "repository_updated_at": "2026-11-26T19:49:25Z"
+      "repository_updated_at": "2026-11-26T20:43:02Z"
     },
     {
       "name": "PS5-Custom-Tool-Manager-",
@@ -3451,7 +3451,7 @@
       "payload_url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v12.6.31.elf",
       "checksum": "57bc3a0df33226c7f37c9d870aa21ec549dedb2414c09e8c47e647d14f125e45",
       "github_stars": 1408,
-      "open_issues_count": 7,
+      "open_issues_count": 6,
       "repository_updated_at": "2026-11-26T19:41:24Z",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -3882,8 +3882,8 @@
       "payload_filename": "ps5-dump-forge-0.6.0-ps5.elf",
       "payload_url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.6.0/ps5-dump-forge-0.6.0-ps5.elf",
       "checksum": "420265c626d517ed433ecf360092dc28e1061fd0ac29346de488c41cde3ac0d2",
-      "github_stars": 605,
-      "open_issues_count": 2,
+      "github_stars": 606,
+      "open_issues_count": 3,
       "repository_updated_at": "2026-11-26T15:55:37Z",
       "last_update_days": 0,
       "last_update_months": 0.0
@@ -4186,7 +4186,7 @@
       "category": "Repositories",
       "author": "seregonwar",
       "icon_key": "4387d580e52e0f27824520985b462becf4562b84b9db16b0c7c957824e0bcfbe",
-      "github_stars": 553,
+      "github_stars": 552,
       "open_issues_count": 4,
       "repository_updated_at": "2026-10-03T14:40:34Z"
     },
@@ -4271,7 +4271,7 @@
       "version": "v1.0.19",
       "last_update": "2026-10-18",
       "checksum": "fbb798d01fa413ca0d04b81ff9c719e1da0535e4145858459d9982e163b975d1",
-      "github_stars": 35,
+      "github_stars": 37,
       "open_issues_count": 7,
       "repository_updated_at": "2026-10-18T20:54:26Z",
       "last_update_days": 39,
@@ -4426,7 +4426,7 @@
       "version": "v1.0.0",
       "last_update": "2026-10-08",
       "checksum": "0f2b246193b4799fb0ded8740952f8139de9fc4fa2b3d557b5e02892c4ba5dda",
-      "github_stars": 12,
+      "github_stars": 13,
       "open_issues_count": 1,
       "repository_updated_at": "2026-10-08T08:48:06Z",
       "last_update_days": 49,
@@ -4622,7 +4622,7 @@
       "package_checksum": "226ac24866f0b94566c0680c3b99c0d5abfe8030723f5b28dae20af039c76963",
       "icon_key": "d0a7f39eb7358467810576d04c649cbc527234a0c059d43cba04952a79bb0ef0",
       "github_stars": 1705,
-      "open_issues_count": 29,
+      "open_issues_count": 30,
       "repository_updated_at": "2026-11-24T23:24:24Z",
       "last_update_days": 2,
       "last_update_months": 0.1
@@ -5782,7 +5782,7 @@
       "category": "Repositories",
       "author": "mshivam019",
       "icon_key": "88cc7ad416f7f5d0e94124c3c2b54e3ec673459dcabb364e5cedb4c6cb236318",
-      "github_stars": 20,
+      "github_stars": 19,
       "open_issues_count": 3,
       "repository_updated_at": "2026-10-19T06:30:08Z"
     },
@@ -6888,7 +6888,7 @@
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
       "github_stars": 1388,
       "open_issues_count": 15,
-      "repository_updated_at": "2026-10-27T03:22:43Z",
+      "repository_updated_at": "2026-11-26T20:14:57Z",
       "last_update_days": 40,
       "last_update_months": 1.3
     },
@@ -7167,9 +7167,9 @@
       "payload_url": "https://github.com/quer3q/kraken-mount/releases/download/v0.4.0/kraken-mount.elf",
       "checksum": "6c778613b796039230f6690a16e4c04a76069a6b7b6c8030e292f54e904cc401",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 649,
-      "open_issues_count": 11,
-      "repository_updated_at": "2026-11-26T18:05:46Z",
+      "github_stars": 650,
+      "open_issues_count": 9,
+      "repository_updated_at": "2026-11-26T20:44:39Z",
       "last_update_days": 1,
       "last_update_months": 0.0
     },
@@ -7240,7 +7240,7 @@
       "payload_url": "https://github.com/ramalhoboss/BrowserPS5/releases/download/v1.0.0-rc17/BrowserPS5.elf",
       "checksum": "61a5cb6848dcb3c145c22e24a1433b66801d7770b8331f00b25a2fea3f80a575",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 30,
+      "github_stars": 32,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-18T20:21:18Z",
       "last_update_days": 8,
@@ -7446,7 +7446,7 @@
       "payload_url": "https://github.com/zerodayofficial/NoUpdate/releases/download/v1.0.0/NoUpdate.elf",
       "checksum": "ff2443663899210b5a8aebf1fcac6c953d266f2ae10f2b8521866dce7df9d3cd",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 80,
+      "github_stars": 83,
       "open_issues_count": 4,
       "repository_updated_at": "2026-11-22T01:21:31Z",
       "last_update_days": 4,
@@ -7481,7 +7481,7 @@
       "payload_url": "https://github.com/mr-Native/PSWloader/releases/download/v1.1/PSWloader.elf",
       "checksum": "49f62b741129570a987fd61ab1af859fbf06ef3f9753e44eee8cabb87e6b6c21",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 131,
+      "github_stars": 132,
       "open_issues_count": 6,
       "repository_updated_at": "2026-11-25T03:19:06Z",
       "last_update_days": 1,
@@ -7497,7 +7497,7 @@
       "version": "v0.1.6",
       "last_update": "2026-11-25",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 162,
+      "github_stars": 165,
       "open_issues_count": 20,
       "repository_updated_at": "2026-11-26T09:57:42Z",
       "last_update_days": 1,
@@ -7589,7 +7589,7 @@
       "payload_url": "https://github.com/Hinoaaaaaf212/SeedSwap/releases/download/v0.14.0/seedswap.nro",
       "checksum": "d071e0f5c118c76e0d173621829247907bb20f3e9ec608acde0e04782d2d3af7",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 85,
+      "github_stars": 86,
       "open_issues_count": 7,
       "repository_updated_at": "2026-11-26T07:40:19Z",
       "last_update_days": 1,
@@ -7627,11 +7627,77 @@
       "payload_url": "https://github.com/roieeedouek/torbox-ps5/releases/download/v1.0.0/torbox-ps5.elf",
       "checksum": "fcdf29358153ed48463b6322b7df9aef7907eb5cbf0459ad62d893475b3d4cab",
       "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
-      "github_stars": 11,
+      "github_stars": 13,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-26T07:42:21Z",
       "last_update_days": 0,
       "last_update_months": 0.0
+    },
+    {
+      "name": "GTA VI FPS Unlocker",
+      "description": "Runtime ELF patch for jailbroken PS5 and PS5 Pro that unlocks GTA VI's 30 FPS cap, fixes delta-time game speed above 30 FPS and scales internal TAA2U (base PS5) or PSSR (Pro) render resolution in memory without changing game files or graphics presets. Stable v1.14 requires GTA VI v01.002.001 (PPSA01547/PPSA29660/PPSA38500) and must be loaded through PLDMGR/elfldr before starting the game; it creates /data/gtavi-unlockfps/fps.txt on first run (fps 30-120 default 60, res_pct 0 or 25-100 default 50, rt_reflections 1/0, daemon 0/1). Kernel writes use DMAP on firmware 8.40+ and mdbg_copyin on older firmware. Caveats: res_pct=100 is experimental and may cause low FPS or render-target OOM, res_pct=67 crashes PS5 Pro, rt_reflections=0 may cause water glitches, and sustained unlocked FPS raises CPU temperatures by 5-8 C. v1.14 adds Pro PSSR scaling; base PS5 users can remain on v1.13.",
+      "repository_url": "https://github.com/HSgod/ps5-fpsunlocker-gta6",
+      "category": "Game Tools & Mods",
+      "author": "HSgod",
+      "payload_available": true,
+      "version": "v1.14",
+      "last_update": "2026-11-26",
+      "payload_filename": "GTAVI.UnlockFPS_v1.14.elf",
+      "payload_url": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.14/GTAVI.UnlockFPS_v1.14.elf",
+      "checksum": "9d7b726369407cd1ca1030dfc4bd705d01f27ebf0bf564a7d100c1599db14904",
+      "icon_key": "10558ebdf3308f7532ba3264c29fc6f6ae2e870e52816b1443091ac6f503e5b0",
+      "github_stars": 175,
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-11-26T19:21:38Z",
+      "last_update_days": 0,
+      "last_update_months": 0.0
+    },
+    {
+      "name": "prospero-hardware-unlocker",
+      "description": "Based on NeoEnabler work about GPU clock frequency and CPU requested mode only working for PS4 titles. Extended to native PS5 titles. Based also on psdevwiki.com docs.",
+      "repository_url": "https://github.com/Bastian-R-dotcom/prospero-hardware-unlocker",
+      "category": "PS5 Auto-discovered",
+      "author": "Bastian-R-dotcom",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-26",
+      "icon_key": "5689ef621c31231f6071e026e27ceca6a5c37e28a711d67fce9d1e95d964179a",
+      "payload_available": true,
+      "payload_filename": "prospero-hardware-unlock_v1.0.elf",
+      "payload_url": "https://github.com/Bastian-R-dotcom/prospero-hardware-unlocker/releases/download/v1.0/prospero-hardware-unlock_v1.0.elf",
+      "version": "v1.0",
+      "last_update": "2026-11-26",
+      "checksum": "54e55568e6d0fe1e65fba5e096e65957a9ced98a358502468f084dc853dccb76",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-26T20:38:57Z",
+      "last_update_days": 0,
+      "last_update_months": 0.0
+    },
+    {
+      "name": "TrinityXSX",
+      "description": "Play Xbox Series X|S and DRM-free PC/GOG games on PlayStation 5 — all-in-one game library with on-console GOG installer, DualSense controls, Touchpad menu, FPS HUD, Frame Generation, and Web Companion.",
+      "repository_url": "https://github.com/grzegorz2047/TrinityXSX",
+      "category": "PS5 Auto-discovered",
+      "author": "grzegorz2047",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-26",
+      "icon_key": "7dabf598c3017031f74fea95650ca2e7f36070d677e0dc430bb46c35670da2ee",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-26T20:05:47Z"
+    },
+    {
+      "name": "prospero-disk",
+      "description": "A disk-usage explorer for jailbroken PS5 consoles",
+      "repository_url": "https://github.com/leolobato/prospero-disk",
+      "category": "PS5 Auto-discovered",
+      "author": "leolobato",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-26",
+      "icon_key": "39d07bff0f0e3924c30cd1a4367db08a2d1ab98592d613fc06062b708371b60e",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-26T19:50:25Z"
     },
     {
       "name": "ps5-personal-payloads-catalog",
@@ -7655,9 +7721,30 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-26",
       "icon_key": "47e7d67c3fae8dccfe23b808ccad232325b5be0482052bbb8d1ae832c774cb70",
-      "github_stars": 382,
+      "github_stars": 383,
       "open_issues_count": 16,
       "repository_updated_at": "2026-11-26T18:58:04Z"
+    },
+    {
+      "name": "ps5-mcp",
+      "description": "MCP server payload for jailbroken PS5 — virtual DualSense, 4K native screenshots, process and klog tools, title launch, ELF loader. Any MCP client (Claude Code, Claude Desktop, Cursor, SDKs) can drive the console over HTTP.",
+      "repository_url": "https://github.com/Gl0ttis/ps5-mcp",
+      "category": "PS5 Auto-discovered",
+      "author": "Gl0ttis",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-26",
+      "icon_key": "b362504ada949b0b0834fda5b4a00ddf6d0bd9091aed928b9f900d5f7ce0a4e9",
+      "payload_available": true,
+      "payload_filename": "ps5-mcp-1.0.1.elf",
+      "payload_url": "https://github.com/Gl0ttis/ps5-mcp/releases/download/v1.0.1/ps5-mcp-1.0.1.elf",
+      "version": "v1.0.1",
+      "last_update": "2026-11-26",
+      "checksum": "bf88c8f501d75495b4ec780045b3f72d4311e2283924050b41e4ce8e75b2ebe7",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-26T18:48:39Z",
+      "last_update_days": 0,
+      "last_update_months": 0.0
     },
     {
       "name": "PLDMGR_JSON",
@@ -7681,7 +7768,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-26",
       "icon_key": "ad4ed23611def2de0ec3d60c9b74a64f8c9ab34e9ef64dd8fab6b7a86f68c54b",
-      "github_stars": 143,
+      "github_stars": 144,
       "open_issues_count": 0,
       "repository_updated_at": "2026-11-26T18:16:27Z"
     },
@@ -7720,19 +7807,6 @@
       "repository_updated_at": "2026-11-26T18:05:13Z"
     },
     {
-      "name": "TrinityXSX",
-      "description": "Play Xbox Series X|S and DRM-free PC/GOG games on PlayStation 5 — all-in-one game library with on-console GOG installer, DualSense controls, Touchpad menu, FPS HUD, Frame Generation, and Web Companion.",
-      "repository_url": "https://github.com/grzegorz2047/TrinityXSX",
-      "category": "PS5 Auto-discovered",
-      "author": "grzegorz2047",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-26",
-      "icon_key": "7dabf598c3017031f74fea95650ca2e7f36070d677e0dc430bb46c35670da2ee",
-      "github_stars": 1,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-26T19:44:10Z"
-    },
-    {
       "name": "PS5PayloadManagerUpdater",
       "description": "PS5 Payloads automatically updated from different repos",
       "repository_url": "https://github.com/sHarK-ps/PS5PayloadManagerUpdater",
@@ -7756,7 +7830,7 @@
       "icon_key": "79d3d3953daa4dddf13920c802671fb2aa8b24cf0efd9de263eb82f85b8e8354",
       "github_stars": 79,
       "open_issues_count": 1,
-      "repository_updated_at": "2026-11-26T17:54:51Z"
+      "repository_updated_at": "2026-11-26T20:19:02Z"
     },
     {
       "name": "mis-payloads-ps5 — atanesmarc",
@@ -7795,8 +7869,8 @@
       "payload_url": "https://github.com/X1NONs/PrefBar/releases/download/v0.3.1/Prefbar_V0.3.1.elf",
       "checksum": "b876836d4597e28e519ae6bc80df0eeceefde2e8648491c66d4983a779dff134",
       "github_stars": 83,
-      "open_issues_count": 3,
-      "repository_updated_at": "2026-11-26T17:18:56Z",
+      "open_issues_count": 4,
+      "repository_updated_at": "2026-11-26T20:18:30Z",
       "last_update_days": 2,
       "last_update_months": 0.1
     },
@@ -7838,7 +7912,7 @@
       "checksum": "5e785701a033f14ed5380b64407278c46f2664c830fa30082bac4bda5817bef0",
       "github_stars": 3,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-26T16:57:47Z",
+      "repository_updated_at": "2026-11-26T20:09:18Z",
       "last_update_days": 39,
       "last_update_months": 1.3
     },
@@ -7856,40 +7930,6 @@
       "repository_updated_at": "2026-11-26T16:51:15Z"
     },
     {
-      "name": "ps5-payload-constellation",
-      "description": "Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
-      "repository_url": "https://github.com/DeborahO18/ps5-payload-constellation",
-      "category": "PS5 Auto-discovered",
-      "author": "DeborahO18",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-26",
-      "icon_key": "ce54f7da38ef21ca9bf62e20134558f9b92701bb8058fe9c1b8013e41916b9f8",
-      "github_stars": 2,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-26T15:06:33Z"
-    },
-    {
-      "name": "ps5-payloads-mirror — siko15006-bot",
-      "description": "https://siko15006-bot.github.io/ps5-payloads-mirror/payloads_v3.json",
-      "repository_url": "https://github.com/siko15006-bot/ps5-payloads-mirror",
-      "category": "PS5 Auto-discovered",
-      "author": "siko15006-bot",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-26",
-      "icon_key": "3fdbbc66b6401b8b53d72631b43ae96d0335c20f78ea8509ee1af7fecaa17c8c",
-      "payload_available": true,
-      "payload_filename": "zftpd_v1.7.0.elf",
-      "payload_url": "https://github.com/siko15006-bot/ps5-payloads-mirror/releases/download/payloads-mirror/zftpd_v1.7.0.elf",
-      "version": "payloads-mirror",
-      "last_update": "2026-11-07",
-      "checksum": "39d2078f5d04dd9e4c281325b1dcd202159ea6dc604dfdb4c22f9ab38fe203f8",
-      "github_stars": 1,
-      "open_issues_count": 61,
-      "repository_updated_at": "2026-11-26T14:54:30Z",
-      "last_update_days": 19,
-      "last_update_months": 0.6
-    },
-    {
       "name": "KytyPS5",
       "description": "PlayStation 5 translation layer for Windows, Linux and macOS",
       "repository_url": "https://github.com/KytyPS5/KytyPS5",
@@ -7898,9 +7938,9 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-26",
       "icon_key": "04fc10ab0949aeb1f9285c2f27e9ab7b26cfb000b6d626f6953e81cbec5b2b13",
-      "github_stars": 12814,
-      "open_issues_count": 1053,
-      "repository_updated_at": "2026-11-26T19:46:20Z"
+      "github_stars": 12818,
+      "open_issues_count": 1054,
+      "repository_updated_at": "2026-11-26T20:06:35Z"
     },
     {
       "name": "totk-ps5-recomp",
@@ -7976,32 +8016,6 @@
       "last_update_months": 0.4
     },
     {
-      "name": "ps5-payloads-mirror — farquer",
-      "description": "Automatically discovered PS5-related GitHub repository.",
-      "repository_url": "https://github.com/farquer/ps5-payloads-mirror",
-      "category": "PS5 Auto-discovered",
-      "author": "farquer",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-26",
-      "icon_key": "ba096ce4f3f819078c1cdd252113103cb4482665f676403c8e0b0c909cd6c707",
-      "github_stars": 4,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-26T12:54:02Z"
-    },
-    {
-      "name": "AnchorPS5-catalog",
-      "description": "Catálogo oficial de homebrew para AnchorPS5 · Official homebrew catalog for AnchorPS5",
-      "repository_url": "https://github.com/Kuroge/AnchorPS5-catalog",
-      "category": "PS5 Auto-discovered",
-      "author": "Kuroge",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-26",
-      "icon_key": "dcceb5f1145d8e927bf611ed94ee6e75c724f0573a66378e7dc252b8d44d4ad7",
-      "github_stars": 1,
-      "open_issues_count": 2,
-      "repository_updated_at": "2026-11-26T12:25:07Z"
-    },
-    {
       "name": "save-garage — NotHGM",
       "description": "Edit your GTA VI story save on PS5: money, ammo, stats, 100% completion and every value in the save, in 13 languages. No jailbreak.",
       "repository_url": "https://github.com/NotHGM/save-garage",
@@ -8011,8 +8025,8 @@
       "discovered_at": "2026-11-26",
       "icon_key": "38fd12a2f2ac56433007454033b671459ccc75981edc1b85d9c10f69a1d8969d",
       "github_stars": 4,
-      "open_issues_count": 2,
-      "repository_updated_at": "2026-11-26T17:12:40Z"
+      "open_issues_count": 1,
+      "repository_updated_at": "2026-11-26T20:33:56Z"
     },
     {
       "name": "zstd-catalog",
@@ -8036,7 +8050,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-26",
       "icon_key": "8dd7ea0c92f398009aa7b2ba929042744d298849ddeee3b290a96d94c53c3347",
-      "github_stars": 10,
+      "github_stars": 11,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-26T12:45:59Z"
     },
@@ -8177,38 +8191,17 @@
       "last_update_months": 0.7
     },
     {
-      "name": "App-Title",
-      "description": "Standalone PS5 ELF payload for game and application title IDs, configurable placement and colours, and a Media settings shortcut.",
-      "repository_url": "https://github.com/porhe911/App-Title",
+      "name": "ps5-payload-constellation",
+      "description": "Ultimate PS5 Payload Atlas 2026: Auto-Synced Exploit Manager",
+      "repository_url": "https://github.com/DeborahO18/ps5-payload-constellation",
       "category": "PS5 Auto-discovered",
-      "author": "porhe911",
+      "author": "DeborahO18",
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-26",
-      "icon_key": "500c1002402c5aa65189e2c41b64dbf7bcd3b1ca6843719deb50f7eebfc7d1c0",
-      "payload_available": true,
-      "payload_filename": "App_Title_v0.2.17.elf",
-      "payload_url": "https://github.com/porhe911/App-Title/releases/download/v0.2.17/App_Title_v0.2.17.elf",
-      "version": "v0.2.17",
-      "last_update": "2026-11-25",
-      "checksum": "b16392c6f53398f053bddf01026bde723aff46fe285e7ca616a819de4dc2f7cf",
-      "github_stars": 18,
-      "open_issues_count": 3,
-      "repository_updated_at": "2026-11-25T19:14:11Z",
-      "last_update_days": 1,
-      "last_update_months": 0.0
-    },
-    {
-      "name": "JB_STORE_REPO",
-      "description": "Open Source PS5 Homebrew App Store Repo ",
-      "repository_url": "https://github.com/Yahballon/JB_STORE_REPO",
-      "category": "PS5 Auto-discovered",
-      "author": "Yahballon",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-26",
-      "icon_key": "3d342c99b8eb96475b9d57896bca50b8339fd5811547b7adb23e12b77ec24d22",
-      "github_stars": 1,
+      "icon_key": "ce54f7da38ef21ca9bf62e20134558f9b92701bb8058fe9c1b8013e41916b9f8",
+      "github_stars": 2,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-25T19:11:04Z"
+      "repository_updated_at": "2026-11-26T15:06:33Z"
     },
     {
       "name": "elfldr — ps-payload-dev",
@@ -8237,19 +8230,6 @@
       "repository_updated_at": "2026-11-26T07:04:29Z"
     },
     {
-      "name": "ps5-native-app-boilerplate",
-      "description": "Base template for building PS5 homebrew apps",
-      "repository_url": "https://github.com/BlackBearRevived/ps5-native-app-boilerplate",
-      "category": "PS5 Auto-discovered",
-      "author": "BlackBearRevived",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-26",
-      "icon_key": "25c2c2ecaaf4ebf1c35b305325badf7663cfc22f30baa66f67920e989c006bff",
-      "github_stars": 1,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-26T05:14:13Z"
-    },
-    {
       "name": "AnyPS5 — simnJS",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "repository_url": "https://github.com/simnJS/AnyPS5",
@@ -8258,9 +8238,43 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-26",
       "icon_key": "ce7eafcc5787c7c4ceefef69021e4acba767ade30adde353463f8ec0bad5ca02",
-      "github_stars": 303,
-      "open_issues_count": 58,
-      "repository_updated_at": "2026-11-26T19:42:49Z"
+      "github_stars": 304,
+      "open_issues_count": 60,
+      "repository_updated_at": "2026-11-26T20:47:58Z"
+    },
+    {
+      "name": "ps5-payloads-mirror — siko15006-bot",
+      "description": "https://siko15006-bot.github.io/ps5-payloads-mirror/payloads_v3.json",
+      "repository_url": "https://github.com/siko15006-bot/ps5-payloads-mirror",
+      "category": "PS5 Auto-discovered",
+      "author": "siko15006-bot",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-26",
+      "icon_key": "3fdbbc66b6401b8b53d72631b43ae96d0335c20f78ea8509ee1af7fecaa17c8c",
+      "payload_available": true,
+      "payload_filename": "zftpd_v1.7.0.elf",
+      "payload_url": "https://github.com/siko15006-bot/ps5-payloads-mirror/releases/download/payloads-mirror/zftpd_v1.7.0.elf",
+      "version": "payloads-mirror",
+      "last_update": "2026-11-07",
+      "checksum": "39d2078f5d04dd9e4c281325b1dcd202159ea6dc604dfdb4c22f9ab38fe203f8",
+      "github_stars": 1,
+      "open_issues_count": 61,
+      "repository_updated_at": "2026-11-26T14:54:30Z",
+      "last_update_days": 19,
+      "last_update_months": 0.6
+    },
+    {
+      "name": "ps5-payloads-mirror — farquer",
+      "description": "Automatically discovered PS5-related GitHub repository.",
+      "repository_url": "https://github.com/farquer/ps5-payloads-mirror",
+      "category": "PS5 Auto-discovered",
+      "author": "farquer",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-26",
+      "icon_key": "ba096ce4f3f819078c1cdd252113103cb4482665f676403c8e0b0c909cd6c707",
+      "github_stars": 4,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-26T12:54:02Z"
     },
     {
       "name": "quark-dl-native",
@@ -8321,7 +8335,7 @@
       "checksum": "b866ce5515fbbe9a36c8bb4176c8eff0ecd20624044cce7933119c0a6c2605c8",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-26T19:16:45Z",
+      "repository_updated_at": "2026-11-26T20:16:13Z",
       "last_update_days": 0,
       "last_update_months": 0.0
     },
@@ -8349,7 +8363,7 @@
       "icon_key": "ddfce6f73ad6946cbaaac0ba1a2476d70eae9e8f12d3227c921d6f76b123b1d2",
       "github_stars": 3,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-26T19:40:02Z"
+      "repository_updated_at": "2026-11-26T20:39:13Z"
     },
     {
       "name": "ampr-emu-ng — DeLFuS77",
@@ -8365,6 +8379,19 @@
       "repository_updated_at": "2026-11-26T08:27:57Z"
     },
     {
+      "name": "ps5-native-app-boilerplate",
+      "description": "Base template for building PS5 homebrew apps",
+      "repository_url": "https://github.com/BlackBearRevived/ps5-native-app-boilerplate",
+      "category": "PS5 Auto-discovered",
+      "author": "BlackBearRevived",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-26",
+      "icon_key": "25c2c2ecaaf4ebf1c35b305325badf7663cfc22f30baa66f67920e989c006bff",
+      "github_stars": 1,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-26T05:14:13Z"
+    },
+    {
       "name": "AnyPS5 — boykopovar",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "repository_url": "https://github.com/boykopovar/AnyPS5",
@@ -8373,9 +8400,22 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-26",
       "icon_key": "212af449392c2dee77170575aa3bedb6ada197bb94802024f7a933532bc32192",
-      "github_stars": 62095,
-      "open_issues_count": 2790,
-      "repository_updated_at": "2026-11-26T19:32:13Z"
+      "github_stars": 62130,
+      "open_issues_count": 2789,
+      "repository_updated_at": "2026-11-26T20:47:58Z"
+    },
+    {
+      "name": "PS5-GTAVI-Emulation",
+      "description": "An experimental PlayStation 5 emulation project focused on exploring the possibility of running Grand Theft Auto VI on Windows-based PCs.",
+      "repository_url": "https://github.com/galejaygranary/PS5-GTAVI-Emulation",
+      "category": "PS5 Auto-discovered",
+      "author": "galejaygranary",
+      "discovery_source": "GitHub repository search",
+      "discovered_at": "2026-11-26",
+      "icon_key": "b157b2fd58cd039220e50f51978e9ba908905cbcea0820c093939753235b02c7",
+      "github_stars": 0,
+      "open_issues_count": 0,
+      "repository_updated_at": "2026-11-26T19:51:29Z"
     },
     {
       "name": "alerta-ps5",
@@ -8388,7 +8428,7 @@
       "icon_key": "7eac27804d449ad1b206de1807733c05ff5ef05a7849f9927d6e0c76f52b2b39",
       "github_stars": 0,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-26T19:00:35Z"
+      "repository_updated_at": "2026-11-26T20:00:38Z"
     },
     {
       "name": ".github — Playstation-5-Emulator-For-GTA-6",
@@ -8456,19 +8496,6 @@
       "repository_updated_at": "2026-11-26T18:31:35Z"
     },
     {
-      "name": "gta-6-ps5-and-pc-free",
-      "description": "GTA 6 PS5 and PC Free — это кроссплатформенный игровой пакет, обеспечивающий запуск игры на консолях PlayStation 5 и компьютерах с поддержкой высоких графических настроек и быстрой загрузки. Игроки получают доступ к открытому миру, сюжетным заданиям и плавному игровому процессу на обеих платформах.",
-      "repository_url": "https://github.com/Emblemyaoscillate/gta-6-ps5-and-pc-free",
-      "category": "PS5 Auto-discovered",
-      "author": "Emblemyaoscillate",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-26",
-      "icon_key": "6a39e8b73c8b147dd77956d4a19f7098f33bc8f5e01c66fe5b978c02a4a7d9dc",
-      "github_stars": 5,
-      "open_issues_count": 1,
-      "repository_updated_at": "2026-11-26T17:58:49Z"
-    },
-    {
       "name": "PS5PRoAgent",
       "description": "Android-App (Kivy/Python) zur Preis- und Verfügbarkeitsüberwachung der PlayStation 5 Pro 2 TB in 42 Shops – mit Radar-UI, Alarmen und Hintergrund-Scan.",
       "repository_url": "https://github.com/xsensenmannx/PS5PRoAgent",
@@ -8480,45 +8507,6 @@
       "github_stars": 0,
       "open_issues_count": 1,
       "repository_updated_at": "2026-11-26T17:06:00Z"
-    },
-    {
-      "name": "GTAVI-PS5-Compatibility",
-      "description": "A compatibility research project investigating PlayStation 5 game execution and potential support for Grand Theft Auto VI on PC platforms.",
-      "repository_url": "https://github.com/settlementwaybreak/GTAVI-PS5-Compatibility",
-      "category": "PS5 Auto-discovered",
-      "author": "settlementwaybreak",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-26",
-      "icon_key": "b603f6f44296b68397e7c9e1deb800300fcad3958602d9466305f5adfdd83945",
-      "github_stars": 2,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-26T16:52:43Z"
-    },
-    {
-      "name": "PS5Ported",
-      "description": "Lets you run the PS5 OS on your computer, natively whether with the application or installing the OS itself.",
-      "repository_url": "https://github.com/OfficialSpaceship/PS5Ported",
-      "category": "PS5 Auto-discovered",
-      "author": "OfficialSpaceship",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-26",
-      "icon_key": "46cfc15d060ff8aeec45d220e797d3e8eac5780138006c60789a22694b499bed",
-      "github_stars": 0,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-26T16:35:11Z"
-    },
-    {
-      "name": "PS5-60FPS-Patch-For-GTAVI",
-      "description": "A patch that unlocks a smooth 60FPS performance mode in GTA VI on PlayStation 5 consoles.",
-      "repository_url": "https://github.com/ColonySoulThrust/PS5-60FPS-Patch-For-GTAVI",
-      "category": "PS5 Auto-discovered",
-      "author": "ColonySoulThrust",
-      "discovery_source": "GitHub repository search",
-      "discovered_at": "2026-11-26",
-      "icon_key": "e35e6b9c501691d3e472bb77e5ee8c04e4b2fbe83c5aa09c5547bfcdf3577fad",
-      "github_stars": 3,
-      "open_issues_count": 0,
-      "repository_updated_at": "2026-11-26T16:29:57Z"
     },
     {
       "name": "ps5-trophy-share",
@@ -9039,7 +9027,7 @@
       "icon_key": "031bd7a4f1863a1bdca08b115c623a7d0bc40b8d989d2ebd745727c1cd5bc964",
       "github_stars": 4,
       "open_issues_count": 0,
-      "repository_updated_at": "2026-11-26T10:31:52Z"
+      "repository_updated_at": "2026-11-26T20:04:11Z"
     },
     {
       "name": "PSGopher",
@@ -9063,7 +9051,7 @@
       "discovery_source": "GitHub repository search",
       "discovered_at": "2026-11-26",
       "icon_key": "ffe025dd1a29b0def7f8aca950e4b66a448a5a9ac6e15f1fc0f6a1c30aa14834",
-      "github_stars": 41,
+      "github_stars": 42,
       "open_issues_count": 2,
       "repository_updated_at": "2026-11-25T18:53:19Z"
     },
