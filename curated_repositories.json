@@ -1011,6 +1011,19 @@
       "payload_filename": "torbox-ps5.elf",
       "payload_url": "https://github.com/roieeedouek/torbox-ps5/releases/download/v1.0.0/torbox-ps5.elf",
       "checksum": "fcdf29358153ed48463b6322b7df9aef7907eb5cbf0459ad62d893475b3d4cab"
+    },
+    {
+      "name": "GTA VI FPS Unlocker",
+      "description": "Runtime ELF patch for jailbroken PS5 and PS5 Pro that unlocks GTA VI's 30 FPS cap, fixes delta-time game speed above 30 FPS and scales internal TAA2U (base PS5) or PSSR (Pro) render resolution in memory without changing game files or graphics presets. Stable v1.14 requires GTA VI v01.002.001 (PPSA01547/PPSA29660/PPSA38500) and must be loaded through PLDMGR/elfldr before starting the game; it creates /data/gtavi-unlockfps/fps.txt on first run (fps 30-120 default 60, res_pct 0 or 25-100 default 50, rt_reflections 1/0, daemon 0/1). Kernel writes use DMAP on firmware 8.40+ and mdbg_copyin on older firmware. Caveats: res_pct=100 is experimental and may cause low FPS or render-target OOM, res_pct=67 crashes PS5 Pro, rt_reflections=0 may cause water glitches, and sustained unlocked FPS raises CPU temperatures by 5-8 C. v1.14 adds Pro PSSR scaling; base PS5 users can remain on v1.13.",
+      "repository_url": "https://github.com/HSgod/ps5-fpsunlocker-gta6",
+      "category": "Game Tools & Mods",
+      "author": "HSgod",
+      "payload_available": true,
+      "version": "v1.14",
+      "last_update": "2026-11-26",
+      "payload_filename": "GTAVI.UnlockFPS_v1.14.elf",
+      "payload_url": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.14/GTAVI.UnlockFPS_v1.14.elf",
+      "checksum": "9d7b726369407cd1ca1030dfc4bd705d01f27ebf0bf564a7d100c1599db14904"
     }
   ]
 }

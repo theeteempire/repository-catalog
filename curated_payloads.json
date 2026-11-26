@@ -532,6 +532,19 @@
       "category": "Utilities & Tools",
       "checksum": "fcdf29358153ed48463b6322b7df9aef7907eb5cbf0459ad62d893475b3d4cab",
       "id": "roieeedouek-torbox-ps5-v1.0.0"
+    },
+    {
+      "name": "GTA VI FPS Unlocker",
+      "filename": "GTAVI.UnlockFPS_v1.14.elf",
+      "url": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.14/GTAVI.UnlockFPS_v1.14.elf",
+      "source": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases",
+      "source_direct": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.14/GTAVI.UnlockFPS_v1.14.elf",
+      "description": "Runtime ELF for jailbroken PS5/PS5 Pro that unlocks GTA VI's 30 FPS cap, fixes above-30 delta-time speed and scales internal TAA2U/PSSR render resolution via /data/gtavi-unlockfps/fps.txt, without modifying game files. Requires game v01.002.001 and must be loaded before launching GTA VI. v1.14 adds PS5 Pro PSSR res_pct scaling; PS5 Fat/Slim users can stay on v1.13. Experimental high res_pct values can cause low FPS or render-target OOM, and unlocked FPS raises CPU temperatures.",
+      "last_update": "2026-11-26",
+      "version": "v1.14",
+      "category": "Game Tools & Mods",
+      "checksum": "9d7b726369407cd1ca1030dfc4bd705d01f27ebf0bf564a7d100c1599db14904",
+      "id": "hsgod-gta6-fps-unlocker-v1.14"
     }
   ]
 }
