@@ -519,6 +519,19 @@
       "category": "System & Jailbreak",
       "checksum": "6c3758c2cc84e3aa7e3c41952371fd04e641647d46d03f8d4bea2ab77c16ecf5",
       "id": "drakmor-kstuff-1.15-dr-test3-stable"
+    },
+    {
+      "name": "TorBox for PS5",
+      "filename": "torbox-ps5.elf",
+      "url": "https://github.com/roieeedouek/torbox-ps5/releases/download/v1.0.0/torbox-ps5.elf",
+      "source": "https://github.com/roieeedouek/torbox-ps5/releases",
+      "source_direct": "https://github.com/roieeedouek/torbox-ps5/releases/download/v1.0.0/torbox-ps5.elf",
+      "description": "Background server payload for TorBox and Real-Debrid on a jailbroken PS5: web UI on port 8080 for browsing both services and downloading to /data or USB with 1-16 connections, a queue and resume from partial files. Requires an ELF loader on port 9021; tested on firmware 13.60. API keys are stored unencrypted on the console, the web page has no password, and downloads stop in rest mode or on reboot.",
+      "last_update": "2026-11-26",
+      "version": "v1.0.0",
+      "category": "Utilities & Tools",
+      "checksum": "fcdf29358153ed48463b6322b7df9aef7907eb5cbf0459ad62d893475b3d4cab",
+      "id": "roieeedouek-torbox-ps5-v1.0.0"
     }
   ]
 }

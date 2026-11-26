@@ -998,6 +998,19 @@
       "payload_filename": "game-vault-v045.nro",
       "payload_url": "https://github.com/flex36ty/switch2-gamevault/releases/download/v0.4.5/game-vault-v045.nro",
       "checksum": "d52106c5881a298ad72c2a8e5b62d7a0259204d19d3a8ddcaceedb58c66f2f43"
+    },
+    {
+      "name": "TorBox for PS5",
+      "description": "TorBox and Real-Debrid browser/downloader for jailbroken PS5. A background ELF server (port 9021) exposes a web UI on port 8080 reachable from a phone, PC or the PS5 browser via the PPSA97630 home-screen tile. It lists torrents/web/usenet items and Real-Debrid torrents/history, unrestricts hoster links, and downloads single files, all files or a ZIP to /data or USB with 1-16 Range connections, a queue and resume from .part files. Stable v1.0.0 was tested on firmware 13.60. Requires an ELF loader on port 9021; the home-screen tile also needs FTP access and ShadowMountPlus registration. API keys are stored unencrypted on the console, the web page has no password, and downloads stop in rest mode or on reboot. The release also ships ZIP packages; only torbox-ps5.elf is a direct ELF asset.",
+      "repository_url": "https://github.com/roieeedouek/torbox-ps5",
+      "category": "Utilities & Tools",
+      "author": "roieeedouek",
+      "payload_available": true,
+      "version": "v1.0.0",
+      "last_update": "2026-11-26",
+      "payload_filename": "torbox-ps5.elf",
+      "payload_url": "https://github.com/roieeedouek/torbox-ps5/releases/download/v1.0.0/torbox-ps5.elf",
+      "checksum": "fcdf29358153ed48463b6322b7df9aef7907eb5cbf0459ad62d893475b3d4cab"
     }
   ]
 }
