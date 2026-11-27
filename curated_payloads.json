@@ -545,6 +545,19 @@
       "category": "Game Tools & Mods",
       "checksum": "09258095452838e6e38e2e5301dc534eb215f48e1288e1a980b555d1e82eb48b",
       "id": "hsgod-gta6-fps-unlocker-v1.15"
+    },
+    {
+      "name": "kstuff-dr (1.15-dr-test4)",
+      "filename": "kstuff-1.15-dr-test4.elf",
+      "url": "https://raw.githubusercontent.com/theeteempire/repository-catalog/main/payloads/kstuff-1.15-dr-test4.elf",
+      "source": "https://github.com/drakmor/kstuff-lite",
+      "source_direct": "https://raw.githubusercontent.com/theeteempire/repository-catalog/main/payloads/kstuff-1.15-dr-test4.elf",
+      "description": "dr. test build 1.15-dr-test4 of kstuff-lite, the PS5 kernel patch payload used as an FPKG enabler. The ELF self-identifies as 'Welcome To Kstuff Lite 1.15-dr-test4' and is attributed to the drakmor/kstuff-lite (EchoStretch) lineage; no tagged upstream release, release notes or public direct download was found for this 1.15 test build. It is self-hosted in this catalog with a SHA256 checksum for verification and supersedes 1.15-dr-test3-stable; no firmware-support claim is made because upstream documents none for this build. Verify before use and load it with an ELF loader.",
+      "last_update": "2026-11-27",
+      "version": "1.15-dr-test4",
+      "category": "System & Jailbreak",
+      "checksum": "2acac07e93192856f15cf9dcac645c821ea20c9d2a75438ebcfd988f739828be",
+      "id": "drakmor-kstuff-1.15-dr-test4"
     }
   ]
 }
