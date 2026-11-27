@@ -1014,16 +1014,16 @@
     },
     {
       "name": "GTA VI FPS Unlocker",
-      "description": "Runtime ELF patch for jailbroken PS5 and PS5 Pro that unlocks GTA VI's 30 FPS cap, fixes delta-time game speed above 30 FPS and scales internal TAA2U (base PS5) or PSSR (Pro) render resolution in memory without changing game files or graphics presets. Stable v1.14 requires GTA VI v01.002.001 (PPSA01547/PPSA29660/PPSA38500) and must be loaded through PLDMGR/elfldr before starting the game; it creates /data/gtavi-unlockfps/fps.txt on first run (fps 30-120 default 60, res_pct 0 or 25-100 default 50, rt_reflections 1/0, daemon 0/1). Kernel writes use DMAP on firmware 8.40+ and mdbg_copyin on older firmware. Caveats: res_pct=100 is experimental and may cause low FPS or render-target OOM, res_pct=67 crashes PS5 Pro, rt_reflections=0 may cause water glitches, and sustained unlocked FPS raises CPU temperatures by 5-8 C. v1.14 adds Pro PSSR scaling; base PS5 users can remain on v1.13.",
+      "description": "Runtime ELF patch for jailbroken PS5 and PS5 Pro that unlocks GTA VI's 30 FPS cap, fixes delta-time game speed above 30 FPS and scales internal TAA2U (base PS5) or PSSR (Pro) render resolution in memory without changing game files or graphics presets. Stable v1.15 requires GTA VI v01.002.001 (PPSA01547/PPSA29660/PPSA38500) and must be loaded through PLDMGR/elfldr before starting the game; it creates /data/gtavi-unlockfps/fps.txt on first run (fps 30-120 default 60, res_pct 0 or 25-100 default 50, refresh_hz 60/120 default 60, experimental output_res 0/1440/1080 default 0, experimental pro_rt_half 0/1 default 0 on Pro, daemon 0/1) and supports auto-updates via the upstream repo.json source in PS5 Payload Manager. Kernel writes use DMAP on firmware 8.40+ and mdbg_copyin on older firmware. v1.15 adds opt-in 120 Hz flip-rate support (hardware-locked 40 FPS with fps=40, requiring forced 120 Hz output via ps-patch-system or FPS is halved), experimental output resolution and Pro half-res RT reflections; rt_reflections=0 was removed because it caused water glitches. Caveats: res_pct must stay <=67 on base PS5 and <=60 on Pro with stock RT to avoid boot OOM crashes, output_res and pro_rt_half are experimental, and sustained unlocked FPS raises CPU temperatures by 5-8 C.",
       "repository_url": "https://github.com/HSgod/ps5-fpsunlocker-gta6",
       "category": "Game Tools & Mods",
       "author": "HSgod",
       "payload_available": true,
-      "version": "v1.14",
-      "last_update": "2026-11-26",
-      "payload_filename": "GTAVI.UnlockFPS_v1.14.elf",
-      "payload_url": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.14/GTAVI.UnlockFPS_v1.14.elf",
-      "checksum": "9d7b726369407cd1ca1030dfc4bd705d01f27ebf0bf564a7d100c1599db14904"
+      "version": "v1.15",
+      "last_update": "2026-11-27",
+      "payload_filename": "GTAVI.UnlockFPS_v1.15.elf",
+      "payload_url": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.15/GTAVI.UnlockFPS_v1.15.elf",
+      "checksum": "09258095452838e6e38e2e5301dc534eb215f48e1288e1a980b555d1e82eb48b"
     }
   ]
 }

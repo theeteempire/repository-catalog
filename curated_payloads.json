@@ -535,16 +535,16 @@
     },
     {
       "name": "GTA VI FPS Unlocker",
-      "filename": "GTAVI.UnlockFPS_v1.14.elf",
-      "url": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.14/GTAVI.UnlockFPS_v1.14.elf",
+      "filename": "GTAVI.UnlockFPS_v1.15.elf",
+      "url": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.15/GTAVI.UnlockFPS_v1.15.elf",
       "source": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases",
-      "source_direct": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.14/GTAVI.UnlockFPS_v1.14.elf",
-      "description": "Runtime ELF for jailbroken PS5/PS5 Pro that unlocks GTA VI's 30 FPS cap, fixes above-30 delta-time speed and scales internal TAA2U/PSSR render resolution via /data/gtavi-unlockfps/fps.txt, without modifying game files. Requires game v01.002.001 and must be loaded before launching GTA VI. v1.14 adds PS5 Pro PSSR res_pct scaling; PS5 Fat/Slim users can stay on v1.13. Experimental high res_pct values can cause low FPS or render-target OOM, and unlocked FPS raises CPU temperatures.",
-      "last_update": "2026-11-26",
-      "version": "v1.14",
+      "source_direct": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.15/GTAVI.UnlockFPS_v1.15.elf",
+      "description": "Runtime ELF for jailbroken PS5/PS5 Pro that unlocks GTA VI's 30 FPS cap, fixes above-30 delta-time speed and scales internal TAA2U/PSSR render resolution via /data/gtavi-unlockfps/fps.txt, without modifying game files. Requires game v01.002.001 and must be loaded before launching GTA VI. v1.15 adds opt-in 120 Hz flip-rate (locked 40 FPS with fps=40, only with forced 120 Hz output via ps-patch-system or FPS is halved), experimental output_res 1440/1080 and experimental pro_rt_half=1 on Pro; rt_reflections=0 was removed. Keep res_pct <=67 on base PS5 and <=60 on Pro with stock RT to avoid boot OOM; unlocked FPS raises CPU temperatures.",
+      "last_update": "2026-11-27",
+      "version": "v1.15",
       "category": "Game Tools & Mods",
-      "checksum": "9d7b726369407cd1ca1030dfc4bd705d01f27ebf0bf564a7d100c1599db14904",
-      "id": "hsgod-gta6-fps-unlocker-v1.14"
+      "checksum": "09258095452838e6e38e2e5301dc534eb215f48e1288e1a980b555d1e82eb48b",
+      "id": "hsgod-gta6-fps-unlocker-v1.15"
     }
   ]
 }
